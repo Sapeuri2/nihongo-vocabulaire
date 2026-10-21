@@ -6,50 +6,25 @@
     {
       "id": "v5-01",
       "title": "Les gens",
-      "sections": [
-        {
-          "h": "Les mots",
-          "p": ["Les mots pour parler des gens. Pas d'article ni de pluriel : {友|とも}だち = un ami, l'ami, des amis."],
-          "vocab": [
-            {"jp": "{人|ひと}", "kana": "ひと", "fr": "personne, gens"},
-            {"jp": "{私|わたし}", "kana": "わたし", "fr": "je, moi"},
-            {"jp": "あなた", "kana": "あなた", "fr": "tu, vous (à éviter)"},
-            {"jp": "{男|おとこ}の{人|ひと}", "kana": "おとこのひと", "fr": "homme"},
-            {"jp": "{女|おんな}の{人|ひと}", "kana": "おんなのひと", "fr": "femme"},
-            {"jp": "{子|こ}ども", "kana": "こども", "fr": "enfant"},
-            {"jp": "{大人|おとな}", "kana": "おとな", "fr": "adulte"},
-            {"jp": "{友|とも}だち", "kana": "ともだち", "fr": "ami(e)"},
-            {"jp": "{先生|せんせい}", "kana": "せんせい", "fr": "professeur (aussi : médecin)"},
-            {"jp": "{学生|がくせい}", "kana": "がくせい", "fr": "étudiant(e)"},
-            {"jp": "{会社員|かいしゃいん}", "kana": "かいしゃいん", "fr": "employé(e) de bureau"},
-            {"jp": "{名前|なまえ}", "kana": "なまえ", "fr": "nom, prénom"},
-            {"jp": "だれ", "kana": "だれ", "fr": "qui ?"},
-            {"jp": "みんな", "kana": "みんな", "fr": "tout le monde"},
-            {"jp": "{外国人|がいこくじん}", "kana": "がいこくじん", "fr": "étranger, étrangère (personne)"}
-          ]
-        },
-        {
-          "h": "En phrases",
-          "ex": [
-            {"jp": "あの{人|ひと}はだれですか。", "fr": "Qui est cette personne ?"},
-            {"jp": "{私|わたし}の{名前|なまえ}はマリーです。", "fr": "Je m'appelle Marie."},
-            {"jp": "これはあなたのかさですか。", "fr": "C'est ton parapluie ?"},
-            {"jp": "{男|おとこ}の{人|ひと}が{三人|さんにん}います。", "fr": "Il y a trois hommes."},
-            {"jp": "あの{女|おんな}の{人|ひと}は{山田|やまだ}さんです。", "fr": "Cette femme, c'est Mme Yamada."},
-            {"jp": "{公園|こうえん}に{子|こ}どもがたくさんいます。", "fr": "Il y a beaucoup d'enfants au parc."},
-            {"jp": "{大人|おとな}は{五百円|ごひゃくえん}、{子|こ}どもは{三百円|さんびゃくえん}です。", "fr": "C'est 500 yens pour les adultes, 300 yens pour les enfants."},
-            {"jp": "{日曜日|にちようび}に{友|とも}だちと{映画|えいが}を{見|み}ます。", "fr": "Dimanche, je vais voir un film avec un ami."},
-            {"jp": "{先生|せんせい}、{質問|しつもん}があります。", "fr": "Monsieur (le professeur), j'ai une question."},
-            {"jp": "{山田|やまだ}さんは{大学|だいがく}の{学生|がくせい}です。", "fr": "Mme Yamada est étudiante à l'université."},
-            {"jp": "{兄|あに}は{会社員|かいしゃいん}です。", "fr": "Mon grand frère est employé de bureau."},
-            {"jp": "すみません、お{名前|なまえ}は{何|なん}ですか。", "fr": "Excusez-moi, comment vous appelez-vous ?"},
-            {"jp": "これはだれのかばんですか。", "fr": "À qui est ce sac ?"},
-            {"jp": "みんなで{写真|しゃしん}をとりましょう。", "fr": "Prenons une photo tous ensemble."},
-            {"jp": "この{町|まち}は{外国人|がいこくじん}が{多|おお}いです。", "fr": "Il y a beaucoup d'étrangers dans cette ville."}
-          ]
-        }
+      "words": [
+        {"jp": "{人|ひと}", "kana": "ひと", "fr": "personne, gens", "ex": "あの{人|ひと}はだれですか。", "exFr": "Qui est cette personne ?"},
+        {"jp": "{私|わたし}", "kana": "わたし", "fr": "je, moi", "ex": "{私|わたし}の{名前|なまえ}はマリーです。", "exFr": "Je m'appelle Marie."},
+        {"jp": "あなた", "kana": "あなた", "fr": "tu, vous (à éviter)", "ex": "これはあなたのかさですか。", "exFr": "C'est ton parapluie ?"},
+        {"jp": "{男|おとこ}の{人|ひと}", "kana": "おとこのひと", "fr": "homme", "ex": "{男|おとこ}の{人|ひと}が{三人|さんにん}います。", "exFr": "Il y a trois hommes."},
+        {"jp": "{女|おんな}の{人|ひと}", "kana": "おんなのひと", "fr": "femme", "ex": "あの{女|おんな}の{人|ひと}は{山田|やまだ}さんです。", "exFr": "Cette femme, c'est Mme Yamada."},
+        {"jp": "{子|こ}ども", "kana": "こども", "fr": "enfant", "ex": "{公園|こうえん}に{子|こ}どもがたくさんいます。", "exFr": "Il y a beaucoup d'enfants au parc."},
+        {"jp": "{大人|おとな}", "kana": "おとな", "fr": "adulte", "ex": "{大人|おとな}は{五百円|ごひゃくえん}、{子|こ}どもは{三百円|さんびゃくえん}です。", "exFr": "C'est 500 yens pour les adultes, 300 yens pour les enfants."},
+        {"jp": "{友|とも}だち", "kana": "ともだち", "fr": "ami(e)", "ex": "{日曜日|にちようび}に{友|とも}だちと{映画|えいが}を{見|み}ます。", "exFr": "Dimanche, je vais voir un film avec un ami."},
+        {"jp": "{先生|せんせい}", "kana": "せんせい", "fr": "professeur (aussi : médecin)", "ex": "{先生|せんせい}、{質問|しつもん}があります。", "exFr": "Monsieur (le professeur), j'ai une question."},
+        {"jp": "{学生|がくせい}", "kana": "がくせい", "fr": "étudiant(e)", "ex": "{山田|やまだ}さんは{大学|だいがく}の{学生|がくせい}です。", "exFr": "Mme Yamada est étudiante à l'université."},
+        {"jp": "{会社員|かいしゃいん}", "kana": "かいしゃいん", "fr": "employé(e) de bureau", "ex": "{兄|あに}は{会社員|かいしゃいん}です。", "exFr": "Mon grand frère est employé de bureau."},
+        {"jp": "{名前|なまえ}", "kana": "なまえ", "fr": "nom, prénom", "ex": "すみません、お{名前|なまえ}は{何|なん}ですか。", "exFr": "Excusez-moi, comment vous appelez-vous ?"},
+        {"jp": "だれ", "kana": "だれ", "fr": "qui ?", "ex": "これはだれのかばんですか。", "exFr": "À qui est ce sac ?"},
+        {"jp": "みんな", "kana": "みんな", "fr": "tout le monde", "ex": "みんなで{写真|しゃしん}をとりましょう。", "exFr": "Prenons une photo tous ensemble."},
+        {"jp": "{外国人|がいこくじん}", "kana": "がいこくじん", "fr": "étranger, étrangère (personne)", "ex": "この{町|まち}は{外国人|がいこくじん}が{多|おお}いです。", "exFr": "Il y a beaucoup d'étrangers dans cette ville."}
       ],
       "pieges": [
+        "Pas d'article ni de pluriel : {友|とも}だち = un ami, l'ami, des amis.",
         "{人|ひと} change de lecture : seul → **ひと** ; nationalité → **じん** ({日本人|にほんじん}, {外国人|がいこくじん}) ; pour compter → **にん** ({三人|さんにん}), sauf {一人|ひとり} et {二人|ふたり}.",
         "{大人|おとな} se lit **おとな** : lecture irrégulière à apprendre telle quelle.",
         "On évite あなた : on appelle les gens par leur nom + さん. あなた peut sonner froid (et entre époux, il veut dire « chéri »).",
@@ -179,50 +154,25 @@
     {
       "id": "v5-02",
       "title": "Verbes de tous les jours",
-      "sections": [
-        {
-          "h": "Les mots",
-          "p": ["Les verbes sont donnés à la forme du dictionnaire ; les exemples sont à la forme polie en ます."],
-          "vocab": [
-            {"jp": "{行|い}く", "kana": "いく", "fr": "aller"},
-            {"jp": "{来|く}る", "kana": "くる", "fr": "venir"},
-            {"jp": "{帰|かえ}る", "kana": "かえる", "fr": "rentrer (chez soi)"},
-            {"jp": "{食|た}べる", "kana": "たべる", "fr": "manger"},
-            {"jp": "{飲|の}む", "kana": "のむ", "fr": "boire ; prendre (un médicament)"},
-            {"jp": "{見|み}る", "kana": "みる", "fr": "regarder, voir"},
-            {"jp": "{聞|き}く", "kana": "きく", "fr": "écouter ; demander"},
-            {"jp": "{読|よ}む", "kana": "よむ", "fr": "lire"},
-            {"jp": "{書|か}く", "kana": "かく", "fr": "écrire"},
-            {"jp": "{話|はな}す", "kana": "はなす", "fr": "parler"},
-            {"jp": "{買|か}う", "kana": "かう", "fr": "acheter"},
-            {"jp": "する", "kana": "する", "fr": "faire"},
-            {"jp": "{起|お}きる", "kana": "おきる", "fr": "se réveiller, se lever"},
-            {"jp": "ねる", "kana": "ねる", "fr": "se coucher, dormir"},
-            {"jp": "{会|あ}う", "kana": "あう", "fr": "rencontrer, voir (quelqu'un)"}
-          ]
-        },
-        {
-          "h": "En phrases",
-          "ex": [
-            {"jp": "{明日|あした}、{東京|とうきょう}へ{行|い}きます。", "fr": "Demain, je vais à Tokyo."},
-            {"jp": "{田中|たなか}さんは{明日|あした}{来|き}ますか。", "fr": "Est-ce que M. Tanaka vient demain ?"},
-            {"jp": "{六時|ろくじ}に{家|いえ}に{帰|かえ}ります。", "fr": "Je rentre à la maison à six heures."},
-            {"jp": "{朝|あさ}はパンを{食|た}べます。", "fr": "Le matin, je mange du pain."},
-            {"jp": "{毎朝|まいあさ}コーヒーを{飲|の}みます。", "fr": "Je bois du café tous les matins."},
-            {"jp": "{夜|よる}はテレビを{見|み}ます。", "fr": "Le soir, je regarde la télé."},
-            {"jp": "{電車|でんしゃ}の{中|なか}で{音楽|おんがく}を{聞|き}きます。", "fr": "J'écoute de la musique dans le train."},
-            {"jp": "{図書館|としょかん}で{新聞|しんぶん}を{読|よ}みます。", "fr": "Je lis le journal à la bibliothèque."},
-            {"jp": "{友|とも}だちに{手紙|てがみ}を{書|か}きます。", "fr": "J'écris une lettre à un ami."},
-            {"jp": "{母|はは}と{電話|でんわ}で{話|はな}します。", "fr": "Je parle avec ma mère au téléphone."},
-            {"jp": "コンビニで{水|みず}を{買|か}います。", "fr": "J'achète de l'eau à la supérette."},
-            {"jp": "{日曜日|にちようび}にテニスをします。", "fr": "Je joue au tennis le dimanche."},
-            {"jp": "{毎朝|まいあさ}{六時|ろくじ}に{起|お}きます。", "fr": "Je me lève à six heures tous les matins."},
-            {"jp": "{十一時|じゅういちじ}にねます。", "fr": "Je me couche à onze heures."},
-            {"jp": "{駅|えき}で{友|とも}だちに{会|あ}います。", "fr": "Je retrouve un ami à la gare."}
-          ]
-        }
+      "words": [
+        {"jp": "{行|い}く", "kana": "いく", "fr": "aller", "ex": "{明日|あした}、{東京|とうきょう}へ{行|い}きます。", "exFr": "Demain, je vais à Tokyo."},
+        {"jp": "{来|く}る", "kana": "くる", "fr": "venir", "ex": "{田中|たなか}さんは{明日|あした}{来|き}ますか。", "exFr": "Est-ce que M. Tanaka vient demain ?"},
+        {"jp": "{帰|かえ}る", "kana": "かえる", "fr": "rentrer (chez soi)", "ex": "{六時|ろくじ}に{家|いえ}に{帰|かえ}ります。", "exFr": "Je rentre à la maison à six heures."},
+        {"jp": "{食|た}べる", "kana": "たべる", "fr": "manger", "ex": "{朝|あさ}はパンを{食|た}べます。", "exFr": "Le matin, je mange du pain."},
+        {"jp": "{飲|の}む", "kana": "のむ", "fr": "boire ; prendre (un médicament)", "ex": "{毎朝|まいあさ}コーヒーを{飲|の}みます。", "exFr": "Je bois du café tous les matins."},
+        {"jp": "{見|み}る", "kana": "みる", "fr": "regarder, voir", "ex": "{夜|よる}はテレビを{見|み}ます。", "exFr": "Le soir, je regarde la télé."},
+        {"jp": "{聞|き}く", "kana": "きく", "fr": "écouter ; demander", "ex": "{電車|でんしゃ}の{中|なか}で{音楽|おんがく}を{聞|き}きます。", "exFr": "J'écoute de la musique dans le train."},
+        {"jp": "{読|よ}む", "kana": "よむ", "fr": "lire", "ex": "{図書館|としょかん}で{新聞|しんぶん}を{読|よ}みます。", "exFr": "Je lis le journal à la bibliothèque."},
+        {"jp": "{書|か}く", "kana": "かく", "fr": "écrire", "ex": "{友|とも}だちに{手紙|てがみ}を{書|か}きます。", "exFr": "J'écris une lettre à un ami."},
+        {"jp": "{話|はな}す", "kana": "はなす", "fr": "parler", "ex": "{母|はは}と{電話|でんわ}で{話|はな}します。", "exFr": "Je parle avec ma mère au téléphone."},
+        {"jp": "{買|か}う", "kana": "かう", "fr": "acheter", "ex": "コンビニで{水|みず}を{買|か}います。", "exFr": "J'achète de l'eau à la supérette."},
+        {"jp": "する", "kana": "する", "fr": "faire", "ex": "{日曜日|にちようび}にテニスをします。", "exFr": "Je joue au tennis le dimanche."},
+        {"jp": "{起|お}きる", "kana": "おきる", "fr": "se réveiller, se lever", "ex": "{毎朝|まいあさ}{六時|ろくじ}に{起|お}きます。", "exFr": "Je me lève à six heures tous les matins."},
+        {"jp": "ねる", "kana": "ねる", "fr": "se coucher, dormir", "ex": "{十一時|じゅういちじ}にねます。", "exFr": "Je me couche à onze heures."},
+        {"jp": "{会|あ}う", "kana": "あう", "fr": "rencontrer, voir (quelqu'un)", "ex": "{駅|えき}で{友|とも}だちに{会|あ}います。", "exFr": "Je retrouve un ami à la gare."}
       ],
       "pieges": [
+        "Les verbes sont donnés à la forme du dictionnaire ; dans les phrases, ils sont à la forme polie : {行|い}く → {行|い}きます.",
         "« Voir un ami » = {友|とも}だち**に**{会|あ}う (avec に, ou と), pas {見|み}る ni を. {見|み}る = regarder (un film, la télé…).",
         "{聞|き}く = écouter **et** demander : {先生|せんせい}に{聞|き}きます = je demande au professeur.",
         "{帰|かえ}る = rentrer **chez soi** (ou dans son pays). Pour aller chez un ami : {行|い}く.",
@@ -376,48 +326,22 @@
     {
       "id": "v5-03",
       "title": "Quand ? Jours et moments",
-      "sections": [
-        {
-          "h": "Les mots",
-          "p": ["Les mots pour dire quand. Beaucoup ont une lecture irrégulière : apprends-les comme des mots entiers."],
-          "vocab": [
-            {"jp": "{今日|きょう}", "kana": "きょう", "fr": "aujourd'hui"},
-            {"jp": "{明日|あした}", "kana": "あした", "fr": "demain"},
-            {"jp": "{昨日|きのう}", "kana": "きのう", "fr": "hier"},
-            {"jp": "{今|いま}", "kana": "いま", "fr": "maintenant"},
-            {"jp": "{毎日|まいにち}", "kana": "まいにち", "fr": "tous les jours"},
-            {"jp": "{朝|あさ}", "kana": "あさ", "fr": "matin"},
-            {"jp": "{昼|ひる}", "kana": "ひる", "fr": "midi, la journée"},
-            {"jp": "{夜|よる}", "kana": "よる", "fr": "soir, nuit"},
-            {"jp": "{今週|こんしゅう}", "kana": "こんしゅう", "fr": "cette semaine"},
-            {"jp": "{来週|らいしゅう}", "kana": "らいしゅう", "fr": "la semaine prochaine"},
-            {"jp": "{先週|せんしゅう}", "kana": "せんしゅう", "fr": "la semaine dernière"},
-            {"jp": "{今年|ことし}", "kana": "ことし", "fr": "cette année"},
-            {"jp": "{来年|らいねん}", "kana": "らいねん", "fr": "l'année prochaine"},
-            {"jp": "{去年|きょねん}", "kana": "きょねん", "fr": "l'année dernière"},
-            {"jp": "{時間|じかん}", "kana": "じかん", "fr": "temps, durée ; heure(s)"}
-          ]
-        },
-        {
-          "h": "En phrases",
-          "ex": [
-            {"jp": "{今日|きょう}は{日曜日|にちようび}ですから、{学校|がっこう}は{休|やす}みです。", "fr": "Aujourd'hui c'est dimanche, donc il n'y a pas d'école."},
-            {"jp": "{明日|あした}、{友|とも}だちに{会|あ}います。", "fr": "Demain, je vois un ami."},
-            {"jp": "{昨日|きのう}、{映画|えいが}を{見|み}ました。", "fr": "Hier, j'ai vu un film."},
-            {"jp": "{今|いま}、{何時|なんじ}ですか。", "fr": "Quelle heure est-il (maintenant) ?"},
-            {"jp": "{毎日|まいにち}{日本語|にほんご}を{勉強|べんきょう}します。", "fr": "J'étudie le japonais tous les jours."},
-            {"jp": "{朝|あさ}はいつもいそがしいです。", "fr": "Le matin, je suis toujours pressé."},
-            {"jp": "{昼|ひる}は{会社|かいしゃ}の{近|ちか}くで{食|た}べます。", "fr": "À midi, je mange près du bureau."},
-            {"jp": "{夜|よる}はテレビを{見|み}ます。", "fr": "Le soir, je regarde la télé."},
-            {"jp": "{今週|こんしゅう}はいそがしいです。", "fr": "Cette semaine, je suis occupé."},
-            {"jp": "{来週|らいしゅう}、{京都|きょうと}へ{行|い}きます。", "fr": "La semaine prochaine, je vais à Kyoto."},
-            {"jp": "{先週|せんしゅう}、{国|くに}へ{帰|かえ}りました。", "fr": "La semaine dernière, je suis rentré dans mon pays."},
-            {"jp": "{今年|ことし}は{日本|にほん}へ{行|い}きたいです。", "fr": "Cette année, je veux aller au Japon."},
-            {"jp": "{来年|らいねん}、{大学|だいがく}に{入|はい}ります。", "fr": "L'année prochaine, j'entre à l'université."},
-            {"jp": "{去年|きょねん}、{日本語|にほんご}の{勉強|べんきょう}を{始|はじ}めました。", "fr": "J'ai commencé le japonais l'année dernière."},
-            {"jp": "すみません、{今|いま}{時間|じかん}がありません。", "fr": "Désolé, je n'ai pas le temps maintenant."}
-          ]
-        }
+      "words": [
+        {"jp": "{今日|きょう}", "kana": "きょう", "fr": "aujourd'hui", "ex": "{今日|きょう}は{日曜日|にちようび}ですから、{学校|がっこう}は{休|やす}みです。", "exFr": "Aujourd'hui c'est dimanche, donc il n'y a pas d'école."},
+        {"jp": "{明日|あした}", "kana": "あした", "fr": "demain", "ex": "{明日|あした}、{友|とも}だちに{会|あ}います。", "exFr": "Demain, je vois un ami."},
+        {"jp": "{昨日|きのう}", "kana": "きのう", "fr": "hier", "ex": "{昨日|きのう}、{映画|えいが}を{見|み}ました。", "exFr": "Hier, j'ai vu un film."},
+        {"jp": "{今|いま}", "kana": "いま", "fr": "maintenant", "ex": "{今|いま}、{何時|なんじ}ですか。", "exFr": "Quelle heure est-il (maintenant) ?"},
+        {"jp": "{毎日|まいにち}", "kana": "まいにち", "fr": "tous les jours", "ex": "{毎日|まいにち}{日本語|にほんご}を{勉強|べんきょう}します。", "exFr": "J'étudie le japonais tous les jours."},
+        {"jp": "{朝|あさ}", "kana": "あさ", "fr": "matin", "ex": "{朝|あさ}はいつもいそがしいです。", "exFr": "Le matin, je suis toujours pressé."},
+        {"jp": "{昼|ひる}", "kana": "ひる", "fr": "midi, la journée", "ex": "{昼|ひる}は{会社|かいしゃ}の{近|ちか}くで{食|た}べます。", "exFr": "À midi, je mange près du bureau."},
+        {"jp": "{夜|よる}", "kana": "よる", "fr": "soir, nuit", "ex": "{夜|よる}はテレビを{見|み}ます。", "exFr": "Le soir, je regarde la télé."},
+        {"jp": "{今週|こんしゅう}", "kana": "こんしゅう", "fr": "cette semaine", "ex": "{今週|こんしゅう}はいそがしいです。", "exFr": "Cette semaine, je suis occupé."},
+        {"jp": "{来週|らいしゅう}", "kana": "らいしゅう", "fr": "la semaine prochaine", "ex": "{来週|らいしゅう}、{京都|きょうと}へ{行|い}きます。", "exFr": "La semaine prochaine, je vais à Kyoto."},
+        {"jp": "{先週|せんしゅう}", "kana": "せんしゅう", "fr": "la semaine dernière", "ex": "{先週|せんしゅう}、{国|くに}へ{帰|かえ}りました。", "exFr": "La semaine dernière, je suis rentré dans mon pays."},
+        {"jp": "{今年|ことし}", "kana": "ことし", "fr": "cette année", "ex": "{今年|ことし}は{日本|にほん}へ{行|い}きたいです。", "exFr": "Cette année, je veux aller au Japon."},
+        {"jp": "{来年|らいねん}", "kana": "らいねん", "fr": "l'année prochaine", "ex": "{来年|らいねん}、{大学|だいがく}に{入|はい}ります。", "exFr": "L'année prochaine, j'entre à l'université."},
+        {"jp": "{去年|きょねん}", "kana": "きょねん", "fr": "l'année dernière", "ex": "{去年|きょねん}、{日本語|にほんご}の{勉強|べんきょう}を{始|はじ}めました。", "exFr": "J'ai commencé le japonais l'année dernière."},
+        {"jp": "{時間|じかん}", "kana": "じかん", "fr": "temps, durée ; heure(s)", "ex": "すみません、{今|いま}{時間|じかん}がありません。", "exFr": "Désolé, je n'ai pas le temps maintenant."}
       ],
       "pieges": [
         "Lectures irrégulières : {今日|きょう}, {明日|あした}, {昨日|きのう}, {今年|ことし}. Ne les déchiffre pas kanji par kanji.",
@@ -561,48 +485,22 @@
     {
       "id": "v5-04",
       "title": "Les lieux",
-      "sections": [
-        {
-          "h": "Les mots",
-          "p": ["Les endroits de la vie de tous les jours. Avec ces mots et les verbes de la leçon 2, tu peux déjà dire où tu vas et ce que tu y fais."],
-          "vocab": [
-            {"jp": "{家|いえ}", "kana": "いえ", "fr": "maison, chez soi"},
-            {"jp": "{学校|がっこう}", "kana": "がっこう", "fr": "école"},
-            {"jp": "{会社|かいしゃ}", "kana": "かいしゃ", "fr": "entreprise, bureau"},
-            {"jp": "{駅|えき}", "kana": "えき", "fr": "gare, station"},
-            {"jp": "{店|みせ}", "kana": "みせ", "fr": "magasin, boutique"},
-            {"jp": "{病院|びょういん}", "kana": "びょういん", "fr": "hôpital, clinique"},
-            {"jp": "{銀行|ぎんこう}", "kana": "ぎんこう", "fr": "banque"},
-            {"jp": "{図書館|としょかん}", "kana": "としょかん", "fr": "bibliothèque"},
-            {"jp": "{公園|こうえん}", "kana": "こうえん", "fr": "parc, jardin public"},
-            {"jp": "{部屋|へや}", "kana": "へや", "fr": "pièce, chambre"},
-            {"jp": "トイレ", "kana": "トイレ", "fr": "toilettes"},
-            {"jp": "{道|みち}", "kana": "みち", "fr": "rue, chemin, route"},
-            {"jp": "{町|まち}", "kana": "まち", "fr": "ville, quartier"},
-            {"jp": "{国|くに}", "kana": "くに", "fr": "pays"},
-            {"jp": "レストラン", "kana": "レストラン", "fr": "restaurant"}
-          ]
-        },
-        {
-          "h": "En phrases",
-          "ex": [
-            {"jp": "{家|いえ}から{駅|えき}まで{十分|じゅっぷん}です。", "fr": "De chez moi à la gare, il y a dix minutes."},
-            {"jp": "{子|こ}どもは{八時|はちじ}に{学校|がっこう}へ{行|い}きます。", "fr": "Les enfants vont à l'école à huit heures."},
-            {"jp": "{兄|あに}の{会社|かいしゃ}は{東京|とうきょう}にあります。", "fr": "L'entreprise de mon grand frère est à Tokyo."},
-            {"jp": "すみません、{駅|えき}はどこですか。", "fr": "Excusez-moi, où est la gare ?"},
-            {"jp": "この{店|みせ}のパンはおいしいです。", "fr": "Le pain de cette boutique est bon."},
-            {"jp": "{病院|びょういん}で{薬|くすり}をもらいました。", "fr": "On m'a donné des médicaments à l'hôpital."},
-            {"jp": "{銀行|ぎんこう}は{三時|さんじ}までです。", "fr": "La banque est ouverte jusqu'à trois heures."},
-            {"jp": "{図書館|としょかん}で{本|ほん}を{借|か}ります。", "fr": "J'emprunte des livres à la bibliothèque."},
-            {"jp": "{公園|こうえん}で{子|こ}どもが{遊|あそ}んでいます。", "fr": "Des enfants jouent au parc."},
-            {"jp": "{部屋|へや}に{窓|まど}が{二|ふた}つあります。", "fr": "Il y a deux fenêtres dans la chambre."},
-            {"jp": "トイレはあそこです。", "fr": "Les toilettes sont là-bas."},
-            {"jp": "この{道|みち}をまっすぐ{行|い}ってください。", "fr": "Allez tout droit dans cette rue."},
-            {"jp": "{私|わたし}の{町|まち}は{小|ちい}さいですが、きれいです。", "fr": "Ma ville est petite, mais jolie."},
-            {"jp": "お{国|くに}はどちらですか。", "fr": "De quel pays venez-vous ?"},
-            {"jp": "{駅|えき}の{近|ちか}くに{安|やす}いレストランがあります。", "fr": "Il y a un restaurant pas cher près de la gare."}
-          ]
-        }
+      "words": [
+        {"jp": "{家|いえ}", "kana": "いえ", "fr": "maison, chez soi", "ex": "{家|いえ}から{駅|えき}まで{十分|じゅっぷん}です。", "exFr": "De chez moi à la gare, il y a dix minutes."},
+        {"jp": "{学校|がっこう}", "kana": "がっこう", "fr": "école", "ex": "{子|こ}どもは{八時|はちじ}に{学校|がっこう}へ{行|い}きます。", "exFr": "Les enfants vont à l'école à huit heures."},
+        {"jp": "{会社|かいしゃ}", "kana": "かいしゃ", "fr": "entreprise, bureau", "ex": "{兄|あに}の{会社|かいしゃ}は{東京|とうきょう}にあります。", "exFr": "L'entreprise de mon grand frère est à Tokyo."},
+        {"jp": "{駅|えき}", "kana": "えき", "fr": "gare, station", "ex": "すみません、{駅|えき}はどこですか。", "exFr": "Excusez-moi, où est la gare ?"},
+        {"jp": "{店|みせ}", "kana": "みせ", "fr": "magasin, boutique", "ex": "この{店|みせ}のパンはおいしいです。", "exFr": "Le pain de cette boutique est bon."},
+        {"jp": "{病院|びょういん}", "kana": "びょういん", "fr": "hôpital, clinique", "ex": "{病院|びょういん}で{薬|くすり}をもらいました。", "exFr": "On m'a donné des médicaments à l'hôpital."},
+        {"jp": "{銀行|ぎんこう}", "kana": "ぎんこう", "fr": "banque", "ex": "{銀行|ぎんこう}は{三時|さんじ}までです。", "exFr": "La banque est ouverte jusqu'à trois heures."},
+        {"jp": "{図書館|としょかん}", "kana": "としょかん", "fr": "bibliothèque", "ex": "{図書館|としょかん}で{本|ほん}を{借|か}ります。", "exFr": "J'emprunte des livres à la bibliothèque."},
+        {"jp": "{公園|こうえん}", "kana": "こうえん", "fr": "parc, jardin public", "ex": "{公園|こうえん}で{子|こ}どもが{遊|あそ}んでいます。", "exFr": "Des enfants jouent au parc."},
+        {"jp": "{部屋|へや}", "kana": "へや", "fr": "pièce, chambre", "ex": "{部屋|へや}に{窓|まど}が{二|ふた}つあります。", "exFr": "Il y a deux fenêtres dans la chambre."},
+        {"jp": "トイレ", "kana": "トイレ", "fr": "toilettes", "ex": "トイレはあそこです。", "exFr": "Les toilettes sont là-bas."},
+        {"jp": "{道|みち}", "kana": "みち", "fr": "rue, chemin, route", "ex": "この{道|みち}をまっすぐ{行|い}ってください。", "exFr": "Allez tout droit dans cette rue."},
+        {"jp": "{町|まち}", "kana": "まち", "fr": "ville, quartier", "ex": "{私|わたし}の{町|まち}は{小|ちい}さいですが、きれいです。", "exFr": "Ma ville est petite, mais jolie."},
+        {"jp": "{国|くに}", "kana": "くに", "fr": "pays", "ex": "お{国|くに}はどちらですか。", "exFr": "De quel pays venez-vous ?"},
+        {"jp": "レストラン", "kana": "レストラン", "fr": "restaurant", "ex": "{駅|えき}の{近|ちか}くに{安|やす}いレストランがあります。", "exFr": "Il y a un restaurant pas cher près de la gare."}
       ],
       "pieges": [
         "{家|いえ} se lit aussi **うち** : même sens, mais うち = surtout « chez moi », plus familier.",
@@ -744,48 +642,22 @@
     {
       "id": "v5-05",
       "title": "Adjectifs et leurs contraires",
-      "sections": [
-        {
-          "h": "Les mots",
-          "p": ["Des adjectifs en い qui vont par paires. Apprends-les avec leur contraire : c'est deux fois plus facile à retenir."],
-          "vocab": [
-            {"jp": "{大|おお}きい", "kana": "おおきい", "fr": "grand, gros"},
-            {"jp": "{小|ちい}さい", "kana": "ちいさい", "fr": "petit"},
-            {"jp": "{高|たか}い", "kana": "たかい", "fr": "cher ; haut"},
-            {"jp": "{安|やす}い", "kana": "やすい", "fr": "bon marché, pas cher"},
-            {"jp": "{低|ひく}い", "kana": "ひくい", "fr": "bas ; petit (de taille)"},
-            {"jp": "{新|あたら}しい", "kana": "あたらしい", "fr": "neuf, nouveau"},
-            {"jp": "{古|ふる}い", "kana": "ふるい", "fr": "vieux, ancien (choses)"},
-            {"jp": "いい", "kana": "いい", "fr": "bon, bien"},
-            {"jp": "{悪|わる}い", "kana": "わるい", "fr": "mauvais"},
-            {"jp": "{多|おお}い", "kana": "おおい", "fr": "nombreux (il y a beaucoup de)"},
-            {"jp": "{少|すく}ない", "kana": "すくない", "fr": "peu nombreux (il y a peu de)"},
-            {"jp": "{長|なが}い", "kana": "ながい", "fr": "long"},
-            {"jp": "{短|みじか}い", "kana": "みじかい", "fr": "court"},
-            {"jp": "{近|ちか}い", "kana": "ちかい", "fr": "proche, près"},
-            {"jp": "{遠|とお}い", "kana": "とおい", "fr": "loin, lointain"}
-          ]
-        },
-        {
-          "h": "En phrases",
-          "ex": [
-            {"jp": "{東京|とうきょう}は{大|おお}きい{町|まち}です。", "fr": "Tokyo est une grande ville."},
-            {"jp": "この{部屋|へや}は{小|ちい}さいですね。", "fr": "Cette pièce est petite, hein."},
-            {"jp": "このカメラは{高|たか}いです。{十万円|じゅうまんえん}です。", "fr": "Cet appareil photo est cher. Il coûte 100 000 yens."},
-            {"jp": "この{店|みせ}は{安|やす}いです。", "fr": "Ce magasin n'est pas cher."},
-            {"jp": "{田中|たなか}さんはせが{低|ひく}いです。", "fr": "M. Tanaka est petit (de taille)."},
-            {"jp": "{新|あたら}しい{車|くるま}を{買|か}いました。", "fr": "J'ai acheté une voiture neuve."},
-            {"jp": "{古|ふる}い{家|いえ}に{住|す}んでいます。", "fr": "J'habite dans une vieille maison."},
-            {"jp": "{今日|きょう}はいい{天気|てんき}ですね。", "fr": "Il fait beau aujourd'hui, hein."},
-            {"jp": "{昨日|きのう}は{天気|てんき}が{悪|わる}かったです。", "fr": "Hier, il faisait mauvais."},
-            {"jp": "{東京|とうきょう}は{人|ひと}が{多|おお}いです。", "fr": "À Tokyo, il y a beaucoup de monde."},
-            {"jp": "この{町|まち}はレストランが{少|すく}ないです。", "fr": "Dans cette ville, il y a peu de restaurants."},
-            {"jp": "{先生|せんせい}の{話|はなし}は{長|なが}いです。", "fr": "Les discours du professeur sont longs."},
-            {"jp": "{夏休|なつやす}みは{短|みじか}いです。", "fr": "Les vacances d'été sont courtes."},
-            {"jp": "{駅|えき}は{家|いえ}から{近|ちか}いです。", "fr": "La gare est près de chez moi."},
-            {"jp": "{会社|かいしゃ}は{遠|とお}いですから、{六時|ろくじ}に{起|お}きます。", "fr": "Mon bureau est loin, alors je me lève à six heures."}
-          ]
-        }
+      "words": [
+        {"jp": "{大|おお}きい", "kana": "おおきい", "fr": "grand, gros", "ex": "{東京|とうきょう}は{大|おお}きい{町|まち}です。", "exFr": "Tokyo est une grande ville."},
+        {"jp": "{小|ちい}さい", "kana": "ちいさい", "fr": "petit", "ex": "この{部屋|へや}は{小|ちい}さいですね。", "exFr": "Cette pièce est petite, hein."},
+        {"jp": "{高|たか}い", "kana": "たかい", "fr": "cher ; haut", "ex": "このカメラは{高|たか}いです。{十万円|じゅうまんえん}です。", "exFr": "Cet appareil photo est cher. Il coûte 100 000 yens."},
+        {"jp": "{安|やす}い", "kana": "やすい", "fr": "bon marché, pas cher", "ex": "この{店|みせ}は{安|やす}いです。", "exFr": "Ce magasin n'est pas cher."},
+        {"jp": "{低|ひく}い", "kana": "ひくい", "fr": "bas ; petit (de taille)", "ex": "{田中|たなか}さんはせが{低|ひく}いです。", "exFr": "M. Tanaka est petit (de taille)."},
+        {"jp": "{新|あたら}しい", "kana": "あたらしい", "fr": "neuf, nouveau", "ex": "{新|あたら}しい{車|くるま}を{買|か}いました。", "exFr": "J'ai acheté une voiture neuve."},
+        {"jp": "{古|ふる}い", "kana": "ふるい", "fr": "vieux, ancien (choses)", "ex": "{古|ふる}い{家|いえ}に{住|す}んでいます。", "exFr": "J'habite dans une vieille maison."},
+        {"jp": "いい", "kana": "いい", "fr": "bon, bien", "ex": "{今日|きょう}はいい{天気|てんき}ですね。", "exFr": "Il fait beau aujourd'hui, hein."},
+        {"jp": "{悪|わる}い", "kana": "わるい", "fr": "mauvais", "ex": "{昨日|きのう}は{天気|てんき}が{悪|わる}かったです。", "exFr": "Hier, il faisait mauvais."},
+        {"jp": "{多|おお}い", "kana": "おおい", "fr": "nombreux (il y a beaucoup de)", "ex": "{東京|とうきょう}は{人|ひと}が{多|おお}いです。", "exFr": "À Tokyo, il y a beaucoup de monde."},
+        {"jp": "{少|すく}ない", "kana": "すくない", "fr": "peu nombreux (il y a peu de)", "ex": "この{町|まち}はレストランが{少|すく}ないです。", "exFr": "Dans cette ville, il y a peu de restaurants."},
+        {"jp": "{長|なが}い", "kana": "ながい", "fr": "long", "ex": "{先生|せんせい}の{話|はなし}は{長|なが}いです。", "exFr": "Les discours du professeur sont longs."},
+        {"jp": "{短|みじか}い", "kana": "みじかい", "fr": "court", "ex": "{夏休|なつやす}みは{短|みじか}いです。", "exFr": "Les vacances d'été sont courtes."},
+        {"jp": "{近|ちか}い", "kana": "ちかい", "fr": "proche, près", "ex": "{駅|えき}は{家|いえ}から{近|ちか}いです。", "exFr": "La gare est près de chez moi."},
+        {"jp": "{遠|とお}い", "kana": "とおい", "fr": "loin, lointain", "ex": "{会社|かいしゃ}は{遠|とお}いですから、{六時|ろくじ}に{起|お}きます。", "exFr": "Mon bureau est loin, alors je me lève à six heures."}
       ],
       "pieges": [
         "{高|たか}い a **deux contraires** : {安|やす}い (bon marché) et {低|ひく}い (bas).",

@@ -1,9 +1,5 @@
-// Contrôles propres à l'appli de vocabulaire (en plus de tools/verifier.mjs, qui est le moteur partagé).
-// node tools/verifier-vocab.mjs
-//
-// Chaque leçon commence par deux sections :
-//   « Les mots »   : vocab = [{ jp, kana, fr }]
-//   « En phrases » : ex    = une phrase par mot, dans le même ordre.
+// Contrôles propres à l'appli de vocabulaire, lancés automatiquement par tools/verifier.mjs (moteur).
+// Chaque leçon a un champ words = [{ jp, kana, fr, ex, exFr }].
 import { readFileSync } from 'node:fs';
 import { KANJI } from './kanji.mjs';
 
@@ -23,13 +19,9 @@ function checkKanji(where, obj) {
 }
 
 function checkLesson(l) {
-  const [mots, phrases] = l.sections || [];
-  if (mots?.h !== 'Les mots' || phrases?.h !== 'En phrases') return err(l.id, 'les deux premières sections doivent être « Les mots » puis « En phrases »');
-  const words = mots.vocab || [];
-  const examples = phrases.ex || [];
-  if (words.length < 5) err(l.id, 'il faut au moins 5 mots');
-  if (examples.length !== words.length) err(l.id, `${words.length} mots mais ${examples.length} phrases d'exemple`);
-  words.forEach((w, i) => {
+  const words = l.words || [];
+  if (words.length < 5) err(l.id, 'il faut au moins 5 mots (words)');
+  words.forEach(w => {
     const at = `${l.id} ${w.jp}`;
     if (!w.jp || !w.kana || !w.fr) return err(at, 'mot incomplet (jp, kana, fr)');
     if (!/^[\p{Script=Hiragana}\p{Script=Katakana}ー〜・ ]+$/u.test(w.kana)) err(at, `lecture pas en kana : ${w.kana}`);
@@ -39,11 +31,10 @@ function checkLesson(l) {
     if (seenWords.has(key)) err(at, `mot déjà vu en ${seenWords.get(key)}`);
     seenWords.set(key, l.id);
     // La phrase doit contenir le mot (verbes et adjectifs en い : le radical suffit).
-    const ex = examples[i];
-    if (!ex?.jp || !ex?.fr) return err(at, 'phrase d’exemple manquante');
+    if (!w.ex || !w.exFr) return err(at, 'phrase d’exemple manquante (ex, exFr)');
     const p = plain(w.jp).replace(/^〜/, '');
     const stem = /[うくぐすつぬぶむるい]$/.test(p) && p.length > 1 ? p.slice(0, -1) : p;
-    if (!plain(ex.jp).includes(stem)) err(at, `la phrase n° ${i + 1} ne contient pas le mot : ${ex.jp}`);
+    if (!plain(w.ex).includes(stem)) err(at, `la phrase d'exemple ne contient pas le mot : ${w.ex}`);
   });
 }
 
