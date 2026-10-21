@@ -659,6 +659,17 @@
         {"jp": "{近|ちか}い", "kana": "ちかい", "fr": "proche, près", "ex": "{駅|えき}は{家|いえ}から{近|ちか}いです。", "exFr": "La gare est près de chez moi."},
         {"jp": "{遠|とお}い", "kana": "とおい", "fr": "loin, lointain", "ex": "{会社|かいしゃ}は{遠|とお}いですから、{六時|ろくじ}に{起|お}きます。", "exFr": "Mon bureau est loin, alors je me lève à six heures."}
       ],
+      "sections": [
+        {
+          "h": "い ou な ? (à savoir par cœur)",
+          "p": [
+            "Tous les adjectifs de cette leçon sont en **い** : le い final se transforme. Au présent il reste : {高|たか}いです. Négatif : {高|たか}**くない**です. Passé : {高|たか}**かった**です. Passé négatif : {高|たか}**くなかった**です. Devant un nom : {高|たか}い{本|ほん}.",
+            "Les adjectifs en **な** se conjuguent comme un **nom** (NA = NOM) : {静|しず}かです, {静|しず}か**じゃありません**, {静|しず}か**でした**, {静|しず}か**じゃありませんでした**. Le な n'apparaît que devant un nom : {静|しず}か**な**{部屋|へや}.",
+            "Piège : きれい, きらい, {有名|ゆうめい}, ていねい, しつれい finissent par い mais sont en **な** : きれいじゃありません, jamais きれくない.",
+            "La bulle **い/な** (en bas à droite, sur toutes les pages) ouvre l'antisèche illustrée et un quiz éclair."
+          ]
+        }
+      ],
       "pieges": [
         "{高|たか}い a **deux contraires** : {安|やす}い (bon marché) et {低|ひく}い (bas).",
         "いい devient よ〜 quand on le conjugue : よくない, よかった (jamais いくない, いかった).",
@@ -778,6 +789,114 @@
           "uses": ["v5-01"],
           "fr": "À Tokyo, il y a beaucoup de monde.",
           "tokens": ["{東京|とうきょう}", "は", "{人|ひと}", "が", "{多|おお}い", "です"]
+        },
+        {
+          "id": "v5-05-e18",
+          "type": "choice",
+          "uses": ["v5-02"],
+          "q": "Mets au négatif poli : この{本|ほん}は{高|たか}いです。",
+          "choices": ["この{本|ほん}は{高|たか}くないです。", "この{本|ほん}は{高|たか}いじゃありません。", "この{本|ほん}は{高|たか}いくないです。", "この{本|ほん}は{高|たか}じゃないです。"],
+          "a": 0,
+          "explain": "{高|たか}い est en い : le い tombe → {高|たか}くないです. じゃありません, c'est pour les adjectifs en な."
+        },
+        {
+          "id": "v5-05-e19",
+          "type": "choice",
+          "uses": ["v5-01"],
+          "q": "Mets au passé : {先生|せんせい}の{話|はなし}は{長|なが}いです。",
+          "choices": ["{長|なが}かったです", "{長|なが}いでした", "{長|なが}かったでした", "{長|なが}いかったです"],
+          "a": 0,
+          "explain": "Adjectif en い : い → かった, et です ne change pas. Jamais いでした ni かったでした."
+        },
+        {
+          "id": "v5-05-e20",
+          "type": "choice",
+          "uses": ["v5-04"],
+          "q": "Mets au passé négatif : {駅|えき}は{遠|とお}いです。",
+          "choices": ["{遠|とお}くなかったです", "{遠|とお}いじゃありませんでした", "{遠|とお}くないでした", "{遠|とお}いくなかったです"],
+          "a": 0,
+          "explain": "い → くなかった, puis です : {遠|とお}くなかったです."
+        },
+        {
+          "id": "v5-05-e21",
+          "type": "choice",
+          "uses": ["v5-03"],
+          "q": "Mets au passé négatif : {天気|てんき}はいいです。",
+          "choices": ["よくなかったです", "いくなかったです", "いいじゃありませんでした", "よくないでした"],
+          "a": 0,
+          "explain": "いい se conjugue sur よい : よくない, よかった, よくなかった."
+        },
+        {
+          "id": "v5-05-e22",
+          "type": "choice",
+          "q": "Lequel est un adjectif en **な** ?",
+          "choices": ["きれい", "{古|ふる}い", "{大|おお}きい", "{遠|とお}い"],
+          "a": 0,
+          "explain": "きれい finit par い, mais c'est un adjectif en な : le い fait partie du mot."
+        },
+        {
+          "id": "v5-05-e23",
+          "type": "choice",
+          "uses": ["v5-04"],
+          "jp": "この{部屋|へや}は＿。",
+          "fr": "Cette chambre n'est pas propre.",
+          "choices": ["きれいじゃありません", "きれくないです", "きれいくないです", "きれいないです"],
+          "a": 0,
+          "explain": "きれい est en な : on ajoute じゃありません sans toucher au い."
+        },
+        {
+          "id": "v5-05-e24",
+          "type": "choice",
+          "uses": ["v5-04"],
+          "jp": "ここは＿{部屋|へや}ですね。",
+          "fr": "C'est une pièce calme, ici.",
+          "choices": ["{静|しず}かな", "{静|しず}か", "{静|しず}かい", "{静|しず}かの"],
+          "a": 0,
+          "explain": "Devant un nom, l'adjectif en な prend な : {静|しず}かな{部屋|へや}."
+        },
+        {
+          "id": "v5-05-e25",
+          "type": "choice",
+          "uses": ["v5-02"],
+          "jp": "＿{車|くるま}を{買|か}いました。",
+          "fr": "J'ai acheté une voiture neuve.",
+          "choices": ["{新|あたら}しい", "{新|あたら}しいな", "{新|あたら}しな", "{新|あたら}しいの"],
+          "a": 0,
+          "explain": "Adjectif en い devant un nom : rien à ajouter, {新|あたら}しい{車|くるま}."
+        },
+        {
+          "id": "v5-05-e26",
+          "type": "choice",
+          "uses": ["v5-03", "v5-04"],
+          "jp": "{去年|きょねん}、この{店|みせ}は{有名|ゆうめい}＿。",
+          "fr": "L'année dernière, ce magasin était célèbre.",
+          "choices": ["でした", "かったです", "だったでした", "なでした"],
+          "a": 0,
+          "explain": "{有名|ゆうめい} est en な (son い est dans le kanji 名 : ゆう・めい) : passé = でした."
+        },
+        {
+          "id": "v5-05-e27",
+          "type": "choice",
+          "uses": ["v5-01"],
+          "jp": "{子|こ}どもの{時|とき}、{野菜|やさい}がきらい＿。",
+          "fr": "Quand j'étais enfant, je détestais les légumes.",
+          "choices": ["でした", "かったです", "くなかったです", "なでした"],
+          "a": 0,
+          "explain": "きらい est un adjectif en な (le piège !) : きらいでした, jamais きらかった."
+        },
+        {
+          "id": "v5-05-e28",
+          "type": "order",
+          "uses": ["v5-04"],
+          "fr": "Cette ville n'était pas calme.",
+          "tokens": ["この", "{町|まち}", "は", "{静|しず}か", "じゃありませんでした"]
+        },
+        {
+          "id": "v5-05-e29",
+          "type": "order",
+          "uses": ["v5-03"],
+          "fr": "Hier, il ne faisait pas froid.",
+          "tokens": ["{昨日|きのう}", "は", "{寒|さむ}く", "なかったです"]
         }
       ]
     }

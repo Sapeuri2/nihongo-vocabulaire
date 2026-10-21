@@ -33,7 +33,15 @@ La même clé GitHub (droit « gist ») peut servir aux deux applis : chacune cr
 `js/app.js`, `js/state.js`, `js/sync.js`, `js/text.js`, `css/style.css`, `sw.js`, `tools/verifier.mjs` viennent du dépôt grammaire :
 **ne pas les modifier ici**. Mise à jour : `bash tools/maj-moteur.sh` (voir [MOTEUR.md](MOTEUR.md)).
 Propres à cette appli : `js/config.js`, `css/theme.css` (bleu), `index.html`, `manifest.webmanifest`, `icons/`, `data/`,
-`tools/verifier-appli.mjs`, `tools/kanji.mjs`.
+`tools/verifier-appli.mjs`, `tools/kanji.mjs`, et la bulle « い ou な ? » (`js/memo.js`, `css/memo.css`, `data/adjectifs.json`).
+
+## Bulle « い ou な ? »
+
+Une bulle **い/な** en bas à droite, sur toutes les pages, ouvre une antisèche illustrée (conjugaison des adjectifs en い et en な, faux い, erreurs interdites) et un quiz éclair de 10 questions.
+Des **rappels surprise** surgissent pendant l'utilisation (souvent / normal / rarement / jamais, réglable dans la bulle) et ne se ferment qu'après une bonne réponse.
+Les questions sont générées depuis `data/adjectifs.json` : les mauvais choix sont les erreurs typiques (高いじゃありません, きれくない, 高かったでした, いくない…), et les adjectifs ratés reviennent plus souvent.
+Statistiques et réglage restent sur l'appareil (`nv-memo-v1`), sans synchro.
+Pour ajouter un adjectif : une ligne dans `data/adjectifs.json` (lire la note en tête du fichier : ne jamais proposer comme erreur une forme qui existe, comme 大きな ou 上手い).
 
 ## Lancer en local
 

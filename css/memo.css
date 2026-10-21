@@ -1,0 +1,74 @@
+/* Bulle « い / な », antisèche et rappels surprise (js/memo.js). Propre à cette appli. */
+:root { --m-i: #2a5fa8; --m-na: #c46a12; --m-trap: #7a4fc4; }
+@media (prefers-color-scheme: dark) {
+  :root { --m-i: #6ea6f0; --m-na: #f0a35a; --m-trap: #b89af0; }
+}
+
+main { padding-bottom: 96px; }
+html.memo-open { overflow: hidden; }
+
+#memo-bubble {
+  position: fixed; z-index: 20; right: 14px; bottom: calc(14px + env(safe-area-inset-bottom));
+  width: 56px; height: 56px; border-radius: 50%; border: 0; cursor: pointer;
+  background: var(--accent); color: var(--accent-text); box-shadow: 0 3px 10px rgba(0, 0, 0, .3);
+  font-family: var(--jp); font-size: 1.15rem; font-weight: 700; line-height: 1;
+}
+#memo-bubble small { font-size: .8em; opacity: .7; margin: 0 1px; }
+
+.memo-overlay {
+  position: fixed; inset: 0; z-index: 30; background: rgba(0, 0, 0, .5);
+  display: flex; align-items: flex-end; justify-content: center;
+}
+.memo-overlay[hidden] { display: none; }
+.memo-box {
+  width: 100%; max-width: 620px; max-height: 92vh; overflow-y: auto; overscroll-behavior: contain;
+  background: var(--bg); color: var(--text); border-radius: 16px 16px 0 0;
+  padding: 16px 16px calc(20px + env(safe-area-inset-bottom));
+}
+@media (min-width: 700px) {
+  .memo-overlay { align-items: center; }
+  .memo-box { border-radius: 16px; }
+}
+
+.m-head { display: flex; align-items: center; gap: 8px; }
+.m-head h2 { flex: 1; margin: 0; font-size: 1.15rem; }
+.m-x { background: none; border: 0; color: var(--muted); font-size: 1.3rem; cursor: pointer; padding: 4px 8px; }
+
+.m-card {
+  background: var(--card); border: 1px solid var(--line); border-left: 5px solid var(--line);
+  border-radius: 12px; padding: 12px 14px; margin: 12px 0;
+}
+.m-card h3 { margin: 0 0 6px; font-size: 1rem; }
+.m-card p { margin: 6px 0; }
+.m-i { border-left-color: var(--m-i); }
+.m-na { border-left-color: var(--m-na); }
+.m-trap { border-left-color: var(--m-trap); }
+.m-ban { border-left-color: var(--bad); }
+
+.m-conj { border-collapse: collapse; width: 100%; }
+.m-conj td { padding: 2px 6px; border-bottom: 1px solid var(--line); vertical-align: baseline; }
+.m-conj td:first-child { color: var(--muted); font-size: .85rem; white-space: nowrap; width: 6.5em; }
+.m-conj td.jp { font-size: 1.2rem; line-height: 2.1; }
+.m-i .m-end, .m-i .m-new { color: var(--m-i); font-weight: 700; }
+.m-na .m-end, .m-na .m-new { color: var(--m-na); font-weight: 700; }
+.m-i .m-new { background: color-mix(in srgb, var(--m-i) 14%, transparent); border-radius: 4px; padding: 0 2px; }
+.m-na .m-end { background: color-mix(in srgb, var(--m-na) 16%, transparent); border-radius: 4px; padding: 0 2px; }
+.m-warn { font-size: .9rem; }
+.m-big { font-size: 1.2rem; line-height: 2.1; }
+.m-list { list-style: none; padding: 0; margin: 0; font-size: 1.05rem; line-height: 2.1; }
+.m-list s { color: var(--bad); }
+
+.m-actions { display: flex; flex-wrap: wrap; gap: 10px; margin: 14px 0 4px; }
+.m-actions .btn { flex: 1; }
+.m-seg { display: flex; gap: 6px; flex-wrap: wrap; margin: 8px 0; }
+.m-seg button {
+  flex: 1; padding: 8px 6px; border-radius: 8px; border: 1px solid var(--line);
+  background: var(--bg); color: var(--text); font: inherit; font-size: .9rem; cursor: pointer;
+}
+.m-seg button.on { background: var(--accent); border-color: var(--accent); color: var(--accent-text); font-weight: 600; }
+
+.m-q { margin: 14px 0 2px; }
+.m-word { font-size: 1.6rem; line-height: 2.2; font-weight: 700; }
+.m-form { margin: 0 0 6px; font-weight: 600; color: var(--accent); }
+.m-choices { margin-top: 10px; }
+.memo-box .fb .jp { font-size: 1.05rem; line-height: 2; }

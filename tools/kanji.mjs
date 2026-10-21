@@ -16,6 +16,6 @@ const N4 = `
 
 // N3 tolérés : déjà utilisés dans l'appli de grammaire, donc familiers.
 // Plus 昨 (昨日) : mot N5 de base, toujours écrit en kanji.
-const TOLERES = `公園部晩降遊泳静宿紅酒窓授速歯若果飛機晴議座消配末阪昨`;
+const TOLERES = `公園部晩降遊泳静宿紅酒窓授速歯若果飛機晴議座消配末阪昨利`;
 
 export const KANJI = new Set([...(N5 + N4 + TOLERES)].filter(c => /\p{Script=Han}/u.test(c)));
