@@ -1,7 +1,7 @@
 # Programme (speed run N5 → N4)
 
 Environ 15 mots par leçon, regroupés par thème, **les plus utiles d'abord**.
-5 leçons = 1 bloc + 1 test · 4 blocs (20 leçons) = 1 grand examen.
+5 leçons = 1 bloc + 1 test · 2 blocs (10 leçons) = 1 examen intermédiaire · 4 blocs (20 leçons) = 1 grand examen.
 N5 : 40 leçons (~600 mots) · N4 : 40 leçons (~600 mots). Les mots rares des listes JLPT sont laissés de côté.
 Les mots entre parenthèses sont indicatifs : la liste exacte est fixée en écrivant chaque bloc.
 ✅ = disponible dans l'appli.
@@ -21,6 +21,8 @@ Les mots entre parenthèses sont indicatifs : la liste exacte est fixée en écr
 8. Compter les choses et les gens (ひとつ…とお, ひとり, ふたり, 〜枚, 〜本, 〜冊, 〜台…)
 9. Mots interrogatifs (何, どこ, いつ, どう, どんな, どれ, どちら, どうして…)
 10. Adverbes de fréquence et de quantité (いつも, よく, ときどき, あまり, ぜんぜん, たくさん, 少し…)
+
+→ **Examen intermédiaire 1** (leçons 1–10)
 
 **Bloc 3 — La vie quotidienne**
 11. Formules de politesse (すみません, おねがいします, いただきます, しつれいします…)
@@ -51,6 +53,8 @@ Les mots entre parenthèses sont indicatifs : la liste exacte est fixée en écr
 28. Communiquer et savoir (言う, 話す, 答える, 知る, 分かる, 覚える, 忘れる…)
 29. École et études (宿題, 試験, 問題, 質問, 意味, 言葉, 漢字…)
 30. Travail et métiers (仕事, 医者, 会社員, 働く, 休み…)
+
+→ **Examen intermédiaire 2** (leçons 21–30)
 
 **Bloc 7 — Sortir**
 31. Loisirs et sport (映画, 音楽, 歌, スポーツ, 泳ぐ, 遊ぶ, ひく…)
@@ -84,6 +88,8 @@ Les mots entre parenthèses sont indicatifs : la liste exacte est fixée en écr
 49. Augmenter, diminuer, continuer (増える, 減る, 上がる, 下がる, 続く, 足りる, 残る…)
 50. Circulation (乗りかえる, おくれる, 間に合う, 急ぐ, 信号, 交差点, 事故, 運転…)
 
+→ **Examen intermédiaire 3** (leçons 41–50)
+
 **Bloc 11 — Travail et études**
 51. Le travail (社長, 会議, 出張, 残業, 給料, 受付…)
 52. Les études (入学, 卒業, 合格, 研究, 専門, 留学…)
@@ -113,6 +119,8 @@ Les mots entre parenthèses sont indicatifs : la liste exacte est fixée en écr
 68. Société (社会, 経済, 政治, 国際…)
 69. Lieux et territoire (県, 市, 村, 郊外, 世界…)
 70. Mesures et quantités (〜倍, 半分, 以上, 以下, 合計…)
+
+→ **Examen intermédiaire 4** (leçons 61–70)
 
 **Bloc 15 — Politesse**
 71. Keigo : verbes de respect (いらっしゃる, めしあがる, おっしゃる, なさる, ご覧になる…)

@@ -1,6 +1,5 @@
 // Vérifie le contenu du cours : node tools/verifier.mjs
 import { readFileSync } from 'node:fs';
-import { KANJI } from './kanji.mjs';
 
 const root = new URL('../', import.meta.url);
 const read = p => JSON.parse(readFileSync(new URL(p, root), 'utf8'));
@@ -15,38 +14,6 @@ let n = 0;
 let count = 0;
 
 const plain = s => s.replace(/\{([^|{}]+)\|[^{}]+\}/g, '$1');
-const reading = s => s.replace(/\{[^|{}]+\|([^{}]+)\}/g, '$1');
-const seenWords = new Map(); // mot → leçon
-
-// Kanji hors N5/N4 (voir tools/kanji.mjs).
-function checkKanji(where, obj) {
-  const bad = [...new Set(JSON.stringify(obj).match(/\p{Script=Han}/gu) || [])].filter(k => !KANJI.has(k));
-  if (bad.length) err(where, `kanji hors N5/N4 : ${bad.join(' ')} (écrire en kana ou l'ajouter à tools/kanji.mjs)`);
-}
-
-// Tableau de mots d'une leçon de vocabulaire.
-function checkWords(where, words) {
-  if (!Array.isArray(words) || words.length < 5) return err(where, 'il faut au moins 5 mots (words)');
-  for (const w of words) {
-    const at = `${where} ${w.jp}`;
-    if (!w.jp || !w.kana || !w.fr) { err(at, 'mot incomplet (jp, kana, fr)'); continue; }
-    checkText(at, w.jp);
-    checkText(at, w.fr);
-    if (!/^[\p{Script=Hiragana}\p{Script=Katakana}ー〜・ ]+$/u.test(w.kana)) err(at, `lecture pas en kana : ${w.kana}`);
-    // Les furigana du mot doivent redonner exactement sa lecture.
-    if (reading(w.jp) !== w.kana) err(at, `lecture « ${w.kana} » ≠ furigana « ${reading(w.jp)} »`);
-    const key = `${plain(w.jp)}|${w.kana}`;
-    if (seenWords.has(key)) err(at, `mot déjà vu en ${seenWords.get(key)}`);
-    seenWords.set(key, where);
-    if (!w.ex?.jp || !w.ex?.fr) { err(at, 'phrase d’exemple manquante (ex.jp, ex.fr)'); continue; }
-    checkText(at, w.ex.jp);
-    checkText(at, w.ex.fr);
-    // La phrase doit contenir le mot (verbes et adjectifs en い : le radical suffit).
-    const p = plain(w.jp).replace(/^〜/, '');
-    const stem = /[うくぐすつぬぶむるい]$/.test(p) && p.length > 1 ? p.slice(0, -1) : p;
-    if (!plain(w.ex.jp).includes(stem)) err(at, `l'exemple ne contient pas le mot : ${w.ex.jp}`);
-  }
-}
 
 function checkText(where, s) {
   if (typeof s !== 'string') return;
@@ -94,9 +61,6 @@ for (const file of manifest.blocks) {
     if (lessonOrder.has(l.id)) err(file, `leçon en double ${l.id}`);
     lessonOrder.set(l.id, ++n);
     checkText(l.id, l.title);
-    checkKanji(l.id, l);
-    (l.intro || []).forEach(p => checkText(l.id, p));
-    checkWords(l.id, l.words);
     for (const s of l.sections || []) {
       checkText(l.id, s.h);
       (s.p || []).forEach(p => checkText(l.id, p));
@@ -109,7 +73,8 @@ for (const file of manifest.blocks) {
   }
   // Un test peut aussi réutiliser des leçons des blocs précédents.
   for (const ex of b.test || []) checkExercise(`${b.id} test`, ex, n);
-  checkKanji(`${b.id} test`, b.test || []);
+  // Questions de réflexion de l'examen qui suit ce bloc.
+  for (const ex of b.examTest || []) checkExercise(`${b.id} examen`, ex, n);
 }
 
 if (errors.length) {
@@ -117,4 +82,4 @@ if (errors.length) {
   console.error(`\n${errors.length} problème(s).`);
   process.exit(1);
 }
-console.log(`OK : ${n} leçons, ${seenWords.size} mots, ${count} exercices.`);
+console.log(`OK : ${n} leçons, ${count} exercices.`);

@@ -1,0 +1,21 @@
+/* Couleurs propres à CETTE appli (le reste de l'apparence est dans style.css, partagé). */
+:root {
+  --accent: #2a5fa8;
+  --accent-text: #ffffff;
+  --bg: #f4f6f9;
+  --text: #1b1e23;
+  --muted: #6b7280;
+  --line: #dde2ea;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --accent: #6ea6f0;
+    --accent-text: #12151a;
+    --bg: #12151a;
+    --card: #1c2027;
+    --text: #e6e9ee;
+    --muted: #949cab;
+    --line: #313743;
+  }
+}

@@ -1,11 +1,13 @@
 # 語彙 Vocabulaire japonais
 
 Appli web perso pour apprendre le vocabulaire japonais (JLPT N5 → N4, puis N3), en français.
-Même moteur que l'appli de grammaire (`nihongo-grammaire`), mais l'accent est mis sur **le mot utilisé dans une phrase**, pas sur des flashcards.
+Même moteur que l'appli de grammaire (`nihongo-grammaire`, voir [MOTEUR.md](MOTEUR.md)), mais l'accent est mis sur **le mot utilisé dans une phrase**, pas sur des flashcards.
 
 - Leçon (≈ 15 mots d'un même thème, une phrase d'exemple par mot, pièges) → exercices → leçon suivante.
 - Exercices : mot dans une phrase à trous, sens ↔ mot, lecture des kanji, mots proches, contraires, remise en ordre.
-- Toutes les 5 leçons : un test du bloc (80 % pour continuer). Toutes les 20 leçons : un grand examen.
+- Toutes les 5 leçons : un test du bloc (80 % pour continuer, 30 questions).
+- Toutes les 10 leçons : un examen intermédiaire (40 questions) ; toutes les 20 : un grand examen (60).
+- Tests et examens mélangent environ 25 % de rappels des leçons précédentes, et des questions de réflexion propres à chaque examen (`examTest`).
 - Les erreurs reviennent en fin de série, puis en révision (répétition espacée).
 - Progression synchronisée entre appareils via un Gist GitHub privé (optionnel).
 - Fonctionne hors ligne une fois chargée ; installable sur l'écran d'accueil du téléphone.
@@ -21,9 +23,17 @@ Les deux applis sont sur le même domaine (`sapeuri2.github.io`) et ne doivent p
 | Progression (localStorage) | `ng-state-v1` | `nv-state-v1` |
 | Réglages de synchro | `ng-sync` | `nv-sync` |
 | Fichier dans le Gist | `nihongo-grammaire-progression.json` | `nihongo-vocabulaire-progression.json` |
-| Caches hors ligne | `ng-…` | `nv-…` (seuls ceux-là sont nettoyés) |
+| Caches hors ligne | `cache:/nihongo-grammaire/:…` | `cache:/nihongo-vocabulaire/:…` (seuls ceux-là sont nettoyés) |
 
+Les clés et le nom du Gist sont dans `js/config.js` : **ne jamais les changer** une fois l'appli en ligne.
 La même clé GitHub (droit « gist ») peut servir aux deux applis : chacune crée son propre Gist.
+
+## Moteur partagé
+
+`js/app.js`, `js/state.js`, `js/sync.js`, `js/text.js`, `css/style.css`, `sw.js`, `tools/verifier.mjs` viennent du dépôt grammaire :
+**ne pas les modifier ici**. Mise à jour : `bash tools/maj-moteur.sh` (voir [MOTEUR.md](MOTEUR.md)).
+Propres à cette appli : `js/config.js`, `css/theme.css` (bleu), `index.html`, `manifest.webmanifest`, `icons/`, `data/`,
+`tools/verifier-vocab.mjs`, `tools/kanji.mjs`.
 
 ## Lancer en local
 
@@ -36,7 +46,8 @@ python3 -m http.server 8000
 
 1. Créer `data/n5/blocXX.json` sur le modèle de `data/n5/bloc01.json`.
 2. L'ajouter à la fin de la liste `blocks` dans `data/manifest.json`.
-3. Vérifier : `node tools/verifier.mjs`.
+3. Vérifier : `node tools/verifier.mjs && node tools/verifier-vocab.mjs`.
+4. Le bloc qui précède un examen (blocs 2, 4, 6…) reçoit aussi ses questions de réflexion dans `examTest`.
 
 Les identifiants (leçons, exercices) ne doivent jamais changer une fois publiés : la progression y est rattachée.
 
@@ -44,12 +55,13 @@ Les identifiants (leçons, exercices) ne doivent jamais changer une fois publié
 
 ```jsonc
 { "id": "v5-01", "title": "Les gens",
-  "intro": ["paragraphe (facultatif)"],
-  "words": [
-    { "jp": "{大人|おとな}", "kana": "おとな", "fr": "adulte",
-      "ex": { "jp": "{大人|おとな}は{五百円|ごひゃくえん}です。", "fr": "500 yens pour les adultes." } }
+  "sections": [
+    { "h": "Les mots", "p": ["paragraphe (facultatif)"],
+      "vocab": [{ "jp": "{大人|おとな}", "kana": "おとな", "fr": "adulte" }] },
+    { "h": "En phrases",
+      "ex": [{ "jp": "{大人|おとな}は{五百円|ごひゃくえん}です。", "fr": "500 yens pour les adultes." }] }
+    /* puis d'autres sections si besoin */
   ],
-  "sections": [ /* facultatif : comme dans la grammaire (h, p, ex, vocab) */ ],
   "pieges": ["mots proches, faux amis, lectures irrégulières…"],
   "exercises": [ /* voir ci-dessous */ ] }
 ```
@@ -69,7 +81,7 @@ Les identifiants (leçons, exercices) ne doivent jamais changer une fois publié
 ```
 
 - `{漢字|かんじ}` affiche des furigana, `**texte**` met en gras.
-- Phrase à trous : la traduction est cachée (« Voir la traduction ») jusqu'à la réponse, pour que le contexte japonais fasse le travail.
+- « En phrases » : une phrase par mot, **dans le même ordre** que « Les mots ». `kana` sert au vérificateur.
 - Lecture d'un kanji : écrire le mot **sans** furigana dans `q` (`Comment se lit **大人** ?`), sinon la réponse est affichée.
 - `uses` : les leçons **précédentes** que l'exercice mobilise en plus de la sienne.
 
@@ -83,4 +95,4 @@ Les identifiants (leçons, exercices) ne doivent jamais changer une fois publié
 6. **Kanji N5/N4 seulement** (liste dans `tools/kanji.mjs`, quelques N3 tolérés) ; sinon le mot s'écrit en kana.
 7. **Grammaire de niveau N5** dans les phrases d'exemple et les exercices.
 
-Le vérificateur contrôle aussi : lecture (`kana`) = furigana du mot, phrase d'exemple qui contient le mot, mot déjà enseigné dans une autre leçon, kanji hors liste.
+`tools/verifier-vocab.mjs` contrôle en plus : lecture (`kana`) = furigana du mot, phrase d'exemple qui contient le mot, mot déjà enseigné dans une autre leçon, kanji hors liste.
