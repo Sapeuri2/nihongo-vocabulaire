@@ -1,0 +1,1101 @@
+{
+  "id": "v5-b02",
+  "level": "N5",
+  "title": "Manger, compter, demander : nourriture, nombres, compteurs, questions, adverbes",
+  "lessons": [
+    {
+      "id": "v5-06",
+      "title": "Nourriture et boissons",
+      "words": [
+        {"jp": "ご{飯|はん}", "kana": "ごはん", "fr": "riz cuit ; repas", "ex": "{毎日|まいにち}ご{飯|はん}を{食|た}べます。", "exFr": "Je mange du riz tous les jours."},
+        {"jp": "{朝|あさ}ご{飯|はん}", "kana": "あさごはん", "fr": "petit-déjeuner", "ex": "{今朝|けさ}は{朝|あさ}ご{飯|はん}を{食|た}べませんでした。", "exFr": "Ce matin, je n'ai pas pris de petit-déjeuner."},
+        {"jp": "{昼|ひる}ご{飯|はん}", "kana": "ひるごはん", "fr": "déjeuner (repas de midi)", "ex": "{昼|ひる}ご{飯|はん}はいつも{会社|かいしゃ}の{近|ちか}くで{食|た}べます。", "exFr": "Je déjeune toujours près du bureau."},
+        {"jp": "{晩|ばん}ご{飯|はん}", "kana": "ばんごはん", "fr": "dîner (repas du soir)", "ex": "{家族|かぞく}と{晩|ばん}ご{飯|はん}を{食|た}べます。", "exFr": "Je dîne avec ma famille."},
+        {"jp": "パン", "kana": "パン", "fr": "pain", "ex": "{朝|あさ}はパンとコーヒーです。", "exFr": "Le matin, c'est pain et café."},
+        {"jp": "{肉|にく}", "kana": "にく", "fr": "viande", "ex": "{肉|にく}と{魚|さかな}と、どちらが{好|す}きですか。", "exFr": "Tu préfères la viande ou le poisson ?"},
+        {"jp": "{魚|さかな}", "kana": "さかな", "fr": "poisson", "ex": "{日本人|にほんじん}はよく{魚|さかな}を{食|た}べます。", "exFr": "Les Japonais mangent souvent du poisson."},
+        {"jp": "{野菜|やさい}", "kana": "やさい", "fr": "légumes", "ex": "{毎日|まいにち}{野菜|やさい}を{食|た}べてください。", "exFr": "Mangez des légumes tous les jours."},
+        {"jp": "{果物|くだもの}", "kana": "くだもの", "fr": "fruit(s)", "ex": "この{店|みせ}の{果物|くだもの}は{高|たか}いです。", "exFr": "Les fruits de ce magasin sont chers."},
+        {"jp": "たまご", "kana": "たまご", "fr": "œuf", "ex": "{朝|あさ}ご{飯|はん}にたまごを{食|た}べました。", "exFr": "J'ai mangé un œuf au petit-déjeuner."},
+        {"jp": "{水|みず}", "kana": "みず", "fr": "eau", "ex": "すみません、{水|みず}をください。", "exFr": "Excusez-moi, de l'eau s'il vous plaît."},
+        {"jp": "お{茶|ちゃ}", "kana": "おちゃ", "fr": "thé (vert)", "ex": "お{茶|ちゃ}をどうぞ。", "exFr": "Voici du thé, je vous en prie."},
+        {"jp": "ぎゅうにゅう", "kana": "ぎゅうにゅう", "fr": "lait", "ex": "{子|こ}どもはぎゅうにゅうが{好|す}きです。", "exFr": "Les enfants aiment le lait."},
+        {"jp": "お{酒|さけ}", "kana": "おさけ", "fr": "alcool ; saké", "ex": "{父|ちち}はお{酒|さけ}を{飲|の}みません。", "exFr": "Mon père ne boit pas d'alcool."},
+        {"jp": "{食|た}べ{物|もの}", "kana": "たべもの", "fr": "nourriture, plat", "ex": "{好|す}きな{食|た}べ{物|もの}は{何|なん}ですか。", "exFr": "Quel est ton plat préféré ?"},
+        {"jp": "{飲|の}み{物|もの}", "kana": "のみもの", "fr": "boisson", "ex": "{飲|の}み{物|もの}は{何|なに}がいいですか。", "exFr": "Qu'est-ce que vous voulez boire ?"}
+      ],
+      "pieges": [
+        "ご{飯|はん} = le riz cuit **et** le repas en général : もうご{飯|はん}を{食|た}べましたか = tu as déjà mangé ? Le riz cru (pas encore cuit) se dit こめ.",
+        "Les trois repas : {朝|あさ}ご{飯|はん}, {昼|ひる}ご{飯|はん}, {晩|ばん}ご{飯|はん} (on entend aussi {夜|よる}ご{飯|はん}, plus familier).",
+        "お{茶|ちゃ} = le thé vert, ou le thé en général. Le thé noir (à l'occidentale) = {紅茶|こうちゃ}.",
+        "お{酒|さけ} = l'alcool en général **et** le saké en particulier. On dit presque toujours お{茶|ちゃ}, お{酒|さけ} avec お.",
+        "Viandes : on ajoute {肉|にく} : ぎゅうにく (bœuf), ぶたにく (porc), とりにく (poulet).",
+        "{飲|の}む sert aussi pour la soupe et les médicaments : スープを{飲|の}む, {薬|くすり}を{飲|の}む."
+      ],
+      "exercises": [
+        {
+          "id": "v5-06-e01",
+          "type": "choice",
+          "uses": ["v5-02", "v5-03"],
+          "jp": "{毎朝|まいあさ}＿を{飲|の}みます。",
+          "fr": "Je bois du café tous les matins.",
+          "choices": ["コーヒー", "パン", "{肉|にく}", "{野菜|やさい}"],
+          "a": 0,
+          "explain": "Avec {飲|の}む, il faut une boisson."
+        },
+        {
+          "id": "v5-06-e02",
+          "type": "choice",
+          "jp": "＿は{飲|の}み{物|もの}です。",
+          "fr": "Le lait est une boisson.",
+          "choices": ["ぎゅうにゅう", "たまご", "{魚|さかな}", "パン"],
+          "a": 0
+        },
+        {
+          "id": "v5-06-e03",
+          "type": "choice",
+          "uses": ["v5-02", "v5-03"],
+          "jp": "{朝|あさ}{七時|しちじ}に＿を{食|た}べます。",
+          "fr": "Je prends mon petit-déjeuner à sept heures du matin.",
+          "choices": ["{朝|あさ}ご{飯|はん}", "{晩|ばん}ご{飯|はん}", "{昼|ひる}ご{飯|はん}", "{飲|の}み{物|もの}"],
+          "a": 0,
+          "explain": "À sept heures du matin : {朝|あさ}ご{飯|はん}. Une boisson ne se « mange » pas."
+        },
+        {
+          "id": "v5-06-e04",
+          "type": "choice",
+          "uses": ["v5-02", "v5-03"],
+          "jp": "＿は{夜|よる}{七時|しちじ}ごろ{家族|かぞく}と{食|た}べます。",
+          "fr": "Je dîne vers sept heures du soir avec ma famille.",
+          "choices": ["{晩|ばん}ご{飯|はん}", "{朝|あさ}ご{飯|はん}", "{昼|ひる}ご{飯|はん}", "お{茶|ちゃ}"],
+          "a": 0
+        },
+        {
+          "id": "v5-06-e05",
+          "type": "choice",
+          "uses": ["v5-01", "v5-02"],
+          "jp": "{子|こ}どもは＿を{飲|の}みません。{大人|おとな}は{飲|の}みます。",
+          "fr": "Les enfants ne boivent pas d'alcool. Les adultes, si.",
+          "choices": ["お{酒|さけ}", "{水|みず}", "ぎゅうにゅう", "お{茶|ちゃ}"],
+          "a": 0,
+          "explain": "Seul l'alcool est réservé aux adultes."
+        },
+        {
+          "id": "v5-06-e06",
+          "type": "choice",
+          "jp": "すみません、＿をください。のどがかわきました。",
+          "fr": "Excusez-moi, de l'eau s'il vous plaît. J'ai soif.",
+          "choices": ["{水|みず}", "{肉|にく}", "パン", "たまご"],
+          "a": 0,
+          "explain": "のどがかわきました = j'ai soif : il faut une boisson."
+        },
+        {
+          "id": "v5-06-e07",
+          "type": "choice",
+          "jp": "{好|す}きな＿は{何|なん}ですか。— すしです。",
+          "fr": "Quel est ton plat préféré ? — Les sushis.",
+          "choices": ["{食|た}べ{物|もの}", "{飲|の}み{物|もの}", "{野菜|やさい}", "{果物|くだもの}"],
+          "a": 0,
+          "explain": "Les sushis sont un plat : {食|た}べ{物|もの}. Ce n'est ni une boisson, ni un légume, ni un fruit."
+        },
+        {
+          "id": "v5-06-e08",
+          "type": "choice",
+          "jp": "バナナとりんごは＿です。",
+          "fr": "Les bananes et les pommes sont des fruits.",
+          "choices": ["{果物|くだもの}", "{野菜|やさい}", "{肉|にく}", "{飲|の}み{物|もの}"],
+          "a": 0
+        },
+        {"id": "v5-06-e09", "type": "choice", "q": "Lequel **n'est pas** une boisson ?", "choices": ["たまご", "ぎゅうにゅう", "お{酒|さけ}", "コーヒー"], "a": 0},
+        {
+          "id": "v5-06-e10",
+          "type": "choice",
+          "uses": ["v5-02"],
+          "q": "Que veut dire : もうご{飯|はん}を{食|た}べましたか。",
+          "choices": ["Tu as déjà mangé ?", "Tu as déjà fait cuire le riz ?", "Tu as déjà acheté du riz ?", "Tu manges du riz ?"],
+          "a": 0,
+          "explain": "ご{飯|はん} = le riz cuit, mais surtout le repas. La question veut dire « tu as déjà mangé ? »."
+        },
+        {
+          "id": "v5-06-e11",
+          "type": "choice",
+          "q": "Comment se lit **果物** ?",
+          "choices": ["くだもの", "かぶつ", "はてもの", "かもの"],
+          "a": 0,
+          "explain": "{果物|くだもの} : lecture irrégulière."
+        },
+        {"id": "v5-06-e12", "type": "choice", "q": "Comment se lit **野菜** ?", "choices": ["やさい", "のさい", "やな", "のな"], "a": 0},
+        {
+          "id": "v5-06-e13",
+          "type": "choice",
+          "q": "Comment se lit **晩ご飯** ?",
+          "choices": ["ばんごはん", "よるごはん", "ばんごめし", "ばんごばん"],
+          "a": 0,
+          "explain": "{晩|ばん}ご{飯|はん}. よるごはん existe aussi, mais il s'écrit {夜|よる}ご{飯|はん}."
+        },
+        {"id": "v5-06-e14", "type": "choice", "q": "Comment dit-on « légumes » ?", "choices": ["{野菜|やさい}", "{果物|くだもの}", "{肉|にく}", "{魚|さかな}"], "a": 0},
+        {
+          "id": "v5-06-e15",
+          "type": "choice",
+          "q": "Que veut dire **{飲|の}み{物|もの}** ?",
+          "choices": ["boisson", "nourriture", "repas", "alcool"],
+          "a": 0
+        },
+        {
+          "id": "v5-06-e16",
+          "type": "order",
+          "fr": "Qu'est-ce que vous voulez boire ?",
+          "tokens": ["{飲|の}み{物|もの}", "は", "{何|なに}", "が", "いい", "です", "か"]
+        },
+        {
+          "id": "v5-06-e17",
+          "type": "order",
+          "uses": ["v5-02"],
+          "fr": "J'ai acheté de la viande et du poisson au supermarché.",
+          "tokens": ["スーパー", "で", "{肉|にく}", "と", "{魚|さかな}", "を", "{買|か}いました"],
+          "alt": [
+            ["スーパー", "で", "{魚|さかな}", "と", "{肉|にく}", "を", "{買|か}いました"],
+            ["{肉|にく}", "と", "{魚|さかな}", "を", "スーパー", "で", "{買|か}いました"],
+            ["{魚|さかな}", "と", "{肉|にく}", "を", "スーパー", "で", "{買|か}いました"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "v5-07",
+      "title": "Nombres et prix",
+      "words": [
+        {"jp": "{四|よん}", "kana": "よん", "fr": "quatre (aussi : し)", "ex": "コーヒーは{四百円|よんひゃくえん}です。", "exFr": "Le café coûte 400 yens."},
+        {"jp": "{七|なな}", "kana": "なな", "fr": "sept (aussi : しち)", "ex": "このペンは{七十円|ななじゅうえん}です。", "exFr": "Ce stylo coûte 70 yens."},
+        {"jp": "{九|きゅう}", "kana": "きゅう", "fr": "neuf (aussi : く)", "ex": "ランチは{九百円|きゅうひゃくえん}です。", "exFr": "Le menu du midi coûte 900 yens."},
+        {"jp": "{百|ひゃく}", "kana": "ひゃく", "fr": "cent", "ex": "{百円|ひゃくえん}ショップで{買|か}いました。", "exFr": "Je l'ai acheté dans une boutique à 100 yens."},
+        {"jp": "{三百|さんびゃく}", "kana": "さんびゃく", "fr": "trois cents", "ex": "このパンは{三百円|さんびゃくえん}です。", "exFr": "Ce pain coûte 300 yens."},
+        {"jp": "{六百|ろっぴゃく}", "kana": "ろっぴゃく", "fr": "six cents", "ex": "{駅|えき}までのきっぷは{六百円|ろっぴゃくえん}です。", "exFr": "Le billet jusqu'à la gare coûte 600 yens."},
+        {"jp": "{八百|はっぴゃく}", "kana": "はっぴゃく", "fr": "huit cents", "ex": "このかさは{八百円|はっぴゃくえん}でした。", "exFr": "Ce parapluie coûtait 800 yens."},
+        {"jp": "{千|せん}", "kana": "せん", "fr": "mille", "ex": "ランチは{千円|せんえん}ぐらいです。", "exFr": "Le déjeuner coûte environ 1 000 yens."},
+        {"jp": "{三千|さんぜん}", "kana": "さんぜん", "fr": "trois mille", "ex": "このシャツは{三千円|さんぜんえん}でした。", "exFr": "Cette chemise coûtait 3 000 yens."},
+        {"jp": "{八千|はっせん}", "kana": "はっせん", "fr": "huit mille", "ex": "{東京|とうきょう}までのきっぷは{八千円|はっせんえん}です。", "exFr": "Le billet jusqu'à Tokyo coûte 8 000 yens."},
+        {"jp": "{一万|いちまん}", "kana": "いちまん", "fr": "dix mille", "ex": "このくつは{一万円|いちまんえん}です。", "exFr": "Ces chaussures coûtent 10 000 yens."},
+        {"jp": "{円|えん}", "kana": "えん", "fr": "yen", "ex": "{一|いち}ドルは{何円|なんえん}ですか。", "exFr": "Un dollar, ça fait combien de yens ?"},
+        {"jp": "いくら", "kana": "いくら", "fr": "combien (prix)", "ex": "すみません、これはいくらですか。", "exFr": "Excusez-moi, combien ça coûte ?"},
+        {"jp": "お{金|かね}", "kana": "おかね", "fr": "argent", "ex": "{今日|きょう}はお{金|かね}がありません。", "exFr": "Aujourd'hui, je n'ai pas d'argent."},
+        {"jp": "ぜんぶ", "kana": "ぜんぶ", "fr": "tout ; en tout", "ex": "ぜんぶでいくらですか。", "exFr": "Ça fait combien en tout ?"}
+      ],
+      "sections": [
+        {
+          "h": "Les sons qui changent",
+          "p": ["Les centaines et les milliers changent de son avec 3, 6 et 8. Le reste est régulier ({二百|にひゃく}, {五千|ごせん}…)."],
+          "grid": {
+            "head": ["", "× 100", "× 1 000"],
+            "rows": [
+              ["1", "{百|ひゃく}", "{千|せん}"],
+              ["3", "さん==びゃく==", "さん==ぜん=="],
+              ["6", "==ろっぴゃく==", "ろくせん"],
+              ["8", "==はっぴゃく==", "==はっせん=="],
+              ["? (combien)", "なん==びゃく==", "なん==ぜん=="]
+            ]
+          }
+        }
+      ],
+      "pieges": [
+        "4 = **よん** (し est évité : même son que « mort »). Mais 4 heures = {四時|よじ}, 4 personnes = {四人|よにん}.",
+        "7 = **なな** ou しち (7 heures = {七時|しちじ}). 9 = **きゅう** ou く (9 heures = {九時|くじ}).",
+        "On compte par **dix mille** : 10 000 = {一万|いちまん}, 100 000 = {十万|じゅうまん}. Et on dit {百|ひゃく}, {千|せん} tout court (pas いちひゃく, rarement いっせん).",
+        "いくら = combien **ça coûte**. Pour un nombre d'objets : いくつ (leçon suivante).",
+        "On dit presque toujours お{金|かね}, avec お."
+      ],
+      "exercises": [
+        {
+          "id": "v5-07-e01",
+          "type": "choice",
+          "q": "Comment se lit **三百** ?",
+          "choices": ["さんびゃく", "さんひゃく", "さんぴゃく", "みひゃく"],
+          "a": 0,
+          "explain": "Après 3, ひゃく devient びゃく."
+        },
+        {"id": "v5-07-e02", "type": "choice", "q": "Comment se lit **六百** ?", "choices": ["ろっぴゃく", "ろくひゃく", "ろくびゃく", "むっぴゃく"], "a": 0},
+        {"id": "v5-07-e03", "type": "choice", "q": "Comment se lit **八百** ?", "choices": ["はっぴゃく", "はちひゃく", "はちびゃく", "やっぴゃく"], "a": 0},
+        {
+          "id": "v5-07-e04",
+          "type": "choice",
+          "q": "Comment se lit **三千** ?",
+          "choices": ["さんぜん", "さんせん", "みせん", "さんでん"],
+          "a": 0,
+          "explain": "Après 3, せん devient ぜん."
+        },
+        {"id": "v5-07-e05", "type": "choice", "q": "Comment se lit **一万** ?", "choices": ["いちまん", "ひとまん", "いちばん", "いっまん"], "a": 0},
+        {
+          "id": "v5-07-e06",
+          "type": "choice",
+          "q": "Comment se lit le prix **4 400 円** ?",
+          "choices": ["よんせんよんひゃくえん", "しせんしひゃくえん", "よんせんしひゃくえん", "よせんよひゃくえん"],
+          "a": 0,
+          "explain": "4 se dit よん dans les prix : よんせん, よんひゃく."
+        },
+        {
+          "id": "v5-07-e07",
+          "type": "choice",
+          "q": "Comment se lit le prix **900 円** ?",
+          "choices": ["きゅうひゃくえん", "くひゃくえん", "きゅうびゃくえん", "くびゃくえん"],
+          "a": 0,
+          "explain": "9 = きゅう dans les prix (く sert pour 9 heures : {九時|くじ})."
+        },
+        {
+          "id": "v5-07-e08",
+          "type": "choice",
+          "jp": "すみません、このかばんは＿ですか。— {三千円|さんぜんえん}です。",
+          "fr": "Excusez-moi, combien coûte ce sac ? — 3 000 yens.",
+          "choices": ["いくら", "いくつ", "{何|なに}", "どこ"],
+          "a": 0,
+          "explain": "La réponse est un prix : いくら."
+        },
+        {
+          "id": "v5-07-e09",
+          "type": "choice",
+          "uses": ["v5-01", "v5-02"],
+          "jp": "＿がありませんから、{何|なに}も{買|か}いません。",
+          "fr": "Je n'ai pas d'argent, alors je n'achète rien.",
+          "choices": ["お{金|かね}", "{名前|なまえ}", "いくら", "ぜんぶ"],
+          "a": 0
+        },
+        {
+          "id": "v5-07-e10",
+          "type": "choice",
+          "uses": ["v5-01"],
+          "jp": "＿でいくらですか。— {千二百円|せんにひゃくえん}です。",
+          "fr": "Ça fait combien en tout ? — 1 200 yens.",
+          "choices": ["ぜんぶ", "いくら", "お{金|かね}", "{名前|なまえ}"],
+          "a": 0,
+          "explain": "ぜんぶで = en tout."
+        },
+        {
+          "id": "v5-07-e11",
+          "type": "choice",
+          "q": "Calcul : {三百円|さんびゃくえん} + {三百円|さんびゃくえん} = ?",
+          "choices": ["{六百円|ろっぴゃくえん}", "{三千円|さんぜんえん}", "{六千円|ろくせんえん}", "{九百円|きゅうひゃくえん}"],
+          "a": 0
+        },
+        {
+          "id": "v5-07-e12",
+          "type": "choice",
+          "q": "Calcul : {八千円|はっせんえん} + {二千円|にせんえん} = ?",
+          "choices": ["{一万円|いちまんえん}", "{十千円|じゅうせんえん}", "{千万円|せんまんえん}", "{百万円|ひゃくまんえん}"],
+          "a": 0,
+          "explain": "10 000 = {一万|いちまん}. 十千 n'existe pas : on compte par 10 000."
+        },
+        {
+          "id": "v5-07-e13",
+          "type": "choice",
+          "uses": ["v5-06"],
+          "q": "Comment dit-on « argent » ?",
+          "choices": ["お{金|かね}", "お{茶|ちゃ}", "{円|えん}", "いくら"],
+          "a": 0
+        },
+        {
+          "id": "v5-07-e14",
+          "type": "choice",
+          "q": "Que veut dire **いくら** ?",
+          "choices": ["combien (prix)", "combien (nombre d'objets)", "quand", "pourquoi"],
+          "a": 0
+        },
+        {"id": "v5-07-e15", "type": "order", "fr": "Ça fait combien en tout ?", "tokens": ["ぜんぶ", "で", "いくら", "です", "か"]},
+        {"id": "v5-07-e16", "type": "order", "fr": "Ce parapluie coûtait 800 yens.", "tokens": ["この", "かさ", "は", "{八百円|はっぴゃくえん}", "でした"]}
+      ]
+    },
+    {
+      "id": "v5-08",
+      "title": "Compter les choses et les gens",
+      "words": [
+        {"jp": "{一|ひと}つ", "kana": "ひとつ", "fr": "un (objet)", "ex": "りんごを{一|ひと}つください。", "exFr": "Une pomme, s'il vous plaît."},
+        {"jp": "{二|ふた}つ", "kana": "ふたつ", "fr": "deux (objets)", "ex": "コーヒーを{二|ふた}つおねがいします。", "exFr": "Deux cafés, s'il vous plaît."},
+        {"jp": "{三|みっ}つ", "kana": "みっつ", "fr": "trois (objets)", "ex": "たまごを{三|みっ}つ{買|か}いました。", "exFr": "J'ai acheté trois œufs."},
+        {"jp": "{四|よっ}つ", "kana": "よっつ", "fr": "quatre (objets)", "ex": "いすが{四|よっ}つあります。", "exFr": "Il y a quatre chaises."},
+        {"jp": "{五|いつ}つ", "kana": "いつつ", "fr": "cinq (objets)", "ex": "このりんごは{五|いつ}つで{五百円|ごひゃくえん}です。", "exFr": "Ces pommes, c'est 500 yens les cinq."},
+        {"jp": "{十|とお}", "kana": "とお", "fr": "dix (objets)", "ex": "{十|とお}までかぞえてください。", "exFr": "Compte jusqu'à dix."},
+        {"jp": "いくつ", "kana": "いくつ", "fr": "combien (objets) ; âge", "ex": "たまごはいくつありますか。", "exFr": "Combien y a-t-il d'œufs ?"},
+        {"jp": "{一人|ひとり}", "kana": "ひとり", "fr": "une personne ; seul", "ex": "{一人|ひとり}で{旅行|りょこう}します。", "exFr": "Je voyage seul."},
+        {"jp": "{二人|ふたり}", "kana": "ふたり", "fr": "deux personnes", "ex": "{二人|ふたり}で{映画|えいが}を{見|み}ました。", "exFr": "Nous avons vu un film à deux."},
+        {"jp": "〜{人|にん}", "kana": "〜にん", "fr": "personnes (3 et +)", "ex": "{家族|かぞく}は{四人|よにん}です。", "exFr": "Nous sommes quatre dans ma famille."},
+        {"jp": "〜まい", "kana": "〜まい", "fr": "objets plats", "ex": "{切手|きって}を{三|さん}まい{買|か}いました。", "exFr": "J'ai acheté trois timbres."},
+        {"jp": "〜{本|ほん}", "kana": "〜ほん", "fr": "objets longs", "ex": "ペンが{二本|にほん}あります。", "exFr": "Il y a deux stylos."},
+        {"jp": "〜さつ", "kana": "〜さつ", "fr": "livres, cahiers", "ex": "{本|ほん}を{二|に}さつ{借|か}りました。", "exFr": "J'ai emprunté deux livres."},
+        {"jp": "〜{台|だい}", "kana": "〜だい", "fr": "machines, véhicules", "ex": "{車|くるま}が{二台|にだい}あります。", "exFr": "Il y a deux voitures."},
+        {"jp": "〜さい", "kana": "〜さい", "fr": "ans (âge)", "ex": "{兄|あに}は{三十|さんじゅう}さいです。", "exFr": "Mon grand frère a trente ans."}
+      ],
+      "sections": [
+        {
+          "h": "Le tableau des compteurs",
+          "p": ["En surligné : les sons qui changent. Au-delà de 10 objets, on dit simplement じゅういち, じゅうに… (sans つ)."],
+          "grid": {
+            "head": ["", "objets (つ)", "personnes", "objets longs (本)"],
+            "rows": [
+              ["1", "ひとつ", "==ひとり==", "==いっぽん=="],
+              ["2", "ふたつ", "==ふたり==", "にほん"],
+              ["3", "みっつ", "さんにん", "さん==ぼん=="],
+              ["4", "よっつ", "==よにん==", "よんほん"],
+              ["5", "いつつ", "ごにん", "ごほん"],
+              ["6", "むっつ", "ろくにん", "==ろっぽん=="],
+              ["7", "ななつ", "ななにん", "ななほん"],
+              ["8", "やっつ", "はちにん", "==はっぽん=="],
+              ["9", "ここのつ", "きゅうにん", "きゅうほん"],
+              ["10", "とお", "じゅうにん", "==じゅっぽん=="],
+              ["?", "いくつ", "なんにん", "なん==ぼん=="]
+            ]
+          }
+        }
+      ],
+      "pieges": [
+        "1 et 2 personnes sont irréguliers : **ひとり**, **ふたり**. Puis さんにん… et 4 personnes = **よにん**.",
+        "Le plus naturel : chose + を / が + nombre + verbe : りんごを{三|みっ}つ{買|か}います, {車|くるま}が{二台|にだい}あります.",
+        "Les compteurs les plus utiles : 〜まい pour les objets plats (feuilles, billets, timbres, chemises), 〜{本|ほん} pour les objets longs (stylos, bouteilles, parapluies), 〜さつ pour les livres et cahiers, 〜{台|だい} pour les machines (voitures, vélos, ordinateurs).",
+        "{二本|にほん} (deux objets longs) se prononce exactement comme {日本|にほん} (le Japon) !",
+        "いくつ = combien d'objets, et aussi l'âge : おいくつですか (poli). Pour un prix : いくら.",
+        "20 ans se dit **はたち** (pas にじゅっさい). {一人|ひとり}で = seul, tout seul."
+      ],
+      "exercises": [
+        {
+          "id": "v5-08-e01",
+          "type": "choice",
+          "q": "Tu veux trois pommes. Complète.",
+          "jp": "りんごを＿ください。",
+          "fr": "Trois pommes, s'il vous plaît.",
+          "choices": ["{三|みっ}つ", "{三人|さんにん}", "{三本|さんぼん}", "{三台|さんだい}"],
+          "a": 0,
+          "explain": "Des objets ronds sans compteur spécial : ひとつ, ふたつ, みっつ…"
+        },
+        {
+          "id": "v5-08-e02",
+          "type": "choice",
+          "uses": ["v5-01"],
+          "jp": "{家族|かぞく}は＿です。{父|ちち}と{母|はは}と{私|わたし}です。",
+          "fr": "Nous sommes trois dans ma famille : mon père, ma mère et moi.",
+          "choices": ["{三人|さんにん}", "{三|みっ}つ", "{三台|さんだい}", "{三|さん}まい"],
+          "a": 0
+        },
+        {
+          "id": "v5-08-e03",
+          "type": "choice",
+          "jp": "{車|くるま}が{二|に}＿あります。",
+          "fr": "Il y a deux voitures.",
+          "choices": ["{台|だい}", "{本|ほん}", "まい", "さつ"],
+          "a": 0,
+          "explain": "Les machines (voitures, vélos, ordinateurs) : 〜{台|だい}."
+        },
+        {
+          "id": "v5-08-e04",
+          "type": "choice",
+          "uses": ["v5-04"],
+          "jp": "{図書館|としょかん}で{本|ほん}を{三|さん}＿{借|か}りました。",
+          "fr": "J'ai emprunté trois livres à la bibliothèque.",
+          "choices": ["さつ", "{台|だい}", "まい", "{人|にん}"],
+          "a": 0,
+          "explain": "Les livres et les cahiers : 〜さつ."
+        },
+        {
+          "id": "v5-08-e05",
+          "type": "choice",
+          "jp": "{切手|きって}を{五|ご}＿ください。",
+          "fr": "Cinq timbres, s'il vous plaît.",
+          "choices": ["まい", "さつ", "{台|だい}", "{人|にん}"],
+          "a": 0,
+          "explain": "Les objets plats (timbres, billets, feuilles) : 〜まい."
+        },
+        {
+          "id": "v5-08-e06",
+          "type": "choice",
+          "q": "Il y a trois stylos. Complète.",
+          "jp": "ペンが＿あります。",
+          "fr": "Il y a trois stylos.",
+          "choices": ["{三本|さんぼん}", "{三|さん}まい", "{三台|さんだい}", "{三人|さんにん}"],
+          "a": 0,
+          "explain": "Objets longs : 〜{本|ほん}, et après 3 on dit さんぼん."
+        },
+        {
+          "id": "v5-08-e07",
+          "type": "choice",
+          "jp": "たまごは＿ありますか。— {六|むっ}つあります。",
+          "fr": "Combien y a-t-il d'œufs ? — Il y en a six.",
+          "choices": ["いくつ", "いくら", "{何人|なんにん}", "{何台|なんだい}"],
+          "a": 0
+        },
+        {
+          "id": "v5-08-e08",
+          "type": "choice",
+          "uses": ["v5-01", "v5-02", "v5-03"],
+          "jp": "{日曜日|にちようび}は＿で{映画|えいが}を{見|み}ました。{友|とも}だちはいそがしかったです。",
+          "fr": "Dimanche, j'ai vu un film seul. Mon ami était occupé.",
+          "choices": ["{一人|ひとり}", "{一|ひと}つ", "{一本|いっぽん}", "{一台|いちだい}"],
+          "a": 0,
+          "explain": "{一人|ひとり}で = seul."
+        },
+        {"id": "v5-08-e09", "type": "choice", "q": "Comment se lit **四人** ?", "choices": ["よにん", "よんにん", "しにん", "よっにん"], "a": 0},
+        {"id": "v5-08-e10", "type": "choice", "q": "Comment se lit **一人** ?", "choices": ["ひとり", "いちにん", "いちり", "ひとにん"], "a": 0},
+        {"id": "v5-08-e11", "type": "choice", "q": "Comment se lit **六本** ?", "choices": ["ろっぽん", "ろくほん", "ろくぼん", "むっぽん"], "a": 0},
+        {"id": "v5-08-e12", "type": "choice", "q": "Comment se lit **三本** ?", "choices": ["さんぼん", "さんほん", "さんぽん", "みっぽん"], "a": 0},
+        {"id": "v5-08-e13", "type": "choice", "q": "Comment dit-on « cinq (objets) » ?", "choices": ["いつつ", "ごつ", "いっつ", "ごっつ"], "a": 0},
+        {
+          "id": "v5-08-e14",
+          "type": "choice",
+          "q": "Comment demander **poliment** l'âge de quelqu'un ?",
+          "choices": ["おいくつですか。", "おいくらですか。", "{何人|なんにん}ですか。", "いくつありますか。"],
+          "a": 0,
+          "explain": "おいくつですか = quel âge avez-vous ? (おいくら = combien ça coûte)."
+        },
+        {
+          "id": "v5-08-e15",
+          "type": "choice",
+          "q": "Quel mot se prononce exactement comme **二本** (deux objets longs) ?",
+          "choices": ["{日本|にほん}", "{二人|ふたり}", "{日曜日|にちようび}", "{本|ほん}"],
+          "a": 0
+        },
+        {
+          "id": "v5-08-e16",
+          "type": "order",
+          "uses": ["v5-04"],
+          "fr": "Il y a deux voitures devant la maison.",
+          "tokens": ["{家|いえ}の", "{前|まえ}に", "{車|くるま}が", "{二台|にだい}", "あります"],
+          "alt": [["{車|くるま}が", "{家|いえ}の", "{前|まえ}に", "{二台|にだい}", "あります"]]
+        },
+        {"id": "v5-08-e17", "type": "order", "uses": ["v5-06"], "fr": "Deux cafés, s'il vous plaît.", "tokens": ["コーヒーを", "{二|ふた}つ", "おねがいします"]}
+      ]
+    },
+    {
+      "id": "v5-09",
+      "title": "Mots interrogatifs",
+      "words": [
+        {"jp": "{何|なに}", "kana": "なに", "fr": "quoi, que", "ex": "{毎朝|まいあさ}{何|なに}を{食|た}べますか。", "exFr": "Qu'est-ce que tu manges le matin ?"},
+        {"jp": "{何|なん}", "kana": "なん", "fr": "quoi (devant です…)", "ex": "これは{何|なん}ですか。", "exFr": "Qu'est-ce que c'est ?"},
+        {"jp": "どこ", "kana": "どこ", "fr": "où", "ex": "{夏休|なつやす}みはどこへ{行|い}きますか。", "exFr": "Où vas-tu pendant les vacances d'été ?"},
+        {"jp": "いつ", "kana": "いつ", "fr": "quand", "ex": "たんじょうびはいつですか。", "exFr": "C'est quand, ton anniversaire ?"},
+        {"jp": "どう", "kana": "どう", "fr": "comment (avis, état)", "ex": "{日本|にほん}はどうですか。", "exFr": "Comment trouves-tu le Japon ?"},
+        {"jp": "どんな", "kana": "どんな", "fr": "quel genre de (+ nom)", "ex": "どんな{音楽|おんがく}が{好|す}きですか。", "exFr": "Quel genre de musique aimes-tu ?"},
+        {"jp": "どれ", "kana": "どれ", "fr": "lequel (parmi plusieurs)", "ex": "あなたのかさはどれですか。", "exFr": "Lequel est ton parapluie ?"},
+        {"jp": "どの", "kana": "どの", "fr": "quel (+ nom)", "ex": "どの{人|ひと}が{田中|たなか}さんですか。", "exFr": "Quelle personne est M. Tanaka ?"},
+        {"jp": "どちら", "kana": "どちら", "fr": "lequel des deux", "ex": "コーヒーと{紅茶|こうちゃ}と、どちらがいいですか。", "exFr": "Café ou thé, qu'est-ce que vous préférez ?"},
+        {"jp": "どうして", "kana": "どうして", "fr": "pourquoi", "ex": "どうして{昨日|きのう}{来|き}ませんでしたか。", "exFr": "Pourquoi n'es-tu pas venu hier ?"},
+        {"jp": "なぜ", "kana": "なぜ", "fr": "pourquoi (plus soutenu)", "ex": "なぜ{日本語|にほんご}を{勉強|べんきょう}していますか。", "exFr": "Pourquoi étudiez-vous le japonais ?"},
+        {"jp": "どなた", "kana": "どなた", "fr": "qui (poli)", "ex": "あの{方|かた}はどなたですか。", "exFr": "Qui est cette personne ?"},
+        {"jp": "{何時|なんじ}", "kana": "なんじ", "fr": "quelle heure", "ex": "{毎朝|まいあさ}{何時|なんじ}に{起|お}きますか。", "exFr": "À quelle heure te lèves-tu le matin ?"},
+        {"jp": "{何人|なんにん}", "kana": "なんにん", "fr": "combien de personnes", "ex": "{家族|かぞく}は{何人|なんにん}ですか。", "exFr": "Combien êtes-vous dans votre famille ?"},
+        {"jp": "どのぐらい", "kana": "どのぐらい", "fr": "combien de temps", "ex": "{駅|えき}までどのぐらいかかりますか。", "exFr": "Combien de temps faut-il jusqu'à la gare ?"}
+      ],
+      "pieges": [
+        "{何|なに} ou {何|なん} ? **なん** devant です, の, et les compteurs ({何時|なんじ}, {何人|なんにん}, {何円|なんえん}). **なに** devant を, が, と… : {何|なに}を{食|た}べますか.",
+        "どれ = lequel parmi **trois ou plus** ; どちら = lequel des **deux** ; どの se met **devant un nom** (どの{人|ひと}), jamais seul.",
+        "どう = comment (avis, état : どうですか) ; どんな + **nom** = quel genre de (どんな{音楽|おんがく}).",
+        "どうして / なぜ = pourquoi ; on répond avec 〜から. どうして est plus courant à l'oral.",
+        "だれ → **どなた** en poli ; どこ → **どちら** en poli (お{国|くに}はどちらですか).",
+        "Pas de に après いつ : いつ{来|き}ますか (pas いつに)."
+      ],
+      "exercises": [
+        {
+          "id": "v5-09-e01",
+          "type": "choice",
+          "uses": ["v5-02"],
+          "jp": "{夏休|なつやす}みは＿へ{行|い}きますか。— {京都|きょうと}へ{行|い}きます。",
+          "fr": "Où vas-tu pendant les vacances d'été ? — À Kyoto.",
+          "choices": ["どこ", "いつ", "{何|なに}", "どう"],
+          "a": 0,
+          "explain": "La réponse est un lieu : どこ."
+        },
+        {
+          "id": "v5-09-e02",
+          "type": "choice",
+          "jp": "たんじょうびは＿ですか。— {五月|ごがつ}{三日|みっか}です。",
+          "fr": "C'est quand, ton anniversaire ? — Le 3 mai.",
+          "choices": ["いつ", "どこ", "どれ", "どう"],
+          "a": 0,
+          "explain": "La réponse est une date : いつ."
+        },
+        {
+          "id": "v5-09-e03",
+          "type": "choice",
+          "jp": "＿{音楽|おんがく}が{好|す}きですか。— ジャズが{好|す}きです。",
+          "fr": "Quel genre de musique aimes-tu ? — J'aime le jazz.",
+          "choices": ["どんな", "どう", "どれ", "どこ"],
+          "a": 0,
+          "explain": "Devant un nom : どんな + nom. どう et どれ ne se mettent jamais devant un nom."
+        },
+        {
+          "id": "v5-09-e04",
+          "type": "choice",
+          "jp": "あなたのかばんは＿ですか。— その{黒|くろ}いのです。",
+          "fr": "Lequel est ton sac ? — Le noir, là.",
+          "choices": ["どれ", "どの", "どんな", "どう"],
+          "a": 0,
+          "explain": "Choisir parmi plusieurs objets, sans nom après : どれ. どの et どんな ont besoin d'un nom après eux."
+        },
+        {
+          "id": "v5-09-e05",
+          "type": "choice",
+          "uses": ["v5-01"],
+          "jp": "＿{人|ひと}が{田中|たなか}さんですか。— あのめがねの{人|ひと}です。",
+          "fr": "Quelle personne est M. Tanaka ? — L'homme à lunettes, là-bas.",
+          "choices": ["どの", "どれ", "どこ", "どう"],
+          "a": 0,
+          "explain": "Devant un nom, pour désigner : どの + nom."
+        },
+        {
+          "id": "v5-09-e06",
+          "type": "choice",
+          "uses": ["v5-06"],
+          "jp": "コーヒーと{紅茶|こうちゃ}と、＿がいいですか。",
+          "fr": "Café ou thé, qu'est-ce que vous préférez ?",
+          "choices": ["どちら", "いつ", "どこ", "どの"],
+          "a": 0,
+          "explain": "A と B と, どちら… : choix entre **deux** choses."
+        },
+        {
+          "id": "v5-09-e07",
+          "type": "choice",
+          "uses": ["v5-03", "v5-04"],
+          "jp": "＿{昨日|きのう}{学校|がっこう}を{休|やす}みましたか。— {頭|あたま}がいたかったからです。",
+          "fr": "Pourquoi as-tu manqué l'école hier ? — Parce que j'avais mal à la tête.",
+          "choices": ["どうして", "いつ", "どこ", "どう"],
+          "a": 0,
+          "explain": "La réponse finit par から (parce que) : la question est どうして."
+        },
+        {
+          "id": "v5-09-e08",
+          "type": "choice",
+          "uses": ["v5-02", "v5-03"],
+          "jp": "{毎朝|まいあさ}＿に{起|お}きますか。— {六時|ろくじ}です。",
+          "fr": "À quelle heure te lèves-tu le matin ? — À six heures.",
+          "choices": ["{何時|なんじ}", "{何人|なんにん}", "いつ", "どのぐらい"],
+          "a": 0,
+          "explain": "いつ ne prend pas に, et la réponse est une heure : {何時|なんじ}に."
+        },
+        {
+          "id": "v5-09-e09",
+          "type": "choice",
+          "uses": ["v5-07", "v5-08"],
+          "jp": "{家族|かぞく}は＿ですか。— {四人|よにん}です。",
+          "fr": "Combien êtes-vous dans votre famille ? — Quatre.",
+          "choices": ["{何人|なんにん}", "{何時|なんじ}", "いくら", "いくつ"],
+          "a": 0
+        },
+        {
+          "id": "v5-09-e10",
+          "type": "choice",
+          "uses": ["v5-04"],
+          "jp": "{駅|えき}まで＿かかりますか。— {十分|じゅっぷん}ぐらいです。",
+          "fr": "Combien de temps faut-il jusqu'à la gare ? — Environ dix minutes.",
+          "choices": ["どのぐらい", "いくつ", "どこ", "どれ"],
+          "a": 0
+        },
+        {"id": "v5-09-e11", "type": "choice", "q": "Dans « これは何ですか », 何 se lit…", "choices": ["なん", "なに"], "a": 0, "explain": "Devant です : なん."},
+        {"id": "v5-09-e12", "type": "choice", "q": "Dans « 何を飲みますか », 何 se lit…", "choices": ["なに", "なん"], "a": 0, "explain": "Devant を : なに."},
+        {"id": "v5-09-e13", "type": "choice", "q": "Comment dit-on « pourquoi » ?", "choices": ["どうして", "どう", "どこ", "どれ"], "a": 0},
+        {"id": "v5-09-e14", "type": "choice", "q": "Que veut dire **どんな** ?", "choices": ["quel genre de", "comment", "lequel", "combien"], "a": 0},
+        {
+          "id": "v5-09-e15",
+          "type": "choice",
+          "q": "Tu accueilles un visiteur que tu ne connais pas. Comment demandes-tu **poliment** qui il est ?",
+          "choices": ["どなたですか。", "だれですか。", "どちらですか。", "{何|なん}ですか。"],
+          "a": 0,
+          "explain": "どなた est la forme polie de だれ. どちらですか seul demande « lequel / où »."
+        },
+        {
+          "id": "v5-09-e16",
+          "type": "choice",
+          "uses": ["v5-02"],
+          "jp": "{田中|たなか}さんはいつ＿{来|き}ますか。",
+          "fr": "Quand est-ce que M. Tanaka vient ?",
+          "choices": ["(rien)", "に", "で", "を"],
+          "a": 0,
+          "explain": "Pas de particule après いつ."
+        },
+        {
+          "id": "v5-09-e17",
+          "type": "order",
+          "uses": ["v5-03"],
+          "fr": "Comment était le film d'hier ?",
+          "tokens": ["{昨日|きのう}の", "{映画|えいが}", "は", "どう", "でした", "か"]
+        },
+        {
+          "id": "v5-09-e18",
+          "type": "order",
+          "uses": ["v5-02"],
+          "fr": "Ce sac, où l'as-tu acheté ?",
+          "tokens": ["その", "かばん", "は", "どこ", "で", "{買|か}いました", "か"],
+          "alt": [["どこ", "で", "その", "かばん", "は", "{買|か}いました", "か"]]
+        }
+      ]
+    },
+    {
+      "id": "v5-10",
+      "title": "Adverbes de fréquence et de quantité",
+      "words": [
+        {"jp": "いつも", "kana": "いつも", "fr": "toujours", "ex": "いつも{七時|しちじ}に{起|お}きます。", "exFr": "Je me lève toujours à sept heures."},
+        {"jp": "よく", "kana": "よく", "fr": "souvent ; bien", "ex": "{週末|しゅうまつ}はよくテニスをします。", "exFr": "Le week-end, je joue souvent au tennis."},
+        {"jp": "ときどき", "kana": "ときどき", "fr": "parfois", "ex": "ときどき{映画|えいが}を{見|み}ます。", "exFr": "Je regarde parfois des films."},
+        {"jp": "あまり", "kana": "あまり", "fr": "pas beaucoup (+ négatif)", "ex": "お{酒|さけ}はあまり{飲|の}みません。", "exFr": "Je ne bois pas beaucoup d'alcool."},
+        {"jp": "ぜんぜん", "kana": "ぜんぜん", "fr": "pas du tout (+ négatif)", "ex": "{肉|にく}はぜんぜん{食|た}べません。", "exFr": "Je ne mange pas du tout de viande."},
+        {"jp": "たくさん", "kana": "たくさん", "fr": "beaucoup", "ex": "{昨日|きのう}は{本|ほん}をたくさん{買|か}いました。", "exFr": "Hier, j'ai acheté beaucoup de livres."},
+        {"jp": "{少|すこ}し", "kana": "すこし", "fr": "un peu", "ex": "{日本語|にほんご}が{少|すこ}し{分|わ}かります。", "exFr": "Je comprends un peu le japonais."},
+        {"jp": "ちょっと", "kana": "ちょっと", "fr": "un peu ; un instant", "ex": "ちょっと{待|ま}ってください。", "exFr": "Attendez un instant, s'il vous plaît."},
+        {"jp": "とても", "kana": "とても", "fr": "très", "ex": "このケーキはとてもおいしいです。", "exFr": "Ce gâteau est très bon."},
+        {"jp": "もう", "kana": "もう", "fr": "déjà", "ex": "もう{晩|ばん}ご{飯|はん}を{食|た}べました。", "exFr": "J'ai déjà dîné."},
+        {"jp": "まだ", "kana": "まだ", "fr": "pas encore (+ négatif) ; encore", "ex": "まだ{昼|ひる}ご{飯|はん}を{食|た}べていません。", "exFr": "Je n'ai pas encore déjeuné."},
+        {"jp": "また", "kana": "また", "fr": "de nouveau, encore une fois", "ex": "また{来|き}てください。", "exFr": "Revenez, s'il vous plaît."},
+        {"jp": "すぐ", "kana": "すぐ", "fr": "tout de suite", "ex": "すぐ{行|い}きます。", "exFr": "J'arrive tout de suite."},
+        {"jp": "いっしょに", "kana": "いっしょに", "fr": "ensemble", "ex": "いっしょに{帰|かえ}りましょう。", "exFr": "Rentrons ensemble."},
+        {"jp": "だいたい", "kana": "だいたい", "fr": "à peu près, en général", "ex": "{毎晩|まいばん}だいたい{十一時|じゅういちじ}にねます。", "exFr": "En général, je me couche vers onze heures."}
+      ],
+      "sections": [
+        {
+          "h": "L'échelle de fréquence",
+          "grid": {
+            "head": ["", "Fréquence", "Exemple"],
+            "rows": [
+              ["toujours", "いつも", "いつも{飲|の}みます"],
+              ["souvent", "よく", "よく{飲|の}みます"],
+              ["parfois", "ときどき", "ときどき{飲|の}みます"],
+              ["pas beaucoup", "あまり ＋ ==négatif==", "あまり{飲|の}み==ません=="],
+              ["pas du tout", "ぜんぜん ＋ ==négatif==", "ぜんぜん{飲|の}み==ません=="]
+            ]
+          }
+        }
+      ],
+      "pieges": [
+        "あまり et ぜんぜん vont avec un **verbe négatif** : あまり{飲|の}みません. あまり{飲|の}みます ✗.",
+        "よく = souvent **et** bien : よく{分|わ}かりました = j'ai bien compris.",
+        "とても + adjectif positif (とてもおいしい). Avec un négatif, on emploie あまり : あまりおいしくないです.",
+        "もう (déjà) ↔ まだ (pas encore) : もう{食|た}べました / まだ{食|た}べていません.",
+        "**また** (de nouveau) ≠ **まだ** (pas encore) : un seul petit trait (゛) de différence !",
+        "ちょっと = un peu, un instant, et sert aussi à refuser poliment : {日曜日|にちようび}はちょっと… (dimanche, ça va être difficile…)."
+      ],
+      "exercises": [
+        {
+          "id": "v5-10-e01",
+          "type": "choice",
+          "uses": ["v5-02", "v5-06"],
+          "jp": "お{酒|さけ}は＿{飲|の}みません。{一|いっ}か{月|げつ}にいっかいぐらいです。",
+          "fr": "Je ne bois pas beaucoup d'alcool. À peu près une fois par mois.",
+          "choices": ["あまり", "ぜんぜん", "とても", "いつも"],
+          "a": 0,
+          "explain": "Une fois par mois : « pas beaucoup » → あまり. ぜんぜん (pas du tout) contredirait la suite."
+        },
+        {
+          "id": "v5-10-e02",
+          "type": "choice",
+          "uses": ["v5-02", "v5-06"],
+          "jp": "{肉|にく}は＿{食|た}べません。いっかいも{食|た}べたことがありません。",
+          "fr": "Je ne mange pas du tout de viande. Je n'en ai jamais mangé.",
+          "choices": ["ぜんぜん", "あまり", "とても", "だいたい"],
+          "a": 0,
+          "explain": "Jamais une seule fois : « pas du tout » → ぜんぜん."
+        },
+        {
+          "id": "v5-10-e03",
+          "type": "choice",
+          "uses": ["v5-02", "v5-03"],
+          "jp": "コーヒーは＿{飲|の}みます。{毎朝|まいあさ}です。",
+          "fr": "Je bois toujours du café. Tous les matins.",
+          "choices": ["いつも", "ときどき", "あまり", "ぜんぜん"],
+          "a": 0,
+          "explain": "Tous les matins = toujours : いつも. あまり et ぜんぜん demandent un négatif ; ときどき contredit « tous les matins »."
+        },
+        {
+          "id": "v5-10-e04",
+          "type": "choice",
+          "uses": ["v5-02"],
+          "jp": "{一|いっ}か{月|げつ}にいっかいぐらい、＿{映画|えいが}を{見|み}ます。",
+          "fr": "Environ une fois par mois, je regarde un film. Parfois.",
+          "choices": ["ときどき", "いつも", "ぜんぜん", "あまり"],
+          "a": 0,
+          "explain": "Avec un verbe affirmatif, あまり et ぜんぜん sont impossibles ; いつも contredit « une fois par mois »."
+        },
+        {
+          "id": "v5-10-e05",
+          "type": "choice",
+          "jp": "{日本語|にほんご}が＿{分|わ}かります。",
+          "fr": "Je comprends un peu le japonais.",
+          "choices": ["{少|すこ}し", "ぜんぜん", "あまり", "とても"],
+          "a": 0,
+          "explain": "あまり / ぜんぜん demandent 分かりません ; とても ne s'emploie pas seul avec 分かる."
+        },
+        {
+          "id": "v5-10-e06",
+          "type": "choice",
+          "jp": "＿{待|ま}ってください。",
+          "fr": "Attendez un instant, s'il vous plaît.",
+          "choices": ["ちょっと", "ぜんぜん", "あまり", "とても"],
+          "a": 0
+        },
+        {
+          "id": "v5-10-e07",
+          "type": "choice",
+          "jp": "このケーキは＿おいしいです。",
+          "fr": "Ce gâteau est très bon.",
+          "choices": ["とても", "ぜんぜん", "あまり", "すぐ"],
+          "a": 0,
+          "explain": "とても + adjectif affirmatif. あまり / ぜんぜん demanderaient おいしくないです."
+        },
+        {
+          "id": "v5-10-e08",
+          "type": "choice",
+          "uses": ["v5-06"],
+          "jp": "＿{晩|ばん}ご{飯|はん}を{食|た}べました。おなかがいっぱいです。",
+          "fr": "J'ai déjà dîné. J'ai le ventre plein.",
+          "choices": ["もう", "まだ", "あまり", "ぜんぜん"],
+          "a": 0,
+          "explain": "Une action terminée : もう + passé."
+        },
+        {
+          "id": "v5-10-e09",
+          "type": "choice",
+          "uses": ["v5-06"],
+          "jp": "＿{昼|ひる}ご{飯|はん}を{食|た}べていません。おなかがすきました。",
+          "fr": "Je n'ai pas encore déjeuné. J'ai faim.",
+          "choices": ["まだ", "また", "とても", "すぐ"],
+          "a": 0,
+          "explain": "まだ + ていません = pas encore."
+        },
+        {
+          "id": "v5-10-e10",
+          "type": "choice",
+          "uses": ["v5-03"],
+          "jp": "{今日|きょう}はありがとうございました。＿{来|き}てください。",
+          "fr": "Merci pour aujourd'hui. Revenez, s'il vous plaît.",
+          "choices": ["また", "まだ", "あまり", "ぜんぜん"],
+          "a": 0,
+          "explain": "また = de nouveau. まだ = pas encore : ne pas confondre !"
+        },
+        {
+          "id": "v5-10-e11",
+          "type": "choice",
+          "uses": ["v5-02"],
+          "jp": "{田中|たなか}さん、{電話|でんわ}ですよ。— はい、＿{行|い}きます。",
+          "fr": "M. Tanaka, téléphone ! — Oui, j'arrive tout de suite.",
+          "choices": ["すぐ", "あまり", "ぜんぜん", "まだ"],
+          "a": 0
+        },
+        {
+          "id": "v5-10-e12",
+          "type": "choice",
+          "uses": ["v5-02"],
+          "jp": "＿{帰|かえ}りましょう。",
+          "fr": "Rentrons ensemble.",
+          "choices": ["いっしょに", "ぜんぜん", "あまり", "まだ"],
+          "a": 0
+        },
+        {
+          "id": "v5-10-e13",
+          "type": "choice",
+          "uses": ["v5-02", "v5-03", "v5-08"],
+          "jp": "{昨日|きのう}は{本|ほん}を＿{買|か}いました。{十|じゅっ}さつです。",
+          "fr": "Hier, j'ai acheté beaucoup de livres. Dix.",
+          "choices": ["たくさん", "{少|すこ}し", "ぜんぜん", "あまり"],
+          "a": 0,
+          "explain": "Dix livres, c'est beaucoup : たくさん."
+        },
+        {
+          "id": "v5-10-e14",
+          "type": "choice",
+          "q": "Que veut dire **だいたい** ?",
+          "choices": ["à peu près, en général", "toujours", "jamais", "tout de suite"],
+          "a": 0
+        },
+        {"id": "v5-10-e15", "type": "choice", "q": "Quel est le contraire de **もう** (déjà) ?", "choices": ["まだ", "また", "すぐ", "いつも"], "a": 0},
+        {
+          "id": "v5-10-e16",
+          "type": "choice",
+          "uses": ["v5-02"],
+          "q": "Que veut dire : まだ{来|き}ません。",
+          "choices": ["Il n'est pas encore venu.", "Il ne viendra plus.", "Il revient encore.", "Il vient tout de suite."],
+          "a": 0
+        },
+        {
+          "id": "v5-10-e17",
+          "type": "order",
+          "uses": ["v5-02"],
+          "fr": "Je ne regarde pas beaucoup la télé.",
+          "tokens": ["テレビ", "は", "あまり", "{見|み}ません"],
+          "alt": [["あまり", "テレビ", "は", "{見|み}ません"]]
+        },
+        {
+          "id": "v5-10-e18",
+          "type": "order",
+          "uses": ["v5-02", "v5-04"],
+          "fr": "Je vais souvent au parc avec mon chien.",
+          "tokens": ["{犬|いぬ}と", "よく", "{公園|こうえん}へ", "{行|い}きます"],
+          "alt": [["よく", "{犬|いぬ}と", "{公園|こうえん}へ", "{行|い}きます"], ["{犬|いぬ}と", "{公園|こうえん}へ", "よく", "{行|い}きます"]]
+        }
+      ]
+    }
+  ],
+  "test": [
+    {
+      "id": "v5-b02-t01",
+      "type": "choice",
+      "uses": ["v5-07", "v5-08", "v5-09"],
+      "jp": "このりんごは{一|ひと}つ＿ですか。— {百円|ひゃくえん}です。",
+      "fr": "Combien coûte une de ces pommes ? — 100 yens.",
+      "choices": ["いくら", "いくつ", "{何|なん}", "どこ"],
+      "a": 0
+    },
+    {
+      "id": "v5-b02-t02",
+      "type": "choice",
+      "uses": ["v5-02", "v5-06", "v5-10"],
+      "jp": "{魚|さかな}が{大好|だいす}きですから、＿{食|た}べます。",
+      "fr": "J'adore le poisson, alors j'en mange souvent.",
+      "choices": ["よく", "ぜんぜん", "あまり", "とても"],
+      "a": 0,
+      "explain": "Affirmatif : あまり / ぜんぜん impossibles. とても ne modifie pas un verbe comme {食|た}べる."
+    },
+    {
+      "id": "v5-b02-t03",
+      "type": "choice",
+      "uses": ["v5-01", "v5-08"],
+      "jp": "{家族|かぞく}は{五人|ごにん}です。{父|ちち}と{母|はは}と、{子|こ}どもが＿います。",
+      "fr": "Nous sommes cinq dans la famille : mon père, ma mère et trois enfants.",
+      "choices": ["{三人|さんにん}", "{三|みっ}つ", "{三台|さんだい}", "{三本|さんぼん}"],
+      "a": 0
+    },
+    {
+      "id": "v5-b02-t04",
+      "type": "choice",
+      "uses": ["v5-07"],
+      "q": "Comment se lit **八百円** ?",
+      "choices": ["はっぴゃくえん", "はちひゃくえん", "はっびゃくえん", "やおえん"],
+      "a": 0
+    },
+    {
+      "id": "v5-b02-t05",
+      "type": "choice",
+      "uses": ["v5-09"],
+      "q": "Comment demande-t-on « combien de temps ça prend ? » ?",
+      "choices": ["どのぐらいかかりますか。", "いくらかかりますか。", "いくつかかりますか。", "{何時|なんじ}かかりますか。"],
+      "a": 0,
+      "explain": "どのぐらい = combien (de temps, de distance). いくらかかりますか demande le prix."
+    },
+    {
+      "id": "v5-b02-t06",
+      "type": "order",
+      "uses": ["v5-08"],
+      "fr": "Il y a trois livres sur le bureau.",
+      "tokens": ["つくえ", "の", "{上|うえ}に", "{本|ほん}が", "{三|さん}さつ", "あります"],
+      "alt": [["{本|ほん}が", "つくえ", "の", "{上|うえ}に", "{三|さん}さつ", "あります"]]
+    },
+    {
+      "id": "v5-b02-t07",
+      "type": "choice",
+      "uses": ["v5-06", "v5-09"],
+      "jp": "{飲|の}み{物|もの}は＿がいいですか。— お{茶|ちゃ}をおねがいします。",
+      "fr": "Qu'est-ce que vous voulez boire ? — Du thé, s'il vous plaît.",
+      "choices": ["{何|なに}", "どこ", "いつ", "だれ"],
+      "a": 0
+    },
+    {
+      "id": "v5-b02-t08",
+      "type": "choice",
+      "uses": ["v5-06", "v5-10"],
+      "q": "Trouve la phrase **incorrecte**.",
+      "choices": ["お{酒|さけ}はあまり{飲|の}みます。", "お{酒|さけ}はあまり{飲|の}みません。", "お{酒|さけ}はぜんぜん{飲|の}みません。", "お{酒|さけ}はときどき{飲|の}みます。"],
+      "a": 0,
+      "explain": "あまり va avec un verbe négatif : あまり{飲|の}みません."
+    },
+    {
+      "id": "v5-b02-t09",
+      "type": "choice",
+      "uses": ["v5-06", "v5-08"],
+      "q": "Tu commandes pour toi et ton ami. Complète.",
+      "jp": "コーヒーを＿おねがいします。",
+      "fr": "Deux cafés, s'il vous plaît.",
+      "choices": ["{二|ふた}つ", "{二人|ふたり}", "{二|に}さつ", "{二台|にだい}"],
+      "a": 0
+    },
+    {
+      "id": "v5-b02-t10",
+      "type": "choice",
+      "uses": ["v5-07"],
+      "q": "Que veut dire : ぜんぶでいくらですか。",
+      "choices": ["Ça fait combien en tout ?", "Combien y en a-t-il ?", "C'est tout ?", "Tout est cher ?"],
+      "a": 0
+    },
+    {
+      "id": "v5-b02-t11",
+      "type": "choice",
+      "uses": ["v5-09"],
+      "jp": "＿{日本語|にほんご}を{勉強|べんきょう}していますか。— {日本|にほん}の{映画|えいが}が{好|す}きだからです。",
+      "fr": "Pourquoi étudies-tu le japonais ? — Parce que j'aime le cinéma japonais.",
+      "choices": ["どうして", "どこで", "いつ", "どう"],
+      "a": 0
+    },
+    {
+      "id": "v5-b02-t12",
+      "type": "choice",
+      "uses": ["v5-09"],
+      "jp": "{東京|とうきょう}から{大阪|おおさか}まで＿かかりますか。— {三時間|さんじかん}ぐらいです。",
+      "fr": "Combien de temps faut-il de Tokyo à Osaka ? — Environ trois heures.",
+      "choices": ["どのぐらい", "いくつ", "どれ", "どこ"],
+      "a": 0
+    },
+    {"id": "v5-b02-t13", "type": "choice", "uses": ["v5-08"], "q": "Comment se lit **一本** ?", "choices": ["いっぽん", "いちほん", "ひとほん", "いちぼん"], "a": 0},
+    {
+      "id": "v5-b02-t14",
+      "type": "choice",
+      "uses": ["v5-06", "v5-10"],
+      "jp": "{晩|ばん}ご{飯|はん}はもう{食|た}べましたか。— いいえ、＿です。",
+      "fr": "Tu as déjà dîné ? — Non, pas encore.",
+      "choices": ["まだ", "もう", "また", "すぐ"],
+      "a": 0
+    },
+    {
+      "id": "v5-b02-t15",
+      "type": "choice",
+      "uses": ["v5-06", "v5-09"],
+      "jp": "{肉|にく}と{魚|さかな}と、＿が{好|す}きですか。— {魚|さかな}です。",
+      "fr": "Tu préfères la viande ou le poisson ? — Le poisson.",
+      "choices": ["どちら", "いつ", "どこ", "どの"],
+      "a": 0
+    },
+    {
+      "id": "v5-b02-t16",
+      "type": "choice",
+      "uses": ["v5-06", "v5-07"],
+      "q": "Tu paies {三百円|さんびゃくえん} de pain avec un billet de {千円|せんえん}. On te rend :",
+      "choices": ["{七百円|ななひゃくえん}", "{六百円|ろっぴゃくえん}", "{八百円|はっぴゃくえん}", "{七千円|ななせんえん}"],
+      "a": 0
+    }
+  ],
+  "examTest": [
+    {
+      "id": "v5-x01-01",
+      "type": "choice",
+      "uses": ["v5-02", "v5-03", "v5-06"],
+      "q": "Une seule de ces phrases est correcte. Laquelle ?",
+      "choices": ["{毎日|まいにち}{野菜|やさい}を{食|た}べます。", "{毎日|まいにち}に{野菜|やさい}を{食|た}べます。", "{毎日|まいにち}{野菜|やさい}を{飲|の}みます。", "{毎日|まいにち}{野菜|やさい}が{食|た}べます。"],
+      "a": 0,
+      "explain": "Pas de に après {毎日|まいにち} ; les légumes se mangent ; l'objet de {食|た}べる prend を."
+    },
+    {
+      "id": "v5-x01-02",
+      "type": "choice",
+      "uses": ["v5-01", "v5-02", "v5-03", "v5-04", "v5-06"],
+      "jp": "{昨日|きのう}、{友|とも}だちと{駅|えき}の{近|ちか}くのレストランで＿を{食|た}べました。とてもおいしかったです。",
+      "fr": "Hier, j'ai dîné avec un ami dans un restaurant près de la gare. C'était très bon.",
+      "choices": ["{晩|ばん}ご{飯|はん}", "{飲|の}み{物|もの}", "お{酒|さけ}", "{水|みず}"],
+      "a": 0,
+      "explain": "On « mange » ({食|た}べる) un repas, pas une boisson."
+    },
+    {
+      "id": "v5-x01-03",
+      "type": "choice",
+      "uses": ["v5-01", "v5-08"],
+      "q": "Une seule de ces phrases est correcte. Laquelle ?",
+      "choices": ["{子|こ}どもが{三人|さんにん}います。", "{子|こ}どもが{三|みっ}つです。", "{子|こ}どもが{三人|さんにん}あります。", "{子|こ}どもを{三人|さんにん}います。"],
+      "a": 0,
+      "explain": "Des personnes : 〜{人|にん}, avec います (pas あります) et が."
+    },
+    {
+      "id": "v5-x01-04",
+      "type": "choice",
+      "uses": ["v5-05", "v5-07"],
+      "jp": "このかばんは{高|たか}いですね。＿ですか。— {三万円|さんまんえん}です。",
+      "fr": "Ce sac est cher, hein. Combien coûte-t-il ? — 30 000 yens.",
+      "choices": ["いくら", "いくつ", "どこ", "だれ"],
+      "a": 0
+    },
+    {
+      "id": "v5-x01-05",
+      "type": "order",
+      "uses": ["v5-06", "v5-10"],
+      "fr": "Je n'ai pas encore déjeuné.",
+      "tokens": ["まだ", "{昼|ひる}ご{飯|はん}を", "{食|た}べて", "いません"],
+      "alt": [["{昼|ひる}ご{飯|はん}を", "まだ", "{食|た}べて", "いません"]]
+    },
+    {
+      "id": "v5-x01-06",
+      "type": "choice",
+      "uses": ["v5-03", "v5-04", "v5-08"],
+      "jp": "{先週|せんしゅう}、{図書館|としょかん}で{本|ほん}を{二|に}＿{借|か}りました。",
+      "fr": "La semaine dernière, j'ai emprunté deux livres à la bibliothèque.",
+      "choices": ["さつ", "{人|にん}", "{台|だい}", "まい"],
+      "a": 0
+    },
+    {
+      "id": "v5-x01-07",
+      "type": "choice",
+      "uses": ["v5-04", "v5-05", "v5-10"],
+      "jp": "{家|いえ}から{会社|かいしゃ}まで{遠|とお}いですから、＿{電車|でんしゃ}で{行|い}きます。",
+      "fr": "Mon bureau est loin de chez moi, alors j'y vais toujours en train.",
+      "choices": ["いつも", "ぜんぜん", "あまり", "とても"],
+      "a": 0,
+      "explain": "Affirmatif : あまり / ぜんぜん impossibles ; とても ne modifie pas {行|い}く."
+    },
+    {
+      "id": "v5-x01-08",
+      "type": "choice",
+      "uses": ["v5-07"],
+      "q": "Quelle lecture est **incorrecte** ?",
+      "choices": ["400 円 = しひゃくえん", "600 円 = ろっぴゃくえん", "300 円 = さんびゃくえん", "800 円 = はっぴゃくえん"],
+      "a": 0,
+      "explain": "400 = よんひゃく."
+    },
+    {
+      "id": "v5-x01-09",
+      "type": "choice",
+      "uses": ["v5-01", "v5-09"],
+      "jp": "＿{人|ひと}が{先生|せんせい}ですか。— あの{男|おとこ}の{人|ひと}です。",
+      "fr": "Quelle personne est le professeur ? — Cet homme-là.",
+      "choices": ["どの", "どれ", "どこ", "どう"],
+      "a": 0
+    },
+    {
+      "id": "v5-x01-10",
+      "type": "choice",
+      "uses": ["v5-01", "v5-02", "v5-03", "v5-08", "v5-10"],
+      "jp": "{日曜日|にちようび}はいつも{一人|ひとり}ですが、{昨日|きのう}は{友|とも}だちと＿{映画|えいが}を{見|み}ました。",
+      "fr": "Le dimanche je suis toujours seul, mais hier j'ai vu un film avec un ami.",
+      "choices": ["いっしょに", "ぜんぜん", "あまり", "まだ"],
+      "a": 0
+    },
+    {
+      "id": "v5-x01-11",
+      "type": "choice",
+      "uses": ["v5-06", "v5-10"],
+      "q": "Que veut dire : {水|みず}はまだありますか。",
+      "choices": ["Il reste encore de l'eau ?", "Il y a de nouveau de l'eau ?", "Il y a déjà de l'eau ?", "Il n'y a plus d'eau ?"],
+      "a": 0,
+      "explain": "まだ + affirmatif = encore (toujours). また = de nouveau."
+    },
+    {
+      "id": "v5-x01-12",
+      "type": "choice",
+      "uses": ["v5-03", "v5-06", "v5-10"],
+      "jp": "{去年|きょねん}は{肉|にく}をよく{食|た}べましたが、{今年|ことし}は＿{食|た}べません。{一|いっ}か{月|げつ}にいっかいぐらいです。",
+      "fr": "L'année dernière je mangeais souvent de la viande, mais cette année je n'en mange pas beaucoup. À peu près une fois par mois.",
+      "choices": ["あまり", "ぜんぜん", "とても", "いつも"],
+      "a": 0,
+      "explain": "Une fois par mois : « pas beaucoup » → あまり. ぜんぜん (pas du tout) contredirait la fin de la phrase."
+    },
+    {
+      "id": "v5-x01-13",
+      "type": "choice",
+      "uses": ["v5-07", "v5-08"],
+      "jp": "このパンは{一|ひと}つ{百円|ひゃくえん}です。{五|いつ}つで＿です。",
+      "fr": "Ce pain coûte 100 yens pièce. Les cinq font 500 yens.",
+      "choices": ["{五百円|ごひゃくえん}", "{五千円|ごせんえん}", "{百五円|ひゃくごえん}", "{五十円|ごじゅうえん}"],
+      "a": 0
+    },
+    {
+      "id": "v5-x01-14",
+      "type": "choice",
+      "uses": ["v5-02", "v5-03", "v5-09"],
+      "q": "Une seule de ces phrases est correcte. Laquelle ?",
+      "choices": ["どうして{昨日|きのう}{来|き}ませんでしたか。", "どうして{昨日|きのう}{来|き}ますか。", "いつ{昨日|きのう}{来|き}ませんでしたか。", "どうして{昨日|きのう}に{来|き}ませんでしたか。"],
+      "a": 0,
+      "explain": "{昨日|きのう} demande le passé et pas de に ; いつ et {昨日|きのう} ensemble n'ont pas de sens."
+    },
+    {
+      "id": "v5-x01-15",
+      "type": "order",
+      "uses": ["v5-08", "v5-09"],
+      "fr": "Combien êtes-vous dans votre famille ?",
+      "tokens": ["ご{家族|かぞく}は", "{何人|なんにん}", "です", "か"]
+    }
+  ]
+}

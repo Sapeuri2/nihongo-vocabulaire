@@ -15,14 +15,14 @@ Les mots entre parenthèses sont indicatifs : la liste exacte est fixée en écr
 4. Les lieux (家, 学校, 会社, 駅, 店, 病院, 部屋, 道…)
 5. Adjectifs et leurs contraires (大きい/小さい, 高い/安い/低い, 近い/遠い…)
 
-**Bloc 2 — Manger, compter, demander**
+**Bloc 2 — Manger, compter, demander** ✅
 6. Nourriture et boissons (ご飯, 肉, 魚, 野菜, 水, お茶, 牛乳…)
-7. Nombres et prix (百, 千, 万, 円, いくら, お金 ; lectures irrégulières 300, 600, 800…)
+7. Nombres et prix (百, 千, 万, 円, いくら, お金, ぜんぶ ; lectures irrégulières 300, 600, 800…)
 8. Compter les choses et les gens (ひとつ…とお, ひとり, ふたり, 〜枚, 〜本, 〜冊, 〜台…)
 9. Mots interrogatifs (何, どこ, いつ, どう, どんな, どれ, どちら, どうして…)
 10. Adverbes de fréquence et de quantité (いつも, よく, ときどき, あまり, ぜんぜん, たくさん, 少し…)
 
-→ **Examen intermédiaire 1** (leçons 1–10)
+→ **Examen intermédiaire 1** (leçons 1–10) ✅
 
 **Bloc 3 — La vie quotidienne**
 11. Formules de politesse (すみません, おねがいします, いただきます, しつれいします…)
@@ -67,7 +67,7 @@ Les mots entre parenthèses sont indicatifs : la liste exacte est fixée en écr
 36. Verbes d'état (ある, いる, 住む, 立つ, すわる, 待つ, つかれる, こまる, いる…)
 37. Mots de liaison et adverbes (でも, それから, そして, だから, もっと, ゆっくり, 本当に…)
 38. Durées et fréquences (〜回, 〜週間, 〜か月, 毎週, 毎月, 先月, 来月, おととい, あさって…)
-39. Petits noms utiles (もの, こと, ところ, 方, 全部, 半分, 次, ほか…)
+39. Petits noms utiles (もの, こと, ところ, 方, 半分, 次, ほか…)
 40. Paires piégeuses du N5 (会う / 見る, 知る / 分かる, 言う / 話す, 帰る / 戻る, 入る / 入れる…)
 
 → **Grand examen 2** (leçons 21–40)
