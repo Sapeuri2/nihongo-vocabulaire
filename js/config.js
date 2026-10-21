@@ -22,4 +22,10 @@ export const CONFIG = {
   drillSize: 15,
   maxRetries: 2, // en leçon : nombre de fois qu'une question ratée revient dans la même série
   hideBlankTranslation: true, // phrases à trous : traduction cachée jusqu'à la réponse (elle donnerait le mot)
+
+  // Points clés du moteur : pas utilisés ici (pas de champ focus dans data/manifest.json),
+  // l'appli a sa propre bulle « い/な » (js/memo.js). Valeurs de la grammaire, au cas où.
+  focusEvery: 4, // points clés : une question surprise toutes les N questions (leçons, révisions)
+  focusInTests: 3, // points clés : questions ajoutées à chaque test / examen (comptent dans la note)
+  focusChallengeSize: 10, // points clés : longueur du défi éclair
 };
