@@ -49,6 +49,9 @@ for (const file of manifest.blocks) {
   checkKanji(`${b.id} examen`, b.examTest || []);
 }
 
+// Questions de la bulle « い/な » (js/memo.js).
+checkKanji('data/rappels.json', read('data/rappels.json'));
+
 if (errors.length) {
   console.error(errors.join('\n'));
   console.error(`\n${errors.length} problème(s).`);

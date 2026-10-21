@@ -661,11 +661,12 @@
       ],
       "sections": [
         {
-          "h": "い ou な ? (à savoir par cœur)",
+          "h": "い ou な ? et le passé poli (à savoir par cœur)",
           "p": [
             "Tous les adjectifs de cette leçon sont en **い** : le い final se transforme. Au présent il reste : {高|たか}いです. Négatif : {高|たか}**くない**です. Passé : {高|たか}**かった**です. Passé négatif : {高|たか}**くなかった**です. Devant un nom : {高|たか}い{本|ほん}.",
             "Les adjectifs en **な** se conjuguent comme un **nom** (NA = NOM) : {静|しず}かです, {静|しず}か**じゃありません**, {静|しず}か**でした**, {静|しず}か**じゃありませんでした**. Le な n'apparaît que devant un nom : {静|しず}か**な**{部屋|へや}.",
             "Piège : きれい, きらい, {有名|ゆうめい}, ていねい, しつれい finissent par い mais sont en **な** : きれいじゃありません, jamais きれくない.",
+            "Au **passé poli**, la fin dépend du type de mot : nom ou adjectif en な → **でした** ({雨|あめ}でした, {静|しず}かでした) ; verbe → ます devient **ました** ({雨|あめ}が{降|ふ}りました = il a plu) ; ある / いる → **ありました** / **いました** ; adjectif en い → い devient **かったです** ({寒|さむ}かったです).",
             "La bulle **い/な** (en bas à droite, sur toutes les pages) ouvre l'antisèche illustrée et un quiz éclair."
           ]
         }
@@ -897,6 +898,64 @@
           "uses": ["v5-03"],
           "fr": "Hier, il ne faisait pas froid.",
           "tokens": ["{昨日|きのう}", "は", "{寒|さむ}く", "なかったです"]
+        },
+        {
+          "id": "v5-05-e30",
+          "type": "choice",
+          "uses": ["v5-03"],
+          "jp": "{昨日|きのう}は{雨|あめ}＿。",
+          "fr": "Hier, c'était un jour de pluie.",
+          "choices": ["でした", "ました", "かったです", "ありました"],
+          "a": 0,
+          "explain": "{雨|あめ} est un nom : nom + でした."
+        },
+        {
+          "id": "v5-05-e31",
+          "type": "choice",
+          "uses": ["v5-03"],
+          "jp": "{昨日|きのう}、{雨|あめ}が{降|ふ}り＿。",
+          "fr": "Hier, il a plu.",
+          "choices": ["ました", "でした", "かったです", "ありました"],
+          "a": 0,
+          "explain": "{降|ふ}ります est un verbe : ます → ました."
+        },
+        {
+          "id": "v5-05-e32",
+          "type": "choice",
+          "uses": ["v5-03"],
+          "jp": "{昨日|きのう}は＿。",
+          "fr": "Hier, il faisait froid.",
+          "choices": ["{寒|さむ}かったです", "{寒|さむ}いでした", "{寒|さむ}かったでした", "{寒|さむ}いました"],
+          "a": 0,
+          "explain": "{寒|さむ}い est un adjectif en い : い → かったです."
+        },
+        {
+          "id": "v5-05-e33",
+          "type": "choice",
+          "uses": ["v5-04"],
+          "jp": "{駅|えき}の{前|まえ}に{銀行|ぎんこう}が＿。",
+          "fr": "Il y avait une banque devant la gare.",
+          "choices": ["ありました", "ありでした", "あったでした", "いました"],
+          "a": 0,
+          "explain": "Une chose qui existe : あります → ありました (いました, c'est pour les êtres vivants)."
+        },
+        {
+          "id": "v5-05-e34",
+          "type": "choice",
+          "uses": ["v5-03"],
+          "q": "Quelle est la façon naturelle de dire « Hier, il a plu » ?",
+          "choices": ["{昨日|きのう}、{雨|あめ}が{降|ふ}りました。", "{昨日|きのう}、{雨|あめ}がありました。", "{昨日|きのう}、{雨|あめ}が{降|ふ}りでした。", "{昨日|きのう}、{雨|あめ}がかったです。"],
+          "a": 0,
+          "explain": "La pluie « tombe » : {雨|あめ}が{降|ふ}る. {雨|あめ}がありました ne se dit pas pour « il a plu »."
+        },
+        {
+          "id": "v5-05-e35",
+          "type": "choice",
+          "uses": ["v5-02", "v5-03"],
+          "q": "Trouve la phrase **incorrecte**.",
+          "choices": ["{昨日|きのう}は{寒|さむ}いでした。", "{昨日|きのう}は{雨|あめ}でした。", "{昨日|きのう}、{映画|えいが}を{見|み}ました。", "{昨日|きのう}は{静|しず}かでした。"],
+          "a": 0,
+          "explain": "{寒|さむ}い est un adjectif en い : {寒|さむ}かったです. でした va après un nom ({雨|あめ}) ou un adjectif en な ({静|しず}か)."
         }
       ]
     }

@@ -1,6 +1,6 @@
-// Antisèche « い ou な ? » et rappels surprise. Propre à l'appli de vocabulaire (pas au moteur) :
+// Antisèche « い ou な ? » + passé poli, et rappels surprise. Propre à l'appli de vocabulaire (pas au moteur) :
 // une bulle sur toutes les pages, et un mini-quiz qui surgit de temps en temps
-// et ne se ferme qu'après une bonne réponse. Questions générées depuis data/adjectifs.json.
+// et ne se ferme qu'après une bonne réponse. Questions générées depuis data/rappels.json.
 import { esc, rich } from './text.js';
 
 const KEY = 'nv-memo-v1';
@@ -10,11 +10,19 @@ const FORMS = {
   neg: 'présent négatif (poli)',
   past: 'passé (poli)',
   pastneg: 'passé négatif (poli)',
-  noun: 'devant un nom',
 };
 const ECLAIR = 10;
 
-let ADJ = [];
+// Le passé poli selon le type de mot (carte de l'antisèche et explications).
+const PAST_RULES = [
+  { id: 'nom', label: 'Nom', fin: 'でした', ex: '{雨|あめ}でした', fr: 'c\'était (un jour de) pluie' },
+  { id: 'na', label: 'Adjectif en な', fin: 'でした', ex: '{静|しず}かでした', fr: 'c\'était calme' },
+  { id: 'verbe', label: 'Verbe', fin: 'ます → ました', ex: '{雨|あめ}が{降|ふ}りました', fr: 'il a plu' },
+  { id: 'exist', label: 'ある / いる', fin: 'ありました / いました', ex: '{銀行|ぎんこう}がありました', fr: 'il y avait une banque' },
+  { id: 'i', label: 'Adjectif en い', fin: 'い → かったです', ex: '{寒|さむ}かったです', fr: 'il faisait froid' },
+];
+
+let DATA = { adjectifs: [], passe: { noms: [], verbes: [] }, phrases: [] };
 let mem = load();
 let box = null; // la fenêtre (overlay)
 let quiz = null; // { mode, q, picked, n, okCount }
@@ -32,10 +40,25 @@ function save() {
 const shuffle = a => a.map(x => [Math.random(), x]).sort((p, q) => p[0] - q[0]).map(p => p[1]);
 const pick = a => a[Math.floor(Math.random() * a.length)];
 
-// ---------- Questions ----------
+// Tirage pondéré : ce qui a été raté revient plus souvent.
+function weighted(pool) {
+  const w = c => {
+    const st = mem.stats[c.key] || { ok: 0, ko: 0 };
+    return (c.boost || 1) * (1 + (3 * st.ko) / (1 + st.ok / 2));
+  };
+  let x = Math.random() * pool.reduce((s, c) => s + w(c), 0);
+  return pool.find(c => (x -= w(c)) <= 0) || pool[0];
+}
 
-// Les bonnes formes, et les erreurs typiques comme mauvais choix.
-function forms(a, form) {
+// Une question : bonne réponse + erreurs typiques comme mauvais choix.
+function question(key, word, fr, label, good, bad, explain) {
+  const wrong = shuffle([...new Set(bad)].filter(b => b !== good)).slice(0, 3);
+  return { key, word, fr, label, good, choices: shuffle([good, ...wrong]), explain };
+}
+
+// ---------- Adjectifs en い / な ----------
+
+function adjForms(a, form) {
   const w = a.jp;
   const n = a.n;
   if (a.t === 'i') {
@@ -44,7 +67,7 @@ function forms(a, form) {
     const ii = w === 'いい';
     return {
       neg: [`${c}くないです`, [`${w}じゃありません`, `${w}くないです`, `${s}じゃないです`, ...(ii ? [`${s}くないです`] : [])]],
-      past: [`${c}かったです`, [`${w}でした`, `${c}かったでした`, `${w}かったです`, ...(ii ? [`${s}かったです`] : [])]],
+      past: [`${c}かったです`, [`${w}でした`, `${c}かったでした`, `${w}かったです`, `${w}ました`, ...(ii ? [`${s}かったです`] : [])]],
       pastneg: [`${c}くなかったです`, [`${w}じゃありませんでした`, `${c}くないでした`, `${w}くなかったです`, ...(ii ? [`${s}くなかったです`] : [])]],
       // 大きな / 小さな existent : ne pas les proposer comme erreur.
       noun: [`${w}${n}`, [`${w}な${n}`, `${w}の${n}`, a.naOk ? `${w}だ${n}` : `${s}な${n}`]],
@@ -54,30 +77,14 @@ function forms(a, form) {
   const s = endsI ? w.slice(0, -1) : w; // l'erreur typique : faire tomber le い de きれい
   return {
     neg: [`${w}じゃありません`, [`${w}くないです`, `${w}なじゃありません`, endsI ? `${s}くないです` : `${w}じゃないでした`]],
-    past: [`${w}でした`, [`${w}かったです`, `${w}なでした`, endsI ? `${s}かったです` : `${w}だったでした`]],
+    past: [`${w}でした`, [`${w}かったです`, `${w}なでした`, `${w}ました`, endsI ? `${s}かったです` : `${w}だったでした`]],
     pastneg: [`${w}じゃありませんでした`, [`${w}くなかったです`, `${w}じゃありませんかった`, endsI ? `${s}くなかったです` : `${w}なじゃありませんでした`]],
     // 上手い existe (うまい) : ne pas le proposer comme erreur.
     noun: [`${w}な${n}`, [`${w}${n}`, `${w}だ${n}`, a.pasI ? `${w}の${n}` : `${w}い${n}`]],
   }[form];
 }
 
-function weight(a) {
-  const st = mem.stats[a.jp] || { ok: 0, ko: 0 };
-  return (a.piege ? 2 : 1) * (1 + (3 * st.ko) / (1 + st.ok / 2));
-}
-
-function newQuestion() {
-  const total = ADJ.reduce((s, a) => s + weight(a), 0);
-  let x = Math.random() * total;
-  const a = ADJ.find(adj => (x -= weight(adj)) <= 0) || ADJ[0];
-  const form = pick(a.piege ? ['type', 'type', 'neg', 'past', 'pastneg', 'noun'] : ['type', 'neg', 'past', 'pastneg', 'noun']);
-  if (form === 'type') return { a, form, choices: ['en い', 'en な'], good: a.t === 'i' ? 'en い' : 'en な' };
-  const [good, bad] = forms(a, form);
-  const wrong = shuffle([...new Set(bad)].filter(b => b !== good)).slice(0, 3);
-  return { a, form, choices: shuffle([good, ...wrong]), good };
-}
-
-function explain(a) {
+function adjExplain(a) {
   const w = a.jp;
   if (a.t === 'i') {
     const c = w === 'いい' ? 'よ' : w.slice(0, -1);
@@ -90,10 +97,66 @@ function explain(a) {
     ${a.piege ? `<p>🪤 Piège : ${rich(w)} finit par い, mais ce い fait partie du mot : il ne tombe <strong>jamais</strong>.</p>` : ''}`;
 }
 
-function record(a, ok) {
-  const st = mem.stats[a.jp] || { ok: 0, ko: 0 };
+function adjQuestion() {
+  const a = weighted(DATA.adjectifs.map(x => ({ ...x, key: x.jp, boost: x.piege ? 2 : 1 })));
+  const form = pick(a.piege ? ['type', 'type', 'neg', 'past', 'pastneg', 'noun'] : ['type', 'neg', 'past', 'pastneg', 'noun']);
+  const label = form === 'noun' ? `devant ${rich(a.n)}` : FORMS[form];
+  if (form === 'type') {
+    const good = a.t === 'i' ? 'en い' : 'en な';
+    return { key: a.key, word: a.jp, fr: a.fr, label, good, choices: ['en い', 'en な'], explain: adjExplain(a) };
+  }
+  const [good, bad] = adjForms(a, form);
+  return question(a.key, a.jp, a.fr, label, good, bad, adjExplain(a));
+}
+
+// ---------- Passé poli : でした / ました / ありました / かったです ----------
+
+function pastRule(id) {
+  return `<ul class="m-rules">${PAST_RULES.map(r => `<li class="${r.id === id ? 'on' : ''}"><span>${r.label}</span> <span class="jp">${rich(r.fin)}</span></li>`).join('')}</ul>`;
+}
+
+function pastQuestion() {
+  const { noms, verbes } = DATA.passe;
+  const pool = [
+    ...noms.map(x => ({ ...x, cat: 'nom', key: `p:${x.jp}` })),
+    ...verbes.map(x => ({ ...x, cat: x.exist ? 'exist' : 'verbe', key: `p:${x.jp}` })),
+    ...DATA.adjectifs.map(x => ({ ...x, cat: x.t === 'i' ? 'i' : 'na', key: `p:${x.jp}`, boost: 0.3 })),
+  ];
+  const c = weighted(pool);
+  const w = c.jp;
+  let good;
+  let bad;
+  if (c.cat === 'nom') {
+    good = `${w}でした`;
+    bad = [`${w}ました`, `${w}かったです`, `${w}ありました`];
+  } else if (c.cat === 'verbe' || c.cat === 'exist') {
+    const stem = w.slice(0, -2); // sans ます
+    good = `${stem}ました`;
+    bad = [`${w}でした`, `${stem}でした`, `${stem}かったです`];
+  } else [good, bad] = adjForms(c, 'past');
+  const what = { nom: 'un nom', na: 'un adjectif en な', i: 'un adjectif en い', verbe: 'un verbe', exist: 'le verbe d\'existence' }[c.cat];
+  const explain = `<p>${rich(w)} est ${what} → <strong class="jp">${rich(good)}</strong></p>${pastRule(c.cat)}`;
+  return question(c.key, w, c.fr, 'passé poli : quelle fin ?', good, bad, explain);
+}
+
+function phraseQuestion() {
+  const p = weighted(DATA.phrases.map(x => ({ ...x, key: `f:${x.key}` })));
+  const explain = `<p>${rich(p.explain)}</p>${pastRule(p.rule)}`;
+  return { ...question(p.key, null, p.fr, 'Comment le dit-on ?', p.choices[0], p.choices.slice(1), explain), phrase: true };
+}
+
+function newQuestion() {
+  const r = Math.random();
+  if (r < 0.5) return adjQuestion();
+  if (r < 0.8) return pastQuestion();
+  return phraseQuestion();
+}
+
+function record(q, ok) {
+  const st = mem.stats[q.key] || { ok: 0, ko: 0 };
   if (ok) st.ok++; else st.ko++;
-  mem.stats[a.jp] = st;
+  st.w = q.word || q.fr;
+  mem.stats[q.key] = st;
   mem.streak = ok ? mem.streak + 1 : 0;
   mem.best = Math.max(mem.best, mem.streak);
   save();
@@ -106,7 +169,7 @@ const tile = (stem, end, cls = 'm-end') => `${rich(stem)}<span class="${cls}">${
 function viewSheet() {
   const conj = rows => `<table class="m-conj">${rows.map(([l, v]) => `<tr><td>${l}</td><td class="jp">${v}</td></tr>`).join('')}</table>`;
   const weak = Object.entries(mem.stats).filter(([, s]) => s.ko).sort((x, y) => y[1].ko - x[1].ko).slice(0, 4);
-  let h = `<div class="m-head"><h2>い ou な ? L'antisèche</h2><button class="m-x" data-m="close" aria-label="Fermer">✕</button></div>
+  return `<div class="m-head"><h2>い ou な ? et le passé poli</h2><button class="m-x" data-m="close" aria-label="Fermer">✕</button></div>
   <section class="m-card m-i"><h3>🦎 Adjectif en い : la queue change</h3>
     <p>Le い reste au présent. Pour le reste, il tombe et on colle une nouvelle fin.</p>
     ${conj([
@@ -132,11 +195,20 @@ function viewSheet() {
       <span class="jp">きれいじゃありません</span>, jamais <span class="jp">きれくない</span>.</p>
     <p><strong>Astuce kanji :</strong> い écrit en hiragana <em>après</em> le kanji (${rich('{高|たか}い')}, ${rich('{新|あたら}しい')}) → い.
       い caché <em>dans</em> la lecture du kanji (${rich('{有名|ゆうめい}')} = ゆう・めい) → な. Seule exception courante : きらい (${rich('{嫌|きら}い')}).</p></section>
-  <section class="m-card m-ban"><h3>⛔ Les 4 erreurs interdites</h3>
+  <section class="m-card m-past"><h3>🕰️ Le passé poli : quelle fin ?</h3>
+    <p>Ça dépend du <strong>type de mot</strong>. Regarde le mot avant de choisir la fin.</p>
+    <table class="m-conj m-past-table">${PAST_RULES.map(r => `<tr><td>${r.label}</td><td><span class="jp m-fin">${rich(r.fin)}</span>
+      <span class="jp">${rich(r.ex)}</span> <span class="small muted">${esc(r.fr)}</span></td></tr>`).join('')}</table>
+    <p class="m-warn">☔ « Il a plu » = ${rich('{雨|あめ}が{降|ふ}りました')} (la pluie tombe). ${rich('{雨|あめ}でした')} = c'était un jour de pluie.
+      ${rich('{雨|あめ}がありました')} ne se dit pas pour « il a plu ».</p>
+    <p class="small">Au négatif : でした → じゃありませんでした · ました → ませんでした · ありました → ありませんでした · かったです → くなかったです.</p></section>
+  <section class="m-card m-ban"><h3>⛔ Les erreurs interdites</h3>
     <ul class="m-list jp">
       <li><s>${rich('{高|たか}いじゃありません')}</s> → ${rich('{高|たか}くないです')}</li>
       <li><s>${rich('{静|しず}かくないです')}</s> → ${rich('{静|しず}かじゃありません')}</li>
+      <li><s>${rich('{寒|さむ}いでした')}</s> → ${rich('{寒|さむ}かったです')}</li>
       <li><s>${rich('{高|たか}かったでした')}</s> → ${rich('{高|たか}かったです')}</li>
+      <li><s>${rich('{降|ふ}りでした')}</s> → ${rich('{降|ふ}りました')}</li>
       <li><s>いくないです</s> → よくないです</li>
     </ul></section>
   <p class="small muted">Entre amis (forme neutre) : enlève です pour い (${rich('{高|たか}くない')}, ${rich('{高|たか}かった')}).
@@ -146,26 +218,27 @@ function viewSheet() {
     <p class="small muted">Un quiz surgit pendant que tu utilises l'appli. Il ne se ferme qu'après une bonne réponse.</p>
     <div class="m-seg">${Object.keys(FREQ).map(f => `<button data-m="freq" data-f="${f}" class="${mem.freq === f ? 'on' : ''}">${f}</button>`).join('')}</div>
     <p class="small">Série : <strong>${mem.streak}</strong> bonne${mem.streak > 1 ? 's' : ''} réponse${mem.streak > 1 ? 's' : ''} d'affilée · record : <strong>${mem.best}</strong></p>
-    ${weak.length ? `<p class="small">Tes pièges : <span class="jp">${weak.map(([w, s]) => `${rich(w)} (${s.ko}✗)`).join(' · ')}</span></p>` : ''}
+    ${weak.length ? `<p class="small">Tes pièges : <span class="jp">${weak.map(([k, s]) => `${rich(s.w || k)} (${s.ko}✗)`).join(' · ')}</span></p>` : ''}
   </section>`;
-  return h;
 }
 
 function viewQuiz() {
   const { q, picked, mode } = quiz;
   const answered = picked != null;
   const ok = answered && q.choices[picked] === q.good;
-  const title = mode === 'surprise' ? '⚡ Rappel surprise : い ou な ?' : `Quiz éclair · ${quiz.n + 1}/${ECLAIR}`;
+  const title = mode === 'surprise' ? '⚡ Rappel surprise' : `Quiz éclair · ${quiz.n + 1}/${ECLAIR}`;
   let h = `<div class="m-head"><h2>${title}</h2>${mode === 'eclair' ? '<button class="m-x" data-m="close" aria-label="Fermer">✕</button>' : ''}</div>`;
-  h += `<p class="m-q"><span class="jp m-word">${rich(q.a.jp)}</span> <span class="muted">(${esc(q.a.fr)})</span></p>`;
-  h += `<p class="m-form">${q.form === 'noun' ? `devant ${rich(q.a.n)}` : FORMS[q.form]}</p>`;
+  h += q.word
+    ? `<p class="m-q"><span class="jp m-word">${rich(q.word)}</span> <span class="muted">(${esc(q.fr)})</span></p>`
+    : `<p class="m-q m-fr">« ${esc(q.fr)} »</p>`;
+  h += `<p class="m-form">${q.label}</p>`;
   h += `<div class="choices m-choices">${q.choices.map((c, i) => {
     let cls = 'choice';
     if (answered) cls += c === q.good ? ' good' : i === picked ? ' bad' : ' dim';
     return `<button class="${cls}" data-m="pick" data-i="${i}" ${answered ? 'disabled' : ''}><span class="key">${i + 1}</span><span class="jp">${rich(c)}</span></button>`;
   }).join('')}</div>`;
   if (answered) {
-    h += `<div class="fb ${ok ? 'ok' : 'ko'}"><strong>${ok ? '✓ Correct' : '✗ Raté'}</strong>${explain(q.a)}`;
+    h += `<div class="fb ${ok ? 'ok' : 'ko'}"><strong>${ok ? '✓ Correct' : '✗ Raté'}</strong>${q.explain}`;
     if (mode === 'surprise') {
       h += ok
         ? '<div class="m-actions"><button class="btn primary" data-m="close">Continuer</button><button class="btn" data-m="again">Encore une</button></div>'
@@ -207,7 +280,7 @@ function onAct(act, el) {
     quiz.picked = +el.dataset.i;
     const ok = quiz.q.choices[quiz.picked] === quiz.q.good;
     if (ok) quiz.okCount++;
-    record(quiz.q.a, ok);
+    record(quiz.q, ok);
     show(viewQuiz());
   } else if (act === 'again') { quiz.q = newQuestion(); quiz.picked = null; show(viewQuiz()); }
   else if (act === 'next') { quiz.n++; quiz.q = newQuestion(); quiz.picked = null; show(viewQuiz()); }
@@ -233,12 +306,12 @@ function tick() {
 
 async function init() {
   try {
-    const r = await fetch('data/adjectifs.json', { cache: 'no-cache' });
-    ADJ = (await r.json()).adjectifs;
+    const r = await fetch('data/rappels.json', { cache: 'no-cache' });
+    DATA = await r.json();
   } catch { return; } // hors ligne sans cache : pas de bulle
   const bubble = document.createElement('button');
   bubble.id = 'memo-bubble';
-  bubble.setAttribute('aria-label', 'Antisèche い / な');
+  bubble.setAttribute('aria-label', 'Antisèche い / な et passé poli');
   bubble.innerHTML = 'い<small>/</small>な';
   bubble.addEventListener('click', () => show(viewSheet()));
   box = document.createElement('div');

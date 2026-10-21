@@ -1,7 +1,7 @@
 /* Bulle « い / な », antisèche et rappels surprise (js/memo.js). Propre à cette appli. */
-:root { --m-i: #2a5fa8; --m-na: #c46a12; --m-trap: #7a4fc4; }
+:root { --m-i: #2a5fa8; --m-na: #c46a12; --m-trap: #7a4fc4; --m-past: #1d8a6e; }
 @media (prefers-color-scheme: dark) {
-  :root { --m-i: #6ea6f0; --m-na: #f0a35a; --m-trap: #b89af0; }
+  :root { --m-i: #6ea6f0; --m-na: #f0a35a; --m-trap: #b89af0; --m-past: #4fc9a8; }
 }
 
 main { padding-bottom: 96px; }
@@ -44,6 +44,15 @@ html.memo-open { overflow: hidden; }
 .m-na { border-left-color: var(--m-na); }
 .m-trap { border-left-color: var(--m-trap); }
 .m-ban { border-left-color: var(--bad); }
+.m-past { border-left-color: var(--m-past); }
+.m-past-table td.jp, .m-past-table td { line-height: 1.9; }
+.m-conj.m-past-table td:first-child { width: 7.5em; white-space: normal; }
+.m-fin { display: block; color: var(--m-past); font-weight: 700; font-size: 1.1rem; }
+
+/* Rappel des règles du passé dans une correction : la ligne utile est mise en avant. */
+.m-rules { list-style: none; padding: 0; margin: 8px 0 0; font-size: .9rem; }
+.m-rules li { display: flex; justify-content: space-between; gap: 8px; padding: 2px 8px; border-radius: 6px; opacity: .6; }
+.m-rules li.on { opacity: 1; font-weight: 700; background: color-mix(in srgb, var(--m-past) 18%, transparent); }
 
 .m-conj { border-collapse: collapse; width: 100%; }
 .m-conj td { padding: 2px 6px; border-bottom: 1px solid var(--line); vertical-align: baseline; }
@@ -69,6 +78,7 @@ html.memo-open { overflow: hidden; }
 
 .m-q { margin: 14px 0 2px; }
 .m-word { font-size: 1.6rem; line-height: 2.2; font-weight: 700; }
+.m-fr { font-size: 1.15rem; font-weight: 600; }
 .m-form { margin: 0 0 6px; font-weight: 600; color: var(--accent); }
 .m-choices { margin-top: 10px; }
 .memo-box .fb .jp { font-size: 1.05rem; line-height: 2; }
