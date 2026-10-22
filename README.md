@@ -38,6 +38,7 @@ Propres à cette appli : `js/config.js`, `css/theme.css` (bleu), `index.html`, `
 ## Bulle « い ou な ? » et passé poli
 
 Une bulle **い/な** en bas à droite, sur toutes les pages, ouvre une antisèche illustrée (conjugaison des adjectifs en い et en な, faux い, passé poli でした / ました / ありました / かったです, erreurs interdites) et un quiz éclair de 10 questions.
+Dans chaque fenêtre de la bulle, un bouton **漢** affiche ou masque les furigana (même réglage que le bouton 漢 du haut).
 Des **rappels surprise** surgissent pendant l'utilisation (souvent / normal / rarement / jamais, réglable dans la bulle) et ne se ferment qu'après une bonne réponse.
 Les questions sont générées depuis `data/rappels.json` (adjectifs, noms et verbes pour le passé, phrases fixes) : les mauvais choix sont les erreurs typiques (高いじゃありません, きれくない, 寒いでした, 降りでした, 高かったでした, いくない…), et ce qui est raté revient plus souvent.
 Statistiques et réglage restent sur l'appareil (`nv-memo-v1`), sans synchro.

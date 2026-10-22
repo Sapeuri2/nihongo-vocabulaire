@@ -169,7 +169,7 @@ const tile = (stem, end, cls = 'm-end') => `${rich(stem)}<span class="${cls}">${
 function viewSheet() {
   const conj = rows => `<table class="m-conj">${rows.map(([l, v]) => `<tr><td>${l}</td><td class="jp">${v}</td></tr>`).join('')}</table>`;
   const weak = Object.entries(mem.stats).filter(([, s]) => s.ko).sort((x, y) => y[1].ko - x[1].ko).slice(0, 4);
-  return `<div class="m-head"><h2>い ou な ? et le passé poli</h2><button class="m-x" data-m="close" aria-label="Fermer">✕</button></div>
+  return `<div class="m-head"><h2>い ou な ? et le passé poli</h2>${furiButton()}<button class="m-x" data-m="close" aria-label="Fermer">✕</button></div>
   <section class="m-card m-i"><h3>🦎 Adjectif en い : la queue change</h3>
     <p>Le い reste au présent. Pour le reste, il tombe et on colle une nouvelle fin.</p>
     ${conj([
@@ -222,12 +222,24 @@ function viewSheet() {
   </section>`;
 }
 
+// Bouton 漢 : même réglage que le bouton 漢 du moteur dans la barre du haut (cachée par la fenêtre).
+function furiButton() {
+  const off = document.body.classList.contains('nofuri');
+  return `<button class="m-furi jp${off ? ' off' : ''}" data-m="furi" title="Afficher / masquer les furigana" aria-label="Furigana ${off ? 'masqués' : 'affichés'}"><ruby>漢<rt>かん</rt></ruby></button>`;
+}
+
+function toggleFurigana() {
+  const btn = document.querySelector('.top .furi-toggle');
+  if (btn) btn.click(); // le moteur enregistre le réglage et met à jour la page
+  else document.body.classList.toggle('nofuri');
+}
+
 function viewQuiz() {
   const { q, picked, mode } = quiz;
   const answered = picked != null;
   const ok = answered && q.choices[picked] === q.good;
   const title = mode === 'surprise' ? '⚡ Rappel surprise' : `Quiz éclair · ${quiz.n + 1}/${ECLAIR}`;
-  let h = `<div class="m-head"><h2>${title}</h2>${mode === 'eclair' ? '<button class="m-x" data-m="close" aria-label="Fermer">✕</button>' : ''}</div>`;
+  let h = `<div class="m-head"><h2>${title}</h2>${furiButton()}${mode === 'eclair' ? '<button class="m-x" data-m="close" aria-label="Fermer">✕</button>' : ''}</div>`;
   h += q.word
     ? `<p class="m-q"><span class="jp m-word">${rich(q.word)}</span> <span class="muted">(${esc(q.fr)})</span></p>`
     : `<p class="m-q m-fr">« ${esc(q.fr)} »</p>`;
@@ -273,7 +285,8 @@ function onAct(act, el) {
   if (act === 'close') {
     if (quiz?.mode === 'surprise' && !(quiz.picked != null && quiz.q.choices[quiz.picked] === quiz.q.good)) return;
     close();
-  } else if (act === 'sheet') { quiz = null; show(viewSheet()); }
+  } else if (act === 'furi') { toggleFurigana(); show(quiz ? viewQuiz() : viewSheet()); }
+  else if (act === 'sheet') { quiz = null; show(viewSheet()); }
   else if (act === 'eclair') startQuiz('eclair');
   else if (act === 'freq') { mem.freq = el.dataset.f; save(); schedule(); show(viewSheet()); }
   else if (act === 'pick' && quiz && quiz.picked == null) {
