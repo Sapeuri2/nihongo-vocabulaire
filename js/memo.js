@@ -217,7 +217,7 @@ function viewSheet() {
   <section class="m-card"><h3>Rappels surprise</h3>
     <p class="small muted">Un quiz surgit pendant que tu utilises l'appli. Il ne se ferme qu'après une bonne réponse.</p>
     <div class="m-seg">${Object.keys(FREQ).map(f => `<button data-m="freq" data-f="${f}" class="${mem.freq === f ? 'on' : ''}">${f}</button>`).join('')}</div>
-    <p class="small">Série : <strong>${mem.streak}</strong> bonne${mem.streak > 1 ? 's' : ''} réponse${mem.streak > 1 ? 's' : ''} d'affilée · record : <strong>${mem.best}</strong></p>
+    <p class="small">Série い/な (propre à cette bulle) : <strong>${mem.streak}</strong> bonne${mem.streak > 1 ? 's' : ''} réponse${mem.streak > 1 ? 's' : ''} d'affilée · record : <strong>${mem.best}</strong></p>
     ${weak.length ? `<p class="small">Tes pièges : <span class="jp">${weak.map(([k, s]) => `${rich(s.w || k)} (${s.ko}✗)`).join(' · ')}</span></p>` : ''}
   </section>`;
 }

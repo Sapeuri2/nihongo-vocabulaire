@@ -711,9 +711,9 @@
           "type": "choice",
           "jp": "{日本語|にほんご}が＿{分|わ}かります。",
           "fr": "Je comprends un peu le japonais.",
-          "choices": ["{少|すこ}し", "ぜんぜん", "あまり", "とても"],
+          "choices": ["{少|すこ}し", "いっしょに", "あまり", "とても"],
           "a": 0,
-          "explain": "あまり / ぜんぜん demandent 分かりません ; とても ne s'emploie pas seul avec 分かる."
+          "explain": "あまり demande un négatif (あまり{分|わ}かりません) ; とても ne s'emploie pas seul avec {分|わ}かる."
         },
         {
           "id": "v5-10-e06",
@@ -728,9 +728,9 @@
           "type": "choice",
           "jp": "このケーキは＿おいしいです。",
           "fr": "Ce gâteau est très bon.",
-          "choices": ["とても", "ぜんぜん", "あまり", "すぐ"],
+          "choices": ["とても", "いっしょに", "あまり", "すぐ"],
           "a": 0,
-          "explain": "とても + adjectif affirmatif. あまり / ぜんぜん demanderaient おいしくないです."
+          "explain": "とても + adjectif affirmatif. あまり demanderait おいしくないです. (À l'oral, des jeunes disent ぜんぜんおいしい, mais c'est familier.)"
         },
         {
           "id": "v5-10-e08",
