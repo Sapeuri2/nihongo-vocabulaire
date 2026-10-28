@@ -1,7 +1,7 @@
 /* Bulle « い / な », antisèche et rappels surprise (js/memo.js). Propre à cette appli. */
-:root { --m-i: #2a5fa8; --m-na: #c46a12; --m-trap: #7a4fc4; --m-past: #1d8a6e; }
+:root { --m-i: #2a5fa8; --m-na: #c46a12; --m-trap: #7a4fc4; --m-past: #1d8a6e; --m-te: #b0306a; }
 @media (prefers-color-scheme: dark) {
-  :root { --m-i: #6ea6f0; --m-na: #f0a35a; --m-trap: #b89af0; --m-past: #4fc9a8; }
+  :root { --m-i: #6ea6f0; --m-na: #f0a35a; --m-trap: #b89af0; --m-past: #4fc9a8; --m-te: #f07fb0; }
 }
 
 main { padding-bottom: 96px; }
@@ -9,9 +9,9 @@ html.memo-open { overflow: hidden; }
 
 #memo-bubble {
   position: fixed; z-index: 20; right: 14px; bottom: calc(14px + env(safe-area-inset-bottom));
-  width: 56px; height: 56px; border-radius: 50%; border: 0; cursor: pointer;
+  min-width: 56px; height: 56px; padding: 0 12px; border-radius: 28px; border: 0; cursor: pointer;
   background: var(--accent); color: var(--accent-text); box-shadow: 0 3px 10px rgba(0, 0, 0, .3);
-  font-family: var(--jp); font-size: 1.15rem; font-weight: 700; line-height: 1;
+  font-family: var(--jp); font-size: 1.05rem; font-weight: 700; line-height: 1;
 }
 #memo-bubble small { font-size: .8em; opacity: .7; margin: 0 1px; }
 
@@ -51,6 +51,9 @@ html.memo-open { overflow: hidden; }
 .m-trap { border-left-color: var(--m-trap); }
 .m-ban { border-left-color: var(--bad); }
 .m-past { border-left-color: var(--m-past); }
+.m-te { border-left-color: var(--m-te); }
+.m-te .m-fin.m-te-fin { color: var(--m-te); }
+.m-rules.m-te-rules li.on { background: color-mix(in srgb, var(--m-te) 18%, transparent); }
 .m-past-table td.jp, .m-past-table td { line-height: 1.9; }
 .m-conj.m-past-table td:first-child { width: 7.5em; white-space: normal; }
 .m-fin { display: block; color: var(--m-past); font-weight: 700; font-size: 1.1rem; }

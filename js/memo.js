@@ -1,4 +1,4 @@
-// Antisèche « い ou な ? » + passé poli, et rappels surprise. Propre à l'appli de vocabulaire (pas au moteur) :
+// Antisèche « い ou な ? » + passé poli + forme て, et rappels surprise. Propre à l'appli de vocabulaire (pas au moteur) :
 // une bulle sur toutes les pages, et un mini-quiz qui surgit de temps en temps
 // et ne se ferme qu'après une bonne réponse. Questions générées depuis data/rappels.json.
 import { esc, rich } from './text.js';
@@ -22,7 +22,20 @@ const PAST_RULES = [
   { id: 'i', label: 'Adjectif en い', fin: 'い → かったです', ex: '{寒|さむ}かったです', fr: 'il faisait froid' },
 ];
 
-let DATA = { adjectifs: [], passe: { noms: [], verbes: [] }, phrases: [] };
+// La forme て selon la fin du verbe (carte de l'antisèche et explications).
+const TE_RULES = [
+  { id: 'utr', label: 'う・つ・る', fin: 'って', ex: '{買|か}う → {買|か}って' },
+  { id: 'mbn', label: 'む・ぶ・ぬ', fin: 'んで', ex: '{飲|の}む → {飲|の}んで' },
+  { id: 'ku', label: 'く', fin: 'いて', ex: '{書|か}く → {書|か}いて' },
+  { id: 'gu', label: 'ぐ', fin: 'いで', ex: '{泳|およ}ぐ → {泳|およ}いで' },
+  { id: 'su', label: 'す', fin: 'して', ex: '{話|はな}す → {話|はな}して' },
+  { id: 'iku', label: '{行|い}く (exception)', fin: '{行|い}って', ex: 'jamais {行|い}いて' },
+  { id: 'g2', label: 'Groupe 2 (〜いる・〜える)', fin: 'る → て', ex: '{食|た}べる → {食|た}べて' },
+  { id: 'irr', label: 'Irréguliers', fin: 'して・{来|き}て', ex: 'する → して, {来|く}る → {来|き}て' },
+];
+const THEMES = { ina: 'い / な', passe: 'passé poli', te: 'forme て' };
+
+let DATA = { adjectifs: [], passe: { noms: [], verbes: [] }, phrases: [], te: { verbes: [], phrases: [] } };
 let mem = load();
 let box = null; // la fenêtre (overlay)
 let quiz = null; // { mode, q, picked, n, okCount }
@@ -30,8 +43,12 @@ let usedSec = 0;
 let nextAt = 0;
 
 function load() {
-  const base = { freq: 'souvent', stats: {}, streak: 0, best: 0 };
-  try { return { ...base, ...JSON.parse(localStorage.getItem(KEY) || '{}') }; } catch { return base; }
+  const base = { freq: 'souvent', stats: {}, streak: 0, best: 0, themes: { ina: true, passe: true, te: true } };
+  try {
+    const m = { ...base, ...JSON.parse(localStorage.getItem(KEY) || '{}') };
+    m.themes = { ...base.themes, ...m.themes };
+    return m;
+  } catch { return base; }
 }
 function save() {
   try { localStorage.setItem(KEY, JSON.stringify(mem)); } catch { /* stockage indisponible */ }
@@ -145,11 +162,73 @@ function phraseQuestion() {
   return { ...question(p.key, null, p.fr, 'Comment le dit-on ?', p.choices[0], p.choices.slice(1), explain), phrase: true };
 }
 
+// ---------- Forme て ----------
+
+const I_ROW = { う: 'い', つ: 'ち', る: 'り', む: 'み', ぶ: 'び', ぬ: 'に', く: 'き', ぐ: 'ぎ', す: 'し' };
+
+function teCat(v) {
+  if (v.g !== '1') return v.g === '2' ? 'g2' : v.g;
+  return { う: 'utr', つ: 'utr', る: 'utr', む: 'mbn', ぶ: 'mbn', ぬ: 'mbn', く: 'ku', ぐ: 'gu', す: 'su' }[v.jp.slice(-1)];
+}
+
+// Bonne forme て, et erreurs typiques (règle d'une autre terminaison, radical en い + て, groupe 2…).
+function teForms(v) {
+  const d = v.jp;
+  const s = d.slice(0, -1);
+  const last = d.slice(-1);
+  if (v.te) return [v.te, v.bad];
+  if (v.g === 'iku') return [`${s}って`, [`${s}いて`, `${s}きて`, `${s}いで`]];
+  if (v.g === '2') return [`${s}て`, v.bad || [`${s}って`, `${d}て`, `${s}んで`]];
+  const fin = { う: 'って', つ: 'って', る: 'って', む: 'んで', ぶ: 'んで', ぬ: 'んで', く: 'いて', ぐ: 'いで', す: 'して' }[last];
+  const i = I_ROW[last];
+  const bad = {
+    う: [`${s}んで`, `${s}いて`, `${s}して`],
+    つ: [`${s}んで`, `${s}いて`, `${s}${i}て`],
+    る: [`${s}て`, `${s}んで`, `${s}${i}て`], // ${s}て : l'erreur « groupe 2 » (帰て)
+    む: [`${s}って`, `${s}${i}て`, `${s}んて`],
+    ぶ: [`${s}って`, `${s}${i}て`, `${s}んて`],
+    ぬ: [`${s}って`, `${s}${i}て`, `${s}んて`],
+    く: [`${s}って`, `${s}いで`, `${s}${i}て`],
+    ぐ: [`${s}いて`, `${s}って`, `${s}${i}て`],
+    す: [`${s}いて`, `${s}んで`, `${d}て`],
+  }[last];
+  return [`${s}${fin}`, v.bad || bad];
+}
+
+function teRule(id) {
+  return `<ul class="m-rules m-te-rules">${TE_RULES.map(r => `<li class="${r.id === id ? 'on' : ''}"><span>${rich(r.label)}</span> <span class="jp">${rich(r.fin)}</span></li>`).join('')}</ul>`;
+}
+
+function teQuestion() {
+  const v = weighted(DATA.te.verbes.map(x => ({ ...x, key: `v:${x.jp}`, boost: x.piege || x.g === 'iku' ? 2.5 : 1 })));
+  const cat = teCat(v);
+  const [good, bad] = teForms(v);
+  const group = { g2: 'groupe 2 : on enlève る et on met て', iku: 'l\'exception : il finit par く mais fait って', irr: 'irrégulier' }[cat]
+    || `groupe 1, fin en ${v.jp.slice(-1)} → ${TE_RULES.find(r => r.id === cat).fin}`;
+  const pair = v.jp.endsWith('る') && /\{(着|切)\|き\}/.test(v.jp)
+    ? `<p>✂️ Ne pas confondre : ${rich('{着|き}る')} (porter, groupe 2) → ${rich('{着|き}て')} ; ${rich('{切|き}る')} (couper, groupe 1) → ${rich('{切|き}って')}.</p>`
+    : '';
+  const trap = v.piege && v.g === '1'
+    ? `<p>🪤 Piège : ${rich(v.jp)} finit par いる / える mais c'est un verbe du <strong>groupe 1</strong> → って.</p>`
+    : '';
+  const explain = `<p>${rich(v.jp)} : ${group} → <strong class="jp">${rich(good)}</strong></p>${trap}${pair}${teRule(cat)}`;
+  return question(v.key, v.jp, v.fr, 'forme て ?', good, bad, explain);
+}
+
+function tePhraseQuestion() {
+  const p = weighted(DATA.te.phrases.map(x => ({ ...x, key: `t:${x.key}` })));
+  const explain = `<p>${rich(p.explain)}</p>${teRule(p.rule)}`;
+  return { ...question(p.key, null, p.fr, 'Comment le dit-on ?', p.choices[0], p.choices.slice(1), explain), phrase: true };
+}
+
 function newQuestion() {
-  const r = Math.random();
-  if (r < 0.5) return adjQuestion();
-  if (r < 0.8) return pastQuestion();
-  return phraseQuestion();
+  // Thèmes cochés dans la bulle, chacun avec son poids.
+  const gens = [];
+  if (mem.themes.ina) gens.push([0.35, adjQuestion]);
+  if (mem.themes.passe) gens.push([0.2, pastQuestion], [0.1, phraseQuestion]);
+  if (mem.themes.te) gens.push([0.25, teQuestion], [0.1, tePhraseQuestion]);
+  let x = Math.random() * gens.reduce((t, g) => t + g[0], 0);
+  return (gens.find(g => (x -= g[0]) <= 0) || gens[0])[1]();
 }
 
 function record(q, ok) {
@@ -169,7 +248,7 @@ const tile = (stem, end, cls = 'm-end') => `${rich(stem)}<span class="${cls}">${
 function viewSheet() {
   const conj = rows => `<table class="m-conj">${rows.map(([l, v]) => `<tr><td>${l}</td><td class="jp">${v}</td></tr>`).join('')}</table>`;
   const weak = Object.entries(mem.stats).filter(([, s]) => s.ko).sort((x, y) => y[1].ko - x[1].ko).slice(0, 4);
-  return `<div class="m-head"><h2>い ou な ? et le passé poli</h2>${furiButton()}<button class="m-x" data-m="close" aria-label="Fermer">✕</button></div>
+  return `<div class="m-head"><h2>い / な, passé poli, forme て</h2>${furiButton()}<button class="m-x" data-m="close" aria-label="Fermer">✕</button></div>
   <section class="m-card m-i"><h3>🦎 Adjectif en い : la queue change</h3>
     <p>Le い reste au présent. Pour le reste, il tombe et on colle une nouvelle fin.</p>
     ${conj([
@@ -202,6 +281,14 @@ function viewSheet() {
     <p class="m-warn">☔ « Il a plu » = ${rich('{雨|あめ}が{降|ふ}りました')} (la pluie tombe). ${rich('{雨|あめ}でした')} = c'était un jour de pluie.
       ${rich('{雨|あめ}がありました')} ne se dit pas pour « il a plu ».</p>
     <p class="small">Au négatif : でした → じゃありませんでした · ました → ませんでした · ありました → ありませんでした · かったです → くなかったです.</p></section>
+  <section class="m-card m-te"><h3>🔁 La forme て : regarde la dernière syllabe</h3>
+    <p>Verbes du groupe 1 : la fin du verbe décide.</p>
+    <table class="m-conj m-past-table">${TE_RULES.map(r => `<tr><td>${rich(r.label)}</td><td><span class="jp m-fin m-te-fin">${rich(r.fin)}</span>
+      <span class="jp">${rich(r.ex)}</span></td></tr>`).join('')}</table>
+    <p class="m-warn">🪤 <strong>Faux groupe 2</strong> : ${rich('{帰|かえ}る')}, ${rich('{入|はい}る')}, ${rich('{走|はし}る')}, ${rich('{知|し}る')}, ${rich('{切|き}る')} finissent par いる / える mais sont du groupe 1 →
+      <span class="jp">${rich('{帰|かえ}って')}, ${rich('{入|はい}って')}, ${rich('{走|はし}って')}</span>.</p>
+    <p class="m-warn">✂️ ${rich('{着|き}る')} (porter) → ${rich('{着|き}て')} · ${rich('{切|き}る')} (couper) → ${rich('{切|き}って')}.</p>
+    <p class="small">Astuce : <strong>んで</strong> et <strong>いで</strong> gardent le petit « ゛ » de む・ぶ・ぬ・ぐ ; les autres finissent par て.</p></section>
   <section class="m-card m-ban"><h3>⛔ Les erreurs interdites</h3>
     <ul class="m-list jp">
       <li><s>${rich('{高|たか}いじゃありません')}</s> → ${rich('{高|たか}くないです')}</li>
@@ -210,6 +297,9 @@ function viewSheet() {
       <li><s>${rich('{高|たか}かったでした')}</s> → ${rich('{高|たか}かったです')}</li>
       <li><s>${rich('{降|ふ}りでした')}</s> → ${rich('{降|ふ}りました')}</li>
       <li><s>いくないです</s> → よくないです</li>
+      <li><s>${rich('{行|い}いて')}</s> → ${rich('{行|い}って')}</li>
+      <li><s>${rich('{帰|かえ}て')}</s> → ${rich('{帰|かえ}って')}</li>
+      <li><s>${rich('{飲|の}みて')}</s> → ${rich('{飲|の}んで')}</li>
     </ul></section>
   <p class="small muted">Entre amis (forme neutre) : enlève です pour い (${rich('{高|たか}くない')}, ${rich('{高|たか}かった')}).
     Pour な : ${rich('{静|しず}かじゃない')}, ${rich('{静|しず}かだった')}, ${rich('{静|しず}かじゃなかった')}.</p>
@@ -217,6 +307,8 @@ function viewSheet() {
   <section class="m-card"><h3>Rappels surprise</h3>
     <p class="small muted">Un quiz surgit pendant que tu utilises l'appli. Il ne se ferme qu'après une bonne réponse.</p>
     <div class="m-seg">${Object.keys(FREQ).map(f => `<button data-m="freq" data-f="${f}" class="${mem.freq === f ? 'on' : ''}">${f}</button>`).join('')}</div>
+    <p class="small muted">Thèmes des questions (rappels et quiz éclair) :</p>
+    <div class="m-seg">${Object.entries(THEMES).map(([t, l]) => `<button data-m="theme" data-t="${t}" class="${mem.themes[t] ? 'on' : ''}">${mem.themes[t] ? '✓ ' : ''}${l}</button>`).join('')}</div>
     <p class="small">Série い/な (propre à cette bulle) : <strong>${mem.streak}</strong> bonne${mem.streak > 1 ? 's' : ''} réponse${mem.streak > 1 ? 's' : ''} d'affilée · record : <strong>${mem.best}</strong></p>
     ${weak.length ? `<p class="small">Tes pièges : <span class="jp">${weak.map(([k, s]) => `${rich(s.w || k)} (${s.ko}✗)`).join(' · ')}</span></p>` : ''}
   </section>`;
@@ -288,7 +380,12 @@ function onAct(act, el) {
   } else if (act === 'furi') { toggleFurigana(); show(quiz ? viewQuiz() : viewSheet()); }
   else if (act === 'sheet') { quiz = null; show(viewSheet()); }
   else if (act === 'eclair') startQuiz('eclair');
-  else if (act === 'freq') { mem.freq = el.dataset.f; save(); schedule(); show(viewSheet()); }
+  else if (act === 'theme') {
+    const t = el.dataset.t;
+    // Au moins un thème reste coché.
+    if (!mem.themes[t] || Object.values(mem.themes).filter(Boolean).length > 1) { mem.themes[t] = !mem.themes[t]; save(); }
+    show(viewSheet());
+  } else if (act === 'freq') { mem.freq = el.dataset.f; save(); schedule(); show(viewSheet()); }
   else if (act === 'pick' && quiz && quiz.picked == null) {
     quiz.picked = +el.dataset.i;
     const ok = quiz.q.choices[quiz.picked] === quiz.q.good;
@@ -324,8 +421,8 @@ async function init() {
   } catch { return; } // hors ligne sans cache : pas de bulle
   const bubble = document.createElement('button');
   bubble.id = 'memo-bubble';
-  bubble.setAttribute('aria-label', 'Antisèche い / な et passé poli');
-  bubble.innerHTML = 'い<small>/</small>な';
+  bubble.setAttribute('aria-label', 'Antisèche : い / な, passé poli, forme て');
+  bubble.innerHTML = 'い<small>/</small>な<small>/</small>て';
   bubble.addEventListener('click', () => show(viewSheet()));
   box = document.createElement('div');
   box.className = 'memo-overlay';

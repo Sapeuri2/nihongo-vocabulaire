@@ -35,12 +35,13 @@ La même clé GitHub (droit « gist ») peut servir aux deux applis : chacune cr
 Propres à cette appli : `js/config.js`, `css/theme.css` (bleu), `index.html`, `manifest.webmanifest`, `icons/`, `data/`,
 `tools/verifier-appli.mjs`, `tools/kanji.mjs`, et la bulle « い ou な ? » (`js/memo.js`, `css/memo.css`, `data/rappels.json`).
 
-## Bulle « い ou な ? » et passé poli
+## Bulle « い / な / て » : adjectifs, passé poli, forme て
 
-Une bulle **い/な** en bas à droite, sur toutes les pages, ouvre une antisèche illustrée (conjugaison des adjectifs en い et en な, faux い, passé poli でした / ました / ありました / かったです, erreurs interdites) et un quiz éclair de 10 questions.
+Une bulle **い/な** en bas à droite, sur toutes les pages, ouvre une antisèche illustrée (conjugaison des adjectifs en い et en な, faux い, passé poli でした / ました / ありました / かったです, forme て des verbes, erreurs interdites) et un quiz éclair de 10 questions.
+Les thèmes (い / な, passé poli, forme て) se cochent dans la bulle : on peut ne travailler que la forme て.
 Dans chaque fenêtre de la bulle, un bouton **漢** affiche ou masque les furigana (même réglage que le bouton 漢 du haut).
 Des **rappels surprise** surgissent pendant l'utilisation (souvent / normal / rarement / jamais, réglable dans la bulle) et ne se ferment qu'après une bonne réponse.
-Les questions sont générées depuis `data/rappels.json` (adjectifs, noms et verbes pour le passé, phrases fixes) : les mauvais choix sont les erreurs typiques (高いじゃありません, きれくない, 寒いでした, 降りでした, 高かったでした, いくない…), et ce qui est raté revient plus souvent.
+Les questions sont générées depuis `data/rappels.json` (adjectifs, noms et verbes pour le passé, 63 verbes pour la forme て, phrases fixes) : les mauvais choix sont les erreurs typiques (高いじゃありません, きれくない, 寒いでした, 降りでした, 高かったでした, いくない…), et ce qui est raté revient plus souvent.
 Statistiques et réglage restent sur l'appareil (`nv-memo-v1`), sans synchro.
 Pour ajouter un adjectif, un nom, un verbe ou une phrase : `data/rappels.json` (lire la note en tête du fichier : ne jamais proposer comme erreur une forme qui existe, comme 大きな ou 上手い).
 
