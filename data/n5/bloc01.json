@@ -171,6 +171,32 @@
         {"jp": "ねる", "kana": "ねる", "fr": "se coucher, dormir", "ex": "{十一時|じゅういちじ}にねます。", "exFr": "Je me couche à onze heures."},
         {"jp": "{会|あ}う", "kana": "あう", "fr": "rencontrer, voir (quelqu'un)", "ex": "{駅|えき}で{友|とも}だちに{会|あ}います。", "exFr": "Je retrouve un ami à la gare."}
       ],
+      "sections": [
+        {
+          "h": "Groupes et formes : dictionnaire, ます, て",
+          "p": [
+            "**D'abord le groupe.** Groupe 2 : る avec un son **i** ou **e** juste avant ({食|た}べる, {起|お}きる, {見|み}る, ねる). Irréguliers : する, {来|く}る. Groupe 1 : tout le reste, **y compris {帰|かえ}る** (faux groupe 2).",
+            "**Dictionnaire → ます** : groupe 1, son u → son i + ます ({書|か}く → {書|か}きます) ; groupe 2, る → ます. **ます → dictionnaire** : le chemin inverse ({起|お}きます → {起|お}きる, jamais {起|お}く).",
+            "**Forme て** (groupe 1) : う・つ・る → って, む・ぶ・ぬ → んで, く → いて, ぐ → いで, す → して ; exception {行|い}く → {行|い}って. Groupe 2 : る → て.",
+            "La bulle **い/な/て** (en bas à droite) fait travailler ces formes sur 65 verbes : coche le thème « verbes »."
+          ],
+          "grid": {
+            "head": ["", "dictionnaire", "ます", "て"],
+            "rows": [
+              ["う", "{会|あ}う", "{会|あ}==い==ます", "{会|あ}==って=="],
+              ["る (gr. 1)", "{帰|かえ}る", "{帰|かえ}==り==ます", "{帰|かえ}==って=="],
+              ["む", "{飲|の}む", "{飲|の}==み==ます", "{飲|の}==んで=="],
+              ["く", "{書|か}く", "{書|か}==き==ます", "{書|か}==いて=="],
+              ["★", "{行|い}く", "{行|い}==き==ます", "{行|い}==って=="],
+              ["す", "{話|はな}す", "{話|はな}==し==ます", "{話|はな}==して=="],
+              ["gr. 2", "{食|た}べる", "{食|た}べ==ます==", "{食|た}べ==て=="],
+              ["gr. 2", "{起|お}きる", "{起|お}き==ます==", "{起|お}き==て=="],
+              ["irr.", "する", "==します==", "==して=="],
+              ["irr.", "{来|く}る", "=={来|き}ます==", "=={来|き}て=="]
+            ]
+          }
+        }
+      ],
       "pieges": [
         "Les verbes sont donnés à la forme du dictionnaire ; dans les phrases, ils sont à la forme polie : {行|い}く → {行|い}きます.",
         "« Voir un ami » = {友|とも}だち**に**{会|あ}う (avec に, ou と), pas {見|み}る ni を. {見|み}る = regarder (un film, la télé…).",
@@ -320,6 +346,167 @@
           "fr": "Je parle avec ma mère au téléphone.",
           "tokens": ["{母|はは}", "と", "{電話|でんわ}", "で", "{話|はな}します"],
           "alt": [["{電話|でんわ}", "で", "{母|はは}", "と", "{話|はな}します"]]
+        },
+        {
+          "id": "v5-02-e19",
+          "type": "choice",
+          "q": "{帰|かえ}る : quel groupe ?",
+          "choices": ["groupe 1", "groupe 2", "irrégulier"],
+          "a": 0,
+          "explain": "Faux groupe 2 : {帰|かえ}る finit par える mais c'est un groupe 1 → {帰|かえ}ります, {帰|かえ}って."
+        },
+        {
+          "id": "v5-02-e20",
+          "type": "choice",
+          "q": "{起|お}きる : quel groupe ?",
+          "choices": ["groupe 1", "groupe 2", "irrégulier"],
+          "a": 1,
+          "explain": "る avec un son i avant (き) : groupe 2 → {起|お}きます, {起|お}きて."
+        },
+        {
+          "id": "v5-02-e21",
+          "type": "choice",
+          "q": "{来|く}る : quel groupe ?",
+          "choices": ["groupe 1", "groupe 2", "irrégulier"],
+          "a": 2,
+          "explain": "{来|く}る est irrégulier : {来|き}ます, {来|き}て, こない."
+        },
+        {
+          "id": "v5-02-e22",
+          "type": "choice",
+          "q": "Forme ます de **{帰|かえ}る** ?",
+          "choices": ["{帰|かえ}ります", "{帰|かえ}ます", "{帰|かえ}るます", "{帰|かえ}らます"],
+          "a": 0,
+          "explain": "Groupe 1 : る → り + ます. {帰|かえ}ます serait la règle du groupe 2."
+        },
+        {
+          "id": "v5-02-e23",
+          "type": "choice",
+          "q": "Forme ます de **{食|た}べる** ?",
+          "choices": ["{食|た}べます", "{食|た}べります", "{食|た}べるます", "{食|た}べいます"],
+          "a": 0,
+          "explain": "Groupe 2 : on enlève る et on met ます."
+        },
+        {
+          "id": "v5-02-e24",
+          "type": "choice",
+          "q": "Forme du dictionnaire de **{起|お}きます** ?",
+          "choices": ["{起|お}きる", "{起|お}く", "{起|お}きう", "{起|お}きつ"],
+          "a": 0,
+          "explain": "{起|お}きる est du groupe 2 : ます → る. Le piège : {起|お}く (comme si き venait de く)."
+        },
+        {
+          "id": "v5-02-e25",
+          "type": "choice",
+          "q": "Forme du dictionnaire de **{聞|き}きます** ?",
+          "choices": ["{聞|き}く", "{聞|き}きる", "{聞|き}る", "{聞|き}う"],
+          "a": 0,
+          "explain": "Groupe 1 : son i (き) → son u (く)."
+        },
+        {
+          "id": "v5-02-e26",
+          "type": "choice",
+          "q": "Forme du dictionnaire de **{来|き}ます** ?",
+          "choices": ["{来|く}る", "{来|き}く", "{来|き}す", "{来|き}つ"],
+          "a": 0,
+          "explain": "Irrégulier : {来|き}ます ⇄ {来|く}る."
+        },
+        {
+          "id": "v5-02-e27",
+          "type": "choice",
+          "q": "Forme て de **{書|か}く** ?",
+          "choices": ["{書|か}いて", "{書|か}って", "{書|か}きて", "{書|か}いで"],
+          "a": 0,
+          "explain": "く → いて."
+        },
+        {
+          "id": "v5-02-e28",
+          "type": "choice",
+          "q": "Forme て de **{飲|の}む** ?",
+          "choices": ["{飲|の}んで", "{飲|の}って", "{飲|の}みて", "{飲|の}んて"],
+          "a": 0,
+          "explain": "む → んで (avec で)."
+        },
+        {
+          "id": "v5-02-e29",
+          "type": "choice",
+          "q": "Forme て de **{行|い}く** ?",
+          "choices": ["{行|い}って", "{行|い}いて", "{行|い}きて", "{行|い}いで"],
+          "a": 0,
+          "explain": "Exception : {行|い}く finit par く mais fait {行|い}って."
+        },
+        {
+          "id": "v5-02-e30",
+          "type": "choice",
+          "q": "Forme て de **{話|はな}す** ?",
+          "choices": ["{話|はな}して", "{話|はな}いて", "{話|はな}って", "{話|はな}すて"],
+          "a": 0,
+          "explain": "す → して."
+        },
+        {
+          "id": "v5-02-e31",
+          "type": "choice",
+          "q": "Forme て de **{帰|かえ}ります** ?",
+          "choices": ["{帰|かえ}って", "{帰|かえ}て", "{帰|かえ}りて", "{帰|かえ}んで"],
+          "a": 0,
+          "explain": "{帰|かえ}る est du groupe 1 (faux groupe 2) : る → って."
+        },
+        {
+          "id": "v5-02-e32",
+          "type": "choice",
+          "q": "Forme て de **{見|み}ます** ?",
+          "choices": ["{見|み}て", "{見|み}って", "{見|み}ますて", "{見|み}んで"],
+          "a": 0,
+          "explain": "{見|み}る est du groupe 2 : ます → て."
+        },
+        {
+          "id": "v5-02-e33",
+          "type": "choice",
+          "q": "Forme て de **{会|あ}います** ?",
+          "choices": ["{会|あ}って", "{会|あ}いて", "{会|あ}んで", "{会|あ}して"],
+          "a": 0,
+          "explain": "{会|あ}う finit par う → って."
+        },
+        {
+          "id": "v5-02-e34",
+          "type": "choice",
+          "jp": "ちょっと{待|ま}＿ください。",
+          "fr": "Attends un instant, s'il te plaît.",
+          "choices": ["って", "ちて", "んで", "いて"],
+          "a": 0,
+          "explain": "{待|ま}つ finit par つ → {待|ま}って."
+        },
+        {
+          "id": "v5-02-e35",
+          "type": "choice",
+          "jp": "{毎晩|まいばん}テレビを＿、ねます。",
+          "fr": "Tous les soirs, je regarde la télé, puis je me couche.",
+          "choices": ["{見|み}て", "{見|み}って", "{見|み}るて", "{見|み}んで"],
+          "a": 0,
+          "explain": "{見|み}る est du groupe 2 : る → て."
+        },
+        {
+          "id": "v5-02-e36",
+          "type": "choice",
+          "jp": "＿まえに、{本|ほん}を{読|よ}みます。",
+          "fr": "Avant de me coucher, je lis un livre.",
+          "choices": ["ねる", "ねます", "ねて", "ねた"],
+          "a": 0,
+          "explain": "Devant まえに : la forme du dictionnaire."
+        },
+        {
+          "id": "v5-02-e37",
+          "type": "order",
+          "fr": "Je mange du pain, puis je vais à l'école.",
+          "tokens": ["パンを", "{食|た}べて", "{学校|がっこう}へ", "{行|い}きます"]
+        },
+        {
+          "id": "v5-02-e38",
+          "type": "choice",
+          "q": "Trouve la forme て **incorrecte**.",
+          "choices": ["{帰|かえ}て", "{書|か}いて", "{飲|の}んで", "{来|き}て"],
+          "a": 0,
+          "explain": "{帰|かえ}る est du groupe 1 : {帰|かえ}って."
         }
       ]
     },
