@@ -54,6 +54,12 @@ html.memo-open { overflow: hidden; }
 .m-te { border-left-color: var(--m-te); }
 .m-te .m-fin.m-te-fin { color: var(--m-te); }
 .m-rules.m-te-rules li.on { background: color-mix(in srgb, var(--m-te) 18%, transparent); }
+.m-te .m-new { color: var(--m-te); font-weight: 700; }
+.m-verbs th { font-size: .75rem; font-weight: 600; color: var(--muted); text-align: left; padding: 2px 4px; }
+.m-conj.m-verbs td { padding: 2px 4px; }
+.m-conj.m-verbs td:first-child { width: auto; font-size: .75rem; }
+.m-conj.m-verbs td.jp { font-size: 1rem; line-height: 1.9; white-space: nowrap; }
+.m-forms { font-size: 1.15rem; font-weight: 700; }
 .m-past-table td.jp, .m-past-table td { line-height: 1.9; }
 .m-conj.m-past-table td:first-child { width: 7.5em; white-space: normal; }
 .m-fin { display: block; color: var(--m-past); font-weight: 700; font-size: 1.1rem; }

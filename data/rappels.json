@@ -1,5 +1,5 @@
 {
-  "_": "Questions de la bulle « い/な » (js/memo.js). Adjectifs : t = type, n = nom pour la forme « devant un nom », piege = adjectif en な qui finit par い. Ne jamais proposer comme erreur une forme qui existe : naOk = 大きな / 小さな, pasI = 上手い (うまい) ; éviter les noms qui forment un mot composé (有名店, 有名人), les adjectifs dont le radical est un nom (白い → 白) et, pour le passé, les noms qui donnent un verbe avec ました (休み → 休みました). passe : noms et verbes (forme en ます) pour « quelle fin au passé poli ? ». phrases : questions fixes, la bonne réponse en premier. te : verbes pour la forme て (g = groupe 1, 2, iku = 行く, irr = irréguliers ; te / bad = forme et erreurs écrites à la main quand la règle ne suffit pas ou qu'une erreur générée serait un vrai mot, comme すって, forme て de すう « aspirer ») et phrases fixes (bonne réponse en premier).",
+  "_": "Questions de la bulle « い/な » (js/memo.js). Adjectifs : t = type, n = nom pour la forme « devant un nom », piege = adjectif en な qui finit par い. Ne jamais proposer comme erreur une forme qui existe : naOk = 大きな / 小さな, pasI = 上手い (うまい) ; éviter les noms qui forment un mot composé (有名店, 有名人), les adjectifs dont le radical est un nom (白い → 白) et, pour le passé, les noms qui donnent un verbe avec ました (休み → 休みました). passe : noms et verbes (forme en ます) pour « quelle fin au passé poli ? ». phrases : questions fixes, la bonne réponse en premier. verbes : liste (g = groupe 1, 2, iku = 行く, irr ; masu / te pour les irréguliers ; bad = erreurs écrites à la main par sens d2m, m2d, d2t, m2t quand une erreur générée serait un vrai mot ; note = paire à ne pas confondre) et phrases fixes (bonne réponse en premier ; rule = ligne de règle à mettre en avant).",
   "adjectifs": [
     {"jp": "{高|たか}い", "t": "i", "fr": "cher, haut", "n": "{本|ほん}"},
     {"jp": "{安|やす}い", "t": "i", "fr": "bon marché", "n": "{店|みせ}"},
@@ -124,8 +124,8 @@
       "explain": "{学生|がくせい} est un nom : nom + でした."
     }
   ],
-  "te": {
-    "verbes": [
+  "verbes": {
+    "liste": [
       {"jp": "{買|か}う", "g": "1", "fr": "acheter"},
       {"jp": "{会|あ}う", "g": "1", "fr": "rencontrer"},
       {"jp": "{言|い}う", "g": "1", "fr": "dire"},
@@ -133,24 +133,40 @@
       {"jp": "{洗|あら}う", "g": "1", "fr": "laver"},
       {"jp": "{歌|うた}う", "g": "1", "fr": "chanter"},
       {"jp": "{習|なら}う", "g": "1", "fr": "apprendre (avec qqn)"},
-      {"jp": "もらう", "g": "1", "fr": "recevoir", "bad": ["もらんで", "もらいて", "もらりて"]},
-      {"jp": "てつだう", "g": "1", "fr": "aider"},
+      {
+        "jp": "もらう",
+        "g": "1",
+        "fr": "recevoir",
+        "bad": {"d2m": ["もらます", "もらうます", "もらわます"], "m2d": ["もらいる", "もらる", "もらつ"], "d2t": ["もらんで", "もらいて", "もらりて"], "m2t": ["もらんで", "もらいて", "もらりて"]}
+      },
       {"jp": "{待|ま}つ", "g": "1", "fr": "attendre"},
       {"jp": "{持|も}つ", "g": "1", "fr": "tenir, avoir"},
       {"jp": "{立|た}つ", "g": "1", "fr": "se lever (debout)"},
       {"jp": "{帰|かえ}る", "g": "1", "fr": "rentrer", "piege": true},
-      {"jp": "{入|はい}る", "g": "1", "fr": "entrer", "piege": true},
+      {
+        "jp": "{入|はい}る",
+        "g": "1",
+        "fr": "entrer",
+        "piege": true,
+        "note": "{入|はい}る (entrer, groupe 1) → {入|はい}って ; {入|い}れる (mettre dedans, groupe 2) → {入|い}れて."
+      },
       {"jp": "{走|はし}る", "g": "1", "fr": "courir", "piege": true},
       {"jp": "{知|し}る", "g": "1", "fr": "savoir, connaître", "piege": true},
-      {"jp": "{切|き}る", "g": "1", "fr": "couper", "piege": true},
+      {"jp": "{切|き}る", "g": "1", "fr": "couper", "piege": true, "note": "{着|き}る (porter, groupe 2) → {着|き}て ; {切|き}る (couper, groupe 1) → {切|き}って."},
       {"jp": "{乗|の}る", "g": "1", "fr": "monter (dans un véhicule)"},
       {"jp": "{作|つく}る", "g": "1", "fr": "fabriquer, cuisiner"},
       {"jp": "{分|わ}かる", "g": "1", "fr": "comprendre"},
       {"jp": "{終|お}わる", "g": "1", "fr": "finir"},
-      {"jp": "{降|ふ}る", "g": "1", "fr": "tomber (pluie)"},
       {"jp": "{座|すわ}る", "g": "1", "fr": "s'asseoir"},
       {"jp": "{送|おく}る", "g": "1", "fr": "envoyer"},
       {"jp": "{売|う}る", "g": "1", "fr": "vendre"},
+      {
+        "jp": "{始|はじ}まる",
+        "g": "1",
+        "fr": "commencer (tout seul)",
+        "note": "{始|はじ}まる (commencer tout seul, groupe 1) → {始|はじ}まって ; {始|はじ}める (commencer qqch, groupe 2) → {始|はじ}めて."
+      },
+      {"jp": "{止|と}まる", "g": "1", "fr": "s'arrêter"},
       {"jp": "{飲|の}む", "g": "1", "fr": "boire"},
       {"jp": "{読|よ}む", "g": "1", "fr": "lire"},
       {"jp": "{住|す}む", "g": "1", "fr": "habiter"},
@@ -163,32 +179,85 @@
       {"jp": "{歩|ある}く", "g": "1", "fr": "marcher"},
       {"jp": "{働|はたら}く", "g": "1", "fr": "travailler"},
       {"jp": "{着|つ}く", "g": "1", "fr": "arriver"},
+      {"jp": "{開|あ}く", "g": "1", "fr": "s'ouvrir", "note": "{開|あ}く (s'ouvrir, groupe 1) → {開|あ}いて ; {開|あ}ける (ouvrir, groupe 2) → {開|あ}けて."},
       {"jp": "{行|い}く", "g": "iku", "fr": "aller"},
       {"jp": "{泳|およ}ぐ", "g": "1", "fr": "nager"},
       {"jp": "{急|いそ}ぐ", "g": "1", "fr": "se dépêcher"},
       {"jp": "{話|はな}す", "g": "1", "fr": "parler"},
       {"jp": "{貸|か}す", "g": "1", "fr": "prêter"},
-      {"jp": "{出|だ}す", "g": "1", "fr": "sortir (qqch), envoyer"},
+      {
+        "jp": "{出|だ}す",
+        "g": "1",
+        "fr": "sortir (qqch), envoyer",
+        "note": "{出|で}る (sortir, groupe 2) → {出|で}て ; {出|だ}す (sortir qqch, groupe 1) → {出|だ}して."
+      },
       {"jp": "{消|け}す", "g": "1", "fr": "éteindre"},
-      {"jp": "かえす", "g": "1", "fr": "rendre"},
       {"jp": "{食|た}べる", "g": "2", "fr": "manger"},
       {"jp": "{見|み}る", "g": "2", "fr": "regarder"},
       {"jp": "{起|お}きる", "g": "2", "fr": "se lever"},
-      {"jp": "ねる", "g": "2", "fr": "se coucher", "bad": ["ねるて", "ねんで", "ねりて"]},
+      {
+        "jp": "ねる",
+        "g": "2",
+        "fr": "se coucher",
+        "bad": {"d2m": ["ねるます", "ねいます", "ねります"], "m2d": ["ねう", "ねく", "ねむ"], "d2t": ["ねるて", "ねんで", "ねりて"], "m2t": ["ねるて", "ねんで", "ねますて"]}
+      },
       {"jp": "{教|おし}える", "g": "2", "fr": "enseigner"},
-      {"jp": "{開|あ}ける", "g": "2", "fr": "ouvrir"},
-      {"jp": "{着|き}る", "g": "2", "fr": "porter (un haut)", "piege": true},
+      {"jp": "{開|あ}ける", "g": "2", "fr": "ouvrir", "note": "{開|あ}く (s'ouvrir, groupe 1) → {開|あ}いて ; {開|あ}ける (ouvrir, groupe 2) → {開|あ}けて."},
+      {"jp": "{着|き}る", "g": "2", "fr": "porter (un haut)", "note": "{着|き}る (porter, groupe 2) → {着|き}て ; {切|き}る (couper, groupe 1) → {切|き}って."},
       {"jp": "{借|か}りる", "g": "2", "fr": "emprunter"},
-      {"jp": "{出|で}かける", "g": "2", "fr": "sortir"},
+      {"jp": "{出|で}かける", "g": "2", "fr": "sortir (de chez soi)"},
       {"jp": "あびる", "g": "2", "fr": "prendre (une douche)"},
       {"jp": "{見|み}せる", "g": "2", "fr": "montrer"},
-      {"jp": "わすれる", "g": "2", "fr": "oublier"},
       {"jp": "{答|こた}える", "g": "2", "fr": "répondre"},
-      {"jp": "{降|お}りる", "g": "2", "fr": "descendre (d'un véhicule)"},
-      {"jp": "{始|はじ}める", "g": "2", "fr": "commencer"},
-      {"jp": "する", "g": "irr", "fr": "faire", "te": "して", "bad": ["するて", "すりて"]},
-      {"jp": "{来|く}る", "g": "irr", "fr": "venir", "te": "{来|き}て", "bad": ["{来|く}って", "{来|く}るて", "{来|く}んで"]},
-      {"jp": "{勉強|べんきょう}する", "g": "irr", "fr": "étudier", "te": "{勉強|べんきょう}して", "bad": ["{勉強|べんきょう}するて", "{勉強|べんきょう}すって", "{勉強|べんきょう}しって"]}
+      {
+        "jp": "{始|はじ}める",
+        "g": "2",
+        "fr": "commencer (qqch)",
+        "note": "{始|はじ}まる (commencer tout seul, groupe 1) → {始|はじ}まって ; {始|はじ}める (commencer qqch, groupe 2) → {始|はじ}めて."
+      },
+      {
+        "jp": "{入|い}れる",
+        "g": "2",
+        "fr": "mettre dedans",
+        "note": "{入|はい}る (entrer, groupe 1) → {入|はい}って ; {入|い}れる (mettre dedans, groupe 2) → {入|い}れて."
+      },
+      {"jp": "{出|で}る", "g": "2", "fr": "sortir", "note": "{出|で}る (sortir, groupe 2) → {出|で}て ; {出|だ}す (sortir qqch, groupe 1) → {出|だ}して."},
+      {"jp": "できる", "g": "2", "fr": "pouvoir, savoir faire"},
+      {"jp": "{生|う}まれる", "g": "2", "fr": "naître"},
+      {
+        "jp": "する",
+        "g": "irr",
+        "fr": "faire",
+        "masu": "します",
+        "te": "して",
+        "bad": {"d2m": ["するます", "しるます", "さします"], "m2d": ["しす", "しつ"], "d2t": ["するて", "すりて"], "m2t": ["しますて", "しって", "すって"]}
+      },
+      {
+        "jp": "{来|く}る",
+        "g": "irr",
+        "fr": "venir",
+        "masu": "{来|き}ます",
+        "te": "{来|き}て",
+        "bad": {
+          "d2m": ["{来|く}ります", "{来|く}るます", "{来|き}います"],
+          "m2d": ["{来|き}く", "{来|き}す", "{来|き}つ"],
+          "d2t": ["{来|く}って", "{来|く}るて", "{来|く}んで"],
+          "m2t": ["{来|き}って", "{来|き}ますて", "{来|き}いて"]
+        }
+      },
+      {
+        "jp": "{勉強|べんきょう}する",
+        "g": "irr",
+        "fr": "étudier",
+        "masu": "{勉強|べんきょう}します",
+        "te": "{勉強|べんきょう}して",
+        "bad": {
+          "d2m": ["{勉強|べんきょう}するます", "{勉強|べんきょう}すります", "{勉強|べんきょう}さます"],
+          "m2d": ["{勉強|べんきょう}しる", "{勉強|べんきょう}しす", "{勉強|べんきょう}すう"],
+          "d2t": ["{勉強|べんきょう}するて", "{勉強|べんきょう}すって", "{勉強|べんきょう}しって"],
+          "m2t": ["{勉強|べんきょう}しますて", "{勉強|べんきょう}しって", "{勉強|べんきょう}すって"]
+        }
+      }
     ],
     "phrases": [
       {
@@ -248,6 +317,13 @@
         "explain": "{食|た}べる est du groupe 2 : on enlève る et on met て."
       },
       {
+        "key": "karite",
+        "fr": "J'ai emprunté un livre et je suis rentré.",
+        "rule": "g2",
+        "choices": ["{本|ほん}を{借|か}りて、{帰|かえ}りました。", "{本|ほん}を{借|か}って、{帰|かえ}りました。", "{本|ほん}を{借|か}りって、{帰|かえ}りました。", "{本|ほん}を{借|か}りるて、{帰|かえ}りました。"],
+        "explain": "{借|か}りる est du groupe 2 → {借|か}りて. {借|か}って serait la forme d'un verbe {借|か}る, qui n'existe pas."
+      },
+      {
         "key": "kite",
         "fr": "Viens ici, s'il te plaît.",
         "rule": "irr",
@@ -259,14 +335,21 @@
         "fr": "Je porte une chemise blanche.",
         "rule": "g2",
         "choices": ["{白|しろ}いシャツを{着|き}ています。", "{白|しろ}いシャツを{着|き}っています。", "{白|しろ}いシャツを{着|き}りています。", "{白|しろ}いシャツを{着|き}んでいます。"],
-        "explain": "{着|き}る (porter) est du groupe 2 → {着|き}て. Ne pas confondre avec {切|き}る (couper) → {切|き}って."
+        "explain": "{着|き}る (porter, groupe 2) → {着|き}て ; {切|き}る (couper, groupe 1) → {切|き}って."
       },
       {
         "key": "kitte",
         "fr": "Coupe le pain, s'il te plaît.",
         "rule": "utr",
         "choices": ["パンを{切|き}ってください。", "パンを{切|き}てください。", "パンを{切|き}りてください。", "パンを{切|き}んでください。"],
-        "explain": "Piège : {切|き}る (couper) est du groupe 1 → って. {着|き}る (porter), lui, fait {着|き}て."
+        "explain": "{着|き}る (porter, groupe 2) → {着|き}て ; {切|き}る (couper, groupe 1) → {切|き}って."
+      },
+      {
+        "key": "irete",
+        "fr": "Mets le lait dans le réfrigérateur, s'il te plaît.",
+        "rule": "g2",
+        "choices": ["ぎゅうにゅうをれいぞうこに{入|い}れてください。", "ぎゅうにゅうをれいぞうこに{入|い}ってください。", "ぎゅうにゅうをれいぞうこに{入|い}れってください。", "ぎゅうにゅうをれいぞうこに{入|い}りてください。"],
+        "explain": "{入|はい}る (entrer, groupe 1) → {入|はい}って ; {入|い}れる (mettre dedans, groupe 2) → {入|い}れて."
       },
       {
         "key": "shiteimasu",
@@ -274,6 +357,53 @@
         "rule": "irr",
         "choices": ["{今|いま}、{何|なに}をしていますか。", "{今|いま}、{何|なに}をするていますか。", "{今|いま}、{何|なに}をすりていますか。"],
         "explain": "する est irrégulier → して."
+      },
+      {
+        "key": "maeni",
+        "fr": "Avant de manger, je me lave les mains.",
+        "rule": "dict",
+        "choices": ["{食|た}べるまえに、{手|て}を{洗|あら}います。", "{食|た}べますまえに、{手|て}を{洗|あら}います。", "{食|た}べてまえに、{手|て}を{洗|あら}います。", "{食|た}べりまえに、{手|て}を{洗|あら}います。"],
+        "explain": "Devant まえに : la forme du dictionnaire ({食|た}べる)."
+      },
+      {
+        "key": "nerumaeni",
+        "fr": "Avant de me coucher, je prends une douche.",
+        "rule": "dict",
+        "choices": ["ねるまえに、シャワーをあびます。", "ねますまえに、シャワーをあびます。", "ねてまえに、シャワーをあびます。", "ねりまえに、シャワーをあびます。"],
+        "explain": "Devant まえに : la forme du dictionnaire (ねる)."
+      },
+      {
+        "key": "ikumaeni",
+        "fr": "Avant d'aller au bureau, je bois un café.",
+        "rule": "dict",
+        "choices": [
+          "{会社|かいしゃ}へ{行|い}くまえに、コーヒーを{飲|の}みます。",
+          "{会社|かいしゃ}へ{行|い}きますまえに、コーヒーを{飲|の}みます。",
+          "{会社|かいしゃ}へ{行|い}ってまえに、コーヒーを{飲|の}みます。",
+          "{会社|かいしゃ}へ{行|い}きまえに、コーヒーを{飲|の}みます。"
+        ],
+        "explain": "Devant まえに : la forme du dictionnaire ({行|い}く)."
+      },
+      {
+        "key": "kaerimasu",
+        "fr": "Je rentre à six heures.",
+        "rule": "m1",
+        "choices": ["{六時|ろくじ}に{帰|かえ}ります。", "{六時|ろくじ}に{帰|かえ}ます。", "{六時|ろくじ}に{帰|かえ}るます。", "{六時|ろくじ}に{帰|かえ}いります。"],
+        "explain": "{帰|かえ}る est du groupe 1 : る → り + ます. {帰|かえ}ます serait la règle du groupe 2."
+      },
+      {
+        "key": "okimasu",
+        "fr": "Je me lève à sept heures.",
+        "rule": "m2",
+        "choices": ["{七時|しちじ}に{起|お}きます。", "{七時|しちじ}に{起|お}きります。", "{七時|しちじ}に{起|お}くます。", "{七時|しちじ}に{起|お}きるます。"],
+        "explain": "{起|お}きる est du groupe 2 : on enlève る et on met ます."
+      },
+      {
+        "key": "hanashimasu",
+        "fr": "Je parle un peu japonais.",
+        "rule": "m1",
+        "choices": ["{日本語|にほんご}を{少|すこ}し{話|はな}します。", "{日本語|にほんご}を{少|すこ}し{話|はな}すます。", "{日本語|にほんご}を{少|すこ}し{話|はな}ます。", "{日本語|にほんご}を{少|すこ}し{話|はな}さます。"],
+        "explain": "{話|はな}す est du groupe 1 : す → し + ます."
       }
     ]
   }
