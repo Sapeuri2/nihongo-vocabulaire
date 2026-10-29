@@ -24,7 +24,7 @@ Les mots entre parenthèses sont indicatifs : la liste exacte est fixée en écr
 
 → **Examen intermédiaire 1** (leçons 1–10) ✅
 
-**Bloc 3 — La vie quotidienne**
+**Bloc 3 — La vie quotidienne** ✅
 11. Formules de politesse (すみません, おねがいします, いただきます, しつれいします…)
 12. Objets de tous les jours (本, 新聞, 電話, かぎ, かさ, 時計, 写真…)
 13. Vêtements et verbes pour les porter (着る / はく / かぶる / かける / する)

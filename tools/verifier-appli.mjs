@@ -33,7 +33,8 @@ function checkLesson(l) {
     // La phrase doit contenir le mot (verbes et adjectifs en い : le radical suffit).
     if (!w.ex || !w.exFr) return err(at, 'phrase d’exemple manquante (ex, exFr)');
     const p = plain(w.jp).replace(/^〜/, '');
-    const stem = /[うくぐすつぬぶむるい]$/.test(p) && p.length > 1 ? p.slice(0, -1) : p;
+    const stem = p.endsWith('する') && p.length > 2 ? p.slice(0, -2) // 勉強する → 勉強(します)
+      : /[うくぐすつぬぶむるい]$/.test(p) && p.length > 1 ? p.slice(0, -1) : p;
     if (!plain(w.ex).includes(stem)) err(at, `la phrase d'exemple ne contient pas le mot : ${w.ex}`);
   });
 }

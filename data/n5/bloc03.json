@@ -1,0 +1,994 @@
+{
+  "id": "v5-b03",
+  "level": "N5",
+  "title": "La vie quotidienne : politesse, objets, vêtements, routine, transports",
+  "lessons": [
+    {
+      "id": "v5-11",
+      "title": "Formules de politesse",
+      "words": [
+        {"jp": "おはようございます", "kana": "おはようございます", "fr": "bonjour (le matin)", "ex": "{先生|せんせい}、おはようございます。", "exFr": "Bonjour, monsieur (le matin)."},
+        {"jp": "こんにちは", "kana": "こんにちは", "fr": "bonjour (dans la journée)", "ex": "こんにちは。いい{天気|てんき}ですね。", "exFr": "Bonjour. Il fait beau, hein."},
+        {"jp": "こんばんは", "kana": "こんばんは", "fr": "bonsoir", "ex": "こんばんは。{今日|きょう}は{寒|さむ}いですね。", "exFr": "Bonsoir. Il fait froid aujourd'hui, hein."},
+        {"jp": "さようなら", "kana": "さようなら", "fr": "au revoir", "ex": "さようなら。お{元気|げんき}で。", "exFr": "Au revoir. Portez-vous bien."},
+        {"jp": "おやすみなさい", "kana": "おやすみなさい", "fr": "bonne nuit", "ex": "もう{十一時|じゅういちじ}ですね。おやすみなさい。", "exFr": "Il est déjà onze heures. Bonne nuit."},
+        {"jp": "ありがとうございます", "kana": "ありがとうございます", "fr": "merci", "ex": "{手紙|てがみ}、ありがとうございます。", "exFr": "Merci pour la lettre."},
+        {"jp": "すみません", "kana": "すみません", "fr": "excusez-moi ; pardon ; merci (pour la peine)", "ex": "すみません、{駅|えき}はどこですか。", "exFr": "Excusez-moi, où est la gare ?"},
+        {"jp": "ごめんなさい", "kana": "ごめんなさい", "fr": "pardon (entre proches)", "ex": "ごめんなさい。{明日|あした}は{時間|じかん}がありません。", "exFr": "Désolé, demain je n'ai pas le temps."},
+        {"jp": "いただきます", "kana": "いただきます", "fr": "(avant de manger) bon appétit", "ex": "{晩|ばん}ご{飯|はん}ですよ。— いただきます。", "exFr": "C'est l'heure du dîner ! — Bon appétit."},
+        {"jp": "ごちそうさまでした", "kana": "ごちそうさまでした", "fr": "(après le repas) merci pour le repas", "ex": "とてもおいしかったです。ごちそうさまでした。", "exFr": "C'était très bon. Merci pour le repas."},
+        {"jp": "おねがいします", "kana": "おねがいします", "fr": "s'il vous plaît (pour demander)", "ex": "コーヒーを{一|ひと}つ、おねがいします。", "exFr": "Un café, s'il vous plaît."},
+        {"jp": "どうぞ", "kana": "どうぞ", "fr": "je vous en prie ; tenez", "ex": "どうぞ、{入|はい}ってください。", "exFr": "Je vous en prie, entrez."},
+        {"jp": "はじめまして", "kana": "はじめまして", "fr": "enchanté (première rencontre)", "ex": "はじめまして。マリーです。よろしくおねがいします。", "exFr": "Enchantée. Je m'appelle Marie. Ravie de vous connaître."},
+        {"jp": "いってきます", "kana": "いってきます", "fr": "j'y vais (et je reviens)", "ex": "いってきます。— いってらっしゃい。", "exFr": "J'y vais ! — À tout à l'heure !"},
+        {"jp": "ただいま", "kana": "ただいま", "fr": "je suis rentré(e)", "ex": "ただいま。— おかえりなさい。", "exFr": "Je suis rentré ! — Bon retour !"},
+        {"jp": "しつれいします", "kana": "しつれいします", "fr": "excusez-moi (en entrant, en partant)", "ex": "しつれいします。{先生|せんせい}、{質問|しつもん}があります。", "exFr": "Excusez-moi (d'entrer). Monsieur, j'ai une question."}
+      ],
+      "pieges": [
+        "おはようございます le matin (entre amis : おはよう) ; こんにちは dans la journée ; こんばんは le soir. On ne dit ni こんにちは ni こんばんは à sa propre famille.",
+        "Les paires de la maison : いってきます → **いってらっしゃい** ; ただいま → **おかえりなさい**.",
+        "いただきます avant de manger, ごちそうさまでした après.",
+        "すみません = excusez-moi, pardon, **et** merci quand quelqu'un s'est donné de la peine pour vous.",
+        "ごめんなさい : pardon, avec des proches. Au travail ou avec un inconnu : すみません.",
+        "さようなら sonne un peu définitif. Entre amis, on dit plutôt じゃあ、また (à plus).",
+        "À ありがとう on répond どういたしまして (de rien), ou simplement いいえ.",
+        "Le は de こんにちは et こんばんは se prononce **わ**."
+      ],
+      "exercises": [
+        {
+          "id": "v5-11-e01",
+          "type": "choice",
+          "q": "Il est 8 h du matin, tu croises ton professeur. Que dis-tu ?",
+          "choices": ["おはようございます", "こんばんは", "おやすみなさい", "ただいま"],
+          "a": 0
+        },
+        {
+          "id": "v5-11-e02",
+          "type": "choice",
+          "q": "Il est 20 h, tu arrives chez un ami. Que dis-tu en arrivant ?",
+          "choices": ["こんばんは", "おはようございます", "おやすみなさい", "ごちそうさまでした"],
+          "a": 0
+        },
+        {
+          "id": "v5-11-e03",
+          "type": "choice",
+          "q": "Le matin, tu pars au travail. Que dis-tu à ta famille en partant ?",
+          "choices": ["いってきます", "いってらっしゃい", "ただいま", "おかえりなさい"],
+          "a": 0,
+          "explain": "Celui qui part dit いってきます ; ceux qui restent répondent いってらっしゃい."
+        },
+        {
+          "id": "v5-11-e04",
+          "type": "choice",
+          "q": "Ton frère rentre à la maison et dit ただいま. Que lui réponds-tu ?",
+          "choices": ["おかえりなさい", "いってらっしゃい", "いってきます", "いただきます"],
+          "a": 0
+        },
+        {
+          "id": "v5-11-e05",
+          "type": "choice",
+          "q": "Tu commences à manger. Que dis-tu ?",
+          "choices": ["いただきます", "ごちそうさまでした", "おねがいします", "どうぞ"],
+          "a": 0
+        },
+        {
+          "id": "v5-11-e06",
+          "type": "choice",
+          "q": "Tu as fini de manger chez un ami. Que dis-tu ?",
+          "choices": ["ごちそうさまでした", "いただきます", "いってきます", "はじめまして"],
+          "a": 0
+        },
+        {
+          "id": "v5-11-e07",
+          "type": "choice",
+          "uses": ["v5-06", "v5-08"],
+          "jp": "コーヒーを{二|ふた}つ、＿。",
+          "fr": "Deux cafés, s'il vous plaît.",
+          "choices": ["おねがいします", "ただいま", "おやすみなさい", "はじめまして"],
+          "a": 0
+        },
+        {
+          "id": "v5-11-e08",
+          "type": "choice",
+          "q": "Tu rencontres quelqu'un pour la première fois. Que dis-tu en premier ?",
+          "choices": ["はじめまして", "さようなら", "ただいま", "ごちそうさまでした"],
+          "a": 0
+        },
+        {
+          "id": "v5-11-e09",
+          "type": "choice",
+          "q": "Tu marches sur le pied d'un ami. Que lui dis-tu ?",
+          "choices": ["ごめんなさい", "ありがとう", "いただきます", "どうぞ"],
+          "a": 0
+        },
+        {
+          "id": "v5-11-e10",
+          "type": "choice",
+          "q": "Dans la rue, tu veux demander ton chemin à un inconnu. Tu commences par :",
+          "choices": ["すみません", "ごめんなさい", "おやすみなさい", "ただいま"],
+          "a": 0,
+          "explain": "Pour interpeller quelqu'un poliment : すみません. ごめんなさい sert à s'excuser d'une faute, entre proches."
+        },
+        {
+          "id": "v5-11-e11",
+          "type": "choice",
+          "jp": "{田中|たなか}さん、＿、{入|はい}ってください。",
+          "fr": "Monsieur Tanaka, je vous en prie, entrez.",
+          "choices": ["どうぞ", "ただいま", "いただきます", "おやすみなさい"],
+          "a": 0
+        },
+        {
+          "id": "v5-11-e12",
+          "type": "choice",
+          "q": "Tu frappes à la porte du bureau du professeur et tu entres. Que dis-tu ?",
+          "choices": ["しつれいします", "ただいま", "いってきます", "おかえりなさい"],
+          "a": 0
+        },
+        {
+          "id": "v5-11-e13",
+          "type": "choice",
+          "q": "Un serveur t'apporte un verre d'eau sans que tu l'aies demandé. Tu dis すみません. Que veut dire すみません ici ?",
+          "choices": ["Merci (pour la peine).", "Pardon, je me suis trompé.", "Au revoir.", "Bon appétit."],
+          "a": 0
+        },
+        {"id": "v5-11-e14", "type": "choice", "q": "Comment se prononce le は de こんにちは ?", "choices": ["wa", "ha", "ba", "a"], "a": 0},
+        {
+          "id": "v5-11-e15",
+          "type": "choice",
+          "q": "Ton ami te dit ありがとう. Que réponds-tu ?",
+          "choices": ["どういたしまして", "いただきます", "ただいま", "はじめまして"],
+          "a": 0
+        },
+        {
+          "id": "v5-11-e16",
+          "type": "choice",
+          "q": "Le soir, tu vas te coucher. Que dis-tu à ta famille ?",
+          "choices": ["おやすみなさい", "こんばんは", "さようなら", "いってきます"],
+          "a": 0
+        },
+        {
+          "id": "v5-11-e17",
+          "type": "order",
+          "fr": "Bonsoir. Il fait froid aujourd'hui, hein.",
+          "tokens": ["こんばんは。", "{今日|きょう}は", "{寒|さむ}い", "ですね"],
+          "uses": ["v5-03", "v5-05"]
+        }
+      ]
+    },
+    {
+      "id": "v5-12",
+      "title": "Objets de tous les jours",
+      "words": [
+        {"jp": "{本|ほん}", "kana": "ほん", "fr": "livre", "ex": "{毎晩|まいばん}{本|ほん}を{読|よ}みます。", "exFr": "Je lis un livre tous les soirs."},
+        {"jp": "{新聞|しんぶん}", "kana": "しんぶん", "fr": "journal", "ex": "{父|ちち}は{毎朝|まいあさ}{新聞|しんぶん}を{読|よ}みます。", "exFr": "Mon père lit le journal tous les matins."},
+        {"jp": "じしょ", "kana": "じしょ", "fr": "dictionnaire", "ex": "じしょを{使|つか}ってもいいですか。", "exFr": "Je peux utiliser un dictionnaire ?"},
+        {"jp": "{手紙|てがみ}", "kana": "てがみ", "fr": "lettre", "ex": "{国|くに}の{母|はは}に{手紙|てがみ}を{書|か}きました。", "exFr": "J'ai écrit une lettre à ma mère, dans mon pays."},
+        {"jp": "{写真|しゃしん}", "kana": "しゃしん", "fr": "photo", "ex": "これは{家族|かぞく}の{写真|しゃしん}です。", "exFr": "C'est une photo de ma famille."},
+        {"jp": "{電話|でんわ}", "kana": "でんわ", "fr": "téléphone", "ex": "{夜|よる}、{友|とも}だちに{電話|でんわ}をかけます。", "exFr": "Le soir, j'appelle un ami."},
+        {"jp": "テレビ", "kana": "テレビ", "fr": "télévision", "ex": "{子|こ}どもはテレビを{見|み}ています。", "exFr": "Les enfants regardent la télé."},
+        {"jp": "カメラ", "kana": "カメラ", "fr": "appareil photo", "ex": "{新|あたら}しいカメラで{写真|しゃしん}をとりました。", "exFr": "J'ai pris des photos avec mon nouvel appareil."},
+        {"jp": "かぎ", "kana": "かぎ", "fr": "clé", "ex": "{家|いえ}のかぎがありません。", "exFr": "Je n'ai pas la clé de la maison."},
+        {"jp": "かさ", "kana": "かさ", "fr": "parapluie", "ex": "{雨|あめ}ですから、かさを{持|も}って{行|い}きます。", "exFr": "Il pleut, alors j'emporte un parapluie."},
+        {"jp": "{時計|とけい}", "kana": "とけい", "fr": "montre ; horloge", "ex": "この{時計|とけい}は{高|たか}かったです。", "exFr": "Cette montre était chère."},
+        {"jp": "めがね", "kana": "めがね", "fr": "lunettes", "ex": "{本|ほん}を{読|よ}むとき、めがねをかけます。", "exFr": "Quand je lis, je mets mes lunettes."},
+        {"jp": "かばん", "kana": "かばん", "fr": "sac", "ex": "かばんの{中|なか}に{本|ほん}があります。", "exFr": "Il y a un livre dans le sac."},
+        {"jp": "さいふ", "kana": "さいふ", "fr": "porte-monnaie", "ex": "さいふにお{金|かね}がありません。", "exFr": "Il n'y a pas d'argent dans mon porte-monnaie."},
+        {"jp": "つくえ", "kana": "つくえ", "fr": "bureau (meuble)", "ex": "つくえの{上|うえ}にペンがあります。", "exFr": "Il y a un stylo sur le bureau."}
+      ],
+      "pieges": [
+        "**かける** sert pour plusieurs choses : {電話|でんわ}をかける (téléphoner), めがねをかける (mettre ses lunettes), かぎをかける (fermer à clé).",
+        "{写真|しゃしん}をとる = prendre une photo. On ne « écrit » pas une photo : {写真|しゃしん}を{書|か}く ✗.",
+        "La télé se « regarde » : テレビを{見|み}る. La radio (ラジオ) s'« écoute » : ラジオを{聞|き}く.",
+        "{時計|とけい} = la montre **et** l'horloge.",
+        "つくえ = le meuble. Le bureau où l'on travaille, c'est {会社|かいしゃ}.",
+        "Compteurs : {本|ほん} et じしょ → 〜さつ ; {写真|しゃしん}, {手紙|てがみ} → 〜まい ; かさ → 〜{本|ほん} ; テレビ, カメラ → 〜{台|だい}."
+      ],
+      "exercises": [
+        {
+          "id": "v5-12-e01",
+          "type": "choice",
+          "jp": "{雨|あめ}ですから、＿を{持|も}って{行|い}きます。",
+          "fr": "Il pleut, alors j'emporte un parapluie.",
+          "choices": ["かさ", "{時計|とけい}", "めがね", "{新聞|しんぶん}"],
+          "a": 0
+        },
+        {
+          "id": "v5-12-e02",
+          "type": "choice",
+          "jp": "＿で{写真|しゃしん}をとりました。",
+          "fr": "J'ai pris des photos avec l'appareil photo.",
+          "choices": ["カメラ", "テレビ", "じしょ", "さいふ"],
+          "a": 0
+        },
+        {
+          "id": "v5-12-e03",
+          "type": "choice",
+          "jp": "ことばの{意味|いみ}が{分|わ}かりませんから、＿を{見|み}ます。",
+          "fr": "Je ne comprends pas le sens du mot, alors je regarde le dictionnaire.",
+          "choices": ["じしょ", "テレビ", "かぎ", "{時計|とけい}"],
+          "a": 0
+        },
+        {
+          "id": "v5-12-e04",
+          "type": "choice",
+          "uses": ["v5-03", "v5-09"],
+          "jp": "{今|いま}、{何時|なんじ}ですか。＿がありません。",
+          "fr": "Quelle heure est-il ? Je n'ai pas de montre.",
+          "choices": ["{時計|とけい}", "かさ", "めがね", "かぎ"],
+          "a": 0
+        },
+        {
+          "id": "v5-12-e05",
+          "type": "choice",
+          "jp": "＿をかけて、{新聞|しんぶん}を{読|よ}みます。",
+          "fr": "Je mets mes lunettes et je lis le journal.",
+          "choices": ["めがね", "じしょ", "さいふ", "つくえ"],
+          "a": 0
+        },
+        {
+          "id": "v5-12-e06",
+          "type": "choice",
+          "uses": ["v5-07"],
+          "jp": "＿の{中|なか}にお{金|かね}が{三千円|さんぜんえん}あります。",
+          "fr": "Il y a 3 000 yens dans mon porte-monnaie.",
+          "choices": ["さいふ", "めがね", "{時計|とけい}", "テレビ"],
+          "a": 0
+        },
+        {
+          "id": "v5-12-e07",
+          "type": "choice",
+          "jp": "＿でドアを{開|あ}けます。",
+          "fr": "J'ouvre la porte avec la clé.",
+          "choices": ["かぎ", "{時計|とけい}", "めがね", "{新聞|しんぶん}"],
+          "a": 0
+        },
+        {
+          "id": "v5-12-e08",
+          "type": "choice",
+          "jp": "{国|くに}の{母|はは}に＿を{書|か}きました。",
+          "fr": "J'ai écrit une lettre à ma mère, dans mon pays.",
+          "choices": ["{手紙|てがみ}", "{写真|しゃしん}", "テレビ", "かぎ"],
+          "a": 0
+        },
+        {
+          "id": "v5-12-e09",
+          "type": "choice",
+          "jp": "{毎朝|まいあさ}、{父|ちち}は＿を{読|よ}みます。",
+          "fr": "Tous les matins, mon père lit le journal.",
+          "choices": ["{新聞|しんぶん}", "テレビ", "カメラ", "{時計|とけい}"],
+          "a": 0
+        },
+        {
+          "id": "v5-12-e10",
+          "type": "choice",
+          "jp": "{夜|よる}、{友|とも}だちに＿をかけます。",
+          "fr": "Le soir, j'appelle un ami.",
+          "choices": ["{電話|でんわ}", "めがね", "かぎ", "{手紙|てがみ}"],
+          "a": 0
+        },
+        {
+          "id": "v5-12-e11",
+          "type": "choice",
+          "jp": "＿の{上|うえ}にパソコンがあります。",
+          "fr": "Il y a un ordinateur sur le bureau.",
+          "choices": ["つくえ", "めがね", "かぎ", "さいふ"],
+          "a": 0
+        },
+        {"id": "v5-12-e12", "type": "choice", "q": "Comment se lit **時計** ?", "choices": ["とけい", "じけい", "ときけい", "とけ"], "a": 0},
+        {"id": "v5-12-e13", "type": "choice", "q": "Comment se lit **新聞** ?", "choices": ["しんぶん", "しんもん", "あたらぶん", "しんきき"], "a": 0},
+        {"id": "v5-12-e14", "type": "choice", "q": "Que veut dire **さいふ** ?", "choices": ["porte-monnaie", "clé", "lunettes", "parapluie"], "a": 0},
+        {
+          "id": "v5-12-e15",
+          "type": "choice",
+          "q": "Comment dit-on « photo » ?",
+          "choices": ["{写真|しゃしん}", "{手紙|てがみ}", "{新聞|しんぶん}", "{電話|でんわ}"],
+          "a": 0
+        },
+        {
+          "id": "v5-12-e16",
+          "type": "choice",
+          "q": "Trouve la phrase **incorrecte**.",
+          "choices": ["{写真|しゃしん}を{書|か}きます。", "{手紙|てがみ}を{書|か}きます。", "{写真|しゃしん}をとります。", "{新聞|しんぶん}を{読|よ}みます。"],
+          "a": 0,
+          "explain": "Une photo se « prend » : {写真|しゃしん}をとる."
+        },
+        {
+          "id": "v5-12-e17",
+          "type": "order",
+          "fr": "Mon porte-monnaie est dans le sac.",
+          "tokens": ["かばん", "の", "{中|なか}に", "さいふ", "が", "あります"],
+          "alt": [["さいふ", "が", "かばん", "の", "{中|なか}に", "あります"]]
+        }
+      ]
+    },
+    {
+      "id": "v5-13",
+      "title": "Vêtements et verbes pour les porter",
+      "words": [
+        {"jp": "{服|ふく}", "kana": "ふく", "fr": "vêtement(s)", "ex": "{新|あたら}しい{服|ふく}を{買|か}いました。", "exFr": "J'ai acheté de nouveaux vêtements."},
+        {"jp": "シャツ", "kana": "シャツ", "fr": "chemise", "ex": "{白|しろ}いシャツを{着|き}ています。", "exFr": "Il porte une chemise blanche."},
+        {"jp": "セーター", "kana": "セーター", "fr": "pull", "ex": "{寒|さむ}いですから、セーターを{着|き}ます。", "exFr": "Il fait froid, alors je mets un pull."},
+        {"jp": "コート", "kana": "コート", "fr": "manteau", "ex": "コートをぬいでください。", "exFr": "Enlevez votre manteau, je vous en prie."},
+        {"jp": "ズボン", "kana": "ズボン", "fr": "pantalon", "ex": "{黒|くろ}いズボンをはいています。", "exFr": "Il porte un pantalon noir."},
+        {"jp": "スカート", "kana": "スカート", "fr": "jupe", "ex": "{妹|いもうと}は{短|みじか}いスカートが{好|す}きです。", "exFr": "Ma petite sœur aime les jupes courtes."},
+        {"jp": "くつ", "kana": "くつ", "fr": "chaussures", "ex": "{日本|にほん}では{家|いえ}の{中|なか}でくつをぬぎます。", "exFr": "Au Japon, on enlève ses chaussures dans la maison."},
+        {"jp": "くつした", "kana": "くつした", "fr": "chaussettes", "ex": "くつしたをはいてください。", "exFr": "Mets des chaussettes."},
+        {"jp": "ぼうし", "kana": "ぼうし", "fr": "chapeau, casquette", "ex": "{夏|なつ}はぼうしをかぶります。", "exFr": "En été, je porte un chapeau."},
+        {"jp": "ネクタイ", "kana": "ネクタイ", "fr": "cravate", "ex": "{父|ちち}は{毎日|まいにち}ネクタイをします。", "exFr": "Mon père met une cravate tous les jours."},
+        {"jp": "{着|き}る", "kana": "きる", "fr": "porter, mettre (le haut du corps)", "ex": "コートを{着|き}て{出|で}かけます。", "exFr": "Je mets mon manteau et je sors."},
+        {"jp": "はく", "kana": "はく", "fr": "porter, mettre (pantalon, jupe, chaussures)", "ex": "{新|あたら}しいくつをはきました。", "exFr": "J'ai mis mes nouvelles chaussures."},
+        {"jp": "かぶる", "kana": "かぶる", "fr": "porter, mettre (sur la tête)", "ex": "{子|こ}どもはぼうしをかぶっています。", "exFr": "L'enfant porte un chapeau."},
+        {"jp": "かける", "kana": "かける", "fr": "porter, mettre (des lunettes)", "ex": "{田中|たなか}さんはめがねをかけています。", "exFr": "M. Tanaka porte des lunettes."},
+        {"jp": "ぬぐ", "kana": "ぬぐ", "fr": "enlever (un vêtement, des chaussures)", "ex": "{部屋|へや}に{入|はい}るまえに、くつをぬぎます。", "exFr": "J'enlève mes chaussures avant d'entrer dans la pièce."}
+      ],
+      "sections": [
+        {
+          "h": "Quel verbe pour « porter » ?",
+          "p": [
+            "Le français dit « porter » pour tout. Le japonais choisit le verbe selon la **partie du corps**. Avec ている, c'est l'état : シャツを{着|き}ています = il porte une chemise."
+          ],
+          "grid": {
+            "head": ["", "verbe", "exemples"],
+            "rows": [
+              ["haut du corps", "=={着|き}る==", "シャツ, セーター, コート, {服|ふく}"],
+              ["bas du corps, pieds", "==はく==", "ズボン, スカート, くつ, くつした"],
+              ["tête", "==かぶる==", "ぼうし"],
+              ["lunettes", "==かける==", "めがね"],
+              ["accessoires", "==する==", "ネクタイ, {時計|とけい}"],
+              ["enlever", "==ぬぐ==", "コート, くつ… (lunettes, montre : はずす)"]
+            ]
+          }
+        }
+      ],
+      "pieges": [
+        "ズボンを{着|き}る ✗ → ズボンを**はく**. ぼうしを{着|き}る ✗ → ぼうしを**かぶる**.",
+        "{着|き}る (きる, porter) est du **groupe 2** : {着|き}ます, {着|き}て. {切|き}る (きる, couper) est du groupe 1 : {切|き}ります, {切|き}って.",
+        "Enlever des lunettes ou une montre : はずす (pas ぬぐ).",
+        "{服|ふく} = les vêtements en général ; {着物|きもの} = le kimono."
+      ],
+      "exercises": [
+        {
+          "id": "v5-13-e01",
+          "type": "choice",
+          "jp": "{寒|さむ}いですから、セーターを＿。",
+          "fr": "Il fait froid, alors je mets un pull.",
+          "choices": ["{着|き}ます", "はきます", "かぶります", "かけます"],
+          "a": 0
+        },
+        {
+          "id": "v5-13-e02",
+          "type": "choice",
+          "jp": "{黒|くろ}いズボンを＿。",
+          "fr": "Je mets un pantalon noir.",
+          "choices": ["はきます", "{着|き}ます", "かぶります", "かけます"],
+          "a": 0,
+          "explain": "Bas du corps : はく."
+        },
+        {
+          "id": "v5-13-e03",
+          "type": "choice",
+          "jp": "{夏|なつ}はぼうしを＿。",
+          "fr": "En été, je porte un chapeau.",
+          "choices": ["かぶります", "はきます", "{着|き}ます", "かけます"],
+          "a": 0
+        },
+        {
+          "id": "v5-13-e04",
+          "type": "choice",
+          "jp": "{田中|たなか}さんはめがねを＿います。",
+          "fr": "M. Tanaka porte des lunettes.",
+          "choices": ["かけて", "{着|き}て", "はいて", "かぶって"],
+          "a": 0
+        },
+        {
+          "id": "v5-13-e05",
+          "type": "choice",
+          "jp": "{日本|にほん}では{家|いえ}に{入|はい}るとき、くつを＿。",
+          "fr": "Au Japon, quand on entre dans une maison, on enlève ses chaussures.",
+          "choices": ["ぬぎます", "はきます", "かぶります", "かけます"],
+          "a": 0
+        },
+        {
+          "id": "v5-13-e06",
+          "type": "choice",
+          "jp": "くつしたを＿。",
+          "fr": "Je mets des chaussettes.",
+          "choices": ["はきます", "{着|き}ます", "かぶります", "かけます"],
+          "a": 0
+        },
+        {
+          "id": "v5-13-e07",
+          "type": "choice",
+          "jp": "{父|ちち}は{毎日|まいにち}ネクタイを＿。",
+          "fr": "Mon père met une cravate tous les jours.",
+          "choices": ["します", "はきます", "かぶります", "{着|き}ます"],
+          "a": 0
+        },
+        {
+          "id": "v5-13-e08",
+          "type": "choice",
+          "jp": "＿をかぶって、{出|で}かけます。",
+          "fr": "Je mets un chapeau et je sors.",
+          "choices": ["ぼうし", "コート", "くつ", "ズボン"],
+          "a": 0
+        },
+        {
+          "id": "v5-13-e09",
+          "type": "choice",
+          "jp": "＿をはいて、{学校|がっこう}へ{行|い}きます。",
+          "fr": "Je mets une jupe et je vais à l'école.",
+          "choices": ["スカート", "シャツ", "ぼうし", "セーター"],
+          "a": 0
+        },
+        {
+          "id": "v5-13-e10",
+          "type": "choice",
+          "jp": "＿を{着|き}て、{出|で}かけます。",
+          "fr": "Je mets mon manteau et je sors.",
+          "choices": ["コート", "くつ", "ぼうし", "くつした"],
+          "a": 0
+        },
+        {
+          "id": "v5-13-e11",
+          "type": "choice",
+          "jp": "コートを＿ください。ここにかけてください。",
+          "fr": "Enlevez votre manteau, je vous en prie. Accrochez-le ici.",
+          "choices": ["ぬいで", "はいて", "かぶって", "{着|き}て"],
+          "a": 0
+        },
+        {"id": "v5-13-e12", "type": "choice", "q": "Comment se lit **服** ?", "choices": ["ふく", "ぶく", "ふぐ", "ふつ"], "a": 0},
+        {
+          "id": "v5-13-e13",
+          "type": "choice",
+          "q": "Que veut dire **くつした** ?",
+          "choices": ["chaussettes", "chaussures", "chapeau", "pantalon"],
+          "a": 0
+        },
+        {
+          "id": "v5-13-e14",
+          "type": "choice",
+          "q": "Comment dit-on « porter un chapeau » ?",
+          "choices": ["ぼうしをかぶる", "ぼうしを{着|き}る", "ぼうしをはく", "ぼうしをかける"],
+          "a": 0
+        },
+        {
+          "id": "v5-13-e15",
+          "type": "choice",
+          "q": "Trouve la phrase **incorrecte**.",
+          "choices": ["ズボンを{着|き}ます。", "シャツを{着|き}ます。", "くつをはきます。", "めがねをかけます。"],
+          "a": 0,
+          "explain": "Un pantalon se « met » avec はく : ズボンをはきます."
+        },
+        {
+          "id": "v5-13-e16",
+          "type": "choice",
+          "uses": ["v5-02"],
+          "q": "Forme て de **{着|き}る** (porter) ?",
+          "choices": ["{着|き}て", "{着|き}って", "{着|き}りて", "{着|き}んで"],
+          "a": 0,
+          "explain": "{着|き}る est du groupe 2 → {着|き}て. Ne pas confondre avec {切|き}る (couper) → {切|き}って."
+        },
+        {
+          "id": "v5-13-e17",
+          "type": "choice",
+          "uses": ["v5-02"],
+          "q": "Forme ます de **はく** ?",
+          "choices": ["はきます", "はくます", "はます", "はかます"],
+          "a": 0,
+          "explain": "Groupe 1 en く : く → き + ます."
+        },
+        {
+          "id": "v5-13-e18",
+          "type": "choice",
+          "q": "Que veut dire : めがねをかけています。",
+          "choices": ["Il porte des lunettes.", "Il range ses lunettes dans son sac.", "Il achète des lunettes.", "Il cherche ses lunettes."],
+          "a": 0
+        },
+        {"id": "v5-13-e19", "type": "order", "fr": "Il porte une chemise blanche.", "tokens": ["{白|しろ}い", "シャツを", "{着|き}て", "います"]}
+      ]
+    },
+    {
+      "id": "v5-14",
+      "title": "La routine",
+      "words": [
+        {"jp": "{出|で}かける", "kana": "でかける", "fr": "sortir (de chez soi)", "ex": "{日曜日|にちようび}は{家族|かぞく}と{出|で}かけます。", "exFr": "Le dimanche, je sors avec ma famille."},
+        {"jp": "{出|で}る", "kana": "でる", "fr": "sortir (d'un lieu), partir", "ex": "{毎朝|まいあさ}{七時|しちじ}に{家|いえ}を{出|で}ます。", "exFr": "Je pars de chez moi à sept heures tous les matins."},
+        {"jp": "{休|やす}む", "kana": "やすむ", "fr": "se reposer ; être absent", "ex": "かぜですから、{今日|きょう}は{会社|かいしゃ}を{休|やす}みます。", "exFr": "J'ai un rhume, alors aujourd'hui je ne vais pas au bureau."},
+        {"jp": "{働|はたら}く", "kana": "はたらく", "fr": "travailler", "ex": "{兄|あに}は{銀行|ぎんこう}で{働|はたら}いています。", "exFr": "Mon grand frère travaille dans une banque."},
+        {"jp": "{勉強|べんきょう}する", "kana": "べんきょうする", "fr": "étudier", "ex": "{毎晩|まいばん}{一時間|いちじかん}{日本語|にほんご}を{勉強|べんきょう}します。", "exFr": "J'étudie le japonais une heure tous les soirs."},
+        {"jp": "そうじする", "kana": "そうじする", "fr": "faire le ménage", "ex": "{日曜日|にちようび}に{部屋|へや}をそうじします。", "exFr": "Je fais le ménage de ma chambre le dimanche."},
+        {"jp": "せんたくする", "kana": "せんたくする", "fr": "faire la lessive", "ex": "{天気|てんき}がいいですから、せんたくします。", "exFr": "Il fait beau, alors je fais la lessive."},
+        {"jp": "{料理|りょうり}する", "kana": "りょうりする", "fr": "cuisiner", "ex": "{父|ちち}はよく{料理|りょうり}します。", "exFr": "Mon père cuisine souvent."},
+        {"jp": "{始|はじ}まる", "kana": "はじまる", "fr": "commencer", "ex": "{学校|がっこう}は{八時半|はちじはん}に{始|はじ}まります。", "exFr": "L'école commence à huit heures et demie."},
+        {"jp": "{終|お}わる", "kana": "おわる", "fr": "finir", "ex": "{仕事|しごと}は{六時|ろくじ}に{終|お}わります。", "exFr": "Le travail finit à six heures."},
+        {"jp": "あびる", "kana": "あびる", "fr": "prendre (une douche)", "ex": "{朝|あさ}、シャワーをあびます。", "exFr": "Le matin, je prends une douche."},
+        {"jp": "みがく", "kana": "みがく", "fr": "brosser, frotter", "ex": "ねるまえに、{歯|は}をみがきます。", "exFr": "Je me brosse les dents avant de me coucher."},
+        {"jp": "{洗|あら}う", "kana": "あらう", "fr": "laver", "ex": "{食|た}べるまえに、{手|て}を{洗|あら}います。", "exFr": "Je me lave les mains avant de manger."},
+        {"jp": "さんぽする", "kana": "さんぽする", "fr": "se promener", "ex": "{毎朝|まいあさ}{犬|いぬ}とさんぽします。", "exFr": "Je me promène avec mon chien tous les matins."},
+        {"jp": "{入|はい}る", "kana": "はいる", "fr": "entrer ; prendre (un bain)", "ex": "{毎晩|まいばん}おふろに{入|はい}ります。", "exFr": "Je prends un bain tous les soirs."}
+      ],
+      "sections": [
+        {
+          "h": "Les formes des verbes de la routine",
+          "p": ["Une journée se raconte avec la forme て : {起|お}きて、{顔|かお}を{洗|あら}って、{朝|あさ}ご{飯|はん}を{食|た}べて、{出|で}かけます."],
+          "grid": {
+            "head": ["", "dictionnaire", "ます", "て"],
+            "rows": [
+              ["gr. 2", "{出|で}かける", "{出|で}かけ==ます==", "{出|で}かけ==て=="],
+              ["gr. 2", "{出|で}る", "{出|で}==ます==", "{出|で}==て=="],
+              ["gr. 2", "あびる", "あび==ます==", "あび==て=="],
+              ["む", "{休|やす}む", "{休|やす}==み==ます", "{休|やす}==んで=="],
+              ["く", "{働|はたら}く", "{働|はたら}==き==ます", "{働|はたら}==いて=="],
+              ["く", "みがく", "みが==き==ます", "みが==いて=="],
+              ["う", "{洗|あら}う", "{洗|あら}==い==ます", "{洗|あら}==って=="],
+              ["る (gr. 1)", "{入|はい}る", "{入|はい}==り==ます", "{入|はい}==って=="],
+              ["る (gr. 1)", "{始|はじ}まる", "{始|はじ}ま==り==ます", "{始|はじ}ま==って=="],
+              ["irr.", "{勉強|べんきょう}する", "{勉強|べんきょう}==します==", "{勉強|べんきょう}==して=="]
+            ]
+          }
+        }
+      ],
+      "pieges": [
+        "{家|いえ}**を**{出|で}る (on sort **d'un** lieu : を) ; おふろ**に**{入|はい}る (on entre **dans** un lieu : に).",
+        "{出|で}かける = sortir pour aller quelque part ; {出|で}る = sortir d'un lieu précis ({部屋|へや}を{出|で}る).",
+        "{始|はじ}まる / {終|お}わる : la chose commence ou finit d'elle-même ({授業|じゅぎょう}が{始|はじ}まる).",
+        "{休|やす}む = se reposer **et** être absent : {会社|かいしゃ}を{休|やす}む = ne pas aller au travail.",
+        "シャワーを**あびる** (douche), おふろに**{入|はい}る** (bain), {歯|は}を**みがく** (dents), {顔|かお}を**{洗|あら}う** (visage).",
+        "{入|はい}る est un **faux groupe 2** : {入|はい}ります, {入|はい}って.",
+        "Avec する, le を est facultatif : そうじ(を)する, {勉強|べんきょう}(を)する."
+      ],
+      "exercises": [
+        {
+          "id": "v5-14-e01",
+          "type": "choice",
+          "jp": "{毎朝|まいあさ}{七時|しちじ}に{家|いえ}＿{出|で}ます。",
+          "fr": "Je pars de chez moi à sept heures tous les matins.",
+          "choices": ["を", "に", "で", "へ"],
+          "a": 0,
+          "explain": "On sort d'un lieu : を."
+        },
+        {
+          "id": "v5-14-e02",
+          "type": "choice",
+          "jp": "{毎晩|まいばん}おふろ＿{入|はい}ります。",
+          "fr": "Je prends un bain tous les soirs.",
+          "choices": ["に", "を", "で", "が"],
+          "a": 0,
+          "explain": "On entre dans un lieu : に."
+        },
+        {
+          "id": "v5-14-e03",
+          "type": "choice",
+          "jp": "{朝|あさ}、シャワーを＿。",
+          "fr": "Le matin, je prends une douche.",
+          "choices": ["あびます", "{入|はい}ります", "ぬぎます", "みがきます"],
+          "a": 0,
+          "uses": ["v5-13"]
+        },
+        {
+          "id": "v5-14-e04",
+          "type": "choice",
+          "uses": ["v5-13"],
+          "jp": "ねるまえに、{歯|は}を＿。",
+          "fr": "Je me brosse les dents avant de me coucher.",
+          "choices": ["みがきます", "あびます", "{入|はい}ります", "ぬぎます"],
+          "a": 0
+        },
+        {
+          "id": "v5-14-e05",
+          "type": "choice",
+          "jp": "{食|た}べるまえに、{手|て}を＿。",
+          "fr": "Je me lave les mains avant de manger.",
+          "choices": ["{洗|あら}います", "みがきます", "あびます", "{休|やす}みます"],
+          "a": 0
+        },
+        {
+          "id": "v5-14-e06",
+          "type": "choice",
+          "jp": "かぜをひきましたから、{今日|きょう}は{会社|かいしゃ}を＿。",
+          "fr": "J'ai attrapé un rhume, alors aujourd'hui je ne vais pas au bureau.",
+          "choices": ["{休|やす}みます", "{働|はたら}きます", "{始|はじ}まります", "{出|で}かけます"],
+          "a": 0
+        },
+        {
+          "id": "v5-14-e07",
+          "type": "choice",
+          "uses": ["v5-04"],
+          "jp": "{兄|あに}は{銀行|ぎんこう}で＿います。",
+          "fr": "Mon grand frère travaille dans une banque.",
+          "choices": ["{働|はたら}いて", "{出|で}かけて", "{始|はじ}まって", "あびて"],
+          "a": 0
+        },
+        {
+          "id": "v5-14-e08",
+          "type": "choice",
+          "uses": ["v5-04"],
+          "jp": "{学校|がっこう}は{八時半|はちじはん}に＿。",
+          "fr": "L'école commence à huit heures et demie.",
+          "choices": ["{始|はじ}まります", "{出|で}かけます", "{働|はたら}きます", "あびます"],
+          "a": 0
+        },
+        {
+          "id": "v5-14-e09",
+          "type": "choice",
+          "jp": "{仕事|しごと}は{六時|ろくじ}に＿から、{七時|しちじ}に{家|いえ}に{帰|かえ}ります。",
+          "fr": "Le travail finit à six heures, alors je rentre à la maison à sept heures.",
+          "choices": ["{終|お}わります", "{始|はじ}まります", "{休|やす}みます", "{出|で}かけます"],
+          "a": 0
+        },
+        {
+          "id": "v5-14-e10",
+          "type": "choice",
+          "uses": ["v5-04", "v5-10"],
+          "jp": "{犬|いぬ}といっしょに{公園|こうえん}を＿します。",
+          "fr": "Je me promène dans le parc avec mon chien.",
+          "choices": ["さんぽ", "せんたく", "{料理|りょうり}", "{勉強|べんきょう}"],
+          "a": 0
+        },
+        {
+          "id": "v5-14-e11",
+          "type": "choice",
+          "uses": ["v5-13"],
+          "jp": "{毎日|まいにち}{服|ふく}を＿します。",
+          "fr": "Je lave mes vêtements tous les jours.",
+          "choices": ["せんたく", "そうじ", "さんぽ", "{料理|りょうり}"],
+          "a": 0
+        },
+        {
+          "id": "v5-14-e12",
+          "type": "choice",
+          "uses": ["v5-04"],
+          "jp": "{部屋|へや}がきたないですから、＿します。",
+          "fr": "Ma chambre est sale, alors je fais le ménage.",
+          "choices": ["そうじ", "せんたく", "さんぽ", "{料理|りょうり}"],
+          "a": 0
+        },
+        {"id": "v5-14-e13", "type": "choice", "q": "Comment se lit **働く** ?", "choices": ["はたらく", "どうく", "はたく", "うごく"], "a": 0},
+        {
+          "id": "v5-14-e14",
+          "type": "choice",
+          "q": "Que veut dire **{出|で}かける** ?",
+          "choices": ["sortir (de chez soi)", "se reposer", "commencer", "se laver"],
+          "a": 0
+        },
+        {
+          "id": "v5-14-e15",
+          "type": "choice",
+          "uses": ["v5-02"],
+          "q": "Forme て de **{入|はい}る** ?",
+          "choices": ["{入|はい}って", "{入|はい}て", "{入|はい}りて", "{入|はい}んで"],
+          "a": 0,
+          "explain": "{入|はい}る est un faux groupe 2 (groupe 1) : る → って."
+        },
+        {
+          "id": "v5-14-e16",
+          "type": "choice",
+          "uses": ["v5-02"],
+          "q": "Forme ます de **{出|で}る** ?",
+          "choices": ["{出|で}ます", "{出|で}ります", "{出|で}るます", "{出|で}います"],
+          "a": 0,
+          "explain": "{出|で}る est du groupe 2 : る → ます."
+        },
+        {
+          "id": "v5-14-e17",
+          "type": "choice",
+          "jp": "シャワーを＿、ねます。",
+          "fr": "Je prends une douche, puis je me couche.",
+          "choices": ["あびて", "あびって", "あびるて", "あびんで"],
+          "a": 0,
+          "explain": "あびる est du groupe 2 : る → て."
+        },
+        {
+          "id": "v5-14-e18",
+          "type": "order",
+          "uses": ["v5-02", "v5-06"],
+          "fr": "Je me lève, je me lave le visage et je prends mon petit-déjeuner.",
+          "tokens": ["{起|お}きて、", "{顔|かお}を{洗|あら}って、", "{朝|あさ}ご{飯|はん}を", "{食|た}べます"]
+        }
+      ]
+    },
+    {
+      "id": "v5-15",
+      "title": "Transports et déplacements",
+      "words": [
+        {"jp": "{電車|でんしゃ}", "kana": "でんしゃ", "fr": "train", "ex": "{毎朝|まいあさ}{電車|でんしゃ}で{会社|かいしゃ}へ{行|い}きます。", "exFr": "Tous les matins, je vais au bureau en train."},
+        {"jp": "バス", "kana": "バス", "fr": "bus", "ex": "{駅|えき}までバスで{十分|じゅっぷん}です。", "exFr": "Il y a dix minutes de bus jusqu'à la gare."},
+        {"jp": "{車|くるま}", "kana": "くるま", "fr": "voiture", "ex": "{父|ちち}の{車|くるま}は{古|ふる}いです。", "exFr": "La voiture de mon père est vieille."},
+        {"jp": "{自転車|じてんしゃ}", "kana": "じてんしゃ", "fr": "vélo", "ex": "{自転車|じてんしゃ}で{学校|がっこう}へ{行|い}きます。", "exFr": "Je vais à l'école à vélo."},
+        {"jp": "タクシー", "kana": "タクシー", "fr": "taxi", "ex": "{夜|よる}はタクシーで{帰|かえ}りました。", "exFr": "Le soir, je suis rentré en taxi."},
+        {"jp": "{飛行機|ひこうき}", "kana": "ひこうき", "fr": "avion", "ex": "{飛行機|ひこうき}で{日本|にほん}へ{行|い}きます。", "exFr": "Je vais au Japon en avion."},
+        {"jp": "ちかてつ", "kana": "ちかてつ", "fr": "métro", "ex": "ちかてつは{便利|べんり}です。", "exFr": "Le métro est pratique."},
+        {"jp": "{乗|の}る", "kana": "のる", "fr": "monter (dans un véhicule), prendre", "ex": "{駅|えき}で{電車|でんしゃ}に{乗|の}ります。", "exFr": "Je prends le train à la gare."},
+        {"jp": "{降|お}りる", "kana": "おりる", "fr": "descendre (d'un véhicule)", "ex": "つぎの{駅|えき}で{電車|でんしゃ}を{降|お}ります。", "exFr": "Je descends du train à la prochaine gare."},
+        {"jp": "{歩|ある}く", "kana": "あるく", "fr": "marcher", "ex": "{家|いえ}から{駅|えき}まで{歩|ある}きます。", "exFr": "Je marche de chez moi à la gare."},
+        {"jp": "{走|はし}る", "kana": "はしる", "fr": "courir", "ex": "{毎朝|まいあさ}{公園|こうえん}を{走|はし}ります。", "exFr": "Je cours dans le parc tous les matins."},
+        {"jp": "{着|つ}く", "kana": "つく", "fr": "arriver", "ex": "{電車|でんしゃ}は{九時|くじ}に{東京|とうきょう}に{着|つ}きます。", "exFr": "Le train arrive à Tokyo à neuf heures."},
+        {"jp": "きっぷ", "kana": "きっぷ", "fr": "billet, ticket", "ex": "{駅|えき}できっぷを{買|か}います。", "exFr": "J'achète un billet à la gare."},
+        {"jp": "{運転|うんてん}する", "kana": "うんてんする", "fr": "conduire", "ex": "{兄|あに}は{車|くるま}を{運転|うんてん}します。", "exFr": "Mon grand frère conduit une voiture."},
+        {"jp": "{地図|ちず}", "kana": "ちず", "fr": "carte, plan", "ex": "{地図|ちず}を{見|み}て、{駅|えき}へ{行|い}きました。", "exFr": "J'ai regardé le plan et je suis allé à la gare."}
+      ],
+      "pieges": [
+        "Moyen de transport : 〜**で** ({電車|でんしゃ}で{行|い}きます). À pied : **{歩|ある}いて**{行|い}きます.",
+        "{電車|でんしゃ}**に**{乗|の}る (monter dans) ↔ {電車|でんしゃ}**を**{降|お}りる (descendre de) : les particules sont opposées !",
+        "{着|つ}く se construit avec に : {東京|とうきょう}に{着|つ}く = arriver à Tokyo.",
+        "Même kanji, deux verbes : {降|お}りる (おりる, descendre, groupe 2 : {降|お}りて) ≠ {降|ふ}る (ふる, la pluie tombe, groupe 1 : {降|ふ}って).",
+        "{公園|こうえん}**を**{走|はし}る, {道|みち}**を**{歩|ある}く : を pour le lieu qu'on parcourt. {走|はし}る est un faux groupe 2 : {走|はし}って.",
+        "{車|くるま} se lit くるま seul, mais しゃ dans les mots composés : {電車|でんしゃ}, {自転車|じてんしゃ}."
+      ],
+      "exercises": [
+        {
+          "id": "v5-15-e01",
+          "type": "choice",
+          "jp": "{駅|えき}で{電車|でんしゃ}＿{乗|の}ります。",
+          "fr": "Je prends le train à la gare.",
+          "choices": ["に", "を", "で", "が"],
+          "a": 0,
+          "explain": "{乗|の}る : on monte **dans** le véhicule → に."
+        },
+        {
+          "id": "v5-15-e02",
+          "type": "choice",
+          "jp": "つぎの{駅|えき}で{電車|でんしゃ}＿{降|お}ります。",
+          "fr": "Je descends du train à la prochaine gare.",
+          "choices": ["を", "に", "が", "へ"],
+          "a": 0,
+          "explain": "{降|お}りる : on sort du véhicule → を."
+        },
+        {
+          "id": "v5-15-e03",
+          "type": "choice",
+          "jp": "{家|いえ}から{駅|えき}まで＿{行|い}きます。{十分|じゅっぷん}ぐらいです。",
+          "fr": "Je vais à pied de chez moi à la gare. Environ dix minutes.",
+          "choices": ["{歩|ある}いて", "{歩|ある}きで", "{歩|ある}くで", "{歩|ある}きます"],
+          "a": 0,
+          "explain": "À pied : {歩|ある}いて{行|い}く (forme て de {歩|ある}く)."
+        },
+        {
+          "id": "v5-15-e04",
+          "type": "choice",
+          "jp": "{電車|でんしゃ}は{九時|くじ}に{東京|とうきょう}に＿。",
+          "fr": "Le train arrive à Tokyo à neuf heures.",
+          "choices": ["{着|つ}きます", "{乗|の}ります", "{降|お}ります", "{走|はし}ります"],
+          "a": 0
+        },
+        {
+          "id": "v5-15-e05",
+          "type": "choice",
+          "jp": "{日本|にほん}からフランスまで＿で{十二時間|じゅうにじかん}ぐらいです。",
+          "fr": "Du Japon à la France, il faut environ douze heures en avion.",
+          "choices": ["{飛行機|ひこうき}", "{自転車|じてんしゃ}", "バス", "タクシー"],
+          "a": 0
+        },
+        {
+          "id": "v5-15-e06",
+          "type": "choice",
+          "uses": ["v5-14"],
+          "jp": "{兄|あに}は{車|くるま}を＿します。",
+          "fr": "Mon grand frère conduit une voiture.",
+          "choices": ["{運転|うんてん}", "{料理|りょうり}", "さんぽ", "せんたく"],
+          "a": 0
+        },
+        {
+          "id": "v5-15-e07",
+          "type": "choice",
+          "jp": "{駅|えき}で＿を{買|か}って、{電車|でんしゃ}に{乗|の}ります。",
+          "fr": "J'achète un billet à la gare et je prends le train.",
+          "choices": ["きっぷ", "バス", "{飛行機|ひこうき}", "タクシー"],
+          "a": 0
+        },
+        {
+          "id": "v5-15-e08",
+          "type": "choice",
+          "uses": ["v5-12"],
+          "jp": "{道|みち}が{分|わ}かりませんから、＿を{見|み}ます。",
+          "fr": "Je ne connais pas le chemin, alors je regarde le plan.",
+          "choices": ["{地図|ちず}", "きっぷ", "{時計|とけい}", "テレビ"],
+          "a": 0
+        },
+        {
+          "id": "v5-15-e09",
+          "type": "choice",
+          "jp": "{毎朝|まいあさ}{公園|こうえん}を＿。",
+          "fr": "Je cours dans le parc tous les matins.",
+          "choices": ["{走|はし}ります", "{乗|の}ります", "{着|つ}きます", "{降|お}ります"],
+          "a": 0
+        },
+        {"id": "v5-15-e10", "type": "choice", "q": "Comment se lit **自転車** ?", "choices": ["じてんしゃ", "じでんしゃ", "じてんくるま", "しでんしゃ"], "a": 0},
+        {
+          "id": "v5-15-e11",
+          "type": "choice",
+          "q": "Dans « 電車を降ります » (je descends du train), 降ります se lit…",
+          "choices": ["おります", "ふります"],
+          "a": 0,
+          "explain": "{降|お}りる (descendre) → {降|お}ります. ふります, c'est la pluie qui tombe."
+        },
+        {
+          "id": "v5-15-e12",
+          "type": "choice",
+          "q": "Dans « 雨が降ります » (il pleut), 降ります se lit…",
+          "choices": ["ふります", "おります"],
+          "a": 0,
+          "explain": "{降|ふ}る (tomber, pour la pluie) → {降|ふ}ります."
+        },
+        {"id": "v5-15-e13", "type": "choice", "q": "Que veut dire **ちかてつ** ?", "choices": ["métro", "avion", "vélo", "taxi"], "a": 0},
+        {
+          "id": "v5-15-e14",
+          "type": "choice",
+          "q": "Comment dit-on « conduire (une voiture) » ?",
+          "choices": ["{運転|うんてん}する", "{乗|の}る", "{走|はし}る", "{歩|ある}く"],
+          "a": 0
+        },
+        {
+          "id": "v5-15-e15",
+          "type": "choice",
+          "uses": ["v5-02"],
+          "q": "Forme て de **{走|はし}る** ?",
+          "choices": ["{走|はし}って", "{走|はし}て", "{走|はし}りて", "{走|はし}んで"],
+          "a": 0,
+          "explain": "{走|はし}る est un faux groupe 2 (groupe 1) : る → って."
+        },
+        {
+          "id": "v5-15-e16",
+          "type": "choice",
+          "uses": ["v5-02"],
+          "q": "Forme ます de **{降|お}りる** (descendre) ?",
+          "choices": ["{降|お}ります", "{降|お}りります", "{降|お}りるます", "{降|お}りいます"],
+          "a": 0,
+          "explain": "{降|お}りる est du groupe 2 : る → ます."
+        },
+        {
+          "id": "v5-15-e17",
+          "type": "order",
+          "uses": ["v5-02", "v5-04"],
+          "fr": "Je vais au bureau en bus.",
+          "tokens": ["バス", "で", "{会社|かいしゃ}", "へ", "{行|い}きます"],
+          "alt": [["{会社|かいしゃ}", "へ", "バス", "で", "{行|い}きます"]]
+        },
+        {
+          "id": "v5-15-e18",
+          "type": "order",
+          "fr": "Je descends du train à la prochaine gare.",
+          "tokens": ["つぎの", "{駅|えき}で", "{電車|でんしゃ}を", "{降|お}ります"],
+          "alt": [["{電車|でんしゃ}を", "つぎの", "{駅|えき}で", "{降|お}ります"]]
+        }
+      ]
+    }
+  ],
+  "test": [
+    {
+      "id": "v5-b03-t01",
+      "type": "choice",
+      "uses": ["v5-11"],
+      "q": "Tu rentres chez toi après le travail. Que dis-tu en entrant ?",
+      "choices": ["ただいま", "おかえりなさい", "いってきます", "こんにちは"],
+      "a": 0
+    },
+    {
+      "id": "v5-b03-t02",
+      "type": "choice",
+      "uses": ["v5-13", "v5-14"],
+      "jp": "{寒|さむ}いですから、コートを＿{出|で}かけます。",
+      "fr": "Il fait froid, alors je mets mon manteau et je sors.",
+      "choices": ["{着|き}て", "はいて", "かぶって", "かけて"],
+      "a": 0
+    },
+    {
+      "id": "v5-b03-t03",
+      "type": "choice",
+      "uses": ["v5-12"],
+      "jp": "{雨|あめ}が{降|ふ}っていますから、＿を{持|も}って{行|い}きます。",
+      "fr": "Il pleut, alors j'emporte un parapluie.",
+      "choices": ["かさ", "めがね", "{時計|とけい}", "{新聞|しんぶん}"],
+      "a": 0
+    },
+    {
+      "id": "v5-b03-t04",
+      "type": "choice",
+      "uses": ["v5-13", "v5-14"],
+      "jp": "{毎朝|まいあさ}{歯|は}を＿、{顔|かお}を{洗|あら}います。",
+      "fr": "Tous les matins, je me brosse les dents, puis je me lave le visage.",
+      "choices": ["みがいて", "あびて", "{入|はい}って", "ぬいで"],
+      "a": 0
+    },
+    {
+      "id": "v5-b03-t05",
+      "type": "choice",
+      "uses": ["v5-13"],
+      "q": "Comment dit-on « mettre ses chaussures » ?",
+      "choices": ["くつをはく", "くつを{着|き}る", "くつをかぶる", "くつをかける"],
+      "a": 0
+    },
+    {
+      "id": "v5-b03-t06",
+      "type": "order",
+      "uses": ["v5-04", "v5-15"],
+      "fr": "Je vais à l'école à vélo.",
+      "tokens": ["{自転車|じてんしゃ}", "で", "{学校|がっこう}", "へ", "{行|い}きます"],
+      "alt": [["{学校|がっこう}", "へ", "{自転車|じてんしゃ}", "で", "{行|い}きます"]]
+    },
+    {
+      "id": "v5-b03-t07",
+      "type": "choice",
+      "uses": ["v5-01", "v5-06", "v5-14"],
+      "jp": "{仕事|しごと}が＿から、{友|とも}だちと{晩|ばん}ご{飯|はん}を{食|た}べます。",
+      "fr": "Après la fin du travail, je dîne avec un ami.",
+      "choices": ["{終|お}わって", "あびて", "{休|やす}んで", "{出|で}て"],
+      "a": 0
+    },
+    {
+      "id": "v5-b03-t08",
+      "type": "choice",
+      "uses": ["v5-11"],
+      "q": "Ton ami part en voyage et dit いってきます. Que lui réponds-tu ?",
+      "choices": ["いってらっしゃい", "おかえりなさい", "ただいま", "いただきます"],
+      "a": 0
+    },
+    {
+      "id": "v5-b03-t09",
+      "type": "choice",
+      "uses": ["v5-12", "v5-13"],
+      "jp": "めがねを＿{新聞|しんぶん}を{読|よ}みます。",
+      "fr": "Je mets mes lunettes et je lis le journal.",
+      "choices": ["かけて", "{着|き}て", "はいて", "かぶって"],
+      "a": 0
+    },
+    {
+      "id": "v5-b03-t10",
+      "type": "choice",
+      "uses": ["v5-15"],
+      "q": "Trouve la phrase **incorrecte**.",
+      "choices": ["{電車|でんしゃ}を{乗|の}ります。", "{電車|でんしゃ}に{乗|の}ります。", "{電車|でんしゃ}を{降|お}ります。", "{電車|でんしゃ}で{行|い}きます。"],
+      "a": 0,
+      "explain": "On monte **dans** le train : {電車|でんしゃ}に{乗|の}ります."
+    },
+    {"id": "v5-b03-t11", "type": "choice", "uses": ["v5-15"], "q": "Comment se lit **飛行機** ?", "choices": ["ひこうき", "ひぎょうき", "とぶき", "ひこうぎ"], "a": 0},
+    {
+      "id": "v5-b03-t12",
+      "type": "choice",
+      "uses": ["v5-13"],
+      "jp": "{日本|にほん}では{部屋|へや}に{入|はい}るまえに、くつを＿。",
+      "fr": "Au Japon, on enlève ses chaussures avant d'entrer dans une pièce.",
+      "choices": ["ぬぎます", "はきます", "かぶります", "かけます"],
+      "a": 0
+    },
+    {
+      "id": "v5-b03-t13",
+      "type": "choice",
+      "uses": ["v5-11"],
+      "q": "Ton patron t'a invité au restaurant. À la fin du repas, que lui dis-tu ?",
+      "choices": ["ごちそうさまでした", "いただきます", "はじめまして", "おやすみなさい"],
+      "a": 0
+    },
+    {
+      "id": "v5-b03-t14",
+      "type": "choice",
+      "uses": ["v5-02", "v5-14"],
+      "jp": "{毎晩|まいばん}おふろに{入|はい}って、＿。",
+      "fr": "Tous les soirs, je prends un bain, puis je me couche.",
+      "choices": ["ねます", "{起|お}きます", "{着|つ}きます", "{始|はじ}まります"],
+      "a": 0
+    },
+    {
+      "id": "v5-b03-t15",
+      "type": "choice",
+      "uses": ["v5-14"],
+      "q": "Forme ます de **{入|はい}る** ?",
+      "choices": ["{入|はい}ります", "{入|はい}ます", "{入|はい}るます", "{入|はい}らます"],
+      "a": 0,
+      "explain": "Faux groupe 2 : {入|はい}る → {入|はい}ります."
+    },
+    {
+      "id": "v5-b03-t16",
+      "type": "choice",
+      "uses": ["v5-14", "v5-15"],
+      "q": "Que veut dire : {毎朝|まいあさ}{家|いえ}を{出|で}て、バスに{乗|の}ります。",
+      "choices": [
+        "Tous les matins, je quitte la maison et je prends le bus.",
+        "Tous les matins, je sors du bus et je rentre à la maison.",
+        "Tous les matins, je reste à la maison et j'attends le bus.",
+        "Tous les matins, je sors de la maison et je descends du bus."
+      ],
+      "a": 0
+    }
+  ]
+}
