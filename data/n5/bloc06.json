@@ -1,0 +1,1298 @@
+{
+  "id": "v5-b06",
+  "level": "N5",
+  "title": "Agir : donner, utiliser, communiquer, étudier, travailler",
+  "lessons": [
+    {
+      "id": "v5-26",
+      "title": "Donner, prêter, rendre",
+      "words": [
+        {"jp": "あげる", "kana": "あげる", "fr": "donner (à quelqu'un d'autre)", "ex": "{友|とも}だちにプレゼントをあげました。", "exFr": "J'ai offert un cadeau à un ami."},
+        {"jp": "もらう", "kana": "もらう", "fr": "recevoir", "ex": "{父|ちち}に{時計|とけい}をもらいました。", "exFr": "Mon père m'a donné une montre (j'ai reçu de mon père)."},
+        {"jp": "くれる", "kana": "くれる", "fr": "donner (à moi)", "ex": "{姉|あね}がかばんをくれました。", "exFr": "Ma grande sœur m'a donné un sac."},
+        {"jp": "{貸|か}す", "kana": "かす", "fr": "prêter", "ex": "{友|とも}だちにかさを{貸|か}しました。", "exFr": "J'ai prêté mon parapluie à un ami."},
+        {"jp": "{借|か}りる", "kana": "かりる", "fr": "emprunter", "ex": "{図書館|としょかん}で{本|ほん}を{借|か}ります。", "exFr": "J'emprunte des livres à la bibliothèque."},
+        {"jp": "かえす", "kana": "かえす", "fr": "rendre", "ex": "{明日|あした}、{図書館|としょかん}に{本|ほん}をかえします。", "exFr": "Demain, je rends les livres à la bibliothèque."},
+        {"jp": "{見|み}せる", "kana": "みせる", "fr": "montrer", "ex": "{旅行|りょこう}の{写真|しゃしん}を{見|み}せてください。", "exFr": "Montre-moi les photos du voyage, s'il te plaît."},
+        {"jp": "{持|も}つ", "kana": "もつ", "fr": "tenir, porter ; avoir sur soi", "ex": "かさを{持|も}っていますか。", "exFr": "Tu as un parapluie (sur toi) ?"},
+        {"jp": "{送|おく}る", "kana": "おくる", "fr": "envoyer", "ex": "{国|くに}の{母|はは}に{手紙|てがみ}を{送|おく}りました。", "exFr": "J'ai envoyé une lettre à ma mère, dans mon pays."},
+        {"jp": "{売|う}る", "kana": "うる", "fr": "vendre", "ex": "あの{店|みせ}は{古|ふる}い{本|ほん}を{売|う}っています。", "exFr": "Ce magasin vend des livres d'occasion."},
+        {"jp": "とる", "kana": "とる", "fr": "prendre ; passer (un objet)", "ex": "その{新聞|しんぶん}をとってください。", "exFr": "Passe-moi ce journal, s'il te plaît."},
+        {"jp": "わたす", "kana": "わたす", "fr": "remettre (en main propre)", "ex": "この{手紙|てがみ}を{田中|たなか}さんにわたしてください。", "exFr": "Remettez cette lettre à M. Tanaka, s'il vous plaît."},
+        {"jp": "{出|だ}す", "kana": "だす", "fr": "sortir (un objet) ; poster", "ex": "{駅|えき}の{前|まえ}で{手紙|てがみ}を{出|だ}しました。", "exFr": "J'ai posté une lettre devant la gare."},
+        {"jp": "プレゼント", "kana": "プレゼント", "fr": "cadeau", "ex": "たんじょうびにプレゼントをもらいました。", "exFr": "J'ai reçu un cadeau pour mon anniversaire."},
+        {"jp": "おみやげ", "kana": "おみやげ", "fr": "souvenir (rapporté pour offrir)", "ex": "{京都|きょうと}のおみやげを{買|か}いました。", "exFr": "J'ai acheté des souvenirs de Kyoto."}
+      ],
+      "sections": [
+        {
+          "h": "Qui donne à qui ?",
+          "p": ["Trois verbes pour « donner », selon la direction. Le donneur ou le receveur est toujours marqué par **に**."],
+          "grid": {
+            "head": ["", "direction"],
+            "rows": [
+              ["あげる", "moi (ou quelqu'un) → **un autre** : {友|とも}だち==に==あげる"],
+              ["くれる", "quelqu'un → **moi** : {友|とも}だち==が==くれる"],
+              ["もらう", "je reçois **de** quelqu'un : {友|とも}だち==に==もらう"],
+              ["{貸|か}す ↔ {借|か}りる", "prêter ↔ emprunter : {友|とも}だち==に=={貸|か}す / {友|とも}だち==に=={借|か}りる"]
+            ]
+          }
+        }
+      ],
+      "pieges": [
+        "あげる va vers les autres ; くれる vient **vers moi**. {友|とも}だちが{私|わたし}にあげました ✗ → {友|とも}だちが**くれました**.",
+        "もらう : le receveur est le sujet ; celui qui donne prend **に** (ou から) : {父|ちち}に（から）もらう.",
+        "{貸|か}す = prêter, {借|か}りる = emprunter. L'autre personne prend に dans les deux cas !",
+        "{借|か}りる est du groupe 2 ({借|か}ります, {借|か}りて) ; {貸|か}す du groupe 1 ({貸|か}します, {貸|か}して).",
+        "{持|も}っています = avoir sur soi, posséder. Attention : {持|も}つ (もつ) ≠ {待|ま}つ (まつ, attendre).",
+        "{出|だ}す (sortir **quelque chose**, poster) ≠ {出|で}る (sortir **soi-même**).",
+        "おみやげ = le petit cadeau qu'on rapporte d'un voyage pour ses proches ou ses collègues."
+      ],
+      "exercises": [
+        {
+          "id": "v5-26-e01",
+          "type": "choice",
+          "uses": ["v5-17"],
+          "jp": "{明日|あした}は{友|とも}だちのたんじょうびですから、プレゼントを＿。",
+          "fr": "Demain c'est l'anniversaire de mon ami, alors je lui offre un cadeau.",
+          "choices": ["あげます", "もらいます", "くれます", "{借|か}ります"],
+          "a": 0
+        },
+        {
+          "id": "v5-26-e02",
+          "type": "choice",
+          "uses": ["v5-21"],
+          "jp": "{姉|あね}が{私|わたし}にかばんを＿。",
+          "fr": "Ma grande sœur m'a donné un sac.",
+          "choices": ["くれました", "あげました", "もらいました"],
+          "a": 0,
+          "explain": "Quelqu'un me donne quelque chose : くれる."
+        },
+        {
+          "id": "v5-26-e03",
+          "type": "choice",
+          "uses": ["v5-12", "v5-17"],
+          "jp": "たんじょうびに、{父|ちち}から{時計|とけい}を＿。",
+          "fr": "Pour mon anniversaire, mon père m'a offert une montre.",
+          "choices": ["もらいました", "あげました", "くれました", "{貸|か}しました"],
+          "a": 0,
+          "explain": "から marque celui qui donne : je **reçois** de mon père → もらう."
+        },
+        {
+          "id": "v5-26-e04",
+          "type": "choice",
+          "uses": ["v5-04", "v5-08"],
+          "jp": "{図書館|としょかん}で{本|ほん}を{三|さん}さつ＿。{来週|らいしゅう}かえします。",
+          "fr": "J'ai emprunté trois livres à la bibliothèque. Je les rends la semaine prochaine.",
+          "choices": ["{借|か}りました", "{貸|か}しました", "{売|う}りました", "くれました"],
+          "a": 0
+        },
+        {
+          "id": "v5-26-e05",
+          "type": "choice",
+          "uses": ["v5-12"],
+          "jp": "{友|とも}だちがかさを{持|も}っていませんでしたから、{私|わたし}のかさを＿。",
+          "fr": "Mon ami n'avait pas de parapluie, alors je lui ai prêté le mien.",
+          "choices": ["{貸|か}しました", "{借|か}りました", "もらいました", "くれました"],
+          "a": 0
+        },
+        {
+          "id": "v5-26-e06",
+          "type": "choice",
+          "jp": "{明日|あした}、{図書館|としょかん}に{本|ほん}を＿。",
+          "fr": "Demain, je rends les livres à la bibliothèque.",
+          "choices": ["かえします", "くれます", "{借|か}ります", "{見|み}せます"],
+          "a": 0
+        },
+        {
+          "id": "v5-26-e07",
+          "type": "choice",
+          "uses": ["v5-12"],
+          "jp": "{田中|たなか}さん、{旅行|りょこう}の{写真|しゃしん}を＿ください。{私|わたし}も{見|み}たいです。",
+          "fr": "Monsieur Tanaka, montrez-moi les photos du voyage. Je veux les voir, moi aussi.",
+          "choices": ["{見|み}せて", "{見|み}て", "{借|か}りて", "もらって"],
+          "a": 0
+        },
+        {
+          "id": "v5-26-e08",
+          "type": "choice",
+          "uses": ["v5-12"],
+          "jp": "かさを＿いますか。— いいえ、{持|も}っていません。",
+          "fr": "Tu as un parapluie sur toi ? — Non, je n'en ai pas.",
+          "choices": ["{持|も}って", "{待|ま}って", "{見|み}せて", "{貸|か}して"],
+          "a": 0,
+          "explain": "{持|も}つ (tenir, avoir sur soi) ≠ {待|ま}つ (attendre)."
+        },
+        {
+          "id": "v5-26-e09",
+          "type": "choice",
+          "uses": ["v5-04", "v5-12"],
+          "jp": "{国|くに}の{母|はは}に{手紙|てがみ}を＿。",
+          "fr": "J'ai envoyé une lettre à ma mère, dans mon pays.",
+          "choices": ["{送|おく}りました", "{売|う}りました", "{借|か}りました", "とりました"],
+          "a": 0
+        },
+        {
+          "id": "v5-26-e10",
+          "type": "choice",
+          "uses": ["v5-04", "v5-05"],
+          "jp": "あの{店|みせ}は{古|ふる}い{本|ほん}を＿います。",
+          "fr": "Ce magasin vend des livres d'occasion.",
+          "choices": ["{売|う}って", "{借|か}りて", "かえして", "くれて"],
+          "a": 0
+        },
+        {
+          "id": "v5-26-e11",
+          "type": "choice",
+          "uses": ["v5-12"],
+          "q": "Que veut dire : その{新聞|しんぶん}をとってください。",
+          "choices": [
+            "Passe-moi ce journal, s'il te plaît.",
+            "Achète ce journal, s'il te plaît.",
+            "Lis ce journal, s'il te plaît.",
+            "Rends ce journal, s'il te plaît."
+          ],
+          "a": 0
+        },
+        {
+          "id": "v5-26-e12",
+          "type": "choice",
+          "q": "Que veut dire **わたす** ?",
+          "choices": ["remettre (en main propre)", "envoyer par la poste", "vendre", "rendre"],
+          "a": 0
+        },
+        {
+          "id": "v5-26-e13",
+          "type": "choice",
+          "uses": ["v5-14"],
+          "jp": "{駅|えき}の{前|まえ}で{手紙|てがみ}を＿。",
+          "fr": "J'ai posté une lettre devant la gare.",
+          "choices": ["{出|だ}しました", "{出|で}ました", "{出|で}かけました", "{借|か}りました"],
+          "a": 0,
+          "explain": "Sortir **quelque chose** (ou poster une lettre) : {出|だ}す. {出|で}る = sortir soi-même."
+        },
+        {
+          "id": "v5-26-e14",
+          "type": "choice",
+          "uses": ["v5-21"],
+          "jp": "{京都|きょうと}で{家族|かぞく}に＿を{買|か}いました。",
+          "fr": "À Kyoto, j'ai acheté des souvenirs pour ma famille.",
+          "choices": ["おみやげ", "{手紙|てがみ}", "ねつ", "かぜ"],
+          "a": 0
+        },
+        {
+          "id": "v5-26-e15",
+          "type": "choice",
+          "q": "Une seule de ces phrases est correcte. Laquelle ?",
+          "choices": ["{田中|たなか}さんが{本|ほん}をくれました。", "{田中|たなか}さんが{私|わたし}に{本|ほん}をあげました。", "{私|わたし}は{田中|たなか}さんに{本|ほん}をくれました。", "{田中|たなか}さんに{本|ほん}をくれました。"],
+          "a": 0,
+          "explain": "Vers moi : くれる, avec le donneur marqué par が. Vers les autres : あげる."
+        },
+        {
+          "id": "v5-26-e16",
+          "type": "choice",
+          "uses": ["v5-02"],
+          "q": "Forme ます de **{借|か}りる** ?",
+          "choices": ["{借|か}ります", "{借|か}りります", "{借|か}るます", "{借|か}らます"],
+          "a": 0,
+          "explain": "{借|か}りる est du groupe 2 : る → ます."
+        },
+        {
+          "id": "v5-26-e17",
+          "type": "choice",
+          "uses": ["v5-02"],
+          "q": "Forme て de **{貸|か}す** ?",
+          "choices": ["{貸|か}して", "{貸|か}って", "{貸|か}いて", "{貸|か}すて"],
+          "a": 0,
+          "explain": "す → して."
+        },
+        {
+          "id": "v5-26-e18",
+          "type": "choice",
+          "uses": ["v5-07"],
+          "q": "Que veut dire : お{金|かね}を{持|も}っていますか。",
+          "choices": ["Tu as de l'argent sur toi ?", "Tu attends de l'argent ?", "Tu prêtes de l'argent ?", "Tu as reçu de l'argent ?"],
+          "a": 0
+        },
+        {
+          "id": "v5-26-e19",
+          "type": "order",
+          "uses": ["v5-21"],
+          "fr": "J'ai offert un souvenir à ma mère.",
+          "tokens": ["{母|はは}に", "おみやげを", "あげました"],
+          "alt": [["おみやげを", "{母|はは}に", "あげました"]]
+        },
+        {
+          "id": "v5-26-e20",
+          "type": "order",
+          "uses": ["v5-12"],
+          "fr": "Montre-moi cet appareil photo, s'il te plaît.",
+          "tokens": ["その", "カメラを", "{見|み}せて", "ください"]
+        }
+      ]
+    },
+    {
+      "id": "v5-27",
+      "title": "Ouvrir, allumer, utiliser",
+      "words": [
+        {"jp": "{開|あ}ける", "kana": "あける", "fr": "ouvrir (quelque chose)", "ex": "{窓|まど}を{開|あ}けてもいいですか。", "exFr": "Je peux ouvrir la fenêtre ?"},
+        {"jp": "{開|あ}く", "kana": "あく", "fr": "s'ouvrir, ouvrir (ça ouvre)", "ex": "{銀行|ぎんこう}は{九時|くじ}に{開|あ}きます。", "exFr": "La banque ouvre à neuf heures."},
+        {"jp": "しめる", "kana": "しめる", "fr": "fermer (quelque chose)", "ex": "{寒|さむ}いですから、ドアをしめてください。", "exFr": "Il fait froid, alors ferme la porte, s'il te plaît."},
+        {"jp": "しまる", "kana": "しまる", "fr": "se fermer, fermer (ça ferme)", "ex": "{店|みせ}は{八時|はちじ}にしまります。", "exFr": "Le magasin ferme à huit heures."},
+        {"jp": "つける", "kana": "つける", "fr": "allumer", "ex": "テレビをつけて、ニュースを{見|み}ます。", "exFr": "J'allume la télé et je regarde les informations."},
+        {"jp": "{消|け}す", "kana": "けす", "fr": "éteindre ; effacer", "ex": "ねるまえに{電気|でんき}を{消|け}します。", "exFr": "J'éteins la lumière avant de dormir."},
+        {"jp": "{使|つか}う", "kana": "つかう", "fr": "utiliser", "ex": "このペンを{使|つか}ってもいいですか。", "exFr": "Je peux utiliser ce stylo ?"},
+        {"jp": "{作|つく}る", "kana": "つくる", "fr": "faire, fabriquer ; préparer", "ex": "{母|はは}はケーキを{作|つく}りました。", "exFr": "Ma mère a fait un gâteau."},
+        {"jp": "おく", "kana": "おく", "fr": "poser, mettre", "ex": "かぎはつくえの{上|うえ}においてください。", "exFr": "Pose la clé sur le bureau, s'il te plaît."},
+        {"jp": "{入|い}れる", "kana": "いれる", "fr": "mettre dedans", "ex": "コーヒーにさとうを{入|い}れますか。", "exFr": "Tu mets du sucre dans ton café ?"},
+        {"jp": "{切|き}る", "kana": "きる", "fr": "couper", "ex": "ナイフで{肉|にく}を{切|き}ります。", "exFr": "Je coupe la viande avec un couteau."},
+        {"jp": "おす", "kana": "おす", "fr": "pousser ; appuyer", "ex": "このボタンをおしてください。", "exFr": "Appuyez sur ce bouton, s'il vous plaît."},
+        {"jp": "{引|ひ}く", "kana": "ひく", "fr": "tirer", "ex": "このドアは{引|ひ}いて{開|あ}けます。", "exFr": "Cette porte s'ouvre en tirant."},
+        {"jp": "ならべる", "kana": "ならべる", "fr": "aligner, disposer", "ex": "テーブルにおさらをならべます。", "exFr": "Je dispose les assiettes sur la table."}
+      ],
+      "sections": [
+        {
+          "h": "Je fais (を) / ça se fait (が)",
+          "p": [
+            "Beaucoup de verbes vont par paire : l'un dit qu'on **fait** l'action sur quelque chose (を), l'autre que la chose **change d'elle-même** (が)."
+          ],
+          "grid": {
+            "head": ["", "を〜 ↔ が〜"],
+            "rows": [
+              ["ouvrir", "ドア==を=={開|あ}ける ↔ ドア==が=={開|あ}く"],
+              ["fermer", "ドア==を==しめる ↔ ドア==が==しまる"],
+              ["mettre / entrer", "{水|みず}==を=={入|い}れる ↔ {部屋|へや}==に=={入|はい}る"],
+              ["sortir", "{手紙|てがみ}==を=={出|だ}す ↔ {部屋|へや}==を=={出|で}る"]
+            ]
+          }
+        }
+      ],
+      "pieges": [
+        "{開|あ}ける / しめる : quelqu'un ouvre / ferme quelque chose (を). {開|あ}く / しまる : ça s'ouvre / ça ferme (が) : {店|みせ}**が**{開|あ}く.",
+        "{入|い}れる (いれる, mettre dedans) ≠ {入|はい}る (はいる, entrer) : même kanji, deux verbes.",
+        "{切|き}る (couper) est du groupe 1 : {切|き}ります, {切|き}って. {着|き}る (porter) est du groupe 2 : {着|き}ます, {着|き}て.",
+        "Sur les portes : おす (pousser) / {引|ひ}く (tirer).",
+        "つける / {消|け}す : allumer / éteindre (lumière, télé). {消|け}す veut aussi dire effacer.",
+        "{作|つく}る : fabriquer, et aussi préparer un plat : {料理|りょうり}を{作|つく}る."
+      ],
+      "exercises": [
+        {
+          "id": "v5-27-e01",
+          "type": "choice",
+          "uses": ["v5-22", "v5-25"],
+          "jp": "{暑|あつ}いですから、{窓|まど}を＿。",
+          "fr": "Il fait chaud, alors j'ouvre la fenêtre.",
+          "choices": ["{開|あ}けます", "{開|あ}きます", "しまります", "{消|け}します"],
+          "a": 0
+        },
+        {
+          "id": "v5-27-e02",
+          "type": "choice",
+          "uses": ["v5-04", "v5-16"],
+          "jp": "{銀行|ぎんこう}のドアは{九時|くじ}に＿。",
+          "fr": "Les portes de la banque ouvrent à neuf heures.",
+          "choices": ["{開|あ}きます", "{開|あ}けます", "しめます", "つけます"],
+          "a": 0,
+          "explain": "La porte s'ouvre (d'elle-même, pour nous) : {開|あ}く."
+        },
+        {
+          "id": "v5-27-e03",
+          "type": "choice",
+          "uses": ["v5-25"],
+          "jp": "{寒|さむ}いですから、ドアを＿ください。",
+          "fr": "Il fait froid, alors fermez la porte, s'il vous plaît.",
+          "choices": ["しめて", "しまって", "{開|あ}けて", "{開|あ}いて"],
+          "a": 0
+        },
+        {
+          "id": "v5-27-e04",
+          "type": "choice",
+          "jp": "{店|みせ}が＿いますから、{買|か}い{物|もの}ができません。",
+          "fr": "Le magasin est fermé, alors je ne peux pas faire les courses.",
+          "choices": ["しまって", "しめて", "{開|あ}けて", "つけて"],
+          "a": 0,
+          "explain": "{店|みせ}**が** : la chose elle-même → verbe « ça se fait » : しまる."
+        },
+        {
+          "id": "v5-27-e05",
+          "type": "choice",
+          "uses": ["v5-12"],
+          "jp": "テレビを＿、ニュースを{見|み}ます。",
+          "fr": "J'allume la télé et je regarde les informations.",
+          "choices": ["つけて", "{消|け}して", "しめて", "{切|き}って"],
+          "a": 0
+        },
+        {
+          "id": "v5-27-e06",
+          "type": "choice",
+          "uses": ["v5-14", "v5-22"],
+          "jp": "{部屋|へや}を{出|で}るときは、{電気|でんき}を＿ください。",
+          "fr": "Quand vous sortez de la pièce, éteignez la lumière, s'il vous plaît.",
+          "choices": ["{消|け}して", "つけて", "{開|あ}けて", "{作|つく}って"],
+          "a": 0
+        },
+        {
+          "id": "v5-27-e07",
+          "type": "choice",
+          "uses": ["v5-17", "v5-21"],
+          "jp": "{母|はは}はたんじょうびのケーキを＿。",
+          "fr": "Ma mère a fait le gâteau d'anniversaire.",
+          "choices": ["{作|つく}りました", "{使|つか}いました", "{開|あ}けました", "おしました"],
+          "a": 0
+        },
+        {
+          "id": "v5-27-e08",
+          "type": "choice",
+          "jp": "すみません、このペンを＿もいいですか。",
+          "fr": "Excusez-moi, je peux utiliser ce stylo ?",
+          "choices": ["{使|つか}って", "{作|つく}って", "{消|け}して", "しまって"],
+          "a": 0
+        },
+        {
+          "id": "v5-27-e09",
+          "type": "choice",
+          "uses": ["v5-06"],
+          "jp": "コーヒーにさとうを＿か。",
+          "fr": "Tu mets du sucre dans ton café ?",
+          "choices": ["{入|い}れます", "{入|はい}ります", "おします", "{引|ひ}きます"],
+          "a": 0,
+          "explain": "Mettre dedans : {入|い}れる (いれる). {入|はい}る (はいる), c'est entrer soi-même."
+        },
+        {
+          "id": "v5-27-e10",
+          "type": "choice",
+          "uses": ["v5-06"],
+          "jp": "ナイフで{肉|にく}を＿。",
+          "fr": "Je coupe la viande avec un couteau.",
+          "choices": ["{切|き}ります", "{着|き}ます", "{消|け}します", "おします"],
+          "a": 0
+        },
+        {
+          "id": "v5-27-e11",
+          "type": "choice",
+          "q": "Sur une porte, il est écrit **{引|ひ}** (ひく). Que dois-tu faire ?",
+          "choices": ["tirer", "pousser", "entrer", "sortir"],
+          "a": 0
+        },
+        {
+          "id": "v5-27-e12",
+          "type": "choice",
+          "uses": ["v5-22"],
+          "jp": "{二|に}かいへ{行|い}きますから、エレベーターのボタンを＿ください。",
+          "fr": "Je vais au premier étage, alors appuyez sur le bouton de l'ascenseur, s'il vous plaît.",
+          "choices": ["おして", "{開|あ}けて", "{消|け}して", "ならべて"],
+          "a": 0
+        },
+        {
+          "id": "v5-27-e13",
+          "type": "choice",
+          "uses": ["v5-12", "v5-20"],
+          "jp": "かぎはつくえの{上|うえ}に＿ください。",
+          "fr": "Pose la clé sur le bureau, s'il te plaît.",
+          "choices": ["おいて", "おして", "{切|き}って", "しまって"],
+          "a": 0
+        },
+        {
+          "id": "v5-27-e14",
+          "type": "choice",
+          "uses": ["v5-25"],
+          "jp": "{風|かぜ}で{窓|まど}＿{開|あ}きました。",
+          "fr": "La fenêtre s'est ouverte à cause du vent.",
+          "choices": ["が", "を", "で", "へ"],
+          "a": 0,
+          "explain": "{開|あ}く : la chose s'ouvre d'elle-même → が."
+        },
+        {
+          "id": "v5-27-e15",
+          "type": "choice",
+          "jp": "{田中|たなか}さんが{窓|まど}＿{開|あ}けました。",
+          "fr": "M. Tanaka a ouvert la fenêtre.",
+          "choices": ["を", "が", "に", "で"],
+          "a": 0,
+          "explain": "{開|あ}ける : quelqu'un ouvre quelque chose → を."
+        },
+        {
+          "id": "v5-27-e16",
+          "type": "choice",
+          "uses": ["v5-02"],
+          "q": "Forme て de **{切|き}る** (couper) ?",
+          "choices": ["{切|き}って", "{切|き}て", "{切|き}りて", "{切|き}んで"],
+          "a": 0,
+          "explain": "{切|き}る est un faux groupe 2 (groupe 1) : る → って."
+        },
+        {
+          "id": "v5-27-e17",
+          "type": "choice",
+          "q": "Dans « かばんに本を入れます », comment se lit **入れます** ?",
+          "choices": ["いれます", "はいれます", "はいります", "いります"],
+          "a": 0
+        },
+        {"id": "v5-27-e18", "type": "choice", "q": "Que veut dire **ならべる** ?", "choices": ["aligner, disposer", "empiler", "jeter", "laver"], "a": 0},
+        {"id": "v5-27-e19", "type": "order", "uses": ["v5-22"], "fr": "Je peux ouvrir la fenêtre ?", "tokens": ["{窓|まど}を", "{開|あ}けても", "いいですか"]},
+        {
+          "id": "v5-27-e20",
+          "type": "order",
+          "uses": ["v5-02", "v5-12"],
+          "fr": "J'éteins la télé et je me couche.",
+          "tokens": ["テレビを", "{消|け}して", "ねます"]
+        }
+      ]
+    },
+    {
+      "id": "v5-28",
+      "title": "Communiquer et savoir",
+      "words": [
+        {"jp": "{言|い}う", "kana": "いう", "fr": "dire", "ex": "{先生|せんせい}は「{明日|あした}テストがあります」と{言|い}いました。", "exFr": "Le professeur a dit : « Il y a un contrôle demain. »"},
+        {"jp": "{答|こた}える", "kana": "こたえる", "fr": "répondre", "ex": "{先生|せんせい}の{質問|しつもん}に{答|こた}えます。", "exFr": "Je réponds à la question du professeur."},
+        {"jp": "{教|おし}える", "kana": "おしえる", "fr": "enseigner ; indiquer", "ex": "{田中|たなか}さんは{子|こ}どもに{英語|えいご}を{教|おし}えています。", "exFr": "M. Tanaka enseigne l'anglais aux enfants."},
+        {"jp": "{習|なら}う", "kana": "ならう", "fr": "apprendre (avec quelqu'un)", "ex": "{毎週|まいしゅう}ピアノを{習|なら}っています。", "exFr": "Je prends des cours de piano toutes les semaines."},
+        {"jp": "{知|し}る", "kana": "しる", "fr": "savoir, connaître", "ex": "{田中|たなか}さんの{電話|でんわ}ばんごうを{知|し}っていますか。", "exFr": "Tu connais le numéro de téléphone de M. Tanaka ?"},
+        {"jp": "{分|わ}かる", "kana": "わかる", "fr": "comprendre", "ex": "この{漢字|かんじ}の{意味|いみ}が{分|わ}かりません。", "exFr": "Je ne comprends pas le sens de ce kanji."},
+        {"jp": "おぼえる", "kana": "おぼえる", "fr": "retenir, mémoriser", "ex": "{毎日|まいにち}{漢字|かんじ}を{五|いつ}つおぼえます。", "exFr": "Je mémorise cinq kanji par jour."},
+        {"jp": "わすれる", "kana": "わすれる", "fr": "oublier", "ex": "{電車|でんしゃ}にかさをわすれました。", "exFr": "J'ai oublié mon parapluie dans le train."},
+        {"jp": "{思|おも}う", "kana": "おもう", "fr": "penser, croire", "ex": "{明日|あした}は{雨|あめ}が{降|ふ}ると{思|おも}います。", "exFr": "Je pense qu'il pleuvra demain."},
+        {"jp": "{考|かんが}える", "kana": "かんがえる", "fr": "réfléchir", "ex": "よく{考|かんが}えてから、{答|こた}えてください。", "exFr": "Réfléchissez bien avant de répondre."},
+        {"jp": "よぶ", "kana": "よぶ", "fr": "appeler (quelqu'un)", "ex": "タクシーをよびましょうか。", "exFr": "Je vous appelle un taxi ?"},
+        {"jp": "{話|はなし}", "kana": "はなし", "fr": "histoire, propos, conversation", "ex": "{先生|せんせい}の{話|はなし}はおもしろいです。", "exFr": "Ce que raconte le professeur est intéressant."},
+        {"jp": "ニュース", "kana": "ニュース", "fr": "informations, nouvelles", "ex": "{毎朝|まいあさ}テレビでニュースを{見|み}ます。", "exFr": "Tous les matins, je regarde les informations à la télé."}
+      ],
+      "sections": [
+        {
+          "h": "Savoir, comprendre, apprendre",
+          "p": ["Ces verbes ont chacun leur petite manie : à retenir avec leur particule."],
+          "grid": {
+            "head": ["", "comment l'utiliser"],
+            "rows": [
+              ["{知|し}る", "{知|し}っています (je sais) · ==**{知|し}りません**== (je ne sais pas)"],
+              ["{分|わ}かる", "{日本語|にほんご}==が=={分|わ}かります"],
+              ["{答|こた}える", "{質問|しつもん}==に=={答|こた}える"],
+              ["{言|い}う · {思|おも}う", "「…」==と=={言|い}う · …==と=={思|おも}う"],
+              ["{習|なら}う · おぼえる", "apprendre avec un prof · retenir par cœur"]
+            ]
+          }
+        }
+      ],
+      "pieges": [
+        "{知|し}っていますか → はい、{知|し}っています / いいえ、**{知|し}りません** (jamais {知|し}っていません).",
+        "{分|わ}かる : la chose comprise prend **が** : {日本語|にほんご}**が**{分|わ}かります.",
+        "{答|こた}える : on répond **à** une question → {質問|しつもん}**に**{答|こた}える.",
+        "{教|おし}える = enseigner **et** indiquer : {道|みち}を{教|おし}えてください = indiquez-moi le chemin.",
+        "{習|なら}う = apprendre auprès de quelqu'un ; おぼえる = mémoriser ; {勉強|べんきょう}する = étudier.",
+        "わすれる : oublier quelque chose **quelque part** → {電車|でんしゃ}**に**かさをわすれる.",
+        "{話|はなし} (はなし, nom) ≠ {話|はな}す (はなす, verbe parler)."
+      ],
+      "exercises": [
+        {
+          "id": "v5-28-e01",
+          "type": "choice",
+          "jp": "{田中|たなか}さんの{電話|でんわ}ばんごうを{知|し}っていますか。— いいえ、＿。",
+          "fr": "Tu connais le numéro de téléphone de M. Tanaka ? — Non, je ne le connais pas.",
+          "choices": ["{知|し}りません", "{知|し}っていません", "{知|し}りませんです", "{知|し}るません"],
+          "a": 0,
+          "explain": "Au négatif, on ne dit pas {知|し}っていません mais {知|し}りません."
+        },
+        {
+          "id": "v5-28-e02",
+          "type": "choice",
+          "jp": "この{漢字|かんじ}の{意味|いみ}＿{分|わ}かりますか。",
+          "fr": "Tu comprends le sens de ce kanji ?",
+          "choices": ["が", "を", "に", "で"],
+          "a": 0,
+          "explain": "{分|わ}かる : ce qu'on comprend prend が."
+        },
+        {
+          "id": "v5-28-e03",
+          "type": "choice",
+          "uses": ["v5-01"],
+          "jp": "{先生|せんせい}の{質問|しつもん}＿{答|こた}えます。",
+          "fr": "Je réponds à la question du professeur.",
+          "choices": ["に", "を", "が", "と"],
+          "a": 0
+        },
+        {
+          "id": "v5-28-e04",
+          "type": "choice",
+          "uses": ["v5-12", "v5-15"],
+          "jp": "{電車|でんしゃ}にかさを＿。",
+          "fr": "J'ai oublié mon parapluie dans le train.",
+          "choices": ["わすれました", "おぼえました", "{教|おし}えました", "{答|こた}えました"],
+          "a": 0
+        },
+        {
+          "id": "v5-28-e05",
+          "type": "choice",
+          "uses": ["v5-19"],
+          "jp": "{毎週|まいしゅう}、{田中|たなか}{先生|せんせい}にピアノを＿います。{先生|せんせい}はとても{上手|じょうず}です。",
+          "fr": "Toutes les semaines, je prends des cours de piano avec M. Tanaka. Il joue très bien.",
+          "choices": ["{習|なら}って", "{教|おし}えて", "わすれて", "{答|こた}えて"],
+          "a": 0
+        },
+        {
+          "id": "v5-28-e06",
+          "type": "choice",
+          "uses": ["v5-04", "v5-11"],
+          "jp": "すみません、{駅|えき}へ{行|い}く{道|みち}を＿ください。",
+          "fr": "Excusez-moi, pouvez-vous m'indiquer le chemin de la gare ?",
+          "choices": ["{教|おし}えて", "{習|なら}って", "おぼえて", "{答|こた}えて"],
+          "a": 0
+        },
+        {
+          "id": "v5-28-e07",
+          "type": "choice",
+          "uses": ["v5-25"],
+          "jp": "{明日|あした}は{雨|あめ}が{降|ふ}ると＿。",
+          "fr": "Je pense qu'il pleuvra demain.",
+          "choices": ["{思|おも}います", "おぼえます", "わすれます", "{習|なら}います"],
+          "a": 0
+        },
+        {
+          "id": "v5-28-e08",
+          "type": "choice",
+          "jp": "{先生|せんせい}は「{明日|あした}テストがあります」＿{言|い}いました。",
+          "fr": "Le professeur a dit : « Il y a un contrôle demain. »",
+          "choices": ["と", "を", "に", "が"],
+          "a": 0,
+          "explain": "Ce qu'on dit ou pense est marqué par と."
+        },
+        {
+          "id": "v5-28-e09",
+          "type": "choice",
+          "uses": ["v5-15"],
+          "jp": "タクシーを＿ましょうか。",
+          "fr": "Je vous appelle un taxi ?",
+          "choices": ["よび", "{言|い}い", "{答|こた}え", "{習|なら}い"],
+          "a": 0
+        },
+        {
+          "id": "v5-28-e10",
+          "type": "choice",
+          "q": "Que veut dire **おぼえる** ?",
+          "choices": ["retenir, mémoriser", "oublier", "enseigner", "répondre"],
+          "a": 0
+        },
+        {"id": "v5-28-e11", "type": "choice", "q": "Contraire de **おぼえる** ?", "choices": ["わすれる", "{教|おし}える", "{考|かんが}える", "{分|わ}かる"], "a": 0},
+        {
+          "id": "v5-28-e12",
+          "type": "choice",
+          "jp": "よく＿から、{答|こた}えてください。",
+          "fr": "Réfléchissez bien avant de répondre.",
+          "choices": ["{考|かんが}えて", "わすれて", "よんで", "{言|い}って"],
+          "a": 0
+        },
+        {
+          "id": "v5-28-e13",
+          "type": "choice",
+          "uses": ["v5-10", "v5-18"],
+          "jp": "{先生|せんせい}の＿はいつもおもしろいです。",
+          "fr": "Ce que raconte le professeur est toujours intéressant.",
+          "choices": ["{話|はなし}", "{話|はな}す", "{言|い}う", "{答|こた}える"],
+          "a": 0,
+          "explain": "Après の il faut un nom : {話|はなし}."
+        },
+        {
+          "id": "v5-28-e14",
+          "type": "choice",
+          "uses": ["v5-12", "v5-16"],
+          "jp": "{毎朝|まいあさ}テレビで＿を{見|み}ます。",
+          "fr": "Tous les matins, je regarde les informations à la télé.",
+          "choices": ["ニュース", "{話|はなし}", "{質問|しつもん}", "{意味|いみ}"],
+          "a": 0
+        },
+        {
+          "id": "v5-28-e15",
+          "type": "choice",
+          "q": "« Je connais M. Tanaka » se dit…",
+          "choices": ["{田中|たなか}さんを{知|し}っています。", "{田中|たなか}さんを{知|し}ります。", "{田中|たなか}さんが{知|し}っています。", "{田中|たなか}さんに{知|し}っています。"],
+          "a": 0,
+          "explain": "Connaître : {知|し}っています (forme en ている), avec を."
+        },
+        {
+          "id": "v5-28-e16",
+          "type": "choice",
+          "uses": ["v5-02"],
+          "q": "Forme て de **{言|い}う** ?",
+          "choices": ["{言|い}って", "{言|い}いて", "{言|い}んで", "{言|い}うて"],
+          "a": 0,
+          "explain": "う → って."
+        },
+        {"id": "v5-28-e17", "type": "choice", "q": "Comment se lit **答える** ?", "choices": ["こたえる", "とうえる", "こたる", "かたえる"], "a": 0},
+        {"id": "v5-28-e18", "type": "choice", "q": "Comment se lit **教える** ?", "choices": ["おしえる", "きょうえる", "おそえる", "おしる"], "a": 0},
+        {
+          "id": "v5-28-e19",
+          "type": "order",
+          "uses": ["v5-01"],
+          "fr": "Je ne connais pas le nom de ce professeur.",
+          "tokens": ["あの", "{先生|せんせい}の", "{名前|なまえ}を", "{知|し}りません"]
+        },
+        {
+          "id": "v5-28-e20",
+          "type": "order",
+          "uses": ["v5-12", "v5-15"],
+          "fr": "J'ai oublié mon parapluie dans le train.",
+          "tokens": ["{電車|でんしゃ}に", "かさを", "わすれました"],
+          "alt": [["かさを", "{電車|でんしゃ}に", "わすれました"]]
+        }
+      ]
+    },
+    {
+      "id": "v5-29",
+      "title": "École et études",
+      "words": [
+        {"jp": "{宿題|しゅくだい}", "kana": "しゅくだい", "fr": "devoirs", "ex": "{今晩|こんばん}は{宿題|しゅくだい}がたくさんあります。", "exFr": "Ce soir, j'ai beaucoup de devoirs."},
+        {"jp": "{試験|しけん}", "kana": "しけん", "fr": "examen", "ex": "{来週|らいしゅう}、{日本語|にほんご}の{試験|しけん}があります。", "exFr": "La semaine prochaine, j'ai un examen de japonais."},
+        {"jp": "{問題|もんだい}", "kana": "もんだい", "fr": "exercice, question ; problème", "ex": "この{問題|もんだい}はむずかしいです。", "exFr": "Cet exercice est difficile."},
+        {"jp": "{質問|しつもん}", "kana": "しつもん", "fr": "question", "ex": "{質問|しつもん}がありますか。— はい、{一|ひと}つあります。", "exFr": "Vous avez des questions ? — Oui, une."},
+        {"jp": "{意味|いみ}", "kana": "いみ", "fr": "sens, signification", "ex": "この{漢字|かんじ}の{意味|いみ}は{何|なん}ですか。", "exFr": "Quel est le sens de ce kanji ?"},
+        {"jp": "ことば", "kana": "ことば", "fr": "mot ; langue", "ex": "{新|あたら}しいことばを{毎日|まいにち}{十|じゅう}おぼえます。", "exFr": "Je retiens dix mots nouveaux par jour."},
+        {"jp": "{漢字|かんじ}", "kana": "かんじ", "fr": "kanji", "ex": "{漢字|かんじ}で{名前|なまえ}を{書|か}いてください。", "exFr": "Écrivez votre nom en kanji, s'il vous plaît."},
+        {"jp": "{授業|じゅぎょう}", "kana": "じゅぎょう", "fr": "cours (la séance)", "ex": "{授業|じゅぎょう}は{九時|くじ}に{始|はじ}まります。", "exFr": "Le cours commence à neuf heures."},
+        {"jp": "{教室|きょうしつ}", "kana": "きょうしつ", "fr": "salle de classe", "ex": "{教室|きょうしつ}に{学生|がくせい}が{二十人|にじゅうにん}います。", "exFr": "Il y a vingt étudiants dans la salle."},
+        {"jp": "ノート", "kana": "ノート", "fr": "cahier", "ex": "ノートに{漢字|かんじ}を{書|か}きます。", "exFr": "J'écris des kanji dans mon cahier."},
+        {"jp": "えんぴつ", "kana": "えんぴつ", "fr": "crayon", "ex": "えんぴつで{書|か}いてもいいですか。", "exFr": "Je peux écrire au crayon ?"},
+        {"jp": "ペン", "kana": "ペン", "fr": "stylo", "ex": "ペンを{貸|か}してください。", "exFr": "Prête-moi un stylo, s'il te plaît."},
+        {"jp": "れんしゅうする", "kana": "れんしゅうする", "fr": "s'exercer, s'entraîner", "ex": "{毎日|まいにち}ピアノをれんしゅうします。", "exFr": "Je m'exerce au piano tous les jours."},
+        {"jp": "{作文|さくぶん}", "kana": "さくぶん", "fr": "rédaction", "ex": "{週末|しゅうまつ}に{日本語|にほんご}で{作文|さくぶん}を{書|か}きました。", "exFr": "Ce week-end, j'ai écrit une rédaction en japonais."},
+        {"jp": "{字|じ}", "kana": "じ", "fr": "caractère, écriture", "ex": "{田中|たなか}さんは{字|じ}がきれいです。", "exFr": "M. Tanaka a une belle écriture."}
+      ],
+      "sections": [
+        {
+          "h": "Étudier : quel verbe ?",
+          "p": ["Le français dit souvent « apprendre ». Le japonais précise."],
+          "grid": {
+            "head": ["", "sens"],
+            "rows": [
+              ["{勉強|べんきょう}する", "étudier (en général)"],
+              ["{習|なら}う", "apprendre avec un professeur"],
+              ["れんしゅうする", "s'exercer, répéter"],
+              ["おぼえる", "retenir par cœur"],
+              ["{宿題|しゅくだい}をする", "faire ses devoirs"]
+            ]
+          }
+        }
+      ],
+      "pieges": [
+        "{宿題|しゅくだい}**を**する = faire ses devoirs ; {試験|しけん}**が**ある = avoir un examen.",
+        "{質問|しつもん}**を**する = poser une question ; {質問|しつもん}**に**{答|こた}える = y répondre.",
+        "{問題|もんだい} = un exercice **et** un problème : {問題|もんだい}ありません = pas de problème.",
+        "Avec quoi on écrit : **で** → えんぴつ**で**, {漢字|かんじ}**で**, {日本語|にほんご}**で**.",
+        "{授業|じゅぎょう} = le cours (la séance) ; {教室|きょうしつ} = la salle de classe.",
+        "{日本語|にほんご}で{何|なん}と{言|い}いますか = comment dit-on en japonais ? Phrase en or !"
+      ],
+      "exercises": [
+        {
+          "id": "v5-29-e01",
+          "type": "choice",
+          "uses": ["v5-16", "v5-26"],
+          "jp": "{今晩|こんばん}は＿をします。{明日|あした}{先生|せんせい}に{出|だ}しますから。",
+          "fr": "Ce soir, je fais mes devoirs : je les rends au professeur demain.",
+          "choices": ["{宿題|しゅくだい}", "{教室|きょうしつ}", "えんぴつ", "{字|じ}"],
+          "a": 0
+        },
+        {
+          "id": "v5-29-e02",
+          "type": "choice",
+          "uses": ["v5-09"],
+          "jp": "{先生|せんせい}、＿があります。この{漢字|かんじ}はどう{読|よ}みますか。",
+          "fr": "Monsieur, j'ai une question. Comment se lit ce kanji ?",
+          "choices": ["{質問|しつもん}", "{教室|きょうしつ}", "ノート", "ペン"],
+          "a": 0
+        },
+        {
+          "id": "v5-29-e03",
+          "type": "choice",
+          "uses": ["v5-12", "v5-28"],
+          "jp": "この{漢字|かんじ}の＿が{分|わ}かりません。じしょで{見|み}ます。",
+          "fr": "Je ne comprends pas le sens de ce kanji. Je regarde dans le dictionnaire.",
+          "choices": ["{意味|いみ}", "{教室|きょうしつ}", "{授業|じゅぎょう}", "{宿題|しゅくだい}"],
+          "a": 0
+        },
+        {
+          "id": "v5-29-e04",
+          "type": "choice",
+          "jp": "えんぴつ＿{書|か}いてもいいですか。",
+          "fr": "Je peux écrire au crayon ?",
+          "choices": ["で", "を", "に", "が"],
+          "a": 0,
+          "explain": "L'outil avec lequel on fait l'action : で."
+        },
+        {
+          "id": "v5-29-e05",
+          "type": "choice",
+          "uses": ["v5-03", "v5-14"],
+          "jp": "{来週|らいしゅう}{日本語|にほんご}の＿がありますから、{毎日|まいにち}{勉強|べんきょう}しています。",
+          "fr": "J'ai un examen de japonais la semaine prochaine, alors j'étudie tous les jours.",
+          "choices": ["{試験|しけん}", "{字|じ}", "ノート", "えんぴつ"],
+          "a": 0
+        },
+        {
+          "id": "v5-29-e06",
+          "type": "choice",
+          "uses": ["v5-22"],
+          "jp": "{授業|じゅぎょう}は{二|に}かいの＿であります。",
+          "fr": "Le cours a lieu dans la salle du premier étage.",
+          "choices": ["{教室|きょうしつ}", "{宿題|しゅくだい}", "{問題|もんだい}", "{質問|しつもん}"],
+          "a": 0
+        },
+        {
+          "id": "v5-29-e07",
+          "type": "choice",
+          "uses": ["v5-28"],
+          "jp": "{毎日|まいにち}ピアノを＿。",
+          "fr": "Je m'exerce au piano tous les jours.",
+          "choices": ["れんしゅうします", "おぼえます", "{答|こた}えます", "{書|か}きます"],
+          "a": 0
+        },
+        {
+          "id": "v5-29-e08",
+          "type": "choice",
+          "uses": ["v5-12", "v5-19"],
+          "jp": "{田中|たなか}さんは＿がきれいですから、{手紙|てがみ}がよく{読|よ}めます。",
+          "fr": "M. Tanaka a une belle écriture, alors ses lettres se lisent bien.",
+          "choices": ["{字|じ}", "{宿題|しゅくだい}", "{試験|しけん}", "{授業|じゅぎょう}"],
+          "a": 0
+        },
+        {
+          "id": "v5-29-e09",
+          "type": "choice",
+          "q": "Que veut dire **{作文|さくぶん}** ?",
+          "choices": ["une rédaction", "un examen", "une dictée", "un manuel"],
+          "a": 0
+        },
+        {"id": "v5-29-e10", "type": "choice", "q": "Comment se lit **宿題** ?", "choices": ["しゅくだい", "やどだい", "しゅくたい", "すくだい"], "a": 0},
+        {"id": "v5-29-e11", "type": "choice", "q": "Comment se lit **試験** ?", "choices": ["しけん", "しげん", "しっけん", "しあい"], "a": 0},
+        {
+          "id": "v5-29-e12",
+          "type": "choice",
+          "uses": ["v5-28"],
+          "jp": "{授業|じゅぎょう}のあとで、{先生|せんせい}に{質問|しつもん}を＿。",
+          "fr": "Après le cours, j'ai posé une question au professeur.",
+          "choices": ["しました", "{答|こた}えました", "{習|なら}いました", "{開|あ}けました"],
+          "a": 0,
+          "explain": "Poser une question : {質問|しつもん}をする."
+        },
+        {
+          "id": "v5-29-e13",
+          "type": "choice",
+          "q": "Dans « {問題|もんだい}ありません » (réponse à « ça va ? »), {問題|もんだい} veut dire…",
+          "choices": ["problème (souci)", "exercice", "examen", "question"],
+          "a": 0
+        },
+        {
+          "id": "v5-29-e14",
+          "type": "choice",
+          "uses": ["v5-28"],
+          "jp": "« merci » は{日本語|にほんご}で{何|なん}と＿か。",
+          "fr": "Comment dit-on « merci » en japonais ?",
+          "choices": ["{言|い}います", "{話|はな}します", "{習|なら}います"],
+          "a": 0
+        },
+        {
+          "id": "v5-29-e15",
+          "type": "choice",
+          "uses": ["v5-26", "v5-28"],
+          "jp": "ペンを＿ください。{私|わたし}のペンをわすれましたから。",
+          "fr": "Prête-moi un stylo, s'il te plaît : j'ai oublié le mien.",
+          "choices": ["{貸|か}して", "{借|か}りて", "あげて", "もらって"],
+          "a": 0
+        },
+        {
+          "id": "v5-29-e16",
+          "type": "choice",
+          "q": "Que veut dire **{授業|じゅぎょう}** ?",
+          "choices": ["le cours (la séance)", "la salle de classe", "l'école", "le professeur"],
+          "a": 0
+        },
+        {
+          "id": "v5-29-e17",
+          "type": "choice",
+          "uses": ["v5-01"],
+          "jp": "{漢字|かんじ}＿{名前|なまえ}を{書|か}いてください。",
+          "fr": "Écrivez votre nom en kanji, s'il vous plaît.",
+          "choices": ["で", "を", "が", "へ"],
+          "a": 0
+        },
+        {
+          "id": "v5-29-e18",
+          "type": "order",
+          "uses": ["v5-04"],
+          "fr": "J'ai fait mes devoirs à la bibliothèque.",
+          "tokens": ["{図書館|としょかん}で", "{宿題|しゅくだい}を", "しました"],
+          "alt": [["{宿題|しゅくだい}を", "{図書館|としょかん}で", "しました"]]
+        },
+        {
+          "id": "v5-29-e19",
+          "type": "order",
+          "uses": ["v5-02"],
+          "fr": "J'écris des kanji dans mon cahier.",
+          "tokens": ["ノートに", "{漢字|かんじ}を", "{書|か}きます"],
+          "alt": [["{漢字|かんじ}を", "ノートに", "{書|か}きます"]]
+        }
+      ]
+    },
+    {
+      "id": "v5-30",
+      "title": "Travail et métiers",
+      "words": [
+        {"jp": "{仕事|しごと}", "kana": "しごと", "fr": "travail", "ex": "{仕事|しごと}は{何時|なんじ}に{終|お}わりますか。", "exFr": "À quelle heure finit ton travail ?"},
+        {"jp": "{医者|いしゃ}", "kana": "いしゃ", "fr": "médecin", "ex": "{兄|あに}は{病院|びょういん}で{医者|いしゃ}をしています。", "exFr": "Mon grand frère est médecin à l'hôpital."},
+        {"jp": "{店員|てんいん}", "kana": "てんいん", "fr": "vendeur, employé de magasin", "ex": "{店員|てんいん}さん、これはいくらですか。", "exFr": "Excusez-moi (vendeur), c'est combien ?"},
+        {"jp": "かんごし", "kana": "かんごし", "fr": "infirmier, infirmière", "ex": "{姉|あね}は{病院|びょういん}でかんごしをしています。", "exFr": "Ma grande sœur est infirmière à l'hôpital."},
+        {"jp": "{歌手|かしゅ}", "kana": "かしゅ", "fr": "chanteur, chanteuse", "ex": "{有名|ゆうめい}な{歌手|かしゅ}のコンサートに{行|い}きました。", "exFr": "Je suis allé au concert d'un chanteur célèbre."},
+        {"jp": "{運転手|うんてんしゅ}", "kana": "うんてんしゅ", "fr": "chauffeur", "ex": "タクシーの{運転手|うんてんしゅ}に{道|みち}を{聞|き}きました。", "exFr": "J'ai demandé le chemin au chauffeur de taxi."},
+        {"jp": "おまわりさん", "kana": "おまわりさん", "fr": "agent de police (du quartier)", "ex": "{道|みち}が{分|わ}かりませんでしたから、おまわりさんに{聞|き}きました。", "exFr": "Je ne connaissais pas le chemin, alors j'ai demandé à un agent de police."},
+        {"jp": "{休|やす}み", "kana": "やすみ", "fr": "congé, jour de repos", "ex": "{明日|あした}は{仕事|しごと}が{休|やす}みです。", "exFr": "Demain, je ne travaille pas."},
+        {"jp": "{大学|だいがく}", "kana": "だいがく", "fr": "université", "ex": "{兄|あに}は{東京|とうきょう}の{大学|だいがく}で{勉強|べんきょう}しています。", "exFr": "Mon grand frère étudie dans une université de Tokyo."},
+        {"jp": "{大学生|だいがくせい}", "kana": "だいがくせい", "fr": "étudiant (à l'université)", "ex": "{田中|たなか}さんは{大学生|だいがくせい}です。", "exFr": "M. Tanaka est étudiant."},
+        {"jp": "{高校生|こうこうせい}", "kana": "こうこうせい", "fr": "lycéen", "ex": "{弟|おとうと}は{高校生|こうこうせい}で、サッカーが{好|す}きです。", "exFr": "Mon petit frère est lycéen et il aime le foot."},
+        {"jp": "{工場|こうじょう}", "kana": "こうじょう", "fr": "usine", "ex": "{父|ちち}は{車|くるま}の{工場|こうじょう}で{働|はたら}いています。", "exFr": "Mon père travaille dans une usine automobile."},
+        {"jp": "じむしょ", "kana": "じむしょ", "fr": "bureau (lieu de travail)", "ex": "じむしょは{三|さん}がいにあります。", "exFr": "Le bureau est au deuxième étage."},
+        {"jp": "{銀行員|ぎんこういん}", "kana": "ぎんこういん", "fr": "employé de banque", "ex": "{銀行員|ぎんこういん}の{仕事|しごと}はいそがしいです。", "exFr": "Le travail d'employé de banque est prenant."},
+        {"jp": "{作家|さっか}", "kana": "さっか", "fr": "écrivain", "ex": "この{本|ほん}の{作家|さっか}はとても{有名|ゆうめい}です。", "exFr": "L'auteur de ce livre est très célèbre."}
+      ],
+      "sections": [
+        {
+          "h": "Les suffixes des métiers",
+          "p": ["Pour dire son métier : 〜です, ou 〜をしています (« j'exerce comme… »). Beaucoup de métiers se reconnaissent à leur suffixe."],
+          "grid": {
+            "head": ["", "exemples"],
+            "rows": [
+              ["〜{員|いん} (membre de)", "{会社員|かいしゃいん}, {銀行員|ぎんこういん}, {店員|てんいん}"],
+              ["〜{手|しゅ} (qui fait)", "{歌手|かしゅ}, {運転手|うんてんしゅ}"],
+              ["〜{者|しゃ} · 〜{家|か}", "{医者|いしゃ} · {作家|さっか}"],
+              ["〜{生|せい} (élève)", "{学生|がくせい}, {大学生|だいがくせい}, {高校生|こうこうせい}"]
+            ]
+          }
+        }
+      ],
+      "pieges": [
+        "〜をしています = exercer un métier : {医者|いしゃ}をしています = il est médecin.",
+        "Pour interpeller : {店員|てんいん}さん, {運転手|うんてんしゅ}さん (on ajoute さん).",
+        "おまわりさん = le policier du quartier (mot gentil et courant).",
+        "{休|やす}み (nom) = le congé : {明日|あした}は{休|やす}みです. {休|やす}む (verbe) = se reposer, être absent.",
+        "{工場|こうじょう} = usine ; じむしょ = bureau (le lieu) ; {会社|かいしゃ} = l'entreprise.",
+        "{大学|だいがく} (université) → {大学生|だいがくせい} (étudiant) ; {高校|こうこう} (lycée) → {高校生|こうこうせい} (lycéen)."
+      ],
+      "exercises": [
+        {
+          "id": "v5-30-e01",
+          "type": "choice",
+          "uses": ["v5-04", "v5-21"],
+          "jp": "{兄|あに}は{病院|びょういん}で＿をしています。",
+          "fr": "Mon grand frère est médecin à l'hôpital.",
+          "choices": ["{医者|いしゃ}", "{歌手|かしゅ}", "{作家|さっか}", "おまわりさん"],
+          "a": 0
+        },
+        {
+          "id": "v5-30-e02",
+          "type": "choice",
+          "uses": ["v5-15"],
+          "jp": "タクシーの＿に{駅|えき}までの{道|みち}を{聞|き}きました。",
+          "fr": "J'ai demandé au chauffeur de taxi le chemin jusqu'à la gare.",
+          "choices": ["{運転手|うんてんしゅ}", "{医者|いしゃ}", "{店員|てんいん}", "{作家|さっか}"],
+          "a": 0
+        },
+        {
+          "id": "v5-30-e03",
+          "type": "choice",
+          "uses": ["v5-07", "v5-13"],
+          "jp": "＿さん、このシャツはいくらですか。",
+          "fr": "Excusez-moi (vendeur), combien coûte cette chemise ?",
+          "choices": ["{店員|てんいん}", "{医者|いしゃ}", "{歌手|かしゅ}", "{作家|さっか}"],
+          "a": 0
+        },
+        {
+          "id": "v5-30-e04",
+          "type": "choice",
+          "uses": ["v5-17"],
+          "jp": "{明日|あした}は{日曜日|にちようび}ですから、{仕事|しごと}が＿です。",
+          "fr": "Demain c'est dimanche, alors je ne travaille pas.",
+          "choices": ["{休|やす}み", "{休|やす}む", "{休|やす}みます", "{休|やす}んで"],
+          "a": 0,
+          "explain": "Devant です, il faut le nom : {休|やす}み."
+        },
+        {
+          "id": "v5-30-e05",
+          "type": "choice",
+          "uses": ["v5-14", "v5-27"],
+          "jp": "{父|ちち}は{車|くるま}を{作|つく}る＿で{働|はたら}いています。",
+          "fr": "Mon père travaille dans une usine qui fabrique des voitures.",
+          "choices": ["{工場|こうじょう}", "{大学|だいがく}", "{教室|きょうしつ}", "{病院|びょういん}"],
+          "a": 0
+        },
+        {
+          "id": "v5-30-e06",
+          "type": "choice",
+          "q": "Qui est **おまわりさん** ?",
+          "choices": ["un agent de police", "un facteur", "un voisin", "un chauffeur"],
+          "a": 0
+        },
+        {
+          "id": "v5-30-e07",
+          "type": "choice",
+          "uses": ["v5-01"],
+          "jp": "{田中|たなか}さんは{東京|とうきょう}の{大学|だいがく}で{勉強|べんきょう}しています。＿です。",
+          "fr": "M. Tanaka étudie dans une université de Tokyo. Il est étudiant.",
+          "choices": ["{大学生|だいがくせい}", "{高校生|こうこうせい}", "{会社員|かいしゃいん}", "{医者|いしゃ}"],
+          "a": 0
+        },
+        {"id": "v5-30-e08", "type": "choice", "q": "Comment se lit **医者** ?", "choices": ["いしゃ", "いしや", "いじゃ", "いしょ"], "a": 0},
+        {"id": "v5-30-e09", "type": "choice", "q": "Comment se lit **歌手** ?", "choices": ["かしゅ", "うたて", "かて", "かしゅう"], "a": 0},
+        {"id": "v5-30-e10", "type": "choice", "q": "Comment se lit **工場** (usine) ?", "choices": ["こうじょう", "くじょう", "こうしょう", "こうちょう"], "a": 0},
+        {
+          "id": "v5-30-e11",
+          "type": "choice",
+          "uses": ["v5-04", "v5-14"],
+          "jp": "{銀行|ぎんこう}で{働|はたら}いている{人|ひと}は＿です。",
+          "fr": "Les gens qui travaillent à la banque sont des employés de banque.",
+          "choices": ["{銀行員|ぎんこういん}", "{店員|てんいん}", "{歌手|かしゅ}", "{作家|さっか}"],
+          "a": 0
+        },
+        {
+          "id": "v5-30-e12",
+          "type": "choice",
+          "q": "Quel suffixe veut dire « membre du personnel de… » ({会社員|かいしゃいん}, {店員|てんいん}) ?",
+          "choices": ["〜{員|いん}", "〜{者|しゃ}", "〜{手|しゅ}", "〜{家|か}"],
+          "a": 0
+        },
+        {
+          "id": "v5-30-e13",
+          "type": "choice",
+          "uses": ["v5-02", "v5-12"],
+          "jp": "この{本|ほん}を{書|か}いた＿はフランス{人|じん}です。",
+          "fr": "L'écrivain qui a écrit ce livre est français.",
+          "choices": ["{作家|さっか}", "{歌手|かしゅ}", "{運転手|うんてんしゅ}", "{店員|てんいん}"],
+          "a": 0
+        },
+        {
+          "id": "v5-30-e14",
+          "type": "choice",
+          "uses": ["v5-14", "v5-16"],
+          "jp": "{毎日|まいにち}{八時|はちじ}に{家|いえ}を{出|で}て、＿に{行|い}きます。",
+          "fr": "Tous les jours, je pars de chez moi à huit heures et je vais au travail.",
+          "choices": ["{仕事|しごと}", "{休|やす}み", "{作家|さっか}", "{歌手|かしゅ}"],
+          "a": 0
+        },
+        {
+          "id": "v5-30-e15",
+          "type": "choice",
+          "q": "Que veut dire **じむしょ** ?",
+          "choices": ["bureau (lieu de travail)", "usine", "magasin", "salle de classe"],
+          "a": 0
+        },
+        {
+          "id": "v5-30-e16",
+          "type": "choice",
+          "q": "Que veut dire **かんごし** ?",
+          "choices": ["infirmier, infirmière", "médecin", "pharmacien", "dentiste"],
+          "a": 0
+        },
+        {
+          "id": "v5-30-e17",
+          "type": "choice",
+          "uses": ["v5-21"],
+          "q": "« Ma grande sœur est infirmière (c'est son métier) » se dit…",
+          "choices": ["{姉|あね}はかんごしをしています。", "{姉|あね}はかんごしがしています。", "{姉|あね}はかんごしでしています。", "{姉|あね}はかんごしにしています。"],
+          "a": 0
+        },
+        {
+          "id": "v5-30-e18",
+          "type": "order",
+          "uses": ["v5-14", "v5-21"],
+          "fr": "Mon père travaille dans une usine.",
+          "tokens": ["{父|ちち}は", "{工場|こうじょう}で", "{働|はたら}いています"]
+        },
+        {
+          "id": "v5-30-e19",
+          "type": "order",
+          "uses": ["v5-03"],
+          "fr": "Demain, c'est mon jour de congé.",
+          "tokens": ["{明日|あした}は", "{仕事|しごと}が", "{休|やす}みです"]
+        }
+      ]
+    }
+  ],
+  "test": [
+    {
+      "id": "v5-b06-t01",
+      "type": "choice",
+      "uses": ["v5-26"],
+      "jp": "{友|とも}だちに{本|ほん}を＿。{来週|らいしゅう}かえします。",
+      "fr": "J'ai emprunté un livre à un ami. Je le lui rends la semaine prochaine.",
+      "choices": ["{借|か}りました", "{貸|か}しました", "あげました", "{売|う}りました"],
+      "a": 0
+    },
+    {
+      "id": "v5-b06-t02",
+      "type": "choice",
+      "uses": ["v5-22", "v5-27"],
+      "jp": "{窓|まど}＿{開|あ}いていますよ。",
+      "fr": "La fenêtre est ouverte, tu sais.",
+      "choices": ["が", "を", "で", "へ"],
+      "a": 0
+    },
+    {
+      "id": "v5-b06-t03",
+      "type": "choice",
+      "uses": ["v5-28", "v5-29"],
+      "jp": "{先生|せんせい}の{質問|しつもん}に＿。",
+      "fr": "J'ai répondu à la question du professeur.",
+      "choices": ["{答|こた}えました", "{言|い}いました", "{教|おし}えました", "{聞|き}きました"],
+      "a": 0
+    },
+    {
+      "id": "v5-b06-t04",
+      "type": "choice",
+      "uses": ["v5-02", "v5-26"],
+      "q": "Forme て de **{借|か}りる** ?",
+      "choices": ["{借|か}りて", "{借|か}って", "{借|か}りって", "{借|か}んで"],
+      "a": 0
+    },
+    {
+      "id": "v5-b06-t05",
+      "type": "choice",
+      "uses": ["v5-16", "v5-29"],
+      "jp": "＿がたくさんありますから、{今晩|こんばん}はテレビを{見|み}ません。",
+      "fr": "J'ai beaucoup de devoirs, alors ce soir je ne regarde pas la télé.",
+      "choices": ["{宿題|しゅくだい}", "{教室|きょうしつ}", "えんぴつ", "{字|じ}"],
+      "a": 0
+    },
+    {
+      "id": "v5-b06-t06",
+      "type": "choice",
+      "uses": ["v5-13", "v5-26"],
+      "jp": "{姉|あね}が{私|わたし}にセーターを＿。",
+      "fr": "Ma grande sœur m'a donné un pull.",
+      "choices": ["くれました", "あげました", "もらいました"],
+      "a": 0
+    },
+    {
+      "id": "v5-b06-t07",
+      "type": "choice",
+      "uses": ["v5-22", "v5-24", "v5-27"],
+      "jp": "{部屋|へや}が{暗|くら}いですから、{電気|でんき}を＿。",
+      "fr": "La pièce est sombre, alors j'allume la lumière.",
+      "choices": ["つけます", "{消|け}します", "{開|あ}けます", "{切|き}ります"],
+      "a": 0
+    },
+    {
+      "id": "v5-b06-t08",
+      "type": "choice",
+      "uses": ["v5-30"],
+      "jp": "{兄|あに}は{病院|びょういん}で{働|はたら}いています。＿です。",
+      "fr": "Mon grand frère travaille à l'hôpital. Il est médecin.",
+      "choices": ["{医者|いしゃ}", "{歌手|かしゅ}", "{作家|さっか}"],
+      "a": 0
+    },
+    {
+      "id": "v5-b06-t09",
+      "type": "choice",
+      "uses": ["v5-28"],
+      "q": "On te demande : この{人|ひと}を{知|し}っていますか. Tu ne le connais pas. Tu réponds :",
+      "choices": ["いいえ、{知|し}りません。", "いいえ、{知|し}っていません。", "いいえ、{分|わ}かっていません。", "いいえ、{知|し}りませんでした。"],
+      "a": 0
+    },
+    {
+      "id": "v5-b06-t10",
+      "type": "choice",
+      "uses": ["v5-06", "v5-27"],
+      "jp": "コーヒーにぎゅうにゅうを＿。",
+      "fr": "Je mets du lait dans mon café.",
+      "choices": ["{入|い}れます", "{入|はい}ります", "{開|あ}けます", "{出|で}ます"],
+      "a": 0
+    },
+    {
+      "id": "v5-b06-t11",
+      "type": "choice",
+      "uses": ["v5-28", "v5-29"],
+      "jp": "このことばの＿が{分|わ}かりません。",
+      "fr": "Je ne comprends pas le sens de ce mot.",
+      "choices": ["{意味|いみ}", "{宿題|しゅくだい}", "{教室|きょうしつ}", "{試験|しけん}"],
+      "a": 0
+    },
+    {
+      "id": "v5-b06-t12",
+      "type": "choice",
+      "uses": ["v5-12", "v5-21", "v5-26"],
+      "jp": "{国|くに}の{家族|かぞく}に{写真|しゃしん}を＿。",
+      "fr": "J'ai envoyé des photos à ma famille, dans mon pays.",
+      "choices": ["{送|おく}りました", "{売|う}りました", "{借|か}りました", "{消|け}しました"],
+      "a": 0
+    },
+    {
+      "id": "v5-b06-t13",
+      "type": "order",
+      "uses": ["v5-27"],
+      "fr": "Je mets du sucre dans le café.",
+      "tokens": ["コーヒーに", "さとうを", "{入|い}れます"],
+      "alt": [["さとうを", "コーヒーに", "{入|い}れます"]]
+    },
+    {
+      "id": "v5-b06-t14",
+      "type": "choice",
+      "uses": ["v5-15", "v5-30"],
+      "q": "Qui conduit un taxi ? タクシーの…",
+      "choices": ["{運転手|うんてんしゅ}", "{店員|てんいん}", "{作家|さっか}", "{医者|いしゃ}"],
+      "a": 0
+    },
+    {
+      "id": "v5-b06-t15",
+      "type": "choice",
+      "uses": ["v5-22", "v5-28", "v5-29"],
+      "jp": "すみません、{宿題|しゅくだい}をうちに＿。",
+      "fr": "Pardon, j'ai oublié mes devoirs à la maison.",
+      "choices": ["わすれました", "おぼえました", "{答|こた}えました", "{習|なら}いました"],
+      "a": 0
+    },
+    {
+      "id": "v5-b06-t16",
+      "type": "choice",
+      "uses": ["v5-06", "v5-27"],
+      "jp": "{母|はは}は{毎日|まいにち}{晩|ばん}ご{飯|はん}を＿。",
+      "fr": "Ma mère prépare le dîner tous les jours.",
+      "choices": ["{作|つく}ります", "{使|つか}います", "{開|あ}けます", "{入|い}れます"],
+      "a": 0
+    }
+  ],
+  "examTest": [
+    {
+      "id": "v5-x03-01",
+      "type": "choice",
+      "uses": ["v5-21", "v5-26"],
+      "q": "Une seule de ces phrases est correcte. Laquelle ?",
+      "choices": [
+        "{田中|たなか}さんのお{母|かあ}さんに{本|ほん}を{借|か}りました。",
+        "{田中|たなか}さんの{母|はは}に{本|ほん}を{借|か}りました。",
+        "{田中|たなか}さんのお{母|かあ}さんを{本|ほん}を{借|か}りました。",
+        "{田中|たなか}さんのお{母|かあ}さんに{本|ほん}を{貸|か}りました。"
+      ],
+      "a": 0,
+      "explain": "La mère des autres : お{母|かあ}さん ; on emprunte **à** quelqu'un : に{借|か}りる."
+    },
+    {
+      "id": "v5-x03-02",
+      "type": "choice",
+      "uses": ["v5-22", "v5-24", "v5-25", "v5-27"],
+      "jp": "{部屋|へや}が{暗|くら}くて、{寒|さむ}いです。{電気|でんき}を＿、{窓|まど}をしめてください。",
+      "fr": "La pièce est sombre et froide. Allume la lumière et ferme la fenêtre, s'il te plaît.",
+      "choices": ["つけて", "{消|け}して", "{開|あ}けて", "しまって"],
+      "a": 0
+    },
+    {
+      "id": "v5-x03-03",
+      "type": "choice",
+      "uses": ["v5-23", "v5-26", "v5-30"],
+      "jp": "かぜをひいて、ねつが＿から、{医者|いしゃ}に{薬|くすり}をもらいました。",
+      "fr": "J'ai attrapé un rhume et j'avais de la fièvre, alors le médecin m'a donné des médicaments.",
+      "choices": ["ありました", "いました", "ひきました", "しました"],
+      "a": 0
+    },
+    {
+      "id": "v5-x03-04",
+      "type": "choice",
+      "uses": ["v5-30"],
+      "q": "Ton ami te dit : {日本語|にほんご}の{先生|せんせい}をしています. Que fait-il ?",
+      "choices": ["Il enseigne le japonais.", "Il apprend le japonais.", "Il cherche un professeur de japonais.", "Il connaît un professeur de japonais."],
+      "a": 0
+    },
+    {
+      "id": "v5-x03-05",
+      "type": "choice",
+      "uses": ["v5-20", "v5-24", "v5-25"],
+      "jp": "{冬|ふゆ}の{北海道|ほっかいどう}はゆきが{降|ふ}って、とても＿です。",
+      "fr": "L'hiver à Hokkaidō, il neige et il fait très froid.",
+      "choices": ["{寒|さむ}い", "つめたい", "すずしい", "あたたかい"],
+      "a": 0
+    },
+    {
+      "id": "v5-x03-06",
+      "type": "choice",
+      "uses": ["v5-21", "v5-24", "v5-26"],
+      "jp": "{妹|いもうと}が{私|わたし}の{赤|あか}いセーターを＿、まだかえしません。",
+      "fr": "Ma petite sœur m'a emprunté mon pull rouge et ne me l'a toujours pas rendu.",
+      "choices": ["{借|か}りて", "{貸|か}して", "くれて", "あげて"],
+      "a": 0
+    },
+    {
+      "id": "v5-x03-07",
+      "type": "choice",
+      "uses": ["v5-28", "v5-29"],
+      "jp": "この{漢字|かんじ}の{読|よ}み{方|かた}を＿ください。わすれました。",
+      "fr": "Dis-moi comment se lit ce kanji, s'il te plaît. Je l'ai oublié.",
+      "choices": ["{教|おし}えて", "{習|なら}って", "おぼえて", "{答|こた}えて"],
+      "a": 0
+    },
+    {
+      "id": "v5-x03-08",
+      "type": "order",
+      "uses": ["v5-12", "v5-22", "v5-29"],
+      "fr": "Il y a un dictionnaire sur l'étagère de la salle de classe.",
+      "tokens": ["{教室|きょうしつ}の", "{本|ほん}だなに", "じしょが", "あります"],
+      "alt": [["じしょが", "{教室|きょうしつ}の", "{本|ほん}だなに", "あります"]]
+    },
+    {
+      "id": "v5-x03-09",
+      "type": "choice",
+      "uses": ["v5-16", "v5-27"],
+      "jp": "{店|みせ}が{十時|じゅうじ}に{開|あ}いて、{夜|よる}{八時|はちじ}に＿。",
+      "fr": "Le magasin ouvre à dix heures et ferme à vingt heures.",
+      "choices": ["しまります", "しめます", "{開|あ}けます", "{消|け}します"],
+      "a": 0,
+      "explain": "{店|みせ}**が** : la chose elle-même → {開|あ}く / しまる."
+    },
+    {
+      "id": "v5-x03-10",
+      "type": "choice",
+      "uses": ["v5-21", "v5-28"],
+      "q": "Une seule de ces phrases est correcte. Laquelle ?",
+      "choices": [
+        "{姉|あね}は{高校|こうこう}で{英語|えいご}を{教|おし}えています。",
+        "{姉|あね}は{高校|こうこう}で{英語|えいご}を{習|なら}えています。",
+        "{姉|あね}は{高校|こうこう}に{英語|えいご}を{教|おし}えています。",
+        "{姉|あね}は{高校|こうこう}で{英語|えいご}が{教|おし}えています。"
+      ],
+      "a": 0
+    },
+    {
+      "id": "v5-x03-11",
+      "type": "choice",
+      "uses": ["v5-21", "v5-30"],
+      "q": "Ton professeur te demande : お{兄|にい}さんは{何|なに}をしていますか. Tu réponds :",
+      "choices": ["{兄|あに}は{銀行員|ぎんこういん}です。", "お{兄|にい}さんは{銀行員|ぎんこういん}です。", "{兄|あに}さんは{銀行員|ぎんこういん}です。", "{兄|あに}は{銀行員|ぎんこういん}ます。"],
+      "a": 0
+    },
+    {
+      "id": "v5-x03-12",
+      "type": "choice",
+      "uses": ["v5-06", "v5-24", "v5-25"],
+      "jp": "{夏|なつ}は{暑|あつ}いですから、つめたい＿をよく{飲|の}みます。",
+      "fr": "En été il fait chaud, alors je bois souvent des boissons fraîches.",
+      "choices": ["{飲|の}み{物|もの}", "{食|た}べ{物|もの}", "{薬|くすり}", "{天気|てんき}"],
+      "a": 0
+    },
+    {
+      "id": "v5-x03-13",
+      "type": "choice",
+      "uses": ["v5-21", "v5-23"],
+      "jp": "おじいさんは{耳|みみ}が{悪|わる}いですから、{大|おお}きい＿で{話|はな}してください。",
+      "fr": "Grand-père entend mal, alors parlez fort, s'il vous plaît.",
+      "choices": ["{声|こえ}", "{口|くち}", "{字|じ}", "{色|いろ}"],
+      "a": 0
+    },
+    {
+      "id": "v5-x03-14",
+      "type": "choice",
+      "uses": ["v5-08", "v5-21"],
+      "q": "Combien sont-ils ? {家族|かぞく}は{父|ちち}と{母|はは}と{兄|あに}と{妹|いもうと}{二人|ふたり}と{私|わたし}です。",
+      "choices": ["6", "5", "4", "7"],
+      "a": 0
+    },
+    {
+      "id": "v5-x03-15",
+      "type": "choice",
+      "uses": ["v5-25", "v5-26"],
+      "jp": "{雨|あめ}が{降|ふ}っていました。{友|とも}だちはかさを{持|も}っていませんでしたから、{私|わたし}のかさを＿。",
+      "fr": "Il pleuvait. Mon ami n'avait pas de parapluie, alors je lui ai prêté le mien.",
+      "choices": ["{貸|か}しました", "{借|か}りました", "もらいました", "くれました"],
+      "a": 0
+    }
+  ]
+}
