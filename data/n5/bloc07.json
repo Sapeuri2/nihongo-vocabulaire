@@ -1,0 +1,1075 @@
+{
+  "id": "v5-b07",
+  "level": "N5",
+  "title": "Sortir : loisirs, ville, voyages, table, nature",
+  "lessons": [
+    {
+      "id": "v5-31",
+      "title": "Loisirs et sport",
+      "words": [
+        {"jp": "{映画|えいが}", "kana": "えいが", "fr": "film, cinéma", "ex": "{週末|しゅうまつ}は{映画|えいが}を{見|み}に{行|い}きます。", "exFr": "Ce week-end, je vais voir un film."},
+        {"jp": "{音楽|おんがく}", "kana": "おんがく", "fr": "musique", "ex": "{毎晩|まいばん}{音楽|おんがく}を{聞|き}きます。", "exFr": "J'écoute de la musique tous les soirs."},
+        {"jp": "{歌|うた}", "kana": "うた", "fr": "chanson", "ex": "この{歌|うた}を{知|し}っていますか。", "exFr": "Tu connais cette chanson ?"},
+        {"jp": "{歌|うた}う", "kana": "うたう", "fr": "chanter", "ex": "カラオケで{歌|うた}を{歌|うた}いました。", "exFr": "J'ai chanté au karaoké."},
+        {"jp": "スポーツ", "kana": "スポーツ", "fr": "sport", "ex": "どんなスポーツが{好|す}きですか。", "exFr": "Quel sport aimes-tu ?"},
+        {"jp": "{泳|およ}ぐ", "kana": "およぐ", "fr": "nager", "ex": "{夏|なつ}は{海|うみ}で{泳|およ}ぎます。", "exFr": "En été, je nage à la mer."},
+        {"jp": "{遊|あそ}ぶ", "kana": "あそぶ", "fr": "jouer, s'amuser", "ex": "{子|こ}どもたちは{公園|こうえん}で{遊|あそ}んでいます。", "exFr": "Les enfants jouent au parc."},
+        {"jp": "ひく", "kana": "ひく", "fr": "jouer (d'un instrument)", "ex": "{妹|いもうと}はピアノをひきます。", "exFr": "Ma petite sœur joue du piano."},
+        {"jp": "テニス", "kana": "テニス", "fr": "tennis", "ex": "{日曜日|にちようび}に{友|とも}だちとテニスをします。", "exFr": "Dimanche, je joue au tennis avec un ami."},
+        {"jp": "サッカー", "kana": "サッカー", "fr": "football", "ex": "{弟|おとうと}はサッカーが{上手|じょうず}です。", "exFr": "Mon petit frère joue bien au foot."},
+        {"jp": "ゲーム", "kana": "ゲーム", "fr": "jeu (vidéo)", "ex": "{子|こ}どもはゲームが{大好|だいす}きです。", "exFr": "Les enfants adorent les jeux vidéo."},
+        {"jp": "パーティー", "kana": "パーティー", "fr": "fête, soirée", "ex": "{金曜日|きんようび}にパーティーがあります。", "exFr": "Il y a une fête vendredi."},
+        {"jp": "コンサート", "kana": "コンサート", "fr": "concert", "ex": "{昨日|きのう}のコンサートはとても{楽|たの}しかったです。", "exFr": "Le concert d'hier était très agréable."},
+        {"jp": "ピアノ", "kana": "ピアノ", "fr": "piano", "ex": "ピアノを{習|なら}っています。", "exFr": "Je prends des cours de piano."},
+        {"jp": "ギター", "kana": "ギター", "fr": "guitare", "ex": "{兄|あに}はギターが{上手|じょうず}です。", "exFr": "Mon grand frère joue bien de la guitare."}
+      ],
+      "sections": [
+        {
+          "h": "« Jouer » : quel verbe ?",
+          "p": ["Le français dit « jouer » pour tout. Le japonais choisit selon l'activité."],
+          "grid": {
+            "head": ["", "verbe"],
+            "rows": [
+              ["スポーツ, テニス, サッカー, ゲーム", "==する=="],
+              ["ピアノ, ギター", "==ひく=="],
+              ["{子|こ}どもが… ; s'amuser", "=={遊|あそ}ぶ=="],
+              ["{歌|うた}", "=={歌|うた}う=="],
+              ["{映画|えいが} · {音楽|おんがく}", "=={見|み}る== · =={聞|き}く=="]
+            ]
+          }
+        }
+      ],
+      "pieges": [
+        "テニスを**する**, ピアノを**ひく**, {子|こ}どもが**{遊|あそ}ぶ** : trois façons de dire « jouer ».",
+        "{遊|あそ}ぶ = s'amuser, jouer (enfants), sortir avec des amis. Jamais pour un sport ou un instrument.",
+        "ひく (un instrument) ≠ {引|ひ}く (tirer) ≠ かぜをひく (attraper un rhume) : même son !",
+        "Formes て : {泳|およ}ぐ → {泳|およ}**いで** ; {遊|あそ}ぶ → {遊|あそ}**んで** ; {歌|うた}う → {歌|うた}**って**.",
+        "Pour dire le but d'un déplacement : radical + に{行|い}く → {映画|えいが}を{見|み}**に**{行|い}く.",
+        "{大好|だいす}き = adorer."
+      ],
+      "exercises": [
+        {
+          "id": "v5-31-e01",
+          "type": "choice",
+          "uses": ["v5-21"],
+          "jp": "{妹|いもうと}は{毎日|まいにち}ピアノを＿。",
+          "fr": "Ma petite sœur joue du piano tous les jours.",
+          "choices": ["ひきます", "{遊|あそ}びます", "{歌|うた}います", "{泳|およ}ぎます"],
+          "a": 0
+        },
+        {
+          "id": "v5-31-e02",
+          "type": "choice",
+          "uses": ["v5-17"],
+          "jp": "{日曜日|にちようび}に{友|とも}だちとテニスを＿。",
+          "fr": "Dimanche, je joue au tennis avec un ami.",
+          "choices": ["します", "ひきます", "{遊|あそ}びます", "{歌|うた}います"],
+          "a": 0
+        },
+        {
+          "id": "v5-31-e03",
+          "type": "choice",
+          "uses": ["v5-04"],
+          "jp": "{子|こ}どもたちは{公園|こうえん}で＿います。",
+          "fr": "Les enfants jouent au parc.",
+          "choices": ["{遊|あそ}んで", "ひいて", "{泳|およ}いで", "しめて"],
+          "a": 0
+        },
+        {
+          "id": "v5-31-e04",
+          "type": "choice",
+          "uses": ["v5-25"],
+          "jp": "{夏|なつ}は{海|うみ}で＿。",
+          "fr": "En été, je nage à la mer.",
+          "choices": ["{泳|およ}ぎます", "ひきます", "{引|ひ}きます", "{借|か}ります"],
+          "a": 0
+        },
+        {
+          "id": "v5-31-e05",
+          "type": "choice",
+          "jp": "カラオケで{歌|うた}を＿。",
+          "fr": "J'ai chanté au karaoké.",
+          "choices": ["{歌|うた}いました", "ひきました", "しました", "{泳|およ}ぎました"],
+          "a": 0
+        },
+        {
+          "id": "v5-31-e06",
+          "type": "choice",
+          "uses": ["v5-02", "v5-16"],
+          "jp": "{毎晩|まいばん}{音楽|おんがく}を＿。",
+          "fr": "J'écoute de la musique tous les soirs.",
+          "choices": ["{聞|き}きます", "{見|み}ます", "{歌|うた}います", "ひきます"],
+          "a": 0
+        },
+        {
+          "id": "v5-31-e07",
+          "type": "choice",
+          "uses": ["v5-02", "v5-17"],
+          "jp": "{週末|しゅうまつ}は{映画|えいが}を{見|み}に＿。",
+          "fr": "Ce week-end, je vais voir un film.",
+          "choices": ["{行|い}きます", "{見|み}ます", "します", "{遊|あそ}びます"],
+          "a": 0,
+          "explain": "Radical + に{行|い}く : aller faire quelque chose."
+        },
+        {
+          "id": "v5-31-e08",
+          "type": "choice",
+          "uses": ["v5-02"],
+          "q": "Forme て de **{泳|およ}ぐ** ?",
+          "choices": ["{泳|およ}いで", "{泳|およ}いて", "{泳|およ}んで", "{泳|およ}って"],
+          "a": 0,
+          "explain": "ぐ → いで."
+        },
+        {
+          "id": "v5-31-e09",
+          "type": "choice",
+          "uses": ["v5-02"],
+          "q": "Forme て de **{遊|あそ}ぶ** ?",
+          "choices": ["{遊|あそ}んで", "{遊|あそ}って", "{遊|あそ}いで", "{遊|あそ}びて"],
+          "a": 0,
+          "explain": "ぶ → んで."
+        },
+        {"id": "v5-31-e10", "type": "choice", "q": "Comment se lit **音楽** ?", "choices": ["おんがく", "おとがく", "おんらく", "いんがく"], "a": 0},
+        {"id": "v5-31-e11", "type": "choice", "q": "Comment se lit **映画** ?", "choices": ["えいが", "えいかく", "はいが", "えが"], "a": 0},
+        {
+          "id": "v5-31-e12",
+          "type": "choice",
+          "uses": ["v5-09", "v5-19"],
+          "jp": "どんな＿が{好|す}きですか。— サッカーです。",
+          "fr": "Quel sport aimes-tu ? — Le foot.",
+          "choices": ["スポーツ", "{音楽|おんがく}", "{映画|えいが}", "{歌|うた}"],
+          "a": 0
+        },
+        {
+          "id": "v5-31-e13",
+          "type": "choice",
+          "uses": ["v5-17", "v5-22"],
+          "jp": "{金曜日|きんようび}に{友|とも}だちのうちで＿があります。{二十人|にじゅうにん}ぐらい{来|き}ます。",
+          "fr": "Vendredi, il y a une fête chez un ami. Une vingtaine de personnes viennent.",
+          "choices": ["パーティー", "サッカー", "ピアノ", "{音楽|おんがく}"],
+          "a": 0
+        },
+        {
+          "id": "v5-31-e14",
+          "type": "choice",
+          "q": "Que veut dire **{遊|あそ}ぶ** ?",
+          "choices": ["jouer, s'amuser", "chanter", "nager", "danser"],
+          "a": 0
+        },
+        {
+          "id": "v5-31-e15",
+          "type": "choice",
+          "uses": ["v5-19"],
+          "jp": "{弟|おとうと}はサッカーが＿。",
+          "fr": "Mon petit frère aime le foot.",
+          "choices": ["{好|す}きです", "{好|す}きいです", "{好|す}くです", "{好|す}きなです"],
+          "a": 0
+        },
+        {
+          "id": "v5-31-e16",
+          "type": "choice",
+          "q": "Dans « ギターをひきます », ひく veut dire…",
+          "choices": ["jouer (d'un instrument)", "tirer", "attraper", "acheter"],
+          "a": 0
+        },
+        {
+          "id": "v5-31-e17",
+          "type": "choice",
+          "uses": ["v5-18", "v5-30"],
+          "jp": "{昨日|きのう}の＿はとても{楽|たの}しかったです。{有名|ゆうめい}な{歌手|かしゅ}が{歌|うた}いました。",
+          "fr": "Le concert d'hier était très agréable. Un chanteur célèbre a chanté.",
+          "choices": ["コンサート", "テニス", "ゲーム", "サッカー"],
+          "a": 0
+        },
+        {
+          "id": "v5-31-e18",
+          "type": "order",
+          "uses": ["v5-01", "v5-02"],
+          "fr": "Je vais voir un film avec un ami.",
+          "tokens": ["{友|とも}だちと", "{映画|えいが}を", "{見|み}に", "{行|い}きます"],
+          "alt": [["{映画|えいが}を", "{見|み}に", "{友|とも}だちと", "{行|い}きます"]]
+        },
+        {
+          "id": "v5-31-e19",
+          "type": "order",
+          "uses": ["v5-19", "v5-21"],
+          "fr": "Mon grand frère joue bien de la guitare.",
+          "tokens": ["{兄|あに}は", "ギターが", "{上手|じょうず}です"]
+        }
+      ]
+    },
+    {
+      "id": "v5-32",
+      "title": "En ville : boutiques et chemin",
+      "words": [
+        {"jp": "{本屋|ほんや}", "kana": "ほんや", "fr": "librairie", "ex": "{駅|えき}の{前|まえ}の{本屋|ほんや}でじしょを{買|か}いました。", "exFr": "J'ai acheté un dictionnaire à la librairie devant la gare."},
+        {"jp": "きっさてん", "kana": "きっさてん", "fr": "café (l'établissement)", "ex": "きっさてんでコーヒーを{飲|の}みましょう。", "exFr": "Allons boire un café dans un café."},
+        {"jp": "{映画館|えいがかん}", "kana": "えいがかん", "fr": "cinéma (la salle)", "ex": "{日曜日|にちようび}の{映画館|えいがかん}は{人|ひと}が{多|おお}いです。", "exFr": "Le dimanche, il y a beaucoup de monde au cinéma."},
+        {"jp": "デパート", "kana": "デパート", "fr": "grand magasin", "ex": "デパートでくつを{買|か}いました。", "exFr": "J'ai acheté des chaussures au grand magasin."},
+        {"jp": "スーパー", "kana": "スーパー", "fr": "supermarché", "ex": "スーパーで{野菜|やさい}を{買|か}います。", "exFr": "J'achète des légumes au supermarché."},
+        {"jp": "{入口|いりぐち}", "kana": "いりぐち", "fr": "entrée", "ex": "{入口|いりぐち}はあちらです。", "exFr": "L'entrée est par là."},
+        {"jp": "{出口|でぐち}", "kana": "でぐち", "fr": "sortie", "ex": "すみません、{出口|でぐち}はどこですか。", "exFr": "Excusez-moi, où est la sortie ?"},
+        {"jp": "かど", "kana": "かど", "fr": "coin (de rue)", "ex": "つぎのかどを{右|みぎ}にまがってください。", "exFr": "Tournez à droite au prochain coin."},
+        {"jp": "はし", "kana": "はし", "fr": "pont", "ex": "はしをわたって、まっすぐ{行|い}ってください。", "exFr": "Traversez le pont et allez tout droit."},
+        {"jp": "こうばん", "kana": "こうばん", "fr": "poste de police (de quartier)", "ex": "{駅|えき}の{前|まえ}にこうばんがあります。", "exFr": "Il y a un poste de police devant la gare."},
+        {"jp": "ゆうびんきょく", "kana": "ゆうびんきょく", "fr": "bureau de poste", "ex": "ゆうびんきょくで{手紙|てがみ}を{出|だ}しました。", "exFr": "J'ai posté une lettre au bureau de poste."},
+        {"jp": "{花屋|はなや}", "kana": "はなや", "fr": "fleuriste", "ex": "{花屋|はなや}で{母|はは}に{花|はな}を{買|か}いました。", "exFr": "J'ai acheté des fleurs pour ma mère chez le fleuriste."},
+        {"jp": "まがる", "kana": "まがる", "fr": "tourner", "ex": "あのかどを{左|ひだり}にまがってください。", "exFr": "Tournez à gauche à ce coin-là."},
+        {"jp": "わたる", "kana": "わたる", "fr": "traverser", "ex": "{道|みち}をわたるときは、{車|くるま}に{気|き}をつけてください。", "exFr": "Quand vous traversez la rue, faites attention aux voitures."},
+        {"jp": "まっすぐ", "kana": "まっすぐ", "fr": "tout droit", "ex": "この{道|みち}をまっすぐ{行|い}ってください。", "exFr": "Allez tout droit dans cette rue."}
+      ],
+      "sections": [
+        {
+          "h": "Indiquer le chemin",
+          "p": ["Le lieu qu'on traverse ou au coin duquel on tourne prend **を** ; la direction prend **に**."],
+          "grid": {
+            "head": ["", "japonais"],
+            "rows": [
+              ["tout droit", "まっすぐ{行|い}く"],
+              ["tourner au coin", "かど==を=={右|みぎ}==に==まがる"],
+              ["traverser", "はし==を==わたる · {道|みち}==を==わたる"],
+              ["boutique de…", "〜{屋|や} : {本屋|ほんや}, {花屋|はなや}, パン{屋|や}"]
+            ]
+          }
+        }
+      ],
+      "pieges": [
+        "かど**を**まがる, はし**を**わたる : le lieu parcouru prend を. La direction : {右|みぎ}**に**まがる.",
+        "〜{屋|や} = boutique de… : {本屋|ほんや} (librairie), {花屋|はなや} (fleuriste), パン{屋|や} (boulangerie).",
+        "はし (pont) a le même son que おはし (baguettes) : c'est le contexte qui décide.",
+        "{入口|いりぐち}, {出口|でぐち} : くち (bouche, ouverture) devient **ぐ**ち.",
+        "こうばん = petit poste de police de quartier, avec ses おまわりさん. Parfait pour demander son chemin.",
+        "デパート = grand magasin ; スーパー = supermarché ; きっさてん = café à l'ancienne."
+      ],
+      "exercises": [
+        {
+          "id": "v5-32-e01",
+          "type": "choice",
+          "uses": ["v5-12"],
+          "jp": "じしょを{買|か}いたいですから、＿へ{行|い}きます。",
+          "fr": "Je veux acheter un dictionnaire, alors je vais à la librairie.",
+          "choices": ["{本屋|ほんや}", "{花屋|はなや}", "きっさてん", "こうばん"],
+          "a": 0
+        },
+        {
+          "id": "v5-32-e02",
+          "type": "choice",
+          "jp": "ちょっとつかれましたね。＿でコーヒーを{飲|の}みましょう。",
+          "fr": "On est un peu fatigués. Allons boire un café dans un café.",
+          "choices": ["きっさてん", "こうばん", "ゆうびんきょく", "{花屋|はなや}"],
+          "a": 0
+        },
+        {
+          "id": "v5-32-e03",
+          "type": "choice",
+          "uses": ["v5-12", "v5-26"],
+          "jp": "{国|くに}に{手紙|てがみ}を{送|おく}りますから、＿へ{行|い}きます。",
+          "fr": "J'envoie une lettre dans mon pays, alors je vais à la poste.",
+          "choices": ["ゆうびんきょく", "{映画館|えいがかん}", "{花屋|はなや}", "きっさてん"],
+          "a": 0
+        },
+        {
+          "id": "v5-32-e04",
+          "type": "choice",
+          "jp": "つぎのかど＿{右|みぎ}にまがってください。",
+          "fr": "Tournez à droite au prochain coin.",
+          "choices": ["を", "が", "へ", "と"],
+          "a": 0,
+          "explain": "Le coin qu'on « passe » en tournant : を."
+        },
+        {
+          "id": "v5-32-e05",
+          "type": "choice",
+          "uses": ["v5-20"],
+          "jp": "あのかどを{左|ひだり}＿まがってください。",
+          "fr": "Tournez à gauche à ce coin-là.",
+          "choices": ["に", "を", "が", "で"],
+          "a": 0,
+          "explain": "La direction : に."
+        },
+        {
+          "id": "v5-32-e06",
+          "type": "choice",
+          "jp": "はし＿わたって、まっすぐ{行|い}ってください。",
+          "fr": "Traversez le pont et allez tout droit.",
+          "choices": ["を", "に", "が", "で"],
+          "a": 0
+        },
+        {
+          "id": "v5-32-e07",
+          "type": "choice",
+          "uses": ["v5-16", "v5-20"],
+          "jp": "この{道|みち}を＿{行|い}ってください。{三分|さんぷん}ぐらいで{駅|えき}です。",
+          "fr": "Allez tout droit dans cette rue. La gare est à trois minutes environ.",
+          "choices": ["まっすぐ", "となり", "{近|ちか}く", "{間|あいだ}"],
+          "a": 0
+        },
+        {
+          "id": "v5-32-e08",
+          "type": "choice",
+          "uses": ["v5-30"],
+          "q": "Qui ou que trouve-t-on dans une **こうばん** ?",
+          "choices": ["des agents de police", "des livres", "des fleurs", "des timbres"],
+          "a": 0
+        },
+        {
+          "id": "v5-32-e09",
+          "type": "choice",
+          "uses": ["v5-17", "v5-21"],
+          "jp": "{母|はは}のたんじょうびですから、＿で{花|はな}を{買|か}います。",
+          "fr": "C'est l'anniversaire de ma mère, alors j'achète des fleurs chez le fleuriste.",
+          "choices": ["{花屋|はなや}", "{本屋|ほんや}", "こうばん", "{映画館|えいがかん}"],
+          "a": 0
+        },
+        {"id": "v5-32-e10", "type": "choice", "q": "Comment se lit **映画館** ?", "choices": ["えいがかん", "えいかかん", "えがかん", "えいがやかた"], "a": 0},
+        {"id": "v5-32-e11", "type": "choice", "q": "Comment se lit **入口** ?", "choices": ["いりぐち", "はいりぐち", "いりくち", "にゅうこう"], "a": 0},
+        {"id": "v5-32-e12", "type": "choice", "q": "Contraire de **{入口|いりぐち}** ?", "choices": ["{出口|でぐち}", "{外|そと}", "{後|うし}ろ", "かど"], "a": 0},
+        {
+          "id": "v5-32-e13",
+          "type": "choice",
+          "uses": ["v5-06"],
+          "jp": "＿で{野菜|やさい}や{肉|にく}を{買|か}います。",
+          "fr": "J'achète des légumes et de la viande au supermarché.",
+          "choices": ["スーパー", "こうばん", "{映画館|えいがかん}", "はし"],
+          "a": 0
+        },
+        {
+          "id": "v5-32-e14",
+          "type": "choice",
+          "q": "Que veut dire **デパート** ?",
+          "choices": ["grand magasin", "supermarché", "marché", "appartement"],
+          "a": 0
+        },
+        {
+          "id": "v5-32-e15",
+          "type": "choice",
+          "uses": ["v5-15", "v5-23"],
+          "jp": "{道|みち}を＿ときは、{車|くるま}に{気|き}をつけてください。",
+          "fr": "Quand vous traversez la rue, faites attention aux voitures.",
+          "choices": ["わたる", "{泳|およ}ぐ", "{借|か}りる", "{売|う}る"],
+          "a": 0
+        },
+        {
+          "id": "v5-32-e16",
+          "type": "choice",
+          "q": "Que veut dire le suffixe **〜{屋|や}** dans {本屋|ほんや}, {花屋|はなや} ?",
+          "choices": ["boutique (qui vend…)", "maison", "usine", "école"],
+          "a": 0
+        },
+        {
+          "id": "v5-32-e17",
+          "type": "choice",
+          "q": "Dans « はしをわたります », はし veut dire…",
+          "choices": ["un pont", "des baguettes", "un coin de rue", "une rue"],
+          "a": 0
+        },
+        {
+          "id": "v5-32-e18",
+          "type": "order",
+          "uses": ["v5-20"],
+          "fr": "Tournez à droite au prochain coin.",
+          "tokens": ["つぎの", "かどを", "{右|みぎ}に", "まがってください"]
+        },
+        {
+          "id": "v5-32-e19",
+          "type": "order",
+          "uses": ["v5-02"],
+          "fr": "Traversez le pont et allez tout droit.",
+          "tokens": ["はしを", "わたって", "まっすぐ", "{行|い}ってください"]
+        }
+      ]
+    },
+    {
+      "id": "v5-33",
+      "title": "Voyages, pays, langues",
+      "words": [
+        {"jp": "{旅行|りょこう}", "kana": "りょこう", "fr": "voyage", "ex": "{来月|らいげつ}、{京都|きょうと}へ{旅行|りょこう}に{行|い}きます。", "exFr": "Le mois prochain, je pars en voyage à Kyoto."},
+        {"jp": "{外国|がいこく}", "kana": "がいこく", "fr": "étranger (pays)", "ex": "{外国|がいこく}で{働|はたら}きたいです。", "exFr": "Je veux travailler à l'étranger."},
+        {"jp": "〜{語|ご}", "kana": "〜ご", "fr": "langue …", "ex": "{田中|たなか}さんはフランス{語|ご}が{上手|じょうず}です。", "exFr": "M. Tanaka parle bien français."},
+        {"jp": "〜{人|じん}", "kana": "〜じん", "fr": "(nationalité) …", "ex": "マリーさんはフランス{人|じん}です。", "exFr": "Marie est française."},
+        {"jp": "ホテル", "kana": "ホテル", "fr": "hôtel", "ex": "{駅|えき}の{近|ちか}くのホテルにとまります。", "exFr": "Je loge dans un hôtel près de la gare."},
+        {"jp": "パスポート", "kana": "パスポート", "fr": "passeport", "ex": "パスポートを{持|も}っていますか。", "exFr": "Tu as ton passeport ?"},
+        {"jp": "{英語|えいご}", "kana": "えいご", "fr": "anglais", "ex": "{英語|えいご}で{話|はな}してもいいですか。", "exFr": "Je peux parler en anglais ?"},
+        {"jp": "にもつ", "kana": "にもつ", "fr": "bagages", "ex": "にもつが{重|おも}いですから、タクシーで{行|い}きます。", "exFr": "Mes bagages sont lourds, alors j'y vais en taxi."},
+        {"jp": "{住所|じゅうしょ}", "kana": "じゅうしょ", "fr": "adresse", "ex": "ここに{住所|じゅうしょ}と{名前|なまえ}を{書|か}いてください。", "exFr": "Écrivez ici votre adresse et votre nom."},
+        {"jp": "ばんごう", "kana": "ばんごう", "fr": "numéro", "ex": "{電話|でんわ}ばんごうを{教|おし}えてください。", "exFr": "Donnez-moi votre numéro de téléphone."},
+        {"jp": "{大使館|たいしかん}", "kana": "たいしかん", "fr": "ambassade", "ex": "フランス{大使館|たいしかん}はどこですか。", "exFr": "Où est l'ambassade de France ?"},
+        {"jp": "{何語|なにご}", "kana": "なにご", "fr": "quelle langue", "ex": "メキシコでは{何語|なにご}を{話|はな}しますか。", "exFr": "Quelle langue parle-t-on au Mexique ?"},
+        {"jp": "はじめて", "kana": "はじめて", "fr": "pour la première fois", "ex": "はじめて{日本|にほん}へ{来|き}ました。", "exFr": "C'est la première fois que je viens au Japon."}
+      ],
+      "sections": [
+        {
+          "h": "Pays, langue, nationalité",
+          "p": ["Pays + {語|ご} = la langue ; pays + {人|じん} = la nationalité."],
+          "grid": {
+            "head": ["", "exemples"],
+            "rows": [
+              ["pays", "フランス, {日本|にほん}, {中国|ちゅうごく}"],
+              ["+ {語|ご} (langue)", "フランス=={語|ご}==, {日本|にほん}=={語|ご}==, {中国|ちゅうごく}=={語|ご}=="],
+              ["+ {人|じん} (nationalité)", "フランス=={人|じん}==, {日本|にほん}=={人|じん}==, {中国|ちゅうごく}=={人|じん}=="],
+              ["exception", "anglais = =={英語|えいご}== (pas イギリス{語|ご})"]
+            ]
+          }
+        }
+      ],
+      "pieges": [
+        "〜{人|じん} (nationalité) ≠ 〜{人|にん} (compteur) : フランス{人|じん}が{三人|さんにん}います.",
+        "L'anglais se dit {英語|えいご}, jamais イギリス{語|ご}.",
+        "{旅行|りょこう}**に**{行|い}く = partir en voyage (ou {旅行|りょこう}する).",
+        "{何語|なにご} = quelle langue ; {何人|なにじん} = quelle nationalité ; {何人|なんにん} = combien de personnes.",
+        "はじめて = pour la première fois. はじめまして (enchanté) vient du même mot.",
+        "ホテルに**とまる** = loger à l'hôtel."
+      ],
+      "exercises": [
+        {
+          "id": "v5-33-e01",
+          "type": "choice",
+          "uses": ["v5-01"],
+          "jp": "マリーさんはフランス＿です。",
+          "fr": "Marie est française.",
+          "choices": ["{人|じん}", "{語|ご}", "{国|くに}", "{円|えん}"],
+          "a": 0
+        },
+        {
+          "id": "v5-33-e02",
+          "type": "choice",
+          "uses": ["v5-19", "v5-28"],
+          "jp": "{田中|たなか}さんはフランス＿が{上手|じょうず}です。{毎日|まいにち}フランスのニュースを{聞|き}いています。",
+          "fr": "M. Tanaka parle bien français. Il écoute les informations françaises tous les jours.",
+          "choices": ["{語|ご}", "{人|じん}", "{国|くに}", "{円|えん}"],
+          "a": 0
+        },
+        {
+          "id": "v5-33-e03",
+          "type": "choice",
+          "q": "Comment dit-on « anglais » (la langue) ?",
+          "choices": ["{英語|えいご}", "イギリス{語|ご}", "アメリカ{語|ご}", "{英人|えいじん}"],
+          "a": 0
+        },
+        {
+          "id": "v5-33-e04",
+          "type": "choice",
+          "uses": ["v5-17", "v5-21"],
+          "jp": "{来月|らいげつ}、{家族|かぞく}と{京都|きょうと}へ＿に{行|い}きます。",
+          "fr": "Le mois prochain, je pars en voyage à Kyoto avec ma famille.",
+          "choices": ["{旅行|りょこう}", "{外国|がいこく}", "ホテル", "パスポート"],
+          "a": 0
+        },
+        {
+          "id": "v5-33-e05",
+          "type": "choice",
+          "uses": ["v5-26"],
+          "jp": "{外国|がいこく}へ{行|い}きますから、＿を{持|も}って{行|い}きます。",
+          "fr": "Je pars à l'étranger, alors j'emporte mon passeport.",
+          "choices": ["パスポート", "{住所|じゅうしょ}", "ばんごう", "{大使館|たいしかん}"],
+          "a": 0
+        },
+        {
+          "id": "v5-33-e06",
+          "type": "choice",
+          "uses": ["v5-15", "v5-24"],
+          "jp": "＿が{重|おも}いですから、タクシーで{行|い}きます。",
+          "fr": "Mes bagages sont lourds, alors j'y vais en taxi.",
+          "choices": ["にもつ", "パスポート", "{住所|じゅうしょ}", "{英語|えいご}"],
+          "a": 0
+        },
+        {
+          "id": "v5-33-e07",
+          "type": "choice",
+          "uses": ["v5-26"],
+          "jp": "ここに{名前|なまえ}と＿を{書|か}いてください。{手紙|てがみ}を{送|おく}りますから。",
+          "fr": "Écrivez ici votre nom et votre adresse : nous vous enverrons une lettre.",
+          "choices": ["{住所|じゅうしょ}", "にもつ", "ホテル", "パスポート"],
+          "a": 0
+        },
+        {
+          "id": "v5-33-e08",
+          "type": "choice",
+          "uses": ["v5-09"],
+          "jp": "メキシコでは＿を{話|はな}しますか。— スペイン{語|ご}です。",
+          "fr": "Quelle langue parle-t-on au Mexique ? — L'espagnol.",
+          "choices": ["{何語|なにご}", "{何人|なんにん}", "どこ", "いつ"],
+          "a": 0
+        },
+        {
+          "id": "v5-33-e09",
+          "type": "choice",
+          "uses": ["v5-19"],
+          "jp": "＿{日本|にほん}へ{来|き}ました。{日本|にほん}はとてもきれいですね。",
+          "fr": "C'est la première fois que je viens au Japon. Le Japon est très beau, hein.",
+          "choices": ["はじめて", "はじめまして", "いつも", "まだ"],
+          "a": 0
+        },
+        {
+          "id": "v5-33-e10",
+          "type": "choice",
+          "uses": ["v5-20"],
+          "jp": "{駅|えき}の{近|ちか}くの＿にとまります。",
+          "fr": "Je loge dans un hôtel près de la gare.",
+          "choices": ["ホテル", "パスポート", "にもつ", "{英語|えいご}"],
+          "a": 0
+        },
+        {"id": "v5-33-e11", "type": "choice", "q": "Comment se lit **旅行** ?", "choices": ["りょこう", "たびこう", "りょぎょう", "りょうこう"], "a": 0},
+        {"id": "v5-33-e12", "type": "choice", "q": "Comment se lit **住所** ?", "choices": ["じゅうしょ", "すみしょ", "じゅうどころ", "じゅしょ"], "a": 0},
+        {
+          "id": "v5-33-e13",
+          "type": "choice",
+          "uses": ["v5-12", "v5-28"],
+          "jp": "{電話|でんわ}＿を{教|おし}えてください。",
+          "fr": "Donnez-moi votre numéro de téléphone, s'il vous plaît.",
+          "choices": ["ばんごう", "{住所|じゅうしょ}", "にもつ", "{旅行|りょこう}"],
+          "a": 0
+        },
+        {
+          "id": "v5-33-e14",
+          "type": "choice",
+          "q": "Que veut dire **{大使館|たいしかん}** ?",
+          "choices": ["ambassade", "office de tourisme", "mairie", "aéroport"],
+          "a": 0
+        },
+        {
+          "id": "v5-33-e15",
+          "type": "choice",
+          "q": "« Je suis parti en voyage en Italie » se dit…",
+          "choices": ["イタリアへ{旅行|りょこう}に{行|い}きました。", "イタリアへ{旅行|りょこう}を{行|い}きました。", "イタリアへ{旅行|りょこう}が{行|い}きました。", "イタリアへ{旅行|りょこう}に{行|い}きます。"],
+          "a": 0
+        },
+        {
+          "id": "v5-33-e16",
+          "type": "choice",
+          "uses": ["v5-08"],
+          "q": "Dans « 日本人が三人います », comment se lisent les deux 人, dans l'ordre ?",
+          "choices": ["じん、にん", "にん、じん", "じん、じん", "ひと、にん"],
+          "a": 0
+        },
+        {
+          "id": "v5-33-e17",
+          "type": "choice",
+          "q": "Que veut dire **{外国|がいこく}** ?",
+          "choices": ["l'étranger, un pays étranger", "un pays voisin", "la campagne", "une région"],
+          "a": 0
+        },
+        {
+          "id": "v5-33-e18",
+          "type": "order",
+          "uses": ["v5-02"],
+          "fr": "C'est la première fois que je viens au Japon.",
+          "tokens": ["はじめて", "{日本|にほん}へ", "{来|き}ました"],
+          "alt": [["{日本|にほん}へ", "はじめて", "{来|き}ました"]]
+        },
+        {"id": "v5-33-e19", "type": "order", "uses": ["v5-02"], "fr": "Je peux parler en anglais ?", "tokens": ["{英語|えいご}で", "{話|はな}しても", "いいですか"]}
+      ]
+    },
+    {
+      "id": "v5-34",
+      "title": "À table",
+      "words": [
+        {"jp": "おさら", "kana": "おさら", "fr": "assiette", "ex": "おさらを{洗|あら}ってください。", "exFr": "Lave les assiettes, s'il te plaît."},
+        {"jp": "コップ", "kana": "コップ", "fr": "verre", "ex": "コップに{水|みず}を{入|い}れます。", "exFr": "Je verse de l'eau dans un verre."},
+        {"jp": "おはし", "kana": "おはし", "fr": "baguettes", "ex": "{日本|にほん}ではおはしでご{飯|はん}を{食|た}べます。", "exFr": "Au Japon, on mange le riz avec des baguettes."},
+        {"jp": "スプーン", "kana": "スプーン", "fr": "cuillère", "ex": "スプーンでカレーを{食|た}べます。", "exFr": "Je mange le curry avec une cuillère."},
+        {"jp": "ナイフ", "kana": "ナイフ", "fr": "couteau", "ex": "ナイフとフォークをください。", "exFr": "Un couteau et une fourchette, s'il vous plaît."},
+        {"jp": "フォーク", "kana": "フォーク", "fr": "fourchette", "ex": "すみません、フォークがありますか。", "exFr": "Excusez-moi, vous avez une fourchette ?"},
+        {"jp": "しお", "kana": "しお", "fr": "sel", "ex": "すみません、しおをとってください。", "exFr": "Excusez-moi, passez-moi le sel."},
+        {"jp": "さとう", "kana": "さとう", "fr": "sucre", "ex": "このケーキはさとうが{多|おお}いです。", "exFr": "Ce gâteau contient beaucoup de sucre."},
+        {"jp": "しょうゆ", "kana": "しょうゆ", "fr": "sauce soja", "ex": "すしにしょうゆをつけて{食|た}べます。", "exFr": "Je trempe les sushis dans la sauce soja."},
+        {"jp": "ちゃわん", "kana": "ちゃわん", "fr": "bol (à riz)", "ex": "ちゃわんにご{飯|はん}を{入|い}れます。", "exFr": "Je mets le riz dans le bol."},
+        {"jp": "おべんとう", "kana": "おべんとう", "fr": "bentō (repas à emporter)", "ex": "{毎朝|まいあさ}おべんとうを{作|つく}ります。", "exFr": "Je prépare un bentō tous les matins."},
+        {"jp": "メニュー", "kana": "メニュー", "fr": "menu, carte", "ex": "メニューを{見|み}せてください。", "exFr": "Montrez-moi la carte, s'il vous plaît."},
+        {"jp": "〜はい", "kana": "〜はい", "fr": "… verre(s), … tasse(s)", "ex": "コーヒーを{二|に}はい{飲|の}みました。", "exFr": "J'ai bu deux tasses de café."},
+        {"jp": "{食堂|しょくどう}", "kana": "しょくどう", "fr": "cantine, petit restaurant", "ex": "{昼|ひる}ご{飯|はん}は{会社|かいしゃ}の{食堂|しょくどう}で{食|た}べます。", "exFr": "Je déjeune à la cantine de l'entreprise."},
+        {"jp": "いっぱい", "kana": "いっぱい", "fr": "plein ; un verre", "ex": "たくさん{食|た}べましたから、おなかがいっぱいです。", "exFr": "J'ai beaucoup mangé, je n'ai plus faim."}
+      ],
+      "sections": [
+        {
+          "h": "Compter les verres et les tasses : 〜はい",
+          "p": ["Même rythme que 〜{本|ほん} : ぱ ou ば aux mêmes endroits."],
+          "grid": {
+            "head": ["", "lecture"],
+            "rows": [
+              ["à retenir", "1 ==いっぱい== · 3 さん==ばい== · 6 ==ろっぱい== · 8 ==はっぱい== · 10 ==じゅっぱい== · ? なん==ばい=="],
+              ["les autres", "2 にはい · 4 よんはい · 5 ごはい · 7 ななはい · 9 きゅうはい"]
+            ]
+          }
+        }
+      ],
+      "pieges": [
+        "いっぱい = un verre (〜はい) **et** « plein » : おなかがいっぱい = je n'ai plus faim.",
+        "しょうゆを**つける** = tremper dans la sauce soja. (つける veut aussi dire allumer !)",
+        "On dit おはし pour les baguettes, ce qui évite la confusion avec はし (pont).",
+        "ちゃわん = bol à riz ; コップ = verre ; おさら = assiette.",
+        "{食堂|しょくどう} = cantine ou petit restaurant simple ; le « restaurant » chic : レストラン."
+      ],
+      "exercises": [
+        {
+          "id": "v5-34-e01",
+          "type": "choice",
+          "uses": ["v5-06"],
+          "jp": "{日本|にほん}では＿でご{飯|はん}を{食|た}べます。",
+          "fr": "Au Japon, on mange le riz avec des baguettes.",
+          "choices": ["おはし", "ナイフ", "コップ", "しお"],
+          "a": 0
+        },
+        {
+          "id": "v5-34-e02",
+          "type": "choice",
+          "jp": "スープは＿で{飲|の}みます。",
+          "fr": "La soupe se mange avec une cuillère.",
+          "choices": ["スプーン", "おはし", "ナイフ", "フォーク"],
+          "a": 0
+        },
+        {
+          "id": "v5-34-e03",
+          "type": "choice",
+          "uses": ["v5-06"],
+          "jp": "すしに＿をつけて{食|た}べます。",
+          "fr": "Je trempe les sushis dans la sauce soja.",
+          "choices": ["しょうゆ", "さとう", "ぎゅうにゅう", "コップ"],
+          "a": 0
+        },
+        {
+          "id": "v5-34-e04",
+          "type": "choice",
+          "uses": ["v5-08"],
+          "jp": "コーヒーを{二|に}＿{飲|の}みました。",
+          "fr": "J'ai bu deux tasses de café.",
+          "choices": ["はい", "{人|にん}", "まい", "{台|だい}"],
+          "a": 0
+        },
+        {
+          "id": "v5-34-e05",
+          "type": "choice",
+          "uses": ["v5-23"],
+          "jp": "たくさん{食|た}べましたから、おなかが＿です。",
+          "fr": "J'ai beaucoup mangé, je n'ai plus faim.",
+          "choices": ["いっぱい", "すき", "{少|すく}ない", "{多|おお}い"],
+          "a": 0
+        },
+        {"id": "v5-34-e06", "type": "choice", "q": "Comment dit-on « un verre » (〜はい) ?", "choices": ["いっぱい", "いちはい", "ひとはい", "いっはい"], "a": 0},
+        {"id": "v5-34-e07", "type": "choice", "q": "Comment dit-on « trois verres » (〜はい) ?", "choices": ["さんばい", "さんはい", "さんぱい", "みはい"], "a": 0},
+        {
+          "id": "v5-34-e08",
+          "type": "choice",
+          "uses": ["v5-04", "v5-06"],
+          "jp": "{昼|ひる}ご{飯|はん}は{会社|かいしゃ}の＿で{食|た}べます。",
+          "fr": "Je déjeune à la cantine de l'entreprise.",
+          "choices": ["{食堂|しょくどう}", "メニュー", "しょうゆ", "コップ"],
+          "a": 0
+        },
+        {
+          "id": "v5-34-e09",
+          "type": "choice",
+          "uses": ["v5-09"],
+          "jp": "すみません、＿をください。{何|なに}がありますか。",
+          "fr": "Excusez-moi, la carte, s'il vous plaît. Qu'est-ce que vous avez ?",
+          "choices": ["メニュー", "おさら", "しお", "スプーン"],
+          "a": 0
+        },
+        {
+          "id": "v5-34-e10",
+          "type": "choice",
+          "uses": ["v5-27"],
+          "jp": "＿にご{飯|はん}を{入|い}れます。",
+          "fr": "Je mets le riz dans le bol.",
+          "choices": ["ちゃわん", "コップ", "フォーク", "しょうゆ"],
+          "a": 0
+        },
+        {
+          "id": "v5-34-e11",
+          "type": "choice",
+          "uses": ["v5-18"],
+          "jp": "このケーキは＿がたくさん{入|はい}っていますから、とてもあまいです。",
+          "fr": "Il y a beaucoup de sucre dans ce gâteau, alors il est très sucré.",
+          "choices": ["さとう", "しお", "しょうゆ", "{水|みず}"],
+          "a": 0
+        },
+        {
+          "id": "v5-34-e12",
+          "type": "choice",
+          "uses": ["v5-27"],
+          "jp": "{毎朝|まいあさ}{子|こ}どもの＿を{作|つく}ります。{子|こ}どもは{学校|がっこう}で{食|た}べます。",
+          "fr": "Tous les matins, je prépare le bentō de mon enfant. Il le mange à l'école.",
+          "choices": ["おべんとう", "{食堂|しょくどう}", "メニュー", "コップ"],
+          "a": 0
+        },
+        {
+          "id": "v5-34-e13",
+          "type": "choice",
+          "q": "Dans « おなかがいっぱいです », que veut dire いっぱい ?",
+          "choices": ["plein (j'ai bien mangé)", "vide (j'ai faim)", "malade", "un verre"],
+          "a": 0
+        },
+        {
+          "id": "v5-34-e14",
+          "type": "choice",
+          "q": "Dans « すしにしょうゆをつけます », que veut dire つける ?",
+          "choices": ["tremper (dans la sauce)", "allumer", "manger", "acheter"],
+          "a": 0
+        },
+        {
+          "id": "v5-34-e15",
+          "type": "choice",
+          "uses": ["v5-06"],
+          "jp": "ナイフと＿で{肉|にく}を{食|た}べます。",
+          "fr": "Je mange la viande avec un couteau et une fourchette.",
+          "choices": ["フォーク", "おはし", "ちゃわん", "コップ"],
+          "a": 0
+        },
+        {
+          "id": "v5-34-e16",
+          "type": "choice",
+          "uses": ["v5-27"],
+          "jp": "{食|た}べるまえに、テーブルにおさらとおはしを＿。",
+          "fr": "Avant de manger, je dispose les assiettes et les baguettes sur la table.",
+          "choices": ["ならべます", "{切|き}ります", "おします", "{消|け}します"],
+          "a": 0
+        },
+        {
+          "id": "v5-34-e17",
+          "type": "choice",
+          "uses": ["v5-26"],
+          "jp": "すみません、しおを＿ください。",
+          "fr": "Excusez-moi, passez-moi le sel, s'il vous plaît.",
+          "choices": ["とって", "{入|い}って", "{切|き}って", "{開|あ}いて"],
+          "a": 0
+        },
+        {"id": "v5-34-e18", "type": "order", "uses": ["v5-06"], "fr": "Je bois deux verres d'eau.", "tokens": ["{水|みず}を", "{二|に}はい", "{飲|の}みます"]},
+        {
+          "id": "v5-34-e19",
+          "type": "order",
+          "fr": "Je trempe les sushis dans la sauce soja et je les mange.",
+          "tokens": ["すしに", "しょうゆを", "つけて", "{食|た}べます"],
+          "alt": [["しょうゆを", "すしに", "つけて", "{食|た}べます"]]
+        }
+      ]
+    },
+    {
+      "id": "v5-35",
+      "title": "Nature et animaux",
+      "words": [
+        {"jp": "{山|やま}", "kana": "やま", "fr": "montagne", "ex": "{日本|にほん}でいちばん{高|たか}い{山|やま}はふじさんです。", "exFr": "La plus haute montagne du Japon, c'est le mont Fuji."},
+        {"jp": "{川|かわ}", "kana": "かわ", "fr": "rivière, fleuve", "ex": "{家|いえ}の{近|ちか}くに{大|おお}きい{川|かわ}があります。", "exFr": "Il y a une grande rivière près de chez moi."},
+        {"jp": "{海|うみ}", "kana": "うみ", "fr": "mer", "ex": "{夏|なつ}は{海|うみ}で{泳|およ}ぎます。", "exFr": "En été, je nage à la mer."},
+        {"jp": "{空|そら}", "kana": "そら", "fr": "ciel", "ex": "{今日|きょう}は{空|そら}がとても{青|あお}いです。", "exFr": "Aujourd'hui, le ciel est très bleu."},
+        {"jp": "{花|はな}", "kana": "はな", "fr": "fleur", "ex": "にわにきれいな{花|はな}がたくさんあります。", "exFr": "Il y a beaucoup de jolies fleurs dans le jardin."},
+        {"jp": "{木|き}", "kana": "き", "fr": "arbre", "ex": "{公園|こうえん}に{大|おお}きい{木|き}があります。", "exFr": "Il y a un grand arbre dans le parc."},
+        {"jp": "{犬|いぬ}", "kana": "いぬ", "fr": "chien", "ex": "{毎朝|まいあさ}{犬|いぬ}とさんぽします。", "exFr": "Je promène le chien tous les matins."},
+        {"jp": "ねこ", "kana": "ねこ", "fr": "chat", "ex": "ねこがいすの{上|うえ}でねています。", "exFr": "Le chat dort sur la chaise."},
+        {"jp": "{鳥|とり}", "kana": "とり", "fr": "oiseau", "ex": "{木|き}の{上|うえ}に{鳥|とり}がいます。", "exFr": "Il y a un oiseau dans l'arbre."},
+        {"jp": "{池|いけ}", "kana": "いけ", "fr": "étang", "ex": "{公園|こうえん}の{池|いけ}に{魚|さかな}がたくさんいます。", "exFr": "Il y a beaucoup de poissons dans l'étang du parc."},
+        {"jp": "{森|もり}", "kana": "もり", "fr": "forêt", "ex": "{森|もり}の{中|なか}は{静|しず}かです。", "exFr": "Dans la forêt, c'est calme."},
+        {"jp": "{動物|どうぶつ}", "kana": "どうぶつ", "fr": "animal", "ex": "どんな{動物|どうぶつ}が{好|す}きですか。", "exFr": "Quel animal aimes-tu ?"},
+        {"jp": "{牛|うし}", "kana": "うし", "fr": "vache, bœuf", "ex": "{牛|うし}が{三頭|さんとう}います。", "exFr": "Il y a trois vaches."},
+        {"jp": "ペット", "kana": "ペット", "fr": "animal de compagnie", "ex": "ペットがいますか。", "exFr": "Tu as un animal de compagnie ?"},
+        {"jp": "〜ひき", "kana": "〜ひき", "fr": "(petits animaux) …", "ex": "ねこが{二|に}ひきいます。", "exFr": "J'ai deux chats."}
+      ],
+      "sections": [
+        {
+          "h": "Compter les animaux : 〜ひき",
+          "p": ["Chiens, chats, poissons… : 〜ひき. Encore le même rythme que 〜{本|ほん} et 〜はい."],
+          "grid": {
+            "head": ["", "lecture"],
+            "rows": [
+              ["à retenir", "1 ==いっぴき== · 3 さん==びき== · 6 ==ろっぴき== · 8 ==はっぴき== · 10 ==じゅっぴき== · ? なん==びき=="],
+              ["les autres", "2 にひき · 4 よんひき · 5 ごひき · 7 ななひき · 9 きゅうひき"]
+            ]
+          }
+        }
+      ],
+      "pieges": [
+        "Animaux : **います** ; arbres et fleurs : **あります**.",
+        "〜ひき : petits animaux (et souvent les oiseaux). Les gros animaux (vaches…) ont leur propre compteur.",
+        "{木|き} (arbre) et {気|き} ({元気|げんき}) : même son, rien à voir.",
+        "{牛|うし} (vache) se lit ぎゅう dans les composés : ぎゅうにゅう (lait), ぎゅうにく (bœuf).",
+        "{森|もり} (forêt) : trois {木|き} dans le kanji !",
+        "ふじさん : le さん de ふじさん est le kanji {山|やま} (montagne), pas le さん de politesse."
+      ],
+      "exercises": [
+        {
+          "id": "v5-35-e01",
+          "type": "choice",
+          "uses": ["v5-04", "v5-20"],
+          "jp": "{公園|こうえん}に{大|おお}きい{木|き}が＿。",
+          "fr": "Il y a un grand arbre dans le parc.",
+          "choices": ["あります", "います", "です", "します"],
+          "a": 0,
+          "explain": "Un arbre (une plante) : あります."
+        },
+        {
+          "id": "v5-35-e02",
+          "type": "choice",
+          "uses": ["v5-06", "v5-10"],
+          "jp": "{池|いけ}に{魚|さかな}がたくさん＿。",
+          "fr": "Il y a beaucoup de poissons dans l'étang.",
+          "choices": ["います", "あります", "です", "します"],
+          "a": 0,
+          "explain": "Des poissons vivants : います."
+        },
+        {
+          "id": "v5-35-e03",
+          "type": "choice",
+          "jp": "{犬|いぬ}が{三|さん}＿います。",
+          "fr": "Il y a trois chiens.",
+          "choices": ["びき", "ひき", "ぴき", "にん"],
+          "a": 0,
+          "explain": "さんびき (comme さんぼん, さんばい)."
+        },
+        {
+          "id": "v5-35-e04",
+          "type": "choice",
+          "q": "Comment dit-on « un » (petit animal) avec 〜ひき ?",
+          "choices": ["いっぴき", "いちひき", "ひとひき", "いっひき"],
+          "a": 0
+        },
+        {
+          "id": "v5-35-e05",
+          "type": "choice",
+          "q": "Comment dit-on « six » (petits animaux) avec 〜ひき ?",
+          "choices": ["ろっぴき", "ろくひき", "ろくびき", "むっぴき"],
+          "a": 0
+        },
+        {
+          "id": "v5-35-e06",
+          "type": "choice",
+          "uses": ["v5-25", "v5-31"],
+          "jp": "{夏|なつ}は＿で{泳|およ}ぎます。",
+          "fr": "En été, je nage à la mer.",
+          "choices": ["{海|うみ}", "{山|やま}", "{空|そら}", "{森|もり}"],
+          "a": 0
+        },
+        {
+          "id": "v5-35-e07",
+          "type": "choice",
+          "uses": ["v5-05"],
+          "jp": "{日本|にほん}でいちばん{高|たか}い＿はふじさんです。",
+          "fr": "La plus haute montagne du Japon, c'est le mont Fuji.",
+          "choices": ["{山|やま}", "{川|かわ}", "{海|うみ}", "{池|いけ}"],
+          "a": 0
+        },
+        {
+          "id": "v5-35-e08",
+          "type": "choice",
+          "uses": ["v5-20"],
+          "jp": "{木|き}の{上|うえ}に＿がいます。",
+          "fr": "Il y a un oiseau dans l'arbre.",
+          "choices": ["{鳥|とり}", "{花|はな}", "{牛|うし}", "{池|いけ}"],
+          "a": 0
+        },
+        {
+          "id": "v5-35-e09",
+          "type": "choice",
+          "uses": ["v5-24"],
+          "jp": "{今日|きょう}は＿がとても{青|あお}いです。",
+          "fr": "Aujourd'hui, le ciel est très bleu.",
+          "choices": ["{空|そら}", "{木|き}", "{森|もり}", "{犬|いぬ}"],
+          "a": 0
+        },
+        {"id": "v5-35-e10", "type": "choice", "q": "Comment se lit **動物** ?", "choices": ["どうぶつ", "どうもの", "うごきもの", "どうぶし"], "a": 0},
+        {"id": "v5-35-e11", "type": "choice", "q": "Comment se lit **鳥** (oiseau) ?", "choices": ["とり", "どり", "とお", "しま"], "a": 0},
+        {"id": "v5-35-e12", "type": "choice", "q": "Que veut dire **{森|もり}** ?", "choices": ["forêt", "montagne", "rivière", "étang"], "a": 0},
+        {
+          "id": "v5-35-e13",
+          "type": "choice",
+          "uses": ["v5-09", "v5-19"],
+          "jp": "どんな＿が{好|す}きですか。— {犬|いぬ}とねこです。",
+          "fr": "Quels animaux aimes-tu ? — Les chiens et les chats.",
+          "choices": ["{動物|どうぶつ}", "{花|はな}", "{空|そら}", "{山|やま}"],
+          "a": 0
+        },
+        {
+          "id": "v5-35-e14",
+          "type": "choice",
+          "jp": "＿がいますか。— はい、ねこが{一|いっ}ぴきいます。",
+          "fr": "Tu as un animal de compagnie ? — Oui, un chat.",
+          "choices": ["ペット", "{花|はな}", "{木|き}", "{森|もり}"],
+          "a": 0
+        },
+        {"id": "v5-35-e15", "type": "choice", "q": "Que veut dire **{牛|うし}** ?", "choices": ["vache, bœuf", "cochon", "cheval", "mouton"], "a": 0},
+        {
+          "id": "v5-35-e16",
+          "type": "choice",
+          "uses": ["v5-32"],
+          "jp": "{花屋|はなや}で＿を{買|か}いました。",
+          "fr": "J'ai acheté des fleurs chez le fleuriste.",
+          "choices": ["{花|はな}", "{犬|いぬ}", "{山|やま}", "{空|そら}"],
+          "a": 0
+        },
+        {
+          "id": "v5-35-e17",
+          "type": "choice",
+          "uses": ["v5-32"],
+          "jp": "この＿には{大|おお}きいはしがあります。",
+          "fr": "Il y a un grand pont sur cette rivière.",
+          "choices": ["{川|かわ}", "{空|そら}", "{木|き}", "{鳥|とり}"],
+          "a": 0
+        },
+        {
+          "id": "v5-35-e18",
+          "type": "order",
+          "uses": ["v5-22"],
+          "fr": "Il y a deux chats dans le jardin.",
+          "tokens": ["にわに", "ねこが", "{二|に}ひき", "います"],
+          "alt": [["ねこが", "にわに", "{二|に}ひき", "います"]]
+        },
+        {
+          "id": "v5-35-e19",
+          "type": "order",
+          "uses": ["v5-14", "v5-16"],
+          "fr": "Je promène le chien tous les matins.",
+          "tokens": ["{毎朝|まいあさ}", "{犬|いぬ}と", "さんぽします"]
+        }
+      ]
+    }
+  ],
+  "test": [
+    {
+      "id": "v5-b07-t01",
+      "type": "choice",
+      "uses": ["v5-31"],
+      "jp": "{子|こ}どもたちは{公園|こうえん}で＿います。",
+      "fr": "Les enfants jouent au parc.",
+      "choices": ["{遊|あそ}んで", "ひいて", "ならべて", "わたって"],
+      "a": 0
+    },
+    {
+      "id": "v5-b07-t02",
+      "type": "choice",
+      "uses": ["v5-20", "v5-32"],
+      "jp": "つぎのかどを{右|みぎ}に＿ください。",
+      "fr": "Tournez à droite au prochain coin.",
+      "choices": ["まがって", "わたって", "{泳|およ}いで", "{遊|あそ}んで"],
+      "a": 0
+    },
+    {
+      "id": "v5-b07-t03",
+      "type": "choice",
+      "uses": ["v5-33"],
+      "q": "Une seule de ces phrases est correcte. Laquelle ?",
+      "choices": [
+        "マリーさんはフランス{人|じん}で、{英語|えいご}も{話|はな}します。",
+        "マリーさんはフランス{語|ご}で、{英語|えいご}も{話|はな}します。",
+        "マリーさんはフランス{人|じん}で、イギリス{語|ご}も{話|はな}します。",
+        "マリーさんはフランス{人|じん}で、{英人|えいじん}も{話|はな}します。"
+      ],
+      "a": 0
+    },
+    {
+      "id": "v5-b07-t04",
+      "type": "choice",
+      "uses": ["v5-05", "v5-18", "v5-34"],
+      "jp": "このスープは＿が{少|すく}ないですから、あまりおいしくないです。",
+      "fr": "Il n'y a pas assez de sel dans cette soupe, alors elle n'est pas très bonne.",
+      "choices": ["しお", "おはし", "コップ", "メニュー"],
+      "a": 0
+    },
+    {
+      "id": "v5-b07-t05",
+      "type": "choice",
+      "uses": ["v5-32", "v5-34"],
+      "jp": "＿でコーヒーを{一|いっ}ぱい{飲|の}みました。",
+      "fr": "J'ai bu un café dans un café.",
+      "choices": ["きっさてん", "こうばん", "{花屋|はなや}", "ゆうびんきょく"],
+      "a": 0
+    },
+    {
+      "id": "v5-b07-t06",
+      "type": "choice",
+      "uses": ["v5-35"],
+      "q": "Comment dit-on « deux » (petits animaux) avec 〜ひき ?",
+      "choices": ["にひき", "にびき", "にぴき", "ふたひき"],
+      "a": 0
+    },
+    {
+      "id": "v5-b07-t07",
+      "type": "choice",
+      "uses": ["v5-25", "v5-31", "v5-35"],
+      "jp": "{夏|なつ}は{海|うみ}で＿のが{好|す}きです。",
+      "fr": "En été, j'aime nager à la mer.",
+      "choices": ["{泳|およ}ぐ", "ひく", "わたる", "まがる"],
+      "a": 0
+    },
+    {
+      "id": "v5-b07-t08",
+      "type": "choice",
+      "uses": ["v5-31"],
+      "jp": "{妹|いもうと}は{毎日|まいにち}ピアノを＿。",
+      "fr": "Ma petite sœur joue du piano tous les jours.",
+      "choices": ["ひいています", "{遊|あそ}んでいます", "{歌|うた}っています", "{泳|およ}いでいます"],
+      "a": 0
+    },
+    {
+      "id": "v5-b07-t09",
+      "type": "choice",
+      "uses": ["v5-27", "v5-33"],
+      "jp": "＿{外国|がいこく}へ{行|い}きますから、パスポートを{作|つく}りました。",
+      "fr": "Je pars à l'étranger pour la première fois, alors j'ai fait faire un passeport.",
+      "choices": ["はじめて", "はじめまして", "いつも", "{毎日|まいにち}"],
+      "a": 0
+    },
+    {
+      "id": "v5-b07-t10",
+      "type": "choice",
+      "uses": ["v5-35"],
+      "jp": "{公園|こうえん}の{池|いけ}にきれいな{魚|さかな}が＿。",
+      "fr": "Il y a de jolis poissons dans l'étang du parc.",
+      "choices": ["います", "あります", "です", "ます"],
+      "a": 0
+    },
+    {
+      "id": "v5-b07-t11",
+      "type": "choice",
+      "uses": ["v5-32"],
+      "q": "Que veut dire : はしをわたって、まっすぐ{行|い}ってください。",
+      "choices": [
+        "Traversez le pont et allez tout droit.",
+        "Prenez vos baguettes et mangez.",
+        "Tournez au coin et allez tout droit.",
+        "Passez devant le pont, puis tournez."
+      ],
+      "a": 0
+    },
+    {
+      "id": "v5-b07-t12",
+      "type": "choice",
+      "uses": ["v5-08", "v5-32"],
+      "jp": "＿で{本|ほん}を{三|さん}さつ{買|か}いました。",
+      "fr": "J'ai acheté trois livres à la librairie.",
+      "choices": ["{本屋|ほんや}", "{花屋|はなや}", "{食堂|しょくどう}", "こうばん"],
+      "a": 0
+    },
+    {
+      "id": "v5-b07-t13",
+      "type": "choice",
+      "uses": ["v5-33"],
+      "jp": "{京都|きょうと}へ＿に{行|い}きました。",
+      "fr": "Je suis parti en voyage à Kyoto.",
+      "choices": ["{旅行|りょこう}", "{外国|がいこく}", "ホテル", "にもつ"],
+      "a": 0
+    },
+    {
+      "id": "v5-b07-t14",
+      "type": "order",
+      "uses": ["v5-31", "v5-32"],
+      "fr": "Je regarde un film au cinéma.",
+      "tokens": ["{映画館|えいがかん}で", "{映画|えいが}を", "{見|み}ます"],
+      "alt": [["{映画|えいが}を", "{映画館|えいがかん}で", "{見|み}ます"]]
+    },
+    {
+      "id": "v5-b07-t15",
+      "type": "choice",
+      "uses": ["v5-34"],
+      "jp": "＿でスープを{飲|の}みます。",
+      "fr": "Je mange la soupe avec une cuillère.",
+      "choices": ["スプーン", "フォーク", "ナイフ", "おさら"],
+      "a": 0
+    },
+    {
+      "id": "v5-b07-t16",
+      "type": "choice",
+      "uses": ["v5-35"],
+      "q": "Lequel n'est **pas** un animal ?",
+      "choices": ["{花|はな}", "{犬|いぬ}", "{鳥|とり}", "{牛|うし}"],
+      "a": 0
+    }
+  ]
+}
