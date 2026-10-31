@@ -31,19 +31,19 @@ Les mots entre parenthèses sont indicatifs : la liste exacte est fixée en écr
 14. La routine (出かける, 休む, 働く, 勉強する, そうじ, せんたく, 始まる, 終わる…)
 15. Transports et déplacements (電車, バス, 自転車, 乗る, 降りる, 歩く, 走る…)
 
-**Bloc 4 — Le temps et la description**
+**Bloc 4 — Le temps et la description** ✅
 16. L'heure et la journée (〜時, 〜分, 半, 午前, 午後, 今朝, 早い, おそい…)
 17. Semaine, mois, dates (月曜日…, ついたち, ふつか, はつか… lectures irrégulières)
 18. Adjectifs en い : goûts et impressions (おいしい, 楽しい, おもしろい, むずかしい, いそがしい…)
 19. Adjectifs en な (好き, きらい, 上手, 下手, 元気, 静か, 有名, 便利, きれい…)
 20. Position et direction (上, 下, 前, 後ろ, 中, 外, 右, 左, となり, 近く, 東西南北)
 
-→ **Grand examen 1** (leçons 1–20)
+→ **Grand examen 1** (leçons 1–20) ✅
 
 **Bloc 5 — Chez soi**
 21. La famille (ma famille / celle des autres : 父 / お父さん, 母 / お母さん…)
 22. La maison (台所, 窓, ドア, 庭, おふろ, 階段, 二階…)
-23. Le corps et la santé (頭, 目, 手, 足, おなか, 病気, 薬, 痛い…)
+23. Le corps et la santé (頭, 目, 手, 足, おなか, 病気, 薬, 熱…)
 24. Couleurs et sensations (赤い, 青い, 白い, 黒い, 明るい, 暗い, 重い, 軽い, 広い…)
 25. Météo et saisons (天気, 雨, 雪, 風, 春夏秋冬, 暑い, 寒い, 降る…)
 
@@ -60,13 +60,13 @@ Les mots entre parenthèses sont indicatifs : la liste exacte est fixée en écr
 31. Loisirs et sport (映画, 音楽, 歌, スポーツ, 泳ぐ, 遊ぶ, ひく…)
 32. En ville (2) (本屋, 喫茶店, 映画館, 入口, 出口, かど, はし…)
 33. Voyages, pays, langues (旅行, 外国, 〜語, ホテル, 地図, きっぷ…)
-34. Cuisine et table (料理, 皿, コップ, はし, あまい, からい…)
+34. Cuisine et table (料理, 皿, コップ, はし, 塩, しょうゆ…)
 35. Nature et animaux (山, 川, 海, 空, 花, 木, 犬, ねこ, 鳥…)
 
 **Bloc 8 — Consolider le N5**
 36. Verbes d'état (ある, いる, 住む, 立つ, すわる, 待つ, つかれる, こまる, いる…)
 37. Mots de liaison et adverbes (でも, それから, そして, だから, もっと, ゆっくり, 本当に…)
-38. Durées et fréquences (〜回, 〜週間, 〜か月, 毎週, 毎月, 先月, 来月, おととい, あさって…)
+38. Durées et fréquences (〜回, 〜週間, 〜か月, 毎週, 毎月, 今月, おととい, あさって…)
 39. Petits noms utiles (もの, こと, ところ, 方, 半分, 次, ほか…)
 40. Paires piégeuses du N5 (会う / 見る, 知る / 分かる, 言う / 話す, 帰る / 戻る, 入る / 入れる…)
 
@@ -76,7 +76,7 @@ Les mots entre parenthèses sont indicatifs : la liste exacte est fixée en écr
 
 **Bloc 9 — Émotions et personnes**
 41. Sentiments (うれしい, 悲しい, さびしい, 心配, 安心, びっくりする, よろこぶ, おこる…)
-42. Caractère et apparence (やさしい, きびしい, まじめ, 親切, ていねい, 若い, 太る, やせる…)
+42. Caractère et apparence (きびしい, まじめ, ていねい, 太る, やせる, 背が高い…)
 43. Relations (彼, 彼女, 夫, 妻, 息子, 娘, 赤ちゃん, 知り合い…)
 44. Santé et hôpital (熱, かぜ, けが, なおる, 入院, 歯医者, 具合…)
 45. Corps et gestes (首, うで, 背中, かみ, 指, 笑う, 泣く…)
