@@ -1,0 +1,1045 @@
+{
+  "id": "v5-b05",
+  "level": "N5",
+  "title": "Chez soi : famille, maison, corps, couleurs, météo",
+  "lessons": [
+    {
+      "id": "v5-21",
+      "title": "La famille",
+      "words": [
+        {"jp": "{家族|かぞく}", "kana": "かぞく", "fr": "famille", "ex": "{家族|かぞく}は{四人|よにん}です。{父|ちち}と{母|はは}と{弟|おとうと}と{私|わたし}です。", "exFr": "Nous sommes quatre dans ma famille : mon père, ma mère, mon petit frère et moi."},
+        {"jp": "{父|ちち}", "kana": "ちち", "fr": "(mon) père", "ex": "{父|ちち}は{銀行|ぎんこう}で{働|はたら}いています。", "exFr": "Mon père travaille dans une banque."},
+        {"jp": "{母|はは}", "kana": "はは", "fr": "(ma) mère", "ex": "{母|はは}は{料理|りょうり}が{上手|じょうず}です。", "exFr": "Ma mère cuisine très bien."},
+        {"jp": "お{父|とう}さん", "kana": "おとうさん", "fr": "père (des autres) ; papa", "ex": "{田中|たなか}さんのお{父|とう}さんは{先生|せんせい}です。", "exFr": "Le père de M. Tanaka est professeur."},
+        {"jp": "お{母|かあ}さん", "kana": "おかあさん", "fr": "mère (des autres) ; maman", "ex": "お{母|かあ}さん、ただいま。", "exFr": "Maman, je suis rentré !"},
+        {"jp": "{兄|あに}", "kana": "あに", "fr": "(mon) grand frère", "ex": "{兄|あに}は{東京|とうきょう}に{住|す}んでいます。", "exFr": "Mon grand frère habite à Tokyo."},
+        {"jp": "{姉|あね}", "kana": "あね", "fr": "(ma) grande sœur", "ex": "{姉|あね}は{二十五|にじゅうご}さいです。", "exFr": "Ma grande sœur a vingt-cinq ans."},
+        {"jp": "{弟|おとうと}", "kana": "おとうと", "fr": "petit frère", "ex": "{弟|おとうと}は{高校生|こうこうせい}です。", "exFr": "Mon petit frère est lycéen."},
+        {"jp": "{妹|いもうと}", "kana": "いもうと", "fr": "petite sœur", "ex": "{妹|いもうと}はピアノが{上手|じょうず}です。", "exFr": "Ma petite sœur joue bien du piano."},
+        {"jp": "お{兄|にい}さん", "kana": "おにいさん", "fr": "grand frère (des autres)", "ex": "{山田|やまだ}さんのお{兄|にい}さんは{医者|いしゃ}です。", "exFr": "Le grand frère de M. Yamada est médecin."},
+        {"jp": "お{姉|ねえ}さん", "kana": "おねえさん", "fr": "grande sœur (des autres)", "ex": "お{姉|ねえ}さんはお{元気|げんき}ですか。", "exFr": "Votre grande sœur va bien ?"},
+        {"jp": "{兄弟|きょうだい}", "kana": "きょうだい", "fr": "frères et sœurs", "ex": "{兄弟|きょうだい}はいますか。— はい、{妹|いもうと}が{一人|ひとり}います。", "exFr": "Tu as des frères et sœurs ? — Oui, une petite sœur."},
+        {"jp": "りょうしん", "kana": "りょうしん", "fr": "les parents", "ex": "りょうしんはフランスに{住|す}んでいます。", "exFr": "Mes parents habitent en France."},
+        {"jp": "おじいさん", "kana": "おじいさん", "fr": "grand-père ; vieux monsieur", "ex": "おじいさんは{毎朝|まいあさ}さんぽします。", "exFr": "Grand-père se promène tous les matins."},
+        {"jp": "おばあさん", "kana": "おばあさん", "fr": "grand-mère ; vieille dame", "ex": "おばあさんは{九十|きゅうじゅう}さいです。", "exFr": "Grand-mère a quatre-vingt-dix ans."}
+      ],
+      "sections": [
+        {
+          "h": "Ma famille, ta famille",
+          "p": [
+            "En parlant de **sa** famille à quelqu'un : mots simples ({父|ちち}, {母|はは}…). Pour la famille **des autres**, ou pour **appeler** ses aînés à la maison : mots polis en お〜さん."
+          ],
+          "grid": {
+            "head": ["", "ma famille → celle des autres"],
+            "rows": [
+              ["père", "{父|ちち} → お{父|とう}さん"],
+              ["mère", "{母|はは} → お{母|かあ}さん"],
+              ["grand frère", "{兄|あに} → お{兄|にい}さん"],
+              ["grande sœur", "{姉|あね} → お{姉|ねえ}さん"],
+              ["petit frère", "{弟|おとうと} → {弟|おとうと}さん"],
+              ["petite sœur", "{妹|いもうと} → {妹|いもうと}さん"],
+              ["famille", "{家族|かぞく} → ご{家族|かぞく}"]
+            ]
+          }
+        }
+      ],
+      "pieges": [
+        "À la maison, on **appelle** ses parents お{父|とう}さん, お{母|かあ}さん. Mais en parlant d'eux à quelqu'un d'autre : {父|ちち}, {母|はは}.",
+        "On appelle ses aînés お{兄|にい}さん, お{姉|ねえ}さん ; ses cadets, par leur prénom (jamais « {弟|おとうと}さん ! »).",
+        "Même kanji, lectures différentes : {父|ちち} / お{父|とう}さん, {母|はは} / お{母|かあ}さん, {兄|あに} / お{兄|にい}さん, {姉|あね} / お{姉|ねえ}さん.",
+        "おじいさん (grand-père) ≠ おじさん (oncle) ; おばあさん (grand-mère) ≠ おばさん (tante) : la voyelle longue change tout.",
+        "{兄弟|きょうだい} = frères et sœurs en général, même si ce sont des sœurs.",
+        "Pour compter les membres de la famille : 〜{人|にん}. {家族|かぞく}は{四人|よにん}です."
+      ],
+      "exercises": [
+        {
+          "id": "v5-21-e01",
+          "type": "choice",
+          "jp": "{田中|たなか}さんの＿は{医者|いしゃ}ですか。",
+          "fr": "Le père de M. Tanaka est médecin ?",
+          "choices": ["お{父|とう}さん", "{父|ちち}", "{母|はは}", "{兄|あに}"],
+          "a": 0,
+          "explain": "La famille des autres : お{父|とう}さん."
+        },
+        {
+          "id": "v5-21-e02",
+          "type": "choice",
+          "uses": ["v5-14"],
+          "q": "Tu parles de **ton** père à un collègue.",
+          "jp": "＿は{銀行|ぎんこう}で{働|はたら}いています。",
+          "fr": "Mon père travaille dans une banque.",
+          "choices": ["{父|ちち}", "お{父|とう}さん", "お{母|かあ}さん", "{母|はは}さん"],
+          "a": 0
+        },
+        {
+          "id": "v5-21-e03",
+          "type": "choice",
+          "uses": ["v5-11"],
+          "q": "Tu rentres à la maison et tu salues ta mère. Que dis-tu ?",
+          "choices": ["お{母|かあ}さん、ただいま。", "{母|はは}、ただいま。", "お{母|かあ}さん、おかえりなさい。", "{母|はは}さん、ただいま。"],
+          "a": 0,
+          "explain": "Pour appeler sa mère : お{母|かあ}さん. Celui qui rentre dit ただいま."
+        },
+        {"id": "v5-21-e04", "type": "choice", "q": "Comment se lit **弟** ?", "choices": ["おとうと", "おとおと", "いもうと", "あに"], "a": 0},
+        {
+          "id": "v5-21-e05",
+          "type": "choice",
+          "q": "Que veut dire **{姉|あね}** ?",
+          "choices": ["ma grande sœur", "ma petite sœur", "ma mère", "mon grand frère"],
+          "a": 0
+        },
+        {
+          "id": "v5-21-e06",
+          "type": "choice",
+          "q": "Que veut dire **{兄弟|きょうだい}** ?",
+          "choices": ["frères et sœurs", "les parents", "les grands-parents", "les enfants"],
+          "a": 0
+        },
+        {
+          "id": "v5-21-e07",
+          "type": "choice",
+          "q": "Que veut dire **おじいさん** ?",
+          "choices": ["grand-père", "oncle", "petit-fils", "cousin"],
+          "a": 0,
+          "explain": "おじいさん (long い) = grand-père ; おじさん = oncle."
+        },
+        {
+          "id": "v5-21-e08",
+          "type": "choice",
+          "uses": ["v5-02"],
+          "jp": "{昨日|きのう}、{山田|やまだ}さんのお{姉|ねえ}さん＿{会|あ}いました。",
+          "fr": "Hier, j'ai vu la grande sœur de M. Yamada.",
+          "choices": ["に", "を", "へ", "で"],
+          "a": 0
+        },
+        {
+          "id": "v5-21-e09",
+          "type": "choice",
+          "uses": ["v5-08"],
+          "jp": "{家族|かぞく}は＿です。{父|ちち}と{母|はは}と{姉|あね}と{私|わたし}です。",
+          "fr": "Nous sommes quatre dans ma famille : mon père, ma mère, ma grande sœur et moi.",
+          "choices": ["{四人|よにん}", "{四|よっ}つ", "{三人|さんにん}", "{四台|よんだい}"],
+          "a": 0
+        },
+        {
+          "id": "v5-21-e10",
+          "type": "choice",
+          "uses": ["v5-08", "v5-09"],
+          "jp": "{山田|やまだ}さんの＿は{何|なん}さいですか。",
+          "fr": "Quel âge a le petit frère de M. Yamada ?",
+          "choices": ["{弟|おとうと}さん", "{弟|おとうと}", "{父|ちち}", "{兄|あに}"],
+          "a": 0
+        },
+        {
+          "id": "v5-21-e11",
+          "type": "choice",
+          "q": "Que veut dire **りょうしん** ?",
+          "choices": ["les parents", "les frères et sœurs", "les grands-parents", "les cousins"],
+          "a": 0
+        },
+        {
+          "id": "v5-21-e12",
+          "type": "choice",
+          "uses": ["v5-06", "v5-11"],
+          "q": "Tu appelles ton grand frère pour le dîner. Tu dis :",
+          "choices": ["お{兄|にい}さん、ご{飯|はん}ですよ。", "{兄|あに}、ご{飯|はん}ですよ。", "{弟|おとうと}さん、ご{飯|はん}ですよ。", "お{兄|にい}さん、いただきます。"],
+          "a": 0
+        },
+        {"id": "v5-21-e13", "type": "choice", "q": "Comment se lit **お母さん** ?", "choices": ["おかあさん", "おははさん", "おかさん", "おぼさん"], "a": 0},
+        {"id": "v5-21-e14", "type": "choice", "q": "Comment se lit **妹** ?", "choices": ["いもうと", "いもおと", "おとうと", "いもと"], "a": 0},
+        {
+          "id": "v5-21-e15",
+          "type": "choice",
+          "q": "La mère de ta mère, c'est ta…",
+          "choices": ["おばあさん (grand-mère)", "おばさん (tante)", "お{姉|ねえ}さん (grande sœur)", "お{母|かあ}さん (mère)"],
+          "a": 0
+        },
+        {
+          "id": "v5-21-e16",
+          "type": "choice",
+          "uses": ["v5-14", "v5-19"],
+          "q": "Tu parles de ta mère à ton professeur. Une seule phrase est correcte. Laquelle ?",
+          "choices": ["{母|はは}は{料理|りょうり}が{上手|じょうず}です。", "{母|はは}さんは{料理|りょうり}が{上手|じょうず}です。", "{母|はは}は{料理|りょうり}を{上手|じょうず}です。", "{母|はは}は{料理|りょうり}が{上手|じょうず}ます。"],
+          "a": 0
+        },
+        {
+          "id": "v5-21-e17",
+          "type": "choice",
+          "uses": ["v5-09"],
+          "q": "Ton ami te demande : ご{家族|かぞく}は{何人|なんにん}ですか. Que veut-il savoir ?",
+          "choices": ["Combien vous êtes dans ta famille.", "Comment s'appellent tes parents.", "Où habite ta famille.", "Si ta famille va bien."],
+          "a": 0
+        },
+        {
+          "id": "v5-21-e18",
+          "type": "choice",
+          "uses": ["v5-19"],
+          "q": "Tu parles de la grande sœur de ton ami.",
+          "jp": "{田中|たなか}さんの＿はきれいですね。",
+          "fr": "La grande sœur de M. Tanaka est jolie, hein.",
+          "choices": ["お{姉|ねえ}さん", "{姉|あね}", "{母|はは}さん", "お{兄|にい}"],
+          "a": 0
+        },
+        {"id": "v5-21-e19", "type": "order", "fr": "J'ai une petite sœur et un petit frère.", "tokens": ["{妹|いもうと}と", "{弟|おとうと}が", "います"]},
+        {
+          "id": "v5-21-e20",
+          "type": "order",
+          "fr": "Le grand frère de M. Yamada est médecin.",
+          "tokens": ["{山田|やまだ}さんの", "お{兄|にい}さんは", "{医者|いしゃ}", "です"]
+        }
+      ]
+    },
+    {
+      "id": "v5-22",
+      "title": "La maison",
+      "words": [
+        {"jp": "{台所|だいどころ}", "kana": "だいどころ", "fr": "cuisine (la pièce)", "ex": "{母|はは}は{台所|だいどころ}で{料理|りょうり}をしています。", "exFr": "Ma mère cuisine dans la cuisine."},
+        {"jp": "{窓|まど}", "kana": "まど", "fr": "fenêtre", "ex": "{暑|あつ}いですから、{窓|まど}を{開|あ}けます。", "exFr": "Il fait chaud, alors j'ouvre la fenêtre."},
+        {"jp": "ドア", "kana": "ドア", "fr": "porte", "ex": "ドアの{前|まえ}に{子|こ}どもが{立|た}っています。", "exFr": "Un enfant est debout devant la porte."},
+        {"jp": "にわ", "kana": "にわ", "fr": "jardin", "ex": "にわに{木|き}が{三本|さんぼん}あります。", "exFr": "Il y a trois arbres dans le jardin."},
+        {"jp": "おふろ", "kana": "おふろ", "fr": "bain ; salle de bain", "ex": "この{家|いえ}のおふろは{広|ひろ}いです。", "exFr": "La salle de bain de cette maison est grande."},
+        {"jp": "かいだん", "kana": "かいだん", "fr": "escalier", "ex": "エレベーターがありませんから、かいだんを{使|つか}います。", "exFr": "Il n'y a pas d'ascenseur, alors je prends l'escalier."},
+        {"jp": "〜かい", "kana": "〜かい", "fr": "… étage, … niveau", "ex": "トイレは{二|に}かいにあります。", "exFr": "Les toilettes sont au premier étage."},
+        {"jp": "いす", "kana": "いす", "fr": "chaise", "ex": "このいすはとても{古|ふる}いです。", "exFr": "Cette chaise est très vieille."},
+        {"jp": "ベッド", "kana": "ベッド", "fr": "lit", "ex": "{毎晩|まいばん}{十一時|じゅういちじ}にベッドに{入|はい}ります。", "exFr": "Je me mets au lit à onze heures tous les soirs."},
+        {"jp": "れいぞうこ", "kana": "れいぞうこ", "fr": "réfrigérateur", "ex": "ぎゅうにゅうはれいぞうこの{中|なか}にあります。", "exFr": "Le lait est dans le frigo."},
+        {"jp": "{電気|でんき}", "kana": "でんき", "fr": "électricité ; lumière", "ex": "{部屋|へや}の{電気|でんき}をつけてください。", "exFr": "Allume la lumière de la pièce, s'il te plaît."},
+        {"jp": "アパート", "kana": "アパート", "fr": "petit immeuble, appartement", "ex": "{駅|えき}の{近|ちか}くのアパートに{住|す}んでいます。", "exFr": "J'habite dans un appartement près de la gare."},
+        {"jp": "{建物|たてもの}", "kana": "たてもの", "fr": "bâtiment", "ex": "あの{白|しろ}い{建物|たてもの}は{病院|びょういん}です。", "exFr": "Ce bâtiment blanc là-bas, c'est l'hôpital."},
+        {"jp": "うち", "kana": "うち", "fr": "chez moi, la maison", "ex": "{今日|きょう}はうちで{晩|ばん}ご{飯|はん}を{食|た}べます。", "exFr": "Ce soir, je dîne à la maison."},
+        {"jp": "{本|ほん}だな", "kana": "ほんだな", "fr": "étagère à livres", "ex": "{本|ほん}だなにじしょがあります。", "exFr": "Il y a un dictionnaire sur l'étagère."}
+      ],
+      "sections": [
+        {
+          "h": "Compter les étages : 〜かい",
+          "p": ["Au Japon, on compte à partir du sol : {一|いっ}かい = le rez-de-chaussée, {二|に}かい = notre 1er étage."],
+          "grid": {
+            "head": ["", "lecture"],
+            "rows": [
+              ["à retenir", "1 ==いっ==かい · 3 さん==がい== · 6 ==ろっ==かい · 8 ==はっ==かい · 10 ==じゅっ==かい · ? なん==がい=="],
+              ["les autres", "2 にかい · 4 よんかい · 5 ごかい · 7 ななかい · 9 きゅうかい"]
+            ]
+          }
+        }
+      ],
+      "pieges": [
+        "{一|いっ}かい = rez-de-chaussée ! {二|に}かい = 1er étage français.",
+        "{三|さん}がい et なんがい : か devient **が**.",
+        "うち = chez moi, mon foyer ; {家|いえ} = la maison (le bâtiment). うちへ{帰|かえ}ります = je rentre chez moi.",
+        "{電気|でんき} = l'électricité **et** la lumière : {電気|でんき}をつける = allumer la lumière.",
+        "おふろに{入|はい}る = prendre un bain ; ベッドに{入|はい}る = se mettre au lit.",
+        "{台所|だいどころ} = la cuisine (la pièce). La cuisine qu'on prépare, c'est {料理|りょうり}."
+      ],
+      "exercises": [
+        {
+          "id": "v5-22-e01",
+          "type": "choice",
+          "uses": ["v5-14", "v5-21"],
+          "jp": "{母|はは}は＿で{料理|りょうり}をしています。",
+          "fr": "Ma mère cuisine dans la cuisine.",
+          "choices": ["{台所|だいどころ}", "おふろ", "かいだん", "{本|ほん}だな"],
+          "a": 0
+        },
+        {
+          "id": "v5-22-e02",
+          "type": "choice",
+          "uses": ["v5-14"],
+          "jp": "{毎晩|まいばん}＿に{入|はい}って、{体|からだ}を{洗|あら}います。",
+          "fr": "Tous les soirs, je prends un bain et je me lave.",
+          "choices": ["おふろ", "{台所|だいどころ}", "にわ", "れいぞうこ"],
+          "a": 0
+        },
+        {
+          "id": "v5-22-e03",
+          "type": "choice",
+          "uses": ["v5-06", "v5-20"],
+          "jp": "ぎゅうにゅうは＿の{中|なか}にあります。",
+          "fr": "Le lait est dans le frigo.",
+          "choices": ["れいぞうこ", "ベッド", "かいだん", "{窓|まど}"],
+          "a": 0
+        },
+        {
+          "id": "v5-22-e04",
+          "type": "choice",
+          "jp": "エレベーターがありませんから、＿を{使|つか}います。",
+          "fr": "Il n'y a pas d'ascenseur, alors je prends l'escalier.",
+          "choices": ["かいだん", "ドア", "{窓|まど}", "にわ"],
+          "a": 0
+        },
+        {
+          "id": "v5-22-e05",
+          "type": "choice",
+          "q": "Comment dit-on « rez-de-chaussée » (1er niveau) ?",
+          "choices": ["いっかい", "いちかい", "ひとかい", "いっがい"],
+          "a": 0
+        },
+        {"id": "v5-22-e06", "type": "choice", "q": "Comment dit-on « 6e niveau » ?", "choices": ["ろっかい", "ろくかい", "ろくがい", "むかい"], "a": 0},
+        {
+          "id": "v5-22-e07",
+          "type": "choice",
+          "q": "Dans un immeuble japonais, {一|いっ}かい, c'est…",
+          "choices": ["le rez-de-chaussée", "le premier étage", "le sous-sol", "le dernier étage"],
+          "a": 0
+        },
+        {
+          "id": "v5-22-e08",
+          "type": "choice",
+          "uses": ["v5-03", "v5-04"],
+          "jp": "{夜|よる}ですから、{部屋|へや}の＿をつけます。",
+          "fr": "C'est la nuit, alors j'allume la lumière de la pièce.",
+          "choices": ["{電気|でんき}", "{窓|まど}", "ドア", "いす"],
+          "a": 0
+        },
+        {
+          "id": "v5-22-e09",
+          "type": "choice",
+          "uses": ["v5-04"],
+          "jp": "あの{白|しろ}い＿は{病院|びょういん}です。",
+          "fr": "Ce bâtiment blanc là-bas, c'est l'hôpital.",
+          "choices": ["{建物|たてもの}", "れいぞうこ", "いす", "ベッド"],
+          "a": 0
+        },
+        {
+          "id": "v5-22-e10",
+          "type": "choice",
+          "q": "Que veut dire **{本|ほん}だな** ?",
+          "choices": ["étagère à livres", "librairie", "bibliothèque (bâtiment)", "cahier"],
+          "a": 0
+        },
+        {
+          "id": "v5-22-e11",
+          "type": "choice",
+          "uses": ["v5-02", "v5-03"],
+          "jp": "{今日|きょう}は{雨|あめ}ですから、＿で{本|ほん}を{読|よ}みます。",
+          "fr": "Aujourd'hui il pleut, alors je lis à la maison.",
+          "choices": ["うち", "にわ", "かいだん", "れいぞうこ"],
+          "a": 0
+        },
+        {
+          "id": "v5-22-e12",
+          "type": "choice",
+          "uses": ["v5-16"],
+          "jp": "{毎晩|まいばん}{十一時|じゅういちじ}に＿に{入|はい}ります。",
+          "fr": "Je me mets au lit à onze heures tous les soirs.",
+          "choices": ["ベッド", "れいぞうこ", "{本|ほん}だな", "かいだん"],
+          "a": 0
+        },
+        {"id": "v5-22-e13", "type": "choice", "q": "Que veut dire **{窓|まど}** ?", "choices": ["fenêtre", "porte", "mur", "toit"], "a": 0},
+        {
+          "id": "v5-22-e14",
+          "type": "choice",
+          "uses": ["v5-08"],
+          "jp": "＿に{木|き}が{三本|さんぼん}あります。",
+          "fr": "Il y a trois arbres dans le jardin.",
+          "choices": ["にわ", "{台所|だいどころ}", "おふろ", "{本|ほん}だな"],
+          "a": 0
+        },
+        {
+          "id": "v5-22-e15",
+          "type": "choice",
+          "q": "**{電気|でんき}**, c'est…",
+          "choices": ["l'électricité ou la lumière", "le chauffage", "le téléphone", "la télévision"],
+          "a": 0
+        },
+        {
+          "id": "v5-22-e16",
+          "type": "choice",
+          "uses": ["v5-02"],
+          "q": "Que veut dire : うちへ{帰|かえ}ります。",
+          "choices": ["Je rentre chez moi.", "Je rentre au bureau.", "Je vais chez un ami.", "Je sors de chez moi."],
+          "a": 0
+        },
+        {
+          "id": "v5-22-e17",
+          "type": "choice",
+          "uses": ["v5-04", "v5-20"],
+          "jp": "トイレは{二|に}かい＿あります。",
+          "fr": "Les toilettes sont au premier étage.",
+          "choices": ["に", "で", "を", "が"],
+          "a": 0
+        },
+        {
+          "id": "v5-22-e18",
+          "type": "choice",
+          "q": "Que veut dire **アパート** ?",
+          "choices": ["un petit immeuble d'appartements", "une maison individuelle", "un hôtel", "un bureau"],
+          "a": 0
+        },
+        {"id": "v5-22-e19", "type": "order", "fr": "La cuisine est au rez-de-chaussée.", "tokens": ["{台所|だいどころ}は", "{一|いっ}かいに", "あります"]},
+        {
+          "id": "v5-22-e20",
+          "type": "order",
+          "uses": ["v5-06", "v5-20"],
+          "fr": "Il y a du lait dans le frigo.",
+          "tokens": ["れいぞうこの", "{中|なか}に", "ぎゅうにゅうが", "あります"],
+          "alt": [["ぎゅうにゅうが", "れいぞうこの", "{中|なか}に", "あります"]]
+        }
+      ]
+    },
+    {
+      "id": "v5-23",
+      "title": "Le corps et la santé",
+      "words": [
+        {"jp": "{頭|あたま}", "kana": "あたま", "fr": "tête", "ex": "{頭|あたま}がいたいですから、{薬|くすり}を{飲|の}みます。", "exFr": "J'ai mal à la tête, alors je prends un médicament."},
+        {"jp": "{目|め}", "kana": "め", "fr": "œil, yeux", "ex": "{田中|たなか}さんは{目|め}が{大|おお}きいです。", "exFr": "M. Tanaka a de grands yeux."},
+        {"jp": "{耳|みみ}", "kana": "みみ", "fr": "oreille", "ex": "おじいさんは{耳|みみ}が{悪|わる}いです。", "exFr": "Grand-père entend mal."},
+        {"jp": "{口|くち}", "kana": "くち", "fr": "bouche", "ex": "{口|くち}を{大|おお}きく{開|あ}けてください。", "exFr": "Ouvrez grand la bouche, s'il vous plaît."},
+        {"jp": "{手|て}", "kana": "て", "fr": "main", "ex": "{食|た}べるまえに{手|て}を{洗|あら}います。", "exFr": "Je me lave les mains avant de manger."},
+        {"jp": "{足|あし}", "kana": "あし", "fr": "pied ; jambe", "ex": "たくさん{歩|ある}きましたから、{足|あし}がいたいです。", "exFr": "J'ai beaucoup marché, alors j'ai mal aux pieds."},
+        {"jp": "おなか", "kana": "おなか", "fr": "ventre", "ex": "{朝|あさ}ご{飯|はん}を{食|た}べませんでしたから、おなかがすきました。", "exFr": "Je n'ai pas pris de petit-déjeuner, alors j'ai faim."},
+        {"jp": "{歯|は}", "kana": "は", "fr": "dent", "ex": "{毎晩|まいばん}{歯|は}をみがきます。", "exFr": "Je me brosse les dents tous les soirs."},
+        {"jp": "{顔|かお}", "kana": "かお", "fr": "visage", "ex": "{毎朝|まいあさ}{顔|かお}を{洗|あら}います。", "exFr": "Je me lave le visage tous les matins."},
+        {"jp": "{体|からだ}", "kana": "からだ", "fr": "corps ; santé", "ex": "{体|からだ}に{気|き}をつけてください。", "exFr": "Prenez soin de vous."},
+        {"jp": "{声|こえ}", "kana": "こえ", "fr": "voix", "ex": "{田中|たなか}さんは{声|こえ}が{大|おお}きいです。", "exFr": "M. Tanaka a une voix forte."},
+        {"jp": "{病気|びょうき}", "kana": "びょうき", "fr": "maladie ; malade", "ex": "{父|ちち}は{病気|びょうき}で{会社|かいしゃ}を{休|やす}みました。", "exFr": "Mon père était malade et n'est pas allé au travail."},
+        {"jp": "{薬|くすり}", "kana": "くすり", "fr": "médicament", "ex": "{食|た}べたあとで、この{薬|くすり}を{飲|の}んでください。", "exFr": "Prenez ce médicament après le repas."},
+        {"jp": "かぜ", "kana": "かぜ", "fr": "rhume", "ex": "かぜをひきましたから、{学校|がっこう}を{休|やす}みます。", "exFr": "J'ai attrapé un rhume, alors je ne vais pas à l'école."},
+        {"jp": "ねつ", "kana": "ねつ", "fr": "fièvre", "ex": "ねつがありますから、{病院|びょういん}へ{行|い}きます。", "exFr": "J'ai de la fièvre, alors je vais à l'hôpital."}
+      ],
+      "sections": [
+        {
+          "h": "Être malade : les bonnes expressions",
+          "p": ["Chaque expression a **sa** particule et **son** verbe : à apprendre en bloc."],
+          "grid": {
+            "head": ["", "japonais"],
+            "rows": [
+              ["avoir mal à…", "{頭|あたま}==が==いたい"],
+              ["avoir de la fièvre", "ねつ==が==ある"],
+              ["attraper un rhume", "かぜ==を==ひく"],
+              ["prendre un médicament", "{薬|くすり}==を=={飲|の}む"],
+              ["avoir faim", "おなか==が==すく"],
+              ["mal voir / mal entendre", "{目|め}==が=={悪|わる}い · {耳|みみ}==が=={悪|わる}い"]
+            ]
+          }
+        }
+      ],
+      "pieges": [
+        "On « boit » les médicaments, même les comprimés : {薬|くすり}を**{飲|の}む**.",
+        "かぜを**ひく** = attraper un rhume. ねつが**ある** = avoir de la fièvre.",
+        "かぜ (rhume) ≠ {風|かぜ} (vent) : même son, sens différent.",
+        "{目|め}が{悪|わる}い = avoir une mauvaise vue (pas « avoir mal aux yeux » : {目|め}がいたい).",
+        "{足|あし} = le pied **et** la jambe.",
+        "{体|からだ}に{気|き}をつけてください = prenez soin de vous (pour finir une lettre, quitter un malade…)."
+      ],
+      "exercises": [
+        {
+          "id": "v5-23-e01",
+          "type": "choice",
+          "uses": ["v5-02", "v5-18"],
+          "jp": "{頭|あたま}がいたいですから、＿を{飲|の}みます。",
+          "fr": "J'ai mal à la tête, alors je prends un médicament.",
+          "choices": ["{薬|くすり}", "かぜ", "ねつ", "{病気|びょうき}"],
+          "a": 0
+        },
+        {
+          "id": "v5-23-e02",
+          "type": "choice",
+          "jp": "{昨日|きのう}はとても{寒|さむ}かったですから、かぜを＿。",
+          "fr": "Hier il faisait très froid, alors j'ai attrapé un rhume.",
+          "choices": ["ひきました", "とりました", "{飲|の}みました", "しました"],
+          "a": 0,
+          "explain": "かぜを**ひく**."
+        },
+        {
+          "id": "v5-23-e03",
+          "type": "choice",
+          "uses": ["v5-14"],
+          "jp": "＿がありますから、{今日|きょう}は{学校|がっこう}を{休|やす}みます。",
+          "fr": "J'ai de la fièvre, alors aujourd'hui je ne vais pas à l'école.",
+          "choices": ["ねつ", "かぜ", "{薬|くすり}", "{体|からだ}"],
+          "a": 0,
+          "explain": "ねつが**ある**. Le rhume, lui, s'« attrape » : かぜをひく."
+        },
+        {
+          "id": "v5-23-e04",
+          "type": "choice",
+          "uses": ["v5-14"],
+          "jp": "{食|た}べるまえに＿を{洗|あら}います。",
+          "fr": "Je me lave les mains avant de manger.",
+          "choices": ["{手|て}", "{耳|みみ}", "{声|こえ}", "{病気|びょうき}"],
+          "a": 0
+        },
+        {
+          "id": "v5-23-e05",
+          "type": "choice",
+          "uses": ["v5-21"],
+          "jp": "{大|おお}きい{声|こえ}で{話|はな}してください。おじいさんは＿が{悪|わる}いですから。",
+          "fr": "Parlez fort, s'il vous plaît : grand-père entend mal.",
+          "choices": ["{耳|みみ}", "{目|め}", "{口|くち}", "{足|あし}"],
+          "a": 0
+        },
+        {
+          "id": "v5-23-e06",
+          "type": "choice",
+          "uses": ["v5-12", "v5-13"],
+          "jp": "＿が{悪|わる}いですから、めがねをかけています。",
+          "fr": "J'ai une mauvaise vue, alors je porte des lunettes.",
+          "choices": ["{目|め}", "{耳|みみ}", "{歯|は}", "{足|あし}"],
+          "a": 0
+        },
+        {
+          "id": "v5-23-e07",
+          "type": "choice",
+          "uses": ["v5-15", "v5-18"],
+          "jp": "{三時間|さんじかん}{歩|ある}きましたから、＿がいたいです。",
+          "fr": "J'ai marché trois heures, alors j'ai mal aux pieds.",
+          "choices": ["{足|あし}", "{耳|みみ}", "{歯|は}", "{声|こえ}"],
+          "a": 0
+        },
+        {
+          "id": "v5-23-e08",
+          "type": "choice",
+          "uses": ["v5-14"],
+          "jp": "{毎朝|まいあさ}＿を{洗|あら}って、{歯|は}をみがきます。",
+          "fr": "Tous les matins, je me lave le visage et je me brosse les dents.",
+          "choices": ["{顔|かお}", "{声|こえ}", "{病気|びょうき}", "ねつ"],
+          "a": 0
+        },
+        {"id": "v5-23-e09", "type": "choice", "q": "Comment se lit **体** (le corps) ?", "choices": ["からだ", "てい", "かだら", "からた"], "a": 0},
+        {"id": "v5-23-e10", "type": "choice", "q": "Comment se lit **顔** (le visage) ?", "choices": ["かお", "かう", "がお", "こう"], "a": 0},
+        {
+          "id": "v5-23-e11",
+          "type": "choice",
+          "q": "Comment dit-on « j'ai faim » ?",
+          "choices": ["おなかがすきました", "おなかがいたいです", "おなかがあります", "おなかをすきました"],
+          "a": 0
+        },
+        {
+          "id": "v5-23-e12",
+          "type": "choice",
+          "q": "Que veut dire : {体|からだ}に{気|き}をつけてください。",
+          "choices": ["Prenez soin de vous.", "Faites du sport.", "Vous avez l'air en forme.", "Allez à l'hôpital."],
+          "a": 0
+        },
+        {
+          "id": "v5-23-e13",
+          "type": "choice",
+          "q": "Comment dit-on « prendre un médicament » ?",
+          "choices": ["{薬|くすり}を{飲|の}む", "{薬|くすり}を{食|た}べる", "{薬|くすり}をとる", "{薬|くすり}をする"],
+          "a": 0
+        },
+        {
+          "id": "v5-23-e14",
+          "type": "choice",
+          "uses": ["v5-14", "v5-21"],
+          "jp": "{父|ちち}は＿で{会社|かいしゃ}を{休|やす}みました。",
+          "fr": "Mon père était malade et n'est pas allé au travail.",
+          "choices": ["{病気|びょうき}", "{薬|くすり}", "{体|からだ}", "{声|こえ}"],
+          "a": 0
+        },
+        {
+          "id": "v5-23-e15",
+          "type": "choice",
+          "q": "Dans « {昨日|きのう}、かぜをひきました », かぜ veut dire…",
+          "choices": ["un rhume", "le vent", "la fièvre", "une blessure"],
+          "a": 0
+        },
+        {
+          "id": "v5-23-e16",
+          "type": "choice",
+          "jp": "{歯|は}を{見|み}ますから、＿を{大|おお}きく{開|あ}けてください。",
+          "fr": "Je vais regarder vos dents, alors ouvrez grand la bouche, s'il vous plaît.",
+          "choices": ["{口|くち}", "{耳|みみ}", "{足|あし}", "{声|こえ}"],
+          "a": 0
+        },
+        {
+          "id": "v5-23-e17",
+          "type": "choice",
+          "q": "Comment dit-on « j'ai de la fièvre » ?",
+          "choices": ["ねつがあります", "ねつがいます", "ねつをします", "ねつがいたいです"],
+          "a": 0
+        },
+        {"id": "v5-23-e18", "type": "choice", "q": "Que veut dire **{声|こえ}** ?", "choices": ["la voix", "le cou", "le souffle", "la gorge"], "a": 0},
+        {
+          "id": "v5-23-e19",
+          "type": "order",
+          "uses": ["v5-18"],
+          "fr": "J'ai mal à la tête, alors je prends un médicament.",
+          "tokens": ["{頭|あたま}が", "いたいですから、", "{薬|くすり}を", "{飲|の}みます"]
+        },
+        {
+          "id": "v5-23-e20",
+          "type": "order",
+          "uses": ["v5-14"],
+          "fr": "Je me lave les mains avant de manger.",
+          "tokens": ["{食|た}べるまえに", "{手|て}を", "{洗|あら}います"]
+        }
+      ]
+    },
+    {
+      "id": "v5-24",
+      "title": "Couleurs et sensations",
+      "words": [
+        {"jp": "{赤|あか}い", "kana": "あかい", "fr": "rouge", "ex": "{赤|あか}いセーターを{買|か}いました。", "exFr": "J'ai acheté un pull rouge."},
+        {"jp": "{青|あお}い", "kana": "あおい", "fr": "bleu", "ex": "{今日|きょう}は{空|そら}が{青|あお}いです。", "exFr": "Aujourd'hui, le ciel est bleu."},
+        {"jp": "{白|しろ}い", "kana": "しろい", "fr": "blanc", "ex": "{白|しろ}いシャツを{着|き}ています。", "exFr": "Je porte une chemise blanche."},
+        {"jp": "{黒|くろ}い", "kana": "くろい", "fr": "noir", "ex": "{黒|くろ}いくつをはきます。", "exFr": "Je mets des chaussures noires."},
+        {"jp": "きいろい", "kana": "きいろい", "fr": "jaune", "ex": "きいろいかさを{持|も}っています。", "exFr": "J'ai un parapluie jaune."},
+        {"jp": "{茶色|ちゃいろ}", "kana": "ちゃいろ", "fr": "marron", "ex": "{茶色|ちゃいろ}のかばんを{買|か}いました。", "exFr": "J'ai acheté un sac marron."},
+        {"jp": "{色|いろ}", "kana": "いろ", "fr": "couleur", "ex": "どんな{色|いろ}が{好|す}きですか。", "exFr": "Quelle couleur aimes-tu ?"},
+        {"jp": "{明|あか}るい", "kana": "あかるい", "fr": "clair, lumineux", "ex": "この{部屋|へや}は{窓|まど}が{大|おお}きくて、{明|あか}るいです。", "exFr": "Cette pièce a de grandes fenêtres, elle est lumineuse."},
+        {"jp": "{暗|くら}い", "kana": "くらい", "fr": "sombre", "ex": "{冬|ふゆ}は{五時|ごじ}ごろ{暗|くら}くなります。", "exFr": "En hiver, il fait nuit vers cinq heures."},
+        {"jp": "{重|おも}い", "kana": "おもい", "fr": "lourd", "ex": "このかばんはとても{重|おも}いです。", "exFr": "Ce sac est très lourd."},
+        {"jp": "{軽|かる}い", "kana": "かるい", "fr": "léger", "ex": "この{自転車|じてんしゃ}は{軽|かる}いです。", "exFr": "Ce vélo est léger."},
+        {"jp": "{広|ひろ}い", "kana": "ひろい", "fr": "spacieux, large", "ex": "{新|あたら}しい{部屋|へや}は{広|ひろ}いです。", "exFr": "Ma nouvelle chambre est spacieuse."},
+        {"jp": "せまい", "kana": "せまい", "fr": "étroit, exigu", "ex": "この{道|みち}はせまいですから、{車|くるま}に{気|き}をつけてください。", "exFr": "Cette rue est étroite, alors faites attention aux voitures."},
+        {"jp": "つめたい", "kana": "つめたい", "fr": "froid (au toucher)", "ex": "つめたいビールはおいしいです。", "exFr": "La bière fraîche, c'est bon."},
+        {"jp": "うるさい", "kana": "うるさい", "fr": "bruyant", "ex": "となりの{部屋|へや}がうるさいです。", "exFr": "La chambre d'à côté est bruyante."}
+      ],
+      "sections": [
+        {
+          "h": "Les couleurs : adjectif ou nom ?",
+          "p": [
+            "Les couleurs de base sont des adjectifs en い ({赤|あか}いかさ) qui ont aussi une forme nom ({赤|あか}が{好|す}き). {茶色|ちゃいろ} et みどり (vert) ne sont **que** des noms : {茶色|ちゃいろ}**の**かばん."
+          ],
+          "grid": {
+            "head": ["", "adjectif → nom"],
+            "rows": [
+              ["rouge", "{赤|あか}==い== → {赤|あか}"],
+              ["bleu", "{青|あお}==い== → {青|あお}"],
+              ["blanc", "{白|しろ}==い== → {白|しろ}"],
+              ["noir", "{黒|くろ}==い== → {黒|くろ}"],
+              ["jaune", "きいろ==い== → きいろ"],
+              ["marron, vert", "nom seulement : {茶色|ちゃいろ}==の==, みどり==の=="]
+            ]
+          }
+        }
+      ],
+      "pieges": [
+        "{茶色|ちゃいろ}**の**かばん, jamais {茶色|ちゃいろ}いかばん : {茶色|ちゃいろ} est un nom.",
+        "{青|あお}い = bleu, mais le feu « vert » et les légumes verts se disent aussi {青|あお}.",
+        "つめたい = froid **au toucher** (eau, boisson, main) ; {寒|さむ}い = il fait froid (l'air, le temps).",
+        "{広|ひろ}い / せまい parlent de **surface** (pièce, rue). Pour la taille d'un objet : {大|おお}きい / {小|ちい}さい.",
+        "{明|あか}るい (あかるい, lumineux) ≠ {赤|あか}い (あかい, rouge).",
+        "{暗|くら}くなる = il commence à faire nuit."
+      ],
+      "exercises": [
+        {"id": "v5-24-e01", "type": "choice", "q": "Contraire de **{重|おも}い** ?", "choices": ["{軽|かる}い", "{低|ひく}い", "せまい", "{暗|くら}い"], "a": 0},
+        {"id": "v5-24-e02", "type": "choice", "q": "Contraire de **{明|あか}るい** ?", "choices": ["{暗|くら}い", "{黒|くろ}い", "{軽|かる}い", "せまい"], "a": 0},
+        {
+          "id": "v5-24-e03",
+          "type": "choice",
+          "uses": ["v5-05"],
+          "q": "Contraire de **{広|ひろ}い** (une pièce) ?",
+          "choices": ["せまい", "{短|みじか}い", "{低|ひく}い", "{軽|かる}い"],
+          "a": 0
+        },
+        {
+          "id": "v5-24-e04",
+          "type": "choice",
+          "jp": "{空|そら}が＿です。いい{天気|てんき}ですね。",
+          "fr": "Le ciel est bleu. Il fait beau, hein.",
+          "choices": ["{青|あお}い", "{黒|くろ}い", "{重|おも}い", "せまい"],
+          "a": 0
+        },
+        {
+          "id": "v5-24-e05",
+          "type": "choice",
+          "uses": ["v5-12"],
+          "jp": "かばんに{本|ほん}がたくさん{入|はい}っていますから、とても＿です。",
+          "fr": "Il y a beaucoup de livres dans le sac, alors il est très lourd.",
+          "choices": ["{重|おも}い", "{軽|かる}い", "{明|あか}るい", "つめたい"],
+          "a": 0
+        },
+        {
+          "id": "v5-24-e06",
+          "type": "choice",
+          "uses": ["v5-22"],
+          "jp": "{部屋|へや}が＿ですから、{電気|でんき}をつけます。",
+          "fr": "La pièce est sombre, alors j'allume la lumière.",
+          "choices": ["{暗|くら}い", "{明|あか}るい", "うるさい", "{重|おも}い"],
+          "a": 0
+        },
+        {
+          "id": "v5-24-e07",
+          "type": "choice",
+          "uses": ["v5-06"],
+          "jp": "{暑|あつ}い{日|ひ}は、＿{水|みず}がおいしいです。",
+          "fr": "Les jours de chaleur, l'eau fraîche est délicieuse.",
+          "choices": ["つめたい", "うるさい", "せまい", "{暗|くら}い"],
+          "a": 0
+        },
+        {
+          "id": "v5-24-e08",
+          "type": "choice",
+          "jp": "＿かばんを{買|か}いました。",
+          "fr": "J'ai acheté un sac marron.",
+          "choices": ["{茶色|ちゃいろ}の", "{茶色|ちゃいろ}い", "{茶色|ちゃいろ}な", "{茶色|ちゃいろ}"],
+          "a": 0,
+          "explain": "{茶色|ちゃいろ} est un nom : {茶色|ちゃいろ}**の**かばん."
+        },
+        {
+          "id": "v5-24-e09",
+          "type": "choice",
+          "uses": ["v5-13"],
+          "jp": "＿セーターを{着|き}ています。",
+          "fr": "Je porte un pull rouge.",
+          "choices": ["{赤|あか}い", "{赤|あか}な", "{赤|あか}いの", "{赤|あか}く"],
+          "a": 0
+        },
+        {"id": "v5-24-e10", "type": "choice", "q": "Comment se lit **明るい** ?", "choices": ["あかるい", "あきるい", "めいるい", "あけるい"], "a": 0},
+        {
+          "id": "v5-24-e11",
+          "type": "choice",
+          "q": "Comment se lit **黒い** ?",
+          "choices": ["くろい", "くらい", "こくい", "しろい"],
+          "a": 0,
+          "explain": "くろい = noir ; くらい ({暗|くら}い) = sombre."
+        },
+        {
+          "id": "v5-24-e12",
+          "type": "choice",
+          "uses": ["v5-14", "v5-19"],
+          "jp": "となりの{部屋|へや}が＿ですから、{勉強|べんきょう}ができません。",
+          "fr": "La pièce d'à côté est bruyante, alors je n'arrive pas à étudier.",
+          "choices": ["うるさい", "{静|しず}か", "{明|あか}るい", "{広|ひろ}い"],
+          "a": 0
+        },
+        {
+          "id": "v5-24-e13",
+          "type": "choice",
+          "uses": ["v5-22"],
+          "jp": "＿{部屋|へや}ですから、ベッドが{入|はい}りません。",
+          "fr": "La pièce est trop petite, alors le lit n'y rentre pas.",
+          "choices": ["せまい", "{広|ひろ}い", "{明|あか}るい", "うるさい"],
+          "a": 0
+        },
+        {"id": "v5-24-e14", "type": "choice", "q": "Que veut dire **{色|いろ}** ?", "choices": ["couleur", "forme", "taille", "goût"], "a": 0},
+        {"id": "v5-24-e15", "type": "choice", "q": "Comment dit-on « jaune » ?", "choices": ["きいろい", "{茶色|ちゃいろ}", "{青|あお}い", "{白|しろ}い"], "a": 0},
+        {
+          "id": "v5-24-e16",
+          "type": "choice",
+          "uses": ["v5-06"],
+          "jp": "ぎゅうにゅうは＿です。",
+          "fr": "Le lait est blanc.",
+          "choices": ["{白|しろ}い", "{黒|くろ}い", "{赤|あか}い", "{青|あお}い"],
+          "a": 0
+        },
+        {
+          "id": "v5-24-e17",
+          "type": "choice",
+          "q": "« L'eau est froide » se dit…",
+          "choices": ["{水|みず}がつめたいです。", "{水|みず}が{寒|さむ}いです。", "{水|みず}がつめたです。", "{水|みず}が{寒|さむ}です。"],
+          "a": 0,
+          "explain": "Au toucher : つめたい. {寒|さむ}い, c'est pour l'air et le temps."
+        },
+        {"id": "v5-24-e18", "type": "order", "uses": ["v5-13"], "fr": "J'ai acheté un pull rouge.", "tokens": ["{赤|あか}い", "セーターを", "{買|か}いました"]},
+        {
+          "id": "v5-24-e19",
+          "type": "order",
+          "fr": "Cette pièce est spacieuse et lumineuse.",
+          "tokens": ["この", "{部屋|へや}は", "{広|ひろ}くて", "{明|あか}るいです"],
+          "explain": "Pour relier deux adjectifs en い : い → くて."
+        }
+      ]
+    },
+    {
+      "id": "v5-25",
+      "title": "Météo et saisons",
+      "words": [
+        {"jp": "{天気|てんき}", "kana": "てんき", "fr": "temps (météo)", "ex": "{明日|あした}の{天気|てんき}はどうですか。", "exFr": "Quel temps fera-t-il demain ?"},
+        {"jp": "{雨|あめ}", "kana": "あめ", "fr": "pluie", "ex": "{雨|あめ}ですから、かさを{持|も}って{行|い}きます。", "exFr": "Il pleut, alors j'emporte un parapluie."},
+        {"jp": "ゆき", "kana": "ゆき", "fr": "neige", "ex": "{冬|ふゆ}は{山|やま}にゆきがたくさん{降|ふ}ります。", "exFr": "En hiver, il neige beaucoup sur les montagnes."},
+        {"jp": "{風|かぜ}", "kana": "かぜ", "fr": "vent", "ex": "{風|かぜ}がつめたいですから、コートを{着|き}ます。", "exFr": "Le vent est froid, alors je mets mon manteau."},
+        {"jp": "{春|はる}", "kana": "はる", "fr": "printemps", "ex": "{日本|にほん}の{学校|がっこう}は{春|はる}に{始|はじ}まります。", "exFr": "Au Japon, l'école commence au printemps."},
+        {"jp": "{夏|なつ}", "kana": "なつ", "fr": "été", "ex": "{夏|なつ}は{海|うみ}へ{行|い}きます。", "exFr": "En été, je vais à la mer."},
+        {"jp": "{秋|あき}", "kana": "あき", "fr": "automne", "ex": "{秋|あき}は{果物|くだもの}がおいしいです。", "exFr": "En automne, les fruits sont bons."},
+        {"jp": "{冬|ふゆ}", "kana": "ふゆ", "fr": "hiver", "ex": "{冬|ふゆ}はとても{寒|さむ}いです。", "exFr": "L'hiver est très froid."},
+        {"jp": "{暑|あつ}い", "kana": "あつい", "fr": "chaud (temps)", "ex": "{今日|きょう}は{暑|あつ}いですね。", "exFr": "Il fait chaud aujourd'hui, hein."},
+        {"jp": "{寒|さむ}い", "kana": "さむい", "fr": "froid (temps)", "ex": "{寒|さむ}いですから、{窓|まど}をしめてください。", "exFr": "Il fait froid, alors ferme la fenêtre, s'il te plaît."},
+        {"jp": "あたたかい", "kana": "あたたかい", "fr": "doux, tiède", "ex": "{春|はる}はあたたかいです。", "exFr": "Le printemps est doux."},
+        {"jp": "すずしい", "kana": "すずしい", "fr": "frais (agréable)", "ex": "{夕方|ゆうがた}はすずしいですね。", "exFr": "En fin d'après-midi, il fait frais, hein."},
+        {"jp": "{降|ふ}る", "kana": "ふる", "fr": "tomber (pluie, neige)", "ex": "{昨日|きのう}は{雨|あめ}がたくさん{降|ふ}りました。", "exFr": "Hier, il a beaucoup plu."},
+        {"jp": "{晴|は}れ", "kana": "はれ", "fr": "beau temps", "ex": "{明日|あした}は{晴|は}れです。", "exFr": "Demain, il fera beau."},
+        {"jp": "くもり", "kana": "くもり", "fr": "temps nuageux", "ex": "{今日|きょう}はくもりですが、{雨|あめ}は{降|ふ}りません。", "exFr": "Aujourd'hui c'est nuageux, mais il ne pleut pas."}
+      ],
+      "sections": [
+        {
+          "h": "Saisons et températures",
+          "p": ["Pluie et neige « tombent » : {雨|あめ}が{降|ふ}る, ゆきが{降|ふ}る. Le temps qu'il fait : {晴|は}れ, くもり, {雨|あめ} (des noms)."],
+          "grid": {
+            "head": ["", "typique"],
+            "rows": [
+              ["{春|はる} printemps", "あたたかい (doux)"],
+              ["{夏|なつ} été", "{暑|あつ}い (chaud)"],
+              ["{秋|あき} automne", "すずしい (frais, agréable)"],
+              ["{冬|ふゆ} hiver", "{寒|さむ}い (froid), ゆき"]
+            ]
+          }
+        }
+      ],
+      "pieges": [
+        "{暑|あつ}い = il fait chaud (le temps) ; あつい (écrit avec un autre kanji) = chaud au toucher (thé, bain). Leurs contraires : {寒|さむ}い / つめたい.",
+        "Il pleut = {雨|あめ}が**{降|ふ}る** (jamais {雨|あめ}がある). Il neige = ゆきが{降|ふ}る.",
+        "{降|ふ}る (ふる, tomber, groupe 1) ≠ {降|お}りる (おりる, descendre, groupe 2).",
+        "{風|かぜ} (vent) ≠ かぜ (rhume).",
+        "すずしい = frais **et agréable**. Pas « froid » !",
+        "いい{天気|てんき}ですね : la petite phrase de politesse par excellence."
+      ],
+      "exercises": [
+        {
+          "id": "v5-25-e01",
+          "type": "choice",
+          "uses": ["v5-24"],
+          "jp": "{夏|なつ}は＿ですから、{海|うみ}へ{行|い}きます。",
+          "fr": "En été il fait chaud, alors je vais à la mer.",
+          "choices": ["{暑|あつ}い", "{寒|さむ}い", "つめたい", "{暗|くら}い"],
+          "a": 0
+        },
+        {
+          "id": "v5-25-e02",
+          "type": "choice",
+          "uses": ["v5-12"],
+          "jp": "{雨|あめ}が＿から、かさを{持|も}って{行|い}きます。",
+          "fr": "Il pleut, alors j'emporte un parapluie.",
+          "choices": ["{降|ふ}っています", "あります", "{来|き}ています", "しています"],
+          "a": 0,
+          "explain": "Il pleut : {雨|あめ}が{降|ふ}る."
+        },
+        {
+          "id": "v5-25-e03",
+          "type": "choice",
+          "jp": "{冬|ふゆ}は{山|やま}に＿が{降|ふ}ります。",
+          "fr": "En hiver, il neige sur les montagnes.",
+          "choices": ["ゆき", "{風|かぜ}", "{晴|は}れ", "くもり"],
+          "a": 0
+        },
+        {
+          "id": "v5-25-e04",
+          "type": "choice",
+          "uses": ["v5-24"],
+          "q": "Contraire de **{暑|あつ}い** (le temps qu'il fait) ?",
+          "choices": ["{寒|さむ}い", "つめたい", "{軽|かる}い", "{低|ひく}い"],
+          "a": 0,
+          "explain": "つめたい est le contraire de あつい « chaud au toucher » (une boisson…)."
+        },
+        {
+          "id": "v5-25-e05",
+          "type": "choice",
+          "jp": "{春|はる}、{夏|なつ}、＿、{冬|ふゆ}",
+          "fr": "Printemps, été, automne, hiver.",
+          "choices": ["{秋|あき}", "{春|はる}", "{夏|なつ}", "{冬|ふゆ}"],
+          "a": 0
+        },
+        {"id": "v5-25-e06", "type": "choice", "q": "Comment se lit **秋** (automne) ?", "choices": ["あき", "あさ", "はる", "ふゆ"], "a": 0},
+        {"id": "v5-25-e07", "type": "choice", "q": "Comment se lit **冬** (hiver) ?", "choices": ["ふゆ", "ほゆ", "ふゆう", "ふよ"], "a": 0},
+        {
+          "id": "v5-25-e08",
+          "type": "choice",
+          "uses": ["v5-09"],
+          "jp": "{明日|あした}の＿はどうですか。— {晴|は}れです。",
+          "fr": "Quel temps fera-t-il demain ? — Il fera beau.",
+          "choices": ["{天気|てんき}", "{風|かぜ}", "{雨|あめ}", "{夏|なつ}"],
+          "a": 0
+        },
+        {"id": "v5-25-e09", "type": "choice", "q": "Que veut dire **くもり** ?", "choices": ["nuageux", "ensoleillé", "pluvieux", "neigeux"], "a": 0},
+        {
+          "id": "v5-25-e10",
+          "type": "choice",
+          "uses": ["v5-18"],
+          "jp": "{今日|きょう}は＿が{強|つよ}くて、{寒|さむ}いです。",
+          "fr": "Aujourd'hui, le vent est fort et il fait froid.",
+          "choices": ["{風|かぜ}", "{晴|は}れ", "くもり", "{夏|なつ}"],
+          "a": 0
+        },
+        {
+          "id": "v5-25-e11",
+          "type": "choice",
+          "uses": ["v5-24"],
+          "jp": "{春|はる}は＿です。",
+          "fr": "Le printemps est doux.",
+          "choices": ["あたたかい", "つめたい", "せまい", "{重|おも}い"],
+          "a": 0
+        },
+        {
+          "id": "v5-25-e12",
+          "type": "choice",
+          "q": "Que veut dire **すずしい** ?",
+          "choices": ["frais (et agréable)", "glacial", "humide", "étouffant"],
+          "a": 0
+        },
+        {
+          "id": "v5-25-e13",
+          "type": "choice",
+          "uses": ["v5-06"],
+          "q": "« Ce thé est chaud » se dit…",
+          "choices": ["このお{茶|ちゃ}はあついです。", "このお{茶|ちゃ}は{暑|あつ}いです。", "このお{茶|ちゃ}はあたたかです。", "このお{茶|ちゃ}はつめたいです。"],
+          "a": 0,
+          "explain": "Chaud au toucher : あつい (autre kanji). {暑|あつ}い, c'est pour le temps."
+        },
+        {
+          "id": "v5-25-e14",
+          "type": "choice",
+          "uses": ["v5-04"],
+          "jp": "{明日|あした}は＿ですから、{公園|こうえん}へ{行|い}きましょう。",
+          "fr": "Demain il fera beau, alors allons au parc.",
+          "choices": ["{晴|は}れ", "{雨|あめ}", "{風|かぜ}", "かぜ"],
+          "a": 0
+        },
+        {
+          "id": "v5-25-e15",
+          "type": "choice",
+          "q": "Que veut dire : ゆきが{降|ふ}ります。",
+          "choices": ["Il neige.", "Il pleut.", "Il grêle.", "Il y a du vent."],
+          "a": 0
+        },
+        {
+          "id": "v5-25-e16",
+          "type": "choice",
+          "uses": ["v5-05"],
+          "q": "Ton voisin te dit : いい{天気|てんき}ですね. Que veut-il dire ?",
+          "choices": ["Il fait beau, hein.", "Quel temps fera-t-il ?", "Il va pleuvoir.", "Il fait froid, hein."],
+          "a": 0
+        },
+        {
+          "id": "v5-25-e17",
+          "type": "choice",
+          "uses": ["v5-03"],
+          "jp": "{昨日|きのう}は{雨|あめ}がたくさん＿。",
+          "fr": "Hier, il a beaucoup plu.",
+          "choices": ["{降|ふ}りました", "{降|ふ}ります", "{降|ふ}って", "{降|ふ}るでした"],
+          "a": 0
+        },
+        {
+          "id": "v5-25-e18",
+          "type": "choice",
+          "jp": "＿はゆきが{降|ふ}って、とても{寒|さむ}いです。",
+          "fr": "En hiver, il neige et il fait très froid.",
+          "choices": ["{冬|ふゆ}", "{夏|なつ}", "{晴|は}れ", "{天気|てんき}"],
+          "a": 0
+        },
+        {"id": "v5-25-e19", "type": "order", "uses": ["v5-03"], "fr": "Demain, il va neiger.", "tokens": ["{明日|あした}は", "ゆきが", "{降|ふ}ります"]},
+        {"id": "v5-25-e20", "type": "order", "fr": "L'été japonais est chaud.", "tokens": ["{日本|にほん}の", "{夏|なつ}は", "{暑|あつ}いです"]}
+      ]
+    }
+  ],
+  "test": [
+    {
+      "id": "v5-b05-t01",
+      "type": "choice",
+      "uses": ["v5-21"],
+      "jp": "{田中|たなか}さんの＿は{何|なん}さいですか。",
+      "fr": "Quel âge a la mère de M. Tanaka ?",
+      "choices": ["お{母|かあ}さん", "{母|はは}", "{父|ちち}", "{姉|あね}"],
+      "a": 0
+    },
+    {
+      "id": "v5-b05-t02",
+      "type": "choice",
+      "uses": ["v5-23"],
+      "jp": "{頭|あたま}がいたくて、ねつも＿。",
+      "fr": "J'ai mal à la tête, et j'ai aussi de la fièvre.",
+      "choices": ["あります", "います", "です", "します"],
+      "a": 0
+    },
+    {
+      "id": "v5-b05-t03",
+      "type": "choice",
+      "uses": ["v5-22", "v5-24"],
+      "jp": "{部屋|へや}が＿ですから、{電気|でんき}をつけます。",
+      "fr": "La pièce est sombre, alors j'allume la lumière.",
+      "choices": ["{暗|くら}い", "{明|あか}るい", "{広|ひろ}い", "{重|おも}い"],
+      "a": 0
+    },
+    {
+      "id": "v5-b05-t04",
+      "type": "choice",
+      "uses": ["v5-25"],
+      "jp": "{冬|ふゆ}は{北海道|ほっかいどう}でゆきがたくさん＿。",
+      "fr": "En hiver, il neige beaucoup à Hokkaidō.",
+      "choices": ["{降|ふ}ります", "あります", "{来|き}ます", "します"],
+      "a": 0
+    },
+    {"id": "v5-b05-t05", "type": "choice", "uses": ["v5-21"], "q": "Comment se lit **妹** ?", "choices": ["いもうと", "おとうと", "あね", "いもと"], "a": 0},
+    {
+      "id": "v5-b05-t06",
+      "type": "choice",
+      "uses": ["v5-14", "v5-23"],
+      "jp": "かぜを＿、{学校|がっこう}を{休|やす}みました。",
+      "fr": "J'ai attrapé un rhume et je ne suis pas allé à l'école.",
+      "choices": ["ひいて", "とって", "して", "{飲|の}んで"],
+      "a": 0
+    },
+    {
+      "id": "v5-b05-t07",
+      "type": "choice",
+      "uses": ["v5-06", "v5-22"],
+      "jp": "{母|はは}は＿で{晩|ばん}ご{飯|はん}を{作|つく}っています。",
+      "fr": "Ma mère prépare le dîner dans la cuisine.",
+      "choices": ["{台所|だいどころ}", "おふろ", "かいだん", "ベッド"],
+      "a": 0
+    },
+    {
+      "id": "v5-b05-t08",
+      "type": "choice",
+      "uses": ["v5-13", "v5-24"],
+      "q": "Une seule de ces phrases est correcte. Laquelle ?",
+      "choices": ["{茶色|ちゃいろ}のくつをはいています。", "{茶色|ちゃいろ}いくつをはいています。", "{茶色|ちゃいろ}のくつを{着|き}ています。", "{茶色|ちゃいろ}なくつをはいています。"],
+      "a": 0
+    },
+    {
+      "id": "v5-b05-t09",
+      "type": "choice",
+      "uses": ["v5-25"],
+      "jp": "{夏|なつ}は{暑|あつ}いですが、{秋|あき}は＿です。",
+      "fr": "L'été est chaud, mais l'automne est frais.",
+      "choices": ["すずしい", "{暑|あつ}い", "つめたい", "{重|おも}い"],
+      "a": 0
+    },
+    {
+      "id": "v5-b05-t10",
+      "type": "choice",
+      "uses": ["v5-22"],
+      "q": "Dans un immeuble japonais, {一|いっ}かい, c'est…",
+      "choices": ["le rez-de-chaussée", "le premier étage", "le sous-sol", "le dernier étage"],
+      "a": 0
+    },
+    {
+      "id": "v5-b05-t11",
+      "type": "choice",
+      "uses": ["v5-11", "v5-23"],
+      "q": "Ton ami est malade. En le quittant, tu lui dis :",
+      "choices": ["{体|からだ}に{気|き}をつけてください。", "いただきます。", "いってきます。", "はじめまして。"],
+      "a": 0
+    },
+    {
+      "id": "v5-b05-t12",
+      "type": "choice",
+      "uses": ["v5-12", "v5-13", "v5-23"],
+      "jp": "{目|め}が{悪|わる}いですから、＿をかけています。",
+      "fr": "J'ai une mauvaise vue, alors je porte des lunettes.",
+      "choices": ["めがね", "ぼうし", "くつ", "コート"],
+      "a": 0
+    },
+    {
+      "id": "v5-b05-t13",
+      "type": "choice",
+      "uses": ["v5-20", "v5-22", "v5-24"],
+      "jp": "{外|そと}が＿ですから、{窓|まど}をしめます。",
+      "fr": "C'est bruyant dehors, alors je ferme la fenêtre.",
+      "choices": ["うるさい", "{静|しず}か", "{広|ひろ}い", "{軽|かる}い"],
+      "a": 0
+    },
+    {"id": "v5-b05-t14", "type": "order", "uses": ["v5-21"], "fr": "Mes parents habitent en France.", "tokens": ["りょうしんは", "フランスに", "{住|す}んでいます"]},
+    {
+      "id": "v5-b05-t15",
+      "type": "choice",
+      "uses": ["v5-06", "v5-25"],
+      "jp": "{今日|きょう}は{寒|さむ}いですから、＿{飲|の}み{物|もの}がほしいです。",
+      "fr": "Il fait froid aujourd'hui, alors j'ai envie d'une boisson chaude.",
+      "choices": ["あたたかい", "つめたい", "すずしい", "{暑|あつ}い"],
+      "a": 0,
+      "explain": "Une boisson chaude : あたたかい (ou あつい, au toucher). {暑|あつ}い ne se dit que du temps."
+    },
+    {
+      "id": "v5-b05-t16",
+      "type": "choice",
+      "uses": ["v5-21"],
+      "q": "Tu parles du grand frère de ton ami.",
+      "jp": "{田中|たなか}さんの＿はお{元気|げんき}ですか。",
+      "fr": "Le grand frère de M. Tanaka va bien ?",
+      "choices": ["お{兄|にい}さん", "{兄|あに}", "{弟|おとうと}", "{兄弟|きょうだい}"],
+      "a": 0
+    }
+  ]
+}
