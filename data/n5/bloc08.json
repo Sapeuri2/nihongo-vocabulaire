@@ -1,0 +1,1311 @@
+{
+  "id": "v5-b08",
+  "level": "N5",
+  "title": "Consolider le N5 : états, liaisons, durées, petits noms, paires",
+  "lessons": [
+    {
+      "id": "v5-36",
+      "title": "Verbes d'état et de situation",
+      "words": [
+        {"jp": "ある", "kana": "ある", "fr": "il y a, avoir (choses)", "ex": "つくえの{上|うえ}にペンがあります。", "exFr": "Il y a un stylo sur le bureau."},
+        {"jp": "いる", "kana": "いる", "fr": "avoir besoin de", "ex": "{日本|にほん}へ{行|い}くとき、ビザがいりますか。", "exFr": "Faut-il un visa pour aller au Japon ?"},
+        {"jp": "{住|す}む", "kana": "すむ", "fr": "habiter", "ex": "{兄|あに}は{大阪|おおさか}に{住|す}んでいます。", "exFr": "Mon grand frère habite à Osaka."},
+        {"jp": "{立|た}つ", "kana": "たつ", "fr": "se lever, être debout", "ex": "{駅|えき}の{前|まえ}に{田中|たなか}さんが{立|た}っています。", "exFr": "M. Tanaka est debout devant la gare."},
+        {"jp": "すわる", "kana": "すわる", "fr": "s'asseoir", "ex": "どうぞ、ここにすわってください。", "exFr": "Je vous en prie, asseyez-vous ici."},
+        {"jp": "{待|ま}つ", "kana": "まつ", "fr": "attendre", "ex": "{駅|えき}で{友|とも}だちを{待|ま}っています。", "exFr": "J'attends un ami à la gare."},
+        {"jp": "つかれる", "kana": "つかれる", "fr": "se fatiguer", "ex": "たくさん{働|はたら}いて、つかれました。", "exFr": "J'ai beaucoup travaillé, je suis fatigué."},
+        {"jp": "こまる", "kana": "こまる", "fr": "être embêté", "ex": "さいふをわすれて、こまりました。", "exFr": "J'ai oublié mon portefeuille, j'étais bien embêté."},
+        {"jp": "ちがう", "kana": "ちがう", "fr": "être différent ; être faux", "ex": "これは{私|わたし}のかさじゃないです。{色|いろ}がちがいます。", "exFr": "Ce n'est pas mon parapluie. La couleur est différente."},
+        {"jp": "けっこんする", "kana": "けっこんする", "fr": "se marier", "ex": "{姉|あね}は{来月|らいげつ}けっこんします。", "exFr": "Ma grande sœur se marie le mois prochain."},
+        {"jp": "{生|う}まれる", "kana": "うまれる", "fr": "naître", "ex": "{弟|おとうと}はフランスで{生|う}まれました。", "exFr": "Mon petit frère est né en France."},
+        {"jp": "{死|し}ぬ", "kana": "しぬ", "fr": "mourir", "ex": "{去年|きょねん}、うちの{犬|いぬ}が{死|し}にました。", "exFr": "L'an dernier, notre chien est mort."},
+        {"jp": "{止|と}まる", "kana": "とまる", "fr": "s'arrêter", "ex": "{電車|でんしゃ}が{駅|えき}に{止|と}まりました。", "exFr": "Le train s'est arrêté en gare."},
+        {"jp": "{急|いそ}ぐ", "kana": "いそぐ", "fr": "se dépêcher", "ex": "{時間|じかん}がありませんから、{急|いそ}いでください。", "exFr": "On n'a pas le temps, dépêchez-vous."}
+      ],
+      "sections": [
+        {
+          "h": "〜ています : un état",
+          "p": ["Avec ces verbes, la forme 〜ています décrit souvent un **état** qui dure, pas une action en cours."],
+          "grid": {
+            "head": ["", "sens"],
+            "rows": [
+              ["{住|す}んでいます", "j'habite (état durable)"],
+              ["{立|た}っています · すわっています", "être debout · être assis"],
+              ["けっこんしています", "être marié (≠ けっこんします : se marier)"],
+              ["つかれています", "être fatigué"],
+              ["{待|ま}っています", "être en train d'attendre"]
+            ]
+          }
+        }
+      ],
+      "pieges": [
+        "けっこん**しています** = je **suis** marié ; けっこん**します** = je **vais** me marier.",
+        "{住|す}む : le lieu prend **に** : {大阪|おおさか}**に**{住|す}んでいます.",
+        "いる (avoir besoin) : la chose prend **が** : ビザ**が**いります. Ne pas confondre avec いる (être) : いります (besoin, groupe 1) ≠ います (être).",
+        "{待|ま}つ (まつ, attendre) ≠ {持|も}つ (もつ, tenir) : kanji proches !",
+        "ちがう = être différent **et** « non, c'est faux » : ちがいます.",
+        "Formes て : {待|ま}つ → {待|ま}って ; {死|し}ぬ → {死|し}んで (le seul verbe en ぬ) ; {急|いそ}ぐ → {急|いそ}いで."
+      ],
+      "exercises": [
+        {
+          "id": "v5-36-e01",
+          "type": "choice",
+          "uses": ["v5-21"],
+          "jp": "{兄|あに}は{大阪|おおさか}＿{住|す}んでいます。",
+          "fr": "Mon grand frère habite à Osaka.",
+          "choices": ["に", "で", "を", "へ"],
+          "a": 0,
+          "explain": "{住|す}む : lieu + に."
+        },
+        {
+          "id": "v5-36-e02",
+          "type": "choice",
+          "uses": ["v5-08", "v5-10", "v5-21"],
+          "jp": "{姉|あね}はもうけっこん＿。{子|こ}どもが{二人|ふたり}います。",
+          "fr": "Ma grande sœur est déjà mariée. Elle a deux enfants.",
+          "choices": ["しています", "します", "していません", "しませんでした"],
+          "a": 0
+        },
+        {
+          "id": "v5-36-e03",
+          "type": "choice",
+          "jp": "{日本|にほん}へ{行|い}くとき、ビザが＿か。",
+          "fr": "Faut-il un visa pour aller au Japon ?",
+          "choices": ["いります", "います", "すわります", "{住|す}みます"],
+          "a": 0,
+          "explain": "Avoir besoin : いる → いります (groupe 1). います, c'est « être » (personnes, animaux)."
+        },
+        {
+          "id": "v5-36-e04",
+          "type": "choice",
+          "uses": ["v5-26"],
+          "jp": "{駅|えき}で{友|とも}だちを＿います。",
+          "fr": "J'attends un ami à la gare.",
+          "choices": ["{待|ま}って", "{持|も}って", "{住|す}んで", "すわって"],
+          "a": 0
+        },
+        {
+          "id": "v5-36-e05",
+          "type": "choice",
+          "uses": ["v5-11", "v5-22"],
+          "jp": "いすがありますから、どうぞ＿ください。",
+          "fr": "Il y a une chaise, alors asseyez-vous, je vous en prie.",
+          "choices": ["すわって", "{立|た}って", "{死|し}んで", "けっこんして"],
+          "a": 0
+        },
+        {
+          "id": "v5-36-e06",
+          "type": "choice",
+          "uses": ["v5-15"],
+          "jp": "{今日|きょう}はたくさん{歩|ある}きましたから、＿。",
+          "fr": "J'ai beaucoup marché aujourd'hui, alors je suis fatigué.",
+          "choices": ["つかれました", "ちがいました", "{生|う}まれました", "{住|す}みました"],
+          "a": 0
+        },
+        {
+          "id": "v5-36-e07",
+          "type": "choice",
+          "uses": ["v5-12", "v5-28"],
+          "jp": "さいふをうちにわすれて、＿。お{金|かね}がありません。",
+          "fr": "J'ai oublié mon portefeuille à la maison, j'étais bien embêté. Je n'ai pas d'argent.",
+          "choices": ["こまりました", "つかれました", "{生|う}まれました", "すわりました"],
+          "a": 0
+        },
+        {
+          "id": "v5-36-e08",
+          "type": "choice",
+          "uses": ["v5-24"],
+          "jp": "これは{私|わたし}のかさじゃないです。{色|いろ}が＿。",
+          "fr": "Ce n'est pas mon parapluie. La couleur est différente.",
+          "choices": ["ちがいます", "{待|ま}ちます", "{住|す}みます", "いります"],
+          "a": 0
+        },
+        {
+          "id": "v5-36-e09",
+          "type": "choice",
+          "uses": ["v5-21"],
+          "q": "Que veut dire : {弟|おとうと}はフランスで{生|う}まれました。",
+          "choices": [
+            "Mon petit frère est né en France.",
+            "Mon petit frère habite en France.",
+            "Mon petit frère s'est marié en France.",
+            "Mon petit frère est mort en France."
+          ],
+          "a": 0
+        },
+        {
+          "id": "v5-36-e10",
+          "type": "choice",
+          "uses": ["v5-15"],
+          "jp": "{電車|でんしゃ}が{駅|えき}に＿。",
+          "fr": "Le train s'est arrêté en gare.",
+          "choices": ["{止|と}まりました", "{止|と}めました", "すわりました", "{立|た}ちました"],
+          "a": 0
+        },
+        {
+          "id": "v5-36-e11",
+          "type": "choice",
+          "jp": "{時間|じかん}がありませんから、＿ください。",
+          "fr": "On n'a pas le temps, dépêchez-vous.",
+          "choices": ["{急|いそ}いで", "{住|す}んで", "すわって", "つかれて"],
+          "a": 0
+        },
+        {
+          "id": "v5-36-e12",
+          "type": "choice",
+          "uses": ["v5-02"],
+          "q": "Forme て de **{死|し}ぬ** ?",
+          "choices": ["{死|し}んで", "{死|し}いで", "{死|し}って", "{死|し}ぬて"],
+          "a": 0,
+          "explain": "ぬ → んで (comme む et ぶ)."
+        },
+        {
+          "id": "v5-36-e13",
+          "type": "choice",
+          "uses": ["v5-02"],
+          "q": "Forme て de **{待|ま}つ** ?",
+          "choices": ["{待|ま}って", "{待|ま}ちて", "{待|ま}んで", "{待|ま}いて"],
+          "a": 0,
+          "explain": "つ → って."
+        },
+        {
+          "id": "v5-36-e14",
+          "type": "choice",
+          "uses": ["v5-02"],
+          "q": "Forme て de **{急|いそ}ぐ** ?",
+          "choices": ["{急|いそ}いで", "{急|いそ}いて", "{急|いそ}んで", "{急|いそ}って"],
+          "a": 0,
+          "explain": "ぐ → いで."
+        },
+        {
+          "id": "v5-36-e15",
+          "type": "choice",
+          "uses": ["v5-29"],
+          "jp": "これは{田中|たなか}さんのペンですか。— いいえ、＿。{私|わたし}のです。",
+          "fr": "C'est le stylo de M. Tanaka ? — Non, ce n'est pas ça. C'est le mien.",
+          "choices": ["ちがいます", "いります", "あります", "こまります"],
+          "a": 0
+        },
+        {"id": "v5-36-e16", "type": "choice", "q": "« Il est marié » se dit…", "choices": ["けっこんしています", "けっこんします", "けっこんがいます", "けっこんであります"], "a": 0},
+        {"id": "v5-36-e17", "type": "choice", "q": "Comment se lit **住む** ?", "choices": ["すむ", "じゅうむ", "すすむ", "いむ"], "a": 0},
+        {
+          "id": "v5-36-e18",
+          "type": "order",
+          "uses": ["v5-04", "v5-20"],
+          "fr": "J'attends un ami devant la gare.",
+          "tokens": ["{駅|えき}の{前|まえ}で", "{友|とも}だちを", "{待|ま}っています"],
+          "alt": [["{友|とも}だちを", "{駅|えき}の{前|まえ}で", "{待|ま}っています"]]
+        },
+        {
+          "id": "v5-36-e19",
+          "type": "order",
+          "uses": ["v5-21"],
+          "fr": "Mon grand frère habite à Osaka.",
+          "tokens": ["{兄|あに}は", "{大阪|おおさか}に", "{住|す}んでいます"]
+        }
+      ]
+    },
+    {
+      "id": "v5-37",
+      "title": "Mots de liaison et adverbes",
+      "words": [
+        {"jp": "でも", "kana": "でも", "fr": "mais (en début de phrase)", "ex": "{日本語|にほんご}はむずかしいです。でも、おもしろいです。", "exFr": "Le japonais est difficile. Mais c'est intéressant."},
+        {"jp": "それから", "kana": "それから", "fr": "et ensuite", "ex": "{朝|あさ}ご{飯|はん}を{食|た}べました。それから、{会社|かいしゃ}へ{行|い}きました。", "exFr": "J'ai pris mon petit-déjeuner. Ensuite, je suis allé au bureau."},
+        {"jp": "そして", "kana": "そして", "fr": "et (en plus)", "ex": "この{部屋|へや}は{広|ひろ}いです。そして、{明|あか}るいです。", "exFr": "Cette pièce est spacieuse. Et elle est lumineuse."},
+        {"jp": "だから", "kana": "だから", "fr": "donc, c'est pourquoi", "ex": "{雨|あめ}が{降|ふ}っています。だから、{今日|きょう}は{出|で}かけません。", "exFr": "Il pleut. Donc aujourd'hui, je ne sors pas."},
+        {"jp": "もっと", "kana": "もっと", "fr": "plus, davantage", "ex": "もっと{食|た}べてください。", "exFr": "Mangez encore, je vous en prie."},
+        {"jp": "ゆっくり", "kana": "ゆっくり", "fr": "lentement ; tranquillement", "ex": "ゆっくり{休|やす}んでください。", "exFr": "Reposez-vous bien."},
+        {"jp": "ほんとうに", "kana": "ほんとうに", "fr": "vraiment", "ex": "ほんとうにありがとうございました。", "exFr": "Merci vraiment beaucoup."},
+        {"jp": "いちばん", "kana": "いちばん", "fr": "le plus ; numéro un", "ex": "{果物|くだもの}の{中|なか}でりんごがいちばん{好|す}きです。", "exFr": "Parmi les fruits, c'est la pomme que je préfère."},
+        {"jp": "いろいろ", "kana": "いろいろ", "fr": "divers, toutes sortes de", "ex": "いろいろな{国|くに}の{料理|りょうり}を{食|た}べました。", "exFr": "J'ai mangé des plats de toutes sortes de pays."},
+        {"jp": "たぶん", "kana": "たぶん", "fr": "sans doute, probablement", "ex": "{明日|あした}はたぶん{雨|あめ}でしょう。", "exFr": "Demain, il pleuvra sans doute."},
+        {"jp": "たいへん", "kana": "たいへん", "fr": "dur, pénible ; très", "ex": "{毎日|まいにち}{仕事|しごと}が{多|おお}くて、たいへんです。", "exFr": "J'ai beaucoup de travail tous les jours, c'est dur."},
+        {"jp": "じゃあ", "kana": "じゃあ", "fr": "bon, alors", "ex": "じゃあ、また{明日|あした}。", "exFr": "Bon, à demain !"},
+        {"jp": "あとで", "kana": "あとで", "fr": "plus tard", "ex": "{今|いま}いそがしいですから、あとで{電話|でんわ}します。", "exFr": "Je suis occupé, je t'appelle plus tard."},
+        {"jp": "どうも", "kana": "どうも", "fr": "vraiment, très (merci)", "ex": "どうもありがとうございます。", "exFr": "Merci beaucoup."},
+        {"jp": "{先|さき}に", "kana": "さきに", "fr": "d'abord, avant (les autres)", "ex": "どうぞ、{先|さき}に{食|た}べてください。", "exFr": "Je vous en prie, commencez à manger sans moi."}
+      ],
+      "sections": [
+        {
+          "h": "Relier deux phrases",
+          "p": ["Ces mots se mettent **au début** de la deuxième phrase, suivis d'une virgule."],
+          "grid": {
+            "head": ["", "sens"],
+            "rows": [
+              ["そして", "et (on ajoute une information)"],
+              ["それから", "et ensuite (ordre dans le temps)"],
+              ["でも", "mais"],
+              ["だから", "donc, c'est pourquoi"],
+              ["じゃあ", "bon, alors (pour conclure, changer de sujet)"]
+            ]
+          }
+        }
+      ],
+      "pieges": [
+        "でも commence une phrase : 〜です。**でも**、〜. Au milieu d'une phrase, « mais » se dit 〜です**が**、〜.",
+        "**だから**、〜 (donc, en début de phrase) ; 〜**から** (parce que, en fin de proposition).",
+        "それから = et puis (l'ordre des actions) ; そして = et (une information de plus).",
+        "たいへん : « c'est dur » ({仕事|しごと}がたいへんです) ou « très » en langage poli (たいへんおいしい).",
+        "いろいろ**な** + nom : いろいろな{国|くに}.",
+        "いちばん = le plus : いちばん{好|す}き = préféré ; いちばん{高|たか}い = le plus haut / cher."
+      ],
+      "exercises": [
+        {
+          "id": "v5-37-e01",
+          "type": "choice",
+          "uses": ["v5-18"],
+          "jp": "{日本語|にほんご}はむずかしいです。＿、おもしろいです。",
+          "fr": "Le japonais est difficile. Mais c'est intéressant.",
+          "choices": ["でも", "だから", "それから", "じゃあ"],
+          "a": 0
+        },
+        {
+          "id": "v5-37-e02",
+          "type": "choice",
+          "uses": ["v5-14", "v5-25"],
+          "jp": "{雨|あめ}が{降|ふ}っています。＿、{今日|きょう}は{出|で}かけません。",
+          "fr": "Il pleut. Donc aujourd'hui, je ne sors pas.",
+          "choices": ["だから", "でも", "それから", "もっと"],
+          "a": 0
+        },
+        {
+          "id": "v5-37-e03",
+          "type": "choice",
+          "uses": ["v5-06"],
+          "jp": "{朝|あさ}ご{飯|はん}を{食|た}べました。＿、{会社|かいしゃ}へ{行|い}きました。",
+          "fr": "J'ai pris mon petit-déjeuner. Ensuite, je suis allé au bureau.",
+          "choices": ["それから", "でも", "だから", "もっと"],
+          "a": 0
+        },
+        {
+          "id": "v5-37-e04",
+          "type": "choice",
+          "jp": "すみません、＿ゆっくり{話|はな}してください。",
+          "fr": "Excusez-moi, parlez plus lentement, s'il vous plaît.",
+          "choices": ["もっと", "いちばん", "たぶん", "じゃあ"],
+          "a": 0
+        },
+        {
+          "id": "v5-37-e05",
+          "type": "choice",
+          "uses": ["v5-06", "v5-19"],
+          "jp": "{果物|くだもの}の{中|なか}でりんごが＿{好|す}きです。",
+          "fr": "Parmi les fruits, c'est la pomme que je préfère.",
+          "choices": ["いちばん", "もっと", "ゆっくり", "あとで"],
+          "a": 0
+        },
+        {
+          "id": "v5-37-e06",
+          "type": "choice",
+          "uses": ["v5-25"],
+          "jp": "{明日|あした}は＿{雨|あめ}でしょう。",
+          "fr": "Demain, il pleuvra sans doute.",
+          "choices": ["たぶん", "いちばん", "もっと", "ゆっくり"],
+          "a": 0
+        },
+        {
+          "id": "v5-37-e07",
+          "type": "choice",
+          "uses": ["v5-18"],
+          "jp": "{今|いま}いそがしいですから、＿{電話|でんわ}します。",
+          "fr": "Je suis occupé, je t'appelle plus tard.",
+          "choices": ["あとで", "{先|さき}に", "いちばん", "いろいろ"],
+          "a": 0
+        },
+        {
+          "id": "v5-37-e08",
+          "type": "choice",
+          "uses": ["v5-10"],
+          "jp": "＿な{国|くに}の{料理|りょうり}を{食|た}べました。",
+          "fr": "J'ai mangé des plats de toutes sortes de pays.",
+          "choices": ["いろいろ", "たくさん", "いちばん", "たぶん"],
+          "a": 0
+        },
+        {
+          "id": "v5-37-e09",
+          "type": "choice",
+          "q": "Que veut dire **ゆっくり** ?",
+          "choices": ["lentement, tranquillement", "vite", "bientôt", "souvent"],
+          "a": 0
+        },
+        {
+          "id": "v5-37-e10",
+          "type": "choice",
+          "uses": ["v5-30"],
+          "jp": "{毎日|まいにち}{仕事|しごと}が{多|おお}くて、＿です。",
+          "fr": "J'ai beaucoup de travail tous les jours, c'est dur.",
+          "choices": ["たいへん", "ゆっくり", "たぶん", "{先|さき}に"],
+          "a": 0
+        },
+        {
+          "id": "v5-37-e11",
+          "type": "choice",
+          "q": "À la fin d'une conversation, tu dis « Bon, à demain ! » :",
+          "choices": ["じゃあ、また{明日|あした}。", "だから、また{明日|あした}。", "でも、また{明日|あした}。", "もっと、また{明日|あした}。"],
+          "a": 0
+        },
+        {
+          "id": "v5-37-e12",
+          "type": "choice",
+          "q": "Que veut dire : ほんとうにありがとうございました。",
+          "choices": ["Merci vraiment beaucoup.", "Merci quand même.", "Merci d'avance.", "Merci, c'est assez."],
+          "a": 0
+        },
+        {
+          "id": "v5-37-e13",
+          "type": "choice",
+          "jp": "どうぞ、＿{食|た}べてください。{私|わたし}はあとで{食|た}べます。",
+          "fr": "Je vous en prie, mangez d'abord. Moi, je mangerai plus tard.",
+          "choices": ["{先|さき}に", "あとで", "いちばん", "たぶん"],
+          "a": 0
+        },
+        {
+          "id": "v5-37-e14",
+          "type": "choice",
+          "uses": ["v5-24"],
+          "jp": "この{部屋|へや}は{広|ひろ}いです。＿、{明|あか}るいです。",
+          "fr": "Cette pièce est spacieuse. Et elle est lumineuse.",
+          "choices": ["そして", "でも", "もっと", "じゃあ"],
+          "a": 0
+        },
+        {
+          "id": "v5-37-e15",
+          "type": "choice",
+          "uses": ["v5-13", "v5-25"],
+          "q": "Une seule de ces phrases est correcte. Laquelle ?",
+          "choices": ["{寒|さむ}いです。だから、コートを{着|き}ます。", "{寒|さむ}いです。から、コートを{着|き}ます。", "{寒|さむ}いですだから、コートを{着|き}ます。", "{寒|さむ}いから、だからコートを{着|き}ます。"],
+          "a": 0,
+          "explain": "だから commence une nouvelle phrase ; から se colle à la fin de la première."
+        },
+        {
+          "id": "v5-37-e16",
+          "type": "choice",
+          "q": "Que veut dire **どうも** dans « どうもありがとう » ?",
+          "choices": ["vraiment, beaucoup", "pourquoi", "comment", "déjà"],
+          "a": 0
+        },
+        {"id": "v5-37-e17", "type": "choice", "q": "Que veut dire **ほんとうに** ?", "choices": ["vraiment", "peut-être", "lentement", "encore"], "a": 0},
+        {
+          "id": "v5-37-e18",
+          "type": "order",
+          "uses": ["v5-02"],
+          "fr": "Parlez plus lentement, s'il vous plaît.",
+          "tokens": ["もっと", "ゆっくり", "{話|はな}してください"]
+        },
+        {
+          "id": "v5-37-e19",
+          "type": "order",
+          "uses": ["v5-14"],
+          "fr": "Je me suis levé, puis j'ai pris une douche.",
+          "tokens": ["{起|お}きました。", "それから、", "シャワーを", "あびました"]
+        }
+      ]
+    },
+    {
+      "id": "v5-38",
+      "title": "Durées et fréquences",
+      "words": [
+        {"jp": "〜{度|ど}", "kana": "〜ど", "fr": "… fois", "ex": "{一週間|いっしゅうかん}に{二度|にど}テニスをします。", "exFr": "Je joue au tennis deux fois par semaine."},
+        {"jp": "〜{週間|しゅうかん}", "kana": "〜しゅうかん", "fr": "… semaine(s) (durée)", "ex": "{日本|にほん}に{二週間|にしゅうかん}いました。", "exFr": "Je suis resté deux semaines au Japon."},
+        {"jp": "〜か{月|げつ}", "kana": "〜かげつ", "fr": "… mois (durée)", "ex": "{三|さん}か{月|げつ}{日本語|にほんご}を{勉強|べんきょう}しました。", "exFr": "J'ai étudié le japonais pendant trois mois."},
+        {"jp": "〜{年|ねん}", "kana": "〜ねん", "fr": "… an(s) ; l'année …", "ex": "{五年|ごねん}{日本|にほん}に{住|す}んでいます。", "exFr": "J'habite au Japon depuis cinq ans."},
+        {"jp": "〜{時間|じかん}", "kana": "〜じかん", "fr": "… heure(s) (durée)", "ex": "{毎日|まいにち}{七時間|しちじかん}ねます。", "exFr": "Je dors sept heures par nuit."},
+        {"jp": "{毎週|まいしゅう}", "kana": "まいしゅう", "fr": "toutes les semaines", "ex": "{毎週|まいしゅう}{土曜日|どようび}にプールへ{行|い}きます。", "exFr": "Je vais à la piscine tous les samedis."},
+        {"jp": "{毎月|まいつき}", "kana": "まいつき", "fr": "tous les mois", "ex": "{毎月|まいつき}{家族|かぞく}に{手紙|てがみ}を{書|か}きます。", "exFr": "J'écris à ma famille tous les mois."},
+        {"jp": "{毎年|まいとし}", "kana": "まいとし", "fr": "tous les ans", "ex": "{毎年|まいとし}{夏|なつ}は{海|うみ}へ{行|い}きます。", "exFr": "Tous les ans, l'été, je vais à la mer."},
+        {"jp": "{今月|こんげつ}", "kana": "こんげつ", "fr": "ce mois-ci", "ex": "{今月|こんげつ}はいそがしいです。", "exFr": "Ce mois-ci, je suis occupé."},
+        {"jp": "おととい", "kana": "おととい", "fr": "avant-hier", "ex": "おととい{友|とも}だちに{会|あ}いました。", "exFr": "Avant-hier, j'ai vu un ami."},
+        {"jp": "あさって", "kana": "あさって", "fr": "après-demain", "ex": "あさってはひまですか。", "exFr": "Tu es libre après-demain ?"},
+        {"jp": "{一日|いちにち}", "kana": "いちにち", "fr": "une journée", "ex": "{一日|いちにち}に{三時間|さんじかん}{勉強|べんきょう}します。", "exFr": "J'étudie trois heures par jour."},
+        {"jp": "〜ぐらい", "kana": "〜ぐらい", "fr": "environ", "ex": "{駅|えき}まで{歩|ある}いて{十分|じゅっぷん}ぐらいです。", "exFr": "La gare est à environ dix minutes à pied."},
+        {"jp": "とき", "kana": "とき", "fr": "quand, moment", "ex": "{子|こ}どものとき、{大阪|おおさか}に{住|す}んでいました。", "exFr": "Quand j'étais enfant, j'habitais à Osaka."}
+      ],
+      "sections": [
+        {
+          "h": "D'avant-hier à après-demain",
+          "p": ["Tu connais déjà presque tout : il manque les deux bouts de chaque ligne."],
+          "grid": {
+            "head": ["", "passé → présent → futur"],
+            "rows": [
+              ["jours", "==おととい== → {昨日|きのう} → {今日|きょう} → {明日|あした} → ==あさって=="],
+              ["semaines", "{先週|せんしゅう} → {今週|こんしゅう} → {来週|らいしゅう}"],
+              ["mois", "{先月|せんげつ} → =={今月|こんげつ}== → {来月|らいげつ}"],
+              ["années", "{去年|きょねん} → {今年|ことし} → {来年|らいねん}"],
+              ["chaque…", "{毎日|まいにち} · =={毎週|まいしゅう}== · =={毎月|まいつき}== · =={毎年|まいとし}=="]
+            ]
+          }
+        },
+        {
+          "h": "Pendant combien de temps ?",
+          "p": ["Une durée se place devant le verbe, **sans particule**."],
+          "grid": {
+            "head": ["", "durée"],
+            "rows": [
+              ["heures", "{二時間|にじかん}"],
+              ["jours", "{一日|いちにち} · {二日|ふつか} · {三日|みっか}…"],
+              ["semaines", "{一週間|いっしゅうかん} · {二週間|にしゅうかん}"],
+              ["mois", "{一|いっ}か{月|げつ} · {三|さん}か{月|げつ}"],
+              ["années", "{一年|いちねん} · {五年|ごねん}"]
+            ]
+          }
+        }
+      ],
+      "pieges": [
+        "Durée : **pas de に** → {二時間|にじかん}{勉強|べんきょう}する. Heure précise : に → {二時|にじ}に{勉強|べんきょう}する.",
+        "〜か{月|げつ} (durée : trois mois) ≠ 〜{月|がつ} (le mois : {三月|さんがつ} = mars).",
+        "{一日|いちにち} (une journée) ≠ {一日|ついたち} (le 1er du mois).",
+        "Fréquence : période + **に** + nombre de fois → {一週間|いっしゅうかん}**に**{二度|にど}.",
+        "〜ぐらい = environ (durée, quantité) ; 〜ごろ = vers (un moment précis) : {十分|じゅっぷん}ぐらい / {十時|じゅうじ}ごろ.",
+        "{毎月|まいつき} et {毎年|まいとし} : つき et とし, lectures japonaises."
+      ],
+      "exercises": [
+        {
+          "id": "v5-38-e01",
+          "type": "choice",
+          "uses": ["v5-31"],
+          "jp": "{一週間|いっしゅうかん}＿{二度|にど}テニスをします。",
+          "fr": "Je joue au tennis deux fois par semaine.",
+          "choices": ["に", "で", "を", "が"],
+          "a": 0,
+          "explain": "Fréquence : période + に + nombre de fois."
+        },
+        {
+          "id": "v5-38-e02",
+          "type": "choice",
+          "uses": ["v5-03", "v5-14"],
+          "q": "Une seule de ces phrases est correcte. Laquelle ?",
+          "choices": [
+            "{毎日|まいにち}{二時間|にじかん}{勉強|べんきょう}します。",
+            "{毎日|まいにち}{二時間|にじかん}に{勉強|べんきょう}します。",
+            "{毎日|まいにち}に{二時間|にじかん}{勉強|べんきょう}します。",
+            "{毎日|まいにち}{二時間|にじかん}を{勉強|べんきょう}します。"
+          ],
+          "a": 0,
+          "explain": "Une durée n'a pas de particule ; {毎日|まいにち} non plus."
+        },
+        {
+          "id": "v5-38-e03",
+          "type": "choice",
+          "uses": ["v5-17"],
+          "q": "« pendant trois mois » se dit…",
+          "choices": ["{三|さん}か{月|げつ}", "{三月|さんがつ}", "{三週間|さんしゅうかん}", "{三年|さんねん}"],
+          "a": 0
+        },
+        {
+          "id": "v5-38-e04",
+          "type": "choice",
+          "uses": ["v5-03", "v5-17"],
+          "jp": "{今日|きょう}は{水曜日|すいようび}です。{月曜日|げつようび}は＿でした。",
+          "fr": "Aujourd'hui, nous sommes mercredi. Lundi, c'était avant-hier.",
+          "choices": ["おととい", "あさって", "{昨日|きのう}", "{明日|あした}"],
+          "a": 0
+        },
+        {
+          "id": "v5-38-e05",
+          "type": "choice",
+          "uses": ["v5-03", "v5-17"],
+          "jp": "{今日|きょう}は{水曜日|すいようび}です。＿は{金曜日|きんようび}です。",
+          "fr": "Aujourd'hui, nous sommes mercredi. Après-demain, c'est vendredi.",
+          "choices": ["あさって", "おととい", "{明日|あした}", "{来週|らいしゅう}"],
+          "a": 0
+        },
+        {
+          "id": "v5-38-e06",
+          "type": "choice",
+          "uses": ["v5-08", "v5-18"],
+          "jp": "{日本|にほん}に＿いました。とても{楽|たの}しかったです。",
+          "fr": "Je suis resté deux semaines au Japon. C'était très agréable.",
+          "choices": ["{二週間|にしゅうかん}", "{二時|にじ}", "{二|ふた}つ", "{二|に}まい"],
+          "a": 0
+        },
+        {
+          "id": "v5-38-e07",
+          "type": "choice",
+          "uses": ["v5-36"],
+          "jp": "{子|こ}どもの＿、{大阪|おおさか}に{住|す}んでいました。",
+          "fr": "Quand j'étais enfant, j'habitais à Osaka.",
+          "choices": ["とき", "{時間|じかん}", "ぐらい", "{度|ど}"],
+          "a": 0
+        },
+        {
+          "id": "v5-38-e08",
+          "type": "choice",
+          "uses": ["v5-16"],
+          "jp": "{駅|えき}まで{歩|ある}いて{十分|じゅっぷん}＿です。",
+          "fr": "La gare est à environ dix minutes à pied.",
+          "choices": ["ぐらい", "ごろ", "とき", "{度|ど}"],
+          "a": 0,
+          "explain": "Une durée approximative : ぐらい. ごろ, c'est pour une heure précise."
+        },
+        {
+          "id": "v5-38-e09",
+          "type": "choice",
+          "uses": ["v5-17"],
+          "jp": "{毎週|まいしゅう}＿にプールへ{行|い}きます。",
+          "fr": "Je vais à la piscine tous les samedis.",
+          "choices": ["{土曜日|どようび}", "{今月|こんげつ}", "おととい", "あさって"],
+          "a": 0
+        },
+        {
+          "id": "v5-38-e10",
+          "type": "choice",
+          "uses": ["v5-03", "v5-17", "v5-18"],
+          "jp": "＿は{仕事|しごと}がたくさんありますから、いそがしいです。",
+          "fr": "Ce mois-ci, j'ai beaucoup de travail, alors je suis occupé.",
+          "choices": ["{今月|こんげつ}", "おととい", "{先月|せんげつ}", "{去年|きょねん}"],
+          "a": 0
+        },
+        {
+          "id": "v5-38-e11",
+          "type": "choice",
+          "uses": ["v5-17"],
+          "q": "Dans « 一日に三時間勉強します », comment se lit **一日** ?",
+          "choices": ["いちにち", "ついたち", "ひとひ", "いちび"],
+          "a": 0
+        },
+        {
+          "id": "v5-38-e12",
+          "type": "choice",
+          "q": "Que veut dire **おととい** ?",
+          "choices": ["avant-hier", "après-demain", "hier soir", "la semaine dernière"],
+          "a": 0
+        },
+        {
+          "id": "v5-38-e13",
+          "type": "choice",
+          "q": "Que veut dire **{毎月|まいつき}** ?",
+          "choices": ["tous les mois", "tous les ans", "le mois prochain", "ce mois-ci"],
+          "a": 0
+        },
+        {
+          "id": "v5-38-e14",
+          "type": "choice",
+          "uses": ["v5-02", "v5-09"],
+          "jp": "{毎日|まいにち}＿ねますか。— {七時間|しちじかん}ぐらいです。",
+          "fr": "Tu dors combien d'heures par nuit ? — Environ sept heures.",
+          "choices": ["{何時間|なんじかん}", "{何時|なんじ}", "{何度|なんど}", "いくら"],
+          "a": 0
+        },
+        {
+          "id": "v5-38-e15",
+          "type": "choice",
+          "uses": ["v5-16"],
+          "q": "« vers 8 h » se dit…",
+          "choices": ["{八時|はちじ}ごろ", "{八時間|はちじかん}ぐらい", "{八時|はちじ}まで", "{八|はち}ごろ"],
+          "a": 0
+        },
+        {"id": "v5-38-e16", "type": "choice", "q": "Comment se lit **一か月** (un mois) ?", "choices": ["いっかげつ", "いちかげつ", "ひとかげつ", "いっかがつ"], "a": 0},
+        {
+          "id": "v5-38-e17",
+          "type": "order",
+          "uses": ["v5-31"],
+          "fr": "Je joue au tennis deux fois par semaine.",
+          "tokens": ["{一週間|いっしゅうかん}に", "{二度|にど}", "テニスを", "します"],
+          "alt": [["テニスを", "{一週間|いっしゅうかん}に", "{二度|にど}", "します"]]
+        },
+        {
+          "id": "v5-38-e18",
+          "type": "order",
+          "uses": ["v5-14"],
+          "fr": "J'ai étudié le japonais pendant trois mois.",
+          "tokens": ["{三|さん}か{月|げつ}", "{日本語|にほんご}を", "{勉強|べんきょう}しました"],
+          "alt": [["{日本語|にほんご}を", "{三|さん}か{月|げつ}", "{勉強|べんきょう}しました"]]
+        }
+      ]
+    },
+    {
+      "id": "v5-39",
+      "title": "Petits noms utiles",
+      "words": [
+        {"jp": "{物|もの}", "kana": "もの", "fr": "chose, objet", "ex": "あの{店|みせ}ではいろいろな{物|もの}を{売|う}っています。", "exFr": "Ce magasin vend toutes sortes de choses."},
+        {"jp": "こと", "kana": "こと", "fr": "chose (abstraite), sujet", "ex": "{日本|にほん}のことをもっと{知|し}りたいです。", "exFr": "Je veux en savoir plus sur le Japon."},
+        {"jp": "ところ", "kana": "ところ", "fr": "endroit", "ex": "{静|しず}かなところに{住|す}みたいです。", "exFr": "Je veux habiter dans un endroit calme."},
+        {"jp": "{方|かた}", "kana": "かた", "fr": "personne (poli)", "ex": "あの{方|かた}はどなたですか。", "exFr": "Qui est cette personne ?"},
+        {"jp": "〜{方|かた}", "kana": "〜かた", "fr": "manière de …", "ex": "この{漢字|かんじ}の{読|よ}み{方|かた}を{教|おし}えてください。", "exFr": "Apprenez-moi comment se lit ce kanji."},
+        {"jp": "{半分|はんぶん}", "kana": "はんぶん", "fr": "moitié", "ex": "ケーキを{半分|はんぶん}{食|た}べました。", "exFr": "J'ai mangé la moitié du gâteau."},
+        {"jp": "つぎ", "kana": "つぎ", "fr": "suivant, prochain", "ex": "つぎの{駅|えき}で{降|お}ります。", "exFr": "Je descends à la prochaine gare."},
+        {"jp": "ほか", "kana": "ほか", "fr": "autre", "ex": "ほかに{質問|しつもん}はありますか。", "exFr": "Avez-vous d'autres questions ?"},
+        {"jp": "{自分|じぶん}", "kana": "じぶん", "fr": "soi-même", "ex": "{自分|じぶん}の{部屋|へや}をそうじしてください。", "exFr": "Range ta propre chambre."},
+        {"jp": "{用事|ようじ}", "kana": "ようじ", "fr": "affaire, chose à faire", "ex": "{明日|あした}は{用事|ようじ}があります。", "exFr": "Demain, j'ai quelque chose à faire."},
+        {"jp": "お{手洗|てあら}い", "kana": "おてあらい", "fr": "toilettes", "ex": "すみません、お{手洗|てあら}いはどこですか。", "exFr": "Excusez-moi, où sont les toilettes ?"},
+        {"jp": "みなさん", "kana": "みなさん", "fr": "tout le monde (en s'adressant à un groupe)", "ex": "みなさん、おはようございます。", "exFr": "Bonjour à tous."},
+        {"jp": "{別|べつ}", "kana": "べつ", "fr": "autre, différent", "ex": "これはちょっと{高|たか}いですから、{別|べつ}のをください。", "exFr": "C'est un peu cher, donnez-m'en un autre."}
+      ],
+      "sections": [
+        {
+          "h": "もの, こと, ところ, 〜かた",
+          "p": ["Quatre petits noms qui servent partout."],
+          "grid": {
+            "head": ["", "sens"],
+            "rows": [
+              ["{物|もの}", "une chose concrète : {食|た}べ{物|もの}, {飲|の}み{物|もの}, {買|か}い{物|もの}"],
+              ["こと", "une chose abstraite, un sujet : {日本|にほん}のこと"],
+              ["ところ", "un endroit : {静|しず}かなところ"],
+              ["〜{方|かた}", "la manière de : {読|よ}み{方|かた}, {書|か}き{方|かた}, {使|つか}い{方|かた}"]
+            ]
+          }
+        }
+      ],
+      "pieges": [
+        "{物|もの} = ce qu'on peut toucher ; こと = une idée, un événement, un sujet.",
+        "〜{方|かた} : radical du verbe (forme ます sans ます) + {方|かた} → {書|か}き{方|かた}, {行|い}き{方|かた}.",
+        "あの{方|かた} = cette personne, en très poli (= あの{人|ひと}).",
+        "お{手洗|てあら}い = les toilettes, en poli (= トイレ).",
+        "ほかに = d'autre, à part ça : ほかに{何|なに}かありますか.",
+        "{自分|じぶん}で = soi-même, tout seul : {自分|じぶん}で{作|つく}りました.",
+        "みなさん s'adresse à un groupe ; みんな parle de tout le monde."
+      ],
+      "exercises": [
+        {
+          "id": "v5-39-e01",
+          "type": "choice",
+          "uses": ["v5-28", "v5-29"],
+          "jp": "この{漢字|かんじ}の{読|よ}み＿を{教|おし}えてください。",
+          "fr": "Apprenez-moi comment se lit ce kanji.",
+          "choices": ["{方|かた}", "こと", "{物|もの}", "ところ"],
+          "a": 0
+        },
+        {
+          "id": "v5-39-e02",
+          "type": "choice",
+          "uses": ["v5-19", "v5-36"],
+          "jp": "{静|しず}かな＿に{住|す}みたいです。",
+          "fr": "Je veux habiter dans un endroit calme.",
+          "choices": ["ところ", "こと", "{物|もの}", "{方|かた}"],
+          "a": 0
+        },
+        {
+          "id": "v5-39-e03",
+          "type": "choice",
+          "uses": ["v5-28", "v5-37"],
+          "jp": "{日本|にほん}の＿をもっと{知|し}りたいです。",
+          "fr": "Je veux en savoir plus sur le Japon.",
+          "choices": ["こと", "ところ", "{半分|はんぶん}", "つぎ"],
+          "a": 0
+        },
+        {
+          "id": "v5-39-e04",
+          "type": "choice",
+          "uses": ["v5-26", "v5-37"],
+          "jp": "この{店|みせ}はいろいろな{食|た}べ＿を{売|う}っています。",
+          "fr": "Ce magasin vend toutes sortes de choses à manger.",
+          "choices": ["{物|もの}", "こと", "ところ", "{方|かた}"],
+          "a": 0
+        },
+        {
+          "id": "v5-39-e05",
+          "type": "choice",
+          "uses": ["v5-21", "v5-26"],
+          "jp": "ケーキを＿{食|た}べました。あとの{半分|はんぶん}は{妹|いもうと}にあげました。",
+          "fr": "J'ai mangé la moitié du gâteau. J'ai donné l'autre moitié à ma petite sœur.",
+          "choices": ["{半分|はんぶん}", "ほか", "つぎ", "{自分|じぶん}"],
+          "a": 0
+        },
+        {
+          "id": "v5-39-e06",
+          "type": "choice",
+          "uses": ["v5-15"],
+          "jp": "＿の{駅|えき}で{降|お}ります。",
+          "fr": "Je descends à la prochaine gare.",
+          "choices": ["つぎ", "{半分|はんぶん}", "{用事|ようじ}", "お{手洗|てあら}い"],
+          "a": 0
+        },
+        {
+          "id": "v5-39-e07",
+          "type": "choice",
+          "uses": ["v5-09"],
+          "q": "Comment demander poliment où sont les toilettes ?",
+          "choices": ["お{手洗|てあら}いはどこですか。", "お{手洗|てあら}いはだれですか。", "お{手洗|てあら}いはいつですか。", "お{手洗|てあら}いをどこですか。"],
+          "a": 0
+        },
+        {
+          "id": "v5-39-e08",
+          "type": "choice",
+          "uses": ["v5-31"],
+          "jp": "{明日|あした}は＿がありますから、パーティーに{行|い}きません。",
+          "fr": "Demain j'ai quelque chose à faire, alors je ne vais pas à la fête.",
+          "choices": ["{用事|ようじ}", "{半分|はんぶん}", "つぎ", "{方|かた}"],
+          "a": 0
+        },
+        {
+          "id": "v5-39-e09",
+          "type": "choice",
+          "uses": ["v5-09"],
+          "jp": "あの＿はどなたですか。",
+          "fr": "Qui est cette personne ?",
+          "choices": ["{方|かた}", "{物|もの}", "こと", "ところ"],
+          "a": 0
+        },
+        {
+          "id": "v5-39-e10",
+          "type": "choice",
+          "uses": ["v5-29"],
+          "jp": "＿に{質問|しつもん}はありますか。",
+          "fr": "Avez-vous d'autres questions ?",
+          "choices": ["ほか", "{半分|はんぶん}", "{自分|じぶん}", "{用事|ようじ}"],
+          "a": 0
+        },
+        {
+          "id": "v5-39-e11",
+          "type": "choice",
+          "uses": ["v5-27"],
+          "jp": "この{料理|りょうり}は{店|みせ}で{買|か}いましたか。— いいえ、＿で{作|つく}りました。",
+          "fr": "Tu as acheté ce plat au magasin ? — Non, je l'ai fait moi-même.",
+          "choices": ["{自分|じぶん}", "ほか", "つぎ", "{方|かた}"],
+          "a": 0
+        },
+        {
+          "id": "v5-39-e12",
+          "type": "choice",
+          "uses": ["v5-11", "v5-29"],
+          "jp": "＿、おはようございます。{授業|じゅぎょう}を{始|はじ}めます。",
+          "fr": "Bonjour à tous. Nous commençons le cours.",
+          "choices": ["みなさん", "{方|かた}", "{自分|じぶん}", "ほか"],
+          "a": 0
+        },
+        {
+          "id": "v5-39-e13",
+          "type": "choice",
+          "uses": ["v5-05"],
+          "jp": "これはちょっと{高|たか}いですから、＿のをください。",
+          "fr": "C'est un peu cher, donnez-m'en un autre, s'il vous plaît.",
+          "choices": ["{別|べつ}", "{半分|はんぶん}", "{自分|じぶん}", "{用事|ようじ}"],
+          "a": 0
+        },
+        {
+          "id": "v5-39-e14",
+          "type": "choice",
+          "uses": ["v5-27"],
+          "q": "Que veut dire {使|つか}い{方|かた} ?",
+          "choices": ["la manière d'utiliser, le mode d'emploi", "l'utilisateur", "l'utilité", "l'outil"],
+          "a": 0
+        },
+        {
+          "id": "v5-39-e15",
+          "type": "choice",
+          "uses": ["v5-06"],
+          "q": "Une seule de ces phrases est correcte. Laquelle ?",
+          "choices": ["{何|なに}か{飲|の}み{物|もの}がほしいです。", "{何|なに}か{飲|の}みことがほしいです。", "{何|なに}か{飲|の}みところがほしいです。", "{何|なに}か{飲|の}み{方|かた}がほしいです。"],
+          "a": 0
+        },
+        {"id": "v5-39-e16", "type": "choice", "q": "Comment se lit **自分** ?", "choices": ["じぶん", "じふん", "しぶん", "じぷん"], "a": 0},
+        {"id": "v5-39-e17", "type": "choice", "q": "Comment se lit **半分** ?", "choices": ["はんぶん", "はんふん", "はんぷん", "なかぶん"], "a": 0},
+        {
+          "id": "v5-39-e18",
+          "type": "order",
+          "uses": ["v5-28", "v5-29"],
+          "fr": "Apprenez-moi comment s'écrit ce kanji.",
+          "tokens": ["この", "{漢字|かんじ}の", "{書|か}き{方|かた}を", "{教|おし}えてください"]
+        },
+        {"id": "v5-39-e19", "type": "order", "uses": ["v5-15"], "fr": "Je descends à la prochaine gare.", "tokens": ["つぎの", "{駅|えき}で", "{降|お}ります"]}
+      ]
+    },
+    {
+      "id": "v5-40",
+      "title": "Paires piégeuses du N5",
+      "words": [
+        {"jp": "もどる", "kana": "もどる", "fr": "revenir (là où on était)", "ex": "すぐもどりますから、ここで{待|ま}っていてください。", "exFr": "Je reviens tout de suite, attendez-moi ici."},
+        {"jp": "{見|み}える", "kana": "みえる", "fr": "se voir, être visible", "ex": "{窓|まど}から{山|やま}が{見|み}えます。", "exFr": "On voit la montagne depuis la fenêtre."},
+        {"jp": "{聞|き}こえる", "kana": "きこえる", "fr": "s'entendre, être audible", "ex": "となりの{部屋|へや}から{音楽|おんがく}が{聞|き}こえます。", "exFr": "On entend de la musique dans la pièce d'à côté."},
+        {"jp": "つく", "kana": "つく", "fr": "s'allumer", "ex": "この{部屋|へや}の{電気|でんき}がつきません。", "exFr": "La lumière de cette pièce ne s'allume pas."},
+        {"jp": "{消|き}える", "kana": "きえる", "fr": "s'éteindre ; disparaître", "ex": "{急|きゅう}に{電気|でんき}が{消|き}えました。", "exFr": "La lumière s'est éteinte d'un coup."},
+        {"jp": "{同|おな}じ", "kana": "おなじ", "fr": "même, identique", "ex": "{田中|たなか}さんと{私|わたし}は{同|おな}じ{会社|かいしゃ}で{働|はたら}いています。", "exFr": "M. Tanaka et moi travaillons dans la même entreprise."},
+        {"jp": "{大|おお}きな", "kana": "おおきな", "fr": "grand (devant un nom)", "ex": "{駅|えき}の{前|まえ}に{大|おお}きな{木|き}があります。", "exFr": "Il y a un grand arbre devant la gare."},
+        {"jp": "{小|ちい}さな", "kana": "ちいさな", "fr": "petit (devant un nom)", "ex": "{小|ちい}さな{町|まち}に{住|す}んでいます。", "exFr": "J'habite dans une petite ville."},
+        {"jp": "あつい", "kana": "あつい", "fr": "chaud (au toucher)", "ex": "このお{茶|ちゃ}はとてもあついです。", "exFr": "Ce thé est très chaud."},
+        {"jp": "{答|こた}え", "kana": "こたえ", "fr": "réponse", "ex": "この{問題|もんだい}の{答|こた}えが{分|わ}かりますか。", "exFr": "Tu connais la réponse à cet exercice ?"},
+        {"jp": "{上|のぼ}る", "kana": "のぼる", "fr": "monter", "ex": "かいだんを{上|のぼ}って、{二|に}かいへ{行|い}きます。", "exFr": "Je monte l'escalier et je vais au premier étage."},
+        {"jp": "{帰|かえ}り", "kana": "かえり", "fr": "retour", "ex": "{帰|かえ}りにスーパーで{買|か}い{物|もの}をします。", "exFr": "Au retour, je fais les courses au supermarché."}
+      ],
+      "sections": [
+        {
+          "h": "Les paires à ne pas confondre",
+          "p": ["Ces paires reviennent sans arrêt au JLPT N5. Le nouveau mot est à droite."],
+          "grid": {
+            "head": ["", "différence"],
+            "rows": [
+              ["{帰|かえ}る / もどる", "rentrer chez soi / revenir là où on était"],
+              ["{見|み}る / {見|み}える", "regarder (exprès, を) / être visible (が)"],
+              ["{聞|き}く / {聞|き}こえる", "écouter (を) / s'entendre (が)"],
+              ["つける / つく", "allumer (を) / s'allumer (が)"],
+              ["{消|け}す / {消|き}える", "éteindre (を) / s'éteindre (が)"],
+              ["{暑|あつ}い / あつい", "chaud (le temps) / chaud (au toucher)"],
+              ["{大|おお}きい / {大|おお}きな", "grand / grand, mais seulement devant un nom"]
+            ]
+          }
+        },
+        {
+          "h": "Rappel : les paires déjà vues",
+          "p": [
+            "{会|あ}う (rencontrer : {友|とも}だち**に**) ≠ {見|み}る (regarder : **を**).",
+            "{知|し}る (savoir une information) ≠ {分|わ}かる (comprendre).",
+            "{言|い}う (dire des mots : 「…」**と**) ≠ {話|はな}す (parler, converser).",
+            "{入|はい}る / {入|い}れる, {出|で}る / {出|だ}す, {開|あ}く / {開|あ}ける : leçon 27."
+          ]
+        }
+      ],
+      "pieges": [
+        "{見|み}える / {聞|き}こえる : ce qu'on voit ou entend prend **が** : {山|やま}**が**{見|み}えます.",
+        "{消|け}す (けす) et {消|き}える (きえる) : même kanji, deux lectures.",
+        "{大|おお}きな{木|き} ✓ ; {木|き}が{大|おお}きなです ✗ → {木|き}が{大|おお}きいです.",
+        "{同|おな}じ est spécial : pas de な ni de の devant un nom → {同|おな}じ{会社|かいしゃ}.",
+        "{帰|かえ}る = rentrer **chez soi** (ou dans son pays) ; もどる = revenir à un endroit qu'on vient de quitter (bureau, place…).",
+        "{答|こた}え (nom : la réponse) ≠ {答|こた}える (verbe : répondre)."
+      ],
+      "exercises": [
+        {
+          "id": "v5-40-e01",
+          "type": "choice",
+          "uses": ["v5-29", "v5-36"],
+          "jp": "{先生|せんせい}はすぐ{教室|きょうしつ}に＿。ちょっと{待|ま}ってください。",
+          "fr": "Le professeur revient tout de suite en classe. Attendez un peu.",
+          "choices": ["もどります", "{帰|かえ}ります", "{見|み}えます", "{消|き}えます"],
+          "a": 0,
+          "explain": "Revenir à un endroit qu'on vient de quitter : もどる. {帰|かえ}る, c'est rentrer chez soi."
+        },
+        {
+          "id": "v5-40-e02",
+          "type": "choice",
+          "uses": ["v5-02", "v5-22"],
+          "jp": "{仕事|しごと}が{終|お}わって、うちに＿。",
+          "fr": "Le travail est fini, je rentre à la maison.",
+          "choices": ["{帰|かえ}ります", "{見|み}えます", "{聞|き}こえます", "{消|き}えます"],
+          "a": 0
+        },
+        {
+          "id": "v5-40-e03",
+          "type": "choice",
+          "uses": ["v5-35"],
+          "jp": "{窓|まど}から{山|やま}＿{見|み}えます。",
+          "fr": "On voit la montagne depuis la fenêtre.",
+          "choices": ["が", "を", "に", "で"],
+          "a": 0,
+          "explain": "{見|み}える : ce qu'on voit prend が."
+        },
+        {
+          "id": "v5-40-e04",
+          "type": "choice",
+          "uses": ["v5-02", "v5-12"],
+          "jp": "{毎晩|まいばん}テレビ＿{見|み}ます。",
+          "fr": "Je regarde la télé tous les soirs.",
+          "choices": ["を", "が", "に", "へ"],
+          "a": 0,
+          "explain": "{見|み}る (regarder exprès) : を."
+        },
+        {
+          "id": "v5-40-e05",
+          "type": "choice",
+          "uses": ["v5-31"],
+          "jp": "となりの{部屋|へや}から{音楽|おんがく}が＿。",
+          "fr": "On entend de la musique dans la pièce d'à côté.",
+          "choices": ["{聞|き}こえます", "{聞|き}きます", "{見|み}えます", "{見|み}ます"],
+          "a": 0
+        },
+        {
+          "id": "v5-40-e06",
+          "type": "choice",
+          "uses": ["v5-27"],
+          "jp": "スイッチをおしましたが、{電気|でんき}が＿。",
+          "fr": "J'ai appuyé sur l'interrupteur, mais la lumière ne s'allume pas.",
+          "choices": ["つきません", "つけません", "{消|け}しません", "{見|み}えません"],
+          "a": 0,
+          "explain": "{電気|でんき}**が** : la lumière elle-même → つく."
+        },
+        {
+          "id": "v5-40-e07",
+          "type": "choice",
+          "uses": ["v5-27"],
+          "jp": "{急|きゅう}に{電気|でんき}が＿。{何|なに}も{見|み}えません。",
+          "fr": "La lumière s'est éteinte d'un coup. On ne voit plus rien.",
+          "choices": ["{消|き}えました", "{消|け}しました", "つきました", "{見|み}えました"],
+          "a": 0
+        },
+        {
+          "id": "v5-40-e08",
+          "type": "choice",
+          "uses": ["v5-14"],
+          "jp": "{田中|たなか}さんと{私|わたし}は＿{会社|かいしゃ}で{働|はたら}いています。",
+          "fr": "M. Tanaka et moi travaillons dans la même entreprise.",
+          "choices": ["{同|おな}じ", "{同|おな}じな", "{同|おな}じの", "{同|おな}じい"],
+          "a": 0
+        },
+        {
+          "id": "v5-40-e09",
+          "type": "choice",
+          "uses": ["v5-35"],
+          "jp": "{駅|えき}の{前|まえ}に＿{木|き}があります。",
+          "fr": "Il y a un grand arbre devant la gare.",
+          "choices": ["{大|おお}きな", "{大|おお}きいな", "{大|おお}きの", "{大|おお}きく"],
+          "a": 0
+        },
+        {
+          "id": "v5-40-e10",
+          "type": "choice",
+          "uses": ["v5-05", "v5-35"],
+          "jp": "この{木|き}はとても＿です。",
+          "fr": "Cet arbre est très grand.",
+          "choices": ["{大|おお}きい", "{大|おお}きな", "{大|おお}きく", "{大|おお}きいな"],
+          "a": 0,
+          "explain": "Devant です, seulement {大|おお}きい. {大|おお}きな ne s'emploie que devant un nom."
+        },
+        {
+          "id": "v5-40-e11",
+          "type": "choice",
+          "uses": ["v5-24", "v5-25"],
+          "jp": "このお{茶|ちゃ}はとても＿ですから、{少|すこ}し{待|ま}ってから{飲|の}みます。",
+          "fr": "Ce thé est très chaud, alors j'attends un peu avant de le boire.",
+          "choices": ["あつい", "{暑|あつ}い", "つめたい", "すずしい"],
+          "a": 0
+        },
+        {
+          "id": "v5-40-e12",
+          "type": "choice",
+          "uses": ["v5-28", "v5-29"],
+          "jp": "この{問題|もんだい}の＿が{分|わ}かりますか。",
+          "fr": "Tu connais la réponse à cet exercice ?",
+          "choices": ["{答|こた}え", "{答|こた}える", "{答|こた}えて", "{答|こた}えます"],
+          "a": 0
+        },
+        {
+          "id": "v5-40-e13",
+          "type": "choice",
+          "uses": ["v5-22"],
+          "jp": "かいだんを＿、{二|に}かいへ{行|い}きます。",
+          "fr": "Je monte l'escalier et je vais au premier étage.",
+          "choices": ["{上|のぼ}って", "わたって", "{入|い}れて", "{消|け}して"],
+          "a": 0
+        },
+        {
+          "id": "v5-40-e14",
+          "type": "choice",
+          "uses": ["v5-32"],
+          "jp": "＿にスーパーで{買|か}い{物|もの}をします。",
+          "fr": "Au retour, je fais les courses au supermarché.",
+          "choices": ["{帰|かえ}り", "{帰|かえ}る", "{帰|かえ}って", "もどる"],
+          "a": 0
+        },
+        {
+          "id": "v5-40-e15",
+          "type": "choice",
+          "uses": ["v5-02"],
+          "jp": "{昨日|きのう}、{駅|えき}で{先生|せんせい}＿{会|あ}いました。",
+          "fr": "Hier, j'ai croisé le professeur à la gare.",
+          "choices": ["に", "を", "で", "へ"],
+          "a": 0,
+          "explain": "{会|あ}う : la personne rencontrée prend に."
+        },
+        {
+          "id": "v5-40-e16",
+          "type": "choice",
+          "uses": ["v5-10", "v5-28"],
+          "jp": "{日本語|にほんご}が{少|すこ}し＿。",
+          "fr": "Je comprends un peu le japonais.",
+          "choices": ["{分|わ}かります", "{知|し}ります", "{知|し}っています", "{言|い}います"],
+          "a": 0
+        },
+        {
+          "id": "v5-40-e17",
+          "type": "choice",
+          "uses": ["v5-02", "v5-28"],
+          "jp": "{田中|たなか}さんと{電話|でんわ}で{一時間|いちじかん}＿。",
+          "fr": "J'ai parlé une heure au téléphone avec M. Tanaka.",
+          "choices": ["{話|はな}しました", "{言|い}いました", "{知|し}りました", "{分|わ}かりました"],
+          "a": 0
+        },
+        {
+          "id": "v5-40-e18",
+          "type": "choice",
+          "q": "Dans « {窓|まど}から{海|うみ}が{見|み}えます », que veut dire {見|み}えます ?",
+          "choices": ["on voit (c'est visible)", "je regarde exprès", "je montre", "je cherche"],
+          "a": 0
+        },
+        {"id": "v5-40-e19", "type": "choice", "q": "Comment se lit **消える** ?", "choices": ["きえる", "けえる", "けせる", "しょうえる"], "a": 0},
+        {
+          "id": "v5-40-e20",
+          "type": "order",
+          "uses": ["v5-04", "v5-35"],
+          "fr": "On voit la mer depuis ma chambre.",
+          "tokens": ["{部屋|へや}から", "{海|うみ}が", "{見|み}えます"],
+          "alt": [["{海|うみ}が", "{部屋|へや}から", "{見|み}えます"]]
+        }
+      ]
+    }
+  ],
+  "test": [
+    {
+      "id": "v5-b08-t01",
+      "type": "choice",
+      "uses": ["v5-15", "v5-36"],
+      "jp": "もうすぐ{電車|でんしゃ}が{出|で}ますから、＿ください。",
+      "fr": "Le train part bientôt, alors dépêchez-vous.",
+      "choices": ["{急|いそ}いで", "すわって", "つかれて", "{住|す}んで"],
+      "a": 0
+    },
+    {
+      "id": "v5-b08-t02",
+      "type": "choice",
+      "uses": ["v5-38"],
+      "q": "« trois fois par semaine » se dit…",
+      "choices": ["{一週間|いっしゅうかん}に{三度|さんど}", "{三度|さんど}に{一週間|いっしゅうかん}", "{一週間|いっしゅうかん}を{三度|さんど}", "{三週間|さんしゅうかん}に{一度|いちど}"],
+      "a": 0
+    },
+    {
+      "id": "v5-b08-t03",
+      "type": "choice",
+      "uses": ["v5-14", "v5-37"],
+      "jp": "{雨|あめ}です。＿、{出|で}かけません。",
+      "fr": "Il pleut. Donc je ne sors pas.",
+      "choices": ["だから", "でも", "{先|さき}に", "もっと"],
+      "a": 0
+    },
+    {
+      "id": "v5-b08-t04",
+      "type": "choice",
+      "uses": ["v5-36"],
+      "jp": "{姉|あね}はけっこん＿。{子|こ}どもが{一人|ひとり}います。",
+      "fr": "Ma grande sœur est mariée. Elle a un enfant.",
+      "choices": ["しています", "します", "していません", "しませんでした"],
+      "a": 0
+    },
+    {
+      "id": "v5-b08-t05",
+      "type": "choice",
+      "uses": ["v5-40"],
+      "jp": "{窓|まど}からふじさん＿{見|み}えます。",
+      "fr": "On voit le mont Fuji depuis la fenêtre.",
+      "choices": ["が", "を", "で", "へ"],
+      "a": 0
+    },
+    {
+      "id": "v5-b08-t06",
+      "type": "choice",
+      "uses": ["v5-17", "v5-38"],
+      "jp": "{明日|あした}は{木曜日|もくようび}です。あさっては＿です。",
+      "fr": "Demain, c'est jeudi. Après-demain, c'est vendredi.",
+      "choices": ["{金曜日|きんようび}", "{土曜日|どようび}", "{水曜日|すいようび}", "{月曜日|げつようび}"],
+      "a": 0
+    },
+    {
+      "id": "v5-b08-t07",
+      "type": "choice",
+      "uses": ["v5-35", "v5-38"],
+      "jp": "{子|こ}どもの＿、{犬|いぬ}がいました。",
+      "fr": "Quand j'étais enfant, j'avais un chien.",
+      "choices": ["とき", "ところ", "こと", "{物|もの}"],
+      "a": 0
+    },
+    {
+      "id": "v5-b08-t08",
+      "type": "choice",
+      "uses": ["v5-39"],
+      "jp": "この{漢字|かんじ}の{書|か}き＿が{分|わ}かりません。",
+      "fr": "Je ne sais pas comment s'écrit ce kanji.",
+      "choices": ["{方|かた}", "こと", "ところ", "{物|もの}"],
+      "a": 0
+    },
+    {
+      "id": "v5-b08-t09",
+      "type": "choice",
+      "uses": ["v5-38"],
+      "jp": "{毎日|まいにち}{六時間|ろくじかん}＿ねます。",
+      "fr": "Je dors environ six heures par nuit.",
+      "choices": ["ぐらい", "ごろ", "とき", "{度|ど}"],
+      "a": 0
+    },
+    {
+      "id": "v5-b08-t10",
+      "type": "choice",
+      "uses": ["v5-37"],
+      "jp": "すみません、もっと＿{話|はな}してください。",
+      "fr": "Excusez-moi, parlez plus lentement, s'il vous plaît.",
+      "choices": ["ゆっくり", "いちばん", "たぶん", "あとで"],
+      "a": 0
+    },
+    {
+      "id": "v5-b08-t11",
+      "type": "choice",
+      "uses": ["v5-25", "v5-40"],
+      "jp": "{風|かぜ}で、ろうそくの{火|ひ}が＿。",
+      "fr": "Avec le vent, la flamme de la bougie s'est éteinte.",
+      "choices": ["{消|き}えました", "{消|け}しました", "つけました", "{見|み}えました"],
+      "a": 0
+    },
+    {
+      "id": "v5-b08-t12",
+      "type": "choice",
+      "uses": ["v5-40"],
+      "jp": "{仕事|しごと}が{終|お}わって、{家|いえ}に＿。",
+      "fr": "Le travail fini, je suis rentré à la maison.",
+      "choices": ["{帰|かえ}りました", "{見|み}えました", "{聞|き}こえました", "{上|のぼ}りました"],
+      "a": 0
+    },
+    {"id": "v5-b08-t13", "type": "order", "uses": ["v5-39"], "fr": "J'ai mangé la moitié du gâteau.", "tokens": ["ケーキを", "{半分|はんぶん}", "{食|た}べました"]},
+    {
+      "id": "v5-b08-t14",
+      "type": "choice",
+      "uses": ["v5-37"],
+      "q": "Tu remercies quelqu'un très sincèrement :",
+      "choices": ["ほんとうにありがとうございました。", "だからありがとうございました。", "いちばんありがとうございました。", "たぶんありがとうございました。"],
+      "a": 0
+    },
+    {
+      "id": "v5-b08-t15",
+      "type": "choice",
+      "uses": ["v5-39"],
+      "jp": "＿に{何|なに}かありますか。— いいえ、それだけです。",
+      "fr": "Il y a autre chose ? — Non, c'est tout.",
+      "choices": ["ほか", "{半分|はんぶん}", "{自分|じぶん}", "{同|おな}じ"],
+      "a": 0
+    },
+    {
+      "id": "v5-b08-t16",
+      "type": "choice",
+      "uses": ["v5-36", "v5-40"],
+      "q": "Une seule de ces phrases est correcte. Laquelle ?",
+      "choices": ["{大|おお}きな{家|いえ}に{住|す}んでいます。", "{大|おお}きなの{家|いえ}に{住|す}んでいます。", "{家|いえ}が{大|おお}きなです。", "{大|おお}きいな{家|いえ}に{住|す}んでいます。"],
+      "a": 0
+    }
+  ],
+  "examTest": [
+    {
+      "id": "v5-x04-01",
+      "type": "choice",
+      "uses": ["v5-21", "v5-36"],
+      "q": "Une seule de ces phrases est correcte. Laquelle ?",
+      "choices": [
+        "{妹|いもうと}はフランスで{生|う}まれて、{今|いま}は{東京|とうきょう}に{住|す}んでいます。",
+        "{妹|いもうと}はフランスで{生|う}まれて、{今|いま}は{東京|とうきょう}で{住|す}んでいます。",
+        "{妹|いもうと}はフランスで{生|う}まれて、{今|いま}は{東京|とうきょう}を{住|す}んでいます。",
+        "{妹|いもうと}はフランスで{生|う}まれて、{今|いま}は{東京|とうきょう}に{住|す}みます。"
+      ],
+      "a": 0
+    },
+    {
+      "id": "v5-x04-02",
+      "type": "choice",
+      "uses": ["v5-25", "v5-26", "v5-37"],
+      "jp": "{雨|あめ}が{降|ふ}っていました。＿、{友|とも}だちにかさを{貸|か}しました。",
+      "fr": "Il pleuvait. C'est pourquoi j'ai prêté mon parapluie à un ami.",
+      "choices": ["だから", "でも", "たぶん", "いちばん"],
+      "a": 0
+    },
+    {
+      "id": "v5-x04-03",
+      "type": "choice",
+      "uses": ["v5-20", "v5-32"],
+      "jp": "つぎのかどを{左|ひだり}にまがって、はしを＿、まっすぐ{行|い}ってください。",
+      "fr": "Tournez à gauche au prochain coin, traversez le pont et allez tout droit.",
+      "choices": ["わたって", "まがって", "{上|のぼ}って", "{降|お}りて"],
+      "a": 0
+    },
+    {
+      "id": "v5-x04-04",
+      "type": "choice",
+      "uses": ["v5-35", "v5-38"],
+      "jp": "{毎朝|まいあさ}{犬|いぬ}と{三十分|さんじゅっぷん}＿さんぽします。",
+      "fr": "Tous les matins, je promène le chien une trentaine de minutes.",
+      "choices": ["ぐらい", "ごろ", "とき", "{度|ど}"],
+      "a": 0
+    },
+    {
+      "id": "v5-x04-05",
+      "type": "choice",
+      "uses": ["v5-34"],
+      "jp": "コーヒーを{三|さん}＿{飲|の}みました。",
+      "fr": "J'ai bu trois tasses de café.",
+      "choices": ["ばい", "はい", "ぱい", "びき"],
+      "a": 0
+    },
+    {
+      "id": "v5-x04-06",
+      "type": "choice",
+      "uses": ["v5-25", "v5-36", "v5-40"],
+      "jp": "このスープはとても＿ですから、{少|すこ}し{待|ま}ちます。",
+      "fr": "Cette soupe est très chaude, alors j'attends un peu.",
+      "choices": ["あつい", "{暑|あつ}い", "すずしい", "{寒|さむ}い"],
+      "a": 0
+    },
+    {
+      "id": "v5-x04-07",
+      "type": "choice",
+      "uses": ["v5-26", "v5-31"],
+      "jp": "{図書館|としょかん}で{借|か}りた{本|ほん}を＿に{行|い}きます。",
+      "fr": "Je vais rendre les livres empruntés à la bibliothèque.",
+      "choices": ["かえし", "{借|か}り", "{売|う}り", "くれ"],
+      "a": 0
+    },
+    {
+      "id": "v5-x04-08",
+      "type": "order",
+      "uses": ["v5-22", "v5-35"],
+      "fr": "Il y a trois chiens et un chat dans le jardin.",
+      "tokens": ["にわに", "{犬|いぬ}が{三|さん}びきと", "ねこが{一|いっ}ぴき", "います"]
+    },
+    {
+      "id": "v5-x04-09",
+      "type": "choice",
+      "uses": ["v5-29", "v5-39"],
+      "q": "Le professeur entre en classe : みなさん、おはようございます. À qui parle-t-il ?",
+      "choices": ["à tous les élèves", "à un élève en particulier", "à lui-même", "au directeur"],
+      "a": 0
+    },
+    {
+      "id": "v5-x04-10",
+      "type": "choice",
+      "uses": ["v5-35", "v5-40"],
+      "jp": "{部屋|へや}から{海|うみ}が＿。とてもきれいです。",
+      "fr": "On voit la mer depuis la chambre. C'est très beau.",
+      "choices": ["{見|み}えます", "{見|み}ます", "{見|み}せます", "{見|み}えません"],
+      "a": 0
+    },
+    {
+      "id": "v5-x04-11",
+      "type": "choice",
+      "uses": ["v5-17", "v5-38"],
+      "q": "Aujourd'hui, nous sommes le {五月|ごがつ}{一日|ついたち}. おととい, c'était le…",
+      "choices": ["{四月|しがつ}{二十九日|にじゅうくにち}", "{四月|しがつ}{三十日|さんじゅうにち}", "{五月|ごがつ}{三日|みっか}", "{四月|しがつ}{二十八日|にじゅうはちにち}"],
+      "a": 0,
+      "explain": "Avril a 30 jours : la veille du 1er mai est le 30 avril, l'avant-veille le 29."
+    },
+    {
+      "id": "v5-x04-12",
+      "type": "choice",
+      "uses": ["v5-28", "v5-36"],
+      "jp": "{電車|でんしゃ}にかさをわすれて、＿。{外|そと}は{雨|あめ}です。",
+      "fr": "J'ai oublié mon parapluie dans le train, j'étais bien embêté. Dehors, il pleut.",
+      "choices": ["こまりました", "つかれました", "{生|う}まれました", "{止|と}まりました"],
+      "a": 0
+    },
+    {
+      "id": "v5-x04-13",
+      "type": "choice",
+      "uses": ["v5-19", "v5-27", "v5-34", "v5-39"],
+      "jp": "{田中|たなか}さんは{料理|りょうり}が{上手|じょうず}です。{毎日|まいにち}{自分|じぶん}でおべんとうを＿。",
+      "fr": "M. Tanaka cuisine bien. Tous les jours, il prépare lui-même son bentō.",
+      "choices": ["{作|つく}ります", "{使|つか}います", "{消|け}します", "{借|か}ります"],
+      "a": 0
+    },
+    {
+      "id": "v5-x04-14",
+      "type": "choice",
+      "uses": ["v5-28", "v5-30", "v5-33"],
+      "jp": "{兄|あに}は{大学|だいがく}で{英語|えいご}を{教|おし}えています。{兄|あに}の{仕事|しごと}は＿です。",
+      "fr": "Mon grand frère enseigne l'anglais à l'université. Son métier : professeur.",
+      "choices": ["{先生|せんせい}", "{学生|がくせい}", "{医者|いしゃ}", "{店員|てんいん}"],
+      "a": 0
+    },
+    {
+      "id": "v5-x04-15",
+      "type": "choice",
+      "uses": ["v5-23", "v5-35", "v5-40"],
+      "q": "Que veut dire : {朝|あさ}、{窓|まど}から{鳥|とり}の{声|こえ}が{聞|き}こえます。",
+      "choices": [
+        "Le matin, on entend les oiseaux par la fenêtre.",
+        "Le matin, j'écoute la radio près de la fenêtre.",
+        "Le matin, on voit des oiseaux par la fenêtre.",
+        "Le matin, les oiseaux entrent par la fenêtre."
+      ],
+      "a": 0
+    }
+  ]
+}

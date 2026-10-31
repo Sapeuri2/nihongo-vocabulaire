@@ -40,37 +40,37 @@ Les mots entre parenthèses sont indicatifs : la liste exacte est fixée en écr
 
 → **Grand examen 1** (leçons 1–20) ✅
 
-**Bloc 5 — Chez soi**
-21. La famille (ma famille / celle des autres : 父 / お父さん, 母 / お母さん…)
-22. La maison (台所, 窓, ドア, 庭, おふろ, 階段, 二階…)
-23. Le corps et la santé (頭, 目, 手, 足, おなか, 病気, 薬, 熱…)
-24. Couleurs et sensations (赤い, 青い, 白い, 黒い, 明るい, 暗い, 重い, 軽い, 広い…)
-25. Météo et saisons (天気, 雨, 雪, 風, 春夏秋冬, 暑い, 寒い, 降る…)
+**Bloc 5 — Chez soi** ✅
+21. La famille (ma famille / celle des autres : 父 / お父さん, 兄 / お兄さん, 兄弟, りょうしん…)
+22. La maison (台所, 窓, ドア, にわ, おふろ, かいだん, 〜かい, れいぞうこ, 電気…)
+23. Le corps et la santé (頭, 目, 耳, 手, 足, 体, 声, 病気, 薬, かぜ, ねつ…)
+24. Couleurs et sensations (赤い, 青い, 白い, 黒い, 茶色, 明るい, 暗い, 重い, 軽い, 広い, せまい, つめたい…)
+25. Météo et saisons (天気, 雨, ゆき, 風, 春夏秋冬, 暑い, 寒い, あたたかい, すずしい, 降る, 晴れ, くもり)
 
-**Bloc 6 — Agir**
-26. Donner, prêter, rendre (あげる, もらう, 貸す, 借りる, 返す, 見せる, 持つ…)
-27. Ouvrir, allumer, utiliser (開ける / 開く, 閉める / 閉まる, つける, 消す, 使う, 作る…)
-28. Communiquer et savoir (言う, 話す, 答える, 知る, 分かる, 覚える, 忘れる…)
-29. École et études (宿題, 試験, 問題, 質問, 意味, 言葉, 漢字…)
-30. Travail et métiers (仕事, 医者, 会社員, 働く, 休み…)
+**Bloc 6 — Agir** ✅
+26. Donner, prêter, rendre (あげる, もらう, くれる, 貸す, 借りる, かえす, 見せる, 持つ, 送る, 出す…)
+27. Ouvrir, allumer, utiliser (開ける / 開く, しめる / しまる, つける, 消す, 使う, 作る, 入れる, 切る…)
+28. Communiquer et savoir (言う, 答える, 教える, 習う, 知る, 分かる, おぼえる, わすれる, 思う…)
+29. École et études (宿題, 試験, 問題, 質問, 意味, ことば, 漢字, 授業, 教室…)
+30. Travail et métiers (仕事, 医者, 店員, 歌手, 運転手, 休み, 大学, 工場…)
 
-→ **Examen intermédiaire 2** (leçons 21–30)
+→ **Examen intermédiaire 2** (leçons 21–30) ✅
 
-**Bloc 7 — Sortir**
+**Bloc 7 — Sortir** ✅
 31. Loisirs et sport (映画, 音楽, 歌, スポーツ, 泳ぐ, 遊ぶ, ひく…)
-32. En ville (2) (本屋, 喫茶店, 映画館, 入口, 出口, かど, はし…)
-33. Voyages, pays, langues (旅行, 外国, 〜語, ホテル, 地図, きっぷ…)
-34. Cuisine et table (料理, 皿, コップ, はし, 塩, しょうゆ…)
-35. Nature et animaux (山, 川, 海, 空, 花, 木, 犬, ねこ, 鳥…)
+32. En ville : boutiques et chemin (本屋, きっさてん, 映画館, 入口, 出口, かど, はし, まがる, わたる…)
+33. Voyages, pays, langues (旅行, 外国, 〜語, 〜人, ホテル, パスポート, 住所…)
+34. À table (おさら, コップ, おはし, しお, しょうゆ, 〜はい, いっぱい…)
+35. Nature et animaux (山, 川, 海, 空, 花, 木, 犬, ねこ, 鳥, 〜ひき…)
 
-**Bloc 8 — Consolider le N5**
-36. Verbes d'état (ある, いる, 住む, 立つ, すわる, 待つ, つかれる, こまる, いる…)
-37. Mots de liaison et adverbes (でも, それから, そして, だから, もっと, ゆっくり, 本当に…)
-38. Durées et fréquences (〜回, 〜週間, 〜か月, 毎週, 毎月, 今月, おととい, あさって…)
-39. Petits noms utiles (もの, こと, ところ, 方, 半分, 次, ほか…)
-40. Paires piégeuses du N5 (会う / 見る, 知る / 分かる, 言う / 話す, 帰る / 戻る, 入る / 入れる…)
+**Bloc 8 — Consolider le N5** ✅
+36. Verbes d'état et de situation (ある, いる, 住む, 立つ, すわる, 待つ, つかれる, こまる, けっこんする…)
+37. Mots de liaison et adverbes (でも, それから, そして, だから, もっと, ゆっくり, ほんとうに…)
+38. Durées et fréquences (〜度, 〜週間, 〜か月, 毎週, 毎月, 今月, おととい, あさって…)
+39. Petits noms utiles (物, こと, ところ, 方, 〜方, 半分, つぎ, ほか, 自分…)
+40. Paires piégeuses du N5 (帰る / もどる, 見る / 見える, 聞く / 聞こえる, つける / つく, 消す / 消える…)
 
-→ **Grand examen 2** (leçons 21–40)
+→ **Grand examen 2** (leçons 21–40) ✅
 
 ## N4
 
@@ -78,15 +78,15 @@ Les mots entre parenthèses sont indicatifs : la liste exacte est fixée en écr
 41. Sentiments (うれしい, 悲しい, さびしい, 心配, 安心, びっくりする, よろこぶ, おこる…)
 42. Caractère et apparence (きびしい, まじめ, ていねい, 太る, やせる, 背が高い…)
 43. Relations (彼, 彼女, 夫, 妻, 息子, 娘, 赤ちゃん, 知り合い…)
-44. Santé et hôpital (熱, かぜ, けが, なおる, 入院, 歯医者, 具合…)
+44. Santé et hôpital (けが, なおる, 入院, 歯医者, 具合…)
 45. Corps et gestes (首, うで, 背中, かみ, 指, 笑う, 泣く…)
 
 **Bloc 10 — Bouger et changer**
-46. Verbes de mouvement N4 (戻る, 通る, 進む, 引っ越す, 集まる, 登る…)
-47. Paires transitif / intransitif 1 (始まる / 始める, 止まる / 止める, 変わる / 変える…)
+46. Verbes de mouvement N4 (通る, 進む, 引っ越す, 集まる, 登る…)
+47. Paires transitif / intransitif 1 (始める, 止める, 変わる / 変える…)
 48. Paires transitif / intransitif 2 (見つかる / 見つける, 決まる / 決める, 落ちる / 落とす…)
 49. Augmenter, diminuer, continuer (増える, 減る, 上がる, 下がる, 続く, 足りる, 残る…)
-50. Circulation (乗りかえる, おくれる, 間に合う, 急ぐ, 信号, 交差点, 事故, 運転…)
+50. Circulation (乗りかえる, おくれる, 間に合う, 信号, 交差点, 事故…)
 
 → **Examen intermédiaire 3** (leçons 41–50)
 
@@ -118,7 +118,7 @@ Les mots entre parenthèses sont indicatifs : la liste exacte est fixée en écr
 67. Médias et actualité (ニュース, 番組, 放送, 新聞社…)
 68. Société (社会, 経済, 政治, 国際…)
 69. Lieux et territoire (県, 市, 村, 郊外, 世界…)
-70. Mesures et quantités (〜倍, 半分, 以上, 以下, 合計…)
+70. Mesures et quantités (〜倍, 以上, 以下, 合計…)
 
 → **Examen intermédiaire 4** (leçons 61–70)
 
@@ -134,7 +134,7 @@ Les mots entre parenthèses sont indicatifs : la liste exacte est fixée en écr
 77. Verbes N4 divers (2)
 78. Adjectifs N4
 79. Paires piégeuses du N4
-80. Mots composés utiles (〜方, 〜中, 〜始める, 〜終わる, 〜やすい…)
+80. Mots composés utiles (〜中, 〜始める, 〜終わる, 〜やすい…)
 
 → **Grand examen 4** (leçons 61–80)
 
