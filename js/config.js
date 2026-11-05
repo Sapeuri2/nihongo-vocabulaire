@@ -9,6 +9,11 @@ export const CONFIG = {
   gistFile: 'nihongo-vocabulaire-progression.json',
   gistDescription: 'Progression nihongo-vocabulaire (ne pas supprimer)',
   tokenName: 'nihongo-vocabulaire',
+  appId: 'vocabulaire', // nom de l'appli dans « Ma liste » (commune à grammaire, vocabulaire, kanji)
+
+  // « Ma liste » : mots mis de côté (☆), clé et Gist communs aux applis (gérés par js/liste.js)
+  listeEnabled: true,
+  autoNext: 0, // ms : après une bonne réponse, passe seul à la question suivante (0 = désactivé)
 
   // Pédagogie
   lessonPass: 0.7, // score pour valider une leçon
