@@ -6,7 +6,7 @@ Rapport écrit par l'instance Claude Code du vocabulaire, pour l'**agent central
 ## 1. Identité
 
 - Dépôt : https://github.com/Sapeuri2/nihongo-vocabulaire, branche `main`, publiée par GitHub Pages à la racine.
-  J'ai aussi poussé chaque commit sur la branche `ccr-e2a604b3-9okw8y` (ma branche de travail, copie de `main`).
+  Depuis le 2026-11-10, je pousse uniquement sur `main` (l'ancienne branche de travail `ccr-e2a604b3-9okw8y` est abandonnée).
 - Site : https://sapeuri2.github.io/nihongo-vocabulaire/ . Je n'ai pas pu l'ouvrir depuis mon conteneur
   (réseau fermé vers github.io) : l'adresse suit la règle de GitHub Pages, et l'utilisateur m'a dit avoir testé
   l'appli en ligne, mais je ne l'ai pas vérifié moi-même.
@@ -151,8 +151,8 @@ Rapport écrit par l'instance Claude Code du vocabulaire, pour l'**agent central
   - J'avais aussi des tests de la bulle (rappels surprise avec `page.clock`, bouton 漢, verbes) : ils sont restés dans
     mon dossier temporaire et ne sont pas dans le dépôt.
 - Méthode : plan du bloc → générateur → `verifier.mjs` → relecture sans traduction → corrections → parcours complet
-  en clair et en sombre → mise à jour de `PROGRAMME.md` (blocs cochés, mots déjà vus retirés du plan) → commit en
-  français → push sur `main` (et sur ma branche de travail).
+  en clair et en sombre → mise à jour de `PROGRAMME.md` (blocs cochés, mots déjà vus retirés du plan) → `node tools/test-parcours.mjs`
+  (commun, ~2 min 30 ; `ETAPES=10` pour la version courte) → commit en français → push sur `main` uniquement.
 
 ## 8. Limites, bugs connus, demandes en attente
 
