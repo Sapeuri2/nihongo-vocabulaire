@@ -1,7 +1,7 @@
 # 語彙 Vocabulaire japonais
 
 Appli web perso pour apprendre le vocabulaire japonais (JLPT N5 → N4, puis N3), en français.
-Même moteur que l'appli de grammaire (`nihongo-grammaire`, voir [MOTEUR.md](MOTEUR.md)), mais l'accent est mis sur **le mot utilisé dans une phrase**, pas sur des flashcards.
+Même moteur que les applis de grammaire et de kanji (voir [MOTEUR.md](MOTEUR.md)), mais l'accent est mis sur **le mot utilisé dans une phrase**, pas sur des flashcards.
 
 - Leçon (≈ 15 mots d'un même thème, une phrase d'exemple par mot, pièges) → exercices → leçon suivante.
 - Exercices : mot dans une phrase à trous, sens ↔ mot, lecture des kanji, mots proches, contraires, remise en ordre.
@@ -30,10 +30,12 @@ La même clé GitHub (droit « gist ») peut servir aux deux applis : chacune cr
 
 ## Moteur partagé
 
-`js/app.js`, `js/state.js`, `js/sync.js`, `js/text.js`, `css/style.css`, `sw.js`, `tools/verifier.mjs` viennent du dépôt grammaire :
-**ne pas les modifier ici**. Mise à jour : `bash tools/maj-moteur.sh` (voir [MOTEUR.md](MOTEUR.md)).
-Propres à cette appli : `js/config.js`, `css/theme.css` (bleu), `index.html`, `manifest.webmanifest`, `icons/`, `data/`,
-`tools/verifier-appli.mjs`, `tools/kanji.mjs`, et la bulle « い ou な ? » (`js/memo.js`, `css/memo.css`, `data/rappels.json`).
+Le code (`js/`, `css/`, `sw.js`, `index.html`, `tools/verifier.mjs`, `tools/test-parcours.mjs`, y compris la bulle `js/memo.js`)
+est géré par l'agent central, dépôt [nihongo-central](https://github.com/Sapeuri2/nihongo-central) : **ne pas le modifier ici**
+(voir [MOTEUR.md](MOTEUR.md)). Ici, on ne modifie que le contenu : `data/` (dont `data/rappels.json`), `PROGRAMME.md`,
+`tools/verifier-appli.mjs`, `tools/kanji.mjs`, `tools/contenu/`.
+
+Avant chaque push : `node tools/verifier.mjs` et `node tools/test-parcours.mjs` (tout le parcours dans Chromium, format téléphone).
 
 ## Bulle « い / な / て » : adjectifs, passé poli, verbes
 
