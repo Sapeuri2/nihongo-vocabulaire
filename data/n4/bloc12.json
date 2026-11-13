@@ -1,0 +1,1255 @@
+{
+  "id": "v4-b12",
+  "level": "N4",
+  "title": "Vie pratique : ménage, argent, cuisine, démarches, connecteurs",
+  "lessons": [
+    {
+      "id": "v4-56",
+      "title": "Ranger, jeter, réparer",
+      "words": [
+        {"jp": "かたづける", "kana": "かたづける", "fr": "ranger, mettre de l'ordre", "ex": "{部屋|へや}をかたづけてから、{出|で}かけます。", "exFr": "Je range ma chambre, puis je sors."},
+        {"jp": "ごみ", "kana": "ごみ", "fr": "déchets, poubelle", "ex": "ごみは{火曜日|かようび}と{金曜日|きんようび}に{出|だ}します。", "exFr": "On sort les poubelles le mardi et le vendredi."},
+        {"jp": "すてる", "kana": "すてる", "fr": "jeter", "ex": "{古|ふる}い{服|ふく}をすてました。", "exFr": "J'ai jeté mes vieux vêtements."},
+        {"jp": "よごれる", "kana": "よごれる", "fr": "se salir", "ex": "{雨|あめ}の{中|なか}を{歩|ある}いて、くつがよごれました。", "exFr": "J'ai marché sous la pluie, mes chaussures sont sales."},
+        {"jp": "きたない", "kana": "きたない", "fr": "sale", "ex": "{弟|おとうと}の{部屋|へや}はいつもきたないです。", "exFr": "La chambre de mon petit frère est toujours sale."},
+        {"jp": "なおす", "kana": "なおす", "fr": "réparer ; corriger", "ex": "{父|ちち}がこわれたいすをなおしました。", "exFr": "Mon père a réparé la chaise cassée."},
+        {"jp": "ふく", "kana": "ふく", "fr": "essuyer", "ex": "テーブルをふいてください。", "exFr": "Essuie la table, s'il te plaît."},
+        {"jp": "しまう", "kana": "しまう", "fr": "ranger (à sa place)", "ex": "{使|つか}ったどうぐを{引|ひ}き{出|だ}しにしまってください。", "exFr": "Range les outils dans le tiroir après usage."},
+        {"jp": "{引|ひ}き{出|だ}し", "kana": "ひきだし", "fr": "tiroir", "ex": "はさみは{引|ひ}き{出|だ}しの{中|なか}にあります。", "exFr": "Les ciseaux sont dans le tiroir."},
+        {"jp": "たな", "kana": "たな", "fr": "étagère", "ex": "たなの{上|うえ}にかばんをおきました。", "exFr": "J'ai posé le sac sur l'étagère."},
+        {"jp": "どうぐ", "kana": "どうぐ", "fr": "outil, ustensile", "ex": "{料理|りょうり}のどうぐを{洗|あら}います。", "exFr": "Je lave les ustensiles de cuisine."},
+        {"jp": "しゅうりする", "kana": "しゅうりする", "fr": "réparer (un spécialiste)", "ex": "こわれたパソコンをしゅうりしてもらいました。", "exFr": "J'ai fait réparer l'ordinateur en panne."},
+        {"jp": "もえる", "kana": "もえる", "fr": "brûler", "ex": "このごみはもえますか。", "exFr": "Ces déchets, ils se brûlent ?"},
+        {"jp": "{水道|すいどう}", "kana": "すいどう", "fr": "eau du robinet, conduite d'eau", "ex": "{水道|すいどう}の{水|みず}を{飲|の}んでもいいですか。", "exFr": "On peut boire l'eau du robinet ?"},
+        {"jp": "そうじき", "kana": "そうじき", "fr": "aspirateur", "ex": "{毎週|まいしゅう}{土曜日|どようび}にそうじきをかけます。", "exFr": "Je passe l'aspirateur tous les samedis."}
+      ],
+      "sections": [
+        {
+          "h": "Ranger, jeter, réparer",
+          "p": ["Au Japon, on trie ses déchets et on les sort certains jours seulement."],
+          "grid": {
+            "head": ["", "japonais"],
+            "rows": [
+              ["mettre de l'ordre", "{部屋|へや}==を==かたづける"],
+              ["ranger à sa place", "〜==に==しまう"],
+              ["jeter / sortir les poubelles", "すてる / ごみ==を=={出|だ}す"],
+              ["essuyer", "テーブル==を==ふく"],
+              ["réparer", "なおす · しゅうりする"],
+              ["passer l'aspirateur", "そうじき==を==かける"]
+            ]
+          }
+        }
+      ],
+      "pieges": [
+        "かたづける = mettre de l'ordre (une pièce, une table) ; しまう = ranger un objet **à sa place** (〜にしまう).",
+        "ごみを**{出|だ}す** = sortir les poubelles (le jour prévu) ; すてる = jeter.",
+        "もえるごみ / もえないごみ : déchets qui se brûlent / qui ne se brûlent pas.",
+        "なおす = réparer **et** corriger. なおる (leçon 44) = guérir (ou « être réparé »).",
+        "ふく (essuyer) a le même son que {服|ふく} (vêtements).",
+        "そうじきを**かける** = passer l'aspirateur (encore un sens de かける !)."
+      ],
+      "exercises": [
+        {
+          "id": "v4-56-e01",
+          "type": "choice",
+          "uses": ["v5-04"],
+          "jp": "{友|とも}だちが{来|き}ますから、{部屋|へや}を＿。",
+          "fr": "Un ami vient, alors je range ma chambre.",
+          "choices": ["かたづけます", "よごれます", "すてます", "もえます"],
+          "a": 0,
+          "star": {"jp": "かたづける", "kana": "かたづける", "fr": "ranger, mettre de l'ordre"}
+        },
+        {
+          "id": "v4-56-e02",
+          "type": "choice",
+          "uses": ["v5-13"],
+          "jp": "もう{着|き}ない{古|ふる}い{服|ふく}を＿ました。",
+          "fr": "J'ai jeté les vieux vêtements que je ne mets plus.",
+          "choices": ["すて", "よごれ", "なおし", "もえ"],
+          "a": 0,
+          "star": {"jp": "すてる", "kana": "すてる", "fr": "jeter"}
+        },
+        {
+          "id": "v4-56-e03",
+          "type": "choice",
+          "uses": ["v5-13", "v5-15"],
+          "jp": "{雨|あめ}の{中|なか}を{歩|ある}いて、くつが＿。",
+          "fr": "J'ai marché sous la pluie, mes chaussures se sont salies.",
+          "choices": ["よごれました", "よごしました", "きたないでした", "すてました"],
+          "a": 0,
+          "star": {"jp": "よごれる", "kana": "よごれる", "fr": "se salir"}
+        },
+        {
+          "id": "v4-56-e04",
+          "type": "choice",
+          "uses": ["v5-14"],
+          "jp": "{弟|おとうと}の{部屋|へや}はいつも＿です。ぜんぜんそうじをしません。",
+          "fr": "La chambre de mon petit frère est toujours sale. Il ne fait jamais le ménage.",
+          "choices": ["きたない", "きれい", "よごれる", "もえる"],
+          "a": 0
+        },
+        {
+          "id": "v4-56-e05",
+          "type": "choice",
+          "uses": ["v4-48"],
+          "jp": "{父|ちち}がこわれたいすを＿。",
+          "fr": "Mon père a réparé la chaise cassée.",
+          "choices": ["なおしました", "なおりました", "かわきました", "もえました"],
+          "a": 0,
+          "star": {"jp": "なおす", "kana": "なおす", "fr": "réparer ; corriger"}
+        },
+        {
+          "id": "v4-56-e06",
+          "type": "choice",
+          "jp": "{食|た}べたあとで、テーブルを＿ください。",
+          "fr": "Après le repas, essuie la table, s'il te plaît.",
+          "choices": ["ふいて", "すてて", "もえて", "よごれて"],
+          "a": 0
+        },
+        {
+          "id": "v4-56-e07",
+          "type": "choice",
+          "uses": ["v5-27"],
+          "jp": "{使|つか}ったはさみは{引|ひ}き{出|だ}しに＿ください。",
+          "fr": "Range les ciseaux dans le tiroir après t'en être servi.",
+          "choices": ["しまって", "すてて", "ふいて", "なおして"],
+          "a": 0,
+          "star": {"jp": "しまう", "kana": "しまう", "fr": "ranger (à sa place)"}
+        },
+        {
+          "id": "v4-56-e08",
+          "type": "choice",
+          "uses": ["v5-12"],
+          "jp": "はさみはつくえの＿の{中|なか}にあります。",
+          "fr": "Les ciseaux sont dans le tiroir du bureau.",
+          "choices": ["{引|ひ}き{出|だ}し", "{水道|すいどう}", "そうじき", "しゅうり"],
+          "a": 0
+        },
+        {
+          "id": "v4-56-e09",
+          "type": "choice",
+          "uses": ["v5-27"],
+          "jp": "＿の{上|うえ}に{本|ほん}をならべました。",
+          "fr": "J'ai aligné des livres sur l'étagère.",
+          "choices": ["たな", "ごみ", "{水道|すいどう}", "しゅうり"],
+          "a": 0
+        },
+        {
+          "id": "v4-56-e10",
+          "type": "choice",
+          "uses": ["v5-14"],
+          "jp": "{料理|りょうり}の＿をきれいに{洗|あら}います。",
+          "fr": "Je lave bien les ustensiles de cuisine.",
+          "choices": ["どうぐ", "ごみ", "しゅうり", "{水道|すいどう}"],
+          "a": 0
+        },
+        {
+          "id": "v4-56-e11",
+          "type": "choice",
+          "uses": ["v4-48"],
+          "jp": "こわれたパソコンを{店|みせ}で＿してもらいました。",
+          "fr": "J'ai fait réparer l'ordinateur en panne au magasin.",
+          "choices": ["しゅうり", "かたづけ", "そうじき", "ごみ"],
+          "a": 0,
+          "star": {"jp": "しゅうりする", "kana": "しゅうりする", "fr": "réparer (un spécialiste)"}
+        },
+        {
+          "id": "v4-56-e12",
+          "type": "choice",
+          "uses": ["v5-17"],
+          "jp": "これは＿ごみですから、{火曜日|かようび}に{出|だ}してください。",
+          "fr": "Ce sont des déchets qui se brûlent : sortez-les le mardi.",
+          "choices": ["もえる", "もえて", "しまう", "ふく"],
+          "a": 0
+        },
+        {
+          "id": "v4-56-e13",
+          "type": "choice",
+          "jp": "＿の{水|みず}は{飲|の}めますか。",
+          "fr": "On peut boire l'eau du robinet ?",
+          "choices": ["{水道|すいどう}", "たな", "どうぐ", "そうじき"],
+          "a": 0
+        },
+        {
+          "id": "v4-56-e14",
+          "type": "choice",
+          "uses": ["v5-38"],
+          "jp": "{毎週|まいしゅう}{土曜日|どようび}に＿をかけます。",
+          "fr": "Je passe l'aspirateur tous les samedis.",
+          "choices": ["そうじき", "ごみ", "たな", "{水道|すいどう}"],
+          "a": 0
+        },
+        {
+          "id": "v4-56-e15",
+          "type": "choice",
+          "q": "Dans « テーブルをふく », que veut dire ふく ?",
+          "choices": ["essuyer", "vêtements", "ranger", "laver"],
+          "a": 0
+        },
+        {"id": "v4-56-e16", "type": "choice", "q": "Que veut dire **きたない** ?", "choices": ["sale", "propre", "cassé", "vieux"], "a": 0},
+        {"id": "v4-56-e17", "type": "order", "uses": ["v5-13"], "fr": "J'ai jeté mes vieux vêtements.", "tokens": ["{古|ふる}い", "{服|ふく}を", "すてました"]},
+        {
+          "id": "v4-56-e18",
+          "type": "order",
+          "uses": ["v5-14"],
+          "fr": "Range ta chambre avant de sortir.",
+          "tokens": ["{出|で}かける{前|まえ}に", "{部屋|へや}を", "かたづけて", "ください"],
+          "alt": [["{部屋|へや}を", "{出|で}かける{前|まえ}に", "かたづけて", "ください"]]
+        }
+      ]
+    },
+    {
+      "id": "v4-57",
+      "title": "Argent et magasins",
+      "words": [
+        {"jp": "ねだん", "kana": "ねだん", "fr": "prix", "ex": "このかばんはねだんが{高|たか}いです。", "exFr": "Ce sac est cher."},
+        {"jp": "はらう", "kana": "はらう", "fr": "payer", "ex": "カードではらってもいいですか。", "exFr": "Je peux payer par carte ?"},
+        {"jp": "おつり", "kana": "おつり", "fr": "monnaie (rendue)", "ex": "{千円|せんえん}{出|だ}して、おつりを{二百円|にひゃくえん}もらいました。", "exFr": "J'ai donné mille yens et on m'a rendu deux cents yens."},
+        {"jp": "{品物|しなもの}", "kana": "しなもの", "fr": "article, marchandise", "ex": "この{店|みせ}の{品物|しなもの}はいいです。", "exFr": "Les articles de ce magasin sont de bonne qualité."},
+        {"jp": "{売|う}り{場|ば}", "kana": "うりば", "fr": "rayon (d'un magasin)", "ex": "くつの{売|う}り{場|ば}は{何|なん}がいですか。", "exFr": "À quel étage est le rayon chaussures ?"},
+        {"jp": "〜{代|だい}", "kana": "〜だい", "fr": "frais de …", "ex": "{電気|でんき}{代|だい}が{高|たか}くなりました。", "exFr": "La facture d'électricité a augmenté."},
+        {"jp": "{料金|りょうきん}", "kana": "りょうきん", "fr": "tarif", "ex": "バスの{料金|りょうきん}はいくらですか。", "exFr": "Combien coûte le bus ?"},
+        {"jp": "レジ", "kana": "レジ", "fr": "caisse", "ex": "レジでお{金|かね}をはらいます。", "exFr": "On paie à la caisse."},
+        {"jp": "げんきん", "kana": "げんきん", "fr": "espèces, liquide", "ex": "この{店|みせ}はげんきんだけです。", "exFr": "Ce magasin n'accepte que les espèces."},
+        {"jp": "ちょきんする", "kana": "ちょきんする", "fr": "économiser, épargner", "ex": "{毎月|まいつき}{一万円|いちまんえん}ちょきんしています。", "exFr": "J'économise dix mille yens par mois."},
+        {"jp": "{注文|ちゅうもん}する", "kana": "ちゅうもんする", "fr": "commander", "ex": "{店|みせ}の{人|ひと}にコーヒーを{注文|ちゅうもん}しました。", "exFr": "J'ai commandé un café au serveur."},
+        {"jp": "{売|う}り{切|き}れ", "kana": "うりきれ", "fr": "épuisé (plus en stock)", "ex": "すみません、そのパンは{売|う}り{切|き}れです。", "exFr": "Désolé, ce pain est épuisé."},
+        {"jp": "つつむ", "kana": "つつむ", "fr": "emballer", "ex": "プレゼントですから、きれいにつつんでください。", "exFr": "C'est un cadeau, emballez-le joliment s'il vous plaît."},
+        {"jp": "ふくろ", "kana": "ふくろ", "fr": "sac (en plastique, en papier)", "ex": "ふくろはいりますか。", "exFr": "Vous voulez un sac ?"},
+        {"jp": "おきゃくさん", "kana": "おきゃくさん", "fr": "client ; invité", "ex": "この{店|みせ}はいつもおきゃくさんが{多|おお}いです。", "exFr": "Il y a toujours beaucoup de clients dans ce magasin."}
+      ],
+      "sections": [
+        {
+          "h": "À la caisse",
+          "p": ["Les phrases qu'on entend (et qu'on dit) dans tous les magasins."],
+          "grid": {
+            "head": ["", "japonais"],
+            "rows": [
+              ["payer avec", "カード==で==はらう · げんきん==で==はらう"],
+              ["c'est cher", "ねだん==が=={高|たか}い"],
+              ["frais de…", "{電気|でんき}{代|だい} · バスの{料金|りょうきん}"],
+              ["la monnaie", "おつり"],
+              ["plus en stock", "{売|う}り{切|き}れ"],
+              ["un sac ?", "ふくろはいりますか"]
+            ]
+          }
+        }
+      ],
+      "pieges": [
+        "Cher = ねだん**が{高|たか}い** (jamais ねだんが{大|おお}きい).",
+        "〜{代|だい} = frais de… ({電気|でんき}{代|だい}, タクシー{代|だい}) ; ≠ 〜{台|だい} (compteur des machines).",
+        "{料金|りょうきん} = le tarif d'un service (bus, électricité, entrée).",
+        "おつり = la monnaie rendue.",
+        "{注文|ちゅうもん}する = commander (plus formel que たのむ, leçon 53).",
+        "ふくろはいりますか : いる = avoir besoin (leçon 36).",
+        "おきゃくさん = un client ; dans un magasin, le personnel dit おきゃくさま (plus poli)."
+      ],
+      "exercises": [
+        {
+          "id": "v4-57-e01",
+          "type": "choice",
+          "uses": ["v5-12"],
+          "jp": "このかばんはいいですが、＿が{高|たか}いです。",
+          "fr": "Ce sac est bien, mais il est cher.",
+          "choices": ["ねだん", "おつり", "ふくろ", "レジ"],
+          "a": 0
+        },
+        {
+          "id": "v4-57-e02",
+          "type": "choice",
+          "jp": "カードで＿もいいですか。",
+          "fr": "Je peux payer par carte ?",
+          "choices": ["はらって", "つつんで", "ちょきんして", "よごれて"],
+          "a": 0,
+          "star": {"jp": "はらう", "kana": "はらう", "fr": "payer"}
+        },
+        {
+          "id": "v4-57-e03",
+          "type": "choice",
+          "uses": ["v5-07"],
+          "jp": "{千円|せんえん}{出|だ}して、＿を{二百円|にひゃくえん}もらいました。",
+          "fr": "J'ai donné mille yens et on m'a rendu deux cents yens.",
+          "choices": ["おつり", "{料金|りょうきん}", "ねだん", "ふくろ"],
+          "a": 0
+        },
+        {
+          "id": "v4-57-e04",
+          "type": "choice",
+          "uses": ["v5-22"],
+          "jp": "くつの＿は{三|さん}がいです。",
+          "fr": "Le rayon chaussures est au deuxième étage (3がい).",
+          "choices": ["{売|う}り{場|ば}", "おつり", "ちょきん", "{料金|りょうきん}"],
+          "a": 0
+        },
+        {
+          "id": "v4-57-e05",
+          "type": "choice",
+          "uses": ["v5-38"],
+          "jp": "{今月|こんげつ}は{電気|でんき}＿が{高|たか}かったです。",
+          "fr": "Ce mois-ci, la facture d'électricité était élevée.",
+          "choices": ["{代|だい}", "{台|だい}", "{円|えん}", "ふくろ"],
+          "a": 0
+        },
+        {
+          "id": "v4-57-e06",
+          "type": "choice",
+          "uses": ["v5-15"],
+          "jp": "タクシーの＿は{夜|よる}{高|たか}くなります。",
+          "fr": "Le tarif des taxis augmente la nuit.",
+          "choices": ["{料金|りょうきん}", "おつり", "{売|う}り{場|ば}", "ふくろ"],
+          "a": 0
+        },
+        {
+          "id": "v4-57-e07",
+          "type": "choice",
+          "jp": "お{金|かね}はあちらの＿ではらってください。",
+          "fr": "Payez à la caisse là-bas, s'il vous plaît.",
+          "choices": ["レジ", "ふくろ", "おつり", "ねだん"],
+          "a": 0
+        },
+        {
+          "id": "v4-57-e08",
+          "type": "choice",
+          "uses": ["v5-27"],
+          "jp": "この{店|みせ}はカードが{使|つか}えません。＿だけです。",
+          "fr": "Ce magasin n'accepte pas les cartes. Seulement les espèces.",
+          "choices": ["げんきん", "おつり", "ねだん", "{料金|りょうきん}"],
+          "a": 0
+        },
+        {
+          "id": "v4-57-e09",
+          "type": "choice",
+          "uses": ["v5-38"],
+          "jp": "{車|くるま}を{買|か}いたいですから、{毎月|まいつき}＿しています。",
+          "fr": "Je veux acheter une voiture, alors j'économise tous les mois.",
+          "choices": ["ちょきん", "はらう", "{注文|ちゅうもん}", "つつむ"],
+          "a": 0,
+          "star": {"jp": "ちょきんする", "kana": "ちょきんする", "fr": "économiser, épargner"}
+        },
+        {
+          "id": "v4-57-e10",
+          "type": "choice",
+          "jp": "レストランで、{店|みせ}の{人|ひと}に{料理|りょうり}を＿しました。",
+          "fr": "Au restaurant, j'ai commandé les plats au serveur.",
+          "choices": ["{注文|ちゅうもん}", "ちょきん", "つつむ", "はらい"],
+          "a": 0,
+          "star": {"jp": "{注文|ちゅうもん}する", "kana": "ちゅうもんする", "fr": "commander"}
+        },
+        {
+          "id": "v4-57-e11",
+          "type": "choice",
+          "jp": "すみません、そのケーキはもう＿です。",
+          "fr": "Désolé, ce gâteau est déjà épuisé.",
+          "choices": ["{売|う}り{切|き}れ", "{売|う}り{場|ば}", "おつり", "げんきん"],
+          "a": 0
+        },
+        {
+          "id": "v4-57-e12",
+          "type": "choice",
+          "uses": ["v5-26"],
+          "jp": "プレゼントですから、きれいに＿ください。",
+          "fr": "C'est un cadeau, emballez-le joliment s'il vous plaît.",
+          "choices": ["つつんで", "はらって", "ちょきんして", "すてて"],
+          "a": 0,
+          "star": {"jp": "つつむ", "kana": "つつむ", "fr": "emballer"}
+        },
+        {
+          "id": "v4-57-e13",
+          "type": "choice",
+          "uses": ["v5-36"],
+          "jp": "＿はいりますか。— いいえ、だいじょうぶです。かばんがありますから。",
+          "fr": "Vous voulez un sac ? — Non merci, j'ai un sac à dos.",
+          "choices": ["ふくろ", "おつり", "レジ", "{料金|りょうきん}"],
+          "a": 0
+        },
+        {
+          "id": "v4-57-e14",
+          "type": "choice",
+          "jp": "{安|やす}くておいしいですから、この{店|みせ}はいつも＿が{多|おお}いです。",
+          "fr": "C'est bon marché et bon, alors ce restaurant a toujours beaucoup de clients.",
+          "choices": ["おきゃくさん", "おつり", "{料金|りょうきん}", "{売|う}り{切|き}れ"],
+          "a": 0
+        },
+        {"id": "v4-57-e15", "type": "choice", "q": "Comment se lit **品物** ?", "choices": ["しなもの", "ひんもの", "しなぶつ", "ひんぶつ"], "a": 0},
+        {
+          "id": "v4-57-e16",
+          "type": "choice",
+          "q": "« Je peux payer par carte ? » se dit…",
+          "choices": ["カードではらってもいいですか。", "カードをはらってもいいですか。", "カードにはらってもいいですか。", "カードではらいてもいいですか。"],
+          "a": 0
+        },
+        {
+          "id": "v4-57-e17",
+          "type": "order",
+          "uses": ["v5-07", "v5-38"],
+          "fr": "J'économise dix mille yens par mois.",
+          "tokens": ["{毎月|まいつき}", "{一万円|いちまんえん}", "ちょきん", "しています"]
+        },
+        {"id": "v4-57-e18", "type": "order", "uses": ["v5-12"], "fr": "Ce sac est cher.", "tokens": ["この", "かばんは", "ねだんが", "{高|たか}いです"]}
+      ]
+    },
+    {
+      "id": "v4-58",
+      "title": "Cuisiner et goûter",
+      "words": [
+        {"jp": "{味|あじ}", "kana": "あじ", "fr": "goût, saveur", "ex": "このスープはいい{味|あじ}がします。", "exFr": "Cette soupe a bon goût."},
+        {"jp": "におい", "kana": "におい", "fr": "odeur", "ex": "{台所|だいどころ}からいいにおいがします。", "exFr": "Ça sent bon dans la cuisine."},
+        {"jp": "やく", "kana": "やく", "fr": "griller, cuire", "ex": "{魚|さかな}をやいて{食|た}べます。", "exFr": "Je fais griller le poisson pour le manger."},
+        {"jp": "ゆでる", "kana": "ゆでる", "fr": "faire bouillir (un aliment)", "ex": "たまごを{十分|じゅっぷん}ゆでます。", "exFr": "Je fais cuire les œufs dix minutes."},
+        {"jp": "いためる", "kana": "いためる", "fr": "faire sauter (à la poêle)", "ex": "{野菜|やさい}を{肉|にく}といためました。", "exFr": "J'ai fait sauter les légumes avec la viande."},
+        {"jp": "にがい", "kana": "にがい", "fr": "amer", "ex": "この{薬|くすり}はとてもにがいです。", "exFr": "Ce médicament est très amer."},
+        {"jp": "すっぱい", "kana": "すっぱい", "fr": "acide", "ex": "このりんごはすっぱいです。", "exFr": "Cette pomme est acide."},
+        {"jp": "ざいりょう", "kana": "ざいりょう", "fr": "ingrédients", "ex": "カレーのざいりょうを{買|か}いに{行|い}きます。", "exFr": "Je vais acheter les ingrédients du curry."},
+        {"jp": "{作|つく}り{方|かた}", "kana": "つくりかた", "fr": "manière de faire, recette", "ex": "このケーキの{作|つく}り{方|かた}を{教|おし}えてください。", "exFr": "Donne-moi la recette de ce gâteau."},
+        {"jp": "{食事|しょくじ}する", "kana": "しょくじする", "fr": "prendre un repas", "ex": "{家族|かぞく}とレストランで{食事|しょくじ}しました。", "exFr": "J'ai mangé au restaurant avec ma famille."},
+        {"jp": "こめ", "kana": "こめ", "fr": "riz (cru)", "ex": "{日本|にほん}の{人|ひと}はよくこめを{食|た}べます。", "exFr": "Les Japonais mangent beaucoup de riz."},
+        {"jp": "おゆ", "kana": "おゆ", "fr": "eau chaude", "ex": "おゆをわかして、おちゃを{入|い}れます。", "exFr": "Je fais bouillir de l'eau et je prépare le thé."},
+        {"jp": "{生|なま}", "kana": "なま", "fr": "cru", "ex": "この{魚|さかな}は{生|なま}で{食|た}べられます。", "exFr": "Ce poisson se mange cru."},
+        {"jp": "こしょう", "kana": "こしょう", "fr": "poivre", "ex": "スープにしおとこしょうを{入|い}れます。", "exFr": "Je mets du sel et du poivre dans la soupe."},
+        {"jp": "{牛肉|ぎゅうにく}", "kana": "ぎゅうにく", "fr": "bœuf", "ex": "{牛肉|ぎゅうにく}は{高|たか}いですから、あまり{買|か}いません。", "exFr": "Le bœuf est cher, alors j'en achète peu."}
+      ],
+      "sections": [
+        {
+          "h": "Cuisiner, goûter",
+          "p": ["« Ça sent… », « ça a le goût de… » : 〜の**においがする**, 〜の**{味|あじ}がする**."],
+          "grid": {
+            "head": ["", "japonais"],
+            "rows": [
+              ["griller", "やく (poisson, viande, pain)"],
+              ["cuire à l'eau", "ゆでる (œufs, pâtes)"],
+              ["faire sauter", "いためる (légumes)"],
+              ["cru", "{生|なま}で{食|た}べる"],
+              ["les goûts", "あまい · からい · すっぱい · にがい"]
+            ]
+          }
+        }
+      ],
+      "pieges": [
+        "いいにおい**がする** = ça sent bon ; いい{味|あじ}**がする** = ça a bon goût.",
+        "こめ = le riz **cru** (le grain) ; ご{飯|はん} = le riz cuit, le repas.",
+        "おゆ = eau chaude ; on dit quand même おゆをわかす (faire bouillir de l'eau).",
+        "ゆでる = cuire **dans** l'eau bouillante ; わかす (leçon 48) = faire bouillir l'eau elle-même.",
+        "{生|なま} = cru. Même kanji que {生|い}きる, {生|う}まれる, {学生|がくせい}…",
+        "{作|つく}り{方|かた} = la manière de faire, la recette (〜{方|かた}, leçon 39)."
+      ],
+      "exercises": [
+        {
+          "id": "v4-58-e01",
+          "type": "choice",
+          "uses": ["v5-27"],
+          "jp": "このスープはいい＿がします。だれが{作|つく}りましたか。",
+          "fr": "Cette soupe a bon goût. Qui l'a faite ?",
+          "choices": ["{味|あじ}", "こめ", "ざいりょう", "おゆ"],
+          "a": 0
+        },
+        {
+          "id": "v4-58-e02",
+          "type": "choice",
+          "uses": ["v5-22"],
+          "jp": "{台所|だいどころ}からいい＿がします。カレーですね。",
+          "fr": "Ça sent bon dans la cuisine. C'est du curry !",
+          "choices": ["におい", "{味|あじ}", "こしょう", "{生|なま}"],
+          "a": 0
+        },
+        {
+          "id": "v4-58-e03",
+          "type": "choice",
+          "uses": ["v5-34"],
+          "jp": "{魚|さかな}を＿、しょうゆをつけて{食|た}べます。",
+          "fr": "Je fais griller le poisson et je le mange avec de la sauce soja.",
+          "choices": ["やいて", "わいて", "にがくて", "すっぱくて"],
+          "a": 0
+        },
+        {
+          "id": "v4-58-e04",
+          "type": "choice",
+          "uses": ["v5-06", "v5-16"],
+          "jp": "たまごを{十分|じゅっぷん}＿。",
+          "fr": "Je fais cuire les œufs dix minutes.",
+          "choices": ["ゆでます", "わきます", "すてます", "にがいです"],
+          "a": 0,
+          "star": {"jp": "ゆでる", "kana": "ゆでる", "fr": "faire bouillir (un aliment)"}
+        },
+        {
+          "id": "v4-58-e05",
+          "type": "choice",
+          "uses": ["v5-06"],
+          "jp": "{野菜|やさい}と{肉|にく}をフライパンで＿。",
+          "fr": "J'ai fait sauter les légumes et la viande à la poêle.",
+          "choices": ["いためました", "わかしました", "すっぱいでした", "{食事|しょくじ}しました"],
+          "a": 0,
+          "star": {"jp": "いためる", "kana": "いためる", "fr": "faire sauter (à la poêle)"}
+        },
+        {
+          "id": "v4-58-e06",
+          "type": "choice",
+          "uses": ["v5-23"],
+          "jp": "この{薬|くすり}はとても＿です。でも、{飲|の}まなければなりません。",
+          "fr": "Ce médicament est très amer. Mais je dois le prendre.",
+          "choices": ["にがい", "あまい", "{生|なま}", "おゆ"],
+          "a": 0
+        },
+        {
+          "id": "v4-58-e07",
+          "type": "choice",
+          "uses": ["v5-18"],
+          "jp": "このりんごはまだ＿です。あまくないです。",
+          "fr": "Cette pomme est encore acide. Elle n'est pas sucrée.",
+          "choices": ["すっぱい", "あまい", "{生|なま}", "からい"],
+          "a": 0
+        },
+        {
+          "id": "v4-58-e08",
+          "type": "choice",
+          "uses": ["v5-32"],
+          "jp": "カレーの＿を{買|か}いに、スーパーへ{行|い}きます。",
+          "fr": "Je vais au supermarché acheter les ingrédients du curry.",
+          "choices": ["ざいりょう", "{作|つく}り{方|かた}", "におい", "おゆ"],
+          "a": 0
+        },
+        {
+          "id": "v4-58-e09",
+          "type": "choice",
+          "uses": ["v5-28"],
+          "jp": "このケーキはとてもおいしいですね。＿を{教|おし}えてください。",
+          "fr": "Ce gâteau est délicieux. Donne-moi la recette !",
+          "choices": ["{作|つく}り{方|かた}", "におい", "こめ", "おゆ"],
+          "a": 0
+        },
+        {
+          "id": "v4-58-e10",
+          "type": "choice",
+          "uses": ["v5-21"],
+          "jp": "{週末|しゅうまつ}は{家族|かぞく}とレストランで＿しました。",
+          "fr": "Ce week-end, j'ai mangé au restaurant avec ma famille.",
+          "choices": ["{食事|しょくじ}", "{作|つく}り{方|かた}", "ざいりょう", "こしょう"],
+          "a": 0,
+          "star": {"jp": "{食事|しょくじ}する", "kana": "しょくじする", "fr": "prendre un repas"}
+        },
+        {
+          "id": "v4-58-e11",
+          "type": "choice",
+          "uses": ["v5-06"],
+          "jp": "ご{飯|はん}は＿から{作|つく}ります。",
+          "fr": "Le riz cuit se prépare à partir du riz cru.",
+          "choices": ["こめ", "{牛肉|ぎゅうにく}", "こしょう", "におい"],
+          "a": 0
+        },
+        {
+          "id": "v4-58-e12",
+          "type": "choice",
+          "uses": ["v4-48"],
+          "jp": "おちゃを{入|い}れますから、＿をわかしてください。",
+          "fr": "Je vais faire du thé, fais bouillir de l'eau s'il te plaît.",
+          "choices": ["おゆ", "こめ", "におい", "{生|なま}"],
+          "a": 0
+        },
+        {
+          "id": "v4-58-e13",
+          "type": "choice",
+          "jp": "この{魚|さかな}は＿で{食|た}べられます。さしみです。",
+          "fr": "Ce poisson se mange cru. C'est du sashimi.",
+          "choices": ["{生|なま}", "におい", "ざいりょう", "{作|つく}り{方|かた}"],
+          "a": 0
+        },
+        {
+          "id": "v4-58-e14",
+          "type": "choice",
+          "uses": ["v5-34"],
+          "jp": "スープにしおと＿を{入|い}れます。",
+          "fr": "Je mets du sel et du poivre dans la soupe.",
+          "choices": ["こしょう", "におい", "{作|つく}り{方|かた}", "{味|あじ}"],
+          "a": 0
+        },
+        {"id": "v4-58-e15", "type": "choice", "q": "Comment se lit **牛肉** ?", "choices": ["ぎゅうにく", "うしにく", "ぎゅにく", "ぎゅうじく"], "a": 0},
+        {"id": "v4-58-e16", "type": "choice", "q": "Que veut dire **にがい** ?", "choices": ["amer", "acide", "sucré", "salé"], "a": 0},
+        {"id": "v4-58-e17", "type": "choice", "q": "Dans « 生の魚 » (poisson cru), comment se lit 生 ?", "choices": ["なま", "せい", "いき", "うま"], "a": 0},
+        {"id": "v4-58-e18", "type": "order", "uses": ["v5-22"], "fr": "Ça sent bon dans la cuisine.", "tokens": ["{台所|だいどころ}から", "いいにおいが", "します"]}
+      ]
+    },
+    {
+      "id": "v4-59",
+      "title": "Poste, mairie, police",
+      "words": [
+        {"jp": "ゆうびん", "kana": "ゆうびん", "fr": "courrier, poste", "ex": "ゆうびんで{本|ほん}を{送|おく}りました。", "exFr": "J'ai envoyé un livre par la poste."},
+        {"jp": "けいさつ", "kana": "けいさつ", "fr": "police", "ex": "さいふをとられて、けいさつに{行|い}きました。", "exFr": "On m'a volé mon portefeuille, je suis allé à la police."},
+        {"jp": "もうしこむ", "kana": "もうしこむ", "fr": "s'inscrire, faire une demande", "ex": "{日本語|にほんご}の{試験|しけん}にもうしこみました。", "exFr": "Je me suis inscrit à l'examen de japonais."},
+        {"jp": "とどける", "kana": "とどける", "fr": "livrer, rapporter", "ex": "{道|みち}でひろったさいふをこうばんにとどけました。", "exFr": "J'ai rapporté au poste de police le portefeuille trouvé dans la rue."},
+        {"jp": "とどく", "kana": "とどく", "fr": "arriver (courrier, colis)", "ex": "{国|くに}の{母|はは}から{手紙|てがみ}がとどきました。", "exFr": "J'ai reçu une lettre de ma mère, restée au pays."},
+        {"jp": "{切手|きって}", "kana": "きって", "fr": "timbre", "ex": "{手紙|てがみ}に{切手|きって}をはります。", "exFr": "Je colle un timbre sur la lettre."},
+        {"jp": "はがき", "kana": "はがき", "fr": "carte postale", "ex": "{旅行|りょこう}のとき、{友|とも}だちにはがきを{出|だ}しました。", "exFr": "Pendant le voyage, j'ai envoyé une carte postale à un ami."},
+        {"jp": "ふうとう", "kana": "ふうとう", "fr": "enveloppe", "ex": "{手紙|てがみ}をふうとうに{入|い}れます。", "exFr": "Je mets la lettre dans l'enveloppe."},
+        {"jp": "こづつみ", "kana": "こづつみ", "fr": "colis", "ex": "{国|くに}にこづつみを{送|おく}りたいです。", "exFr": "Je voudrais envoyer un colis dans mon pays."},
+        {"jp": "しやくしょ", "kana": "しやくしょ", "fr": "mairie", "ex": "{住所|じゅうしょ}がかわったら、しやくしょに{行|い}きます。", "exFr": "Quand on change d'adresse, on va à la mairie."},
+        {"jp": "{窓口|まどぐち}", "kana": "まどぐち", "fr": "guichet", "ex": "あちらの{窓口|まどぐち}で{聞|き}いてください。", "exFr": "Renseignez-vous au guichet là-bas."},
+        {"jp": "サイン", "kana": "サイン", "fr": "signature", "ex": "ここにサインをおねがいします。", "exFr": "Signez ici, s'il vous plaît."},
+        {"jp": "{送料|そうりょう}", "kana": "そうりょう", "fr": "frais d'envoi", "ex": "{送料|そうりょう}はいくらですか。", "exFr": "Combien coûtent les frais d'envoi ?"},
+        {"jp": "{用紙|ようし}", "kana": "ようし", "fr": "formulaire", "ex": "この{用紙|ようし}に{名前|なまえ}と{住所|じゅうしょ}を{書|か}いてください。", "exFr": "Écrivez votre nom et votre adresse sur ce formulaire."},
+        {"jp": "そくたつ", "kana": "そくたつ", "fr": "courrier express", "ex": "{急|いそ}ぎますから、そくたつで{送|おく}ってください。", "exFr": "C'est urgent, envoyez-le en express."}
+      ],
+      "sections": [
+        {
+          "h": "À la poste, à la mairie",
+          "p": ["La lettre **arrive** (とどく, が) ; quelqu'un la **livre** (とどける, を)."],
+          "grid": {
+            "head": ["", "japonais"],
+            "rows": [
+              ["envoyer par la poste", "ゆうびん==で=={送|おく}る"],
+              ["coller un timbre", "{切手|きって}==を==はる"],
+              ["ça arrive", "{手紙|てがみ}==が==とどく"],
+              ["rapporter à", "〜==に==とどける"],
+              ["s'inscrire à", "〜==に==もうしこむ"],
+              ["en express", "そくたつ==で=={送|おく}る"]
+            ]
+          }
+        }
+      ],
+      "pieges": [
+        "とどく : la chose arrive (が) ; とどける : on la livre, on la rapporte (を, 〜に).",
+        "〜**に**もうしこむ = s'inscrire **à** (un examen, un cours).",
+        "はがき = carte postale ; ふうとう = enveloppe ; こづつみ = colis.",
+        "けいさつ = la police ; こうばん = le petit poste de quartier ; おまわりさん = l'agent.",
+        "しやくしょ = la mairie (adresse, démarches) ; {窓口|まどぐち} = le guichet.",
+        "{切手|きって}を**はる** = coller un timbre."
+      ],
+      "exercises": [
+        {
+          "id": "v4-59-e01",
+          "type": "choice",
+          "uses": ["v5-12", "v5-21"],
+          "jp": "{国|くに}の{母|はは}から{手紙|てがみ}が＿。",
+          "fr": "J'ai reçu une lettre de ma mère, restée au pays.",
+          "choices": ["とどきました", "とどけました", "もうしこみました", "はりました"],
+          "a": 0,
+          "star": {"jp": "とどく", "kana": "とどく", "fr": "arriver (courrier, colis)"}
+        },
+        {
+          "id": "v4-59-e02",
+          "type": "choice",
+          "uses": ["v4-45", "v5-32"],
+          "jp": "{道|みち}でひろったさいふを、こうばんに＿。",
+          "fr": "J'ai rapporté au poste de police le portefeuille trouvé dans la rue.",
+          "choices": ["とどけました", "とどきました", "もうしこみました", "サインしました"],
+          "a": 0,
+          "star": {"jp": "とどける", "kana": "とどける", "fr": "livrer, rapporter"}
+        },
+        {
+          "id": "v4-59-e03",
+          "type": "choice",
+          "uses": ["v4-52"],
+          "jp": "{日本語|にほんご}の{試験|しけん}に＿。{試験|しけん}は{十二月|じゅうにがつ}です。",
+          "fr": "Je me suis inscrit à l'examen de japonais. L'examen est en décembre.",
+          "choices": ["もうしこみました", "とどきました", "とどけました", "ごうかくしました"],
+          "a": 0,
+          "star": {"jp": "もうしこむ", "kana": "もうしこむ", "fr": "s'inscrire, faire une demande"}
+        },
+        {
+          "id": "v4-59-e04",
+          "type": "choice",
+          "uses": ["v5-26"],
+          "jp": "{手紙|てがみ}に＿をはって、{出|だ}します。",
+          "fr": "Je colle un timbre sur la lettre et je la poste.",
+          "choices": ["{切手|きって}", "ふうとう", "サイン", "{送料|そうりょう}"],
+          "a": 0
+        },
+        {
+          "id": "v4-59-e05",
+          "type": "choice",
+          "uses": ["v5-12", "v5-33"],
+          "jp": "{旅行|りょこう}のとき、{友|とも}だちにきれいな{写真|しゃしん}の＿を{出|だ}しました。",
+          "fr": "Pendant le voyage, j'ai envoyé à un ami une carte postale avec une jolie photo.",
+          "choices": ["はがき", "{切手|きって}", "{用紙|ようし}", "そくたつ"],
+          "a": 0
+        },
+        {
+          "id": "v4-59-e06",
+          "type": "choice",
+          "uses": ["v5-27"],
+          "jp": "{手紙|てがみ}を＿に{入|い}れて、{切手|きって}をはります。",
+          "fr": "Je mets la lettre dans l'enveloppe et je colle un timbre.",
+          "choices": ["ふうとう", "サイン", "はがき", "{窓口|まどぐち}"],
+          "a": 0
+        },
+        {
+          "id": "v4-59-e07",
+          "type": "choice",
+          "uses": ["v5-26"],
+          "jp": "{国|くに}の{家族|かぞく}に、{服|ふく}や{本|ほん}を＿で{送|おく}ります。",
+          "fr": "J'envoie des vêtements et des livres à ma famille par colis.",
+          "choices": ["こづつみ", "はがき", "{切手|きって}", "サイン"],
+          "a": 0
+        },
+        {
+          "id": "v4-59-e08",
+          "type": "choice",
+          "uses": ["v4-47", "v5-33"],
+          "jp": "{住所|じゅうしょ}がかわりましたから、＿に{行|い}って{用紙|ようし}を{出|だ}します。",
+          "fr": "J'ai changé d'adresse, alors je vais à la mairie déposer le formulaire.",
+          "choices": ["しやくしょ", "けいさつ", "サイン", "{送料|そうりょう}"],
+          "a": 0
+        },
+        {
+          "id": "v4-59-e09",
+          "type": "choice",
+          "uses": ["v5-12"],
+          "jp": "さいふをとられましたから、＿に{電話|でんわ}しました。",
+          "fr": "On m'a volé mon portefeuille, alors j'ai appelé la police.",
+          "choices": ["けいさつ", "しやくしょ", "ゆうびん", "はがき"],
+          "a": 0
+        },
+        {
+          "id": "v4-59-e10",
+          "type": "choice",
+          "uses": ["v5-29"],
+          "jp": "ここに＿をおねがいします。ペンをどうぞ。",
+          "fr": "Signez ici, s'il vous plaît. Voici un stylo.",
+          "choices": ["サイン", "{切手|きって}", "こづつみ", "{送料|そうりょう}"],
+          "a": 0
+        },
+        {
+          "id": "v4-59-e11",
+          "type": "choice",
+          "jp": "この{用紙|ようし}に{名前|なまえ}を{書|か}いて、あちらの＿に{出|だ}してください。",
+          "fr": "Écrivez votre nom sur ce formulaire et déposez-le au guichet là-bas.",
+          "choices": ["{窓口|まどぐち}", "ふうとう", "そくたつ", "サイン"],
+          "a": 0
+        },
+        {
+          "id": "v4-59-e12",
+          "type": "choice",
+          "uses": ["v5-36"],
+          "jp": "{急|いそ}ぎますから、＿で{送|おく}ってください。",
+          "fr": "C'est urgent, envoyez-le en express s'il vous plaît.",
+          "choices": ["そくたつ", "はがき", "{用紙|ようし}", "サイン"],
+          "a": 0
+        },
+        {
+          "id": "v4-59-e13",
+          "type": "choice",
+          "uses": ["v5-07"],
+          "jp": "フランスまでの＿はいくらですか。",
+          "fr": "Combien coûtent les frais d'envoi jusqu'en France ?",
+          "choices": ["{送料|そうりょう}", "サイン", "{窓口|まどぐち}", "{用紙|ようし}"],
+          "a": 0
+        },
+        {
+          "id": "v4-59-e14",
+          "type": "choice",
+          "uses": ["v5-33"],
+          "jp": "この＿に{名前|なまえ}と{住所|じゅうしょ}を{書|か}いてください。",
+          "fr": "Écrivez votre nom et votre adresse sur ce formulaire.",
+          "choices": ["{用紙|ようし}", "{切手|きって}", "そくたつ", "サイン"],
+          "a": 0
+        },
+        {
+          "id": "v4-59-e15",
+          "type": "choice",
+          "q": "Que veut dire **こづつみ** ?",
+          "choices": ["un colis", "une carte postale", "une enveloppe", "un timbre"],
+          "a": 0
+        },
+        {
+          "id": "v4-59-e16",
+          "type": "choice",
+          "q": "« La lettre est arrivée » se dit…",
+          "choices": ["{手紙|てがみ}がとどきました。", "{手紙|てがみ}をとどきました。", "{手紙|てがみ}がとどけました。", "{手紙|てがみ}にとどきました。"],
+          "a": 0
+        },
+        {
+          "id": "v4-59-e17",
+          "type": "order",
+          "uses": ["v5-26"],
+          "fr": "J'ai envoyé un colis dans mon pays.",
+          "tokens": ["{国|くに}に", "こづつみを", "{送|おく}りました"],
+          "alt": [["こづつみを", "{国|くに}に", "{送|おく}りました"]]
+        },
+        {
+          "id": "v4-59-e18",
+          "type": "order",
+          "uses": ["v5-29"],
+          "fr": "Je me suis inscrit à l'examen de japonais.",
+          "tokens": ["{日本語|にほんご}の", "{試験|しけん}に", "もうしこみました"]
+        }
+      ]
+    },
+    {
+      "id": "v4-60",
+      "title": "Connecteurs et adverbes N4 (2)",
+      "words": [
+        {"jp": "しかし", "kana": "しかし", "fr": "cependant, mais", "ex": "{日本語|にほんご}はむずかしいです。しかし、おもしろいです。", "exFr": "Le japonais est difficile. Cependant, c'est intéressant."},
+        {"jp": "それで", "kana": "それで", "fr": "et donc, c'est pour ça que", "ex": "バスがおくれました。それで、{会社|かいしゃ}におくれました。", "exFr": "Le bus avait du retard. C'est pour ça que je suis arrivé en retard."},
+        {"jp": "ところで", "kana": "ところで", "fr": "au fait (changer de sujet)", "ex": "ところで、{明日|あした}はひまですか。", "exFr": "Au fait, tu es libre demain ?"},
+        {"jp": "たとえば", "kana": "たとえば", "fr": "par exemple", "ex": "{日本|にほん}の{料理|りょうり}、たとえばすしやてんぷらが{好|す}きです。", "exFr": "J'aime la cuisine japonaise, par exemple les sushis et les tempuras."},
+        {"jp": "はっきり", "kana": "はっきり", "fr": "clairement", "ex": "もっとはっきり{話|はな}してください。", "exFr": "Parlez plus clairement, s'il vous plaît."},
+        {"jp": "それに", "kana": "それに", "fr": "en plus", "ex": "この{部屋|へや}は{広|ひろ}いです。それに、{安|やす}いです。", "exFr": "Cette chambre est grande. En plus, elle n'est pas chère."},
+        {"jp": "それなら", "kana": "それなら", "fr": "dans ce cas", "ex": "{雨|あめ}ですか。それなら、{家|いえ}で{映画|えいが}を{見|み}ましょう。", "exFr": "Il pleut ? Dans ce cas, regardons un film à la maison."},
+        {"jp": "けれど", "kana": "けれど", "fr": "mais (fin de proposition)", "ex": "{高|たか}いけれど、このかばんを{買|か}います。", "exFr": "C'est cher, mais j'achète ce sac."},
+        {"jp": "かなり", "kana": "かなり", "fr": "assez, plutôt", "ex": "{今日|きょう}はかなり{寒|さむ}いですね。", "exFr": "Il fait plutôt froid aujourd'hui."},
+        {"jp": "ちっとも", "kana": "ちっとも", "fr": "(ne…) pas du tout", "ex": "この{本|ほん}はちっともおもしろくないです。", "exFr": "Ce livre n'est pas intéressant du tout."},
+        {"jp": "なるべく", "kana": "なるべく", "fr": "autant que possible", "ex": "なるべく{早|はや}く{来|き}てください。", "exFr": "Venez le plus tôt possible."},
+        {"jp": "なるほど", "kana": "なるほど", "fr": "je vois, en effet", "ex": "なるほど、よく{分|わ}かりました。", "exFr": "Je vois, j'ai bien compris."},
+        {"jp": "ひさしぶり", "kana": "ひさしぶり", "fr": "ça faisait longtemps", "ex": "ひさしぶりですね。お{元気|げんき}ですか。", "exFr": "Ça faisait longtemps ! Tu vas bien ?"},
+        {"jp": "すっかり", "kana": "すっかり", "fr": "complètement", "ex": "やくそくをすっかりわすれていました。", "exFr": "J'avais complètement oublié le rendez-vous."},
+        {"jp": "もちろん", "kana": "もちろん", "fr": "bien sûr", "ex": "パーティーに{来|き}ますか。— もちろん{行|い}きます。", "exFr": "Tu viens à la fête ? — Bien sûr !"}
+      ],
+      "sections": [
+        {
+          "h": "Relier, ajouter, changer de sujet",
+          "p": ["Ces mots ouvrent la phrase suivante (sauf けれど, qui termine la première)."],
+          "grid": {
+            "head": ["", "sens"],
+            "rows": [
+              ["しかし · 〜けれど", "mais (しかし : soutenu ; けれど : en fin de proposition)"],
+              ["それで", "et donc (conséquence)"],
+              ["それに", "en plus"],
+              ["それなら", "dans ce cas (réaction à ce que dit l'autre)"],
+              ["ところで", "au fait (nouveau sujet)"],
+              ["たとえば", "par exemple"]
+            ]
+          }
+        }
+      ],
+      "pieges": [
+        "しかし = でも, mais en plus soutenu (surtout à l'écrit), en début de phrase. 〜けれど (ou 〜けど) se colle à la fin de la proposition : {高|たか}いけれど、{買|か}います.",
+        "それで = et donc (on raconte une conséquence) ; だから (leçon 37) insiste plus.",
+        "それなら = dans ce cas : on réagit à ce que l'autre vient de dire.",
+        "ちっとも + négatif = pas du tout (comme ぜんぜん).",
+        "なるべく = autant que possible ; なるほど = je vois (on vient de comprendre).",
+        "すっかり = complètement (oublié, changé, guéri)."
+      ],
+      "exercises": [
+        {
+          "id": "v4-60-e01",
+          "type": "choice",
+          "uses": ["v4-50"],
+          "jp": "バスが{三十分|さんじゅっぷん}おくれました。＿、{会社|かいしゃ}におくれました。",
+          "fr": "Le bus avait trente minutes de retard. C'est pour ça que je suis arrivé en retard au bureau.",
+          "choices": ["それで", "ところで", "たとえば", "なるほど"],
+          "a": 0
+        },
+        {
+          "id": "v4-60-e02",
+          "type": "choice",
+          "uses": ["v5-24"],
+          "jp": "この{部屋|へや}は{広|ひろ}くて{明|あか}るいです。＿、{駅|えき}にも{近|ちか}いです。",
+          "fr": "Cet appartement est grand et lumineux. En plus, il est près de la gare.",
+          "choices": ["それに", "それで", "しかし", "それなら"],
+          "a": 0
+        },
+        {
+          "id": "v4-60-e03",
+          "type": "choice",
+          "uses": ["v5-31"],
+          "jp": "{明日|あした}は{雨|あめ}だそうですよ。— ＿、{家|いえ}で{映画|えいが}を{見|み}ましょう。",
+          "fr": "Il paraît qu'il pleuvra demain. — Dans ce cas, regardons un film à la maison.",
+          "choices": ["それなら", "それに", "たとえば", "かなり"],
+          "a": 0
+        },
+        {
+          "id": "v4-60-e04",
+          "type": "choice",
+          "uses": ["v5-17"],
+          "jp": "{仕事|しごと}の{話|はなし}はもう{終|お}わりましたね。＿、{週末|しゅうまつ}は{何|なに}をしますか。",
+          "fr": "On a fini de parler du travail. Au fait, que fais-tu ce week-end ?",
+          "choices": ["ところで", "けれど", "それに", "なるべく"],
+          "a": 0
+        },
+        {
+          "id": "v4-60-e05",
+          "type": "choice",
+          "jp": "{日本|にほん}の{料理|りょうり}、＿すしやてんぷらが{大好|だいす}きです。",
+          "fr": "J'adore la cuisine japonaise, par exemple les sushis et les tempuras.",
+          "choices": ["たとえば", "ちっとも", "なるほど", "すっかり"],
+          "a": 0
+        },
+        {
+          "id": "v4-60-e06",
+          "type": "choice",
+          "uses": ["v5-23"],
+          "jp": "{声|こえ}が{小|ちい}さくて{分|わ}かりません。もっと＿{話|はな}してください。",
+          "fr": "Je n'entends pas, vous parlez trop bas. Parlez plus clairement, s'il vous plaît.",
+          "choices": ["はっきり", "ちっとも", "すっかり", "なるほど"],
+          "a": 0
+        },
+        {
+          "id": "v4-60-e07",
+          "type": "choice",
+          "uses": ["v5-19"],
+          "jp": "{高|たか}い＿、このかばんはとても{便利|べんり}ですから{買|か}います。",
+          "fr": "Il est cher, mais ce sac est très pratique, alors je l'achète.",
+          "choices": ["けれど", "それで", "それに", "たとえば"],
+          "a": 0
+        },
+        {
+          "id": "v4-60-e08",
+          "type": "choice",
+          "uses": ["v5-25"],
+          "jp": "{今日|きょう}は＿{寒|さむ}いですね。コートを{着|き}てきてよかったです。",
+          "fr": "Il fait plutôt froid aujourd'hui. J'ai bien fait de mettre mon manteau.",
+          "choices": ["かなり", "ちっとも", "なるべく", "ひさしぶり"],
+          "a": 0
+        },
+        {
+          "id": "v4-60-e09",
+          "type": "choice",
+          "uses": ["v5-31"],
+          "jp": "この{映画|えいが}は＿おもしろくなかったです。ねてしまいました。",
+          "fr": "Ce film n'était pas intéressant du tout. Je me suis endormi.",
+          "choices": ["ちっとも", "なるべく", "それに", "たとえば"],
+          "a": 0
+        },
+        {
+          "id": "v4-60-e10",
+          "type": "choice",
+          "uses": ["v4-51"],
+          "jp": "＿{早|はや}く{来|き}てください。{会議|かいぎ}は{九時|くじ}からです。",
+          "fr": "Venez le plus tôt possible. La réunion commence à neuf heures.",
+          "choices": ["なるべく", "ちっとも", "すっかり", "なるほど"],
+          "a": 0
+        },
+        {
+          "id": "v4-60-e11",
+          "type": "choice",
+          "uses": ["v5-35"],
+          "jp": "「この{漢字|かんじ}は{木|き}が{三|みっ}つで『{森|もり}』です。」「＿、おもしろいですね。」",
+          "fr": "« Ce kanji, c'est trois arbres : la forêt. » « Je vois, c'est amusant ! »",
+          "choices": ["なるほど", "なるべく", "ちっとも", "たとえば"],
+          "a": 0
+        },
+        {
+          "id": "v4-60-e12",
+          "type": "choice",
+          "uses": ["v5-19"],
+          "jp": "＿ですね。{三年|さんねん}ぶりですね。お{元気|げんき}でしたか。",
+          "fr": "Ça faisait longtemps ! Trois ans, hein. Tu allais bien ?",
+          "choices": ["ひさしぶり", "はじめまして", "なるほど", "もちろん"],
+          "a": 0
+        },
+        {
+          "id": "v4-60-e13",
+          "type": "choice",
+          "uses": ["v4-54"],
+          "jp": "{友|とも}だちとのやくそくを＿わすれていました。ごめんなさい。",
+          "fr": "J'avais complètement oublié le rendez-vous avec mon ami. Pardon.",
+          "choices": ["すっかり", "ちっとも", "なるべく", "たとえば"],
+          "a": 0
+        },
+        {
+          "id": "v4-60-e14",
+          "type": "choice",
+          "uses": ["v5-31"],
+          "jp": "{明日|あした}のパーティーに{来|き}ますか。— ＿{行|い}きます！",
+          "fr": "Tu viens à la fête demain ? — Bien sûr que je viens !",
+          "choices": ["もちろん", "ちっとも", "たとえば", "ところで"],
+          "a": 0
+        },
+        {
+          "id": "v4-60-e15",
+          "type": "choice",
+          "uses": ["v5-37"],
+          "q": "Quel mot a le même sens que **しかし** ?",
+          "choices": ["でも", "それに", "それで", "たとえば"],
+          "a": 0
+        },
+        {
+          "id": "v4-60-e16",
+          "type": "choice",
+          "q": "Que veut dire **ちっとも 〜ない** ?",
+          "choices": ["pas du tout", "pas encore", "pas souvent", "pas assez"],
+          "a": 0
+        },
+        {"id": "v4-60-e17", "type": "order", "uses": ["v4-55"], "fr": "Venez le plus tôt possible.", "tokens": ["なるべく", "{早|はや}く", "{来|き}て", "ください"]},
+        {
+          "id": "v4-60-e18",
+          "type": "order",
+          "uses": ["v5-19"],
+          "fr": "Ça faisait longtemps ! Tu vas bien ?",
+          "tokens": ["ひさしぶりですね。", "お{元気|げんき}", "ですか"]
+        }
+      ]
+    }
+  ],
+  "test": [
+    {
+      "id": "v4-b12-t01",
+      "type": "choice",
+      "uses": ["v4-56"],
+      "jp": "{部屋|へや}が＿ですから、そうじします。",
+      "fr": "La chambre est sale, alors je fais le ménage.",
+      "choices": ["きたない", "きれい", "しまう", "もえる"],
+      "a": 0
+    },
+    {
+      "id": "v4-b12-t02",
+      "type": "choice",
+      "uses": ["v4-57"],
+      "jp": "このシャツはいいですが、＿がちょっと{高|たか}いです。",
+      "fr": "Cette chemise est bien, mais elle est un peu chère.",
+      "choices": ["ねだん", "おつり", "げんきん", "サイン"],
+      "a": 0
+    },
+    {
+      "id": "v4-b12-t03",
+      "type": "choice",
+      "uses": ["v4-58"],
+      "jp": "たまごを＿{食|た}べます。",
+      "fr": "Je fais cuire les œufs dans l'eau et je les mange.",
+      "choices": ["ゆでて", "わかして", "いって", "とどけて"],
+      "a": 0,
+      "star": {"jp": "ゆでる", "kana": "ゆでる", "fr": "faire bouillir (un aliment)"}
+    },
+    {
+      "id": "v4-b12-t04",
+      "type": "choice",
+      "uses": ["v4-59"],
+      "jp": "{国|くに}の{母|はは}からこづつみが＿。",
+      "fr": "J'ai reçu un colis de ma mère, restée au pays.",
+      "choices": ["とどきました", "とどけました", "もうしこみました", "はらいました"],
+      "a": 0,
+      "star": {"jp": "とどく", "kana": "とどく", "fr": "arriver (courrier, colis)"}
+    },
+    {
+      "id": "v4-b12-t05",
+      "type": "choice",
+      "uses": ["v4-60"],
+      "jp": "{旅行|りょこう}の{話|はなし}、{楽|たの}しかったです。＿、{明日|あした}の{会議|かいぎ}は{何時|なんじ}からですか。",
+      "fr": "Le récit du voyage était sympa. Au fait, la réunion de demain commence à quelle heure ?",
+      "choices": ["ところで", "なるべく", "それに", "たとえば"],
+      "a": 0
+    },
+    {
+      "id": "v4-b12-t06",
+      "type": "choice",
+      "uses": ["v4-56"],
+      "jp": "こわれたかさを＿。まだ{使|つか}えます。",
+      "fr": "J'ai réparé le parapluie cassé. Il est encore utilisable.",
+      "choices": ["なおしました", "すてました", "なおりました", "よごれました"],
+      "a": 0,
+      "star": {"jp": "なおす", "kana": "なおす", "fr": "réparer ; corriger"}
+    },
+    {
+      "id": "v4-b12-t07",
+      "type": "choice",
+      "uses": ["v4-57"],
+      "jp": "カードで＿もいいですか。— すみません、げんきんだけです。",
+      "fr": "Je peux payer par carte ? — Désolé, seulement en espèces.",
+      "choices": ["はらって", "つつんで", "ちょきんして", "とどけて"],
+      "a": 0,
+      "star": {"jp": "はらう", "kana": "はらう", "fr": "payer"}
+    },
+    {
+      "id": "v4-b12-t08",
+      "type": "choice",
+      "uses": ["v4-58"],
+      "jp": "この{薬|くすり}は＿ですが、よくききます。",
+      "fr": "Ce médicament est amer, mais il est efficace.",
+      "choices": ["にがい", "{生|なま}", "おゆ", "ざいりょう"],
+      "a": 0
+    },
+    {"id": "v4-b12-t09", "type": "choice", "uses": ["v4-59"], "q": "Comment se lit **切手** ?", "choices": ["きって", "きりて", "せって", "きっしゅ"], "a": 0},
+    {
+      "id": "v4-b12-t10",
+      "type": "choice",
+      "uses": ["v4-60"],
+      "jp": "{雨|あめ}ですか。＿、タクシーで{行|い}きましょう。",
+      "fr": "Il pleut ? Dans ce cas, prenons un taxi.",
+      "choices": ["それなら", "ところで", "たとえば", "ちっとも"],
+      "a": 0
+    },
+    {
+      "id": "v4-b12-t11",
+      "type": "choice",
+      "uses": ["v4-56"],
+      "jp": "いらない{紙|かみ}は＿ごみです。",
+      "fr": "Le papier dont on n'a plus besoin, ce sont des déchets qui se brûlent.",
+      "choices": ["もえる", "ふく", "よごれ", "しまう"],
+      "a": 0
+    },
+    {
+      "id": "v4-b12-t12",
+      "type": "choice",
+      "uses": ["v4-57"],
+      "jp": "＿でお{金|かね}をはらってから、ふくろをもらいました。",
+      "fr": "J'ai payé à la caisse, puis on m'a donné un sac.",
+      "choices": ["レジ", "おつり", "ねだん", "{品物|しなもの}"],
+      "a": 0
+    },
+    {
+      "id": "v4-b12-t13",
+      "type": "choice",
+      "uses": ["v4-58"],
+      "jp": "{台所|だいどころ}から{魚|さかな}をやく＿がします。",
+      "fr": "Ça sent le poisson grillé dans la cuisine.",
+      "choices": ["におい", "{味|あじ}", "こめ", "こしょう"],
+      "a": 0
+    },
+    {
+      "id": "v4-b12-t14",
+      "type": "order",
+      "uses": ["v4-59"],
+      "fr": "La lettre de ma mère est arrivée.",
+      "tokens": ["{母|はは}からの", "{手紙|てがみ}が", "とどきました"]
+    },
+    {
+      "id": "v4-b12-t15",
+      "type": "choice",
+      "uses": ["v4-60", "v5-40"],
+      "jp": "もっと＿{言|い}ってください。よく{聞|き}こえません。",
+      "fr": "Dites-le plus clairement. Je n'entends pas bien.",
+      "choices": ["はっきり", "すっかり", "ちっとも", "なるべく"],
+      "a": 0
+    },
+    {
+      "id": "v4-b12-t16",
+      "type": "choice",
+      "uses": ["v4-47", "v4-60"],
+      "jp": "{十年|じゅうねん}ぶりに{町|まち}に{帰|かえ}りましたが、＿かわっていました。",
+      "fr": "Je suis revenu en ville après dix ans : elle avait complètement changé.",
+      "choices": ["すっかり", "ちっとも", "なるべく", "もちろん"],
+      "a": 0
+    }
+  ],
+  "examTest": [
+    {
+      "id": "v4-x06-01",
+      "type": "choice",
+      "uses": ["v4-51", "v4-53"],
+      "q": "Une seule de ces phrases est correcte. Laquelle ?",
+      "choices": ["{部長|ぶちょう}に{仕事|しごと}のことをそうだんしました。", "{部長|ぶちょう}を{仕事|しごと}のことをそうだんしました。", "{部長|ぶちょう}に{仕事|しごと}のことがそうだんしました。", "{部長|ぶちょう}に{仕事|しごと}のことをそうだんいました。"],
+      "a": 0
+    },
+    {
+      "id": "v4-x06-02",
+      "type": "choice",
+      "uses": ["v4-47", "v4-51", "v4-53"],
+      "jp": "{急|きゅう}にねつが{上|あ}がって、{会社|かいしゃ}を{休|やす}みました。{朝|あさ}、{部長|ぶちょう}に＿しました。",
+      "fr": "J'ai eu de la fièvre d'un coup et je ne suis pas allé travailler. Le matin, j'ai prévenu mon chef.",
+      "choices": ["れんらく", "あいさつ", "しゅっちょう", "ちょきん"],
+      "a": 0,
+      "star": {"jp": "れんらくする", "kana": "れんらくする", "fr": "contacter, prévenir"}
+    },
+    {
+      "id": "v4-x06-03",
+      "type": "choice",
+      "uses": ["v4-52", "v4-55"],
+      "jp": "{試験|しけん}に＿ために、{毎日|まいにち}いっしょうけんめい{勉強|べんきょう}しています。",
+      "fr": "J'étudie de toutes mes forces tous les jours pour réussir l'examen.",
+      "choices": ["ごうかくする", "おちる", "そつぎょうする", "{入学|にゅうがく}する"],
+      "a": 0
+    },
+    {
+      "id": "v4-x06-04",
+      "type": "choice",
+      "uses": ["v4-45", "v4-48", "v4-56"],
+      "jp": "こわれたパソコンを{店|みせ}で＿もらいました。{今|いま}はよく{動|うご}きます。",
+      "fr": "J'ai fait réparer l'ordinateur en panne au magasin. Maintenant il marche bien.",
+      "choices": ["しゅうりして", "すてて", "よごして", "かたづけて"],
+      "a": 0,
+      "star": {"jp": "しゅうりする", "kana": "しゅうりする", "fr": "réparer (un spécialiste)"}
+    },
+    {
+      "id": "v4-x06-05",
+      "type": "choice",
+      "uses": ["v4-50", "v5-36"],
+      "jp": "{電車|でんしゃ}がこんでいて、＿せきがありませんでした。",
+      "fr": "Le train était bondé, il n'y avait pas de place pour s'asseoir.",
+      "choices": ["すわる", "すく", "とまる", "まがる"],
+      "a": 0
+    },
+    {
+      "id": "v4-x06-06",
+      "type": "choice",
+      "uses": ["v4-47", "v4-57"],
+      "jp": "このスーパーは{夜|よる}{八時|はちじ}になると、{魚|さかな}のねだんが＿。",
+      "fr": "Dans ce supermarché, le prix du poisson baisse à partir de vingt heures.",
+      "choices": ["{下|さ}がります", "{下|さ}げます", "へります", "なくなります"],
+      "a": 0,
+      "star": {"jp": "{下|さ}がる", "kana": "さがる", "fr": "baisser, descendre"}
+    },
+    {
+      "id": "v4-x06-07",
+      "type": "choice",
+      "uses": ["v4-53", "v4-58"],
+      "jp": "カレーの{作|つく}り{方|かた}が{分|わ}からなかったので、{母|はは}に{電話|でんわ}で＿。",
+      "fr": "Je ne savais pas comment faire le curry, alors j'ai demandé à ma mère au téléphone.",
+      "choices": ["{聞|き}きました", "ことわりました", "あやまりました", "しょうかいしました"],
+      "a": 0,
+      "star": {"jp": "{聞|き}く", "kana": "きく", "fr": "écouter ; demander"}
+    },
+    {
+      "id": "v4-x06-08",
+      "type": "order",
+      "uses": ["v4-44", "v5-32"],
+      "fr": "Faites attention aux voitures quand vous traversez.",
+      "tokens": ["{道|みち}をわたるときは、", "{車|くるま}に", "{注意|ちゅうい}して", "ください"]
+    },
+    {
+      "id": "v4-x06-09",
+      "type": "choice",
+      "uses": ["v4-60"],
+      "q": "Ton voisin te dit : ひさしぶりですね. Que veut-il dire ?",
+      "choices": ["Ça faisait longtemps !", "Enchanté !", "À bientôt !", "Quel sale temps !"],
+      "a": 0
+    },
+    {
+      "id": "v4-x06-10",
+      "type": "choice",
+      "uses": ["v4-48", "v4-59"],
+      "jp": "{電車|でんしゃ}でさいふを＿、けいさつに{行|い}きました。",
+      "fr": "J'ai perdu mon portefeuille dans le train, alors je suis allé à la police.",
+      "choices": ["おとして", "かたづけて", "つつんで", "ちょきんして"],
+      "a": 0,
+      "star": {"jp": "おとす", "kana": "おとす", "fr": "faire tomber ; perdre"}
+    },
+    {
+      "id": "v4-x06-11",
+      "type": "choice",
+      "uses": ["v4-51", "v4-57"],
+      "jp": "{車|くるま}を{買|か}うために、きゅうりょうから{毎月|まいつき}{二万円|にまんえん}＿います。",
+      "fr": "Pour acheter une voiture, je mets de côté vingt mille yens de mon salaire chaque mois.",
+      "choices": ["ちょきんして", "{注文|ちゅうもん}して", "つつんで", "とどけて"],
+      "a": 0,
+      "star": {"jp": "ちょきんする", "kana": "ちょきんする", "fr": "économiser, épargner"}
+    },
+    {
+      "id": "v4-x06-12",
+      "type": "choice",
+      "uses": ["v4-50", "v4-54"],
+      "jp": "このレストランはいつもこんでいますから、{前|まえ}の{日|ひ}に＿しておいたほうがいいです。",
+      "fr": "Ce restaurant est toujours bondé, alors il vaut mieux réserver la veille.",
+      "choices": ["よやく", "キャンセル", "しゅうり", "ちょきん"],
+      "a": 0
+    },
+    {
+      "id": "v4-x06-13",
+      "type": "choice",
+      "uses": ["v4-53"],
+      "q": "A : {明日|あした}、いっしょに{映画|えいが}に{行|い}きませんか。 B : すみません、{明日|あした}はちょっと…  Que fait B ?",
+      "choices": ["Il refuse poliment.", "Il accepte avec plaisir.", "Il s'excuse d'être en retard.", "Il demande l'heure."],
+      "a": 0
+    },
+    {
+      "id": "v4-x06-14",
+      "type": "choice",
+      "uses": ["v4-46"],
+      "q": "Que veut dire : {国|くに}に{帰|かえ}る{友|とも}だちを{見送|みおく}りに、くうこうへ{行|い}きました。",
+      "choices": [
+        "Je suis allé à l'aéroport accompagner un ami qui rentrait chez lui.",
+        "Je suis allé chercher un ami qui arrivait.",
+        "Je suis rentré dans mon pays avec un ami.",
+        "Mon ami est venu me chercher à l'aéroport."
+      ],
+      "a": 0
+    },
+    {
+      "id": "v4-x06-15",
+      "type": "choice",
+      "uses": ["v4-49", "v4-58"],
+      "jp": "スープにしおが＿なかったので、もう{少|すこ}し{入|い}れました。",
+      "fr": "Il n'y avait pas assez de sel dans la soupe, alors j'en ai rajouté un peu.",
+      "choices": ["{足|た}り", "のこら", "へら", "なくなら"],
+      "a": 0,
+      "star": {"jp": "{足|た}りる", "kana": "たりる", "fr": "suffire"}
+    }
+  ]
+}

@@ -90,14 +90,18 @@ def auto_star(bloc):
     words = known_words(bloc['lessons'])
     exact = {plain(w['jp']) for w in words}
     jp_ok = lambda s: _re.search(r'[\u3040-\u30ff\u3400-\u9fff]', s or '')
+    lecon = {id(e): l for l in bloc['lessons'] for e in l['exercises']}
     for e in [x for l in bloc['lessons'] for x in l['exercises']] + bloc['test'] + bloc.get('examTest', []):
         if e['type'] != 'choice' or 'star' in e or '＿' not in e.get('jp', ''): continue
         ans = e['choices'][e['a']]
         pa = plain(ans)
         if not jp_ok(pa) or pa in exact or '。' in pa or len(pa) > 12: continue
-        cands = [w for w in words if _forme_de(ans, w)]
+        cands = [(i, w) for i, w in enumerate(words) if _forme_de(ans, w)]
         if cands:
-            best = max(cands, key=lambda w: len(stem(w['jp'])))
+            # À égalité : un mot de la leçon de l'exercice, sinon le plus récent (しまって → しまう, pas しまる).
+            l = lecon.get(id(e))
+            ici = {plain(w['jp']) for w in (l or {}).get('words', [])}
+            i, best = max(cands, key=lambda c: (len(stem(c[1]['jp'])), plain(c[1]['jp']) in ici, c[0]))
             e['star'] = {"jp": best['jp'], "kana": best['kana'], "fr": best['fr']}
 
 def save_n4(bloc, out):
