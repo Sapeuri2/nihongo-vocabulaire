@@ -1,0 +1,1105 @@
+{
+  "id": "v4-b09",
+  "level": "N4",
+  "title": "Émotions et personnes : sentiments, caractère, relations, santé, gestes",
+  "lessons": [
+    {
+      "id": "v4-41",
+      "title": "Sentiments",
+      "words": [
+        {"jp": "うれしい", "kana": "うれしい", "fr": "heureux, content", "ex": "{友|とも}だちから{手紙|てがみ}が{来|き}て、うれしかったです。", "exFr": "J'ai reçu une lettre d'un ami, j'étais content."},
+        {"jp": "かなしい", "kana": "かなしい", "fr": "triste", "ex": "{犬|いぬ}が{死|し}んで、とてもかなしかったです。", "exFr": "Mon chien est mort, j'étais très triste."},
+        {"jp": "さびしい", "kana": "さびしい", "fr": "se sentir seul", "ex": "{家族|かぞく}に{会|あ}えなくて、さびしいです。", "exFr": "Je ne peux pas voir ma famille, je me sens seul."},
+        {"jp": "こわい", "kana": "こわい", "fr": "effrayant ; avoir peur", "ex": "{夜|よる}の{森|もり}はこわいです。", "exFr": "La forêt la nuit, ça fait peur."},
+        {"jp": "はずかしい", "kana": "はずかしい", "fr": "gêné, avoir honte", "ex": "みんなの{前|まえ}で{歌|うた}うのは、はずかしいです。", "exFr": "Chanter devant tout le monde, ça me gêne."},
+        {"jp": "{心配|しんぱい}する", "kana": "しんぱいする", "fr": "s'inquiéter", "ex": "{子|こ}どもが{帰|かえ}ってこないので、{母|はは}は{心配|しんぱい}しています。", "exFr": "L'enfant ne rentre pas, sa mère s'inquiète."},
+        {"jp": "{安心|あんしん}する", "kana": "あんしんする", "fr": "être rassuré", "ex": "{試験|しけん}がやさしかったので、{安心|あんしん}しました。", "exFr": "L'examen était facile, j'ai été rassuré."},
+        {"jp": "びっくりする", "kana": "びっくりする", "fr": "être surpris", "ex": "{急|きゅう}に{大|おお}きい{音|おと}がして、びっくりしました。", "exFr": "Il y a eu un grand bruit d'un coup, j'ai sursauté."},
+        {"jp": "よろこぶ", "kana": "よろこぶ", "fr": "se réjouir (les autres)", "ex": "{母|はは}はプレゼントをとてもよろこびました。", "exFr": "Ma mère a été ravie du cadeau."},
+        {"jp": "おこる", "kana": "おこる", "fr": "se fâcher", "ex": "{宿題|しゅくだい}をわすれて、{先生|せんせい}がおこりました。", "exFr": "J'ai oublié mes devoirs, le professeur s'est fâché."},
+        {"jp": "なく", "kana": "なく", "fr": "pleurer", "ex": "{赤|あか}ちゃんが{夜|よる}ずっとないています。", "exFr": "Le bébé pleure toute la nuit."},
+        {"jp": "わらう", "kana": "わらう", "fr": "rire, sourire", "ex": "{田中|たなか}さんはいつもわらっています。", "exFr": "M. Tanaka sourit toujours."},
+        {"jp": "{気持|きも}ち", "kana": "きもち", "fr": "sentiment, sensation", "ex": "{朝|あさ}のさんぽは{気持|きも}ちがいいです。", "exFr": "La promenade du matin, c'est agréable."},
+        {"jp": "ざんねん", "kana": "ざんねん", "fr": "dommage, regrettable", "ex": "{雨|あめ}で{試合|しあい}がなくなって、ざんねんです。", "exFr": "Le match est annulé à cause de la pluie, c'est dommage."},
+        {"jp": "{楽|たの}しみ", "kana": "たのしみ", "fr": "avoir hâte ; plaisir", "ex": "{来週|らいしゅう}の{旅行|りょこう}が{楽|たの}しみです。", "exFr": "J'ai hâte du voyage de la semaine prochaine."}
+      ],
+      "sections": [
+        {
+          "h": "Ce que je ressens, ce que ressentent les autres",
+          "p": [
+            "Les adjectifs de sentiment (うれしい, かなしい, こわい…) disent en principe ce que **je** ressens. Pour les autres, on décrit ce qu'on voit, avec un verbe."
+          ],
+          "grid": {
+            "head": ["", "emploi"],
+            "rows": [
+              ["うれしい · かなしい · さびしい · こわい", "ce que **je** ressens"],
+              ["よろこぶ · おこる · なく · わらう", "ce qu'on **voit** chez les autres : {母|はは}はよろこんでいます"],
+              ["{心配|しんぱい}する · {安心|あんしん}する · びっくりする", "verbes en する : {心配|しんぱい}しています"],
+              ["{楽|たの}しい / {楽|たの}しみ", "c'est agréable (pendant) / j'ai hâte (avant)"]
+            ]
+          }
+        }
+      ],
+      "pieges": [
+        "{弟|おとうと}はうれしいです sonne bizarre : on dit {弟|おとうと}は**よろこんでいます** (on décrit ce qu'on voit).",
+        "{旅行|りょこう}が**{楽|たの}しみ**です = j'ai hâte du voyage. {旅行|りょこう}は**{楽|たの}しかった**です = le voyage était agréable.",
+        "ざんねん = c'est dommage (une chose ratée), pas « triste ».",
+        "さびしい = on se sent seul, quelqu'un nous manque ; かなしい = triste.",
+        "{気持|きも}ちがいい = c'est agréable (sensation) ; {気持|きも}ちが{悪|わる}い = ça dégoûte, j'ai la nausée.",
+        "おこる au passif : {先生|せんせい}に**おこられました** = je me suis fait gronder."
+      ],
+      "exercises": [
+        {
+          "id": "v4-41-e01",
+          "type": "choice",
+          "uses": ["v5-17", "v5-26"],
+          "jp": "{友|とも}だちがたんじょうびにケーキをくれました。とても＿です。",
+          "fr": "Mon ami m'a offert un gâteau pour mon anniversaire. J'étais très content.",
+          "choices": ["うれしかった", "かなしかった", "さびしかった", "こわかった"],
+          "a": 0,
+          "star": {"jp": "うれしい", "kana": "うれしい", "fr": "heureux, content"}
+        },
+        {
+          "id": "v4-41-e02",
+          "type": "choice",
+          "uses": ["v5-35", "v5-36"],
+          "jp": "{犬|いぬ}が{死|し}んで、とても＿。",
+          "fr": "Mon chien est mort, j'étais très triste.",
+          "choices": ["かなしかったです", "うれしかったです", "{楽|たの}しかったです", "はずかしかったです"],
+          "a": 0,
+          "star": {"jp": "かなしい", "kana": "かなしい", "fr": "triste"}
+        },
+        {
+          "id": "v4-41-e03",
+          "type": "choice",
+          "uses": ["v5-33", "v5-36"],
+          "jp": "{一人|ひとり}で{外国|がいこく}に{住|す}んでいますから、ときどき＿なります。",
+          "fr": "J'habite seul à l'étranger, alors parfois je me sens seul.",
+          "choices": ["さびしく", "うれしく", "あたたかく", "はずかしく"],
+          "a": 0,
+          "star": {"jp": "さびしい", "kana": "さびしい", "fr": "se sentir seul"}
+        },
+        {
+          "id": "v4-41-e04",
+          "type": "choice",
+          "uses": ["v5-35"],
+          "jp": "{夜|よる}の{森|もり}は＿ですから、{一人|ひとり}で{行|い}きたくないです。",
+          "fr": "La forêt la nuit fait peur, alors je ne veux pas y aller seul.",
+          "choices": ["こわい", "うれしい", "{楽|たの}しい", "ざんねん"],
+          "a": 0
+        },
+        {
+          "id": "v4-41-e05",
+          "type": "choice",
+          "uses": ["v5-19", "v5-31"],
+          "jp": "みんなの{前|まえ}で{歌|うた}を{歌|うた}いました。{下手|へた}ですから、とても＿です。",
+          "fr": "J'ai chanté devant tout le monde. Je chante mal, alors j'avais très honte.",
+          "choices": ["はずかしかった", "うれしかった", "{安心|あんしん}した", "さびしかった"],
+          "a": 0,
+          "star": {"jp": "はずかしい", "kana": "はずかしい", "fr": "gêné, avoir honte"}
+        },
+        {
+          "id": "v4-41-e06",
+          "type": "choice",
+          "jp": "{子|こ}どもがまだ{帰|かえ}ってきませんから、{母|はは}は＿います。",
+          "fr": "L'enfant n'est pas encore rentré, alors sa mère s'inquiète.",
+          "choices": ["{心配|しんぱい}して", "{安心|あんしん}して", "よろこんで", "わらって"],
+          "a": 0,
+          "star": {"jp": "{心配|しんぱい}する", "kana": "しんぱいする", "fr": "s'inquiéter"}
+        },
+        {
+          "id": "v4-41-e07",
+          "type": "choice",
+          "uses": ["v5-19", "v5-36"],
+          "jp": "{子|こ}どもが{元気|げんき}に{帰|かえ}ってきて、{母|はは}は＿しました。",
+          "fr": "L'enfant est rentré en bonne santé, sa mère a été rassurée.",
+          "choices": ["{安心|あんしん}", "{心配|しんぱい}", "ざんねん", "けっこん"],
+          "a": 0,
+          "star": {"jp": "{安心|あんしん}する", "kana": "あんしんする", "fr": "être rassuré"}
+        },
+        {
+          "id": "v4-41-e08",
+          "type": "choice",
+          "uses": ["v5-14", "v5-29"],
+          "jp": "{急|きゅう}に{大|おお}きい{音|おと}がして、＿しました。",
+          "fr": "Il y a eu un grand bruit d'un coup, j'ai sursauté.",
+          "choices": ["びっくり", "{安心|あんしん}", "さんぽ", "れんしゅう"],
+          "a": 0,
+          "star": {"jp": "びっくりする", "kana": "びっくりする", "fr": "être surpris"}
+        },
+        {
+          "id": "v4-41-e09",
+          "type": "choice",
+          "uses": ["v5-26"],
+          "q": "« Ma mère a été ravie du cadeau » se dit…",
+          "choices": ["{母|はは}はプレゼントをとてもよろこびました。", "{母|はは}はプレゼントをとてもうれしいでした。", "{母|はは}はプレゼントをとてもよろこいました。", "{母|はは}はプレゼントにとてもよろこびです。"],
+          "a": 0,
+          "explain": "Pour quelqu'un d'autre : よろこぶ (よろこびました). Et jamais うれしいでした (→ うれしかったです)."
+        },
+        {
+          "id": "v4-41-e10",
+          "type": "choice",
+          "star": {"jp": "おこる", "kana": "おこる", "fr": "se fâcher"},
+          "uses": ["v5-28", "v5-29"],
+          "jp": "{宿題|しゅくだい}をわすれて、{先生|せんせい}に＿。",
+          "fr": "J'ai oublié mes devoirs et je me suis fait gronder par le professeur.",
+          "choices": ["おこられました", "わらいました", "なきました", "よろこびました"],
+          "a": 0,
+          "explain": "{先生|せんせい}**に**おこられる (passif) = se faire gronder par le professeur."
+        },
+        {
+          "id": "v4-41-e11",
+          "type": "choice",
+          "jp": "{赤|あか}ちゃんが{夜|よる}ずっと＿います。ねられません。",
+          "fr": "Le bébé pleure toute la nuit. Je n'arrive pas à dormir.",
+          "choices": ["ないて", "{安心|あんしん}して", "びっくりして", "さびしくて"],
+          "a": 0
+        },
+        {
+          "id": "v4-41-e12",
+          "type": "choice",
+          "q": "Que veut dire **ざんねん** ?",
+          "choices": ["dommage, regrettable", "triste à pleurer", "effrayant", "embarrassant"],
+          "a": 0
+        },
+        {
+          "id": "v4-41-e13",
+          "type": "choice",
+          "uses": ["v5-18", "v5-33"],
+          "jp": "{来週|らいしゅう}の{旅行|りょこう}がとても＿です。",
+          "fr": "J'ai très hâte du voyage de la semaine prochaine.",
+          "choices": ["{楽|たの}しみ", "{楽|たの}しかった", "{楽|たの}しく", "{楽|たの}しむ"],
+          "a": 0,
+          "explain": "Une chose à venir qu'on attend avec plaisir : {楽|たの}しみです."
+        },
+        {
+          "id": "v4-41-e14",
+          "type": "choice",
+          "uses": ["v5-15"],
+          "jp": "{朝|あさ}、{公園|こうえん}を{走|はし}ると、{気持|きも}ちが＿です。",
+          "fr": "Le matin, courir dans le parc, c'est agréable.",
+          "choices": ["いい", "{安心|あんしん}", "うれしい", "{楽|たの}しみ"],
+          "a": 0
+        },
+        {"id": "v4-41-e15", "type": "choice", "q": "Contraire de **{安心|あんしん}する** ?", "choices": ["{心配|しんぱい}する", "びっくりする", "よろこぶ", "わらう"], "a": 0},
+        {"id": "v4-41-e16", "type": "choice", "q": "Que veut dire **おこる** ?", "choices": ["se fâcher", "pleurer", "rire", "avoir peur"], "a": 0},
+        {
+          "id": "v4-41-e17",
+          "type": "choice",
+          "uses": ["v5-25"],
+          "jp": "{雨|あめ}で{試合|しあい}がなくなりました。とても＿です。",
+          "fr": "Le match est annulé à cause de la pluie. C'est vraiment dommage.",
+          "choices": ["ざんねん", "{楽|たの}しみ", "{上手|じょうず}", "{便利|べんり}"],
+          "a": 0
+        },
+        {
+          "id": "v4-41-e18",
+          "type": "order",
+          "uses": ["v5-02"],
+          "fr": "J'ai hâte de te voir demain.",
+          "tokens": ["{明日|あした}", "{会|あ}うのが", "{楽|たの}しみ", "です"]
+        },
+        {
+          "id": "v4-41-e19",
+          "type": "order",
+          "uses": ["v5-21", "v5-39"],
+          "fr": "Ma mère s'inquiète pour moi.",
+          "tokens": ["{母|はは}は", "{私|わたし}のことを", "{心配|しんぱい}して", "います"]
+        }
+      ]
+    },
+    {
+      "id": "v4-42",
+      "title": "Caractère et apparence",
+      "words": [
+        {"jp": "きびしい", "kana": "きびしい", "fr": "sévère, strict", "ex": "{父|ちち}はとてもきびしい{人|ひと}です。", "exFr": "Mon père est quelqu'un de très strict."},
+        {"jp": "まじめ", "kana": "まじめ", "fr": "sérieux", "ex": "{田中|たなか}さんはまじめで、{毎日|まいにち}よく{勉強|べんきょう}します。", "exFr": "M. Tanaka est sérieux, il travaille bien tous les jours."},
+        {"jp": "ていねい", "kana": "ていねい", "fr": "poli, soigné", "ex": "{先生|せんせい}はていねいに{説明|せつめい}してくれました。", "exFr": "Le professeur m'a expliqué avec soin."},
+        {"jp": "ねっしん", "kana": "ねっしん", "fr": "appliqué, passionné", "ex": "{妹|いもうと}はねっしんにピアノをれんしゅうしています。", "exFr": "Ma petite sœur s'exerce au piano avec ardeur."},
+        {"jp": "しょうじき", "kana": "しょうじき", "fr": "honnête", "ex": "しょうじきに{話|はな}してください。", "exFr": "Parle-moi honnêtement."},
+        {"jp": "らんぼう", "kana": "らんぼう", "fr": "brutal, violent", "ex": "らんぼうな{運転|うんてん}はあぶないです。", "exFr": "Conduire brutalement est dangereux."},
+        {"jp": "ひどい", "kana": "ひどい", "fr": "terrible, cruel", "ex": "ひどい{雨|あめ}ですね。", "exFr": "Quelle pluie terrible !"},
+        {"jp": "うつくしい", "kana": "うつくしい", "fr": "beau (soutenu)", "ex": "{山|やま}の{上|うえ}から{見|み}る{海|うみ}はうつくしいです。", "exFr": "La mer vue du haut de la montagne est magnifique."},
+        {"jp": "すてき", "kana": "すてき", "fr": "joli, chouette", "ex": "すてきなセーターですね。", "exFr": "Quel joli pull !"},
+        {"jp": "{太|ふと}る", "kana": "ふとる", "fr": "grossir", "ex": "{毎晩|まいばん}ケーキを{食|た}べて、{太|ふと}りました。", "exFr": "J'ai mangé du gâteau tous les soirs, j'ai grossi."},
+        {"jp": "やせる", "kana": "やせる", "fr": "maigrir", "ex": "{毎日|まいにち}{走|はし}って、{三|さん}キロやせました。", "exFr": "J'ai couru tous les jours, j'ai perdu trois kilos."},
+        {"jp": "せ", "kana": "せ", "fr": "taille (d'une personne)", "ex": "{兄|あに}はせが{高|たか}いです。", "exFr": "Mon grand frère est grand."},
+        {"jp": "にる", "kana": "にる", "fr": "ressembler (à)", "ex": "{田中|たなか}さんはお{父|とう}さんによくにています。", "exFr": "M. Tanaka ressemble beaucoup à son père."},
+        {"jp": "かみ", "kana": "かみ", "fr": "cheveux", "ex": "{姉|あね}はかみが{長|なが}いです。", "exFr": "Ma grande sœur a les cheveux longs."},
+        {"jp": "ひげ", "kana": "ひげ", "fr": "barbe, moustache", "ex": "おじいさんは{白|しろ}いひげがあります。", "exFr": "Grand-père a une barbe blanche."}
+      ],
+      "sections": [
+        {
+          "h": "Décrire quelqu'un",
+          "p": ["Le physique se dit avec 〜**が** + adjectif : せ**が**{高|たか}い, かみ**が**{長|なが}い."],
+          "grid": {
+            "head": ["", "japonais"],
+            "rows": [
+              ["taille", "せ==が=={高|たか}い / せ==が=={低|ひく}い"],
+              ["cheveux", "かみ==が=={長|なが}い / {短|みじか}い"],
+              ["ressembler à", "〜==に==にている (toujours en ている)"],
+              ["corpulence", "{太|ふと}っている (gros) / やせている (mince)"],
+              ["caractère (な)", "まじめ, ていねい, ねっしん, しょうじき, らんぼう"]
+            ]
+          }
+        }
+      ],
+      "pieges": [
+        "{太|ふと}っています = il **est** gros ; {太|ふと}りました = il **a grossi**. Pareil pour やせています / やせました.",
+        "にる s'emploie presque toujours en **〜にています** : {母|はは}**に**にています = je ressemble à ma mère.",
+        "まじめ, ていねい, ねっしん, しょうじき, らんぼう, すてき : adjectifs en な. Devant un verbe : ていねい**に**, しょうじき**に**.",
+        "Pour la taille d'une personne : せが{高|たか}い (plutôt que {大|おお}きい).",
+        "うつくしい = beau, un peu soutenu (paysage) ; きれい = beau, propre (courant).",
+        "かみ (cheveux) a le même son que かみ (papier, {紙|かみ}) : contexte !"
+      ],
+      "exercises": [
+        {
+          "id": "v4-42-e01",
+          "type": "choice",
+          "uses": ["v5-18", "v5-36"],
+          "jp": "{父|ちち}はとても＿ですから、{夜|よる}{十時|じゅうじ}までに{帰|かえ}らなければなりません。",
+          "fr": "Mon père est très strict, alors je dois rentrer avant dix heures du soir.",
+          "choices": ["きびしい", "やさしい", "うれしい", "すてき"],
+          "a": 0
+        },
+        {
+          "id": "v4-42-e02",
+          "type": "choice",
+          "uses": ["v5-29"],
+          "jp": "{田中|たなか}さんは＿な{学生|がくせい}で、{授業|じゅぎょう}を{休|やす}んだことがありません。",
+          "fr": "M. Tanaka est un étudiant sérieux : il n'a jamais manqué un cours.",
+          "choices": ["まじめ", "ざんねん", "ひどい", "うつくしい"],
+          "a": 0
+        },
+        {
+          "id": "v4-42-e03",
+          "type": "choice",
+          "jp": "{先生|せんせい}はいつも＿{説明|せつめい}してくれます。",
+          "fr": "Le professeur m'explique toujours avec soin.",
+          "choices": ["ていねいに", "ていねいな", "ていねいく", "ていねいで"],
+          "a": 0,
+          "explain": "Adjectif en な devant un verbe : ていねい**に**.",
+          "star": {"jp": "ていねい", "kana": "ていねい", "fr": "poli, soigné"}
+        },
+        {
+          "id": "v4-42-e04",
+          "type": "choice",
+          "uses": ["v5-29", "v5-31"],
+          "jp": "{妹|いもうと}は{毎日|まいにち}＿にピアノをれんしゅうしています。",
+          "fr": "Ma petite sœur s'exerce au piano avec ardeur tous les jours.",
+          "choices": ["ねっしん", "ざんねん", "ひげ", "せ"],
+          "a": 0
+        },
+        {
+          "id": "v4-42-e05",
+          "type": "choice",
+          "jp": "うそはいやです。＿に{話|はな}してください。",
+          "fr": "Je déteste les mensonges. Parle-moi honnêtement.",
+          "choices": ["しょうじき", "らんぼう", "ひどい", "きびしい"],
+          "a": 0
+        },
+        {
+          "id": "v4-42-e06",
+          "type": "choice",
+          "uses": ["v5-19"],
+          "jp": "{兄|あに}は＿が{高|たか}いですから、バスケットボールが{上手|じょうず}です。",
+          "fr": "Mon grand frère est grand, alors il est bon au basket.",
+          "choices": ["せ", "かみ", "ひげ", "{目|め}"],
+          "a": 0
+        },
+        {
+          "id": "v4-42-e07",
+          "type": "choice",
+          "uses": ["v5-05", "v5-21"],
+          "jp": "{姉|あね}は＿が{長|なが}くて、きれいです。",
+          "fr": "Ma grande sœur a les cheveux longs, elle est jolie.",
+          "choices": ["かみ", "せ", "{声|こえ}", "ひげ"],
+          "a": 0
+        },
+        {
+          "id": "v4-42-e08",
+          "type": "choice",
+          "jp": "{毎晩|まいばん}ケーキを{食|た}べて、{三|さん}キロ＿。",
+          "fr": "J'ai mangé du gâteau tous les soirs et j'ai pris trois kilos.",
+          "choices": ["{太|ふと}りました", "やせました", "にました", "{太|ふと}いました"],
+          "a": 0,
+          "star": {"jp": "{太|ふと}る", "kana": "ふとる", "fr": "grossir"}
+        },
+        {
+          "id": "v4-42-e09",
+          "type": "choice",
+          "uses": ["v5-15"],
+          "jp": "{毎日|まいにち}{走|はし}って、{五|ご}キロ＿。",
+          "fr": "J'ai couru tous les jours et j'ai perdu cinq kilos.",
+          "choices": ["やせました", "わらいました", "にました", "やせりました"],
+          "a": 0,
+          "star": {"jp": "やせる", "kana": "やせる", "fr": "maigrir"}
+        },
+        {
+          "id": "v4-42-e10",
+          "type": "choice",
+          "star": {"jp": "にる", "kana": "にる", "fr": "ressembler (à)"},
+          "jp": "{田中|たなか}さんはお{父|とう}さんによく＿います。",
+          "fr": "M. Tanaka ressemble beaucoup à son père.",
+          "choices": ["にて", "にって", "にんで", "にいて"],
+          "a": 0,
+          "explain": "にる est du groupe 2 : にて."
+        },
+        {
+          "id": "v4-42-e11",
+          "type": "choice",
+          "jp": "むすめさんはお{母|かあ}さん＿よくにていますね。",
+          "fr": "Votre fille ressemble beaucoup à sa mère.",
+          "choices": ["に", "を", "へ", "で"],
+          "a": 0,
+          "explain": "Ressembler **à** : 〜に にている."
+        },
+        {"id": "v4-42-e12", "type": "choice", "q": "Que veut dire **うつくしい** ?", "choices": ["beau (soutenu)", "sale", "jeune", "sévère"], "a": 0},
+        {
+          "id": "v4-42-e13",
+          "type": "choice",
+          "uses": ["v5-13"],
+          "jp": "＿なセーターですね。どこで{買|か}いましたか。",
+          "fr": "Quel joli pull ! Où l'as-tu acheté ?",
+          "choices": ["すてき", "ひどい", "らんぼう", "きびしい"],
+          "a": 0
+        },
+        {
+          "id": "v4-42-e14",
+          "type": "choice",
+          "uses": ["v5-15"],
+          "jp": "＿な{運転|うんてん}はあぶないです。",
+          "fr": "Conduire brutalement est dangereux.",
+          "choices": ["らんぼう", "ていねい", "まじめ", "しょうじき"],
+          "a": 0
+        },
+        {
+          "id": "v4-42-e15",
+          "type": "choice",
+          "uses": ["v5-25"],
+          "jp": "{今日|きょう}は＿{雨|あめ}ですね。かさがこわれました。",
+          "fr": "Quelle pluie terrible aujourd'hui ! Mon parapluie s'est cassé.",
+          "choices": ["ひどい", "すてきな", "まじめな", "うつくしい"],
+          "a": 0
+        },
+        {
+          "id": "v4-42-e16",
+          "type": "choice",
+          "q": "« Elle est mince » (c'est son état) se dit…",
+          "choices": ["やせています", "やせます", "やせました", "やせいます"],
+          "a": 0,
+          "explain": "État actuel : 〜ています. やせました = elle a maigri."
+        },
+        {
+          "id": "v4-42-e17",
+          "type": "order",
+          "uses": ["v5-05", "v5-24"],
+          "fr": "Mon grand frère est grand et a les cheveux courts.",
+          "tokens": ["{兄|あに}は", "せが{高|たか}くて、", "かみが", "{短|みじか}いです"]
+        },
+        {
+          "id": "v4-42-e18",
+          "type": "order",
+          "uses": ["v5-21"],
+          "fr": "Je ressemble beaucoup à ma mère.",
+          "tokens": ["{私|わたし}は", "{母|はは}に", "よく", "にています"],
+          "alt": [["{私|わたし}は", "よく", "{母|はは}に", "にています"]]
+        }
+      ]
+    },
+    {
+      "id": "v4-43",
+      "title": "Couples, enfants, entourage",
+      "words": [
+        {"jp": "かれ", "kana": "かれ", "fr": "il ; petit ami", "ex": "かれは{大学|だいがく}の{友|とも}だちです。", "exFr": "Lui, c'est un ami de l'université."},
+        {"jp": "かのじょ", "kana": "かのじょ", "fr": "elle ; petite amie", "ex": "{兄|あに}のかのじょはとてもやさしいです。", "exFr": "La copine de mon frère est très gentille."},
+        {"jp": "おっと", "kana": "おっと", "fr": "(mon) mari", "ex": "おっとは{銀行|ぎんこう}で{働|はたら}いています。", "exFr": "Mon mari travaille dans une banque."},
+        {"jp": "つま", "kana": "つま", "fr": "(ma) femme", "ex": "つまは{料理|りょうり}が{上手|じょうず}です。", "exFr": "Ma femme cuisine très bien."},
+        {"jp": "{主人|しゅじん}", "kana": "しゅじん", "fr": "(mon) mari ; maître de maison", "ex": "{主人|しゅじん}は{今|いま}、{出|で}かけています。", "exFr": "Mon mari est sorti pour le moment."},
+        {"jp": "おくさん", "kana": "おくさん", "fr": "épouse (des autres)", "ex": "{田中|たなか}さんのおくさんはフランス{人|じん}です。", "exFr": "La femme de M. Tanaka est française."},
+        {"jp": "むすこ", "kana": "むすこ", "fr": "(mon) fils", "ex": "むすこは{今年|ことし}{大学生|だいがくせい}になりました。", "exFr": "Mon fils est entré à l'université cette année."},
+        {"jp": "むすめ", "kana": "むすめ", "fr": "(ma) fille", "ex": "むすめは{五|ご}さいです。", "exFr": "Ma fille a cinq ans."},
+        {"jp": "{赤|あか}ちゃん", "kana": "あかちゃん", "fr": "bébé", "ex": "{赤|あか}ちゃんがねています。{静|しず}かにしてください。", "exFr": "Le bébé dort. Silence, s'il vous plaît."},
+        {"jp": "{親|おや}", "kana": "おや", "fr": "parent(s)", "ex": "{週末|しゅうまつ}、{親|おや}に{電話|でんわ}をしました。", "exFr": "Ce week-end, j'ai téléphoné à mes parents."},
+        {"jp": "そふ", "kana": "そふ", "fr": "(mon) grand-père", "ex": "そふは{九十|きゅうじゅう}さいで、まだ{元気|げんき}です。", "exFr": "Mon grand-père a quatre-vingt-dix ans, il est encore en forme."},
+        {"jp": "そぼ", "kana": "そぼ", "fr": "(ma) grand-mère", "ex": "そぼの{家|いえ}は{山|やま}の{近|ちか}くにあります。", "exFr": "La maison de ma grand-mère est près des montagnes."},
+        {"jp": "おじさん", "kana": "おじさん", "fr": "oncle ; monsieur (âge mûr)", "ex": "おじさんは{父|ちち}の{兄|あに}です。", "exFr": "Mon oncle est le grand frère de mon père."},
+        {"jp": "おばさん", "kana": "おばさん", "fr": "tante ; madame (âge mûr)", "ex": "となりのおばさんがりんごをくれました。", "exFr": "La dame d'à côté m'a donné des pommes."},
+        {"jp": "{知|し}り{合|あ}い", "kana": "しりあい", "fr": "connaissance (personne)", "ex": "{田中|たなか}さんは{友|とも}だちじゃなくて、{知|し}り{合|あ}いです。", "exFr": "M. Tanaka n'est pas un ami, c'est une connaissance."}
+      ],
+      "sections": [
+        {
+          "h": "Ma famille, celle des autres (suite)",
+          "p": ["Comme au N5 : mot simple pour **sa** famille, mot poli pour celle des autres."],
+          "grid": {
+            "head": ["", "la mienne → celle des autres"],
+            "rows": [
+              ["mari", "おっと, {主人|しゅじん} → ご{主人|しゅじん}"],
+              ["épouse", "つま → おくさん"],
+              ["fils", "むすこ → むすこさん"],
+              ["fille", "むすめ → むすめさん"],
+              ["grands-parents", "そふ, そぼ → おじいさん, おばあさん"]
+            ]
+          }
+        }
+      ],
+      "pieges": [
+        "おっと, つま, そふ, そぼ, むすこ, むすめ : pour **sa propre** famille. Pour les autres : ご{主人|しゅじん}, おくさん, おじいさん, おばあさん, むすこさん, むすめさん.",
+        "{主人|しゅじん} (sans ご) = **mon** mari ; ご{主人|しゅじん} = le mari de quelqu'un d'autre.",
+        "かれ / かのじょ = il / elle, mais souvent « petit ami » / « petite amie ».",
+        "おじさん / おばさん = oncle / tante, **et** « monsieur / madame » d'un certain âge.",
+        "おじいさん (grand-père) ≠ おじさん (oncle) ; おばあさん ≠ おばさん.",
+        "{知|し}り{合|あ}い = une connaissance : moins proche qu'un ami."
+      ],
+      "exercises": [
+        {
+          "id": "v4-43-e01",
+          "type": "choice",
+          "uses": ["v5-33"],
+          "jp": "{田中|たなか}さんの＿はフランス{人|じん}だそうです。",
+          "fr": "Il paraît que la femme de M. Tanaka est française.",
+          "choices": ["おくさん", "つま", "{主人|しゅじん}", "おっと"],
+          "a": 0,
+          "explain": "L'épouse de quelqu'un d'autre : おくさん. つま, c'est la sienne."
+        },
+        {
+          "id": "v4-43-e02",
+          "type": "choice",
+          "uses": ["v5-19"],
+          "q": "Tu parles de **ta** femme à un collègue.",
+          "jp": "＿は{料理|りょうり}が{上手|じょうず}です。",
+          "fr": "Ma femme cuisine très bien.",
+          "choices": ["つま", "おくさん", "ご{主人|しゅじん}", "むすこさん"],
+          "a": 0
+        },
+        {
+          "id": "v4-43-e03",
+          "type": "choice",
+          "uses": ["v5-30"],
+          "q": "Tu parles du mari de Mme Yamada.",
+          "jp": "{山田|やまだ}さんの＿はお{医者|いしゃ}さんですね。",
+          "fr": "Le mari de Mme Yamada est médecin, n'est-ce pas ?",
+          "choices": ["ご{主人|しゅじん}", "おっと", "つま", "おくさん"],
+          "a": 0
+        },
+        {
+          "id": "v4-43-e04",
+          "type": "choice",
+          "uses": ["v5-36", "v5-38"],
+          "jp": "＿はまだ{歩|ある}けません。{生|う}まれて{三|さん}か{月|げつ}です。",
+          "fr": "Le bébé ne marche pas encore. Il est né il y a trois mois.",
+          "choices": ["{赤|あか}ちゃん", "そふ", "かのじょ", "{知|し}り{合|あ}い"],
+          "a": 0
+        },
+        {
+          "id": "v4-43-e05",
+          "type": "choice",
+          "q": "Que veut dire **むすこ** ?",
+          "choices": ["(mon) fils", "(ma) fille", "(mon) neveu", "(mon) petit-fils"],
+          "a": 0
+        },
+        {
+          "id": "v4-43-e06",
+          "type": "choice",
+          "q": "Que veut dire **むすめ** ?",
+          "choices": ["(ma) fille", "(ma) femme", "(ma) sœur", "(ma) nièce"],
+          "a": 0
+        },
+        {
+          "id": "v4-43-e07",
+          "type": "choice",
+          "uses": ["v5-21"],
+          "jp": "{父|ちち}の{兄|あに}は{私|わたし}の＿です。",
+          "fr": "Le grand frère de mon père est mon oncle.",
+          "choices": ["おじさん", "おじいさん", "お{兄|にい}さん", "むすこ"],
+          "a": 0
+        },
+        {
+          "id": "v4-43-e08",
+          "type": "choice",
+          "q": "Tu parles de **ta** grand-mère à ton professeur.",
+          "jp": "＿は{今年|ことし}{八十|はちじゅう}さいです。",
+          "fr": "Ma grand-mère a quatre-vingts ans cette année.",
+          "choices": ["そぼ", "おばさん", "そふ", "むすめ"],
+          "a": 0
+        },
+        {
+          "id": "v4-43-e09",
+          "type": "choice",
+          "uses": ["v5-01", "v5-21"],
+          "jp": "{姉|あね}の＿はとてもやさしい{男|おとこ}の{人|ひと}です。",
+          "fr": "Le petit ami de ma grande sœur est un homme très gentil.",
+          "choices": ["かれ", "かのじょ", "おくさん", "つま"],
+          "a": 0
+        },
+        {
+          "id": "v4-43-e10",
+          "type": "choice",
+          "uses": ["v5-30", "v5-38"],
+          "jp": "{仕事|しごと}で{一度|いちど}{会|あ}っただけの{人|ひと}は、{友|とも}だちじゃなくて＿です。",
+          "fr": "Quelqu'un qu'on n'a vu qu'une fois pour le travail n'est pas un ami, c'est une connaissance.",
+          "choices": ["{知|し}り{合|あ}い", "{親|おや}", "むすこ", "つま"],
+          "a": 0
+        },
+        {"id": "v4-43-e11", "type": "choice", "q": "Que veut dire **{親|おや}** ?", "choices": ["parent(s)", "ami proche", "enfant", "voisin"], "a": 0},
+        {
+          "id": "v4-43-e12",
+          "type": "choice",
+          "uses": ["v5-20", "v5-26"],
+          "jp": "となりの＿がりんごをくれました。",
+          "fr": "La dame d'à côté m'a donné des pommes.",
+          "choices": ["おばさん", "おっと", "つま", "むすこ"],
+          "a": 0
+        },
+        {
+          "id": "v4-43-e13",
+          "type": "choice",
+          "q": "Une femme te dit : {主人|しゅじん}は{今|いま}、{出|で}かけています. De qui parle-t-elle ?",
+          "choices": ["de son mari", "de son patron", "de son fils", "de son père"],
+          "a": 0
+        },
+        {
+          "id": "v4-43-e14",
+          "type": "choice",
+          "uses": ["v5-21"],
+          "jp": "そふは{私|わたし}の＿の{父|ちち}です。",
+          "fr": "Mon grand-père est le père de mon père.",
+          "choices": ["{父|ちち}", "{兄|あに}", "むすこ", "おっと"],
+          "a": 0
+        },
+        {
+          "id": "v4-43-e15",
+          "type": "choice",
+          "uses": ["v5-30"],
+          "q": "« Mon fils est entré à l'université cette année » se dit…",
+          "choices": [
+            "むすこは{今年|ことし}{大学生|だいがくせい}になりました。",
+            "むすこさんは{今年|ことし}{大学生|だいがくせい}になりました。",
+            "むすめは{今年|ことし}{大学生|だいがくせい}になりました。",
+            "むすこは{今年|ことし}{大学生|だいがくせい}がなりました。"
+          ],
+          "a": 0,
+          "explain": "Son propre fils : むすこ (sans さん). 〜**に**なる."
+        },
+        {
+          "id": "v4-43-e16",
+          "type": "order",
+          "uses": ["v5-33"],
+          "fr": "Le mari de Mme Tanaka est français.",
+          "tokens": ["{田中|たなか}さんの", "ご{主人|しゅじん}は", "フランス{人|じん}", "です"]
+        },
+        {
+          "id": "v4-43-e17",
+          "type": "order",
+          "uses": ["v5-12"],
+          "fr": "J'ai téléphoné à mes parents.",
+          "tokens": ["{親|おや}に", "{電話|でんわ}を", "しました"],
+          "alt": [["{電話|でんわ}を", "{親|おや}に", "しました"]]
+        }
+      ]
+    },
+    {
+      "id": "v4-44",
+      "title": "Santé et hôpital",
+      "words": [
+        {"jp": "けが", "kana": "けが", "fr": "blessure", "ex": "サッカーをして、{足|あし}にけがをしました。", "exFr": "J'ai joué au foot et je me suis blessé au pied."},
+        {"jp": "なおる", "kana": "なおる", "fr": "guérir", "ex": "かぜはもうなおりましたか。", "exFr": "Ton rhume est guéri ?"},
+        {"jp": "{入院|にゅういん}する", "kana": "にゅういんする", "fr": "être hospitalisé", "ex": "{父|ちち}は{一週間|いっしゅうかん}{入院|にゅういん}しました。", "exFr": "Mon père a été hospitalisé une semaine."},
+        {"jp": "たいいんする", "kana": "たいいんする", "fr": "sortir de l'hôpital", "ex": "{母|はは}は{来週|らいしゅう}たいいんします。", "exFr": "Ma mère sort de l'hôpital la semaine prochaine."},
+        {"jp": "{歯医者|はいしゃ}", "kana": "はいしゃ", "fr": "dentiste", "ex": "{歯|は}がいたいですから、{歯医者|はいしゃ}に{行|い}きます。", "exFr": "J'ai mal aux dents, alors je vais chez le dentiste."},
+        {"jp": "ぐあい", "kana": "ぐあい", "fr": "état (de santé)", "ex": "お{母|かあ}さんのぐあいはどうですか。", "exFr": "Comment va votre mère ?"},
+        {"jp": "{気分|きぶん}", "kana": "きぶん", "fr": "humeur, se sentir (bien, mal)", "ex": "{今日|きょう}は{気分|きぶん}が{悪|わる}いですから、{早|はや}くねます。", "exFr": "Je ne me sens pas bien aujourd'hui, je me couche tôt."},
+        {"jp": "ちゅうしゃ", "kana": "ちゅうしゃ", "fr": "piqûre", "ex": "{病院|びょういん}でちゅうしゃをしてもらいました。", "exFr": "On m'a fait une piqûre à l'hôpital."},
+        {"jp": "{注意|ちゅうい}する", "kana": "ちゅういする", "fr": "faire attention ; avertir", "ex": "{車|くるま}に{注意|ちゅうい}してください。", "exFr": "Faites attention aux voitures."},
+        {"jp": "お{大事|だいじ}に", "kana": "おだいじに", "fr": "prenez soin de vous (à un malade)", "ex": "かぜですか。お{大事|だいじ}に。", "exFr": "Un rhume ? Soigne-toi bien."},
+        {"jp": "おみまい", "kana": "おみまい", "fr": "visite à un malade", "ex": "{友|とも}だちのおみまいに{病院|びょういん}へ{行|い}きました。", "exFr": "Je suis allé rendre visite à un ami à l'hôpital."},
+        {"jp": "{顔色|かおいろ}", "kana": "かおいろ", "fr": "mine, teint", "ex": "{顔色|かおいろ}が{悪|わる}いですね。だいじょうぶですか。", "exFr": "Tu as mauvaise mine. Ça va ?"},
+        {"jp": "ほね", "kana": "ほね", "fr": "os", "ex": "スキーで{足|あし}のほねをおりました。", "exFr": "Je me suis cassé la jambe au ski."},
+        {"jp": "{生|い}きる", "kana": "いきる", "fr": "vivre (être en vie)", "ex": "そふは{百|ひゃく}さいまで{生|い}きました。", "exFr": "Mon grand-père a vécu jusqu'à cent ans."},
+        {"jp": "きゅうきゅうしゃ", "kana": "きゅうきゅうしゃ", "fr": "ambulance", "ex": "きゅうきゅうしゃをよんでください。", "exFr": "Appelez une ambulance !"}
+      ],
+      "sections": [
+        {
+          "h": "Chez le médecin",
+          "p": ["Chaque expression a sa particule : à retenir en bloc."],
+          "grid": {
+            "head": ["", "japonais"],
+            "rows": [
+              ["comment ça va ?", "ぐあい==は==どうですか"],
+              ["ne pas se sentir bien", "{気分|きぶん}==が=={悪|わる}い"],
+              ["avoir mauvaise mine", "{顔色|かおいろ}==が=={悪|わる}い"],
+              ["se blesser au pied", "{足|あし}==に==けが==を==する"],
+              ["le rhume guérit", "かぜ==が==なおる"],
+              ["à un malade", "お{大事|だいじ}に"]
+            ]
+          }
+        }
+      ],
+      "pieges": [
+        "けが**を**する = se blesser ; {足|あし}**に**けがをする = se blesser au pied.",
+        "なおる : c'est la maladie qui guérit → かぜ**が**なおる.",
+        "{顔色|かおいろ}が{悪|わる}い se dit **des autres** (ce qu'on voit) ; {気分|きぶん}が{悪|わる}い, c'est ce qu'on ressent soi-même.",
+        "お{大事|だいじ}に : la formule pour quitter quelqu'un de malade.",
+        "おみまい = la visite (ou le cadeau) à un malade. ≠ おみやげ (souvenir de voyage).",
+        "ちゅうしゃ (piqûre) a le même son que ちゅうしゃ (stationnement) : contexte !",
+        "{生|い}きる (いきる, vivre) ≠ {生|う}まれる (うまれる, naître) : même kanji."
+      ],
+      "exercises": [
+        {
+          "id": "v4-44-e01",
+          "type": "choice",
+          "uses": ["v5-23", "v5-31"],
+          "jp": "サッカーをして、{足|あし}に＿をしました。",
+          "fr": "J'ai joué au foot et je me suis blessé au pied.",
+          "choices": ["けが", "ぐあい", "{顔色|かおいろ}", "おみまい"],
+          "a": 0
+        },
+        {
+          "id": "v4-44-e02",
+          "type": "choice",
+          "uses": ["v5-23"],
+          "jp": "{薬|くすり}を{飲|の}んで、かぜが＿。",
+          "fr": "J'ai pris des médicaments et mon rhume a guéri.",
+          "choices": ["なおりました", "{入院|にゅういん}しました", "ひきました", "{生|い}きました"],
+          "a": 0,
+          "star": {"jp": "なおる", "kana": "なおる", "fr": "guérir"}
+        },
+        {
+          "id": "v4-44-e03",
+          "type": "choice",
+          "uses": ["v5-23", "v5-38"],
+          "jp": "{父|ちち}は{病気|びょうき}で{二週間|にしゅうかん}＿。",
+          "fr": "Mon père, malade, a été hospitalisé deux semaines.",
+          "choices": ["{入院|にゅういん}しました", "たいいんしました", "けがしました", "おみまいしました"],
+          "a": 0,
+          "star": {"jp": "{入院|にゅういん}する", "kana": "にゅういんする", "fr": "être hospitalisé"}
+        },
+        {
+          "id": "v4-44-e04",
+          "type": "choice",
+          "uses": ["v5-23"],
+          "jp": "{歯|は}がいたいですから、＿に{行|い}きます。",
+          "fr": "J'ai mal aux dents, alors je vais chez le dentiste.",
+          "choices": ["{歯医者|はいしゃ}", "{入院|にゅういん}", "{気分|きぶん}", "ほね"],
+          "a": 0
+        },
+        {
+          "id": "v4-44-e05",
+          "type": "choice",
+          "uses": ["v5-19", "v5-21"],
+          "jp": "お{母|かあ}さんの＿はどうですか。— もう{元気|げんき}になりました。",
+          "fr": "Comment va votre mère ? — Elle est rétablie.",
+          "choices": ["ぐあい", "ちゅうしゃ", "おみまい", "きゅうきゅうしゃ"],
+          "a": 0
+        },
+        {
+          "id": "v4-44-e06",
+          "type": "choice",
+          "uses": ["v5-16"],
+          "jp": "{今日|きょう}は＿が{悪|わる}いですから、{早|はや}く{帰|かえ}ります。",
+          "fr": "Je ne me sens pas bien aujourd'hui, je rentre tôt.",
+          "choices": ["{気分|きぶん}", "{注意|ちゅうい}", "けが", "おみまい"],
+          "a": 0
+        },
+        {
+          "id": "v4-44-e07",
+          "type": "choice",
+          "uses": ["v5-19"],
+          "jp": "＿が{悪|わる}いですね。だいじょうぶですか。",
+          "fr": "Tu as mauvaise mine. Ça va ?",
+          "choices": ["{顔色|かおいろ}", "{注意|ちゅうい}", "おみまい", "きゅうきゅうしゃ"],
+          "a": 0
+        },
+        {
+          "id": "v4-44-e08",
+          "type": "choice",
+          "uses": ["v5-11"],
+          "q": "Ton collègue a la grippe et rentre chez lui. Tu lui dis :",
+          "choices": ["お{大事|だいじ}に。", "おめでとうございます。", "いただきます。", "はじめまして。"],
+          "a": 0
+        },
+        {
+          "id": "v4-44-e09",
+          "type": "choice",
+          "uses": ["v5-26"],
+          "jp": "{友|とも}だちが{入院|にゅういん}しましたから、＿に{行|い}きます。",
+          "fr": "Mon ami est hospitalisé, alors je vais lui rendre visite.",
+          "choices": ["おみまい", "おみやげ", "{歯医者|はいしゃ}", "けが"],
+          "a": 0
+        },
+        {
+          "id": "v4-44-e10",
+          "type": "choice",
+          "uses": ["v5-28"],
+          "jp": "{人|ひと}がたおれています。すぐ＿をよんでください。",
+          "fr": "Quelqu'un s'est effondré. Appelez vite une ambulance !",
+          "choices": ["きゅうきゅうしゃ", "おみまい", "{歯医者|はいしゃ}", "{気分|きぶん}"],
+          "a": 0
+        },
+        {
+          "id": "v4-44-e11",
+          "type": "choice",
+          "uses": ["v4-41", "v5-15"],
+          "jp": "この{道|みち}は{車|くるま}が{多|おお}いですから、＿してください。",
+          "fr": "Il y a beaucoup de voitures dans cette rue, faites attention.",
+          "choices": ["{注意|ちゅうい}", "{安心|あんしん}", "{入院|にゅういん}", "けが"],
+          "a": 0,
+          "star": {"jp": "{注意|ちゅうい}する", "kana": "ちゅういする", "fr": "faire attention ; avertir"}
+        },
+        {
+          "id": "v4-44-e12",
+          "type": "choice",
+          "uses": ["v5-23"],
+          "jp": "スキーで{足|あし}の＿をおりました。",
+          "fr": "Je me suis cassé la jambe au ski (l'os de la jambe).",
+          "choices": ["ほね", "けが", "{顔色|かおいろ}", "ぐあい"],
+          "a": 0
+        },
+        {
+          "id": "v4-44-e13",
+          "type": "choice",
+          "uses": ["v4-43", "v5-36"],
+          "jp": "そふは{百|ひゃく}さいまで＿。",
+          "fr": "Mon grand-père a vécu jusqu'à cent ans.",
+          "choices": ["{生|い}きました", "{生|う}まれました", "{入院|にゅういん}しました", "なおりました"],
+          "a": 0,
+          "star": {"jp": "{生|い}きる", "kana": "いきる", "fr": "vivre (être en vie)"}
+        },
+        {"id": "v4-44-e14", "type": "choice", "q": "Comment se lit **入院** ?", "choices": ["にゅういん", "にゅいん", "いりいん", "にゅうえん"], "a": 0},
+        {"id": "v4-44-e15", "type": "choice", "q": "Comment se lit **歯医者** ?", "choices": ["はいしゃ", "はいじゃ", "しいしゃ", "はいしや"], "a": 0},
+        {
+          "id": "v4-44-e16",
+          "type": "choice",
+          "q": "Dans « {病院|びょういん}でちゅうしゃをしてもらいました », ちゅうしゃ veut dire…",
+          "choices": ["une piqûre", "une opération", "un parking", "un médicament"],
+          "a": 0
+        },
+        {
+          "id": "v4-44-e17",
+          "type": "order",
+          "uses": ["v5-03"],
+          "fr": "Mon père est sorti de l'hôpital hier.",
+          "tokens": ["{父|ちち}は", "{昨日|きのう}", "たいいん", "しました"],
+          "alt": [["{昨日|きのう}", "{父|ちち}は", "たいいん", "しました"]]
+        },
+        {"id": "v4-44-e18", "type": "order", "uses": ["v5-23"], "fr": "Je me suis blessé au pied.", "tokens": ["{足|あし}に", "けがを", "しました"]}
+      ]
+    },
+    {
+      "id": "v4-45",
+      "title": "Corps et gestes",
+      "words": [
+        {"jp": "{首|くび}", "kana": "くび", "fr": "cou", "ex": "{長|なが}い{時間|じかん}パソコンを{使|つか}って、{首|くび}がいたいです。", "exFr": "J'ai utilisé l'ordinateur longtemps, j'ai mal au cou."},
+        {"jp": "うで", "kana": "うで", "fr": "bras", "ex": "{重|おも}いにもつを{持|も}って、うでがいたいです。", "exFr": "J'ai porté des bagages lourds, j'ai mal aux bras."},
+        {"jp": "せなか", "kana": "せなか", "fr": "dos", "ex": "{子|こ}どものせなかを{洗|あら}いました。", "exFr": "J'ai lavé le dos de l'enfant."},
+        {"jp": "ゆび", "kana": "ゆび", "fr": "doigt", "ex": "ナイフでゆびを{切|き}りました。", "exFr": "Je me suis coupé le doigt avec un couteau."},
+        {"jp": "かた", "kana": "かた", "fr": "épaule", "ex": "かたにかばんをかけて{歩|ある}きます。", "exFr": "Je marche le sac sur l'épaule."},
+        {"jp": "のど", "kana": "のど", "fr": "gorge", "ex": "かぜで、のどがいたいです。", "exFr": "J'ai mal à la gorge à cause du rhume."},
+        {"jp": "{力|ちから}", "kana": "ちから", "fr": "force", "ex": "{兄|あに}は{力|ちから}が{強|つよ}いです。", "exFr": "Mon grand frère est fort."},
+        {"jp": "{動|うご}く", "kana": "うごく", "fr": "bouger ; marcher (machine)", "ex": "この{時計|とけい}は{動|うご}きません。", "exFr": "Cette montre ne marche pas."},
+        {"jp": "{運動|うんどう}する", "kana": "うんどうする", "fr": "faire de l'exercice", "ex": "{毎日|まいにち}{三十分|さんじゅっぷん}{運動|うんどう}しています。", "exFr": "Je fais trente minutes d'exercice par jour."},
+        {"jp": "おどる", "kana": "おどる", "fr": "danser", "ex": "パーティーでみんなでおどりました。", "exFr": "On a tous dansé à la fête."},
+        {"jp": "なげる", "kana": "なげる", "fr": "lancer", "ex": "ボールをなげてください。", "exFr": "Lance la balle !"},
+        {"jp": "ひろう", "kana": "ひろう", "fr": "ramasser", "ex": "{道|みち}でさいふをひろいました。", "exFr": "J'ai ramassé un portefeuille dans la rue."},
+        {"jp": "さわる", "kana": "さわる", "fr": "toucher", "ex": "ここにあるものにさわらないでください。", "exFr": "Ne touchez pas aux objets exposés ici."},
+        {"jp": "たおれる", "kana": "たおれる", "fr": "tomber, s'effondrer", "ex": "{風|かぜ}で{木|き}がたおれました。", "exFr": "L'arbre est tombé à cause du vent."},
+        {"jp": "あせ", "kana": "あせ", "fr": "sueur", "ex": "{走|はし}って、あせをたくさんかきました。", "exFr": "J'ai couru, j'ai beaucoup transpiré."}
+      ],
+      "sections": [
+        {
+          "h": "Gestes : verbe et particule",
+          "p": ["Quelques gestes du quotidien, avec la particule qui va avec."],
+          "grid": {
+            "head": ["", "japonais"],
+            "rows": [
+              ["lancer / ramasser", "ボール==を==なげる / さいふ==を==ひろう"],
+              ["toucher", "〜==に==さわる"],
+              ["transpirer", "あせ==を==かく"],
+              ["tomber (de sa hauteur)", "{人|ひと}・{木|き}==が==たおれる"],
+              ["marcher (machine)", "{時計|とけい}==が=={動|うご}く"]
+            ]
+          }
+        }
+      ],
+      "pieges": [
+        "〜**に**さわる : on touche **à** quelque chose.",
+        "あせを**かく** = transpirer (le même かく que « écrire » s'écrit autrement, mais se prononce pareil).",
+        "たおれる = tomber de toute sa hauteur (personne, arbre). Tomber d'en haut : おちる (leçon 48).",
+        "{動|うご}く = bouger, et **marcher** pour une machine : {時計|とけい}が{動|うご}かない = la montre ne marche pas.",
+        "かた (épaule) a le même son que {方|かた} (manière ; personne).",
+        "{足|あし} = le pied **et** la jambe ; うで = le bras ; ゆび = le doigt (de la main ou du pied)."
+      ],
+      "exercises": [
+        {
+          "id": "v4-45-e01",
+          "type": "choice",
+          "uses": ["v5-23"],
+          "jp": "かぜで、＿がいたいです。{水|みず}も{飲|の}みにくいです。",
+          "fr": "À cause du rhume, j'ai mal à la gorge. J'ai même du mal à boire de l'eau.",
+          "choices": ["のど", "ゆび", "あせ", "{力|ちから}"],
+          "a": 0
+        },
+        {
+          "id": "v4-45-e02",
+          "type": "choice",
+          "uses": ["v5-27", "v5-34"],
+          "jp": "{料理|りょうり}のとき、ナイフで＿を{切|き}りました。",
+          "fr": "En cuisinant, je me suis coupé le doigt avec un couteau.",
+          "choices": ["ゆび", "あせ", "{力|ちから}", "せ"],
+          "a": 0
+        },
+        {
+          "id": "v4-45-e03",
+          "type": "choice",
+          "uses": ["v5-18", "v5-24"],
+          "jp": "{兄|あに}は＿が{強|つよ}いですから、{重|おも}いものも{持|も}てます。",
+          "fr": "Mon grand frère est fort, il peut porter des choses lourdes.",
+          "choices": ["{力|ちから}", "あせ", "のど", "かみ"],
+          "a": 0
+        },
+        {
+          "id": "v4-45-e04",
+          "type": "choice",
+          "uses": ["v5-12"],
+          "jp": "この{時計|とけい}は{古|ふる}くて、もう＿ません。",
+          "fr": "Cette montre est vieille, elle ne marche plus.",
+          "choices": ["{動|うご}き", "おどり", "なげ", "ひろい"],
+          "a": 0,
+          "star": {"jp": "{動|うご}く", "kana": "うごく", "fr": "bouger ; marcher (machine)"}
+        },
+        {
+          "id": "v4-45-e05",
+          "type": "choice",
+          "uses": ["v5-16"],
+          "jp": "{毎日|まいにち}{三十分|さんじゅっぷん}＿しています。",
+          "fr": "Je fais trente minutes d'exercice par jour.",
+          "choices": ["{運動|うんどう}", "おどる", "あせ", "{力|ちから}"],
+          "a": 0,
+          "star": {"jp": "{運動|うんどう}する", "kana": "うんどうする", "fr": "faire de l'exercice"}
+        },
+        {
+          "id": "v4-45-e06",
+          "type": "choice",
+          "uses": ["v5-31"],
+          "jp": "パーティーで{音楽|おんがく}を{聞|き}きながら、みんなで＿。",
+          "fr": "À la fête, on a tous dansé en écoutant la musique.",
+          "choices": ["おどりました", "なげました", "ひろいました", "さわりました"],
+          "a": 0,
+          "star": {"jp": "おどる", "kana": "おどる", "fr": "danser"}
+        },
+        {
+          "id": "v4-45-e07",
+          "type": "choice",
+          "uses": ["v5-26"],
+          "jp": "ボールを＿ください。{私|わたし}がとります。",
+          "fr": "Lance-moi la balle. Je l'attrape.",
+          "choices": ["なげて", "ひろって", "おどって", "たおれて"],
+          "a": 0,
+          "star": {"jp": "なげる", "kana": "なげる", "fr": "lancer"}
+        },
+        {
+          "id": "v4-45-e08",
+          "type": "choice",
+          "uses": ["v5-32"],
+          "jp": "{道|みち}でさいふを＿、こうばんに{持|も}って{行|い}きました。",
+          "fr": "J'ai ramassé un portefeuille dans la rue et je l'ai apporté au poste de police.",
+          "choices": ["ひろって", "なげて", "おどって", "さわって"],
+          "a": 0,
+          "star": {"jp": "ひろう", "kana": "ひろう", "fr": "ramasser"}
+        },
+        {
+          "id": "v4-45-e09",
+          "type": "choice",
+          "jp": "ここにあるものに＿ないでください。",
+          "fr": "Ne touchez pas aux objets exposés ici.",
+          "choices": ["さわら", "ひろわ", "おどら", "{運動|うんどう}し"],
+          "a": 0,
+          "explain": "〜**に**さわる : toucher à quelque chose.",
+          "star": {"jp": "さわる", "kana": "さわる", "fr": "toucher"}
+        },
+        {
+          "id": "v4-45-e10",
+          "type": "choice",
+          "uses": ["v5-25", "v5-35"],
+          "jp": "{強|つよ}い{風|かぜ}で、{公園|こうえん}の{木|き}が＿。",
+          "fr": "Avec le vent fort, l'arbre du parc est tombé.",
+          "choices": ["たおれました", "おどりました", "なげました", "ひろいました"],
+          "a": 0,
+          "star": {"jp": "たおれる", "kana": "たおれる", "fr": "tomber, s'effondrer"}
+        },
+        {
+          "id": "v4-45-e11",
+          "type": "choice",
+          "uses": ["v5-25"],
+          "jp": "{暑|あつ}い{日|ひ}に{走|はし}って、＿をたくさんかきました。",
+          "fr": "J'ai couru par une journée chaude, j'ai beaucoup transpiré.",
+          "choices": ["あせ", "{字|じ}", "{力|ちから}", "かた"],
+          "a": 0,
+          "explain": "あせを**かく** = transpirer."
+        },
+        {"id": "v4-45-e12", "type": "choice", "q": "Que veut dire **せなか** ?", "choices": ["le dos", "le ventre", "l'épaule", "la nuque"], "a": 0},
+        {"id": "v4-45-e13", "type": "choice", "q": "Que veut dire **うで** ?", "choices": ["le bras", "la jambe", "le doigt", "le cou"], "a": 0},
+        {
+          "id": "v4-45-e14",
+          "type": "choice",
+          "q": "Dans « かたがいたいです », かた veut dire…",
+          "choices": ["l'épaule", "la manière", "la personne", "le dos"],
+          "a": 0
+        },
+        {"id": "v4-45-e15", "type": "choice", "q": "Comment se lit **首** (le cou) ?", "choices": ["くび", "くぶ", "くひ", "くみ"], "a": 0},
+        {
+          "id": "v4-45-e16",
+          "type": "choice",
+          "uses": ["v5-12"],
+          "q": "« Ma montre ne marche pas » se dit…",
+          "choices": ["{時計|とけい}が{動|うご}きません。", "{時計|とけい}が{歩|ある}きません。", "{時計|とけい}が{運動|うんどう}しません。", "{時計|とけい}を{動|うご}きません。"],
+          "a": 0
+        },
+        {
+          "id": "v4-45-e17",
+          "type": "order",
+          "uses": ["v5-12"],
+          "fr": "J'ai ramassé un portefeuille dans la rue.",
+          "tokens": ["{道|みち}で", "さいふを", "ひろいました"],
+          "alt": [["さいふを", "{道|みち}で", "ひろいました"]]
+        },
+        {"id": "v4-45-e18", "type": "order", "fr": "Ne touchez pas à ceci, s'il vous plaît.", "tokens": ["これに", "さわらないで", "ください"]}
+      ]
+    }
+  ],
+  "test": [
+    {
+      "id": "v4-b09-t01",
+      "type": "choice",
+      "uses": ["v4-41", "v5-40"],
+      "jp": "{急|きゅう}に{電気|でんき}が{消|き}えて、＿しました。",
+      "fr": "La lumière s'est éteinte d'un coup, j'ai sursauté.",
+      "choices": ["びっくり", "{安心|あんしん}", "{運動|うんどう}", "ざんねん"],
+      "a": 0,
+      "star": {"jp": "びっくりする", "kana": "びっくりする", "fr": "être surpris"}
+    },
+    {
+      "id": "v4-b09-t02",
+      "type": "choice",
+      "uses": ["v4-43", "v4-44"],
+      "q": "Tu dis à ton patron que **ta** femme est à l'hôpital :",
+      "choices": ["つまは{今|いま}、{入院|にゅういん}しています。", "おくさんは{今|いま}、{入院|にゅういん}しています。", "ご{主人|しゅじん}は{今|いま}、{入院|にゅういん}しています。", "つまは{今|いま}、{入院|にゅういん}がしています。"],
+      "a": 0
+    },
+    {
+      "id": "v4-b09-t03",
+      "type": "choice",
+      "uses": ["v4-41", "v5-29"],
+      "jp": "{試験|しけん}がかんたんでしたから、＿しました。",
+      "fr": "L'examen était facile, j'ai été rassuré.",
+      "choices": ["{安心|あんしん}", "{心配|しんぱい}", "けが", "{運動|うんどう}"],
+      "a": 0,
+      "star": {"jp": "{安心|あんしん}する", "kana": "あんしんする", "fr": "être rassuré"}
+    },
+    {
+      "id": "v4-b09-t04",
+      "type": "choice",
+      "uses": ["v4-42", "v4-43"],
+      "jp": "むすめさんはお{父|とう}さん＿よくにていますね。",
+      "fr": "Votre fille ressemble beaucoup à son père.",
+      "choices": ["に", "を", "で", "へ"],
+      "a": 0
+    },
+    {
+      "id": "v4-b09-t05",
+      "type": "choice",
+      "uses": ["v4-44"],
+      "jp": "かぜはもう＿か。— はい、{元気|げんき}になりました。",
+      "fr": "Ton rhume est guéri ? — Oui, je suis rétabli.",
+      "choices": ["なおりました", "{生|い}きました", "たおれました", "{動|うご}きました"],
+      "a": 0,
+      "star": {"jp": "なおる", "kana": "なおる", "fr": "guérir"}
+    },
+    {
+      "id": "v4-b09-t06",
+      "type": "choice",
+      "uses": ["v4-41", "v4-43"],
+      "jp": "{赤|あか}ちゃんが＿います。おなかがすいたのでしょう。",
+      "fr": "Le bébé pleure. Il doit avoir faim.",
+      "choices": ["ないて", "わらって", "おどって", "{入院|にゅういん}して"],
+      "a": 0
+    },
+    {
+      "id": "v4-b09-t07",
+      "type": "choice",
+      "uses": ["v4-42"],
+      "q": "« Il est grand (de taille) » se dit…",
+      "choices": ["せが{高|たか}いです。", "せが{大|おお}きいです。", "{体|からだ}が{高|たか}いです。", "せを{高|たか}いです。"],
+      "a": 0
+    },
+    {
+      "id": "v4-b09-t08",
+      "type": "choice",
+      "uses": ["v4-41", "v4-42"],
+      "jp": "{先生|せんせい}はとても＿ですから、{宿題|しゅくだい}をわすれるとおこります。",
+      "fr": "Le professeur est très strict : si on oublie ses devoirs, il se fâche.",
+      "choices": ["きびしい", "やさしい", "うれしい", "すてき"],
+      "a": 0
+    },
+    {"id": "v4-b09-t09", "type": "choice", "uses": ["v4-44"], "q": "Comment se lit **気分** ?", "choices": ["きぶん", "きふん", "けぶん", "きわけ"], "a": 0},
+    {
+      "id": "v4-b09-t10",
+      "type": "choice",
+      "uses": ["v4-45", "v5-33"],
+      "jp": "{重|おも}いにもつを{持|も}って、＿がいたいです。",
+      "fr": "J'ai porté des bagages lourds, j'ai mal aux bras.",
+      "choices": ["うで", "のど", "あせ", "{気分|きぶん}"],
+      "a": 0
+    },
+    {
+      "id": "v4-b09-t11",
+      "type": "choice",
+      "uses": ["v4-43"],
+      "jp": "{一度|いちど}{会|あ}っただけの{人|ひと}は、{友|とも}だちじゃなくて＿です。",
+      "fr": "Quelqu'un qu'on n'a vu qu'une fois n'est pas un ami, c'est une connaissance.",
+      "choices": ["{知|し}り{合|あ}い", "{親|おや}", "むすこ", "つま"],
+      "a": 0
+    },
+    {
+      "id": "v4-b09-t12",
+      "type": "choice",
+      "uses": ["v4-41", "v5-31"],
+      "jp": "{明日|あした}のコンサートがとても＿です。",
+      "fr": "J'ai très hâte du concert de demain.",
+      "choices": ["{楽|たの}しみ", "{楽|たの}しかった", "{楽|たの}しむ", "{楽|たの}しく"],
+      "a": 0
+    },
+    {
+      "id": "v4-b09-t13",
+      "type": "choice",
+      "uses": ["v4-44"],
+      "q": "Que veut dire **おみまい** ?",
+      "choices": ["une visite à un malade", "un souvenir de voyage", "un cadeau d'anniversaire", "un remerciement"],
+      "a": 0
+    },
+    {
+      "id": "v4-b09-t14",
+      "type": "order",
+      "uses": ["v4-44", "v5-38"],
+      "fr": "Mon père a été hospitalisé une semaine.",
+      "tokens": ["{父|ちち}は", "{一週間|いっしゅうかん}", "{入院|にゅういん}", "しました"]
+    },
+    {
+      "id": "v4-b09-t15",
+      "type": "choice",
+      "uses": ["v4-45"],
+      "jp": "{走|はし}って、あせを＿。",
+      "fr": "J'ai couru, j'ai transpiré.",
+      "choices": ["かきました", "{出|だ}しました", "しました", "ひろいました"],
+      "a": 0
+    },
+    {
+      "id": "v4-b09-t16",
+      "type": "choice",
+      "uses": ["v4-41", "v5-26"],
+      "q": "Une seule de ces phrases est correcte. Laquelle ?",
+      "choices": ["{弟|おとうと}はプレゼントをもらって、よろこんでいます。", "{弟|おとうと}はプレゼントをもらって、うれしいでした。", "{弟|おとうと}はプレゼントをもらって、よろこびです。", "{弟|おとうと}はプレゼントをもらって、よろこいでいます。"],
+      "a": 0
+    }
+  ]
+}
