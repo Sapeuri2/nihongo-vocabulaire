@@ -1,0 +1,1235 @@
+{
+  "id": "v4-b14",
+  "level": "N4",
+  "title": "Le monde moderne : technologie, médias, société, territoire, mesures",
+  "lessons": [
+    {
+      "id": "v4-66",
+      "title": "Appareils et technologie",
+      "words": [
+        {"jp": "パソコン", "kana": "パソコン", "fr": "ordinateur", "ex": "{毎日|まいにち}パソコンで{仕事|しごと}をします。", "exFr": "Je travaille sur ordinateur tous les jours."},
+        {"jp": "きかい", "kana": "きかい", "fr": "machine", "ex": "{工場|こうじょう}の{大|おお}きいきかいが{動|うご}かなくなりました。", "exFr": "La grande machine de l'usine ne marche plus."},
+        {"jp": "{電池|でんち}", "kana": "でんち", "fr": "pile, batterie", "ex": "{時計|とけい}の{電池|でんち}がなくなりました。", "exFr": "La pile de la montre est à plat."},
+        {"jp": "スイッチ", "kana": "スイッチ", "fr": "interrupteur", "ex": "スイッチをおすと、{電気|でんき}がつきます。", "exFr": "Quand on appuie sur l'interrupteur, la lumière s'allume."},
+        {"jp": "インターネット", "kana": "インターネット", "fr": "Internet", "ex": "インターネットでホテルをよやくしました。", "exFr": "J'ai réservé l'hôtel sur Internet."},
+        {"jp": "がめん", "kana": "がめん", "fr": "écran", "ex": "パソコンのがめんが{暗|くら}くなりました。", "exFr": "L'écran de l'ordinateur s'est assombri."},
+        {"jp": "エアコン", "kana": "エアコン", "fr": "climatisation", "ex": "{暑|あつ}いですから、エアコンをつけましょう。", "exFr": "Il fait chaud, allumons la clim."},
+        {"jp": "せんたくき", "kana": "せんたくき", "fr": "machine à laver", "ex": "せんたくきがこわれて、{服|ふく}が{洗|あら}えません。", "exFr": "La machine à laver est en panne, je ne peux pas laver mes vêtements."},
+        {"jp": "けいたい", "kana": "けいたい", "fr": "téléphone portable", "ex": "けいたいで{写真|しゃしん}をとりました。", "exFr": "J'ai pris une photo avec mon portable."},
+        {"jp": "ビデオ", "kana": "ビデオ", "fr": "vidéo", "ex": "{旅行|りょこう}のビデオを{見|み}せてください。", "exFr": "Montre-moi la vidéo du voyage."},
+        {"jp": "{文字|もじ}", "kana": "もじ", "fr": "caractère, lettre (écrite)", "ex": "がめんの{文字|もじ}が{小|ちい}さくて{読|よ}めません。", "exFr": "Les caractères à l'écran sont trop petits, je n'arrive pas à lire."},
+        {"jp": "しらべる", "kana": "しらべる", "fr": "chercher (une information)", "ex": "{分|わ}からないことばをじしょでしらべます。", "exFr": "Je cherche les mots que je ne connais pas dans le dictionnaire."},
+        {"jp": "{電子|でんし}レンジ", "kana": "でんしレンジ", "fr": "four à micro-ondes", "ex": "おべんとうを{電子|でんし}レンジであたためます。", "exFr": "Je réchauffe mon bentō au micro-ondes."},
+        {"jp": "{自動|じどう}", "kana": "じどう", "fr": "automatique", "ex": "この{店|みせ}のドアは{自動|じどう}で{開|あ}きます。", "exFr": "La porte de ce magasin s'ouvre automatiquement."},
+        {"jp": "ボタン", "kana": "ボタン", "fr": "bouton", "ex": "このボタンをおしてください。", "exFr": "Appuyez sur ce bouton."}
+      ],
+      "sections": [
+        {
+          "h": "Utiliser les appareils",
+          "p": ["Les verbes des appareils, presque tous déjà vus en N5."],
+          "grid": {
+            "head": ["", "japonais"],
+            "rows": [
+              ["allumer / éteindre", "エアコン==を==つける / {消|け}す"],
+              ["appuyer sur", "ボタン==を==おす"],
+              ["chercher une info", "インターネット==で==しらべる"],
+              ["la pile est vide", "{電池|でんち}==が==なくなる"],
+              ["automatiquement", "{自動|じどう}==で=={開|あ}く"]
+            ]
+          }
+        }
+      ],
+      "pieges": [
+        "しらべる = chercher une **information** (dictionnaire, Internet) ; さがす (leçon 76) = chercher un **objet**.",
+        "けいたい = téléphone portable (on dit aussi スマホ).",
+        "{文字|もじ} = caractère, lettre ; {字|じ} (leçon 29) = écriture, caractère.",
+        "{電池|でんち}がなくなる = la pile est à plat (なくなる, leçon 49).",
+        "Appareils en panne : こわれる (leçon 48). Ils « marchent » : {動|うご}く (leçon 45)."
+      ],
+      "exercises": [
+        {
+          "id": "v4-66-e01",
+          "type": "choice",
+          "uses": ["v4-53"],
+          "jp": "{毎日|まいにち}＿で{仕事|しごと}のメールを{書|か}きます。",
+          "fr": "Tous les jours, j'écris mes mails de travail sur ordinateur.",
+          "choices": ["パソコン", "エアコン", "せんたくき", "{電池|でんち}"],
+          "a": 0
+        },
+        {
+          "id": "v4-66-e02",
+          "type": "choice",
+          "uses": ["v4-45", "v5-30"],
+          "jp": "{工場|こうじょう}の{大|おお}きい＿が{動|うご}かなくなりました。",
+          "fr": "La grande machine de l'usine ne marche plus.",
+          "choices": ["きかい", "{文字|もじ}", "インターネット", "{自動|じどう}"],
+          "a": 0
+        },
+        {
+          "id": "v4-66-e03",
+          "type": "choice",
+          "uses": ["v4-49", "v5-36"],
+          "jp": "{時計|とけい}が{止|と}まりました。＿がなくなったのでしょう。",
+          "fr": "Ma montre s'est arrêtée. La pile doit être à plat.",
+          "choices": ["{電池|でんち}", "がめん", "{文字|もじ}", "インターネット"],
+          "a": 0
+        },
+        {
+          "id": "v4-66-e04",
+          "type": "choice",
+          "uses": ["v5-27", "v5-40"],
+          "jp": "＿をおすと、{電気|でんき}がつきます。",
+          "fr": "Quand on appuie sur l'interrupteur, la lumière s'allume.",
+          "choices": ["スイッチ", "ビデオ", "{文字|もじ}", "インターネット"],
+          "a": 0
+        },
+        {
+          "id": "v4-66-e05",
+          "type": "choice",
+          "uses": ["v4-54"],
+          "jp": "＿でホテルをよやくしました。{安|やす}かったです。",
+          "fr": "J'ai réservé l'hôtel sur Internet. C'était bon marché.",
+          "choices": ["インターネット", "エアコン", "せんたくき", "{電池|でんち}"],
+          "a": 0
+        },
+        {
+          "id": "v4-66-e06",
+          "type": "choice",
+          "uses": ["v5-24", "v5-40"],
+          "jp": "パソコンの＿が{暗|くら}くて、よく{見|み}えません。",
+          "fr": "L'écran de l'ordinateur est sombre, on ne voit pas bien.",
+          "choices": ["がめん", "スイッチ", "{電池|でんち}", "インターネット"],
+          "a": 0
+        },
+        {
+          "id": "v4-66-e07",
+          "type": "choice",
+          "uses": ["v5-25", "v5-27"],
+          "jp": "{暑|あつ}いですから、＿をつけましょう。",
+          "fr": "Il fait chaud, allumons la clim.",
+          "choices": ["エアコン", "せんたくき", "{電池|でんち}", "{文字|もじ}"],
+          "a": 0
+        },
+        {
+          "id": "v4-66-e08",
+          "type": "choice",
+          "uses": ["v4-48"],
+          "jp": "＿がこわれて、{服|ふく}が{洗|あら}えません。",
+          "fr": "La machine à laver est en panne, je ne peux pas laver mes vêtements.",
+          "choices": ["せんたくき", "エアコン", "{電子|でんし}レンジ", "けいたい"],
+          "a": 0
+        },
+        {
+          "id": "v4-66-e09",
+          "type": "choice",
+          "uses": ["v5-15"],
+          "jp": "{電車|でんしゃ}の{中|なか}では、＿で{話|はな}さないでください。",
+          "fr": "Ne téléphonez pas avec votre portable dans le train, s'il vous plaît.",
+          "choices": ["けいたい", "エアコン", "せんたくき", "{電子|でんし}レンジ"],
+          "a": 0
+        },
+        {
+          "id": "v4-66-e10",
+          "type": "choice",
+          "uses": ["v5-26"],
+          "jp": "{旅行|りょこう}の＿を{見|み}せてください。",
+          "fr": "Montre-moi la vidéo du voyage.",
+          "choices": ["ビデオ", "{電池|でんち}", "スイッチ", "せんたくき"],
+          "a": 0
+        },
+        {
+          "id": "v4-66-e11",
+          "type": "choice",
+          "jp": "がめんの＿が{小|ちい}さくて{読|よ}めません。",
+          "fr": "Les caractères à l'écran sont trop petits, je n'arrive pas à lire.",
+          "choices": ["{文字|もじ}", "スイッチ", "{電池|でんち}", "エアコン"],
+          "a": 0
+        },
+        {
+          "id": "v4-66-e12",
+          "type": "choice",
+          "uses": ["v5-29"],
+          "jp": "{分|わ}からないことばは、じしょで＿ください。",
+          "fr": "Cherchez les mots que vous ne connaissez pas dans le dictionnaire.",
+          "choices": ["しらべて", "おして", "つけて", "こわして"],
+          "a": 0,
+          "star": {"jp": "しらべる", "kana": "しらべる", "fr": "chercher (une information)"}
+        },
+        {
+          "id": "v4-66-e13",
+          "type": "choice",
+          "uses": ["v5-34"],
+          "jp": "つめたいおべんとうを＿であたためます。",
+          "fr": "Je réchauffe mon bentō froid au micro-ondes.",
+          "choices": ["{電子|でんし}レンジ", "せんたくき", "エアコン", "けいたい"],
+          "a": 0
+        },
+        {
+          "id": "v4-66-e14",
+          "type": "choice",
+          "uses": ["v5-27"],
+          "jp": "この{店|みせ}のドアは＿で{開|あ}きます。",
+          "fr": "La porte de ce magasin s'ouvre automatiquement.",
+          "choices": ["{自動|じどう}", "{文字|もじ}", "がめん", "ビデオ"],
+          "a": 0
+        },
+        {
+          "id": "v4-66-e15",
+          "type": "choice",
+          "q": "Que veut dire **しらべる** ?",
+          "choices": ["chercher (une information)", "envoyer", "réparer", "allumer"],
+          "a": 0
+        },
+        {"id": "v4-66-e16", "type": "choice", "q": "Comment se lit **電池** ?", "choices": ["でんち", "でんいけ", "でんし", "てんち"], "a": 0},
+        {
+          "id": "v4-66-e17",
+          "type": "order",
+          "uses": ["v5-29"],
+          "fr": "J'ai cherché le mot sur Internet.",
+          "tokens": ["インターネットで", "ことばを", "しらべました"],
+          "alt": [["ことばを", "インターネットで", "しらべました"]]
+        },
+        {"id": "v4-66-e18", "type": "order", "uses": ["v5-27"], "fr": "Allume la clim, s'il te plaît.", "tokens": ["エアコンを", "つけて", "ください"]}
+      ]
+    },
+    {
+      "id": "v4-67",
+      "title": "Médias et actualité",
+      "words": [
+        {"jp": "ばんぐみ", "kana": "ばんぐみ", "fr": "émission", "ex": "{好|す}きなテレビのばんぐみは{何|なん}ですか。", "exFr": "Quelle est ton émission de télé préférée ?"},
+        {"jp": "ほうそうする", "kana": "ほうそうする", "fr": "diffuser (radio, télé)", "ex": "その{試合|しあい}は{夜|よる}{九時|くじ}からテレビでほうそうします。", "exFr": "Le match est diffusé à la télé à partir de 21 heures."},
+        {"jp": "{新聞社|しんぶんしゃ}", "kana": "しんぶんしゃ", "fr": "journal (l'entreprise)", "ex": "{兄|あに}は{新聞社|しんぶんしゃ}で{働|はたら}いています。", "exFr": "Mon grand frère travaille pour un journal."},
+        {"jp": "きじ", "kana": "きじ", "fr": "article", "ex": "{新聞|しんぶん}でおもしろいきじを{読|よ}みました。", "exFr": "J'ai lu un article intéressant dans le journal."},
+        {"jp": "ざっし", "kana": "ざっし", "fr": "magazine", "ex": "{電車|でんしゃ}の{中|なか}でざっしを{読|よ}みます。", "exFr": "Je lis un magazine dans le train."},
+        {"jp": "アナウンサー", "kana": "アナウンサー", "fr": "présentateur", "ex": "アナウンサーがニュースを{読|よ}んでいます。", "exFr": "Le présentateur lit les informations."},
+        {"jp": "ラジオ", "kana": "ラジオ", "fr": "radio", "ex": "{車|くるま}の{中|なか}でラジオを{聞|き}きます。", "exFr": "J'écoute la radio en voiture."},
+        {"jp": "じけん", "kana": "じけん", "fr": "affaire, incident", "ex": "{昨日|きのう}、この{町|まち}で{大|おお}きいじけんがありました。", "exFr": "Hier, il y a eu une grosse affaire dans cette ville."},
+        {"jp": "ドラマ", "kana": "ドラマ", "fr": "série (télévisée)", "ex": "{毎週|まいしゅう}{日本|にほん}のドラマを{見|み}ています。", "exFr": "Je regarde une série japonaise toutes les semaines."},
+        {"jp": "はっぴょうする", "kana": "はっぴょうする", "fr": "annoncer, présenter", "ex": "{授業|じゅぎょう}で{研究|けんきゅう}をはっぴょうしました。", "exFr": "J'ai présenté mes recherches en cours."},
+        {"jp": "きしゃ", "kana": "きしゃ", "fr": "journaliste", "ex": "きしゃが{有名人|ゆうめいじん}に{質問|しつもん}をしました。", "exFr": "Un journaliste a posé une question à une célébrité."},
+        {"jp": "じょうほう", "kana": "じょうほう", "fr": "information(s)", "ex": "インターネットでいろいろなじょうほうを{集|あつ}めます。", "exFr": "Je rassemble toutes sortes d'informations sur Internet."},
+        {"jp": "こうこく", "kana": "こうこく", "fr": "publicité", "ex": "{新|あたら}しい{車|くるま}のこうこくをテレビで{見|み}ました。", "exFr": "J'ai vu une pub pour une nouvelle voiture à la télé."},
+        {"jp": "{有名人|ゆうめいじん}", "kana": "ゆうめいじん", "fr": "célébrité", "ex": "この{店|みせ}には{有名人|ゆうめいじん}がよく{来|き}ます。", "exFr": "Des célébrités viennent souvent dans ce restaurant."},
+        {"jp": "わだい", "kana": "わだい", "fr": "sujet (de conversation)", "ex": "{今|いま}、そのドラマがわだいになっています。", "exFr": "En ce moment, tout le monde parle de cette série."}
+      ],
+      "sections": [
+        {
+          "h": "Les médias",
+          "p": ["Le vocabulaire de la télé, de la radio et des journaux."],
+          "grid": {
+            "head": ["", "japonais"],
+            "rows": [
+              ["émission / série", "ばんぐみ / ドラマ"],
+              ["diffuser", "ほうそうする"],
+              ["article / magazine", "きじ / ざっし"],
+              ["journaliste / présentateur", "きしゃ / アナウンサー"],
+              ["présenter (un exposé)", "はっぴょうする"],
+              ["faire parler de soi", "わだい==に==なる"]
+            ]
+          }
+        }
+      ],
+      "pieges": [
+        "ばんぐみ = une émission ; ニュース = les informations ; ドラマ = une série.",
+        "きじ = un article ; ざっし = un magazine ; {新聞|しんぶん} = un journal ; {新聞社|しんぶんしゃ} = l'entreprise de presse.",
+        "はっぴょうする = annoncer officiellement, présenter un exposé.",
+        "じけん = une affaire, un incident (souvent un crime) ; じこ (leçon 50) = un accident.",
+        "じょうほう = information(s), renseignements.",
+        "わだいになる = être le sujet du moment, faire parler de soi."
+      ],
+      "exercises": [
+        {
+          "id": "v4-67-e01",
+          "type": "choice",
+          "uses": ["v5-28"],
+          "jp": "{好|す}きなテレビの＿は{何|なん}ですか。— ニュースです。",
+          "fr": "Quelle est ton émission de télé préférée ? — Les informations.",
+          "choices": ["ばんぐみ", "ざっし", "きじ", "きしゃ"],
+          "a": 0
+        },
+        {
+          "id": "v4-67-e02",
+          "type": "choice",
+          "uses": ["v4-61"],
+          "jp": "その{試合|しあい}は、{今夜|こんや}{九時|くじ}からテレビで＿します。",
+          "fr": "Le match est diffusé à la télé ce soir à partir de 21 heures.",
+          "choices": ["ほうそう", "こうこく", "じけん", "わだい"],
+          "a": 0,
+          "star": {"jp": "ほうそうする", "kana": "ほうそうする", "fr": "diffuser (radio, télé)"}
+        },
+        {
+          "id": "v4-67-e03",
+          "type": "choice",
+          "uses": ["v5-14"],
+          "jp": "{兄|あに}は＿で{働|はたら}いていて、きじを{書|か}いています。",
+          "fr": "Mon grand frère travaille pour un journal, il écrit des articles.",
+          "choices": ["{新聞社|しんぶんしゃ}", "ドラマ", "アナウンサー", "じけん"],
+          "a": 0
+        },
+        {
+          "id": "v4-67-e04",
+          "type": "choice",
+          "uses": ["v5-12"],
+          "jp": "{新聞|しんぶん}でおもしろい＿を{読|よ}みました。",
+          "fr": "J'ai lu un article intéressant dans le journal.",
+          "choices": ["きじ", "ばんぐみ", "ラジオ", "アナウンサー"],
+          "a": 0
+        },
+        {
+          "id": "v4-67-e05",
+          "type": "choice",
+          "uses": ["v5-15"],
+          "jp": "{電車|でんしゃ}の{中|なか}で＿を{読|よ}みます。",
+          "fr": "Je lis un magazine dans le train.",
+          "choices": ["ざっし", "ラジオ", "ドラマ", "ばんぐみ"],
+          "a": 0
+        },
+        {
+          "id": "v4-67-e06",
+          "type": "choice",
+          "uses": ["v5-28"],
+          "jp": "＿がテレビでニュースを{読|よ}んでいます。",
+          "fr": "Le présentateur lit les informations à la télé.",
+          "choices": ["アナウンサー", "きじ", "じけん", "ざっし"],
+          "a": 0
+        },
+        {
+          "id": "v4-67-e07",
+          "type": "choice",
+          "uses": ["v5-15"],
+          "jp": "{車|くるま}を{運転|うんてん}しながら、＿を{聞|き}きます。",
+          "fr": "J'écoute la radio en conduisant.",
+          "choices": ["ラジオ", "ざっし", "きじ", "{新聞社|しんぶんしゃ}"],
+          "a": 0
+        },
+        {
+          "id": "v4-67-e08",
+          "type": "choice",
+          "uses": ["v4-59"],
+          "jp": "{昨日|きのう}、この{町|まち}で{大|おお}きい＿がありました。けいさつがたくさん{来|き}ました。",
+          "fr": "Hier, il y a eu une grosse affaire dans cette ville. Beaucoup de policiers sont venus.",
+          "choices": ["じけん", "ドラマ", "ばんぐみ", "こうこく"],
+          "a": 0
+        },
+        {
+          "id": "v4-67-e09",
+          "type": "choice",
+          "uses": ["v5-38"],
+          "jp": "{毎週|まいしゅう}{日本|にほん}の＿を{見|み}て、{日本語|にほんご}を{勉強|べんきょう}しています。",
+          "fr": "Je regarde une série japonaise toutes les semaines pour étudier le japonais.",
+          "choices": ["ドラマ", "ラジオ", "じけん", "きしゃ"],
+          "a": 0
+        },
+        {
+          "id": "v4-67-e10",
+          "type": "choice",
+          "uses": ["v4-52", "v5-39"],
+          "jp": "{授業|じゅぎょう}で、{自分|じぶん}の{研究|けんきゅう}をみんなの{前|まえ}で＿しました。",
+          "fr": "En cours, j'ai présenté mes recherches devant tout le monde.",
+          "choices": ["はっぴょう", "ほうそう", "こうこく", "わだい"],
+          "a": 0,
+          "star": {"jp": "はっぴょうする", "kana": "はっぴょうする", "fr": "annoncer, présenter"}
+        },
+        {
+          "id": "v4-67-e11",
+          "type": "choice",
+          "uses": ["v5-29"],
+          "jp": "＿が{有名人|ゆうめいじん}に{質問|しつもん}をしています。",
+          "fr": "Un journaliste pose une question à une célébrité.",
+          "choices": ["きしゃ", "じけん", "ばんぐみ", "ざっし"],
+          "a": 0
+        },
+        {
+          "id": "v4-67-e12",
+          "type": "choice",
+          "uses": ["v4-46", "v4-66"],
+          "jp": "インターネットでいろいろな＿を{集|あつ}めます。",
+          "fr": "Je rassemble toutes sortes d'informations sur Internet.",
+          "choices": ["じょうほう", "アナウンサー", "じけん", "ラジオ"],
+          "a": 0
+        },
+        {
+          "id": "v4-67-e13",
+          "type": "choice",
+          "jp": "{新|あたら}しい{車|くるま}の＿をテレビで{見|み}て、ほしくなりました。",
+          "fr": "J'ai vu une pub pour une nouvelle voiture à la télé, et j'en ai eu envie.",
+          "choices": ["こうこく", "じけん", "きしゃ", "アナウンサー"],
+          "a": 0
+        },
+        {
+          "id": "v4-67-e14",
+          "type": "choice",
+          "jp": "この{店|みせ}には＿がよく{来|き}ます。テレビで{見|み}る{人|ひと}たちです。",
+          "fr": "Des célébrités viennent souvent dans ce restaurant : des gens qu'on voit à la télé.",
+          "choices": ["{有名人|ゆうめいじん}", "ばんぐみ", "こうこく", "じょうほう"],
+          "a": 0
+        },
+        {
+          "id": "v4-67-e15",
+          "type": "choice",
+          "jp": "{今|いま}、そのドラマがとても＿になっています。みんな{見|み}ています。",
+          "fr": "En ce moment, tout le monde parle de cette série. Tout le monde la regarde.",
+          "choices": ["わだい", "じけん", "ほうそう", "こうこく"],
+          "a": 0
+        },
+        {
+          "id": "v4-67-e16",
+          "type": "choice",
+          "q": "Que veut dire **ざっし** ?",
+          "choices": ["un magazine", "un article", "une émission", "un journal télévisé"],
+          "a": 0
+        },
+        {"id": "v4-67-e17", "type": "choice", "q": "Comment se lit **新聞社** ?", "choices": ["しんぶんしゃ", "しんもんしゃ", "しんぶんじゃ", "あたらしゃ"], "a": 0},
+        {
+          "id": "v4-67-e18",
+          "type": "order",
+          "uses": ["v4-61"],
+          "fr": "Le match sera diffusé à la télé ce soir.",
+          "tokens": ["{試合|しあい}は", "{今夜|こんや}", "テレビで", "ほうそうされます"],
+          "alt": [["{今夜|こんや}", "{試合|しあい}は", "テレビで", "ほうそうされます"]]
+        }
+      ]
+    },
+    {
+      "id": "v4-68",
+      "title": "Société, économie, sciences",
+      "words": [
+        {"jp": "{社会|しゃかい}", "kana": "しゃかい", "fr": "société", "ex": "{子|こ}どもは{学校|がっこう}で{社会|しゃかい}のことを{習|なら}います。", "exFr": "À l'école, les enfants apprennent comment fonctionne la société."},
+        {"jp": "けいざい", "kana": "けいざい", "fr": "économie", "ex": "{大学|だいがく}でけいざいを{勉強|べんきょう}しています。", "exFr": "J'étudie l'économie à l'université."},
+        {"jp": "せいじ", "kana": "せいじ", "fr": "politique", "ex": "せいじのニュースはむずかしいです。", "exFr": "Les nouvelles politiques sont difficiles."},
+        {"jp": "こくさい", "kana": "こくさい", "fr": "international", "ex": "{京都|きょうと}でこくさい{会議|かいぎ}がありました。", "exFr": "Il y a eu une conférence internationale à Kyoto."},
+        {"jp": "ほうりつ", "kana": "ほうりつ", "fr": "loi", "ex": "{日本|にほん}のほうりつでは、{二十|はたち}さいからお{酒|さけ}が{飲|の}めます。", "exFr": "Selon la loi japonaise, on peut boire de l'alcool à partir de vingt ans."},
+        {"jp": "せんそう", "kana": "せんそう", "fr": "guerre", "ex": "おじいさんはせんそうの{話|はなし}をしてくれました。", "exFr": "Grand-père m'a raconté la guerre."},
+        {"jp": "へいわ", "kana": "へいわ", "fr": "paix ; paisible", "ex": "{世界|せかい}がへいわになってほしいです。", "exFr": "Je voudrais que le monde soit en paix."},
+        {"jp": "{人口|じんこう}", "kana": "じんこう", "fr": "population", "ex": "{東京|とうきょう}の{人口|じんこう}はとても{多|おお}いです。", "exFr": "La population de Tokyo est très nombreuse."},
+        {"jp": "{産業|さんぎょう}", "kana": "さんぎょう", "fr": "industrie, secteur économique", "ex": "この{町|まち}の{大事|だいじ}な{産業|さんぎょう}はかんこうです。", "exFr": "Le secteur important de cette ville, c'est le tourisme."},
+        {"jp": "{工業|こうぎょう}", "kana": "こうぎょう", "fr": "industrie (fabrication)", "ex": "この{地方|ちほう}は{工業|こうぎょう}がさかんです。", "exFr": "L'industrie est florissante dans cette région."},
+        {"jp": "せいかつ", "kana": "せいかつ", "fr": "vie (quotidienne)", "ex": "{日本|にほん}でのせいかつにもうなれました。", "exFr": "Je me suis déjà habitué à la vie au Japon."},
+        {"jp": "{医学|いがく}", "kana": "いがく", "fr": "médecine (science)", "ex": "{兄|あに}は{大学|だいがく}で{医学|いがく}を{勉強|べんきょう}しています。", "exFr": "Mon grand frère étudie la médecine à l'université."},
+        {"jp": "かがく", "kana": "かがく", "fr": "science(s)", "ex": "{子|こ}どものとき、かがくが{好|す}きでした。", "exFr": "Enfant, j'aimais les sciences."},
+        {"jp": "ぎじゅつ", "kana": "ぎじゅつ", "fr": "technique, technologie", "ex": "{日本|にほん}の{車|くるま}のぎじゅつはすばらしいです。", "exFr": "La technologie automobile japonaise est formidable."},
+        {"jp": "ぼうえき", "kana": "ぼうえき", "fr": "commerce extérieur", "ex": "{日本|にほん}は{外国|がいこく}とぼうえきをしています。", "exFr": "Le Japon commerce avec l'étranger."}
+      ],
+      "sections": [
+        {
+          "h": "Les grands domaines",
+          "p": ["Des mots qu'on rencontre dans les informations et les textes du JLPT."],
+          "grid": {
+            "head": ["", "japonais"],
+            "rows": [
+              ["économie / politique", "けいざい / せいじ"],
+              ["loi", "ほうりつ"],
+              ["guerre / paix", "せんそう / へいわ"],
+              ["industrie / commerce extérieur", "{産業|さんぎょう}, {工業|こうぎょう} / ぼうえき"],
+              ["sciences / technique / médecine", "かがく / ぎじゅつ / {医学|いがく}"],
+              ["vie quotidienne", "せいかつ"]
+            ]
+          }
+        }
+      ],
+      "pieges": [
+        "せいかつ = la vie de tous les jours, le mode de vie : {日本|にほん}でのせいかつ.",
+        "{人口|じんこう} = la population (le nombre d'habitants) : {人口|じんこう}が{多|おお}い / {少|すく}ない.",
+        "こくさい = international, presque toujours devant un nom : こくさい{会議|かいぎ}.",
+        "{工業|こうぎょう} (fabrication) fait partie des {産業|さんぎょう} (toutes les activités économiques).",
+        "へいわ est un adjectif en な : へいわな{世界|せかい}, へいわになる.",
+        "{二十|はたち}さい : vingt ans se lit はたち."
+      ],
+      "exercises": [
+        {
+          "id": "v4-68-e01",
+          "type": "choice",
+          "uses": ["v5-14"],
+          "jp": "{大学|だいがく}で＿を{勉強|べんきょう}して、{銀行|ぎんこう}で{働|はたら}きたいです。",
+          "fr": "Je veux étudier l'économie à l'université, puis travailler dans une banque.",
+          "choices": ["けいざい", "せんそう", "{人口|じんこう}", "へいわ"],
+          "a": 0
+        },
+        {
+          "id": "v4-68-e02",
+          "type": "choice",
+          "q": "Que veut dire **せいじ** ?",
+          "choices": ["la politique", "l'économie", "la société", "la loi"],
+          "a": 0
+        },
+        {
+          "id": "v4-68-e03",
+          "type": "choice",
+          "uses": ["v4-51", "v5-37"],
+          "jp": "{京都|きょうと}で＿{会議|かいぎ}があって、いろいろな{国|くに}の{人|ひと}が{来|き}ました。",
+          "fr": "Il y a eu une conférence internationale à Kyoto : des gens de nombreux pays sont venus.",
+          "choices": ["こくさい", "せいかつ", "へいわ", "{人口|じんこう}"],
+          "a": 0
+        },
+        {
+          "id": "v4-68-e04",
+          "type": "choice",
+          "uses": ["v5-06"],
+          "jp": "{日本|にほん}の＿では、{二十|はたち}さいからお{酒|さけ}が{飲|の}めます。",
+          "fr": "Selon la loi japonaise, on peut boire de l'alcool à partir de vingt ans.",
+          "choices": ["ほうりつ", "かがく", "ぎじゅつ", "{医学|いがく}"],
+          "a": 0
+        },
+        {
+          "id": "v4-68-e05",
+          "type": "choice",
+          "uses": ["v4-41", "v5-28"],
+          "jp": "おじいさんは＿の{話|はなし}をしてくれました。とてもかなしい{話|はなし}でした。",
+          "fr": "Grand-père m'a raconté la guerre. C'était une histoire très triste.",
+          "choices": ["せんそう", "へいわ", "かがく", "ぼうえき"],
+          "a": 0
+        },
+        {
+          "id": "v4-68-e06",
+          "type": "choice",
+          "jp": "{世界|せかい}が＿になってほしいです。",
+          "fr": "Je voudrais que le monde soit en paix.",
+          "choices": ["へいわ", "せんそう", "{人口|じんこう}", "けいざい"],
+          "a": 0
+        },
+        {
+          "id": "v4-68-e07",
+          "type": "choice",
+          "uses": ["v4-50"],
+          "jp": "{東京|とうきょう}は＿が{多|おお}くて、{電車|でんしゃ}がいつもこんでいます。",
+          "fr": "Tokyo est très peuplé, les trains sont toujours bondés.",
+          "choices": ["{人口|じんこう}", "ほうりつ", "せいじ", "へいわ"],
+          "a": 0
+        },
+        {
+          "id": "v4-68-e08",
+          "type": "choice",
+          "uses": ["v4-62"],
+          "jp": "この{町|まち}のいちばん{大事|だいじ}な＿はかんこうです。",
+          "fr": "Le secteur économique le plus important de cette ville, c'est le tourisme.",
+          "choices": ["{産業|さんぎょう}", "{工業|こうぎょう}", "せいじ", "{医学|いがく}"],
+          "a": 0
+        },
+        {
+          "id": "v4-68-e09",
+          "type": "choice",
+          "uses": ["v4-62", "v5-30"],
+          "jp": "この{地方|ちほう}には{工場|こうじょう}が{多|おお}くて、＿がさかんです。",
+          "fr": "Il y a beaucoup d'usines dans cette région : l'industrie y est florissante.",
+          "choices": ["{工業|こうぎょう}", "{医学|いがく}", "へいわ", "せんそう"],
+          "a": 0
+        },
+        {
+          "id": "v4-68-e10",
+          "type": "choice",
+          "jp": "{日本|にほん}での＿にもうなれましたか。",
+          "fr": "Tu t'es habitué à la vie au Japon ?",
+          "choices": ["せいかつ", "せいじ", "{人口|じんこう}", "ぼうえき"],
+          "a": 0
+        },
+        {
+          "id": "v4-68-e11",
+          "type": "choice",
+          "uses": ["v5-30"],
+          "jp": "{兄|あに}は{医者|いしゃ}になりたいですから、{大学|だいがく}で＿を{勉強|べんきょう}しています。",
+          "fr": "Mon grand frère veut devenir médecin, alors il étudie la médecine à l'université.",
+          "choices": ["{医学|いがく}", "{工業|こうぎょう}", "けいざい", "せいじ"],
+          "a": 0
+        },
+        {
+          "id": "v4-68-e12",
+          "type": "choice",
+          "uses": ["v4-63", "v4-66"],
+          "jp": "{子|こ}どものとき、＿が{好|す}きで、ほしやむしのことをよくしらべました。",
+          "fr": "Enfant, j'aimais les sciences : je faisais souvent des recherches sur les étoiles et les insectes.",
+          "choices": ["かがく", "せいじ", "ほうりつ", "けいざい"],
+          "a": 0
+        },
+        {
+          "id": "v4-68-e13",
+          "type": "choice",
+          "jp": "{日本|にほん}の{車|くるま}の＿はすばらしいです。",
+          "fr": "La technologie automobile japonaise est formidable.",
+          "choices": ["ぎじゅつ", "せんそう", "{人口|じんこう}", "へいわ"],
+          "a": 0
+        },
+        {
+          "id": "v4-68-e14",
+          "type": "choice",
+          "uses": ["v5-26"],
+          "jp": "{日本|にほん}は{外国|がいこく}と＿をして、{車|くるま}を{売|う}っています。",
+          "fr": "Le Japon commerce avec l'étranger : il y vend des voitures.",
+          "choices": ["ぼうえき", "せんそう", "せいかつ", "{医学|いがく}"],
+          "a": 0
+        },
+        {"id": "v4-68-e15", "type": "choice", "q": "Comment se lit **人口** ?", "choices": ["じんこう", "ひとくち", "にんこう", "じんぐち"], "a": 0},
+        {"id": "v4-68-e16", "type": "choice", "q": "Contraire de **せんそう** ?", "choices": ["へいわ", "けいざい", "せいじ", "こくさい"], "a": 0},
+        {
+          "id": "v4-68-e17",
+          "type": "choice",
+          "q": "Que veut dire **{社会|しゃかい}** ?",
+          "choices": ["la société", "l'entreprise", "la politique", "la ville"],
+          "a": 0
+        },
+        {
+          "id": "v4-68-e18",
+          "type": "order",
+          "uses": ["v5-14"],
+          "fr": "J'étudie l'économie à l'université.",
+          "tokens": ["{大学|だいがく}で", "けいざいを", "{勉強|べんきょう}しています"],
+          "alt": [["けいざいを", "{大学|だいがく}で", "{勉強|べんきょう}しています"]]
+        }
+      ]
+    },
+    {
+      "id": "v4-69",
+      "title": "Lieux et territoire",
+      "words": [
+        {"jp": "{県|けん}", "kana": "けん", "fr": "préfecture", "ex": "{日本|にほん}には{県|けん}が{四十三|よんじゅうさん}あります。", "exFr": "Le Japon compte quarante-trois préfectures en 県."},
+        {"jp": "{市|し}", "kana": "し", "fr": "ville (commune)", "ex": "{大阪|おおさか}{市|し}に{住|す}んでいます。", "exFr": "J'habite dans la ville d'Osaka."},
+        {"jp": "{村|むら}", "kana": "むら", "fr": "village", "ex": "そぼは{山|やま}の{中|なか}の{小|ちい}さい{村|むら}に{住|す}んでいます。", "exFr": "Ma grand-mère vit dans un petit village de montagne."},
+        {"jp": "こうがい", "kana": "こうがい", "fr": "banlieue", "ex": "{東京|とうきょう}のこうがいに{家|いえ}を{建|た}てました。", "exFr": "J'ai fait construire une maison en banlieue de Tokyo."},
+        {"jp": "{世界|せかい}", "kana": "せかい", "fr": "monde", "ex": "{世界|せかい}でいちばん{高|たか}い{山|やま}はどこですか。", "exFr": "Où est la plus haute montagne du monde ?"},
+        {"jp": "いなか", "kana": "いなか", "fr": "campagne ; région natale", "ex": "{夏休|なつやす}みはいなかのそぼの{家|いえ}へ{行|い}きます。", "exFr": "Pendant les vacances d'été, je vais chez ma grand-mère à la campagne."},
+        {"jp": "{区|く}", "kana": "く", "fr": "arrondissement", "ex": "{東京|とうきょう}には{二十三|にじゅうさん}の{区|く}があります。", "exFr": "Tokyo compte vingt-trois arrondissements."},
+        {"jp": "{近所|きんじょ}", "kana": "きんじょ", "fr": "voisinage, quartier", "ex": "{近所|きんじょ}に{大|おお}きいスーパーができました。", "exFr": "Un grand supermarché a ouvert dans le quartier."},
+        {"jp": "{場所|ばしょ}", "kana": "ばしょ", "fr": "endroit, lieu", "ex": "{会議|かいぎ}の{場所|ばしょ}を{教|おし}えてください。", "exFr": "Indiquez-moi le lieu de la réunion."},
+        {"jp": "へん", "kana": "へん", "fr": "coin, environs", "ex": "このへんに{銀行|ぎんこう}はありますか。", "exFr": "Y a-t-il une banque dans le coin ?"},
+        {"jp": "がわ", "kana": "がわ", "fr": "côté", "ex": "{道|みち}の{右|みぎ}がわを{歩|ある}いてください。", "exFr": "Marchez du côté droit de la rue."},
+        {"jp": "さか", "kana": "さか", "fr": "pente, côte", "ex": "この{道|みち}はさかが{多|おお}いです。", "exFr": "Cette route a beaucoup de côtes."},
+        {"jp": "{通|とお}り", "kana": "とおり", "fr": "rue, avenue", "ex": "この{通|とお}りはいつもにぎやかです。", "exFr": "Cette rue est toujours animée."},
+        {"jp": "{会場|かいじょう}", "kana": "かいじょう", "fr": "lieu (d'un événement)", "ex": "パーティーの{会場|かいじょう}はホテルの{二|に}かいです。", "exFr": "La fête a lieu au premier étage de l'hôtel."},
+        {"jp": "{都市|とし}", "kana": "とし", "fr": "grande ville", "ex": "{大阪|おおさか}は{日本|にほん}の{大|おお}きい{都市|とし}の{一|ひと}つです。", "exFr": "Osaka est l'une des grandes villes du Japon."}
+      ],
+      "sections": [
+        {
+          "h": "Du plus grand au plus petit",
+          "p": ["Comme pour une adresse japonaise, on va du plus grand au plus petit. Tokyo compte 23 {区|く}."],
+          "grid": {
+            "head": ["", "japonais"],
+            "rows": [
+              ["monde / pays", "{世界|せかい} / {国|くに}"],
+              ["préfecture", "〜{県|けん}"],
+              ["ville / arrondissement", "〜{市|し} / 〜{区|く}"],
+              ["village / campagne", "{村|むら} / いなか"],
+              ["banlieue / grande ville", "こうがい / {都市|とし}"],
+              ["quartier / dans le coin", "{近所|きんじょ} / このへん"]
+            ]
+          }
+        }
+      ],
+      "pieges": [
+        "このへん = par ici, dans le coin. (へん veut aussi dire « bizarre » : へんな{人|ひと}.)",
+        "〜がわ = le côté : {右|みぎ}がわ, {左|ひだり}がわ.",
+        "{近所|きんじょ} = le voisinage : {近所|きんじょ}の{人|ひと} = les voisins.",
+        "いなか = la campagne, **et** la région d'où l'on vient.",
+        "{通|とお}り = rue, avenue (nom) ; {通|とお}る = passer (verbe, leçon 46).",
+        "{場所|ばしょ} = un lieu précis ; {会場|かいじょう} = le lieu d'un événement."
+      ],
+      "exercises": [
+        {
+          "id": "v4-69-e01",
+          "type": "choice",
+          "uses": ["v5-36"],
+          "jp": "{大阪|おおさか}＿に{住|す}んでいます。",
+          "fr": "J'habite dans la ville d'Osaka.",
+          "choices": ["{市|し}", "{区|く}", "{村|むら}", "{世界|せかい}"],
+          "a": 0
+        },
+        {
+          "id": "v4-69-e02",
+          "type": "choice",
+          "uses": ["v4-43", "v5-36"],
+          "jp": "そぼは{山|やま}の{中|なか}の{小|ちい}さい＿に{住|す}んでいます。",
+          "fr": "Ma grand-mère vit dans un petit village de montagne.",
+          "choices": ["{村|むら}", "{世界|せかい}", "{区|く}", "{会場|かいじょう}"],
+          "a": 0
+        },
+        {
+          "id": "v4-69-e03",
+          "type": "choice",
+          "uses": ["v4-47"],
+          "jp": "{東京|とうきょう}の＿に{家|いえ}を{建|た}てました。{会社|かいしゃ}まで{電車|でんしゃ}で{一時間|いちじかん}です。",
+          "fr": "J'ai fait construire une maison en banlieue de Tokyo. J'ai une heure de train jusqu'au bureau.",
+          "choices": ["こうがい", "{世界|せかい}", "さか", "がわ"],
+          "a": 0
+        },
+        {
+          "id": "v4-69-e04",
+          "type": "choice",
+          "uses": ["v5-35", "v5-37"],
+          "jp": "＿でいちばん{高|たか}い{山|やま}は、{日本|にほん}にはありません。",
+          "fr": "La plus haute montagne du monde n'est pas au Japon.",
+          "choices": ["{世界|せかい}", "{近所|きんじょ}", "{場所|ばしょ}", "{会場|かいじょう}"],
+          "a": 0
+        },
+        {
+          "id": "v4-69-e05",
+          "type": "choice",
+          "uses": ["v4-43", "v5-35"],
+          "jp": "{夏休|なつやす}みは、＿のそぼの{家|いえ}へ{行|い}きます。{山|やま}と{川|かわ}がきれいです。",
+          "fr": "Pendant les vacances d'été, je vais chez ma grand-mère à la campagne. Les montagnes et la rivière sont magnifiques.",
+          "choices": ["いなか", "{都市|とし}", "{区|く}", "{会場|かいじょう}"],
+          "a": 0
+        },
+        {
+          "id": "v4-69-e06",
+          "type": "choice",
+          "jp": "{東京|とうきょう}には{二十三|にじゅうさん}の＿があります。",
+          "fr": "Tokyo compte vingt-trois arrondissements.",
+          "choices": ["{区|く}", "{県|けん}", "{村|むら}", "{世界|せかい}"],
+          "a": 0
+        },
+        {
+          "id": "v4-69-e07",
+          "type": "choice",
+          "uses": ["v5-19", "v5-32"],
+          "jp": "＿に{大|おお}きいスーパーができて、{便利|べんり}になりました。",
+          "fr": "Un grand supermarché a ouvert dans le quartier, c'est devenu pratique.",
+          "choices": ["{近所|きんじょ}", "{世界|せかい}", "さか", "がわ"],
+          "a": 0
+        },
+        {
+          "id": "v4-69-e08",
+          "type": "choice",
+          "uses": ["v4-51"],
+          "jp": "{会議|かいぎ}の＿と{時間|じかん}を{教|おし}えてください。",
+          "fr": "Indiquez-moi le lieu et l'heure de la réunion.",
+          "choices": ["{場所|ばしょ}", "{世界|せかい}", "いなか", "{村|むら}"],
+          "a": 0
+        },
+        {
+          "id": "v4-69-e09",
+          "type": "choice",
+          "uses": ["v5-04"],
+          "jp": "すみません、この＿に{銀行|ぎんこう}はありますか。",
+          "fr": "Excusez-moi, y a-t-il une banque dans le coin ?",
+          "choices": ["へん", "がわ", "さか", "{世界|せかい}"],
+          "a": 0
+        },
+        {
+          "id": "v4-69-e10",
+          "type": "choice",
+          "uses": ["v5-20"],
+          "jp": "{日本|にほん}では、{車|くるま}は{道|みち}の{左|ひだり}＿を{走|はし}ります。",
+          "fr": "Au Japon, les voitures roulent du côté gauche de la route.",
+          "choices": ["がわ", "へん", "さか", "{場所|ばしょ}"],
+          "a": 0
+        },
+        {
+          "id": "v4-69-e11",
+          "type": "choice",
+          "uses": ["v5-37"],
+          "jp": "この{道|みち}は＿が{多|おお}いですから、{自転車|じてんしゃ}はたいへんです。",
+          "fr": "Cette route a beaucoup de côtes, c'est dur à vélo.",
+          "choices": ["さか", "{近所|きんじょ}", "{県|けん}", "{会場|かいじょう}"],
+          "a": 0
+        },
+        {
+          "id": "v4-69-e12",
+          "type": "choice",
+          "uses": ["v5-19"],
+          "jp": "この＿はお{店|みせ}がたくさんあって、いつもにぎやかです。",
+          "fr": "Cette rue a beaucoup de boutiques, elle est toujours animée.",
+          "choices": ["{通|とお}り", "{世界|せかい}", "がわ", "いなか"],
+          "a": 0
+        },
+        {
+          "id": "v4-69-e13",
+          "type": "choice",
+          "uses": ["v5-31"],
+          "jp": "パーティーの＿はホテルの{二|に}かいです。",
+          "fr": "La fête a lieu au premier étage de l'hôtel.",
+          "choices": ["{会場|かいじょう}", "{都市|とし}", "{県|けん}", "{村|むら}"],
+          "a": 0
+        },
+        {
+          "id": "v4-69-e14",
+          "type": "choice",
+          "jp": "{大阪|おおさか}は{日本|にほん}の{大|おお}きい＿の{一|ひと}つです。",
+          "fr": "Osaka est l'une des grandes villes du Japon.",
+          "choices": ["{都市|とし}", "{村|むら}", "{近所|きんじょ}", "がわ"],
+          "a": 0
+        },
+        {
+          "id": "v4-69-e15",
+          "type": "choice",
+          "q": "Que veut dire **このへん** ?",
+          "choices": ["par ici, dans le coin", "bizarre", "de ce côté-ci", "ce chemin"],
+          "a": 0
+        },
+        {"id": "v4-69-e16", "type": "choice", "q": "Comment se lit **近所** ?", "choices": ["きんじょ", "ちかしょ", "きんしょ", "ちかところ"], "a": 0},
+        {
+          "id": "v4-69-e17",
+          "type": "choice",
+          "q": "Que veut dire **いなか** ?",
+          "choices": ["la campagne", "la banlieue", "la frontière", "le centre-ville"],
+          "a": 0
+        },
+        {"id": "v4-69-e18", "type": "order", "uses": ["v5-32"], "fr": "Y a-t-il une poste dans le coin ?", "tokens": ["このへんに", "ゆうびんきょくは", "ありますか"]}
+      ]
+    },
+    {
+      "id": "v4-70",
+      "title": "Mesures et quantités",
+      "words": [
+        {"jp": "〜ばい", "kana": "〜ばい", "fr": "… fois plus", "ex": "{兄|あに}はいつも{私|わたし}の{二|に}ばい{食|た}べます。", "exFr": "Mon grand frère mange toujours deux fois plus que moi."},
+        {"jp": "{以上|いじょう}", "kana": "いじょう", "fr": "… et plus, au moins", "ex": "{二十|はたち}さい{以上|いじょう}の{人|ひと}はお{酒|さけ}が{飲|の}めます。", "exFr": "Les personnes de vingt ans et plus peuvent boire de l'alcool."},
+        {"jp": "{以下|いか}", "kana": "いか", "fr": "… et moins", "ex": "{六|ろく}さい{以下|いか}の{子|こ}どもはお{金|かね}がいりません。", "exFr": "C'est gratuit pour les enfants de six ans et moins."},
+        {"jp": "{合計|ごうけい}", "kana": "ごうけい", "fr": "total", "ex": "{合計|ごうけい}で{三千円|さんぜんえん}です。", "exFr": "Ça fait trois mille yens au total."},
+        {"jp": "キロ", "kana": "キロ", "fr": "kilo(mètre, gramme)", "ex": "{駅|えき}から{家|いえ}まで{二|に}キロあります。", "exFr": "Il y a deux kilomètres de la gare à chez moi."},
+        {"jp": "メートル", "kana": "メートル", "fr": "mètre", "ex": "この{木|き}は{十|じゅう}メートルぐらいあります。", "exFr": "Cet arbre fait environ dix mètres."},
+        {"jp": "グラム", "kana": "グラム", "fr": "gramme", "ex": "{肉|にく}を{五百|ごひゃく}グラムください。", "exFr": "Cinq cents grammes de viande, s'il vous plaît."},
+        {"jp": "センチ", "kana": "センチ", "fr": "centimètre", "ex": "{兄|あに}はせが{百八十|ひゃくはちじゅう}センチあります。", "exFr": "Mon grand frère mesure un mètre quatre-vingts."},
+        {"jp": "{重|おも}さ", "kana": "おもさ", "fr": "poids", "ex": "このにもつの{重|おも}さはどのぐらいですか。", "exFr": "Combien pèsent ces bagages ?"},
+        {"jp": "{長|なが}さ", "kana": "ながさ", "fr": "longueur", "ex": "この{川|かわ}の{長|なが}さは{三百|さんびゃく}キロです。", "exFr": "Cette rivière fait trois cents kilomètres de long."},
+        {"jp": "{高|たか}さ", "kana": "たかさ", "fr": "hauteur", "ex": "ふじさんの{高|たか}さは{三千七百|さんぜんななひゃく}メートルぐらいです。", "exFr": "Le mont Fuji fait environ 3 700 mètres de haut."},
+        {"jp": "{大|おお}きさ", "kana": "おおきさ", "fr": "taille, grandeur", "ex": "このくつの{大|おお}きさはちょうどいいです。", "exFr": "Ces chaussures sont juste à ma taille."},
+        {"jp": "かず", "kana": "かず", "fr": "nombre", "ex": "{学生|がくせい}のかずがへっています。", "exFr": "Le nombre d'étudiants diminue."},
+        {"jp": "〜ばんめ", "kana": "〜ばんめ", "fr": "…ième (rang)", "ex": "{右|みぎ}から{三|さん}ばんめの{人|ひと}が{私|わたし}の{兄|あに}です。", "exFr": "La troisième personne en partant de la droite, c'est mon grand frère."},
+        {"jp": "パーセント", "kana": "パーセント", "fr": "pour cent", "ex": "{日本|にほん}の{人口|じんこう}の{三十|さんじゅう}パーセントぐらいは{六十五|ろくじゅうご}さい{以上|いじょう}です。", "exFr": "Environ trente pour cent de la population japonaise a soixante-cinq ans ou plus."}
+      ],
+      "sections": [
+        {
+          "h": "Mesurer et comparer",
+          "p": ["Un adjectif en い devient un nom en remplaçant い par **さ** : {重|おも}い → {重|おも}さ."],
+          "grid": {
+            "head": ["", "japonais"],
+            "rows": [
+              ["adjectif → nom", "{重|おも}い → {重|おも}==さ== · {長|なが}い → {長|なが}==さ== · {高|たか}い → {高|たか}==さ=="],
+              ["deux fois, trois fois plus", "{二|に}ばい · {三|さん}ばい"],
+              ["… et plus / … et moins", "〜{以上|いじょう} / 〜{以下|いか} (le nombre est compris)"],
+              ["le troisième", "{三|さん}ばんめ"],
+              ["au total", "{合計|ごうけい}で"]
+            ]
+          }
+        }
+      ],
+      "pieges": [
+        "Adjectif en い → nom en 〜さ : {重|おも}い → {重|おも}さ (le poids), {大|おお}きい → {大|おお}きさ (la taille).",
+        "〜{以上|いじょう} et 〜{以下|いか} **incluent** le nombre : {六|ろく}さい{以下|いか} = six ans et moins.",
+        "〜ばい = … fois **plus** ({二|に}ばい = le double) ; 〜{度|ど} (leçon 38) = … fois (fréquence).",
+        "〜ばんめ = le rang : {一|いち}ばんめ, {二|に}ばんめ… ≠ いちばん (le plus, leçon 37).",
+        "キロ = kilomètre **ou** kilogramme : c'est le contexte qui décide.",
+        "かず = le nombre, la quantité de choses : かずが{多|おお}い / へる."
+      ],
+      "exercises": [
+        {
+          "id": "v4-70-e01",
+          "type": "choice",
+          "uses": ["v5-21"],
+          "jp": "{兄|あに}はいつも{私|わたし}の{二|に}＿{食|た}べます。",
+          "fr": "Mon grand frère mange toujours deux fois plus que moi.",
+          "choices": ["ばい", "ど", "ばんめ", "パーセント"],
+          "a": 0
+        },
+        {
+          "id": "v4-70-e02",
+          "type": "choice",
+          "uses": ["v4-68"],
+          "jp": "{日本|にほん}では、{二十|はたち}さい＿の{人|ひと}はお{酒|さけ}が{飲|の}めます。",
+          "fr": "Au Japon, les personnes de vingt ans et plus peuvent boire de l'alcool.",
+          "choices": ["{以上|いじょう}", "{以下|いか}", "{合計|ごうけい}", "ばんめ"],
+          "a": 0
+        },
+        {
+          "id": "v4-70-e03",
+          "type": "choice",
+          "uses": ["v5-36"],
+          "jp": "{六|ろく}さい＿の{小|ちい}さい{子|こ}どもは、お{金|かね}がいりません。",
+          "fr": "C'est gratuit pour les petits enfants de six ans et moins.",
+          "choices": ["{以下|いか}", "{以上|いじょう}", "{合計|ごうけい}", "かず"],
+          "a": 0
+        },
+        {
+          "id": "v4-70-e04",
+          "type": "choice",
+          "uses": ["v5-07"],
+          "jp": "コーヒーとケーキで、＿{千二百円|せんにひゃくえん}です。",
+          "fr": "Café et gâteau : mille deux cents yens au total.",
+          "choices": ["{合計|ごうけい}", "{以上|いじょう}", "ばい", "かず"],
+          "a": 0
+        },
+        {
+          "id": "v4-70-e05",
+          "type": "choice",
+          "uses": ["v5-15"],
+          "jp": "{駅|えき}から{家|いえ}まで{二|に}＿あります。{歩|ある}いて{三十分|さんじゅっぷん}です。",
+          "fr": "Il y a deux kilomètres de la gare à chez moi : trente minutes à pied.",
+          "choices": ["キロ", "グラム", "パーセント", "ばんめ"],
+          "a": 0
+        },
+        {
+          "id": "v4-70-e06",
+          "type": "choice",
+          "uses": ["v5-06"],
+          "jp": "{肉|にく}を{五百|ごひゃく}＿ください。",
+          "fr": "Cinq cents grammes de viande, s'il vous plaît.",
+          "choices": ["グラム", "メートル", "センチ", "パーセント"],
+          "a": 0
+        },
+        {
+          "id": "v4-70-e07",
+          "type": "choice",
+          "uses": ["v4-42"],
+          "jp": "{兄|あに}はせが{百八十|ひゃくはちじゅう}＿あります。",
+          "fr": "Mon grand frère mesure un mètre quatre-vingts.",
+          "choices": ["センチ", "グラム", "キロ", "パーセント"],
+          "a": 0
+        },
+        {
+          "id": "v4-70-e08",
+          "type": "choice",
+          "uses": ["v5-24", "v5-33"],
+          "jp": "このにもつの＿は{二十|にじゅう}キロです。{重|おも}いです。",
+          "fr": "Ces bagages pèsent vingt kilos. C'est lourd.",
+          "choices": ["{重|おも}さ", "{長|なが}さ", "{高|たか}さ", "かず"],
+          "a": 0
+        },
+        {
+          "id": "v4-70-e09",
+          "type": "choice",
+          "uses": ["v5-35"],
+          "jp": "この{川|かわ}の＿は{三百|さんびゃく}キロです。",
+          "fr": "Cette rivière fait trois cents kilomètres de long.",
+          "choices": ["{長|なが}さ", "{重|おも}さ", "{大|おお}きさ", "かず"],
+          "a": 0
+        },
+        {
+          "id": "v4-70-e10",
+          "type": "choice",
+          "uses": ["v5-35"],
+          "jp": "ふじさんの＿は{三千七百|さんぜんななひゃく}メートルぐらいです。",
+          "fr": "Le mont Fuji fait environ 3 700 mètres de haut.",
+          "choices": ["{高|たか}さ", "{重|おも}さ", "かず", "パーセント"],
+          "a": 0
+        },
+        {
+          "id": "v4-70-e11",
+          "type": "choice",
+          "uses": ["v4-49"],
+          "jp": "このくつは＿がちょうどいいです。{買|か}います。",
+          "fr": "Ces chaussures sont juste à ma taille. Je les prends.",
+          "choices": ["{大|おお}きさ", "かず", "パーセント", "ばんめ"],
+          "a": 0
+        },
+        {
+          "id": "v4-70-e12",
+          "type": "choice",
+          "uses": ["v4-49"],
+          "jp": "{学生|がくせい}の＿が{毎年|まいとし}へっています。",
+          "fr": "Le nombre d'étudiants diminue chaque année.",
+          "choices": ["かず", "{重|おも}さ", "{高|たか}さ", "{長|なが}さ"],
+          "a": 0
+        },
+        {
+          "id": "v4-70-e13",
+          "type": "choice",
+          "uses": ["v5-20"],
+          "jp": "{右|みぎ}から{三|さん}＿の{人|ひと}が{私|わたし}の{兄|あに}です。",
+          "fr": "La troisième personne en partant de la droite, c'est mon grand frère.",
+          "choices": ["ばんめ", "ばい", "パーセント", "グラム"],
+          "a": 0
+        },
+        {
+          "id": "v4-70-e14",
+          "type": "choice",
+          "uses": ["v4-68"],
+          "jp": "{日本|にほん}の{人口|じんこう}の{三十|さんじゅう}＿ぐらいは、{六十五|ろくじゅうご}さい{以上|いじょう}です。",
+          "fr": "Environ trente pour cent de la population japonaise a soixante-cinq ans ou plus.",
+          "choices": ["パーセント", "ばんめ", "ばい", "グラム"],
+          "a": 0
+        },
+        {"id": "v4-70-e15", "type": "choice", "q": "« Le poids » se dit…", "choices": ["{重|おも}さ", "{重|おも}い", "{重|おも}く", "{重|おも}かった"], "a": 0},
+        {
+          "id": "v4-70-e16",
+          "type": "choice",
+          "q": "Que veut dire **{三|さん}ばい** ?",
+          "choices": ["trois fois plus", "le troisième", "trois fois (fréquence)", "trois pour cent"],
+          "a": 0
+        },
+        {
+          "id": "v4-70-e17",
+          "type": "choice",
+          "q": "« {六|ろく}さい{以下|いか} » (six ans et moins) : un enfant de six ans est-il compris ?",
+          "choices": ["Oui", "Non"],
+          "a": 0
+        },
+        {
+          "id": "v4-70-e18",
+          "type": "order",
+          "uses": ["v5-07"],
+          "fr": "Ça fait trois mille yens au total.",
+          "tokens": ["{合計|ごうけい}で", "{三千円|さんぜんえん}", "です"]
+        }
+      ]
+    }
+  ],
+  "test": [
+    {
+      "id": "v4-b14-t01",
+      "type": "choice",
+      "uses": ["v4-66"],
+      "jp": "{分|わ}からないことは、インターネットで＿。",
+      "fr": "Ce que je ne sais pas, je le cherche sur Internet.",
+      "choices": ["しらべます", "おします", "つけます", "こわします"],
+      "a": 0,
+      "star": {"jp": "しらべる", "kana": "しらべる", "fr": "chercher (une information)"}
+    },
+    {
+      "id": "v4-b14-t02",
+      "type": "choice",
+      "uses": ["v4-67"],
+      "jp": "{今夜|こんや}、サッカーの{試合|しあい}をテレビで＿します。",
+      "fr": "Ce soir, le match de foot est diffusé à la télé.",
+      "choices": ["ほうそう", "わだい", "じけん", "ざっし"],
+      "a": 0,
+      "star": {"jp": "ほうそうする", "kana": "ほうそうする", "fr": "diffuser (radio, télé)"}
+    },
+    {
+      "id": "v4-b14-t03",
+      "type": "choice",
+      "uses": ["v4-68"],
+      "jp": "{世界|せかい}が＿になるように、みんなでがんばりましょう。",
+      "fr": "Faisons tous de notre mieux pour que le monde soit en paix.",
+      "choices": ["へいわ", "せんそう", "{人口|じんこう}", "ぼうえき"],
+      "a": 0
+    },
+    {
+      "id": "v4-b14-t04",
+      "type": "choice",
+      "uses": ["v4-69"],
+      "jp": "すみません、この＿にコンビニはありますか。",
+      "fr": "Excusez-moi, y a-t-il une supérette dans le coin ?",
+      "choices": ["へん", "がわ", "さか", "{世界|せかい}"],
+      "a": 0
+    },
+    {
+      "id": "v4-b14-t05",
+      "type": "choice",
+      "uses": ["v4-70"],
+      "jp": "このにもつの＿は{十五|じゅうご}キロです。",
+      "fr": "Ces bagages pèsent quinze kilos.",
+      "choices": ["{重|おも}さ", "{長|なが}さ", "{高|たか}さ", "かず"],
+      "a": 0
+    },
+    {
+      "id": "v4-b14-t06",
+      "type": "choice",
+      "uses": ["v4-66"],
+      "jp": "{時計|とけい}が{止|と}まりました。＿をかえなければなりません。",
+      "fr": "Ma montre s'est arrêtée. Je dois changer la pile.",
+      "choices": ["{電池|でんち}", "がめん", "{文字|もじ}", "ボタン"],
+      "a": 0
+    },
+    {
+      "id": "v4-b14-t07",
+      "type": "choice",
+      "uses": ["v4-67"],
+      "jp": "{新聞|しんぶん}でおもしろい＿を{読|よ}みました。",
+      "fr": "J'ai lu un article intéressant dans le journal.",
+      "choices": ["きじ", "ばんぐみ", "アナウンサー", "ラジオ"],
+      "a": 0
+    },
+    {"id": "v4-b14-t08", "type": "choice", "uses": ["v4-68"], "q": "Comment se lit **医学** ?", "choices": ["いがく", "いかく", "いいがく", "いまなび"], "a": 0},
+    {
+      "id": "v4-b14-t09",
+      "type": "choice",
+      "uses": ["v4-69"],
+      "jp": "そぼはいなかの{小|ちい}さい＿に{住|す}んでいます。",
+      "fr": "Ma grand-mère vit dans un petit village à la campagne.",
+      "choices": ["{村|むら}", "{世界|せかい}", "{会場|かいじょう}", "{区|く}"],
+      "a": 0
+    },
+    {
+      "id": "v4-b14-t10",
+      "type": "choice",
+      "uses": ["v4-70"],
+      "jp": "{六|ろく}さい＿の{小|ちい}さい{子|こ}どもは、バスのお{金|かね}がいりません。",
+      "fr": "Les petits enfants de six ans et moins ne paient pas le bus.",
+      "choices": ["{以下|いか}", "{以上|いじょう}", "{合計|ごうけい}", "ばい"],
+      "a": 0
+    },
+    {
+      "id": "v4-b14-t11",
+      "type": "choice",
+      "uses": ["v4-66"],
+      "jp": "{暑|あつ}いですから、＿をつけてもいいですか。",
+      "fr": "Il fait chaud, je peux allumer la clim ?",
+      "choices": ["エアコン", "せんたくき", "{電池|でんち}", "{文字|もじ}"],
+      "a": 0
+    },
+    {
+      "id": "v4-b14-t12",
+      "type": "choice",
+      "uses": ["v4-67"],
+      "jp": "{有名|ゆうめい}な{歌手|かしゅ}がけっこんして、{今|いま}とても＿になっています。",
+      "fr": "Un chanteur célèbre s'est marié : tout le monde en parle en ce moment.",
+      "choices": ["わだい", "じけん", "ほうそう", "こうこく"],
+      "a": 0
+    },
+    {
+      "id": "v4-b14-t13",
+      "type": "choice",
+      "uses": ["v4-68"],
+      "jp": "この{地方|ちほう}は{工場|こうじょう}が{多|おお}くて、＿がさかんです。",
+      "fr": "Il y a beaucoup d'usines dans cette région : l'industrie y est florissante.",
+      "choices": ["{工業|こうぎょう}", "{医学|いがく}", "せんそう", "へいわ"],
+      "a": 0
+    },
+    {"id": "v4-b14-t14", "type": "order", "uses": ["v4-69"], "fr": "Y a-t-il une banque dans le coin ?", "tokens": ["このへんに", "{銀行|ぎんこう}は", "ありますか"]},
+    {
+      "id": "v4-b14-t15",
+      "type": "choice",
+      "uses": ["v4-70"],
+      "jp": "{右|みぎ}から{二|に}＿の{人|ひと}が{田中|たなか}さんです。",
+      "fr": "La deuxième personne en partant de la droite, c'est M. Tanaka.",
+      "choices": ["ばんめ", "ばい", "パーセント", "センチ"],
+      "a": 0
+    },
+    {
+      "id": "v4-b14-t16",
+      "type": "choice",
+      "uses": ["v4-67"],
+      "q": "Que veut dire **じょうほう** ?",
+      "choices": ["des informations, des renseignements", "un incident", "une publicité", "une émission"],
+      "a": 0
+    }
+  ],
+  "examTest": [
+    {
+      "id": "v4-x07-01",
+      "type": "choice",
+      "uses": ["v4-61", "v4-64"],
+      "jp": "{日本|にほん}のぶんかに＿があって、{毎年|まいとし}おまつりを{見物|けんぶつ}しに{行|い}きます。",
+      "fr": "Je m'intéresse à la culture japonaise : tous les ans, je vais voir des fêtes traditionnelles.",
+      "choices": ["きょうみ", "しゅみ", "{人気|にんき}", "わだい"],
+      "a": 0
+    },
+    {
+      "id": "v4-x07-02",
+      "type": "choice",
+      "uses": ["v4-63", "v4-67"],
+      "jp": "{台風|たいふう}が{来|く}るそうです。＿をよく{聞|き}いて、{外|そと}に{出|で}ないでください。",
+      "fr": "Il paraît qu'un typhon arrive. Écoutez bien la météo et ne sortez pas.",
+      "choices": ["{天気|てんき}よほう", "こうこく", "ドラマ", "しゅみ"],
+      "a": 0
+    },
+    {
+      "id": "v4-x07-03",
+      "type": "choice",
+      "uses": ["v4-62"],
+      "q": "Une seule de ces phrases est correcte. Laquelle ?",
+      "choices": [
+        "{京都|きょうと}の{旅館|りょかん}に{三日|みっか}とまりました。",
+        "{京都|きょうと}の{旅館|りょかん}を{三日|みっか}とまりました。",
+        "{京都|きょうと}の{旅館|りょかん}に{三日|みっか}とめました。",
+        "{京都|きょうと}の{旅館|りょかん}が{三日|みっか}とまりました。"
+      ],
+      "a": 0
+    },
+    {
+      "id": "v4-x07-04",
+      "type": "choice",
+      "star": {"jp": "かつ", "kana": "かつ", "fr": "gagner"},
+      "uses": ["v4-65"],
+      "jp": "{試合|しあい}に＿ために、{毎日|まいにち}れんしゅうしています。",
+      "fr": "Je m'entraîne tous les jours pour gagner le match.",
+      "choices": ["かつ", "まける", "えらぶ", "おうえんする"],
+      "a": 0
+    },
+    {
+      "id": "v4-x07-05",
+      "type": "choice",
+      "uses": ["v4-68", "v4-70"],
+      "jp": "この{町|まち}の{人口|じんこう}は、{十年前|じゅうねんまえ}の{二|に}＿になりました。{人|ひと}がとてもふえました。",
+      "fr": "La population de cette ville a doublé en dix ans. Elle a énormément augmenté.",
+      "choices": ["ばい", "ばんめ", "パーセント", "{以下|いか}"],
+      "a": 0
+    },
+    {
+      "id": "v4-x07-06",
+      "type": "choice",
+      "uses": ["v4-66"],
+      "jp": "けいたいのがめんの＿が{小|ちい}さくて{読|よ}めませんから、{大|おお}きくしました。",
+      "fr": "Les caractères sur l'écran du portable étaient trop petits, alors je les ai agrandis.",
+      "choices": ["{文字|もじ}", "ボタン", "{電池|でんち}", "スイッチ"],
+      "a": 0
+    },
+    {
+      "id": "v4-x07-07",
+      "type": "choice",
+      "uses": ["v4-62", "v4-64"],
+      "jp": "お{正月|しょうがつ}には、{着物|きもの}を{着|き}て＿へ{行|い}きます。",
+      "fr": "Au Nouvel An, je vais au sanctuaire en kimono.",
+      "choices": ["じんじゃ", "みなと", "くうこう", "{工業|こうぎょう}"],
+      "a": 0
+    },
+    {
+      "id": "v4-x07-08",
+      "type": "order",
+      "uses": ["v4-67"],
+      "fr": "J'ai vu une pub pour une nouvelle voiture à la télé.",
+      "tokens": ["{新|あたら}しい{車|くるま}の", "こうこくを", "テレビで", "{見|み}ました"],
+      "alt": [["テレビで", "{新|あたら}しい{車|くるま}の", "こうこくを", "{見|み}ました"]]
+    },
+    {
+      "id": "v4-x07-09",
+      "type": "choice",
+      "uses": ["v4-62", "v4-63"],
+      "q": "{山|やま}の{上|うえ}からのけしきがすばらしくて、{空気|くうき}もきれいでした。 Qu'est-ce qui était bien ?",
+      "choices": ["la vue et l'air", "la nourriture et l'hôtel", "le temps et les gens", "le train et la route"],
+      "a": 0
+    },
+    {
+      "id": "v4-x07-10",
+      "type": "choice",
+      "uses": ["v4-63", "v4-69"],
+      "jp": "{昨日|きのう}の{夜|よる}、{近所|きんじょ}で＿がありました。{家|いえ}が{一|ひと}つもえました。",
+      "fr": "Hier soir, il y a eu un incendie dans le quartier. Une maison a brûlé.",
+      "choices": ["{火事|かじ}", "{台風|たいふう}", "ドラマ", "しゅみ"],
+      "a": 0
+    },
+    {
+      "id": "v4-x07-11",
+      "type": "choice",
+      "uses": ["v4-52", "v4-67", "v4-68"],
+      "jp": "{兄|あに}は{大学|だいがく}で{医学|いがく}を{研究|けんきゅう}していて、{来月|らいげつ}こくさい{会議|かいぎ}で＿します。",
+      "fr": "Mon grand frère fait des recherches en médecine à l'université ; le mois prochain, il présente ses travaux à une conférence internationale.",
+      "choices": ["はっぴょう", "ほうそう", "えらび", "おうえん"],
+      "a": 0,
+      "star": {"jp": "はっぴょうする", "kana": "はっぴょうする", "fr": "annoncer, présenter"}
+    },
+    {
+      "id": "v4-x07-12",
+      "type": "choice",
+      "uses": ["v4-68", "v4-70"],
+      "q": "{東京|とうきょう}の{人口|じんこう}は{大阪|おおさか}の{三|さん}ばいぐらいです。 Quelle ville a le plus d'habitants ?",
+      "choices": ["Tokyo", "Osaka", "Les deux, autant", "On ne peut pas savoir"],
+      "a": 0
+    },
+    {
+      "id": "v4-x07-13",
+      "type": "choice",
+      "uses": ["v4-62", "v4-65"],
+      "jp": "スキーのあとで＿に{入|はい}りました。{体|からだ}があたたまりました。",
+      "fr": "Après le ski, je suis allé au bain des sources chaudes. Ça m'a réchauffé.",
+      "choices": ["おんせん", "みずうみ", "しま", "みなと"],
+      "a": 0
+    },
+    {
+      "id": "v4-x07-14",
+      "type": "choice",
+      "uses": ["v4-54", "v4-62", "v4-66", "v4-67"],
+      "jp": "インターネットで{旅館|りょかん}のじょうほうを＿、よやくしました。",
+      "fr": "J'ai cherché des informations sur l'auberge sur Internet, puis j'ai réservé.",
+      "choices": ["しらべて", "はっぴょうして", "ほうそうして", "えらんで"],
+      "a": 0,
+      "star": {"jp": "しらべる", "kana": "しらべる", "fr": "chercher (une information)"}
+    },
+    {
+      "id": "v4-x07-15",
+      "type": "choice",
+      "uses": ["v4-70"],
+      "jp": "このにもつは{二十|にじゅう}キロ＿ありますから、{一人|ひとり}では{持|も}てません。",
+      "fr": "Ces bagages pèsent vingt kilos ou plus, on ne peut pas les porter seul.",
+      "choices": ["{以上|いじょう}", "{以下|いか}", "ばんめ", "{合計|ごうけい}"],
+      "a": 0
+    }
+  ]
+}
