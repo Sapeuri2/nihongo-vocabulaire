@@ -1,0 +1,1118 @@
+{
+  "id": "v4-b13",
+  "level": "N4",
+  "title": "Sortir (2) : loisirs, voyages, météo, culture, sport",
+  "lessons": [
+    {
+      "id": "v4-61",
+      "title": "Loisirs et événements",
+      "words": [
+        {"jp": "しゅみ", "kana": "しゅみ", "fr": "loisir, passe-temps", "ex": "しゅみは{写真|しゃしん}をとることです。", "exFr": "Mon passe-temps, c'est la photo."},
+        {"jp": "きょうみ", "kana": "きょうみ", "fr": "intérêt", "ex": "{日本|にほん}のれきしにきょうみがあります。", "exFr": "Je m'intéresse à l'histoire du Japon."},
+        {"jp": "おまつり", "kana": "おまつり", "fr": "fête (traditionnelle)", "ex": "{夏|なつ}になると、{町|まち}でおまつりがあります。", "exFr": "En été, il y a une fête en ville."},
+        {"jp": "{花見|はなみ}", "kana": "はなみ", "fr": "contemplation des cerisiers", "ex": "{春|はる}は{公園|こうえん}で{花見|はなみ}をします。", "exFr": "Au printemps, on va admirer les cerisiers au parc."},
+        {"jp": "{見物|けんぶつ}する", "kana": "けんぶつする", "fr": "visiter (en touriste)", "ex": "{京都|きょうと}で{古|ふる}いおてらを{見物|けんぶつ}しました。", "exFr": "J'ai visité de vieux temples à Kyoto."},
+        {"jp": "{試合|しあい}", "kana": "しあい", "fr": "match", "ex": "{明日|あした}はサッカーの{試合|しあい}があります。", "exFr": "Demain, il y a un match de foot."},
+        {"jp": "てんらんかい", "kana": "てんらんかい", "fr": "exposition", "ex": "{週末|しゅうまつ}、{写真|しゃしん}のてんらんかいに{行|い}きました。", "exFr": "Ce week-end, je suis allé à une exposition de photos."},
+        {"jp": "つり", "kana": "つり", "fr": "pêche (à la ligne)", "ex": "{父|ちち}は{日曜日|にちようび}によく{川|かわ}でつりをします。", "exFr": "Mon père va souvent pêcher à la rivière le dimanche."},
+        {"jp": "{小説|しょうせつ}", "kana": "しょうせつ", "fr": "roman", "ex": "ねる{前|まえ}に{小説|しょうせつ}を{読|よ}みます。", "exFr": "Je lis un roman avant de dormir."},
+        {"jp": "まんが", "kana": "まんが", "fr": "manga, bande dessinée", "ex": "{日本|にほん}のまんがは{外国|がいこく}でも{人気|にんき}があります。", "exFr": "Les mangas japonais sont populaires à l'étranger aussi."},
+        {"jp": "がっき", "kana": "がっき", "fr": "instrument de musique", "ex": "{何|なに}かがっきをひきますか。— ギターをひきます。", "exFr": "Tu joues d'un instrument ? — De la guitare."},
+        {"jp": "ハイキング", "kana": "ハイキング", "fr": "randonnée", "ex": "{週末|しゅうまつ}は{山|やま}へハイキングに{行|い}きます。", "exFr": "Ce week-end, je vais faire de la randonnée en montagne."},
+        {"jp": "ドライブ", "kana": "ドライブ", "fr": "promenade en voiture", "ex": "{天気|てんき}がいいので、{海|うみ}までドライブしました。", "exFr": "Il faisait beau, alors on est allés en voiture jusqu'à la mer."},
+        {"jp": "{音楽会|おんがくかい}", "kana": "おんがくかい", "fr": "concert (d'école)", "ex": "{学校|がっこう}の{音楽会|おんがくかい}でピアノをひきました。", "exFr": "J'ai joué du piano au concert de l'école."},
+        {"jp": "{運動会|うんどうかい}", "kana": "うんどうかい", "fr": "fête sportive (de l'école)", "ex": "{秋|あき}に{小学校|しょうがっこう}で{運動会|うんどうかい}があります。", "exFr": "En automne, il y a la fête sportive à l'école primaire."}
+      ],
+      "sections": [
+        {
+          "h": "Parler de ses loisirs",
+          "p": ["Pour dire son loisir : しゅみは + verbe + **こと**です."],
+          "grid": {
+            "head": ["", "japonais"],
+            "rows": [
+              ["mon loisir, c'est…", "しゅみ==は==〜ことです"],
+              ["s'intéresser à", "〜==に==きょうみ==が==ある"],
+              ["aller faire…", "ハイキング・つり==に=={行|い}く"],
+              ["admirer les cerisiers", "{花見|はなみ}==を==する"],
+              ["visiter (touriste)", "〜==を=={見物|けんぶつ}する"]
+            ]
+          }
+        }
+      ],
+      "pieges": [
+        "しゅみ = ce qu'on fait par plaisir, souvent ; きょうみ = intérêt (〜**に**きょうみがある).",
+        "しゅみは + verbe + **こと**です : しゅみは{泳|およ}ぐことです.",
+        "{花見|はなみ} : on va voir les cerisiers en fleurs au printemps, souvent avec un pique-nique.",
+        "〜{会|かい} = réunion, fête : {音楽会|おんがくかい}, {運動会|うんどうかい}, てんらんかい.",
+        "がっきを**ひく** (instrument à cordes, clavier) : rappel de la leçon 31.",
+        "{見物|けんぶつ} se lit けんぶつ quand c'est « visiter »."
+      ],
+      "exercises": [
+        {
+          "id": "v4-61-e01",
+          "type": "choice",
+          "uses": ["v5-38"],
+          "jp": "＿は{写真|しゃしん}をとることです。{毎週|まいしゅう}{山|やま}へとりに{行|い}きます。",
+          "fr": "Mon passe-temps, c'est la photo. Je vais en prendre en montagne toutes les semaines.",
+          "choices": ["しゅみ", "きょうみ", "{試合|しあい}", "つり"],
+          "a": 0
+        },
+        {
+          "id": "v4-61-e02",
+          "type": "choice",
+          "uses": ["v4-52"],
+          "jp": "{日本|にほん}のれきしに＿があります。",
+          "fr": "Je m'intéresse à l'histoire du Japon.",
+          "choices": ["きょうみ", "しゅみ", "{試合|しあい}", "おまつり"],
+          "a": 0
+        },
+        {
+          "id": "v4-61-e03",
+          "type": "choice",
+          "uses": ["v4-45"],
+          "jp": "{夏|なつ}になると、{町|まち}で＿があって、みんなでおどります。",
+          "fr": "En été, il y a une fête en ville et tout le monde danse.",
+          "choices": ["おまつり", "てんらんかい", "{小説|しょうせつ}", "つり"],
+          "a": 0
+        },
+        {
+          "id": "v4-61-e04",
+          "type": "choice",
+          "uses": ["v5-25"],
+          "jp": "{春|はる}は{公園|こうえん}で＿をします。さくらがきれいです。",
+          "fr": "Au printemps, on admire les cerisiers au parc. Ils sont magnifiques.",
+          "choices": ["{花見|はなみ}", "{見物|けんぶつ}", "まんが", "がっき"],
+          "a": 0
+        },
+        {
+          "id": "v4-61-e05",
+          "type": "choice",
+          "uses": ["v5-33"],
+          "jp": "{京都|きょうと}で{古|ふる}いおてらを＿しました。",
+          "fr": "J'ai visité de vieux temples à Kyoto.",
+          "choices": ["{見物|けんぶつ}", "{花見|はなみ}", "ドライブ", "つり"],
+          "a": 0,
+          "star": {"jp": "{見物|けんぶつ}する", "kana": "けんぶつする", "fr": "visiter (en touriste)"}
+        },
+        {
+          "id": "v4-61-e06",
+          "type": "choice",
+          "uses": ["v5-31"],
+          "jp": "{明日|あした}はサッカーの＿がありますから、{早|はや}くねます。",
+          "fr": "Demain il y a un match de foot, alors je me couche tôt.",
+          "choices": ["{試合|しあい}", "{小説|しょうせつ}", "まんが", "がっき"],
+          "a": 0
+        },
+        {
+          "id": "v4-61-e07",
+          "type": "choice",
+          "uses": ["v5-12"],
+          "jp": "{週末|しゅうまつ}、{写真|しゃしん}の＿に{行|い}きました。きれいな{写真|しゃしん}がたくさんありました。",
+          "fr": "Ce week-end, je suis allé à une exposition de photos. Il y avait plein de belles photos.",
+          "choices": ["てんらんかい", "つり", "ドライブ", "{運動会|うんどうかい}"],
+          "a": 0
+        },
+        {
+          "id": "v4-61-e08",
+          "type": "choice",
+          "uses": ["v5-35"],
+          "jp": "{父|ちち}は{日曜日|にちようび}によく{川|かわ}で＿をします。{魚|さかな}がたくさんとれます。",
+          "fr": "Mon père va souvent pêcher à la rivière le dimanche. Il attrape beaucoup de poissons.",
+          "choices": ["つり", "ドライブ", "{花見|はなみ}", "ハイキング"],
+          "a": 0
+        },
+        {
+          "id": "v4-61-e09",
+          "type": "choice",
+          "uses": ["v5-02"],
+          "jp": "ねる{前|まえ}に＿を{読|よ}みます。",
+          "fr": "Je lis un roman avant de dormir.",
+          "choices": ["{小説|しょうせつ}", "がっき", "{試合|しあい}", "{運動会|うんどうかい}"],
+          "a": 0
+        },
+        {
+          "id": "v4-61-e10",
+          "type": "choice",
+          "uses": ["v5-33"],
+          "jp": "{日本|にほん}の＿は{外国|がいこく}でも{人気|にんき}があります。{子|こ}どもも{大人|おとな}も{読|よ}みます。",
+          "fr": "Les mangas japonais sont populaires à l'étranger aussi. Enfants et adultes en lisent.",
+          "choices": ["まんが", "がっき", "{試合|しあい}", "つり"],
+          "a": 0
+        },
+        {
+          "id": "v4-61-e11",
+          "type": "choice",
+          "uses": ["v5-31"],
+          "jp": "{何|なに}か＿をひきますか。— はい、ギターをひきます。",
+          "fr": "Tu joues d'un instrument ? — Oui, de la guitare.",
+          "choices": ["がっき", "まんが", "{小説|しょうせつ}", "{試合|しあい}"],
+          "a": 0
+        },
+        {
+          "id": "v4-61-e12",
+          "type": "choice",
+          "uses": ["v5-35"],
+          "jp": "{週末|しゅうまつ}は{山|やま}へ＿に{行|い}きます。",
+          "fr": "Ce week-end, je vais faire de la randonnée en montagne.",
+          "choices": ["ハイキング", "まんが", "{小説|しょうせつ}", "がっき"],
+          "a": 0
+        },
+        {
+          "id": "v4-61-e13",
+          "type": "choice",
+          "uses": ["v5-15"],
+          "jp": "{天気|てんき}がいいので、{車|くるま}で{海|うみ}まで＿しました。",
+          "fr": "Il faisait beau, alors on est allés en voiture jusqu'à la mer.",
+          "choices": ["ドライブ", "ハイキング", "つり", "{見物|けんぶつ}"],
+          "a": 0
+        },
+        {
+          "id": "v4-61-e14",
+          "type": "choice",
+          "uses": ["v4-52", "v4-55"],
+          "jp": "{秋|あき}に{小学校|しょうがっこう}で＿があります。{子|こ}どもたちがいっしょうけんめい{走|はし}ります。",
+          "fr": "En automne, il y a la fête sportive à l'école primaire. Les enfants courent de toutes leurs forces.",
+          "choices": ["{運動会|うんどうかい}", "{音楽会|おんがくかい}", "てんらんかい", "{花見|はなみ}"],
+          "a": 0
+        },
+        {
+          "id": "v4-61-e15",
+          "type": "choice",
+          "q": "Que veut dire **しゅみ** ?",
+          "choices": ["loisir, passe-temps", "intérêt", "talent", "travail"],
+          "a": 0
+        },
+        {"id": "v4-61-e16", "type": "choice", "q": "Comment se lit **見物** (visiter) ?", "choices": ["けんぶつ", "げんぶつ", "けんもの", "みぶつ"], "a": 0},
+        {
+          "id": "v4-61-e17",
+          "type": "order",
+          "uses": ["v4-52"],
+          "fr": "Je m'intéresse à l'histoire du Japon.",
+          "tokens": ["{日本|にほん}の", "れきしに", "きょうみが", "あります"]
+        },
+        {"id": "v4-61-e18", "type": "order", "fr": "Mon passe-temps, c'est la pêche.", "tokens": ["{私|わたし}の", "しゅみは", "つり", "です"]}
+      ]
+    },
+    {
+      "id": "v4-62",
+      "title": "Voyage et tourisme",
+      "words": [
+        {"jp": "くうこう", "kana": "くうこう", "fr": "aéroport", "ex": "くうこうまでバスで{一時間|いちじかん}です。", "exFr": "L'aéroport est à une heure en bus."},
+        {"jp": "かんこう", "kana": "かんこう", "fr": "tourisme", "ex": "かんこうで{京都|きょうと}に{来|き}ました。", "exFr": "Je suis venu à Kyoto en touriste."},
+        {"jp": "{旅館|りょかん}", "kana": "りょかん", "fr": "auberge japonaise", "ex": "{日本|にほん}の{旅館|りょかん}にとまってみたいです。", "exFr": "J'aimerais dormir dans une auberge japonaise."},
+        {"jp": "けしき", "kana": "けしき", "fr": "paysage, vue", "ex": "{山|やま}の{上|うえ}から{見|み}るけしきはきれいです。", "exFr": "La vue du haut de la montagne est magnifique."},
+        {"jp": "かたみち", "kana": "かたみち", "fr": "aller simple", "ex": "{東京|とうきょう}までかたみちでいくらですか。", "exFr": "Combien coûte un aller simple pour Tokyo ?"},
+        {"jp": "おうふく", "kana": "おうふく", "fr": "aller-retour", "ex": "おうふくのきっぷを{買|か}いました。", "exFr": "J'ai acheté un billet aller-retour."},
+        {"jp": "〜{行|ゆ}き", "kana": "〜ゆき", "fr": "à destination de …", "ex": "これは{東京|とうきょう}{行|ゆ}きの{電車|でんしゃ}ですか。", "exFr": "C'est bien le train pour Tokyo ?"},
+        {"jp": "とまる", "kana": "とまる", "fr": "loger, passer la nuit", "ex": "{昨日|きのう}はホテルにとまりました。", "exFr": "Hier, j'ai dormi à l'hôtel."},
+        {"jp": "みなと", "kana": "みなと", "fr": "port", "ex": "みなとの{近|ちか}くで{魚|さかな}を{食|た}べました。", "exFr": "J'ai mangé du poisson près du port."},
+        {"jp": "しま", "kana": "しま", "fr": "île", "ex": "{日本|にほん}にはしまがたくさんあります。", "exFr": "Il y a beaucoup d'îles au Japon."},
+        {"jp": "みずうみ", "kana": "みずうみ", "fr": "lac", "ex": "みずうみでボートに{乗|の}りました。", "exFr": "J'ai fait du bateau sur le lac."},
+        {"jp": "おんせん", "kana": "おんせん", "fr": "source chaude", "ex": "{冬|ふゆ}はおんせんに{入|はい}りたいです。", "exFr": "En hiver, j'ai envie d'aller aux sources chaudes."},
+        {"jp": "{海外|かいがい}", "kana": "かいがい", "fr": "étranger (outre-mer)", "ex": "{毎年|まいとし}{海外|かいがい}{旅行|りょこう}をします。", "exFr": "Je voyage à l'étranger tous les ans."},
+        {"jp": "{旅|たび}", "kana": "たび", "fr": "voyage", "ex": "{一人|ひとり}で{旅|たび}をするのが{好|す}きです。", "exFr": "J'aime voyager seul."},
+        {"jp": "{地方|ちほう}", "kana": "ちほう", "fr": "région", "ex": "この{地方|ちほう}は{冬|ふゆ}にゆきがたくさん{降|ふ}ります。", "exFr": "Dans cette région, il neige beaucoup en hiver."}
+      ],
+      "sections": [
+        {
+          "h": "Billets et hébergement",
+          "p": ["Les mots du guichet et de l'hôtel."],
+          "grid": {
+            "head": ["", "japonais"],
+            "rows": [
+              ["aller simple / aller-retour", "かたみち / おうふく"],
+              ["le train pour Tokyo", "{東京|とうきょう}{行|ゆ}きの{電車|でんしゃ}"],
+              ["loger à", "〜==に==とまる"],
+              ["auberge japonaise", "{旅館|りょかん} (tatamis, bains)"],
+              ["voyage à l'étranger", "{海外|かいがい}{旅行|りょこう}"]
+            ]
+          }
+        }
+      ],
+      "pieges": [
+        "〜**に**とまる = loger à (hôtel, auberge). Même son que {止|と}まる (s'arrêter, leçon 36).",
+        "〜{行|ゆ}き = à destination de : {大阪|おおさか}{行|ゆ}きのバス (on entend aussi いき).",
+        "けしき = le paysage, la vue.",
+        "{旅|たび} = voyage (un peu littéraire) ; {旅行|りょこう} = voyage (courant) ; かんこう = tourisme.",
+        "{海外|かいがい} = l'étranger (outre-mer), presque comme {外国|がいこく}.",
+        "おんせん**に{入|はい}る** = aller au bain des sources chaudes."
+      ],
+      "exercises": [
+        {
+          "id": "v4-62-e01",
+          "type": "choice",
+          "uses": ["v5-15"],
+          "jp": "{飛行機|ひこうき}は{三時|さんじ}ですから、{一時|いちじ}に＿に{着|つ}きたいです。",
+          "fr": "L'avion est à trois heures, alors je veux arriver à l'aéroport à une heure.",
+          "choices": ["くうこう", "みなと", "しま", "みずうみ"],
+          "a": 0
+        },
+        {
+          "id": "v4-62-e02",
+          "type": "choice",
+          "uses": ["v5-33"],
+          "jp": "＿で{京都|きょうと}に{来|き}ました。{古|ふる}いおてらを{見|み}たいです。",
+          "fr": "Je suis venu à Kyoto en touriste. Je veux voir les vieux temples.",
+          "choices": ["かんこう", "おうふく", "けしき", "{地方|ちほう}"],
+          "a": 0
+        },
+        {
+          "id": "v4-62-e03",
+          "type": "choice",
+          "uses": ["v5-22"],
+          "jp": "たたみの{部屋|へや}でねてみたいですから、＿にとまります。",
+          "fr": "Je veux essayer de dormir dans une chambre à tatamis, alors je loge dans une auberge japonaise.",
+          "choices": ["{旅館|りょかん}", "くうこう", "みなと", "しま"],
+          "a": 0
+        },
+        {
+          "id": "v4-62-e04",
+          "type": "choice",
+          "uses": ["v5-35"],
+          "jp": "{山|やま}の{上|うえ}から{見|み}る＿はとてもきれいです。",
+          "fr": "La vue du haut de la montagne est magnifique.",
+          "choices": ["けしき", "かんこう", "かたみち", "{旅|たび}"],
+          "a": 0
+        },
+        {
+          "id": "v4-62-e05",
+          "type": "choice",
+          "uses": ["v5-07"],
+          "jp": "{東京|とうきょう}まで＿でいくらですか。— {行|い}きだけですね。{五千円|ごせんえん}です。",
+          "fr": "Combien coûte un aller simple pour Tokyo ? — Seulement l'aller ? Cinq mille yens.",
+          "choices": ["かたみち", "おうふく", "かんこう", "けしき"],
+          "a": 0
+        },
+        {
+          "id": "v4-62-e06",
+          "type": "choice",
+          "uses": ["v5-36", "v5-40"],
+          "jp": "{帰|かえ}りのきっぷもいりますから、＿のきっぷをください。",
+          "fr": "J'ai aussi besoin du retour, alors un billet aller-retour, s'il vous plaît.",
+          "choices": ["おうふく", "かたみち", "{旅館|りょかん}", "しま"],
+          "a": 0
+        },
+        {
+          "id": "v4-62-e07",
+          "type": "choice",
+          "uses": ["v5-15"],
+          "jp": "すみません、これは{大阪|おおさか}＿の{電車|でんしゃ}ですか。",
+          "fr": "Excusez-moi, c'est bien le train pour Osaka ?",
+          "choices": ["{行|ゆ}き", "かたみち", "おうふく", "かんこう"],
+          "a": 0
+        },
+        {
+          "id": "v4-62-e08",
+          "type": "choice",
+          "uses": ["v5-33"],
+          "jp": "{昨日|きのう}は{駅|えき}の{近|ちか}くのホテルに＿。",
+          "fr": "Hier, j'ai dormi dans un hôtel près de la gare.",
+          "choices": ["とまりました", "とどきました", "{乗|の}りかえました", "かよいました"],
+          "a": 0,
+          "star": {"jp": "とまる", "kana": "とまる", "fr": "loger, passer la nuit"}
+        },
+        {
+          "id": "v4-62-e09",
+          "type": "choice",
+          "uses": ["v5-06"],
+          "jp": "＿の{近|ちか}くで、とれたばかりの{魚|さかな}を{食|た}べました。",
+          "fr": "Près du port, j'ai mangé du poisson tout juste pêché.",
+          "choices": ["みなと", "くうこう", "おうふく", "けしき"],
+          "a": 0
+        },
+        {
+          "id": "v4-62-e10",
+          "type": "choice",
+          "uses": ["v5-08"],
+          "jp": "{日本|にほん}は＿の{国|くに}です。{大|おお}きいのが{四|よっ}つあります。",
+          "fr": "Le Japon est un pays d'îles. Il y en a quatre grandes.",
+          "choices": ["しま", "みなと", "みずうみ", "おんせん"],
+          "a": 0
+        },
+        {
+          "id": "v4-62-e11",
+          "type": "choice",
+          "uses": ["v5-15"],
+          "jp": "＿でボートに{乗|の}りました。{水|みず}がとてもきれいでした。",
+          "fr": "J'ai fait du bateau sur le lac. L'eau était très claire.",
+          "choices": ["みずうみ", "しま", "くうこう", "おんせん"],
+          "a": 0
+        },
+        {
+          "id": "v4-62-e12",
+          "type": "choice",
+          "uses": ["v5-23", "v5-25"],
+          "jp": "{寒|さむ}い{日|ひ}は、＿に{入|はい}ると{体|からだ}があたたかくなります。",
+          "fr": "Les jours de froid, quand on entre dans un bain de source chaude, le corps se réchauffe.",
+          "choices": ["おんせん", "みずうみ", "みなと", "しま"],
+          "a": 0
+        },
+        {
+          "id": "v4-62-e13",
+          "type": "choice",
+          "uses": ["v5-38"],
+          "jp": "{毎年|まいとし}{夏|なつ}は＿{旅行|りょこう}に{行|い}きます。{去年|きょねん}はイタリアでした。",
+          "fr": "Tous les étés, je pars en voyage à l'étranger. L'an dernier, c'était l'Italie.",
+          "choices": ["{海外|かいがい}", "{地方|ちほう}", "かたみち", "おうふく"],
+          "a": 0
+        },
+        {
+          "id": "v4-62-e14",
+          "type": "choice",
+          "uses": ["v5-37"],
+          "jp": "{一人|ひとり}で＿をするのが{好|す}きです。いろいろな{町|まち}を{見|み}ます。",
+          "fr": "J'aime voyager seul. Je vois toutes sortes de villes.",
+          "choices": ["{旅|たび}", "しま", "みなと", "くうこう"],
+          "a": 0
+        },
+        {
+          "id": "v4-62-e15",
+          "type": "choice",
+          "uses": ["v5-25"],
+          "jp": "この＿は{冬|ふゆ}にゆきがたくさん{降|ふ}ります。",
+          "fr": "Dans cette région, il neige beaucoup en hiver.",
+          "choices": ["{地方|ちほう}", "{旅|たび}", "かたみち", "おうふく"],
+          "a": 0
+        },
+        {
+          "id": "v4-62-e16",
+          "type": "choice",
+          "q": "« Je loge dans une auberge japonaise » se dit…",
+          "choices": ["{旅館|りょかん}にとまります。", "{旅館|りょかん}をとまります。", "{旅館|りょかん}がとまります。", "{旅館|りょかん}にとめます。"],
+          "a": 0
+        },
+        {"id": "v4-62-e17", "type": "choice", "q": "Comment se lit **海外** ?", "choices": ["かいがい", "うみそと", "かいそと", "うみがい"], "a": 0},
+        {
+          "id": "v4-62-e18",
+          "type": "order",
+          "uses": ["v5-11"],
+          "fr": "Un aller-retour pour Kyoto, s'il vous plaît.",
+          "tokens": ["{京都|きょうと}まで", "おうふく", "おねがいします"]
+        }
+      ]
+    },
+    {
+      "id": "v4-63",
+      "title": "Ciel, météo, catastrophes",
+      "words": [
+        {"jp": "{台風|たいふう}", "kana": "たいふう", "fr": "typhon", "ex": "{台風|たいふう}で{電車|でんしゃ}が{止|と}まりました。", "exFr": "Les trains se sont arrêtés à cause du typhon."},
+        {"jp": "じしん", "kana": "じしん", "fr": "tremblement de terre", "ex": "{昨日|きのう}の{夜|よる}、{大|おお}きいじしんがありました。", "exFr": "Hier soir, il y a eu un gros tremblement de terre."},
+        {"jp": "{火事|かじ}", "kana": "かじ", "fr": "incendie", "ex": "{昨日|きのう}、{駅|えき}の{近|ちか}くで{火事|かじ}がありました。", "exFr": "Hier, il y a eu un incendie près de la gare."},
+        {"jp": "ほし", "kana": "ほし", "fr": "étoile", "ex": "{山|やま}の{上|うえ}ではほしがたくさん{見|み}えます。", "exFr": "En montagne, on voit beaucoup d'étoiles."},
+        {"jp": "{月|つき}", "kana": "つき", "fr": "lune", "ex": "{今夜|こんや}は{月|つき}がきれいですね。", "exFr": "La lune est belle ce soir."},
+        {"jp": "{晴|は}れる", "kana": "はれる", "fr": "s'éclaircir, faire beau", "ex": "{明日|あした}は{晴|は}れるでしょう。", "exFr": "Demain, il fera sans doute beau."},
+        {"jp": "くもる", "kana": "くもる", "fr": "se couvrir (nuages)", "ex": "{午後|ごご}からくもってきました。", "exFr": "Le ciel se couvre depuis l'après-midi."},
+        {"jp": "{光|ひか}る", "kana": "ひかる", "fr": "briller", "ex": "{空|そら}で{何|なに}かが{光|ひか}りました。", "exFr": "Quelque chose a brillé dans le ciel."},
+        {"jp": "きおん", "kana": "きおん", "fr": "température (de l'air)", "ex": "{今日|きょう}はきおんが{高|たか}いですね。", "exFr": "Il fait chaud aujourd'hui (la température est élevée)."},
+        {"jp": "{天気|てんき}よほう", "kana": "てんきよほう", "fr": "prévisions météo", "ex": "{天気|てんき}よほうによると、{明日|あした}は{雨|あめ}です。", "exFr": "D'après la météo, il pleuvra demain."},
+        {"jp": "{空気|くうき}", "kana": "くうき", "fr": "air", "ex": "{山|やま}の{空気|くうき}はおいしいです。", "exFr": "L'air de la montagne est pur."},
+        {"jp": "くも", "kana": "くも", "fr": "nuage", "ex": "{空|そら}にくもが{一|ひと}つもありません。", "exFr": "Il n'y a pas un nuage dans le ciel."},
+        {"jp": "かみなり", "kana": "かみなり", "fr": "tonnerre, foudre", "ex": "かみなりがなって、こわかったです。", "exFr": "Le tonnerre a grondé, j'ai eu peur."},
+        {"jp": "いし", "kana": "いし", "fr": "pierre", "ex": "{子|こ}どもが{川|かわ}にいしをなげています。", "exFr": "Un enfant lance des pierres dans la rivière."},
+        {"jp": "むし", "kana": "むし", "fr": "insecte", "ex": "{夏|なつ}の{夜|よる}はむしがたくさんいます。", "exFr": "Les nuits d'été, il y a beaucoup d'insectes."}
+      ],
+      "sections": [
+        {
+          "h": "Le ciel et la météo",
+          "p": ["Les noms de la leçon 25 ({晴|は}れ, くもり) ont leurs verbes : {晴|は}れる, くもる."],
+          "grid": {
+            "head": ["", "japonais"],
+            "rows": [
+              ["il fait beau / ça se couvre", "{晴|は}れる / くもる"],
+              ["selon la météo", "{天気|てんき}よほう==によると=="],
+              ["température élevée / basse", "きおん==が=={高|たか}い / {低|ひく}い"],
+              ["le tonnerre gronde", "かみなり==が==なる"],
+              ["catastrophes", "{台風|たいふう} · じしん · {火事|かじ}"]
+            ]
+          }
+        }
+      ],
+      "pieges": [
+        "きおんが**{高|たか}い** / **{低|ひく}い** (température) — jamais きおんが{暑|あつ}い.",
+        "{空気|くうき}がおいしい = l'air est pur, agréable à respirer.",
+        "くも (nuage) et くもる (se couvrir) : même racine. くもってきました = ça commence à se couvrir.",
+        "{月|つき} = la lune (et « un mois » : {一|ひと}つき) ; 〜{月|がつ} = le nom du mois.",
+        "〜によると = selon, d'après (les prévisions, la radio) : souvent suivi de 〜そうです.",
+        "Une catastrophe « a lieu » : じしん**が**ある, {火事|かじ}**が**ある."
+      ],
+      "exercises": [
+        {
+          "id": "v4-63-e01",
+          "type": "choice",
+          "uses": ["v5-36"],
+          "jp": "＿で{電車|でんしゃ}が{止|と}まって、{会社|かいしゃ}に{行|い}けませんでした。",
+          "fr": "Les trains se sont arrêtés à cause du typhon, je n'ai pas pu aller au bureau.",
+          "choices": ["{台風|たいふう}", "ほし", "{月|つき}", "{空気|くうき}"],
+          "a": 0
+        },
+        {
+          "id": "v4-63-e02",
+          "type": "choice",
+          "uses": ["v4-41"],
+          "jp": "{昨日|きのう}の{夜|よる}、{大|おお}きい＿がありました。とてもこわかったです。",
+          "fr": "Hier soir, il y a eu un gros tremblement de terre. J'ai eu très peur.",
+          "choices": ["じしん", "ほし", "くも", "むし"],
+          "a": 0
+        },
+        {
+          "id": "v4-63-e03",
+          "type": "choice",
+          "uses": ["v4-56"],
+          "jp": "{駅|えき}の{近|ちか}くで＿があって、{家|いえ}が{三|みっ}つもえました。",
+          "fr": "Il y a eu un incendie près de la gare : trois maisons ont brûlé.",
+          "choices": ["{火事|かじ}", "{台風|たいふう}", "ほし", "くも"],
+          "a": 0
+        },
+        {
+          "id": "v4-63-e04",
+          "type": "choice",
+          "uses": ["v5-40"],
+          "jp": "{山|やま}の{上|うえ}では、{夜|よる}＿がたくさん{見|み}えます。",
+          "fr": "En montagne, la nuit, on voit beaucoup d'étoiles.",
+          "choices": ["ほし", "いし", "きおん", "{空気|くうき}"],
+          "a": 0
+        },
+        {
+          "id": "v4-63-e05",
+          "type": "choice",
+          "uses": ["v5-19"],
+          "jp": "{今夜|こんや}は＿がまるくて、きれいですね。",
+          "fr": "Ce soir, la lune est pleine et belle.",
+          "choices": ["{月|つき}", "ほし", "くも", "かみなり"],
+          "a": 0
+        },
+        {
+          "id": "v4-63-e06",
+          "type": "choice",
+          "uses": ["v5-25"],
+          "jp": "{明日|あした}は＿でしょう。{天気|てんき}よほうでそう{言|い}っていました。",
+          "fr": "Demain, il fera sans doute beau. C'est ce qu'ils ont dit à la météo.",
+          "choices": ["{晴|は}れる", "{光|ひか}る", "もえる", "わく"],
+          "a": 0
+        },
+        {
+          "id": "v4-63-e07",
+          "type": "choice",
+          "uses": ["v5-25"],
+          "jp": "{午後|ごご}から{空|そら}が＿きました。{雨|あめ}が{降|ふ}るかもしれません。",
+          "fr": "Le ciel se couvre depuis l'après-midi. Il va peut-être pleuvoir.",
+          "choices": ["くもって", "{晴|は}れて", "{光|ひか}って", "もえて"],
+          "a": 0,
+          "star": {"jp": "くもる", "kana": "くもる", "fr": "se couvrir (nuages)"}
+        },
+        {
+          "id": "v4-63-e08",
+          "type": "choice",
+          "uses": ["v5-15"],
+          "jp": "{夜|よる}の{空|そら}で、{何|なに}かが＿。{飛行機|ひこうき}でしょうか。",
+          "fr": "Quelque chose a brillé dans le ciel nocturne. Un avion, peut-être ?",
+          "choices": ["{光|ひか}りました", "くもりました", "{晴|は}れました", "わきました"],
+          "a": 0,
+          "star": {"jp": "{光|ひか}る", "kana": "ひかる", "fr": "briller"}
+        },
+        {
+          "id": "v4-63-e09",
+          "type": "choice",
+          "uses": ["v5-25"],
+          "jp": "{今日|きょう}は＿が{高|たか}くて、{暑|あつ}いです。{三十五度|さんじゅうごど}です。",
+          "fr": "Aujourd'hui la température est élevée, il fait chaud : 35 degrés.",
+          "choices": ["きおん", "{空気|くうき}", "{天気|てんき}よほう", "くも"],
+          "a": 0
+        },
+        {
+          "id": "v4-63-e10",
+          "type": "choice",
+          "uses": ["v5-25"],
+          "jp": "＿によると、{明日|あした}は{雨|あめ}が{降|ふ}るそうです。",
+          "fr": "D'après la météo, il paraît qu'il pleuvra demain.",
+          "choices": ["{天気|てんき}よほう", "{空気|くうき}", "きおん", "かみなり"],
+          "a": 0
+        },
+        {
+          "id": "v4-63-e11",
+          "type": "choice",
+          "uses": ["v5-35"],
+          "jp": "{山|やま}の＿はきれいで、おいしいです。",
+          "fr": "L'air de la montagne est pur et agréable.",
+          "choices": ["{空気|くうき}", "くも", "いし", "むし"],
+          "a": 0
+        },
+        {
+          "id": "v4-63-e12",
+          "type": "choice",
+          "uses": ["v5-35"],
+          "jp": "{空|そら}に＿が{一|ひと}つもありません。いい{天気|てんき}です。",
+          "fr": "Il n'y a pas un nuage dans le ciel. Il fait beau.",
+          "choices": ["くも", "いし", "{台風|たいふう}", "{月|つき}"],
+          "a": 0
+        },
+        {
+          "id": "v4-63-e13",
+          "type": "choice",
+          "uses": ["v4-41"],
+          "jp": "＿がなって、{子|こ}どもがこわがっています。",
+          "fr": "Le tonnerre gronde, l'enfant a peur.",
+          "choices": ["かみなり", "ほし", "{月|つき}", "いし"],
+          "a": 0
+        },
+        {
+          "id": "v4-63-e14",
+          "type": "choice",
+          "uses": ["v4-45", "v5-31"],
+          "jp": "{子|こ}どもが{川|かわ}に＿をなげて{遊|あそ}んでいます。",
+          "fr": "Un enfant s'amuse à lancer des pierres dans la rivière.",
+          "choices": ["いし", "むし", "ほし", "くも"],
+          "a": 0
+        },
+        {
+          "id": "v4-63-e15",
+          "type": "choice",
+          "uses": ["v5-27"],
+          "jp": "{夏|なつ}の{夜|よる}は＿がたくさんいて、まどを{開|あ}けられません。",
+          "fr": "Les nuits d'été, il y a tant d'insectes qu'on ne peut pas ouvrir la fenêtre.",
+          "choices": ["むし", "いし", "ほし", "{月|つき}"],
+          "a": 0
+        },
+        {"id": "v4-63-e16", "type": "choice", "q": "Comment se lit **台風** ?", "choices": ["たいふう", "だいふう", "たいかぜ", "だいかぜ"], "a": 0},
+        {
+          "id": "v4-63-e17",
+          "type": "choice",
+          "q": "« La température est élevée » se dit…",
+          "choices": ["きおんが{高|たか}いです。", "きおんが{暑|あつ}いです。", "きおんが{大|おお}きいです。", "きおんを{高|たか}いです。"],
+          "a": 0
+        },
+        {
+          "id": "v4-63-e18",
+          "type": "order",
+          "uses": ["v5-16"],
+          "fr": "Le ciel se couvre depuis l'après-midi.",
+          "tokens": ["{午後|ごご}から", "{空|そら}が", "くもってきました"]
+        }
+      ]
+    },
+    {
+      "id": "v4-64",
+      "title": "Culture japonaise",
+      "words": [
+        {"jp": "じんじゃ", "kana": "じんじゃ", "fr": "sanctuaire shinto", "ex": "お{正月|しょうがつ}にじんじゃへ{行|い}きます。", "exFr": "Au Nouvel An, on va au sanctuaire."},
+        {"jp": "おてら", "kana": "おてら", "fr": "temple bouddhiste", "ex": "{京都|きょうと}には{古|ふる}いおてらがたくさんあります。", "exFr": "Il y a beaucoup de vieux temples à Kyoto."},
+        {"jp": "{着物|きもの}", "kana": "きもの", "fr": "kimono", "ex": "{姉|あね}はけっこんしきで{着物|きもの}を{着|き}ました。", "exFr": "Ma grande sœur a porté un kimono pour le mariage."},
+        {"jp": "お{正月|しょうがつ}", "kana": "おしょうがつ", "fr": "Nouvel An", "ex": "お{正月|しょうがつ}は{家族|かぞく}みんなで{集|あつ}まります。", "exFr": "Au Nouvel An, toute la famille se réunit."},
+        {"jp": "ぶんか", "kana": "ぶんか", "fr": "culture", "ex": "{日本|にほん}のぶんかにきょうみがあります。", "exFr": "Je m'intéresse à la culture japonaise."},
+        {"jp": "むかし", "kana": "むかし", "fr": "autrefois", "ex": "むかし、ここは{小|ちい}さい{村|むら}でした。", "exFr": "Autrefois, c'était un petit village ici."},
+        {"jp": "おぼん", "kana": "おぼん", "fr": "Obon (fête des ancêtres, août)", "ex": "おぼんには{国|くに}に{帰|かえ}る{人|ひと}が{多|おお}いです。", "exFr": "À Obon, beaucoup de gens rentrent dans leur région natale."},
+        {"jp": "けっこんしき", "kana": "けっこんしき", "fr": "cérémonie de mariage", "ex": "{来月|らいげつ}、{姉|あね}のけっこんしきがあります。", "exFr": "Le mois prochain, c'est le mariage de ma grande sœur."},
+        {"jp": "おいわい", "kana": "おいわい", "fr": "félicitations, cadeau (pour fêter)", "ex": "{友|とも}だちのけっこんのおいわいに、{時計|とけい}をあげました。", "exFr": "J'ai offert une montre à un ami pour son mariage."},
+        {"jp": "すもう", "kana": "すもう", "fr": "sumo", "ex": "テレビですもうを{見|み}ます。", "exFr": "Je regarde le sumo à la télé."},
+        {"jp": "ふとん", "kana": "ふとん", "fr": "futon", "ex": "{日本|にほん}ではたたみの{上|うえ}にふとんをしいてねます。", "exFr": "Au Japon, on dort sur un futon posé sur les tatamis."},
+        {"jp": "たたみ", "kana": "たたみ", "fr": "tatami", "ex": "たたみの{部屋|へや}が{好|す}きです。", "exFr": "J'aime les pièces à tatamis."},
+        {"jp": "おじぎ", "kana": "おじぎ", "fr": "révérence, salut (en s'inclinant)", "ex": "{日本|にほん}では、あいさつのときにおじぎをします。", "exFr": "Au Japon, on s'incline pour saluer."},
+        {"jp": "かみさま", "kana": "かみさま", "fr": "dieu, divinité", "ex": "じんじゃでかみさまにおねがいをしました。", "exFr": "Au sanctuaire, j'ai fait un vœu aux dieux."},
+        {"jp": "ゆかた", "kana": "ゆかた", "fr": "yukata (kimono d'été)", "ex": "{夏|なつ}のおまつりでゆかたを{着|き}ました。", "exFr": "J'ai porté un yukata à la fête d'été."}
+      ],
+      "sections": [
+        {
+          "h": "Le Japon traditionnel",
+          "p": ["Quelques mots de la vie et des fêtes japonaises."],
+          "grid": {
+            "head": ["", "japonais"],
+            "rows": [
+              ["sanctuaire / temple", "じんじゃ (shinto) / おてら (bouddhiste)"],
+              ["Nouvel An / Obon", "お{正月|しょうがつ} (janvier) / おぼん (août)"],
+              ["kimono / kimono d'été", "{着物|きもの} / ゆかた"],
+              ["natte / matelas", "たたみ / ふとん"],
+              ["saluer en s'inclinant", "おじぎ==を==する"]
+            ]
+          }
+        }
+      ],
+      "pieges": [
+        "じんじゃ (shinto, avec un portique rouge) ≠ おてら (bouddhiste) : on prie dans les deux.",
+        "お{正月|しょうがつ} = le Nouvel An ; おぼん = la mi-août, on rentre dans sa famille. (おぼん veut aussi dire « plateau ».)",
+        "{着物|きもの} et ゆかた se **portent** avec {着|き}る (leçon 13).",
+        "おいわい = cadeau ou fête pour célébrer : けっこんのおいわい ; おみまい (leçon 44) = pour un malade.",
+        "むかし = autrefois ; むかしむかし… = il était une fois.",
+        "Au Japon, on enlève ses chaussures avant de marcher sur les たたみ."
+      ],
+      "exercises": [
+        {
+          "id": "v4-64-e01",
+          "type": "choice",
+          "jp": "お{正月|しょうがつ}には、＿へ{行|い}って、かみさまにおねがいをします。",
+          "fr": "Au Nouvel An, on va au sanctuaire faire un vœu aux dieux.",
+          "choices": ["じんじゃ", "おぼん", "たたみ", "けっこんしき"],
+          "a": 0
+        },
+        {
+          "id": "v4-64-e02",
+          "type": "choice",
+          "uses": ["v5-05"],
+          "jp": "{京都|きょうと}には{古|ふる}い＿がたくさんあります。",
+          "fr": "Il y a beaucoup de vieux temples à Kyoto.",
+          "choices": ["おてら", "おぼん", "おじぎ", "おいわい"],
+          "a": 0
+        },
+        {
+          "id": "v4-64-e03",
+          "type": "choice",
+          "uses": ["v5-13"],
+          "jp": "{姉|あね}はけっこんしきで、きれいな＿を{着|き}ました。",
+          "fr": "Ma grande sœur a porté un beau kimono pour le mariage.",
+          "choices": ["{着物|きもの}", "たたみ", "ふとん", "すもう"],
+          "a": 0
+        },
+        {
+          "id": "v4-64-e04",
+          "type": "choice",
+          "uses": ["v4-46", "v5-17"],
+          "jp": "{一月|いちがつ}{一日|ついたち}は＿です。{家族|かぞく}みんなで{集|あつ}まります。",
+          "fr": "Le 1er janvier, c'est le Nouvel An. Toute la famille se réunit.",
+          "choices": ["お{正月|しょうがつ}", "おぼん", "けっこんしき", "おいわい"],
+          "a": 0
+        },
+        {"id": "v4-64-e05", "type": "choice", "q": "Que veut dire **ぶんか** ?", "choices": ["culture", "histoire", "langue", "religion"], "a": 0},
+        {
+          "id": "v4-64-e06",
+          "type": "choice",
+          "uses": ["v4-54"],
+          "jp": "＿、ここは{小|ちい}さい{村|むら}でした。{今|いま}は{大|おお}きい{町|まち}です。",
+          "fr": "Autrefois, c'était un petit village ici. Maintenant, c'est une grande ville.",
+          "choices": ["むかし", "しょうらい", "{今度|こんど}", "さっき"],
+          "a": 0
+        },
+        {
+          "id": "v4-64-e07",
+          "type": "choice",
+          "uses": ["v5-17"],
+          "jp": "{八月|はちがつ}の＿には、{国|くに}に{帰|かえ}る{人|ひと}が{多|おお}いです。",
+          "fr": "À Obon, en août, beaucoup de gens rentrent dans leur région natale.",
+          "choices": ["おぼん", "お{正月|しょうがつ}", "おじぎ", "すもう"],
+          "a": 0
+        },
+        {
+          "id": "v4-64-e08",
+          "type": "choice",
+          "uses": ["v5-36"],
+          "jp": "{来月|らいげつ}、{姉|あね}の＿があります。{姉|あね}は{二十八|にじゅうはち}さいでけっこんします。",
+          "fr": "Le mois prochain, c'est le mariage de ma grande sœur. Elle se marie à vingt-huit ans.",
+          "choices": ["けっこんしき", "おぼん", "すもう", "たたみ"],
+          "a": 0
+        },
+        {
+          "id": "v4-64-e09",
+          "type": "choice",
+          "uses": ["v4-44", "v5-26"],
+          "jp": "{友|とも}だちがけっこんしましたから、＿に{時計|とけい}をあげました。",
+          "fr": "Mon ami s'est marié, alors je lui ai offert une montre pour le féliciter.",
+          "choices": ["おいわい", "おじぎ", "おみまい", "おぼん"],
+          "a": 0
+        },
+        {
+          "id": "v4-64-e10",
+          "type": "choice",
+          "uses": ["v5-31"],
+          "jp": "テレビで＿を{見|み}ます。{日本|にほん}のとても{古|ふる}いスポーツです。",
+          "fr": "Je regarde le sumo à la télé. C'est un sport japonais très ancien.",
+          "choices": ["すもう", "たたみ", "ふとん", "ゆかた"],
+          "a": 0
+        },
+        {
+          "id": "v4-64-e11",
+          "type": "choice",
+          "uses": ["v5-22"],
+          "jp": "{日本|にほん}の{家|いえ}では、ベッドじゃなくて、＿でねる{人|ひと}もいます。",
+          "fr": "Dans les maisons japonaises, certains dorment sur un futon et pas dans un lit.",
+          "choices": ["ふとん", "おじぎ", "すもう", "おいわい"],
+          "a": 0
+        },
+        {
+          "id": "v4-64-e12",
+          "type": "choice",
+          "uses": ["v5-13"],
+          "jp": "この{部屋|へや}は＿の{部屋|へや}ですから、くつをぬいでください。",
+          "fr": "C'est une pièce à tatamis, alors enlevez vos chaussures, s'il vous plaît.",
+          "choices": ["たたみ", "ゆかた", "おぼん", "おじぎ"],
+          "a": 0
+        },
+        {
+          "id": "v4-64-e13",
+          "type": "choice",
+          "uses": ["v4-53"],
+          "jp": "{日本|にほん}では、あいさつのときに＿をします。",
+          "fr": "Au Japon, on s'incline pour saluer.",
+          "choices": ["おじぎ", "おいわい", "すもう", "ふとん"],
+          "a": 0
+        },
+        {
+          "id": "v4-64-e14",
+          "type": "choice",
+          "uses": ["v4-52"],
+          "jp": "じんじゃで＿に「{試験|しけん}にごうかくしますように」とおねがいしました。",
+          "fr": "Au sanctuaire, j'ai demandé aux dieux de réussir mon examen.",
+          "choices": ["かみさま", "おじぎ", "おぼん", "ゆかた"],
+          "a": 0
+        },
+        {
+          "id": "v4-64-e15",
+          "type": "choice",
+          "uses": ["v4-61"],
+          "jp": "{夏|なつ}のおまつりで＿を{着|き}ました。",
+          "fr": "J'ai porté un yukata à la fête d'été.",
+          "choices": ["ゆかた", "ふとん", "たたみ", "おじぎ"],
+          "a": 0
+        },
+        {
+          "id": "v4-64-e16",
+          "type": "choice",
+          "q": "Quelle différence entre じんじゃ et おてら ?",
+          "choices": [
+            "じんじゃ : shinto ; おてら : bouddhiste",
+            "じんじゃ : bouddhiste ; おてら : shinto",
+            "じんじゃ : un musée ; おてら : un parc",
+            "Aucune : ce sont deux noms du même lieu."
+          ],
+          "a": 0
+        },
+        {"id": "v4-64-e17", "type": "choice", "q": "Comment se lit **着物** ?", "choices": ["きもの", "ちゃくもの", "きぶつ", "きるもの"], "a": 0},
+        {
+          "id": "v4-64-e18",
+          "type": "order",
+          "uses": ["v5-02"],
+          "fr": "Au Nouvel An, je vais au sanctuaire.",
+          "tokens": ["お{正月|しょうがつ}に", "じんじゃへ", "{行|い}きます"],
+          "alt": [["じんじゃへ", "お{正月|しょうがつ}に", "{行|い}きます"]]
+        }
+      ]
+    },
+    {
+      "id": "v4-65",
+      "title": "Sport et compétition",
+      "words": [
+        {"jp": "かつ", "kana": "かつ", "fr": "gagner", "ex": "{昨日|きのう}の{試合|しあい}は{三|さん}たい{一|いち}でかちました。", "exFr": "Hier, on a gagné le match 3 à 1."},
+        {"jp": "まける", "kana": "まける", "fr": "perdre", "ex": "{雨|あめ}の{中|なか}の{試合|しあい}で、まけてしまいました。", "exFr": "On a perdu le match sous la pluie."},
+        {"jp": "せんしゅ", "kana": "せんしゅ", "fr": "joueur, athlète", "ex": "{兄|あに}はやきゅうのせんしゅです。", "exFr": "Mon grand frère est joueur de baseball."},
+        {"jp": "チーム", "kana": "チーム", "fr": "équipe", "ex": "このチームはとても{強|つよ}いです。", "exFr": "Cette équipe est très forte."},
+        {"jp": "おうえんする", "kana": "おうえんする", "fr": "encourager, supporter", "ex": "みんなで{日本|にほん}のチームをおうえんしました。", "exFr": "On a tous encouragé l'équipe du Japon."},
+        {"jp": "えらぶ", "kana": "えらぶ", "fr": "choisir", "ex": "{好|す}きな{色|いろ}をえらんでください。", "exFr": "Choisis ta couleur préférée."},
+        {"jp": "やきゅう", "kana": "やきゅう", "fr": "baseball", "ex": "{日本|にほん}ではやきゅうがとても{人気|にんき}があります。", "exFr": "Le baseball est très populaire au Japon."},
+        {"jp": "{水泳|すいえい}", "kana": "すいえい", "fr": "natation", "ex": "{毎週|まいしゅう}{水泳|すいえい}を{習|なら}っています。", "exFr": "Je prends des cours de natation toutes les semaines."},
+        {"jp": "じゅうどう", "kana": "じゅうどう", "fr": "judo", "ex": "じゅうどうは{日本|にほん}で{生|う}まれたスポーツです。", "exFr": "Le judo est un sport né au Japon."},
+        {"jp": "スキー", "kana": "スキー", "fr": "ski", "ex": "{冬|ふゆ}は{北海道|ほっかいどう}へスキーに{行|い}きます。", "exFr": "En hiver, je vais skier à Hokkaidō."},
+        {"jp": "ボール", "kana": "ボール", "fr": "balle, ballon", "ex": "{子|こ}どもたちが{公園|こうえん}でボールをなげています。", "exFr": "Les enfants lancent un ballon au parc."},
+        {"jp": "がんばる", "kana": "がんばる", "fr": "faire de son mieux", "ex": "{試験|しけん}、がんばってください。", "exFr": "Bon courage pour l'examen !"},
+        {"jp": "{人気|にんき}", "kana": "にんき", "fr": "popularité", "ex": "このレストランは{若|わか}い{人|ひと}に{人気|にんき}があります。", "exFr": "Ce restaurant est populaire auprès des jeunes."},
+        {"jp": "プール", "kana": "プール", "fr": "piscine", "ex": "{夏|なつ}は{毎日|まいにち}プールで{泳|およ}ぎます。", "exFr": "En été, je nage à la piscine tous les jours."},
+        {"jp": "{運動場|うんどうじょう}", "kana": "うんどうじょう", "fr": "terrain de sport", "ex": "{学校|がっこう}の{運動場|うんどうじょう}でサッカーをしました。", "exFr": "On a joué au foot sur le terrain de l'école."}
+      ],
+      "sections": [
+        {
+          "h": "Gagner, perdre, encourager",
+          "p": ["L'adversaire (ou le match) prend **に** : {試合|しあい}にかつ, {強|つよ}いチームにまける."],
+          "grid": {
+            "head": ["", "japonais"],
+            "rows": [
+              ["gagner / perdre", "〜==に==かつ / 〜==に==まける"],
+              ["encourager", "チーム==を==おうえんする"],
+              ["courage !", "がんばって（ください）"],
+              ["être populaire auprès de", "〜==に=={人気|にんき}==が==ある"],
+              ["choisir", "〜==を==えらぶ"]
+            ]
+          }
+        }
+      ],
+      "pieges": [
+        "〜**に**かつ / 〜**に**まける : gagner / perdre **contre** (ou **au** match : {試合|しあい}にかつ).",
+        "がんばって！ = courage ! bon courage ! : la phrase d'encouragement par excellence.",
+        "{人気|にんき}がある = être populaire : 〜**に**{人気|にんき}がある (auprès de…).",
+        "かつ (gagner) → かって : même son que {買|か}って (acheter) !",
+        "やきゅう, じゅうどう, スキー, {水泳|すいえい} : avec する ({水泳|すいえい}をする).",
+        "せんしゅ = joueur, athlète de compétition."
+      ],
+      "exercises": [
+        {
+          "id": "v4-65-e01",
+          "type": "choice",
+          "star": {"jp": "かつ", "kana": "かつ", "fr": "gagner"},
+          "uses": ["v4-41", "v4-61"],
+          "jp": "{昨日|きのう}の{試合|しあい}は{三|さん}たい{一|いち}で＿。うれしいです。",
+          "fr": "Hier, on a gagné le match 3 à 1. Je suis content.",
+          "choices": ["かちました", "まけました", "えらびました", "がんばりました"],
+          "a": 0
+        },
+        {
+          "id": "v4-65-e02",
+          "type": "choice",
+          "uses": ["v4-41", "v4-55"],
+          "jp": "いっしょうけんめいれんしゅうしましたが、＿しまいました。ざんねんです。",
+          "fr": "On s'est entraînés de toutes nos forces, mais on a perdu. C'est dommage.",
+          "choices": ["まけて", "かって", "えらんで", "おうえんして"],
+          "a": 0,
+          "star": {"jp": "まける", "kana": "まける", "fr": "perdre"}
+        },
+        {
+          "id": "v4-65-e03",
+          "type": "choice",
+          "uses": ["v5-21"],
+          "jp": "{兄|あに}はプロのやきゅうの＿です。",
+          "fr": "Mon grand frère est joueur de baseball professionnel.",
+          "choices": ["せんしゅ", "チーム", "ボール", "{人気|にんき}"],
+          "a": 0
+        },
+        {
+          "id": "v4-65-e04",
+          "type": "choice",
+          "uses": ["v5-18", "v5-19"],
+          "jp": "この＿はせんしゅがみんな{上手|じょうず}で、とても{強|つよ}いです。",
+          "fr": "Dans cette équipe, tous les joueurs sont bons : elle est très forte.",
+          "choices": ["チーム", "ボール", "プール", "スキー"],
+          "a": 0
+        },
+        {
+          "id": "v4-65-e05",
+          "type": "choice",
+          "jp": "みんなで{日本|にほん}のチームを＿しました。{日本|にほん}がかちました。",
+          "fr": "On a tous encouragé l'équipe du Japon. Le Japon a gagné.",
+          "choices": ["おうえん", "えらび", "まけ", "がんばり"],
+          "a": 0,
+          "star": {"jp": "おうえんする", "kana": "おうえんする", "fr": "encourager, supporter"}
+        },
+        {
+          "id": "v4-65-e06",
+          "type": "choice",
+          "uses": ["v5-24"],
+          "jp": "この{中|なか}から{好|す}きな{色|いろ}を＿ください。",
+          "fr": "Choisis ta couleur préférée parmi celles-ci.",
+          "choices": ["えらんで", "おうえんして", "まけて", "がんばって"],
+          "a": 0,
+          "star": {"jp": "えらぶ", "kana": "えらぶ", "fr": "choisir"}
+        },
+        {
+          "id": "v4-65-e07",
+          "type": "choice",
+          "uses": ["v4-52"],
+          "jp": "{日本|にほん}では＿がとても{人気|にんき}があります。{高校|こうこう}の{試合|しあい}もテレビで{見|み}ます。",
+          "fr": "Le baseball est très populaire au Japon. On regarde même les matchs des lycées à la télé.",
+          "choices": ["やきゅう", "ボール", "プール", "{運動場|うんどうじょう}"],
+          "a": 0
+        },
+        {
+          "id": "v4-65-e08",
+          "type": "choice",
+          "uses": ["v5-28"],
+          "jp": "{毎週|まいしゅう}プールで＿を{習|なら}っています。",
+          "fr": "Je prends des cours de natation à la piscine toutes les semaines.",
+          "choices": ["{水泳|すいえい}", "スキー", "やきゅう", "じゅうどう"],
+          "a": 0
+        },
+        {
+          "id": "v4-65-e09",
+          "type": "choice",
+          "uses": ["v5-25"],
+          "jp": "{冬|ふゆ}は{山|やま}へ＿に{行|い}きます。ゆきがたくさんあります。",
+          "fr": "En hiver, je vais skier à la montagne. Il y a beaucoup de neige.",
+          "choices": ["スキー", "{水泳|すいえい}", "やきゅう", "プール"],
+          "a": 0
+        },
+        {
+          "id": "v4-65-e10",
+          "type": "choice",
+          "uses": ["v4-45"],
+          "jp": "{子|こ}どもたちが{公園|こうえん}で＿をなげて{遊|あそ}んでいます。",
+          "fr": "Les enfants jouent au parc en lançant un ballon.",
+          "choices": ["ボール", "チーム", "プール", "せんしゅ"],
+          "a": 0
+        },
+        {
+          "id": "v4-65-e11",
+          "type": "choice",
+          "uses": ["v5-29"],
+          "jp": "{明日|あした}は{試験|しけん}ですね。＿ください。",
+          "fr": "C'est l'examen demain. Bon courage !",
+          "choices": ["がんばって", "まけて", "えらんで", "かって"],
+          "a": 0,
+          "star": {"jp": "がんばる", "kana": "がんばる", "fr": "faire de son mieux"}
+        },
+        {
+          "id": "v4-65-e12",
+          "type": "choice",
+          "uses": ["v4-50"],
+          "jp": "このレストランは{若|わか}い{人|ひと}に＿があります。いつもこんでいます。",
+          "fr": "Ce restaurant est populaire auprès des jeunes. Il est toujours bondé.",
+          "choices": ["{人気|にんき}", "{気分|きぶん}", "{気持|きも}ち", "きょうみ"],
+          "a": 0
+        },
+        {
+          "id": "v4-65-e13",
+          "type": "choice",
+          "uses": ["v5-31"],
+          "jp": "{学校|がっこう}の＿でサッカーをしました。",
+          "fr": "On a joué au foot sur le terrain de l'école.",
+          "choices": ["{運動場|うんどうじょう}", "プール", "せんしゅ", "ボール"],
+          "a": 0
+        },
+        {
+          "id": "v4-65-e14",
+          "type": "choice",
+          "q": "Que veut dire **がんばって** ?",
+          "choices": ["Courage ! Bon courage !", "Bravo !", "Attention !", "Doucement !"],
+          "a": 0
+        },
+        {"id": "v4-65-e15", "type": "choice", "q": "Contraire de **かつ** ?", "choices": ["まける", "えらぶ", "がんばる", "おうえんする"], "a": 0},
+        {"id": "v4-65-e16", "type": "choice", "q": "Comment se lit **人気** (popularité) ?", "choices": ["にんき", "ひとき", "じんき", "にんけ"], "a": 0},
+        {
+          "id": "v4-65-e17",
+          "type": "order",
+          "uses": ["v4-61"],
+          "fr": "Notre équipe a gagné le match.",
+          "tokens": ["{私|わたし}たちのチームが", "{試合|しあい}に", "かちました"]
+        },
+        {
+          "id": "v4-65-e18",
+          "type": "order",
+          "uses": ["v5-30"],
+          "fr": "Ce chanteur est populaire auprès des jeunes.",
+          "tokens": ["この{歌手|かしゅ}は", "{若|わか}い{人|ひと}に", "{人気|にんき}が", "あります"]
+        }
+      ]
+    }
+  ],
+  "test": [
+    {
+      "id": "v4-b13-t01",
+      "type": "choice",
+      "uses": ["v4-61"],
+      "jp": "{日本|にほん}のまんがに＿があって、{日本語|にほんご}を{勉強|べんきょう}しています。",
+      "fr": "Je m'intéresse aux mangas japonais, alors j'étudie le japonais.",
+      "choices": ["きょうみ", "しゅみ", "{試合|しあい}", "おまつり"],
+      "a": 0
+    },
+    {
+      "id": "v4-b13-t02",
+      "type": "choice",
+      "uses": ["v4-62"],
+      "jp": "{帰|かえ}りのきっぷもいりますから、＿でおねがいします。",
+      "fr": "J'ai aussi besoin du retour, alors un aller-retour, s'il vous plaît.",
+      "choices": ["おうふく", "かたみち", "かんこう", "けしき"],
+      "a": 0
+    },
+    {
+      "id": "v4-b13-t03",
+      "type": "choice",
+      "uses": ["v4-63"],
+      "jp": "{台風|たいふう}が{来|く}るそうですから、＿をよく{聞|き}いてください。",
+      "fr": "Il paraît qu'un typhon arrive, alors écoutez bien la météo.",
+      "choices": ["{天気|てんき}よほう", "{空気|くうき}", "ほし", "いし"],
+      "a": 0
+    },
+    {
+      "id": "v4-b13-t04",
+      "type": "choice",
+      "uses": ["v4-64"],
+      "jp": "お{正月|しょうがつ}には{家族|かぞく}で＿へ{行|い}きます。",
+      "fr": "Au Nouvel An, on va au sanctuaire en famille.",
+      "choices": ["じんじゃ", "おぼん", "すもう", "ゆかた"],
+      "a": 0
+    },
+    {
+      "id": "v4-b13-t05",
+      "type": "choice",
+      "star": {"jp": "かつ", "kana": "かつ", "fr": "gagner"},
+      "uses": ["v4-65"],
+      "jp": "{昨日|きのう}の{試合|しあい}は、{日本|にほん}が{二|に}たい{一|いち}で＿。",
+      "fr": "Au match d'hier, le Japon a gagné 2 à 1.",
+      "choices": ["かちました", "おうえんしました", "えらびました", "{人気|にんき}でした"],
+      "a": 0
+    },
+    {"id": "v4-b13-t06", "type": "choice", "uses": ["v4-62"], "q": "Comment se lit **旅館** ?", "choices": ["りょかん", "たびかん", "りょうかん", "りょやかた"], "a": 0},
+    {
+      "id": "v4-b13-t07",
+      "type": "choice",
+      "uses": ["v4-63"],
+      "jp": "{午後|ごご}から{空|そら}が＿、{雨|あめ}が{降|ふ}ってきました。",
+      "fr": "L'après-midi, le ciel s'est couvert et il s'est mis à pleuvoir.",
+      "choices": ["くもって", "{晴|は}れて", "{光|ひか}って", "もえて"],
+      "a": 0,
+      "star": {"jp": "くもる", "kana": "くもる", "fr": "se couvrir (nuages)"}
+    },
+    {
+      "id": "v4-b13-t08",
+      "type": "choice",
+      "uses": ["v4-64", "v5-13"],
+      "jp": "{夏|なつ}のおまつりに、ゆかたを＿{行|い}きました。",
+      "fr": "Je suis allé à la fête d'été en yukata.",
+      "choices": ["{着|き}て", "はいて", "かぶって", "かけて"],
+      "a": 0,
+      "star": {"jp": "{着|き}る", "kana": "きる", "fr": "porter, mettre (le haut du corps)"}
+    },
+    {
+      "id": "v4-b13-t09",
+      "type": "choice",
+      "uses": ["v4-61"],
+      "jp": "＿は{写真|しゃしん}をとることです。",
+      "fr": "Mon passe-temps, c'est la photo.",
+      "choices": ["しゅみ", "きょうみ", "{旅|たび}", "{人気|にんき}"],
+      "a": 0
+    },
+    {
+      "id": "v4-b13-t10",
+      "type": "choice",
+      "uses": ["v4-62"],
+      "jp": "＿の{近|ちか}くのすしやで、とれたばかりの{魚|さかな}を{食|た}べました。",
+      "fr": "Dans un restaurant de sushis près du port, j'ai mangé du poisson tout juste pêché.",
+      "choices": ["みなと", "くうこう", "おうふく", "かたみち"],
+      "a": 0
+    },
+    {
+      "id": "v4-b13-t11",
+      "type": "choice",
+      "uses": ["v4-63"],
+      "q": "Que veut dire **じしん** ?",
+      "choices": ["tremblement de terre", "typhon", "incendie", "tonnerre"],
+      "a": 0
+    },
+    {
+      "id": "v4-b13-t12",
+      "type": "choice",
+      "uses": ["v4-64"],
+      "jp": "{毎晩|まいばん}、たたみの{部屋|へや}に＿をしいてねます。",
+      "fr": "Tous les soirs, je déplie mon futon dans la pièce à tatamis pour dormir.",
+      "choices": ["ふとん", "おじぎ", "すもう", "おぼん"],
+      "a": 0
+    },
+    {
+      "id": "v4-b13-t13",
+      "type": "choice",
+      "uses": ["v4-65"],
+      "jp": "{明日|あした}は{大事|だいじ}な{試合|しあい}です。みんな、＿！",
+      "fr": "Demain, c'est un match important. Allez, tout le monde, on donne tout !",
+      "choices": ["がんばりましょう", "まけましょう", "えらびましょう", "おじぎしましょう"],
+      "a": 0,
+      "star": {"jp": "がんばる", "kana": "がんばる", "fr": "faire de son mieux"}
+    },
+    {
+      "id": "v4-b13-t14",
+      "type": "order",
+      "uses": ["v4-62"],
+      "fr": "Je loge dans une auberge japonaise à Kyoto.",
+      "tokens": ["{京都|きょうと}の", "{旅館|りょかん}に", "とまります"]
+    },
+    {
+      "id": "v4-b13-t15",
+      "type": "choice",
+      "uses": ["v4-61"],
+      "jp": "{春|はる}になると、みんなで{公園|こうえん}に＿に{行|い}きます。",
+      "fr": "Au printemps, on va tous au parc admirer les cerisiers.",
+      "choices": ["{花見|はなみ}", "すもう", "おぼん", "スキー"],
+      "a": 0
+    },
+    {
+      "id": "v4-b13-t16",
+      "type": "choice",
+      "uses": ["v4-65"],
+      "jp": "この{歌手|かしゅ}は{子|こ}どもにとても＿があります。",
+      "fr": "Ce chanteur est très populaire auprès des enfants.",
+      "choices": ["{人気|にんき}", "{気分|きぶん}", "しゅみ", "{空気|くうき}"],
+      "a": 0
+    }
+  ]
+}
