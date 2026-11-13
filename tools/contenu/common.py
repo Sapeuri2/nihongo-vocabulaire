@@ -61,21 +61,44 @@ def known_words(extra_lessons=()):
     for l in extra_lessons: words += l.get('words', [])
     return words
 
+def reading(s): return _re.sub(r'\{[^|{}]+\|([^{}]+)\}', r'\1', s or '').replace('**', '')
+
+# Première lettre possible après le radical, selon la fin du mot (formes conjuguées).
+_SUITE = {'う': 'いわっえおう', 'く': 'きかいけこく', 'ぐ': 'ぎがいげごぐ', 'す': 'しさせそす', 'つ': 'ちたってとつ',
+          'ぬ': 'になんねのぬ', 'ぶ': 'びばんべぼぶ', 'む': 'みまんめもむ',
+          'る': 'りらっれろるまてたなよずさ', 'い': 'くかさけい'}
+
+def _forme_de(ans, w):
+    """ans (avec furigana) est-il une forme conjuguée du mot w ?"""
+    p = plain(w['jp']).lstrip('〜')
+    s = stem(w['jp'])
+    pa = plain(ans)
+    if not s or not pa.startswith(s) or pa == p: return False
+    if not (len(s) >= 2 or _re.search(r'[\u3400-\u9fff]', s)): return False
+    if not reading(ans).startswith(stem(w['kana'])): return False
+    rest = pa[len(s):]
+    if p.endswith('する') and len(p) > 2: return rest == '' or rest[0] in 'しさすせ'
+    fin = p[-1]
+    if fin == 'る':  # groupe 2 : radical seul (足り|ません) ; さ seulement pour させる
+        return rest == '' or rest[0] in 'りらっれろるまてたなよず' or rest.startswith('させ')
+    if fin not in _SUITE: return False
+    return rest[:1] in _SUITE[fin] if rest else False
+
 def auto_star(bloc):
     """Phrase à trous dont la réponse est une forme conjuguée (心配して, うれしかった…) :
     le moteur ne retrouverait pas le mot dans les tableaux, on lui dit lequel épingler."""
     words = known_words(bloc['lessons'])
     exact = {plain(w['jp']) for w in words}
-    jp_ok = lambda s: _re.search(r'[぀-ヿ㐀-鿿]', s or '')
+    jp_ok = lambda s: _re.search(r'[\u3040-\u30ff\u3400-\u9fff]', s or '')
     for e in [x for l in bloc['lessons'] for x in l['exercises']] + bloc['test'] + bloc.get('examTest', []):
         if e['type'] != 'choice' or 'star' in e or '＿' not in e.get('jp', ''): continue
-        pa = plain(e['choices'][e['a']])
+        ans = e['choices'][e['a']]
+        pa = plain(ans)
         if not jp_ok(pa) or pa in exact or '。' in pa or len(pa) > 12: continue
-        best = None
-        for w in words:
-            s = stem(w['jp'])
-            if (len(s) >= 2 or _re.search(r'[\u3400-\u9fff]', s)) and pa.startswith(s) and (best is None or len(s) > len(stem(best['jp']))): best = w
-        if best: e['star'] = {"jp": best['jp'], "kana": best['kana'], "fr": best['fr']}
+        cands = [w for w in words if _forme_de(ans, w)]
+        if cands:
+            best = max(cands, key=lambda w: len(stem(w['jp'])))
+            e['star'] = {"jp": best['jp'], "kana": best['kana'], "fr": best['fr']}
 
 def save_n4(bloc, out):
     auto_star(bloc)
