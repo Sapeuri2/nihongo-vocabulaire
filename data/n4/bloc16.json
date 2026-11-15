@@ -1,0 +1,1359 @@
+{
+  "id": "v4-b16",
+  "level": "N4",
+  "title": "Consolider le N4 : verbes, adjectifs, paires, mots composés",
+  "lessons": [
+    {
+      "id": "v4-76",
+      "title": "Verbes N4 (1)",
+      "words": [
+        {"jp": "{思|おも}い{出|だ}す", "kana": "おもいだす", "fr": "se rappeler", "ex": "この{歌|うた}を{聞|き}くと、{子|こ}どものころを{思|おも}い{出|だ}します。", "exFr": "Quand j'écoute cette chanson, je me rappelle mon enfance."},
+        {"jp": "かんじる", "kana": "かんじる", "fr": "sentir, ressentir", "ex": "{朝|あさ}、{少|すこ}しさむさをかんじました。", "exFr": "Ce matin, j'ai senti un peu de froid."},
+        {"jp": "しんじる", "kana": "しんじる", "fr": "croire", "ex": "{田中|たなか}さんの{話|はなし}をしんじています。", "exFr": "Je crois ce que dit M. Tanaka."},
+        {"jp": "さがす", "kana": "さがす", "fr": "chercher (un objet)", "ex": "なくしたかぎをさがしています。", "exFr": "Je cherche la clé que j'ai perdue."},
+        {"jp": "そだてる", "kana": "そだてる", "fr": "élever", "ex": "{母|はは}は{一人|ひとり}で{子|こ}どもを{三人|さんにん}そだてました。", "exFr": "Ma mère a élevé seule trois enfants."},
+        {"jp": "うえる", "kana": "うえる", "fr": "planter", "ex": "にわに{木|き}をうえました。", "exFr": "J'ai planté un arbre dans le jardin."},
+        {"jp": "かう", "kana": "かう", "fr": "avoir (un animal)", "ex": "{犬|いぬ}を{二|に}ひきかっています。", "exFr": "J'ai deux chiens."},
+        {"jp": "たずねる", "kana": "たずねる", "fr": "rendre visite ; demander", "ex": "{先生|せんせい}のおたくをたずねました。", "exFr": "J'ai rendu visite au professeur chez lui."},
+        {"jp": "なれる", "kana": "なれる", "fr": "s'habituer", "ex": "{日本|にほん}のせいかつにもうなれました。", "exFr": "Je me suis déjà habitué à la vie au Japon."},
+        {"jp": "つかまえる", "kana": "つかまえる", "fr": "attraper", "ex": "けいさつがどろぼうをつかまえました。", "exFr": "La police a attrapé le voleur."},
+        {"jp": "にげる", "kana": "にげる", "fr": "s'enfuir", "ex": "ねこが{外|そと}へにげてしまいました。", "exFr": "Le chat s'est enfui dehors."},
+        {"jp": "{合|あ}う", "kana": "あう", "fr": "aller bien, convenir", "ex": "このくつは{私|わたし}の{足|あし}に{合|あ}いません。", "exFr": "Ces chaussures ne me vont pas."},
+        {"jp": "はる", "kana": "はる", "fr": "coller", "ex": "{手紙|てがみ}に{切手|きって}をはります。", "exFr": "Je colle un timbre sur la lettre."},
+        {"jp": "おれる", "kana": "おれる", "fr": "se casser (branche, os)", "ex": "{風|かぜ}で{木|き}がおれました。", "exFr": "L'arbre s'est cassé à cause du vent."},
+        {"jp": "{楽|たの}しむ", "kana": "たのしむ", "fr": "profiter, s'amuser", "ex": "{旅行|りょこう}を{楽|たの}しんでください。", "exFr": "Profitez bien de votre voyage."}
+      ],
+      "sections": [
+        {
+          "h": "Des verbes faciles à confondre",
+          "p": ["Même son, sens différent : regardez bien les kanji et la particule."],
+          "grid": {
+            "head": ["", "japonais"],
+            "rows": [
+              ["chercher un objet / une information", "さがす / しらべる (leçon 66)"],
+              ["avoir un animal / acheter", "かう / {買|か}う"],
+              ["convenir à / rencontrer", "〜==に=={合|あ}う / 〜==に=={会|あ}う"],
+              ["s'habituer à", "〜==に==なれる"],
+              ["coller / printemps", "はる / {春|はる}"],
+              ["se rappeler", "{思|おも}い{出|だ}す"]
+            ]
+          }
+        }
+      ],
+      "pieges": [
+        "さがす = chercher ce qu'on n'a pas (objet, travail, personne) ; しらべる = chercher une **information**.",
+        "かう (avoir un animal) a le même son que {買|か}う (acheter) : {犬|いぬ}をかっています = j'ai un chien.",
+        "{合|あ}う (aller bien, convenir) ≠ {会|あ}う (rencontrer) : くつが{足|あし}に{合|あ}う.",
+        "〜**に**なれる = s'habituer **à** : {仕事|しごと}になれる.",
+        "たずねる = rendre visite **et** demander ({道|みち}をたずねる).",
+        "おれる (ça se casse, が) / おる (je casse, を) : {木|き}がおれる / ほねをおる."
+      ],
+      "exercises": [
+        {
+          "id": "v4-76-e01",
+          "type": "choice",
+          "uses": ["v5-28"],
+          "jp": "この{写真|しゃしん}を{見|み}ると、{子|こ}どものころを＿。",
+          "fr": "Quand je regarde cette photo, je me rappelle mon enfance.",
+          "choices": ["{思|おも}い{出|だ}します", "わすれます", "かんじます", "しんじます"],
+          "a": 0,
+          "star": {"jp": "{思|おも}い{出|だ}す", "kana": "おもいだす", "fr": "se rappeler"}
+        },
+        {
+          "id": "v4-76-e02",
+          "type": "choice",
+          "uses": ["v4-48", "v4-49"],
+          "jp": "なくしたかぎを＿いますが、まだ{見|み}つかりません。",
+          "fr": "Je cherche la clé que j'ai perdue, mais je ne l'ai pas encore trouvée.",
+          "choices": ["さがして", "しらべて", "そだてて", "うえて"],
+          "a": 0,
+          "star": {"jp": "さがす", "kana": "さがす", "fr": "chercher (un objet)"}
+        },
+        {
+          "id": "v4-76-e03",
+          "type": "choice",
+          "uses": ["v4-53"],
+          "jp": "{田中|たなか}さんはうそをつかない{人|ひと}ですから、{田中|たなか}さんの{話|はなし}を＿います。",
+          "fr": "M. Tanaka ne ment jamais, alors je crois ce qu'il dit.",
+          "choices": ["しんじて", "にげて", "かって", "はって"],
+          "a": 0,
+          "star": {"jp": "しんじる", "kana": "しんじる", "fr": "croire"}
+        },
+        {
+          "id": "v4-76-e04",
+          "type": "choice",
+          "uses": ["v5-21"],
+          "jp": "{母|はは}は{一人|ひとり}で{子|こ}どもを{三人|さんにん}＿。",
+          "fr": "Ma mère a élevé seule trois enfants.",
+          "choices": ["そだてました", "うえました", "かいました", "つかまえました"],
+          "a": 0,
+          "star": {"jp": "そだてる", "kana": "そだてる", "fr": "élever"}
+        },
+        {
+          "id": "v4-76-e05",
+          "type": "choice",
+          "uses": ["v5-22", "v5-35"],
+          "jp": "{春|はる}に、にわに{花|はな}を＿。",
+          "fr": "Au printemps, j'ai planté des fleurs dans le jardin.",
+          "choices": ["うえました", "しんじました", "はりました", "にげました"],
+          "a": 0,
+          "star": {"jp": "うえる", "kana": "うえる", "fr": "planter"}
+        },
+        {
+          "id": "v4-76-e06",
+          "type": "choice",
+          "star": {"jp": "かう", "kana": "かう", "fr": "avoir (un animal)"},
+          "uses": ["v5-35"],
+          "jp": "うちでは{犬|いぬ}を{二|に}ひき＿います。",
+          "fr": "Chez nous, on a deux chiens.",
+          "choices": ["かって", "うえて", "はって", "しんじて"],
+          "a": 0
+        },
+        {
+          "id": "v4-76-e07",
+          "type": "choice",
+          "uses": ["v4-71"],
+          "jp": "{昨日|きのう}、{先生|せんせい}のおたくを＿。",
+          "fr": "Hier, j'ai rendu visite au professeur chez lui.",
+          "choices": ["たずねました", "にげました", "つかまえました", "はりました"],
+          "a": 0,
+          "star": {"jp": "たずねる", "kana": "たずねる", "fr": "rendre visite ; demander"}
+        },
+        {
+          "id": "v4-76-e08",
+          "type": "choice",
+          "uses": ["v4-68"],
+          "jp": "{日本|にほん}に{来|き}て{一年|いちねん}です。{日本|にほん}のせいかつにもう＿。",
+          "fr": "Ça fait un an que je suis au Japon. Je me suis déjà habitué à la vie ici.",
+          "choices": ["なれました", "にげました", "そだてました", "おれました"],
+          "a": 0,
+          "star": {"jp": "なれる", "kana": "なれる", "fr": "s'habituer"}
+        },
+        {
+          "id": "v4-76-e09",
+          "type": "choice",
+          "uses": ["v4-59"],
+          "jp": "けいさつがどろぼうを＿。",
+          "fr": "La police a attrapé le voleur.",
+          "choices": ["つかまえました", "にげました", "かいました", "うえました"],
+          "a": 0,
+          "star": {"jp": "つかまえる", "kana": "つかまえる", "fr": "attraper"}
+        },
+        {
+          "id": "v4-76-e10",
+          "type": "choice",
+          "uses": ["v5-27"],
+          "jp": "ドアが{開|あ}いていて、ねこが{外|そと}へ＿しまいました。",
+          "fr": "La porte était ouverte, le chat s'est enfui dehors.",
+          "choices": ["にげて", "つかまえて", "かって", "しんじて"],
+          "a": 0,
+          "star": {"jp": "にげる", "kana": "にげる", "fr": "s'enfuir"}
+        },
+        {
+          "id": "v4-76-e11",
+          "type": "choice",
+          "uses": ["v5-13"],
+          "jp": "このくつは{小|ちい}さくて、{足|あし}に＿ません。",
+          "fr": "Ces chaussures sont trop petites, elles ne me vont pas.",
+          "choices": ["{合|あ}い", "{会|あ}い", "{思|おも}い{出|だ}し", "かんじ"],
+          "a": 0,
+          "star": {"jp": "{合|あ}う", "kana": "あう", "fr": "aller bien, convenir"}
+        },
+        {
+          "id": "v4-76-e12",
+          "type": "choice",
+          "star": {"jp": "はる", "kana": "はる", "fr": "coller"},
+          "uses": ["v4-59"],
+          "jp": "{手紙|てがみ}に{切手|きって}を＿{出|だ}します。",
+          "fr": "Je colle un timbre sur la lettre et je la poste.",
+          "choices": ["はって", "おって", "うえて", "そだてて"],
+          "a": 0
+        },
+        {
+          "id": "v4-76-e13",
+          "type": "choice",
+          "uses": ["v5-25"],
+          "jp": "{強|つよ}い{風|かぜ}で、{古|ふる}い{木|き}が＿しまいました。",
+          "fr": "Avec le vent fort, le vieil arbre s'est cassé.",
+          "choices": ["おれて", "にげて", "かんじて", "なれて"],
+          "a": 0,
+          "star": {"jp": "おれる", "kana": "おれる", "fr": "se casser (branche, os)"}
+        },
+        {
+          "id": "v4-76-e14",
+          "type": "choice",
+          "uses": ["v5-33"],
+          "jp": "{旅行|りょこう}を＿きてください。",
+          "fr": "Profitez bien de votre voyage.",
+          "choices": ["{楽|たの}しんで", "しんじて", "さがして", "つかまえて"],
+          "a": 0,
+          "star": {"jp": "{楽|たの}しむ", "kana": "たのしむ", "fr": "profiter, s'amuser"}
+        },
+        {
+          "id": "v4-76-e15",
+          "type": "choice",
+          "uses": ["v5-25"],
+          "jp": "{朝|あさ}、{窓|まど}を{開|あ}けると、すずしい{秋|あき}を＿。",
+          "fr": "Le matin, quand j'ouvre la fenêtre, je sens la fraîcheur de l'automne.",
+          "choices": ["かんじます", "しんじます", "なれます", "はります"],
+          "a": 0,
+          "star": {"jp": "かんじる", "kana": "かんじる", "fr": "sentir, ressentir"}
+        },
+        {
+          "id": "v4-76-e16",
+          "type": "choice",
+          "q": "Dans « {犬|いぬ}をかっています », que veut dire かう ?",
+          "choices": ["avoir (élever) un animal", "acheter", "chercher", "promener"],
+          "a": 0
+        },
+        {
+          "id": "v4-76-e17",
+          "type": "choice",
+          "uses": ["v4-66"],
+          "q": "Quelle différence entre さがす et しらべる ?",
+          "choices": [
+            "さがす : un objet, une personne ; しらべる : une information",
+            "さがす : une information ; しらべる : un objet",
+            "Aucune",
+            "さがす s'emploie seulement au passé"
+          ],
+          "a": 0
+        },
+        {"id": "v4-76-e18", "type": "order", "uses": ["v4-49"], "fr": "Je cherche la clé que j'ai perdue.", "tokens": ["なくした", "かぎを", "さがしています"]}
+      ]
+    },
+    {
+      "id": "v4-77",
+      "title": "Verbes N4 (2)",
+      "words": [
+        {"jp": "てつだう", "kana": "てつだう", "fr": "aider", "ex": "{母|はは}の{料理|りょうり}をてつだいました。", "exFr": "J'ai aidé ma mère à cuisiner."},
+        {"jp": "ほめる", "kana": "ほめる", "fr": "féliciter, faire des compliments", "ex": "{先生|せんせい}に{作文|さくぶん}をほめられました。", "exFr": "Le professeur m'a félicité pour ma rédaction."},
+        {"jp": "しかる", "kana": "しかる", "fr": "gronder", "ex": "{宿題|しゅくだい}をしなかったので、{父|ちち}にしかられました。", "exFr": "Je n'avais pas fait mes devoirs, mon père m'a grondé."},
+        {"jp": "さわぐ", "kana": "さわぐ", "fr": "faire du bruit, chahuter", "ex": "{教室|きょうしつ}でさわがないでください。", "exFr": "Ne faites pas de bruit en classe."},
+        {"jp": "やくに{立|た}つ", "kana": "やくにたつ", "fr": "être utile", "ex": "このじしょはとてもやくに{立|た}ちます。", "exFr": "Ce dictionnaire est très utile."},
+        {"jp": "{気|き}がつく", "kana": "きがつく", "fr": "se rendre compte", "ex": "かさをわすれたことに{気|き}がつきました。", "exFr": "Je me suis rendu compte que j'avais oublié mon parapluie."},
+        {"jp": "えんりょする", "kana": "えんりょする", "fr": "se retenir (par politesse)", "ex": "えんりょしないで、たくさん{食|た}べてください。", "exFr": "Ne vous gênez pas, mangez bien."},
+        {"jp": "がまんする", "kana": "がまんする", "fr": "supporter, se retenir", "ex": "いたいですが、がまんします。", "exFr": "Ça fait mal, mais je supporte."},
+        {"jp": "しょうたいする", "kana": "しょうたいする", "fr": "inviter", "ex": "{友|とも}だちをパーティーにしょうたいしました。", "exFr": "J'ai invité des amis à la fête."},
+        {"jp": "うける", "kana": "うける", "fr": "passer (un examen), recevoir", "ex": "{来月|らいげつ}、{日本語|にほんご}の{試験|しけん}をうけます。", "exFr": "Le mois prochain, je passe l'examen de japonais."},
+        {"jp": "おどろく", "kana": "おどろく", "fr": "être surpris", "ex": "そのニュースを{聞|き}いて、おどろきました。", "exFr": "J'ai été surpris en entendant cette nouvelle."},
+        {"jp": "つれる", "kana": "つれる", "fr": "emmener (qqn)", "ex": "{子|こ}どもを{公園|こうえん}につれて{行|い}きます。", "exFr": "J'emmène les enfants au parc."},
+        {"jp": "はこぶ", "kana": "はこぶ", "fr": "transporter", "ex": "このにもつを{二|に}かいへはこんでください。", "exFr": "Montez ces bagages au premier étage, s'il vous plaît."},
+        {"jp": "ぬれる", "kana": "ぬれる", "fr": "se mouiller", "ex": "{雨|あめ}で{服|ふく}がぬれました。", "exFr": "Mes vêtements sont mouillés à cause de la pluie."},
+        {"jp": "ねむる", "kana": "ねむる", "fr": "dormir (sommeil)", "ex": "{赤|あか}ちゃんはよくねむっています。", "exFr": "Le bébé dort profondément."}
+      ],
+      "sections": [
+        {
+          "h": "Verbe et particule",
+          "p": ["Ces verbes s'apprennent avec leur construction."],
+          "grid": {
+            "head": ["", "japonais"],
+            "rows": [
+              ["aider à", "〜==を==てつだう"],
+              ["être félicité / grondé par", "〜==に==ほめられる / しかられる"],
+              ["passer un examen", "{試験|しけん}==を==うける"],
+              ["emmener quelqu'un", "〜==を==つれて{行|い}く"],
+              ["se rendre compte de", "〜==に=={気|き}がつく"],
+              ["ne vous gênez pas", "えんりょしないで"]
+            ]
+          }
+        }
+      ],
+      "pieges": [
+        "{試験|しけん}**を**うける = passer (présenter) un examen ; ごうかくする = le réussir.",
+        "つれて{行|い}く = emmener **une personne, un animal** ; {持|も}って{行|い}く = emporter **un objet**.",
+        "えんりょしないで = ne vous gênez pas (invitation à se servir, à parler).",
+        "〜**に**{気|き}がつく = se rendre compte **de**.",
+        "ねむる = dormir (être endormi) ; ねる = se coucher, dormir.",
+        "ほめられる / しかられる : au passif, celui qui félicite ou gronde prend **に**."
+      ],
+      "exercises": [
+        {
+          "id": "v4-77-e01",
+          "type": "choice",
+          "uses": ["v5-14"],
+          "jp": "{母|はは}が{一人|ひとり}で{料理|りょうり}をしていますから、＿。",
+          "fr": "Ma mère cuisine toute seule, alors je l'aide.",
+          "choices": ["てつだいます", "しかります", "さわぎます", "ぬれます"],
+          "a": 0,
+          "star": {"jp": "てつだう", "kana": "てつだう", "fr": "aider"}
+        },
+        {
+          "id": "v4-77-e02",
+          "type": "choice",
+          "star": {"jp": "ほめる", "kana": "ほめる", "fr": "féliciter, faire des compliments"},
+          "uses": ["v5-29"],
+          "jp": "{作文|さくぶん}がよくできて、{先生|せんせい}に＿。",
+          "fr": "Ma rédaction était réussie, le professeur m'a félicité.",
+          "choices": ["ほめられました", "しかられました", "てつだわれました", "はこばれました"],
+          "a": 0
+        },
+        {
+          "id": "v4-77-e03",
+          "type": "choice",
+          "star": {"jp": "しかる", "kana": "しかる", "fr": "gronder"},
+          "uses": ["v5-29"],
+          "jp": "{宿題|しゅくだい}をしなかったので、{父|ちち}に＿。",
+          "fr": "Je n'avais pas fait mes devoirs, mon père m'a grondé.",
+          "choices": ["しかられました", "ほめられました", "ねむりました", "うけました"],
+          "a": 0
+        },
+        {
+          "id": "v4-77-e04",
+          "type": "choice",
+          "uses": ["v5-04"],
+          "jp": "{図書館|としょかん}では＿ないでください。",
+          "fr": "Ne faites pas de bruit à la bibliothèque.",
+          "choices": ["さわが", "ほめ", "がまんし", "おどろか"],
+          "a": 0,
+          "star": {"jp": "さわぐ", "kana": "さわぐ", "fr": "faire du bruit, chahuter"}
+        },
+        {
+          "id": "v4-77-e05",
+          "type": "choice",
+          "uses": ["v5-12"],
+          "jp": "このじしょはとても＿。",
+          "fr": "Ce dictionnaire est très utile.",
+          "choices": ["やくに{立|た}ちます", "{気|き}がつきます", "がまんします", "つれます"],
+          "a": 0,
+          "star": {"jp": "やくに{立|た}つ", "kana": "やくにたつ", "fr": "être utile"}
+        },
+        {
+          "id": "v4-77-e06",
+          "type": "choice",
+          "uses": ["v5-28"],
+          "jp": "{駅|えき}に{着|つ}いてから、かさをわすれたことに＿。",
+          "fr": "Une fois à la gare, je me suis rendu compte que j'avais oublié mon parapluie.",
+          "choices": ["{気|き}がつきました", "えんりょしました", "がまんしました", "ほめました"],
+          "a": 0,
+          "star": {"jp": "{気|き}がつく", "kana": "きがつく", "fr": "se rendre compte"}
+        },
+        {
+          "id": "v4-77-e07",
+          "type": "choice",
+          "jp": "＿しないで、たくさん{食|た}べてください。",
+          "fr": "Ne vous gênez pas, mangez bien.",
+          "choices": ["えんりょ", "しょうたい", "てつだい", "さわぎ"],
+          "a": 0,
+          "star": {"jp": "えんりょする", "kana": "えんりょする", "fr": "se retenir (par politesse)"}
+        },
+        {
+          "id": "v4-77-e08",
+          "type": "choice",
+          "uses": ["v4-44"],
+          "jp": "ちゅうしゃはいたいですが、ちょっと＿してください。すぐ{終|お}わりますから。",
+          "fr": "La piqûre fait mal, mais tenez bon un instant : ce sera vite fini.",
+          "choices": ["がまん", "えんりょ", "しょうたい", "さわぎ"],
+          "a": 0,
+          "star": {"jp": "がまんする", "kana": "がまんする", "fr": "supporter, se retenir"}
+        },
+        {
+          "id": "v4-77-e09",
+          "type": "choice",
+          "uses": ["v5-31"],
+          "jp": "{友|とも}だちをたんじょうびのパーティーに＿しました。",
+          "fr": "J'ai invité des amis à ma fête d'anniversaire.",
+          "choices": ["しょうたい", "がまん", "えんりょ", "ほめ"],
+          "a": 0,
+          "star": {"jp": "しょうたいする", "kana": "しょうたいする", "fr": "inviter"}
+        },
+        {
+          "id": "v4-77-e10",
+          "type": "choice",
+          "uses": ["v4-52"],
+          "jp": "{来月|らいげつ}、{日本語|にほんご}の{試験|しけん}を＿。",
+          "fr": "Le mois prochain, je passe l'examen de japonais.",
+          "choices": ["うけます", "ごうかくします", "ねむります", "はこびます"],
+          "a": 0,
+          "star": {"jp": "うける", "kana": "うける", "fr": "passer (un examen), recevoir"}
+        },
+        {
+          "id": "v4-77-e11",
+          "type": "choice",
+          "uses": ["v4-55"],
+          "jp": "{急|きゅう}に{大|おお}きい{音|おと}がして、＿。",
+          "fr": "Il y a eu un grand bruit d'un coup, j'ai été surpris.",
+          "choices": ["おどろきました", "ほめました", "てつだいました", "しかりました"],
+          "a": 0,
+          "star": {"jp": "おどろく", "kana": "おどろく", "fr": "être surpris"}
+        },
+        {
+          "id": "v4-77-e12",
+          "type": "choice",
+          "uses": ["v5-04"],
+          "jp": "{日曜日|にちようび}は{子|こ}どもを{公園|こうえん}に＿{行|い}きます。",
+          "fr": "Le dimanche, j'emmène les enfants au parc.",
+          "choices": ["つれて", "{持|も}って", "ほめて", "ぬれて"],
+          "a": 0,
+          "star": {"jp": "つれる", "kana": "つれる", "fr": "emmener (qqn)"}
+        },
+        {
+          "id": "v4-77-e13",
+          "type": "choice",
+          "uses": ["v5-22", "v5-24"],
+          "jp": "このにもつを{二|に}かいへ＿ください。{重|おも}いですから、{二人|ふたり}で。",
+          "fr": "Montez ces bagages au premier étage, s'il vous plaît. Ils sont lourds : à deux.",
+          "choices": ["はこんで", "つれて", "ねむって", "さわいで"],
+          "a": 0,
+          "star": {"jp": "はこぶ", "kana": "はこぶ", "fr": "transporter"}
+        },
+        {
+          "id": "v4-77-e14",
+          "type": "choice",
+          "uses": ["v5-25"],
+          "jp": "かさがなかったので、{雨|あめ}で{服|ふく}が＿。",
+          "fr": "Je n'avais pas de parapluie, mes vêtements sont mouillés.",
+          "choices": ["ぬれました", "ねむりました", "はこびました", "がまんしました"],
+          "a": 0,
+          "star": {"jp": "ぬれる", "kana": "ぬれる", "fr": "se mouiller"}
+        },
+        {
+          "id": "v4-77-e15",
+          "type": "choice",
+          "uses": ["v4-43"],
+          "jp": "{赤|あか}ちゃんがよく＿います。{静|しず}かにしてください。",
+          "fr": "Le bébé dort profondément. Silence, s'il vous plaît.",
+          "choices": ["ねむって", "しかって", "はこんで", "てつだって"],
+          "a": 0,
+          "star": {"jp": "ねむる", "kana": "ねむる", "fr": "dormir (sommeil)"}
+        },
+        {
+          "id": "v4-77-e16",
+          "type": "choice",
+          "q": "Que veut dire **えんりょしないで** ?",
+          "choices": ["ne vous gênez pas", "ne bougez pas", "ne vous inquiétez pas", "ne parlez pas"],
+          "a": 0
+        },
+        {
+          "id": "v4-77-e17",
+          "type": "choice",
+          "q": "« Je passe l'examen de japonais » se dit…",
+          "choices": ["{日本語|にほんご}の{試験|しけん}をうけます。", "{日本語|にほんご}の{試験|しけん}にうけます。", "{日本語|にほんご}の{試験|しけん}がうけます。", "{日本語|にほんご}の{試験|しけん}をうかります。"],
+          "a": 0
+        },
+        {"id": "v4-77-e18", "type": "order", "uses": ["v5-14"], "fr": "J'ai aidé ma mère à cuisiner.", "tokens": ["{母|はは}の", "{料理|りょうり}を", "てつだいました"]}
+      ]
+    },
+    {
+      "id": "v4-78",
+      "title": "Adjectifs N4",
+      "words": [
+        {"jp": "あさい", "kana": "あさい", "fr": "peu profond", "ex": "この{川|かわ}はあさいですから、{子|こ}どもも{遊|あそ}べます。", "exFr": "Cette rivière est peu profonde, les enfants peuvent y jouer."},
+        {"jp": "うすい", "kana": "うすい", "fr": "mince ; léger, fade", "ex": "このスープは{味|あじ}がうすいです。", "exFr": "Cette soupe est fade."},
+        {"jp": "おかしい", "kana": "おかしい", "fr": "bizarre ; drôle", "ex": "このパソコンはちょっとおかしいです。", "exFr": "Cet ordinateur a quelque chose de bizarre."},
+        {"jp": "かたい", "kana": "かたい", "fr": "dur", "ex": "このパンはかたくて、{食|た}べにくいです。", "exFr": "Ce pain est dur, il est difficile à manger."},
+        {"jp": "こまかい", "kana": "こまかい", "fr": "menu, fin ; petite (monnaie)", "ex": "こまかいお{金|かね}がありますか。", "exFr": "Vous avez de la monnaie ?"},
+        {"jp": "すごい", "kana": "すごい", "fr": "incroyable", "ex": "あの{人|ひと}は{五|いつ}つのことばが{話|はな}せます。すごいですね。", "exFr": "Cette personne parle cinq langues. Incroyable !"},
+        {"jp": "すばらしい", "kana": "すばらしい", "fr": "magnifique, formidable", "ex": "{山|やま}の{上|うえ}からのけしきはすばらしかったです。", "exFr": "La vue du haut de la montagne était magnifique."},
+        {"jp": "{正|ただ}しい", "kana": "ただしい", "fr": "juste, correct", "ex": "{正|ただ}しい{答|こた}えをえらんでください。", "exFr": "Choisissez la bonne réponse."},
+        {"jp": "めずらしい", "kana": "めずらしい", "fr": "rare, inhabituel", "ex": "{東京|とうきょう}でゆきが{降|ふ}るのはめずらしいです。", "exFr": "Il est rare qu'il neige à Tokyo."},
+        {"jp": "ふかい", "kana": "ふかい", "fr": "profond", "ex": "この{池|いけ}はふかいですから、{泳|およ}がないでください。", "exFr": "Cet étang est profond, ne vous y baignez pas."},
+        {"jp": "やわらかい", "kana": "やわらかい", "fr": "mou, tendre", "ex": "このパンはやわらかくておいしいです。", "exFr": "Ce pain est moelleux et bon."},
+        {"jp": "ねむい", "kana": "ねむい", "fr": "avoir sommeil", "ex": "{昨日|きのう}あまりねなかったので、ねむいです。", "exFr": "Je n'ai pas beaucoup dormi hier, j'ai sommeil."},
+        {"jp": "{不便|ふべん}", "kana": "ふべん", "fr": "pas pratique", "ex": "{駅|えき}から{遠|とお}くて、{不便|ふべん}です。", "exFr": "C'est loin de la gare, ce n'est pas pratique."},
+        {"jp": "ふくざつ", "kana": "ふくざつ", "fr": "compliqué", "ex": "この{問題|もんだい}はふくざつで、よく{分|わ}かりません。", "exFr": "Ce problème est compliqué, je ne comprends pas bien."},
+        {"jp": "むり", "kana": "むり", "fr": "impossible, excessif", "ex": "{一日|いちにち}でぜんぶ{読|よ}むのはむりです。", "exFr": "C'est impossible de tout lire en un jour."}
+      ],
+      "sections": [
+        {
+          "h": "Les contraires",
+          "p": ["Beaucoup de ces adjectifs vont par paires."],
+          "grid": {
+            "head": ["", "sens"],
+            "rows": [
+              ["あさい ↔ ふかい", "peu profond ↔ profond"],
+              ["かたい ↔ やわらかい", "dur ↔ mou, tendre"],
+              ["うすい ↔ あつい", "mince ↔ épais (un autre あつい !)"],
+              ["{便利|べんり} ↔ {不便|ふべん}", "pratique ↔ pas pratique"],
+              ["かんたん ↔ ふくざつ", "simple ↔ compliqué"],
+              ["{正|ただ}しい ↔ まちがっている", "juste ↔ faux"]
+            ]
+          }
+        }
+      ],
+      "pieges": [
+        "うすい = mince (un livre), léger ou fade (un goût, une couleur).",
+        "おかしい = bizarre, qui cloche… **ou** drôle (comme おもしろい).",
+        "こまかいお{金|かね} = la petite monnaie.",
+        "すごい = incroyable (oral, en bien comme en mal) ; すばらしい = magnifique (toujours en bien).",
+        "むり = impossible, trop dur (adjectif en な). むりをしないで = ne force pas.",
+        "ねむい = avoir sommeil (adjectif) ; ねむる = dormir (verbe, leçon 77)."
+      ],
+      "exercises": [
+        {
+          "id": "v4-78-e01",
+          "type": "choice",
+          "uses": ["v4-50", "v5-31"],
+          "jp": "この{川|かわ}は＿ですから、{子|こ}どもが{遊|あそ}んでもあんぜんです。",
+          "fr": "Cette rivière est peu profonde, les enfants peuvent y jouer sans danger.",
+          "choices": ["あさい", "ふかい", "かたい", "ねむい"],
+          "a": 0
+        },
+        {
+          "id": "v4-78-e02",
+          "type": "choice",
+          "uses": ["v5-31", "v5-35"],
+          "jp": "この{池|いけ}はとても＿ですから、{泳|およ}がないでください。",
+          "fr": "Cet étang est très profond, ne vous y baignez pas.",
+          "choices": ["ふかい", "ねむい", "やわらかい", "めずらしい"],
+          "a": 0
+        },
+        {
+          "id": "v4-78-e03",
+          "type": "choice",
+          "uses": ["v5-06"],
+          "jp": "このパンは＿て、{食|た}べにくいです。",
+          "fr": "Ce pain est dur, il est difficile à manger.",
+          "choices": ["かたく", "やわらかく", "ねむく", "ふかく"],
+          "a": 0,
+          "star": {"jp": "かたい", "kana": "かたい", "fr": "dur"}
+        },
+        {
+          "id": "v4-78-e04",
+          "type": "choice",
+          "uses": ["v4-58"],
+          "jp": "このスープは{味|あじ}が＿です。しおを{入|い}れてください。",
+          "fr": "Cette soupe est fade. Ajoutez du sel.",
+          "choices": ["うすい", "こまかい", "かたい", "ねむい"],
+          "a": 0
+        },
+        {
+          "id": "v4-78-e05",
+          "type": "choice",
+          "uses": ["v5-07"],
+          "jp": "すみません、＿お{金|かね}がありませんから、{一万円|いちまんえん}でいいですか。",
+          "fr": "Désolé, je n'ai pas de monnaie : je peux vous donner un billet de dix mille yens ?",
+          "choices": ["こまかい", "うすい", "やわらかい", "すばらしい"],
+          "a": 0
+        },
+        {
+          "id": "v4-78-e06",
+          "type": "choice",
+          "uses": ["v4-53"],
+          "jp": "あの{人|ひと}は{五|いつ}つのことばが{話|はな}せます。＿ですね。",
+          "fr": "Cette personne parle cinq langues. Incroyable !",
+          "choices": ["すごい", "ねむい", "あさい", "{不便|ふべん}"],
+          "a": 0
+        },
+        {
+          "id": "v4-78-e07",
+          "type": "choice",
+          "uses": ["v4-62"],
+          "jp": "{山|やま}の{上|うえ}からのけしきは＿。",
+          "fr": "La vue du haut de la montagne était magnifique.",
+          "choices": ["すばらしかったです", "ねむかったです", "ふかかったです", "かたかったです"],
+          "a": 0,
+          "star": {"jp": "すばらしい", "kana": "すばらしい", "fr": "magnifique, formidable"}
+        },
+        {
+          "id": "v4-78-e08",
+          "type": "choice",
+          "uses": ["v4-65", "v5-40"],
+          "jp": "＿{答|こた}えをえらんでください。",
+          "fr": "Choisissez la bonne réponse.",
+          "choices": ["{正|ただ}しい", "やわらかい", "ねむい", "あさい"],
+          "a": 0
+        },
+        {
+          "id": "v4-78-e09",
+          "type": "choice",
+          "uses": ["v5-25"],
+          "jp": "{東京|とうきょう}で{四月|しがつ}にゆきが{降|ふ}るのは＿です。",
+          "fr": "Il est rare qu'il neige à Tokyo en avril.",
+          "choices": ["めずらしい", "やわらかい", "あさい", "ねむい"],
+          "a": 0
+        },
+        {
+          "id": "v4-78-e10",
+          "type": "choice",
+          "uses": ["v5-06"],
+          "jp": "このパンは＿て、おいしいです。",
+          "fr": "Ce pain est moelleux et bon.",
+          "choices": ["やわらかく", "ふかく", "ねむく", "あさく"],
+          "a": 0,
+          "star": {"jp": "やわらかい", "kana": "やわらかい", "fr": "mou, tendre"}
+        },
+        {
+          "id": "v4-78-e11",
+          "type": "choice",
+          "jp": "{昨日|きのう}あまりねなかったので、{今日|きょう}はとても＿です。",
+          "fr": "Je n'ai pas beaucoup dormi hier, alors aujourd'hui j'ai très sommeil.",
+          "choices": ["ねむい", "すごい", "めずらしい", "かたい"],
+          "a": 0
+        },
+        {
+          "id": "v4-78-e12",
+          "type": "choice",
+          "uses": ["v5-19", "v5-22"],
+          "jp": "このアパートは{駅|えき}から{遠|とお}くて、ちょっと＿です。",
+          "fr": "Cet appartement est loin de la gare, ce n'est pas très pratique.",
+          "choices": ["{不便|ふべん}", "{便利|べんり}", "やわらかい", "すばらしい"],
+          "a": 0
+        },
+        {
+          "id": "v4-78-e13",
+          "type": "choice",
+          "uses": ["v5-19", "v5-29"],
+          "jp": "この{問題|もんだい}は＿で、よく{分|わ}かりません。",
+          "fr": "Ce problème est compliqué, je ne comprends pas bien.",
+          "choices": ["ふくざつ", "かんたん", "めずらしい", "ねむい"],
+          "a": 0
+        },
+        {
+          "id": "v4-78-e14",
+          "type": "choice",
+          "uses": ["v5-38"],
+          "jp": "{一日|いちにち}で{本|ほん}を{十|じゅっ}さつ{読|よ}むのは＿です。",
+          "fr": "Lire dix livres en un jour, c'est impossible.",
+          "choices": ["むり", "やわらかい", "あさい", "ねむい"],
+          "a": 0
+        },
+        {
+          "id": "v4-78-e15",
+          "type": "choice",
+          "uses": ["v4-66"],
+          "jp": "このパソコンはちょっと＿です。すぐ{止|と}まります。",
+          "fr": "Cet ordinateur a un problème : il s'arrête tout le temps.",
+          "choices": ["おかしい", "すばらしい", "ねむい", "あさい"],
+          "a": 0
+        },
+        {"id": "v4-78-e16", "type": "choice", "q": "Contraire de **ふかい** ?", "choices": ["あさい", "うすい", "かるい", "ひくい"], "a": 0},
+        {"id": "v4-78-e17", "type": "choice", "q": "Contraire de **かたい** ?", "choices": ["やわらかい", "うすい", "あさい", "かるい"], "a": 0},
+        {
+          "id": "v4-78-e18",
+          "type": "order",
+          "uses": ["v5-38"],
+          "fr": "C'est impossible de tout lire en un jour.",
+          "tokens": ["{一日|いちにち}で", "ぜんぶ{読|よ}むのは", "むり", "です"]
+        }
+      ]
+    },
+    {
+      "id": "v4-79",
+      "title": "Paires piégeuses du N4",
+      "words": [
+        {"jp": "おそわる", "kana": "おそわる", "fr": "apprendre (de quelqu'un)", "ex": "{田中|たなか}{先生|せんせい}に{日本語|にほんご}をおそわりました。", "exFr": "J'ai appris le japonais avec le professeur Tanaka."},
+        {"jp": "{代|か}わる", "kana": "かわる", "fr": "remplacer", "ex": "{部長|ぶちょう}に{代|か}わって、{私|わたし}が{説明|せつめい}します。", "exFr": "J'explique à la place du chef."},
+        {"jp": "すむ", "kana": "すむ", "fr": "se terminer", "ex": "{宿題|しゅくだい}がすんだら、{遊|あそ}んでもいいです。", "exFr": "Quand tes devoirs seront finis, tu pourras jouer."},
+        {"jp": "くらす", "kana": "くらす", "fr": "vivre (au quotidien)", "ex": "そぼはいなかで{一人|ひとり}でくらしています。", "exFr": "Ma grand-mère vit seule à la campagne."},
+        {"jp": "わかれる", "kana": "わかれる", "fr": "se séparer, se quitter", "ex": "{駅|えき}で{友|とも}だちとわかれました。", "exFr": "J'ai quitté mon ami à la gare."},
+        {"jp": "{学|まな}ぶ", "kana": "まなぶ", "fr": "étudier, apprendre", "ex": "{大学|だいがく}で{日本|にほん}のぶんかを{学|まな}びました。", "exFr": "J'ai étudié la culture japonaise à l'université."},
+        {"jp": "{乗|の}せる", "kana": "のせる", "fr": "faire monter, emmener (en voiture)", "ex": "{駅|えき}まで{車|くるま}に{乗|の}せてください。", "exFr": "Emmène-moi en voiture jusqu'à la gare, s'il te plaît."},
+        {"jp": "{降|お}ろす", "kana": "おろす", "fr": "déposer, faire descendre", "ex": "{駅|えき}の{前|まえ}で{降|お}ろしてください。", "exFr": "Déposez-moi devant la gare, s'il vous plaît."},
+        {"jp": "きけん", "kana": "きけん", "fr": "danger, dangereux", "ex": "この{川|かわ}で{泳|およ}ぐのはきけんです。", "exFr": "Il est dangereux de se baigner dans cette rivière."},
+        {"jp": "しつれい", "kana": "しつれい", "fr": "impoli", "ex": "{人|ひと}の{話|はなし}を{聞|き}かないのはしつれいです。", "exFr": "Ne pas écouter les autres, c'est impoli."},
+        {"jp": "たしか", "kana": "たしか", "fr": "si je me souviens bien ; sûr", "ex": "たしか、{会議|かいぎ}は{三時|さんじ}からでした。", "exFr": "Si je me souviens bien, la réunion était à trois heures."},
+        {"jp": "てきとう", "kana": "てきとう", "fr": "approprié ; au hasard", "ex": "てきとうなことばをえらんでください。", "exFr": "Choisissez le mot qui convient."},
+        {"jp": "さかん", "kana": "さかん", "fr": "florissant, populaire", "ex": "この{町|まち}はやきゅうがさかんです。", "exFr": "Le baseball est très pratiqué dans cette ville."},
+        {"jp": "これから", "kana": "これから", "fr": "à partir de maintenant", "ex": "これから{会議|かいぎ}を{始|はじ}めます。", "exFr": "Nous allons maintenant commencer la réunion."},
+        {"jp": "ゆれる", "kana": "ゆれる", "fr": "trembler, bouger", "ex": "じしんで{家|いえ}がゆれました。", "exFr": "La maison a tremblé à cause du séisme."}
+      ],
+      "sections": [
+        {
+          "h": "Les nouvelles paires",
+          "p": ["Le N4 ajoute encore quelques paires à ne pas confondre."],
+          "grid": {
+            "head": ["", "différence"],
+            "rows": [
+              ["{教|おし}える / おそわる", "enseigner / apprendre (de quelqu'un)"],
+              ["{住|す}む / くらす / すむ", "habiter / vivre au quotidien / se terminer"],
+              ["{乗|の}る / {乗|の}せる", "monter / faire monter quelqu'un"],
+              ["{降|お}りる / {降|お}ろす", "descendre / déposer quelqu'un"],
+              ["かわる / {代|か}わる", "changer / remplacer"],
+              ["あぶない / きけん", "dangereux (oral) / danger (écrit, panneaux)"]
+            ]
+          }
+        }
+      ],
+      "pieges": [
+        "〜**に**おそわる = apprendre **de** quelqu'un (comme 〜に{習|なら}う).",
+        "すむ (se terminer) a le même son que {住|す}む (habiter) : {宿題|しゅくだい}がすむ / {東京|とうきょう}に{住|す}む.",
+        "{乗|の}せる / {降|お}ろす : je fais monter, je dépose **quelqu'un d'autre**.",
+        "たしか (adverbe) = « si je me souviens bien » ; たしかな = sûr, fiable.",
+        "てきとう = approprié… **ou** fait n'importe comment, selon le ton !",
+        "しつれい (adj.) = impoli ; しつれいします = excusez-moi (formule)."
+      ],
+      "exercises": [
+        {
+          "id": "v4-79-e01",
+          "type": "choice",
+          "uses": ["v4-53"],
+          "jp": "{私|わたし}は{田中|たなか}{先生|せんせい}に{日本語|にほんご}を＿。{先生|せんせい}の{説明|せつめい}はとても{分|わ}かりやすかったです。",
+          "fr": "J'ai appris le japonais avec le professeur Tanaka. Ses explications étaient très claires.",
+          "choices": ["おそわりました", "{教|おし}えました", "くらしました", "わかれました"],
+          "a": 0,
+          "star": {"jp": "おそわる", "kana": "おそわる", "fr": "apprendre (de quelqu'un)"}
+        },
+        {
+          "id": "v4-79-e02",
+          "type": "choice",
+          "uses": ["v4-51", "v4-53"],
+          "jp": "{部長|ぶちょう}がいませんから、{部長|ぶちょう}に＿、{私|わたし}が{説明|せつめい}します。",
+          "fr": "Le chef n'est pas là, alors j'explique à sa place.",
+          "choices": ["{代|か}わって", "すんで", "わかれて", "くらして"],
+          "a": 0,
+          "star": {"jp": "{代|か}わる", "kana": "かわる", "fr": "remplacer"}
+        },
+        {
+          "id": "v4-79-e03",
+          "type": "choice",
+          "star": {"jp": "すむ", "kana": "すむ", "fr": "se terminer"},
+          "uses": ["v5-29"],
+          "jp": "{宿題|しゅくだい}が＿ら、{遊|あそ}びに{行|い}ってもいいです。",
+          "fr": "Quand tes devoirs seront finis, tu pourras aller jouer.",
+          "choices": ["すんだ", "{住|す}んだ", "くらした", "わかれた"],
+          "a": 0
+        },
+        {
+          "id": "v4-79-e04",
+          "type": "choice",
+          "uses": ["v4-43", "v4-69"],
+          "jp": "そぼはいなかで{一人|ひとり}で＿います。",
+          "fr": "Ma grand-mère vit seule à la campagne.",
+          "choices": ["くらして", "わかれて", "{乗|の}せて", "おそわって"],
+          "a": 0,
+          "star": {"jp": "くらす", "kana": "くらす", "fr": "vivre (au quotidien)"}
+        },
+        {
+          "id": "v4-79-e05",
+          "type": "choice",
+          "jp": "{駅|えき}で{友|とも}だちと＿、{一人|ひとり}で{家|いえ}に{帰|かえ}りました。",
+          "fr": "J'ai quitté mon ami à la gare et je suis rentré seul.",
+          "choices": ["わかれて", "くらして", "{乗|の}せて", "{降|お}ろして"],
+          "a": 0,
+          "star": {"jp": "わかれる", "kana": "わかれる", "fr": "se séparer, se quitter"}
+        },
+        {
+          "id": "v4-79-e06",
+          "type": "choice",
+          "uses": ["v4-64"],
+          "jp": "{大学|だいがく}で{日本|にほん}のぶんかを＿。",
+          "fr": "J'ai étudié la culture japonaise à l'université.",
+          "choices": ["{学|まな}びました", "くらしました", "わかれました", "{降|お}ろしました"],
+          "a": 0,
+          "star": {"jp": "{学|まな}ぶ", "kana": "まなぶ", "fr": "étudier, apprendre"}
+        },
+        {
+          "id": "v4-79-e07",
+          "type": "choice",
+          "uses": ["v5-15"],
+          "jp": "{駅|えき}まで{私|わたし}を{車|くるま}に＿くれませんか。",
+          "fr": "Tu pourrais m'emmener en voiture jusqu'à la gare ?",
+          "choices": ["{乗|の}せて", "{乗|の}って", "{降|お}ろして", "くらして"],
+          "a": 0,
+          "star": {"jp": "{乗|の}せる", "kana": "のせる", "fr": "faire monter, emmener (en voiture)"}
+        },
+        {
+          "id": "v4-79-e08",
+          "type": "choice",
+          "uses": ["v5-15"],
+          "q": "Tu es dans un taxi.",
+          "jp": "すみません、{駅|えき}の{前|まえ}で＿ください。そこで{降|お}ります。",
+          "fr": "Excusez-moi, déposez-moi devant la gare. Je descends là.",
+          "choices": ["{降|お}ろして", "{乗|の}せて", "{降|お}りて", "わかれて"],
+          "a": 0,
+          "star": {"jp": "{降|お}ろす", "kana": "おろす", "fr": "déposer, faire descendre"}
+        },
+        {
+          "id": "v4-79-e09",
+          "type": "choice",
+          "uses": ["v4-78"],
+          "jp": "この{川|かわ}はふかくて、{泳|およ}ぐのは＿です。",
+          "fr": "Cette rivière est profonde, il est dangereux de s'y baigner.",
+          "choices": ["きけん", "さかん", "たしか", "しつれい"],
+          "a": 0
+        },
+        {
+          "id": "v4-79-e10",
+          "type": "choice",
+          "uses": ["v4-66"],
+          "jp": "{人|ひと}が{話|はな}しているときに、けいたいを{見|み}るのは＿です。",
+          "fr": "Regarder son portable pendant que quelqu'un parle, c'est impoli.",
+          "choices": ["しつれい", "さかん", "たしか", "すばらしい"],
+          "a": 0
+        },
+        {
+          "id": "v4-79-e11",
+          "type": "choice",
+          "uses": ["v4-51"],
+          "jp": "＿、{会議|かいぎ}は{三時|さんじ}からだったと{思|おも}います。",
+          "fr": "Si je me souviens bien, la réunion était à trois heures.",
+          "choices": ["たしか", "てきとう", "さかん", "しつれい"],
+          "a": 0
+        },
+        {
+          "id": "v4-79-e12",
+          "type": "choice",
+          "uses": ["v5-29"],
+          "jp": "（　）に＿なことばを{入|い}れてください。",
+          "fr": "Mettez le mot qui convient entre les parenthèses.",
+          "choices": ["てきとう", "さかん", "きけん", "しつれい"],
+          "a": 0
+        },
+        {
+          "id": "v4-79-e13",
+          "type": "choice",
+          "uses": ["v5-31"],
+          "jp": "この{町|まち}はサッカーが＿で、{子|こ}どもたちはみんなサッカーをします。",
+          "fr": "Le foot est très populaire dans cette ville : tous les enfants y jouent.",
+          "choices": ["さかん", "しつれい", "きけん", "てきとう"],
+          "a": 0
+        },
+        {
+          "id": "v4-79-e14",
+          "type": "choice",
+          "uses": ["v4-54", "v4-64"],
+          "jp": "＿{会議|かいぎ}を{始|はじ}めます。みなさん、すわってください。",
+          "fr": "Nous allons maintenant commencer la réunion. Asseyez-vous, tout le monde.",
+          "choices": ["これから", "たしか", "さっき", "むかし"],
+          "a": 0
+        },
+        {
+          "id": "v4-79-e15",
+          "type": "choice",
+          "uses": ["v4-63"],
+          "jp": "じしんで{家|いえ}が{大|おお}きく＿。",
+          "fr": "La maison a beaucoup tremblé à cause du séisme.",
+          "choices": ["ゆれました", "わかれました", "くらしました", "{降|お}ろしました"],
+          "a": 0,
+          "star": {"jp": "ゆれる", "kana": "ゆれる", "fr": "trembler, bouger"}
+        },
+        {
+          "id": "v4-79-e16",
+          "type": "choice",
+          "q": "Que veut dire **おそわる** ?",
+          "choices": ["apprendre (de quelqu'un)", "enseigner", "se faire gronder", "se tromper"],
+          "a": 0
+        },
+        {
+          "id": "v4-79-e17",
+          "type": "choice",
+          "q": "Dans « {宿題|しゅくだい}がすみました », que veut dire すむ ?",
+          "choices": ["se terminer", "habiter", "vivre", "se tromper"],
+          "a": 0
+        },
+        {
+          "id": "v4-79-e18",
+          "type": "order",
+          "uses": ["v5-15"],
+          "fr": "Emmène-moi en voiture jusqu'à la gare, s'il te plaît.",
+          "tokens": ["{駅|えき}まで", "{車|くるま}に", "{乗|の}せて", "ください"],
+          "alt": [["{車|くるま}に", "{駅|えき}まで", "{乗|の}せて", "ください"]]
+        }
+      ]
+    },
+    {
+      "id": "v4-80",
+      "title": "Suffixes et mots composés",
+      "words": [
+        {"jp": "〜{中|ちゅう}", "kana": "〜ちゅう", "fr": "en cours de …", "ex": "{田中|たなか}さんは{今|いま}、{電話|でんわ}{中|ちゅう}です。", "exFr": "M. Tanaka est au téléphone en ce moment."},
+        {"jp": "〜{中|じゅう}", "kana": "〜じゅう", "fr": "pendant tout …", "ex": "{昨日|きのう}は{一日中|いちにちじゅう}{雨|あめ}でした。", "exFr": "Il a plu toute la journée hier."},
+        {"jp": "〜{始|はじ}める", "kana": "〜はじめる", "fr": "commencer à …", "ex": "{雨|あめ}が{降|ふ}り{始|はじ}めました。", "exFr": "Il a commencé à pleuvoir."},
+        {"jp": "〜{終|お}わる", "kana": "〜おわる", "fr": "finir de …", "ex": "この{本|ほん}をやっと{読|よ}み{終|お}わりました。", "exFr": "J'ai enfin fini de lire ce livre."},
+        {"jp": "〜やすい", "kana": "〜やすい", "fr": "facile à …", "ex": "このペンは{書|か}きやすいです。", "exFr": "Ce stylo écrit bien (il est facile à utiliser)."},
+        {"jp": "〜にくい", "kana": "〜にくい", "fr": "difficile à …", "ex": "この{漢字|かんじ}はおぼえにくいです。", "exFr": "Ce kanji est difficile à retenir."},
+        {"jp": "〜すぎる", "kana": "〜すぎる", "fr": "trop …", "ex": "{昨日|きのう}は{食|た}べすぎました。", "exFr": "Hier, j'ai trop mangé."},
+        {"jp": "〜{出|だ}す", "kana": "〜だす", "fr": "se mettre (soudain) à …", "ex": "{急|きゅう}に{子|こ}どもがなき{出|だ}しました。", "exFr": "D'un coup, l'enfant s'est mis à pleurer."},
+        {"jp": "〜つづける", "kana": "〜つづける", "fr": "continuer à …", "ex": "{三時間|さんじかん}{歩|ある}きつづけました。", "exFr": "J'ai marché trois heures sans m'arrêter."},
+        {"jp": "〜なおす", "kana": "〜なおす", "fr": "refaire", "ex": "まちがえたので、{書|か}きなおしました。", "exFr": "Je m'étais trompé, alors j'ai réécrit."},
+        {"jp": "〜{合|あ}う", "kana": "〜あう", "fr": "… ensemble, l'un l'autre", "ex": "{友|とも}だちと{話|はな}し{合|あ}って、きめました。", "exFr": "On en a discuté ensemble, mon ami et moi, et on a décidé."},
+        {"jp": "〜{目|め}", "kana": "〜め", "fr": "…ième", "ex": "{二|ふた}つ{目|め}の{駅|えき}で{降|お}りてください。", "exFr": "Descendez à la deuxième gare."},
+        {"jp": "〜せい", "kana": "〜せい", "fr": "fabriqué en …", "ex": "これは{日本|にほん}せいの{時計|とけい}です。", "exFr": "C'est une montre fabriquée au Japon."},
+        {"jp": "〜{料|りょう}", "kana": "〜りょう", "fr": "frais de …", "ex": "{入場料|にゅうじょうりょう}は{五百円|ごひゃくえん}です。", "exFr": "L'entrée coûte cinq cents yens."},
+        {"jp": "〜{者|しゃ}", "kana": "〜しゃ", "fr": "… (personne)", "ex": "しょうらい、{研究者|けんきゅうしゃ}になりたいです。", "exFr": "Plus tard, je veux devenir chercheur."}
+      ],
+      "sections": [
+        {
+          "h": "Radical du verbe + suffixe",
+          "p": ["On prend le radical de la forme ます : {読|よ}み（ます）→ {読|よ}み{始|はじ}める, {読|よ}みやすい, {読|よ}みすぎる."],
+          "grid": {
+            "head": ["", "sens"],
+            "rows": [
+              ["〜{始|はじ}める · 〜{出|だ}す", "commencer à (出す : d'un coup)"],
+              ["〜{終|お}わる · 〜つづける", "finir de · continuer à"],
+              ["〜やすい · 〜にくい", "facile à · difficile à"],
+              ["〜すぎる", "trop (aussi après un adjectif : {高|たか}すぎる)"],
+              ["〜なおす", "refaire"],
+              ["〜{合|あ}う", "l'un l'autre, ensemble"]
+            ]
+          }
+        }
+      ],
+      "pieges": [
+        "Radical de la forme ます + suffixe : {書|か}き + やすい = {書|か}きやすい.",
+        "〜{中|ちゅう} = en cours de ({会議|かいぎ}{中|ちゅう}) ; 〜{中|じゅう} = pendant tout ({一日中|いちにちじゅう}, {世界中|せかいじゅう}).",
+        "〜{出|だ}す = se mettre **soudain** à : なき{出|だ}す = éclater en sanglots.",
+        "〜すぎる marche aussi avec les adjectifs : {高|たか}すぎる = trop cher (い tombe).",
+        "〜{目|め} = rang : {二|ふた}つ{目|め}, {三人目|さんにんめ} (comme 〜ばんめ, leçon 70).",
+        "〜せい = fabriqué en ({日本|にほん}せい) ; 〜{料|りょう} = frais ({入場料|にゅうじょうりょう}) ; 〜{者|しゃ} = la personne ({研究者|けんきゅうしゃ})."
+      ],
+      "exercises": [
+        {
+          "id": "v4-80-e01",
+          "type": "choice",
+          "uses": ["v4-51"],
+          "jp": "{田中|たなか}さんは{今|いま}、{会議|かいぎ}＿です。あとで{電話|でんわ}してください。",
+          "fr": "M. Tanaka est en réunion. Rappelez plus tard, s'il vous plaît.",
+          "choices": ["{中|ちゅう}", "{目|め}", "せい", "{料|りょう}"],
+          "a": 0,
+          "star": {"jp": "〜{中|ちゅう}", "kana": "〜ちゅう", "fr": "en cours de …"}
+        },
+        {
+          "id": "v4-80-e02",
+          "type": "choice",
+          "uses": ["v5-38"],
+          "jp": "{昨日|きのう}は{一日|いちにち}＿{雨|あめ}でした。",
+          "fr": "Il a plu toute la journée hier.",
+          "choices": ["{中|じゅう}", "{目|め}", "せい", "{者|しゃ}"],
+          "a": 0,
+          "star": {"jp": "〜{中|じゅう}", "kana": "〜じゅう", "fr": "pendant tout …"}
+        },
+        {
+          "id": "v4-80-e03",
+          "type": "choice",
+          "uses": ["v5-25"],
+          "jp": "{雨|あめ}が{降|ふ}り＿ましたから、かさをさしました。",
+          "fr": "Il a commencé à pleuvoir, alors j'ai ouvert mon parapluie.",
+          "choices": ["{始|はじ}め", "{終|お}わり", "なおし", "{合|あ}い"],
+          "a": 0,
+          "star": {"jp": "〜{始|はじ}める", "kana": "〜はじめる", "fr": "commencer à …"}
+        },
+        {
+          "id": "v4-80-e04",
+          "type": "choice",
+          "uses": ["v4-49"],
+          "jp": "この{本|ほん}をやっと{読|よ}み＿。{三週間|さんしゅうかん}かかりました。",
+          "fr": "J'ai enfin fini de lire ce livre. Ça m'a pris trois semaines.",
+          "choices": ["{終|お}わりました", "つづけました", "すぎました", "{合|あ}いました"],
+          "a": 0,
+          "star": {"jp": "〜{終|お}わる", "kana": "〜おわる", "fr": "finir de …"}
+        },
+        {
+          "id": "v4-80-e05",
+          "type": "choice",
+          "jp": "このペンはとても{書|か}き＿です。",
+          "fr": "Ce stylo écrit très bien.",
+          "choices": ["やすい", "すぎ", "{終|お}わり", "{出|だ}し"],
+          "a": 0,
+          "star": {"jp": "〜やすい", "kana": "〜やすい", "fr": "facile à …"}
+        },
+        {
+          "id": "v4-80-e06",
+          "type": "choice",
+          "uses": ["v4-75", "v4-78"],
+          "jp": "この{漢字|かんじ}はかたちがふくざつで、おぼえ＿です。",
+          "fr": "Ce kanji a une forme compliquée, il est difficile à retenir.",
+          "choices": ["にくい", "やすい", "すぎ", "なおし"],
+          "a": 0,
+          "star": {"jp": "〜にくい", "kana": "〜にくい", "fr": "difficile à …"}
+        },
+        {
+          "id": "v4-80-e07",
+          "type": "choice",
+          "uses": ["v5-23"],
+          "jp": "{昨日|きのう}はケーキを{食|た}べ＿て、おなかがいたいです。",
+          "fr": "J'ai mangé trop de gâteau hier, j'ai mal au ventre.",
+          "choices": ["すぎ", "やす", "にく", "{合|あ}い"],
+          "a": 0,
+          "star": {"jp": "〜すぎる", "kana": "〜すぎる", "fr": "trop …"}
+        },
+        {
+          "id": "v4-80-e08",
+          "type": "choice",
+          "uses": ["v4-41", "v4-55"],
+          "jp": "{急|きゅう}に{子|こ}どもがなき＿ました。",
+          "fr": "D'un coup, l'enfant s'est mis à pleurer.",
+          "choices": ["{出|だ}し", "やすく", "すぎ", "なおし"],
+          "a": 0,
+          "star": {"jp": "〜{出|だ}す", "kana": "〜だす", "fr": "se mettre (soudain) à …"}
+        },
+        {
+          "id": "v4-80-e09",
+          "type": "choice",
+          "uses": ["v5-36"],
+          "jp": "{三時間|さんじかん}{歩|ある}き＿て、つかれました。",
+          "fr": "J'ai marché trois heures sans m'arrêter, je suis fatigué.",
+          "choices": ["つづけ", "{始|はじ}め", "なおし", "{合|あ}っ"],
+          "a": 0,
+          "star": {"jp": "〜つづける", "kana": "〜つづける", "fr": "continuer à …"}
+        },
+        {
+          "id": "v4-80-e10",
+          "type": "choice",
+          "uses": ["v4-75"],
+          "jp": "{答|こた}えをまちがえたので、{書|か}き＿ました。",
+          "fr": "Je m'étais trompé de réponse, alors j'ai réécrit.",
+          "choices": ["なおし", "すぎ", "{出|だ}し", "{合|あ}い"],
+          "a": 0,
+          "star": {"jp": "〜なおす", "kana": "〜なおす", "fr": "refaire"}
+        },
+        {
+          "id": "v4-80-e11",
+          "type": "choice",
+          "uses": ["v4-48", "v4-69"],
+          "jp": "{友|とも}だちと{話|はな}し＿て、{旅行|りょこう}の{場所|ばしょ}をきめました。",
+          "fr": "On en a discuté ensemble, mon ami et moi, et on a choisi la destination du voyage.",
+          "choices": ["{合|あ}っ", "すぎ", "にくく", "{出|だ}し"],
+          "a": 0,
+          "star": {"jp": "〜{合|あ}う", "kana": "〜あう", "fr": "… ensemble, l'un l'autre"}
+        },
+        {
+          "id": "v4-80-e12",
+          "type": "choice",
+          "uses": ["v5-15"],
+          "jp": "{二|ふた}つ＿の{駅|えき}で{降|お}りてください。",
+          "fr": "Descendez à la deuxième gare.",
+          "choices": ["{目|め}", "{中|ちゅう}", "{料|りょう}", "せい"],
+          "a": 0,
+          "star": {"jp": "〜{目|め}", "kana": "〜め", "fr": "…ième"}
+        },
+        {
+          "id": "v4-80-e13",
+          "type": "choice",
+          "uses": ["v5-12"],
+          "jp": "この{時計|とけい}は{日本|にほん}＿です。とてもいいです。",
+          "fr": "Cette montre est fabriquée au Japon. Elle est très bien.",
+          "choices": ["せい", "{中|ちゅう}", "{料|りょう}", "{目|め}"],
+          "a": 0,
+          "star": {"jp": "〜せい", "kana": "〜せい", "fr": "fabriqué en …"}
+        },
+        {
+          "id": "v4-80-e14",
+          "type": "choice",
+          "uses": ["v4-61"],
+          "jp": "このてんらんかいの{入場|にゅうじょう}＿は{五百円|ごひゃくえん}です。",
+          "fr": "L'entrée de cette exposition coûte cinq cents yens.",
+          "choices": ["{料|りょう}", "{中|ちゅう}", "せい", "{目|め}"],
+          "a": 0,
+          "star": {"jp": "〜{料|りょう}", "kana": "〜りょう", "fr": "frais de …"}
+        },
+        {
+          "id": "v4-80-e15",
+          "type": "choice",
+          "uses": ["v4-52", "v4-54"],
+          "jp": "しょうらい、{研究|けんきゅう}＿になりたいです。",
+          "fr": "Plus tard, je veux devenir chercheur.",
+          "choices": ["{者|しゃ}", "{料|りょう}", "{目|め}", "{中|ちゅう}"],
+          "a": 0,
+          "star": {"jp": "〜{者|しゃ}", "kana": "〜しゃ", "fr": "… (personne)"}
+        },
+        {
+          "id": "v4-80-e16",
+          "type": "choice",
+          "q": "Que veut dire **{読|よ}みやすい** ?",
+          "choices": ["facile à lire", "difficile à lire", "trop lire", "commencer à lire"],
+          "a": 0
+        },
+        {
+          "id": "v4-80-e17",
+          "type": "choice",
+          "q": "Que veut dire **{高|たか}すぎる** ?",
+          "choices": ["trop cher", "pas assez cher", "de plus en plus cher", "facile à acheter"],
+          "a": 0
+        },
+        {
+          "id": "v4-80-e18",
+          "type": "order",
+          "uses": ["v5-23"],
+          "fr": "J'ai trop mangé hier, j'ai mal au ventre.",
+          "tokens": ["{昨日|きのう}は", "{食|た}べすぎて、", "おなかが", "いたいです"]
+        }
+      ]
+    }
+  ],
+  "test": [
+    {
+      "id": "v4-b16-t01",
+      "type": "choice",
+      "uses": ["v4-76"],
+      "jp": "なくしたさいふを{一時間|いちじかん}＿いますが、{見|み}つかりません。",
+      "fr": "Ça fait une heure que je cherche le portefeuille que j'ai perdu, sans le trouver.",
+      "choices": ["さがして", "しらべて", "そだてて", "にげて"],
+      "a": 0,
+      "star": {"jp": "さがす", "kana": "さがす", "fr": "chercher (un objet)"}
+    },
+    {
+      "id": "v4-b16-t02",
+      "type": "choice",
+      "uses": ["v4-77"],
+      "jp": "{母|はは}の{引|ひ}っこしを＿。にもつが{多|おお}くて、たいへんでした。",
+      "fr": "J'ai aidé ma mère à déménager. Il y avait beaucoup d'affaires, c'était dur.",
+      "choices": ["てつだいました", "しかりました", "ほめました", "おどろきました"],
+      "a": 0,
+      "star": {"jp": "てつだう", "kana": "てつだう", "fr": "aider"}
+    },
+    {
+      "id": "v4-b16-t03",
+      "type": "choice",
+      "uses": ["v4-78", "v4-80"],
+      "jp": "このパンは＿て、{小|ちい}さい{子|こ}どもも{食|た}べやすいです。",
+      "fr": "Ce pain est moelleux, même les petits enfants le mangent facilement.",
+      "choices": ["やわらかく", "かたく", "ねむく", "ふかく"],
+      "a": 0,
+      "star": {"jp": "やわらかい", "kana": "やわらかい", "fr": "mou, tendre"}
+    },
+    {
+      "id": "v4-b16-t04",
+      "type": "choice",
+      "uses": ["v4-79"],
+      "q": "Tu es dans un taxi.",
+      "jp": "すみません、{駅|えき}で＿ください。",
+      "fr": "Excusez-moi, déposez-moi à la gare.",
+      "choices": ["{降|お}ろして", "{降|お}りて", "くらして", "すんで"],
+      "a": 0,
+      "star": {"jp": "{降|お}ろす", "kana": "おろす", "fr": "déposer, faire descendre"}
+    },
+    {
+      "id": "v4-b16-t05",
+      "type": "choice",
+      "uses": ["v4-80"],
+      "jp": "この{漢字|かんじ}はかたちがふくざつで、{書|か}き＿です。",
+      "fr": "Ce kanji a une forme compliquée, il est difficile à écrire.",
+      "choices": ["にくい", "やすい", "すぎ", "{出|だ}し"],
+      "a": 0,
+      "star": {"jp": "〜にくい", "kana": "〜にくい", "fr": "difficile à …"}
+    },
+    {
+      "id": "v4-b16-t06",
+      "type": "choice",
+      "star": {"jp": "かう", "kana": "かう", "fr": "avoir (un animal)"},
+      "uses": ["v4-76"],
+      "jp": "うちでは、ねこを{二|に}ひき＿います。かわいいです。",
+      "fr": "Chez nous, on a deux chats. Ils sont mignons.",
+      "choices": ["かって", "{買|か}って", "うえて", "はって"],
+      "a": 0
+    },
+    {
+      "id": "v4-b16-t07",
+      "type": "choice",
+      "uses": ["v4-77"],
+      "jp": "{来月|らいげつ}、{日本語|にほんご}の{試験|しけん}を＿つもりです。",
+      "fr": "J'ai l'intention de passer l'examen de japonais le mois prochain.",
+      "choices": ["うける", "ごうかくする", "はこぶ", "ねむる"],
+      "a": 0
+    },
+    {"id": "v4-b16-t08", "type": "choice", "uses": ["v4-78"], "q": "Contraire de **あさい** ?", "choices": ["ふかい", "うすい", "かるい", "ひくい"], "a": 0},
+    {
+      "id": "v4-b16-t09",
+      "type": "choice",
+      "star": {"jp": "すむ", "kana": "すむ", "fr": "se terminer"},
+      "uses": ["v4-79"],
+      "jp": "{宿題|しゅくだい}が＿ら、テレビを{見|み}てもいいですよ。",
+      "fr": "Quand tes devoirs seront finis, tu pourras regarder la télé.",
+      "choices": ["すんだ", "{住|す}んだ", "くらした", "わかれた"],
+      "a": 0
+    },
+    {
+      "id": "v4-b16-t10",
+      "type": "choice",
+      "star": {"jp": "ほめる", "kana": "ほめる", "fr": "féliciter, faire des compliments"},
+      "uses": ["v4-77"],
+      "jp": "{先生|せんせい}に{作文|さくぶん}を＿、うれしかったです。",
+      "fr": "Le professeur m'a félicité pour ma rédaction, j'étais content.",
+      "choices": ["ほめられて", "しかられて", "てつだわれて", "はこばれて"],
+      "a": 0
+    },
+    {
+      "id": "v4-b16-t11",
+      "type": "choice",
+      "star": {"jp": "{一日中|いちにちじゅう}", "kana": "いちにちじゅう", "fr": "toute la journée"},
+      "uses": ["v4-80"],
+      "q": "Comment se lit **一日中** ?",
+      "choices": ["いちにちじゅう", "いちにちちゅう", "ついたちじゅう", "ひとひなか"],
+      "a": 0
+    },
+    {
+      "id": "v4-b16-t12",
+      "type": "choice",
+      "uses": ["v4-76"],
+      "jp": "{日本|にほん}のせいかつにもう＿か。",
+      "fr": "Tu t'es déjà habitué à la vie au Japon ?",
+      "choices": ["なれました", "にげました", "おれました", "かいました"],
+      "a": 0,
+      "star": {"jp": "なれる", "kana": "なれる", "fr": "s'habituer"}
+    },
+    {
+      "id": "v4-b16-t13",
+      "type": "choice",
+      "uses": ["v4-78"],
+      "jp": "{一週間|いっしゅうかん}で{本|ほん}を{二十|にじゅっ}さつ{読|よ}むのは＿です。",
+      "fr": "Lire vingt livres en une semaine, c'est impossible.",
+      "choices": ["むり", "やわらかい", "あさい", "ねむい"],
+      "a": 0
+    },
+    {
+      "id": "v4-b16-t14",
+      "type": "order",
+      "uses": ["v4-80"],
+      "fr": "J'ai marché trois heures sans m'arrêter, je suis fatigué.",
+      "tokens": ["{三時間|さんじかん}", "{歩|ある}きつづけて、", "つかれました"]
+    },
+    {
+      "id": "v4-b16-t15",
+      "type": "choice",
+      "uses": ["v4-79"],
+      "jp": "じしんで{家|いえ}が＿。こわかったです。",
+      "fr": "La maison a tremblé avec le séisme. J'ai eu peur.",
+      "choices": ["ゆれました", "わかれました", "おれました", "にげました"],
+      "a": 0,
+      "star": {"jp": "ゆれる", "kana": "ゆれる", "fr": "trembler, bouger"}
+    },
+    {
+      "id": "v4-b16-t16",
+      "type": "choice",
+      "uses": ["v4-79"],
+      "jp": "{人|ひと}の{家|いえ}に{入|はい}るとき、くつをぬがないのは＿です。",
+      "fr": "Ne pas enlever ses chaussures en entrant chez quelqu'un, c'est impoli.",
+      "choices": ["しつれい", "さかん", "てきとう", "たしか"],
+      "a": 0
+    }
+  ],
+  "examTest": [
+    {
+      "id": "v4-x08-01",
+      "type": "choice",
+      "uses": ["v4-71", "v4-72"],
+      "q": "Tu parles de ton professeur à un camarade de classe. Une seule phrase convient. Laquelle ?",
+      "choices": [
+        "{先生|せんせい}は{明日|あした}{京都|きょうと}へいらっしゃいます。",
+        "{先生|せんせい}は{明日|あした}{京都|きょうと}へまいります。",
+        "{先生|せんせい}は{明日|あした}{京都|きょうと}へいらっしゃります。",
+        "{先生|せんせい}は{明日|あした}{京都|きょうと}をいらっしゃいます。"
+      ],
+      "a": 0
+    },
+    {
+      "id": "v4-x08-02",
+      "type": "choice",
+      "uses": ["v4-75", "v4-78"],
+      "jp": "{田中|たなか}さんのようすが＿です。{朝|あさ}から{何|なに}も{話|はな}しません。",
+      "fr": "M. Tanaka a l'air bizarre. Il n'a rien dit depuis ce matin.",
+      "choices": ["おかしい", "すばらしい", "やわらかい", "あさい"],
+      "a": 0
+    },
+    {
+      "id": "v4-x08-03",
+      "type": "choice",
+      "uses": ["v4-75", "v4-77"],
+      "jp": "{試験|しけん}の＿が{悪|わる}かったので、もう{一度|いちど}うけます。",
+      "fr": "Mes résultats à l'examen étaient mauvais, alors je le repasse.",
+      "choices": ["けっか", "もくてき", "ほうほう", "かたち"],
+      "a": 0
+    },
+    {
+      "id": "v4-x08-04",
+      "type": "choice",
+      "uses": ["v4-80"],
+      "jp": "{昨日|きのう}はねつがあって、{一日中|いちにちじゅう}＿いました。",
+      "fr": "Hier j'avais de la fièvre, je suis resté couché toute la journée.",
+      "choices": ["ねて", "さわいで", "はこんで", "おどろいて"],
+      "a": 0
+    },
+    {
+      "id": "v4-x08-05",
+      "type": "choice",
+      "uses": ["v4-68", "v4-70"],
+      "q": "{日本|にほん}の{人口|じんこう}の{三十|さんじゅう}パーセントぐらいが{六十五|ろくじゅうご}さい{以上|いじょう}です。 Quelle part des Japonais a 65 ans ou plus ?",
+      "choices": ["environ 30 %", "environ 3 %", "environ 65 %", "environ 13 %"],
+      "a": 0
+    },
+    {
+      "id": "v4-x08-06",
+      "type": "choice",
+      "uses": ["v4-71", "v4-72"],
+      "jp": "{来週|らいしゅう}、{先生|せんせい}のおたくに＿もよろしいでしょうか。",
+      "fr": "Me permettez-vous de passer chez vous la semaine prochaine, professeur ?",
+      "choices": ["うかがって", "いらっしゃって", "めしあがって", "くださって"],
+      "a": 0,
+      "star": {"jp": "うかがう", "kana": "うかがう", "fr": "rendre visite ; demander (modestie)"}
+    },
+    {
+      "id": "v4-x08-07",
+      "type": "choice",
+      "uses": ["v4-75", "v4-79"],
+      "jp": "{部長|ぶちょう}が{病気|びょうき}でしたから、{部長|ぶちょう}に＿、{私|わたし}が{会議|かいぎ}で{説明|せつめい}しました。",
+      "fr": "Le chef était malade, alors c'est moi qui ai fait la présentation à la réunion à sa place.",
+      "choices": ["{代|か}わって", "すんで", "くらして", "わかれて"],
+      "a": 0,
+      "star": {"jp": "{代|か}わる", "kana": "かわる", "fr": "remplacer"}
+    },
+    {
+      "id": "v4-x08-08",
+      "type": "order",
+      "uses": ["v4-77", "v4-80"],
+      "fr": "Ce dictionnaire est facile à utiliser et très utile.",
+      "tokens": ["このじしょは", "{使|つか}いやすくて、", "とても", "やくに{立|た}ちます"]
+    },
+    {
+      "id": "v4-x08-09",
+      "type": "choice",
+      "uses": ["v4-63", "v4-75"],
+      "q": "Que veut dire : {台風|たいふう}のため、{試合|しあい}は{来週|らいしゅう}になりました。",
+      "choices": [
+        "À cause du typhon, le match a été reporté à la semaine prochaine.",
+        "Malgré le typhon, le match a lieu cette semaine.",
+        "Grâce au typhon, on a gagné le match.",
+        "Le typhon arrivera la semaine prochaine, pendant le match."
+      ],
+      "a": 0
+    },
+    {
+      "id": "v4-x08-10",
+      "type": "choice",
+      "uses": ["v4-73"],
+      "q": "Au restaurant. Le client : « コーヒーをおねがいします。» Que répond l'employé ?",
+      "choices": ["かしこまりました", "おじゃまします", "おかげさまで", "どういたしまして"],
+      "a": 0
+    },
+    {
+      "id": "v4-x08-11",
+      "type": "choice",
+      "uses": ["v4-79"],
+      "jp": "この{道|みち}は{夜|よる}{暗|くら}くて、{一人|ひとり}で{歩|ある}くのは＿です。",
+      "fr": "Cette rue est sombre la nuit, il est dangereux d'y marcher seul.",
+      "choices": ["きけん", "さかん", "たしか", "やわらかい"],
+      "a": 0
+    },
+    {
+      "id": "v4-x08-12",
+      "type": "choice",
+      "uses": ["v4-76"],
+      "jp": "{先週|せんしゅう}から{新|あたら}しい{仕事|しごと}を{始|はじ}めましたが、まだ＿いません。",
+      "fr": "J'ai commencé un nouveau travail la semaine dernière, mais je ne m'y suis pas encore habitué.",
+      "choices": ["なれて", "にげて", "おれて", "かって"],
+      "a": 0,
+      "star": {"jp": "なれる", "kana": "なれる", "fr": "s'habituer"}
+    },
+    {
+      "id": "v4-x08-13",
+      "type": "choice",
+      "uses": ["v4-75"],
+      "jp": "{母|はは}は{料理|りょうり}の{時間|じかん}を{短|みじか}くする＿をいろいろ{考|かんが}えています。",
+      "fr": "Ma mère cherche toutes sortes de moyens de passer moins de temps à cuisiner.",
+      "choices": ["ほうほう", "けっか", "かたち", "けしき"],
+      "a": 0
+    },
+    {
+      "id": "v4-x08-14",
+      "type": "choice",
+      "uses": ["v4-64", "v4-78"],
+      "jp": "ゆかたは{夏|なつ}に{着|き}るものです。{冬|ふゆ}にゆかたを{着|き}る{人|ひと}は＿です。",
+      "fr": "Le yukata se porte en été. Les gens qui en portent en hiver sont rares.",
+      "choices": ["めずらしい", "ふかい", "やわらかい", "あさい"],
+      "a": 0
+    },
+    {
+      "id": "v4-x08-15",
+      "type": "choice",
+      "uses": ["v4-79"],
+      "q": "Que veut dire : {宿題|しゅくだい}がすんだら、{遊|あそ}びに{行|い}ってもいいです。",
+      "choices": [
+        "Quand tu auras fini tes devoirs, tu pourras aller jouer.",
+        "Si tu habites ici, tu peux aller jouer.",
+        "Fais tes devoirs en jouant.",
+        "Tu ne pourras pas aller jouer avant demain."
+      ],
+      "a": 0
+    }
+  ]
+}
