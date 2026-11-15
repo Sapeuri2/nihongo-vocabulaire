@@ -73,14 +73,14 @@ def _forme_de(ans, w):
     p = plain(w['jp']).lstrip('〜')
     s = stem(w['jp'])
     pa = plain(ans)
-    if not s or not pa.startswith(s) or pa == p: return False
+    if not s or not pa.startswith(s) or pa == p or p.endswith('ます'): return False  # いただきます : formule, pas un verbe
     if not (len(s) >= 2 or _re.search(r'[\u3400-\u9fff]', s)): return False
     if not reading(ans).startswith(stem(w['kana'])): return False
     rest = pa[len(s):]
     if p.endswith('する') and len(p) > 2: return rest == '' or rest[0] in 'しさすせ'
     fin = p[-1]
     if fin == 'る':  # groupe 2 : radical seul (足り|ません) ; さ seulement pour させる
-        return rest == '' or rest[0] in 'りらっれろるまてたなよず' or rest.startswith('させ')
+        return rest == '' or rest[0] in 'りらっれろるまてたなよずい' or rest.startswith('させ')  # い : おっしゃいます
     if fin not in _SUITE: return False
     return rest[:1] in _SUITE[fin] if rest else False
 

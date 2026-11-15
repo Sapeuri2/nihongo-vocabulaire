@@ -1,0 +1,1108 @@
+{
+  "id": "v4-b15",
+  "level": "N4",
+  "title": "Politesse : keigo, formules, mots abstraits",
+  "lessons": [
+    {
+      "id": "v4-71",
+      "title": "Keigo : verbes de respect",
+      "words": [
+        {"jp": "いらっしゃる", "kana": "いらっしゃる", "fr": "être, aller, venir (respect)", "ex": "{社長|しゃちょう}は{今|いま}、{会議室|かいぎしつ}にいらっしゃいます。", "exFr": "Le patron est dans la salle de réunion."},
+        {"jp": "おっしゃる", "kana": "おっしゃる", "fr": "dire (respect)", "ex": "{先生|せんせい}が{明日|あした}{試験|しけん}があるとおっしゃいました。", "exFr": "Le professeur a dit qu'il y avait un examen demain."},
+        {"jp": "めしあがる", "kana": "めしあがる", "fr": "manger, boire (respect)", "ex": "どうぞ、めしあがってください。", "exFr": "Je vous en prie, servez-vous."},
+        {"jp": "なさる", "kana": "なさる", "fr": "faire (respect)", "ex": "{週末|しゅうまつ}は{何|なに}をなさいますか。", "exFr": "Que faites-vous le week-end ?"},
+        {"jp": "ごらんになる", "kana": "ごらんになる", "fr": "voir, regarder (respect)", "ex": "この{写真|しゃしん}をごらんになりましたか。", "exFr": "Avez-vous vu cette photo ?"},
+        {"jp": "くださる", "kana": "くださる", "fr": "me donner (respect)", "ex": "{先生|せんせい}がこの{本|ほん}をくださいました。", "exFr": "Le professeur m'a donné ce livre."},
+        {"jp": "ごぞんじ", "kana": "ごぞんじ", "fr": "savoir, connaître (respect)", "ex": "{田中|たなか}さんをごぞんじですか。", "exFr": "Connaissez-vous M. Tanaka ?"},
+        {"jp": "おたく", "kana": "おたく", "fr": "votre maison (poli)", "ex": "{先生|せんせい}のおたくはどちらですか。", "exFr": "Où habitez-vous, monsieur le professeur ?"},
+        {"jp": "〜さま", "kana": "〜さま", "fr": "M. / Mme … (très poli)", "ex": "{山田|やまだ}さま、こちらへどうぞ。", "exFr": "Monsieur Yamada, par ici, je vous prie."},
+        {"jp": "おいでになる", "kana": "おいでになる", "fr": "venir, être (respect)", "ex": "{明日|あした}は{何時|なんじ}においでになりますか。", "exFr": "À quelle heure venez-vous demain ?"},
+        {"jp": "ございます", "kana": "ございます", "fr": "il y a (très poli)", "ex": "トイレはあちらにございます。", "exFr": "Les toilettes sont par là."},
+        {"jp": "いらっしゃいませ", "kana": "いらっしゃいませ", "fr": "bienvenue (magasin)", "ex": "いらっしゃいませ。{何名|なんめい}さまですか。", "exFr": "Bienvenue. Vous êtes combien ?"},
+        {"jp": "おきゃくさま", "kana": "おきゃくさま", "fr": "client (très poli)", "ex": "おきゃくさま、こちらへどうぞ。", "exFr": "Madame, monsieur, par ici je vous prie."},
+        {"jp": "お{休|やす}みになる", "kana": "おやすみになる", "fr": "se coucher, dormir (respect)", "ex": "{社長|しゃちょう}はもうお{休|やす}みになりました。", "exFr": "Le patron est déjà couché."}
+      ],
+      "sections": [
+        {
+          "h": "Les verbes de respect (そんけいご)",
+          "p": ["On les emploie pour ce que fait **l'autre** (client, professeur, supérieur). Jamais pour soi."],
+          "grid": {
+            "head": ["verbe simple", "respect"],
+            "rows": [
+              ["いる · {行|い}く · {来|く}る", "いらっしゃる"],
+              ["{言|い}う", "おっしゃる"],
+              ["{食|た}べる · {飲|の}む", "めしあがる"],
+              ["する", "なさる"],
+              ["{見|み}る", "ごらんになる"],
+              ["くれる", "くださる"],
+              ["{知|し}っている", "ごぞんじだ"],
+              ["ねる", "お{休|やす}みになる"]
+            ]
+          }
+        }
+      ],
+      "pieges": [
+        "Le respect s'emploie pour ce que fait **l'autre** : {先生|せんせい}が**いらっしゃいます**. Pour soi : leçon 72 (modestie).",
+        "Forme ます irrégulière : いらっしゃ**い**ます, おっしゃ**い**ます, なさ**い**ます, くださ**い**ます (pas 〜ります).",
+        "ございます = あります en très poli : トイレはあちらに**ございます**. Pour une personne : いらっしゃいます.",
+        "ごぞんじですか = vous connaissez ? Pour soi, on répond : はい、{知|し}っています.",
+        "おたく = la maison **de l'autre** (poli).",
+        "〜さま = さん en plus poli : おきゃくさま, {田中|たなか}さま."
+      ],
+      "exercises": [
+        {
+          "id": "v4-71-e01",
+          "type": "choice",
+          "star": {"jp": "いらっしゃる", "kana": "いらっしゃる", "fr": "être, aller, venir (respect)"},
+          "uses": ["v4-51"],
+          "jp": "{社長|しゃちょう}は{今|いま}、{会議室|かいぎしつ}に＿。",
+          "fr": "Le patron est dans la salle de réunion.",
+          "choices": ["いらっしゃいます", "いらっしゃります", "いらっしゃるます", "いらっしゃいいます"],
+          "a": 0,
+          "explain": "Forme ます irrégulière : いらっしゃ**い**ます."
+        },
+        {
+          "id": "v4-71-e02",
+          "type": "choice",
+          "uses": ["v5-29"],
+          "jp": "{先生|せんせい}が、{明日|あした}{試験|しけん}があると＿。",
+          "fr": "Le professeur a dit qu'il y avait un examen demain.",
+          "choices": ["おっしゃいました", "めしあがりました", "ごらんになりました", "くださいました"],
+          "a": 0,
+          "star": {"jp": "おっしゃる", "kana": "おっしゃる", "fr": "dire (respect)"}
+        },
+        {
+          "id": "v4-71-e03",
+          "type": "choice",
+          "jp": "どうぞ、たくさん＿ください。",
+          "fr": "Je vous en prie, servez-vous bien.",
+          "choices": ["めしあがって", "ごぞんじで", "くださって", "ございまして"],
+          "a": 0,
+          "star": {"jp": "めしあがる", "kana": "めしあがる", "fr": "manger, boire (respect)"}
+        },
+        {
+          "id": "v4-71-e04",
+          "type": "choice",
+          "uses": ["v5-17"],
+          "jp": "{先生|せんせい}は{週末|しゅうまつ}{何|なに}を＿か。",
+          "fr": "Professeur, que faites-vous le week-end ?",
+          "choices": ["なさいます", "なさります", "いたします", "ございます"],
+          "a": 0,
+          "star": {"jp": "なさる", "kana": "なさる", "fr": "faire (respect)"}
+        },
+        {
+          "id": "v4-71-e05",
+          "type": "choice",
+          "uses": ["v4-51"],
+          "jp": "{部長|ぶちょう}、{昨日|きのう}のしりょうを＿か。",
+          "fr": "Chef, avez-vous vu les documents d'hier ?",
+          "choices": ["ごらんになりました", "お{休|やす}みになりました", "めしあがりました", "おっしゃいました"],
+          "a": 0,
+          "star": {"jp": "ごらんになる", "kana": "ごらんになる", "fr": "voir, regarder (respect)"}
+        },
+        {
+          "id": "v4-71-e06",
+          "type": "choice",
+          "uses": ["v5-26"],
+          "jp": "{先生|せんせい}がこの{本|ほん}を{私|わたし}に＿。",
+          "fr": "Le professeur m'a donné ce livre.",
+          "choices": ["くださいました", "めしあがりました", "いらっしゃいました", "おっしゃいました"],
+          "a": 0,
+          "star": {"jp": "くださる", "kana": "くださる", "fr": "me donner (respect)"}
+        },
+        {
+          "id": "v4-71-e07",
+          "type": "choice",
+          "uses": ["v5-28"],
+          "jp": "{田中|たなか}{先生|せんせい}を＿か。— はい、よく{知|し}っています。",
+          "fr": "Connaissez-vous le professeur Tanaka ? — Oui, très bien.",
+          "choices": ["ごぞんじです", "ごらんになります", "めしあがります", "なさいます"],
+          "a": 0
+        },
+        {
+          "id": "v4-71-e08",
+          "type": "choice",
+          "uses": ["v5-09"],
+          "jp": "{先生|せんせい}の＿はどちらですか。— {駅|えき}の{近|ちか}くです。",
+          "fr": "Où est votre maison, professeur ? — Près de la gare.",
+          "choices": ["おたく", "おきゃくさま", "ございます", "いらっしゃいませ"],
+          "a": 0
+        },
+        {
+          "id": "v4-71-e09",
+          "type": "choice",
+          "uses": ["v5-11"],
+          "q": "Un client entre dans le restaurant. L'employé dit :",
+          "choices": ["いらっしゃいませ", "おじゃまします", "ただいま", "いただきます"],
+          "a": 0
+        },
+        {
+          "id": "v4-71-e10",
+          "type": "choice",
+          "jp": "トイレはあちらに＿。",
+          "fr": "Les toilettes sont par là.",
+          "choices": ["ございます", "いらっしゃいます", "なさいます", "おっしゃいます"],
+          "a": 0,
+          "explain": "Pour une chose, en très poli : ございます. いらっしゃる, c'est pour une personne."
+        },
+        {
+          "id": "v4-71-e11",
+          "type": "choice",
+          "uses": ["v4-51"],
+          "jp": "{社長|しゃちょう}はもう＿。{明日|あした}の{朝|あさ}お{会|あ}いできます。",
+          "fr": "Le patron est déjà couché. Vous pourrez le voir demain matin.",
+          "choices": ["お{休|やす}みになりました", "めしあがりました", "ごらんになりました", "ございました"],
+          "a": 0,
+          "star": {"jp": "お{休|やす}みになる", "kana": "おやすみになる", "fr": "se coucher, dormir (respect)"}
+        },
+        {
+          "id": "v4-71-e12",
+          "type": "choice",
+          "uses": ["v5-11"],
+          "jp": "{田中|たなか}＿、こちらへどうぞ。",
+          "fr": "Monsieur Tanaka, par ici je vous prie.",
+          "choices": ["さま", "くださる", "ございます", "おたく"],
+          "a": 0
+        },
+        {
+          "id": "v4-71-e13",
+          "type": "choice",
+          "uses": ["v5-16"],
+          "jp": "{明日|あした}は{何時|なんじ}にこちらへ＿か。",
+          "fr": "À quelle heure venez-vous ici demain ?",
+          "choices": ["おいでになります", "おっしゃいます", "ごぞんじです", "くださいます"],
+          "a": 0,
+          "star": {"jp": "おいでになる", "kana": "おいでになる", "fr": "venir, être (respect)"}
+        },
+        {"id": "v4-71-e14", "type": "choice", "q": "Forme de respect de **{言|い}う** ?", "choices": ["おっしゃる", "いらっしゃる", "なさる", "めしあがる"], "a": 0},
+        {"id": "v4-71-e15", "type": "choice", "q": "Forme de respect de **{食|た}べる** ?", "choices": ["めしあがる", "ごらんになる", "おっしゃる", "くださる"], "a": 0},
+        {"id": "v4-71-e16", "type": "choice", "q": "Forme de respect de **{見|み}る** ?", "choices": ["ごらんになる", "めしあがる", "なさる", "いらっしゃる"], "a": 0},
+        {
+          "id": "v4-71-e17",
+          "type": "choice",
+          "q": "Peut-on dire de soi-même : {私|わたし}はコーヒーをめしあがります ?",
+          "choices": [
+            "Non : めしあがる est réservé à ce que font les autres.",
+            "Oui, c'est très poli.",
+            "Oui, mais seulement au restaurant.",
+            "Non, il faut dire めしあがりです."
+          ],
+          "a": 0
+        },
+        {"id": "v4-71-e18", "type": "order", "fr": "Je vous en prie, servez-vous.", "tokens": ["どうぞ", "めしあがって", "ください"]}
+      ]
+    },
+    {
+      "id": "v4-72",
+      "title": "Keigo : verbes de modestie",
+      "words": [
+        {"jp": "まいる", "kana": "まいる", "fr": "aller, venir (modestie)", "ex": "{明日|あした}{十時|じゅうじ}にまいります。", "exFr": "Je viendrai demain à dix heures."},
+        {"jp": "もうす", "kana": "もうす", "fr": "dire, s'appeler (modestie)", "ex": "はじめまして、{田中|たなか}ともうします。", "exFr": "Enchanté, je m'appelle Tanaka."},
+        {"jp": "いたす", "kana": "いたす", "fr": "faire (modestie)", "ex": "{私|わたくし}がごあんないいたします。", "exFr": "Je vais vous guider."},
+        {"jp": "いただく", "kana": "いただく", "fr": "recevoir ; manger (modestie)", "ex": "{先生|せんせい}にじしょをいただきました。", "exFr": "Le professeur m'a offert un dictionnaire."},
+        {"jp": "はいけんする", "kana": "はいけんする", "fr": "voir, lire (modestie)", "ex": "お{手紙|てがみ}をはいけんしました。", "exFr": "J'ai lu votre lettre."},
+        {"jp": "うかがう", "kana": "うかがう", "fr": "rendre visite ; demander (modestie)", "ex": "{明日|あした}、おたくにうかがってもいいですか。", "exFr": "Puis-je passer chez vous demain ?"},
+        {"jp": "おる", "kana": "おる", "fr": "être (modestie)", "ex": "{父|ちち}は{今|いま}、{家|いえ}におります。", "exFr": "Mon père est à la maison en ce moment."},
+        {"jp": "お{目|め}にかかる", "kana": "おめにかかる", "fr": "rencontrer (modestie)", "ex": "{社長|しゃちょう}にお{目|め}にかかりたいです。", "exFr": "Je souhaiterais rencontrer le patron."},
+        {"jp": "さしあげる", "kana": "さしあげる", "fr": "donner (modestie)", "ex": "{先生|せんせい}に{花|はな}をさしあげました。", "exFr": "J'ai offert des fleurs au professeur."},
+        {"jp": "ぞんじる", "kana": "ぞんじる", "fr": "savoir, connaître (modestie)", "ex": "{田中|たなか}さんのことはよくぞんじています。", "exFr": "Je connais bien M. Tanaka."},
+        {"jp": "{私|わたくし}", "kana": "わたくし", "fr": "je, moi (très poli)", "ex": "{私|わたくし}が{田中|たなか}でございます。", "exFr": "C'est moi, Tanaka."},
+        {"jp": "もうしあげる", "kana": "もうしあげる", "fr": "dire (modestie, très poli)", "ex": "{心|こころ}からおれいをもうしあげます。", "exFr": "Je vous remercie du fond du cœur."}
+      ],
+      "sections": [
+        {
+          "h": "Les verbes de modestie (けんじょうご)",
+          "p": ["On les emploie pour ce que **je** fais (ou ma famille, mon entreprise) devant quelqu'un qu'on respecte."],
+          "grid": {
+            "head": ["verbe simple", "modestie"],
+            "rows": [
+              ["{行|い}く · {来|く}る", "まいる"],
+              ["{言|い}う", "もうす · もうしあげる"],
+              ["する", "いたす"],
+              ["もらう · {食|た}べる", "いただく"],
+              ["{見|み}る", "はいけんする"],
+              ["{聞|き}く · aller chez qqn", "うかがう"],
+              ["いる", "おる"],
+              ["{会|あ}う", "お{目|め}にかかる"],
+              ["あげる", "さしあげる"],
+              ["{知|し}っている", "ぞんじている"]
+            ]
+          }
+        }
+      ],
+      "pieges": [
+        "Même action, deux formes : {先生|せんせい}が**いらっしゃる** (respect) / {私|わたし}が**まいる** (modestie).",
+        "Au téléphone avec un client, on parle de **son propre** chef avec la modestie : {部長|ぶちょう}の{田中|たなか}は{会議|かいぎ}に{出|で}て**おります**.",
+        "いただきます (avant le repas) vient de いただく : recevoir humblement.",
+        "うかがう = « je viens chez vous » **ou** « je vous demande ».",
+        "Pour se présenter : 〜**ともうします**.",
+        "わたくし = « je » très poli (discours, téléphone professionnel)."
+      ],
+      "exercises": [
+        {
+          "id": "v4-72-e01",
+          "type": "choice",
+          "uses": ["v5-11"],
+          "jp": "はじめまして。マリー＿。よろしくおねがいします。",
+          "fr": "Enchantée. Je m'appelle Marie. Ravie de vous connaître.",
+          "choices": ["ともうします", "とおっしゃいます", "といたします", "とまいります"],
+          "a": 0
+        },
+        {
+          "id": "v4-72-e02",
+          "type": "choice",
+          "uses": ["v4-71"],
+          "q": "Tu parles à un client.",
+          "jp": "{明日|あした}{十時|じゅうじ}にそちらへ＿。",
+          "fr": "Je viendrai chez vous demain à dix heures.",
+          "choices": ["まいります", "いらっしゃいます", "めしあがります", "ごらんになります"],
+          "a": 0,
+          "explain": "Pour ce que **je** fais : modestie (まいる).",
+          "star": {"jp": "まいる", "kana": "まいる", "fr": "aller, venir (modestie)"}
+        },
+        {
+          "id": "v4-72-e03",
+          "type": "choice",
+          "uses": ["v4-46"],
+          "jp": "{私|わたくし}がごあんない＿。こちらへどうぞ。",
+          "fr": "Je vais vous guider. Par ici, je vous prie.",
+          "choices": ["いたします", "なさいます", "まいります", "もうします"],
+          "a": 0,
+          "star": {"jp": "いたす", "kana": "いたす", "fr": "faire (modestie)"}
+        },
+        {
+          "id": "v4-72-e04",
+          "type": "choice",
+          "uses": ["v5-12", "v5-19"],
+          "jp": "{先生|せんせい}にじしょを＿。とても{便利|べんり}です。",
+          "fr": "Le professeur m'a offert un dictionnaire. Il est très pratique.",
+          "choices": ["いただきました", "くださいました", "さしあげました", "もうしました"],
+          "a": 0,
+          "star": {"jp": "いただく", "kana": "いただく", "fr": "recevoir ; manger (modestie)"}
+        },
+        {
+          "id": "v4-72-e05",
+          "type": "choice",
+          "uses": ["v5-12"],
+          "jp": "{先生|せんせい}のお{手紙|てがみ}を＿。ありがとうございました。",
+          "fr": "J'ai lu votre lettre, professeur. Merci beaucoup.",
+          "choices": ["はいけんしました", "ごらんになりました", "いたしました", "まいりました"],
+          "a": 0,
+          "star": {"jp": "はいけんする", "kana": "はいけんする", "fr": "voir, lire (modestie)"}
+        },
+        {
+          "id": "v4-72-e06",
+          "type": "choice",
+          "uses": ["v4-71"],
+          "jp": "{明日|あした}、{先生|せんせい}のおたくに＿もよろしいですか。",
+          "fr": "Puis-je passer chez vous demain, professeur ?",
+          "choices": ["うかがって", "いらっしゃって", "めしあがって", "はいけんして"],
+          "a": 0,
+          "star": {"jp": "うかがう", "kana": "うかがう", "fr": "rendre visite ; demander (modestie)"}
+        },
+        {
+          "id": "v4-72-e07",
+          "type": "choice",
+          "uses": ["v4-71"],
+          "q": "Au téléphone, un client demande ton père.",
+          "jp": "{父|ちち}は{今|いま}、{家|いえ}に＿。",
+          "fr": "Mon père est à la maison en ce moment.",
+          "choices": ["おります", "いらっしゃいます", "ございます", "なさいます"],
+          "a": 0,
+          "explain": "Sa propre famille, devant quelqu'un d'extérieur : modestie (おる)."
+        },
+        {
+          "id": "v4-72-e08",
+          "type": "choice",
+          "uses": ["v4-51"],
+          "jp": "{一度|いちど}、{社長|しゃちょう}に＿たいです。",
+          "fr": "J'aimerais rencontrer le patron une fois.",
+          "choices": ["お{目|め}にかかり", "ごらんになり", "めしあがり", "おっしゃり"],
+          "a": 0,
+          "star": {"jp": "お{目|め}にかかる", "kana": "おめにかかる", "fr": "rencontrer (modestie)"}
+        },
+        {
+          "id": "v4-72-e09",
+          "type": "choice",
+          "uses": ["v5-17", "v5-35"],
+          "jp": "{先生|せんせい}のたんじょうびに、{私|わたし}は{花|はな}を＿。",
+          "fr": "Pour l'anniversaire du professeur, je lui ai offert des fleurs.",
+          "choices": ["さしあげました", "くださいました", "まいりました", "めしあがりました"],
+          "a": 0,
+          "star": {"jp": "さしあげる", "kana": "さしあげる", "fr": "donner (modestie)"}
+        },
+        {
+          "id": "v4-72-e10",
+          "type": "choice",
+          "uses": ["v5-39"],
+          "jp": "その{方|かた}のことは、よく＿おります。",
+          "fr": "Je connais bien cette personne.",
+          "choices": ["ぞんじて", "ごぞんじで", "もうして", "いたして"],
+          "a": 0,
+          "star": {"jp": "ぞんじる", "kana": "ぞんじる", "fr": "savoir, connaître (modestie)"}
+        },
+        {
+          "id": "v4-72-e11",
+          "type": "choice",
+          "q": "Comment dit-on « je » de la façon la plus polie (discours, téléphone professionnel) ?",
+          "choices": ["わたくし", "わたし", "ぼく", "おれ"],
+          "a": 0
+        },
+        {
+          "id": "v4-72-e12",
+          "type": "choice",
+          "uses": ["v4-53"],
+          "jp": "{心|こころ}からおれいを＿。",
+          "fr": "Je vous remercie du fond du cœur.",
+          "choices": ["もうしあげます", "おっしゃいます", "めしあがります", "いらっしゃいます"],
+          "a": 0,
+          "star": {"jp": "もうしあげる", "kana": "もうしあげる", "fr": "dire (modestie, très poli)"}
+        },
+        {
+          "id": "v4-72-e13",
+          "type": "choice",
+          "q": "まいる est la forme de modestie de…",
+          "choices": ["{行|い}く / {来|く}る", "{言|い}う", "{見|み}る", "する"],
+          "a": 0
+        },
+        {"id": "v4-72-e14", "type": "choice", "q": "はいけんする est la forme de modestie de…", "choices": ["{見|み}る", "{聞|き}く", "{会|あ}う", "{書|か}く"], "a": 0},
+        {
+          "id": "v4-72-e15",
+          "type": "choice",
+          "q": "Dans « ちょっとうかがいますが、{駅|えき}はどこですか », que veut dire うかがう ?",
+          "choices": ["demander (poliment)", "rendre visite", "attendre", "entendre"],
+          "a": 0
+        },
+        {
+          "id": "v4-72-e16",
+          "type": "choice",
+          "q": "Qui fait l'action dans « {明日|あした}そちらへまいります » ?",
+          "choices": ["moi (celui qui parle)", "la personne à qui je parle", "mon patron", "un client"],
+          "a": 0
+        },
+        {
+          "id": "v4-72-e17",
+          "type": "order",
+          "uses": ["v5-16"],
+          "fr": "Je viendrai demain à dix heures.",
+          "tokens": ["{明日|あした}", "{十時|じゅうじ}に", "まいります"]
+        }
+      ]
+    },
+    {
+      "id": "v4-73",
+      "title": "Formules polies N4",
+      "words": [
+        {"jp": "おまたせしました", "kana": "おまたせしました", "fr": "désolé de vous avoir fait attendre", "ex": "おまたせしました。コーヒーです。", "exFr": "Désolé pour l'attente. Voici votre café."},
+        {"jp": "おかげさまで", "kana": "おかげさまで", "fr": "grâce à vous (réponse polie)", "ex": "お{元気|げんき}ですか。— はい、おかげさまで。", "exFr": "Vous allez bien ? — Oui, merci."},
+        {"jp": "かしこまりました", "kana": "かしこまりました", "fr": "bien compris (employé → client)", "ex": "コーヒーを{二|ふた}つおねがいします。— かしこまりました。", "exFr": "Deux cafés, s'il vous plaît. — Bien, monsieur."},
+        {"jp": "しょうちしました", "kana": "しょうちしました", "fr": "entendu, bien compris", "ex": "{明日|あした}{九時|くじ}に{来|き}てください。— しょうちしました。", "exFr": "Venez demain à neuf heures. — Entendu."},
+        {"jp": "もうしわけありません", "kana": "もうしわけありません", "fr": "je suis vraiment désolé", "ex": "おそくなって、もうしわけありません。", "exFr": "Je suis vraiment désolé d'être en retard."},
+        {"jp": "おせわになりました", "kana": "おせわになりました", "fr": "merci pour tout (votre aide)", "ex": "{三年間|さんねんかん}、おせわになりました。", "exFr": "Merci pour tout pendant ces trois années."},
+        {"jp": "おつかれさまでした", "kana": "おつかれさまでした", "fr": "merci pour votre travail", "ex": "{今日|きょう}もおつかれさまでした。", "exFr": "Merci pour votre travail aujourd'hui encore."},
+        {"jp": "いってらっしゃい", "kana": "いってらっしゃい", "fr": "à tout à l'heure (à qui part)", "ex": "いってきます。— いってらっしゃい。", "exFr": "J'y vais ! — À tout à l'heure !"},
+        {"jp": "おかえりなさい", "kana": "おかえりなさい", "fr": "bon retour (à qui rentre)", "ex": "ただいま。— おかえりなさい。", "exFr": "Je suis rentré ! — Bon retour !"},
+        {"jp": "おめでとうございます", "kana": "おめでとうございます", "fr": "félicitations", "ex": "ごけっこん、おめでとうございます。", "exFr": "Félicitations pour votre mariage."},
+        {"jp": "よろしくおねがいします", "kana": "よろしくおねがいします", "fr": "ravi de vous connaître ; je compte sur vous", "ex": "はじめまして。マリーです。よろしくおねがいします。", "exFr": "Enchantée, je suis Marie. Ravie de vous connaître."},
+        {"jp": "おじゃまします", "kana": "おじゃまします", "fr": "je vous dérange (en entrant chez qqn)", "ex": "どうぞ、{入|はい}ってください。— おじゃまします。", "exFr": "Entrez, je vous en prie. — Merci, je vous dérange."},
+        {"jp": "おさきにしつれいします", "kana": "おさきにしつれいします", "fr": "je pars avant vous (excusez-moi)", "ex": "{仕事|しごと}が{終|お}わりました。おさきにしつれいします。", "exFr": "J'ai fini mon travail. Je vous laisse, bonne soirée."},
+        {"jp": "どういたしまして", "kana": "どういたしまして", "fr": "de rien", "ex": "ありがとうございました。— どういたしまして。", "exFr": "Merci beaucoup. — De rien."},
+        {"jp": "ようこそ", "kana": "ようこそ", "fr": "bienvenue", "ex": "{日本|にほん}へようこそ。", "exFr": "Bienvenue au Japon."}
+      ],
+      "sections": [
+        {
+          "h": "Qui dit quoi, et quand ?",
+          "p": ["Ces formules se disent dans des situations précises : apprenez la situation avec la phrase."],
+          "grid": {
+            "head": ["situation", "formule"],
+            "rows": [
+              ["on a fait attendre", "おまたせしました"],
+              ["employé → client : « bien reçu »", "かしこまりました · しょうちしました"],
+              ["on quitte le travail avant les autres", "おさきにしつれいします → おつかれさまでした"],
+              ["on entre chez quelqu'un", "おじゃまします"],
+              ["on part après une longue aide", "おせわになりました"],
+              ["grandes excuses", "もうしわけありません"]
+            ]
+          }
+        }
+      ],
+      "pieges": [
+        "かしこまりました (très poli, employé → client) ≈ しょうちしました ≈ {分|わ}かりました.",
+        "おかげさまで = « grâce à vous » : la réponse polie à « vous allez bien ? ».",
+        "おつかれさまでした = merci pour votre travail (entre collègues, en fin de journée).",
+        "おじゃまします = « je vous dérange » : en entrant chez quelqu'un.",
+        "もうしわけありません = すみません en beaucoup plus poli.",
+        "いってきます → **いってらっしゃい** ; ただいま → **おかえりなさい** (leçon 11)."
+      ],
+      "exercises": [
+        {
+          "id": "v4-73-e01",
+          "type": "choice",
+          "uses": ["v5-06"],
+          "jp": "＿。コーヒーとケーキです。",
+          "fr": "Désolé pour l'attente. Voici le café et le gâteau.",
+          "choices": ["おまたせしました", "おかえりなさい", "いってらっしゃい", "おじゃまします"],
+          "a": 0
+        },
+        {
+          "id": "v4-73-e02",
+          "type": "choice",
+          "uses": ["v5-19"],
+          "jp": "お{元気|げんき}ですか。— はい、＿、{元気|げんき}です。",
+          "fr": "Vous allez bien ? — Oui, grâce à vous, je vais bien.",
+          "choices": ["おかげさまで", "おまたせしました", "おじゃまします", "ようこそ"],
+          "a": 0
+        },
+        {
+          "id": "v4-73-e03",
+          "type": "choice",
+          "uses": ["v5-11"],
+          "jp": "コーヒーを{二|ふた}つおねがいします。— ＿。",
+          "fr": "Deux cafés, s'il vous plaît. — Bien, monsieur.",
+          "choices": ["かしこまりました", "おかげさまで", "おつかれさまでした", "おめでとうございます"],
+          "a": 0
+        },
+        {
+          "id": "v4-73-e04",
+          "type": "choice",
+          "uses": ["v4-50", "v4-51"],
+          "jp": "{会議|かいぎ}におくれて、＿。",
+          "fr": "Je suis vraiment désolé d'être arrivé en retard à la réunion.",
+          "choices": ["もうしわけありません", "おかげさまで", "ようこそ", "いってらっしゃい"],
+          "a": 0
+        },
+        {
+          "id": "v4-73-e05",
+          "type": "choice",
+          "uses": ["v4-51"],
+          "jp": "{今日|きょう}で{会社|かいしゃ}をやめます。{三年間|さんねんかん}、＿。",
+          "fr": "Je quitte l'entreprise aujourd'hui. Merci pour tout pendant ces trois années.",
+          "choices": ["おせわになりました", "おじゃまします", "おまたせしました", "おかえりなさい"],
+          "a": 0
+        },
+        {
+          "id": "v4-73-e06",
+          "type": "choice",
+          "jp": "「おさきにしつれいします。」「＿。」",
+          "fr": "« Je vous laisse, bonne soirée. » « Merci pour ton travail ! »",
+          "choices": ["おつかれさまでした", "いただきます", "おかげさまで", "ようこそ"],
+          "a": 0
+        },
+        {
+          "id": "v4-73-e07",
+          "type": "choice",
+          "q": "Tu entres chez un ami qui t'a invité. Tu dis :",
+          "choices": ["おじゃまします", "おまたせしました", "おかえりなさい", "おつかれさまでした"],
+          "a": 0
+        },
+        {
+          "id": "v4-73-e08",
+          "type": "choice",
+          "uses": ["v4-64"],
+          "q": "Ton ami se marie. Tu lui dis :",
+          "choices": ["おめでとうございます", "おかげさまで", "もうしわけありません", "おじゃまします"],
+          "a": 0
+        },
+        {
+          "id": "v4-73-e09",
+          "type": "choice",
+          "q": "Quelqu'un te remercie : ありがとうございました. Tu réponds :",
+          "choices": ["どういたしまして", "おかげさまで", "よろしくおねがいします", "ようこそ"],
+          "a": 0
+        },
+        {
+          "id": "v4-73-e10",
+          "type": "choice",
+          "q": "Tu accueilles un visiteur étranger au Japon. Tu dis :",
+          "choices": ["{日本|にほん}へようこそ。", "{日本|にほん}へおじゃまします。", "{日本|にほん}へおかえりなさい。", "{日本|にほん}へおまたせしました。"],
+          "a": 0
+        },
+        {
+          "id": "v4-73-e11",
+          "type": "choice",
+          "uses": ["v5-11"],
+          "q": "Ton fils part à l'école : いってきます！ Tu réponds :",
+          "choices": ["いってらっしゃい", "おかえりなさい", "ただいま", "いただきます"],
+          "a": 0
+        },
+        {
+          "id": "v4-73-e12",
+          "type": "choice",
+          "q": "Tu quittes le bureau avant tes collègues. Tu dis :",
+          "choices": ["おさきにしつれいします", "おまたせしました", "ようこそ", "いただきます"],
+          "a": 0
+        },
+        {
+          "id": "v4-73-e13",
+          "type": "choice",
+          "uses": ["v5-16"],
+          "jp": "{明日|あした}は{八時|はちじ}に{来|き}てください。— ＿。",
+          "fr": "Venez demain à huit heures. — Entendu.",
+          "choices": ["しょうちしました", "おかげさまで", "おめでとうございます", "どういたしまして"],
+          "a": 0
+        },
+        {
+          "id": "v4-73-e14",
+          "type": "choice",
+          "uses": ["v5-11"],
+          "jp": "はじめまして、{田中|たなか}です。どうぞ＿。",
+          "fr": "Enchanté, je m'appelle Tanaka. Ravi de vous connaître.",
+          "choices": ["よろしくおねがいします", "おまたせしました", "おせわになりました", "おかえりなさい"],
+          "a": 0
+        },
+        {
+          "id": "v4-73-e15",
+          "type": "choice",
+          "q": "Que veut dire **もうしわけありません** ?",
+          "choices": ["Je suis vraiment désolé (très poli).", "Je n'ai rien à dire.", "Merci beaucoup.", "Ce n'est pas grave."],
+          "a": 0
+        },
+        {
+          "id": "v4-73-e16",
+          "type": "choice",
+          "q": "Que veut dire **おかげさまで** ?",
+          "choices": ["Grâce à vous (réponse polie).", "Bon appétit.", "Bienvenue.", "Désolé pour l'attente."],
+          "a": 0
+        },
+        {
+          "id": "v4-73-e17",
+          "type": "choice",
+          "q": "Un client passe sa commande. Que lui répond l'employé ?",
+          "choices": ["かしこまりました", "おじゃまします", "どういたしまして", "おかえりなさい"],
+          "a": 0
+        }
+      ]
+    },
+    {
+      "id": "v4-74",
+      "title": "Raisons, avis, intentions",
+      "words": [
+        {"jp": "りゆう", "kana": "りゆう", "fr": "raison", "ex": "{会社|かいしゃ}をやめたりゆうを{教|おし}えてください。", "exFr": "Dites-moi pourquoi vous avez quitté l'entreprise."},
+        {"jp": "{意見|いけん}", "kana": "いけん", "fr": "avis, opinion", "ex": "みんなの{意見|いけん}を{聞|き}きましょう。", "exFr": "Écoutons l'avis de chacun."},
+        {"jp": "けいけん", "kana": "けいけん", "fr": "expérience (vécue)", "ex": "{外国|がいこく}で{働|はたら}いたけいけんがあります。", "exFr": "J'ai déjà travaillé à l'étranger."},
+        {"jp": "しゅうかん", "kana": "しゅうかん", "fr": "habitude, coutume", "ex": "{毎朝|まいあさ}{走|はし}るしゅうかんがあります。", "exFr": "J'ai l'habitude de courir tous les matins."},
+        {"jp": "きそく", "kana": "きそく", "fr": "règlement", "ex": "この{学校|がっこう}はきそくがきびしいです。", "exFr": "Le règlement de cette école est strict."},
+        {"jp": "げんいん", "kana": "げんいん", "fr": "cause", "ex": "じこのげんいんはまだ{分|わ}かりません。", "exFr": "On ne connaît pas encore la cause de l'accident."},
+        {"jp": "{考|かんが}え", "kana": "かんがえ", "fr": "idée, pensée", "ex": "それはいい{考|かんが}えですね。", "exFr": "C'est une bonne idée."},
+        {"jp": "つもり", "kana": "つもり", "fr": "intention", "ex": "{来年|らいねん}{日本|にほん}へ{行|い}くつもりです。", "exFr": "J'ai l'intention d'aller au Japon l'an prochain."},
+        {"jp": "ひつよう", "kana": "ひつよう", "fr": "nécessaire", "ex": "{日本|にほん}へ{行|い}くとき、ビザはひつようですか。", "exFr": "Faut-il un visa pour aller au Japon ?"},
+        {"jp": "{特別|とくべつ}", "kana": "とくべつ", "fr": "spécial", "ex": "{今日|きょう}は{特別|とくべつ}な{日|ひ}です。", "exFr": "Aujourd'hui est un jour spécial."},
+        {"jp": "ふつう", "kana": "ふつう", "fr": "normal, d'habitude", "ex": "ふつうは{七時|しちじ}に{起|お}きます。", "exFr": "D'habitude, je me lève à sept heures."},
+        {"jp": "じゆう", "kana": "じゆう", "fr": "libre, liberté", "ex": "この{部屋|へや}はじゆうに{使|つか}ってください。", "exFr": "Utilisez cette pièce librement."},
+        {"jp": "はんたい", "kana": "はんたい", "fr": "opposition, contre", "ex": "{父|ちち}は{私|わたし}の{計画|けいかく}にはんたいしました。", "exFr": "Mon père s'est opposé à mon projet."},
+        {"jp": "さんせい", "kana": "さんせい", "fr": "accord, pour", "ex": "その{意見|いけん}にさんせいです。", "exFr": "Je suis d'accord avec cet avis."},
+        {"jp": "ゆめ", "kana": "ゆめ", "fr": "rêve", "ex": "しょうらいのゆめは{医者|いしゃ}になることです。", "exFr": "Mon rêve, c'est de devenir médecin plus tard."}
+      ],
+      "sections": [
+        {
+          "h": "Donner son avis",
+          "p": ["Des mots indispensables pour parler de ses idées et de ses projets."],
+          "grid": {
+            "head": ["", "japonais"],
+            "rows": [
+              ["je suis pour / contre", "〜==に==さんせいです / 〜==に==はんたいです"],
+              ["à mon avis…", "{私|わたし}の{意見|いけん}は…"],
+              ["la raison, c'est…", "〜のりゆうは…"],
+              ["j'ai l'intention de…", "(verbe) ==つもり==です"],
+              ["c'est nécessaire", "〜==が==ひつようです"],
+              ["d'habitude", "ふつうは…"]
+            ]
+          }
+        }
+      ],
+      "pieges": [
+        "〜**に**さんせい / 〜**に**はんたい : être pour / contre **quelque chose**.",
+        "つもり = intention : {行|い}く**つもり**です (forme dictionnaire + つもり).",
+        "ひつよう = nécessaire (adjectif en な) : ひつような{物|もの}. Rappel : いる = avoir besoin (leçon 36).",
+        "けいけん = expérience vécue : 〜**た**けいけんがある = avoir déjà fait.",
+        "しゅうかん = habitude (personnelle) ou coutume (d'un pays).",
+        "{特別|とくべつ} (spécial) ↔ ふつう (normal) ; じゆう (libre) : adjectifs en な."
+      ],
+      "exercises": [
+        {
+          "id": "v4-74-e01",
+          "type": "choice",
+          "uses": ["v4-51"],
+          "jp": "{会社|かいしゃ}をやめた＿を{教|おし}えてください。",
+          "fr": "Dites-moi pourquoi vous avez quitté l'entreprise.",
+          "choices": ["りゆう", "ゆめ", "きそく", "つもり"],
+          "a": 0
+        },
+        {
+          "id": "v4-74-e02",
+          "type": "choice",
+          "uses": ["v4-48"],
+          "jp": "みんなの＿を{聞|き}いてから、きめましょう。",
+          "fr": "Écoutons l'avis de chacun avant de décider.",
+          "choices": ["{意見|いけん}", "きそく", "げんいん", "しゅうかん"],
+          "a": 0
+        },
+        {
+          "id": "v4-74-e03",
+          "type": "choice",
+          "uses": ["v5-33"],
+          "jp": "{外国|がいこく}で{働|はたら}いた＿がありますか。",
+          "fr": "Avez-vous déjà travaillé à l'étranger ?",
+          "choices": ["けいけん", "さんせい", "きそく", "じゆう"],
+          "a": 0
+        },
+        {
+          "id": "v4-74-e04",
+          "type": "choice",
+          "uses": ["v5-13"],
+          "jp": "{日本|にほん}では、{家|いえ}に{入|はい}るとき、くつをぬぐ＿があります。",
+          "fr": "Au Japon, on a la coutume d'enlever ses chaussures en entrant dans une maison.",
+          "choices": ["しゅうかん", "けいけん", "ゆめ", "はんたい"],
+          "a": 0
+        },
+        {
+          "id": "v4-74-e05",
+          "type": "choice",
+          "uses": ["v4-42", "v4-66"],
+          "jp": "この{学校|がっこう}は＿がきびしくて、けいたいを{使|つか}ってはいけません。",
+          "fr": "Le règlement de cette école est strict : on n'a pas le droit d'utiliser son portable.",
+          "choices": ["きそく", "ゆめ", "{考|かんが}え", "じゆう"],
+          "a": 0
+        },
+        {
+          "id": "v4-74-e06",
+          "type": "choice",
+          "uses": ["v4-50", "v4-59"],
+          "jp": "じこの＿はまだ{分|わ}かりません。けいさつがしらべています。",
+          "fr": "On ne connaît pas encore la cause de l'accident. La police enquête.",
+          "choices": ["げんいん", "ゆめ", "しゅうかん", "さんせい"],
+          "a": 0
+        },
+        {
+          "id": "v4-74-e07",
+          "type": "choice",
+          "jp": "それはいい＿ですね。そうしましょう。",
+          "fr": "C'est une bonne idée. Faisons comme ça.",
+          "choices": ["{考|かんが}え", "げんいん", "きそく", "けいけん"],
+          "a": 0
+        },
+        {
+          "id": "v4-74-e08",
+          "type": "choice",
+          "uses": ["v5-30"],
+          "jp": "{来年|らいねん}、{日本|にほん}の{大学|だいがく}に{入|はい}る＿です。",
+          "fr": "J'ai l'intention d'entrer dans une université japonaise l'an prochain.",
+          "choices": ["つもり", "けいけん", "きそく", "ひつよう"],
+          "a": 0
+        },
+        {
+          "id": "v4-74-e09",
+          "type": "choice",
+          "uses": ["v4-70"],
+          "jp": "{日本|にほん}に{三|さん}か{月|げつ}{以上|いじょう}いるときは、ビザが＿です。",
+          "fr": "Pour rester plus de trois mois au Japon, il faut un visa.",
+          "choices": ["ひつよう", "{特別|とくべつ}", "ふつう", "じゆう"],
+          "a": 0
+        },
+        {
+          "id": "v4-74-e10",
+          "type": "choice",
+          "uses": ["v5-17"],
+          "jp": "{今日|きょう}は{母|はは}のたんじょうびですから、＿な{料理|りょうり}を{作|つく}ります。",
+          "fr": "Aujourd'hui, c'est l'anniversaire de ma mère, alors je prépare un plat spécial.",
+          "choices": ["{特別|とくべつ}", "ふつう", "ひつよう", "はんたい"],
+          "a": 0
+        },
+        {
+          "id": "v4-74-e11",
+          "type": "choice",
+          "uses": ["v5-16"],
+          "jp": "＿は{七時|しちじ}に{起|お}きますが、{日曜日|にちようび}はおそくまでねます。",
+          "fr": "D'habitude, je me lève à sept heures, mais le dimanche je dors tard.",
+          "choices": ["ふつう", "{特別|とくべつ}", "じゆう", "はんたい"],
+          "a": 0
+        },
+        {
+          "id": "v4-74-e12",
+          "type": "choice",
+          "uses": ["v5-27"],
+          "jp": "この{部屋|へや}は＿に{使|つか}ってください。",
+          "fr": "Utilisez cette pièce librement.",
+          "choices": ["じゆう", "けいけん", "げんいん", "ゆめ"],
+          "a": 0
+        },
+        {
+          "id": "v4-74-e13",
+          "type": "choice",
+          "uses": ["v4-50", "v4-52"],
+          "jp": "{父|ちち}は{私|わたし}がりゅうがくすることに＿しました。「あぶない」と{言|い}いました。",
+          "fr": "Mon père s'est opposé à mon départ pour étudier à l'étranger. Il a dit : « C'est dangereux. »",
+          "choices": ["はんたい", "さんせい", "けいけん", "ゆめ"],
+          "a": 0
+        },
+        {
+          "id": "v4-74-e14",
+          "type": "choice",
+          "uses": ["v5-28"],
+          "jp": "その{意見|いけん}に＿です。とてもいい{考|かんが}えだと{思|おも}います。",
+          "fr": "Je suis d'accord avec cet avis. Je trouve que c'est une très bonne idée.",
+          "choices": ["さんせい", "はんたい", "りゆう", "げんいん"],
+          "a": 0
+        },
+        {
+          "id": "v4-74-e15",
+          "type": "choice",
+          "uses": ["v4-54"],
+          "jp": "しょうらいの＿は{医者|いしゃ}になることです。",
+          "fr": "Mon rêve, c'est de devenir médecin plus tard.",
+          "choices": ["ゆめ", "きそく", "げんいん", "しゅうかん"],
+          "a": 0
+        },
+        {"id": "v4-74-e16", "type": "choice", "q": "Contraire de **さんせい** ?", "choices": ["はんたい", "{意見|いけん}", "りゆう", "ふつう"], "a": 0},
+        {"id": "v4-74-e17", "type": "choice", "q": "Contraire de **{特別|とくべつ}** ?", "choices": ["ふつう", "じゆう", "ひつよう", "はんたい"], "a": 0},
+        {
+          "id": "v4-74-e18",
+          "type": "order",
+          "uses": ["v5-03"],
+          "fr": "J'ai l'intention d'aller au Japon l'an prochain.",
+          "tokens": ["{来年|らいねん}", "{日本|にほん}へ", "{行|い}く", "つもりです"],
+          "alt": [["{日本|にほん}へ", "{来年|らいねん}", "{行|い}く", "つもりです"]]
+        }
+      ]
+    },
+    {
+      "id": "v4-75",
+      "title": "Moyens, buts, résultats",
+      "words": [
+        {"jp": "ほうほう", "kana": "ほうほう", "fr": "méthode, moyen", "ex": "{日本語|にほんご}をおぼえるいいほうほうを{教|おし}えてください。", "exFr": "Apprends-moi une bonne méthode pour retenir le japonais."},
+        {"jp": "もくてき", "kana": "もくてき", "fr": "but", "ex": "{旅行|りょこう}のもくてきは{何|なん}ですか。— かんこうです。", "exFr": "Quel est le but de votre voyage ? — Le tourisme."},
+        {"jp": "けっか", "kana": "けっか", "fr": "résultat", "ex": "{試験|しけん}のけっかは{来週|らいしゅう}{分|わ}かります。", "exFr": "On connaîtra les résultats de l'examen la semaine prochaine."},
+        {"jp": "かんけい", "kana": "かんけい", "fr": "rapport, lien", "ex": "{私|わたし}はそのじけんとかんけいがありません。", "exFr": "Je n'ai aucun lien avec cette affaire."},
+        {"jp": "{場合|ばあい}", "kana": "ばあい", "fr": "cas", "ex": "{雨|あめ}の{場合|ばあい}は、{試合|しあい}はありません。", "exFr": "En cas de pluie, le match n'a pas lieu."},
+        {"jp": "{心|こころ}", "kana": "こころ", "fr": "cœur (esprit)", "ex": "{心|こころ}のやさしい{人|ひと}です。", "exFr": "C'est quelqu'un de bon cœur."},
+        {"jp": "わけ", "kana": "わけ", "fr": "raison, explication", "ex": "どうしておくれたのか、わけを{話|はな}してください。", "exFr": "Explique-moi pourquoi tu es en retard."},
+        {"jp": "ため", "kana": "ため", "fr": "pour, dans le but de", "ex": "{家族|かぞく}のために、いっしょうけんめい{働|はたら}きます。", "exFr": "Je travaille dur pour ma famille."},
+        {"jp": "ようす", "kana": "ようす", "fr": "air, état, situation", "ex": "{田中|たなか}さんのようすがへんです。", "exFr": "M. Tanaka a l'air bizarre."},
+        {"jp": "かたち", "kana": "かたち", "fr": "forme", "ex": "このくもは{魚|さかな}のかたちをしています。", "exFr": "Ce nuage a la forme d'un poisson."},
+        {"jp": "{部分|ぶぶん}", "kana": "ぶぶん", "fr": "partie", "ex": "この{部分|ぶぶん}がよく{分|わ}かりません。", "exFr": "Je ne comprends pas bien cette partie."},
+        {"jp": "かわり", "kana": "かわり", "fr": "à la place, remplacement", "ex": "{父|ちち}のかわりに、{私|わたし}が{会議|かいぎ}に{出|で}ました。", "exFr": "J'ai assisté à la réunion à la place de mon père."},
+        {"jp": "まちがい", "kana": "まちがい", "fr": "erreur, faute", "ex": "{作文|さくぶん}にまちがいがたくさんあります。", "exFr": "Il y a beaucoup de fautes dans la rédaction."},
+        {"jp": "まちがえる", "kana": "まちがえる", "fr": "se tromper (de)", "ex": "{電車|でんしゃ}をまちがえて、ちがう{駅|えき}に{着|つ}きました。", "exFr": "Je me suis trompé de train et je suis arrivé à une autre gare."},
+        {"jp": "くらべる", "kana": "くらべる", "fr": "comparer", "ex": "{東京|とうきょう}と{大阪|おおさか}をくらべると、{東京|とうきょう}のほうが{大|おお}きいです。", "exFr": "Si on compare Tokyo et Osaka, Tokyo est plus grand."}
+      ],
+      "sections": [
+        {
+          "h": "Tournures utiles",
+          "p": ["Ces noms servent surtout dans des tournures toutes faites."],
+          "grid": {
+            "head": ["", "japonais"],
+            "rows": [
+              ["pour (but, personne)", "〜==のために=="],
+              ["à la place de", "〜==のかわりに=="],
+              ["en cas de", "〜==の{場合|ばあい}は=="],
+              ["n'avoir aucun lien avec", "〜==と==かんけいがない"],
+              ["se tromper de", "〜==を==まちがえる"],
+              ["comparer A et B", "A==と==B==を==くらべる"]
+            ]
+          }
+        }
+      ],
+      "pieges": [
+        "〜のために = pour (un but, une personne) : {家族|かぞく}のために.",
+        "〜のかわりに = à la place de : {父|ちち}のかわりに.",
+        "わけ = la raison, l'explication (≈ りゆう, plus oral).",
+        "まちがい (nom : une faute) / まちがえる (verbe : se tromper de) : {電車|でんしゃ}**を**まちがえる.",
+        "ようす = l'air, l'état : ようすがへん = il a l'air bizarre.",
+        "{場合|ばあい} se lit ばあい (lecture spéciale)."
+      ],
+      "exercises": [
+        {
+          "id": "v4-75-e01",
+          "type": "choice",
+          "uses": ["v5-28"],
+          "jp": "{日本語|にほんご}のことばをおぼえるいい＿を{教|おし}えてください。",
+          "fr": "Apprends-moi une bonne méthode pour retenir les mots japonais.",
+          "choices": ["ほうほう", "けっか", "かんけい", "{部分|ぶぶん}"],
+          "a": 0
+        },
+        {
+          "id": "v4-75-e02",
+          "type": "choice",
+          "uses": ["v4-62"],
+          "jp": "{旅行|りょこう}の＿は{何|なん}ですか。— かんこうです。",
+          "fr": "Quel est le but de votre voyage ? — Le tourisme.",
+          "choices": ["もくてき", "けっか", "かたち", "まちがい"],
+          "a": 0
+        },
+        {
+          "id": "v4-75-e03",
+          "type": "choice",
+          "uses": ["v5-29"],
+          "jp": "{試験|しけん}の＿は{来週|らいしゅう}{分|わ}かります。",
+          "fr": "On connaîtra les résultats de l'examen la semaine prochaine.",
+          "choices": ["けっか", "もくてき", "ほうほう", "かたち"],
+          "a": 0
+        },
+        {
+          "id": "v4-75-e04",
+          "type": "choice",
+          "uses": ["v4-67"],
+          "jp": "{私|わたし}はそのじけんと＿がありません。",
+          "fr": "Je n'ai aucun lien avec cette affaire.",
+          "choices": ["かんけい", "けっか", "ようす", "かわり"],
+          "a": 0
+        },
+        {
+          "id": "v4-75-e05",
+          "type": "choice",
+          "uses": ["v4-61"],
+          "jp": "{雨|あめ}の＿は、{試合|しあい}は{来週|らいしゅう}です。",
+          "fr": "En cas de pluie, le match aura lieu la semaine prochaine.",
+          "choices": ["{場合|ばあい}", "ため", "わけ", "かたち"],
+          "a": 0
+        },
+        {
+          "id": "v4-75-e06",
+          "type": "choice",
+          "uses": ["v5-18"],
+          "jp": "{田中|たなか}さんは＿のやさしい{人|ひと}です。",
+          "fr": "M. Tanaka a bon cœur.",
+          "choices": ["{心|こころ}", "{部分|ぶぶん}", "けっか", "かたち"],
+          "a": 0
+        },
+        {
+          "id": "v4-75-e07",
+          "type": "choice",
+          "uses": ["v4-50"],
+          "jp": "どうしておくれたのか、＿を{話|はな}してください。",
+          "fr": "Explique-moi pourquoi tu es en retard.",
+          "choices": ["わけ", "かたち", "ほうほう", "けっか"],
+          "a": 0
+        },
+        {
+          "id": "v4-75-e08",
+          "type": "choice",
+          "uses": ["v4-55"],
+          "jp": "{家族|かぞく}の＿に、いっしょうけんめい{働|はたら}きます。",
+          "fr": "Je travaille dur pour ma famille.",
+          "choices": ["ため", "わけ", "{場合|ばあい}", "ようす"],
+          "a": 0
+        },
+        {
+          "id": "v4-75-e09",
+          "type": "choice",
+          "uses": ["v5-19"],
+          "jp": "{田中|たなか}さんの＿がへんです。ぜんぜん{元気|げんき}がありません。",
+          "fr": "M. Tanaka a l'air bizarre. Il n'a aucune énergie.",
+          "choices": ["ようす", "{部分|ぶぶん}", "ほうほう", "もくてき"],
+          "a": 0
+        },
+        {
+          "id": "v4-75-e10",
+          "type": "choice",
+          "uses": ["v4-63"],
+          "jp": "あのくもは{魚|さかな}の＿をしていますね。",
+          "fr": "Ce nuage a la forme d'un poisson.",
+          "choices": ["かたち", "{心|こころ}", "ようす", "かわり"],
+          "a": 0
+        },
+        {
+          "id": "v4-75-e11",
+          "type": "choice",
+          "uses": ["v4-53"],
+          "jp": "この＿がよく{分|わ}かりません。もう{一度|いちど}{説明|せつめい}してください。",
+          "fr": "Je ne comprends pas bien cette partie. Expliquez-la encore une fois.",
+          "choices": ["{部分|ぶぶん}", "{心|こころ}", "かわり", "ため"],
+          "a": 0
+        },
+        {
+          "id": "v4-75-e12",
+          "type": "choice",
+          "uses": ["v4-51"],
+          "jp": "{父|ちち}が{病気|びょうき}でしたから、{父|ちち}の＿に{私|わたし}が{会議|かいぎ}に{出|で}ました。",
+          "fr": "Mon père était malade, alors j'ai assisté à la réunion à sa place.",
+          "choices": ["かわり", "けっか", "{場合|ばあい}", "もくてき"],
+          "a": 0
+        },
+        {
+          "id": "v4-75-e13",
+          "type": "choice",
+          "uses": ["v4-56", "v5-29"],
+          "jp": "{作文|さくぶん}に＿がたくさんありました。{先生|せんせい}がなおしてくれました。",
+          "fr": "Il y avait beaucoup de fautes dans ma rédaction. Le professeur les a corrigées.",
+          "choices": ["まちがい", "まちがえる", "かんけい", "けっか"],
+          "a": 0
+        },
+        {
+          "id": "v4-75-e14",
+          "type": "choice",
+          "uses": ["v5-15"],
+          "jp": "{電車|でんしゃ}を＿、ちがう{駅|えき}に{着|つ}いてしまいました。",
+          "fr": "Je me suis trompé de train et je suis arrivé à une autre gare.",
+          "choices": ["まちがえて", "まちがい", "くらべて", "かわって"],
+          "a": 0,
+          "star": {"jp": "まちがえる", "kana": "まちがえる", "fr": "se tromper (de)"}
+        },
+        {
+          "id": "v4-75-e15",
+          "type": "choice",
+          "uses": ["v4-68"],
+          "jp": "{東京|とうきょう}と{大阪|おおさか}を＿と、{東京|とうきょう}のほうが{人口|じんこう}が{多|おお}いです。",
+          "fr": "Si on compare Tokyo et Osaka, Tokyo est plus peuplé.",
+          "choices": ["くらべる", "まちがえる", "かわる", "ならべる"],
+          "a": 0
+        },
+        {"id": "v4-75-e16", "type": "choice", "q": "Comment se lit **場合** ?", "choices": ["ばあい", "じょうごう", "ばごう", "ばあう"], "a": 0},
+        {
+          "id": "v4-75-e17",
+          "type": "choice",
+          "q": "« À la place de mon père » se dit…",
+          "choices": ["{父|ちち}のかわりに", "{父|ちち}のために", "{父|ちち}の{場合|ばあい}", "{父|ちち}とかんけいに"],
+          "a": 0
+        },
+        {
+          "id": "v4-75-e18",
+          "type": "order",
+          "uses": ["v5-15"],
+          "fr": "Je me suis trompé de train et je suis arrivé à une autre gare.",
+          "tokens": ["{電車|でんしゃ}を", "まちがえて、", "ちがう{駅|えき}に", "{着|つ}きました"]
+        }
+      ]
+    }
+  ],
+  "test": [
+    {
+      "id": "v4-b15-t01",
+      "type": "choice",
+      "uses": ["v4-71", "v4-72"],
+      "jp": "{先生|せんせい}は{明日|あした}{来|こ}ないと＿。",
+      "fr": "Le professeur a dit qu'il ne viendrait pas demain.",
+      "choices": ["おっしゃいました", "もうしました", "いたしました", "まいりました"],
+      "a": 0,
+      "star": {"jp": "おっしゃる", "kana": "おっしゃる", "fr": "dire (respect)"}
+    },
+    {
+      "id": "v4-b15-t02",
+      "type": "choice",
+      "uses": ["v4-72"],
+      "jp": "はじめまして。{山田|やまだ}と＿。",
+      "fr": "Enchanté. Je m'appelle Yamada.",
+      "choices": ["もうします", "おっしゃいます", "いたします", "ございます"],
+      "a": 0,
+      "star": {"jp": "もうす", "kana": "もうす", "fr": "dire, s'appeler (modestie)"}
+    },
+    {
+      "id": "v4-b15-t03",
+      "type": "choice",
+      "uses": ["v4-50", "v4-71"],
+      "jp": "＿。こちらのせきへどうぞ。",
+      "fr": "Bienvenue. Par ici, je vous prie.",
+      "choices": ["いらっしゃいませ", "おじゃまします", "いってきます", "ただいま"],
+      "a": 0
+    },
+    {
+      "id": "v4-b15-t04",
+      "type": "choice",
+      "uses": ["v4-73"],
+      "jp": "おそくなって、＿。",
+      "fr": "Je suis vraiment désolé d'être en retard.",
+      "choices": ["もうしわけありません", "おかげさまで", "おめでとうございます", "ようこそ"],
+      "a": 0
+    },
+    {
+      "id": "v4-b15-t05",
+      "type": "choice",
+      "uses": ["v4-74"],
+      "jp": "{外国|がいこく}に{住|す}んだ＿がありますか。",
+      "fr": "Avez-vous déjà vécu à l'étranger ?",
+      "choices": ["けいけん", "さんせい", "きそく", "じゆう"],
+      "a": 0
+    },
+    {
+      "id": "v4-b15-t06",
+      "type": "choice",
+      "uses": ["v4-75"],
+      "jp": "{電話|でんわ}ばんごうを＿、ちがう{人|ひと}にかけてしまいました。",
+      "fr": "Je me suis trompé de numéro et j'ai appelé quelqu'un d'autre.",
+      "choices": ["まちがえて", "くらべて", "かわって", "しらべて"],
+      "a": 0,
+      "star": {"jp": "まちがえる", "kana": "まちがえる", "fr": "se tromper (de)"}
+    },
+    {
+      "id": "v4-b15-t07",
+      "type": "choice",
+      "uses": ["v4-71", "v4-72"],
+      "jp": "どうぞ、たくさん＿ください。",
+      "fr": "Je vous en prie, servez-vous bien.",
+      "choices": ["めしあがって", "まいって", "もうして", "いたして"],
+      "a": 0,
+      "star": {"jp": "めしあがる", "kana": "めしあがる", "fr": "manger, boire (respect)"}
+    },
+    {
+      "id": "v4-b15-t08",
+      "type": "choice",
+      "uses": ["v4-72"],
+      "jp": "{先生|せんせい}のお{手紙|てがみ}を＿。",
+      "fr": "J'ai lu votre lettre, professeur.",
+      "choices": ["はいけんしました", "ごらんになりました", "めしあがりました", "おっしゃいました"],
+      "a": 0,
+      "star": {"jp": "はいけんする", "kana": "はいけんする", "fr": "voir, lire (modestie)"}
+    },
+    {
+      "id": "v4-b15-t09",
+      "type": "choice",
+      "uses": ["v4-73"],
+      "q": "Tu as fait attendre un client. En revenant, tu lui dis :",
+      "choices": ["おまたせしました", "おかげさまで", "おじゃまします", "おかえりなさい"],
+      "a": 0
+    },
+    {
+      "id": "v4-b15-t10",
+      "type": "choice",
+      "uses": ["v4-54", "v4-74"],
+      "jp": "その{計画|けいかく}には＿です。お{金|かね}がかかりすぎますから。",
+      "fr": "Je suis contre ce projet : il coûte beaucoup trop cher.",
+      "choices": ["はんたい", "さんせい", "{特別|とくべつ}", "ふつう"],
+      "a": 0
+    },
+    {"id": "v4-b15-t11", "type": "choice", "uses": ["v4-74"], "q": "Comment se lit **考え** ?", "choices": ["かんがえ", "こうえ", "かんえ", "かんがい"], "a": 0},
+    {
+      "id": "v4-b15-t12",
+      "type": "choice",
+      "uses": ["v4-71", "v4-72"],
+      "q": "Au téléphone, tu parles de **ton** chef à un client.",
+      "jp": "{部長|ぶちょう}の{田中|たなか}は{今|いま}、{会議|かいぎ}に{出|で}て＿。",
+      "fr": "Notre chef, M. Tanaka, est en réunion en ce moment.",
+      "choices": ["おります", "いらっしゃいます", "ございます", "なさいます"],
+      "a": 0,
+      "explain": "Devant quelqu'un d'extérieur, on parle de son propre chef avec la modestie : おります."
+    },
+    {
+      "id": "v4-b15-t13",
+      "type": "choice",
+      "uses": ["v4-75"],
+      "jp": "{子|こ}どもの＿に、{毎朝|まいあさ}おべんとうを{作|つく}ります。",
+      "fr": "Tous les matins, je prépare un bentō pour mon enfant.",
+      "choices": ["ため", "かわり", "{場合|ばあい}", "けっか"],
+      "a": 0
+    },
+    {"id": "v4-b15-t14", "type": "order", "uses": ["v4-72"], "fr": "Je viendrai demain à dix heures.", "tokens": ["{明日|あした}", "{十時|じゅうじ}に", "まいります"]},
+    {
+      "id": "v4-b15-t15",
+      "type": "choice",
+      "uses": ["v4-74"],
+      "q": "Ton ami dit : {来年|らいねん}、{日本|にほん}に{行|い}くつもりです. Que veut-il dire ?",
+      "choices": [
+        "Il a l'intention d'aller au Japon l'an prochain.",
+        "Il est allé au Japon l'an dernier.",
+        "Il est obligé d'aller au Japon l'an prochain.",
+        "Il ne veut pas aller au Japon."
+      ],
+      "a": 0
+    },
+    {
+      "id": "v4-b15-t16",
+      "type": "choice",
+      "uses": ["v4-52", "v4-75"],
+      "jp": "{試験|しけん}の＿はどうでしたか。— ごうかくしました！",
+      "fr": "Comment se sont passés les résultats de l'examen ? — J'ai réussi !",
+      "choices": ["けっか", "もくてき", "かたち", "{心|こころ}"],
+      "a": 0
+    }
+  ]
+}
