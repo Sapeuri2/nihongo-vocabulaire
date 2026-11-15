@@ -659,6 +659,7 @@
         {
           "id": "v5-39-e01",
           "type": "choice",
+          "star": {"jp": "〜{方|かた}", "kana": "〜かた", "fr": "manière de …"},
           "uses": ["v5-28", "v5-29"],
           "jp": "この{漢字|かんじ}の{読|よ}み＿を{教|おし}えてください。",
           "fr": "Apprenez-moi comment se lit ce kanji.",
@@ -1097,6 +1098,7 @@
     {
       "id": "v5-b08-t08",
       "type": "choice",
+      "star": {"jp": "〜{方|かた}", "kana": "〜かた", "fr": "manière de …"},
       "uses": ["v5-39"],
       "jp": "この{漢字|かんじ}の{書|か}き＿が{分|わ}かりません。",
       "fr": "Je ne sais pas comment s'écrit ce kanji.",

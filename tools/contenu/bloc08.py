@@ -208,7 +208,7 @@ l39 = {"id": L, "title": "Petits noms utiles", "words": [
  "{自分|じぶん}で = soi-même, tout seul : {自分|じぶん}で{作|つく}りました.",
  "みなさん s'adresse à un groupe ; みんな parle de tout le monde."
 ], "exercises": [
- C(L,1,["{方|かた}","こと","{物|もの}","ところ"],jp="この{漢字|かんじ}の{読|よ}み＿を{教|おし}えてください。",fr="Apprenez-moi comment se lit ce kanji.",uses=["v5-28","v5-29"]),
+ C(L,1,["{方|かた}","こと","{物|もの}","ところ"],jp="この{漢字|かんじ}の{読|よ}み＿を{教|おし}えてください。",fr="Apprenez-moi comment se lit ce kanji.",uses=["v5-28","v5-29"],star={"jp":"〜{方|かた}","kana":"〜かた","fr":"manière de …"}),
  C(L,2,["ところ","こと","{物|もの}","{方|かた}"],jp="{静|しず}かな＿に{住|す}みたいです。",fr="Je veux habiter dans un endroit calme.",uses=["v5-19","v5-36"]),
  C(L,3,["こと","ところ","{半分|はんぶん}","つぎ"],jp="{日本|にほん}の＿をもっと{知|し}りたいです。",fr="Je veux en savoir plus sur le Japon.",uses=["v5-28","v5-37"]),
  C(L,4,["{物|もの}","こと","ところ","{方|かた}"],jp="この{店|みせ}はいろいろな{食|た}べ＿を{売|う}っています。",fr="Ce magasin vend toutes sortes de choses à manger.",uses=["v5-26","v5-37"]),
@@ -299,7 +299,7 @@ test = [
  TC(5,["が","を","で","へ"],jp="{窓|まど}からふじさん＿{見|み}えます。",fr="On voit le mont Fuji depuis la fenêtre.",uses=["v5-40"]),
  TC(6,["{金曜日|きんようび}","{土曜日|どようび}","{水曜日|すいようび}","{月曜日|げつようび}"],jp="{明日|あした}は{木曜日|もくようび}です。あさっては＿です。",fr="Demain, c'est jeudi. Après-demain, c'est vendredi.",uses=["v5-17","v5-38"]),
  TC(7,["とき","ところ","こと","{物|もの}"],jp="{子|こ}どもの＿、{犬|いぬ}がいました。",fr="Quand j'étais enfant, j'avais un chien.",uses=["v5-35","v5-38"]),
- TC(8,["{方|かた}","こと","ところ","{物|もの}"],jp="この{漢字|かんじ}の{書|か}き＿が{分|わ}かりません。",fr="Je ne sais pas comment s'écrit ce kanji.",uses=["v5-39"]),
+ TC(8,["{方|かた}","こと","ところ","{物|もの}"],jp="この{漢字|かんじ}の{書|か}き＿が{分|わ}かりません。",fr="Je ne sais pas comment s'écrit ce kanji.",uses=["v5-39"],star={"jp":"〜{方|かた}","kana":"〜かた","fr":"manière de …"}),
  TC(9,["ぐらい","ごろ","とき","{度|ど}"],jp="{毎日|まいにち}{六時間|ろくじかん}＿ねます。",fr="Je dors environ six heures par nuit.",uses=["v5-38"]),
  TC(10,["ゆっくり","いちばん","たぶん","あとで"],jp="すみません、もっと＿{話|はな}してください。",fr="Excusez-moi, parlez plus lentement, s'il vous plaît.",uses=["v5-37"]),
  TC(11,["{消|き}えました","{消|け}しました","つけました","{見|み}えました"],jp="{風|かぜ}で、ろうそくの{火|ひ}が＿。",fr="Avec le vent, la flamme de la bougie s'est éteinte.",uses=["v5-25","v5-40"]),

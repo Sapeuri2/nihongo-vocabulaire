@@ -145,7 +145,7 @@ l33 = {"id": L, "title": "Voyages, pays, langues", "words": [
  "はじめて = pour la première fois. はじめまして (enchanté) vient du même mot.",
  "ホテルに**とまる** = loger à l'hôtel."
 ], "exercises": [
- C(L,1,["{人|じん}","{語|ご}","{国|くに}","{円|えん}"],jp="マリーさんはフランス＿です。",fr="Marie est française.",uses=["v5-01"]),
+ C(L,1,["{人|じん}","{語|ご}","{国|くに}","{円|えん}"],jp="マリーさんはフランス＿です。",fr="Marie est française.",uses=["v5-01"],star={"jp":"〜{人|じん}","kana":"〜じん","fr":"(nationalité) …"}),
  C(L,2,["{語|ご}","{人|じん}","{国|くに}","{円|えん}"],jp="{田中|たなか}さんはフランス＿が{上手|じょうず}です。{毎日|まいにち}フランスのニュースを{聞|き}いています。",fr="M. Tanaka parle bien français. Il écoute les informations françaises tous les jours.",uses=["v5-19","v5-28"]),
  C(L,3,["{英語|えいご}","イギリス{語|ご}","アメリカ{語|ご}","{英人|えいじん}"],q="Comment dit-on « anglais » (la langue) ?"),
  C(L,4,["{旅行|りょこう}","{外国|がいこく}","ホテル","パスポート"],jp="{来月|らいげつ}、{家族|かぞく}と{京都|きょうと}へ＿に{行|い}きます。",fr="Le mois prochain, je pars en voyage à Kyoto avec ma famille.",uses=["v5-17","v5-21"]),

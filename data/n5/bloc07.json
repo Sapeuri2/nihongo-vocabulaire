@@ -424,6 +424,7 @@
         {
           "id": "v5-33-e01",
           "type": "choice",
+          "star": {"jp": "〜{人|じん}", "kana": "〜じん", "fr": "(nationalité) …"},
           "uses": ["v5-01"],
           "jp": "マリーさんはフランス＿です。",
           "fr": "Marie est française.",
