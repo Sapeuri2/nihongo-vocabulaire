@@ -54,7 +54,10 @@ Rapport écrit par l'instance Claude Code du vocabulaire, pour l'**agent central
   et `order` (remise en ordre, variantes `alt`).
 - Phrases à trous : traduction cachée jusqu'à la réponse (`hideBlankTranslation: true`).
 - Contenu actuel : **N5 complet**, 8 blocs, 40 leçons (`v5-01` à `v5-40`), 591 mots, 792 exercices de leçons
-  (710 `choice`, 82 `order`), 128 questions de tests, 60 `examTest`. Plan N4 (leçons 41 à 80) dans `PROGRAMME.md`, pas commencé.
+  (710 `choice`, 82 `order`), 128 questions de tests, 60 `examTest`.
+  **N4 complet** (ajouté le 2026-11-15) : 8 blocs (`data/n4/bloc09.json` à `bloc16.json`), 40 leçons (`v4-41` à `v4-80`),
+  596 mots, écrits avec les générateurs `tools/contenu/blocNN.py` (modifier le script puis le relancer).
+  L'utilisateur peut sauter le reste du N5 avec « Commencer le N4 » (fonction du moteur, agent central).
 - Moteur : répétition espacée, reprise de série, bouton 漢, 🔥, synchro Gist, **Ma liste** (📌, commune aux 3 applis).
 - **Bulle « い/な/て »** (propre à l'appli, en bas à droite sur toutes les pages) :
   - antisèche illustrée : adjectifs い / な, faux い (きれい, きらい…), passé poli, verbes (groupe d'abord,
@@ -112,7 +115,8 @@ Rapport écrit par l'instance Claude Code du vocabulaire, pour l'**agent central
 - Identifiants (la progression y est rattachée, **ne jamais les changer ni les réutiliser**) :
   leçons `v5-NN` (N5 : 01 à 40), exercices `v5-NN-eNN`, tests `v5-b0N-tNN`, questions d'examen `v5-x0N-NN`
   (x01 = examen intermédiaire 1, x02 = grand examen 1, x03 = examen intermédiaire 2, x04 = grand examen 2).
-  Pour le N4, j'avais prévu `v4-41`… (même logique) : **pas encore décidé**, à confirmer avec l'utilisateur.
+  N4 (même logique) : leçons `v4-41` à `v4-80`, exercices `v4-NN-eNN`, blocs `v4-b09` à `v4-b16`, tests `v4-b09-tNN`…,
+  questions d'examen `v4-x05-NN` à `v4-x08-NN` (x05 = intermédiaire 3, x06 = grand 3, x07 = intermédiaire 4, x08 = grand 4).
 
 ## 6. Règles de qualité du contenu
 
@@ -166,7 +170,7 @@ Rapport écrit par l'instance Claude Code du vocabulaire, pour l'**agent central
 - La pastille de la bulle (en bas à droite) recouvre un peu le bord droit des gros boutons du bas (« Continuer ») et les toasts.
 - `nv-memo-v1` n'est pas synchronisé entre appareils (choix initial ; idée possible).
 - Synchro Gist de la progression et de Ma liste : **je ne l'ai pas testée avec son vrai compte**.
-- Idées que j'avais : commencer le N4 (bloc 9, plan dans `PROGRAMME.md`) ; ajouter des verbes N4 à la bulle
+- Idées que j'avais : ajouter des verbes N4 à la bulle
   (`data/rappels.json`) ; écrire un générateur pour les blocs 1 à 3 à partir des JSON, si on veut tout regénérer.
 - Demandes abandonnées : réduire la leçon 5 (il a dit de garder ses 35 exercices) ; points clés du moteur dans le
   vocabulaire (non, une seule bulle par appli).

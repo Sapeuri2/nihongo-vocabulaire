@@ -2,8 +2,8 @@
 
 Environ 15 mots par leçon, regroupés par thème, **les plus utiles d'abord**.
 5 leçons = 1 bloc + 1 test · 2 blocs (10 leçons) = 1 examen intermédiaire · 4 blocs (20 leçons) = 1 grand examen.
-N5 : 40 leçons (~600 mots) · N4 : 40 leçons (~600 mots). Les mots rares des listes JLPT sont laissés de côté.
-Les mots entre parenthèses sont indicatifs : la liste exacte est fixée en écrivant chaque bloc.
+N5 : 40 leçons (591 mots) · N4 : 40 leçons (596 mots). Les mots rares des listes JLPT sont laissés de côté.
+Entre parenthèses : les premiers mots de chaque leçon.
 ✅ = disponible dans l'appli.
 
 ## N5
@@ -74,69 +74,71 @@ Les mots entre parenthèses sont indicatifs : la liste exacte est fixée en écr
 
 ## N4
 
-**Bloc 9 — Émotions et personnes**
-41. Sentiments (うれしい, 悲しい, さびしい, 心配, 安心, びっくりする, よろこぶ, おこる…)
-42. Caractère et apparence (きびしい, まじめ, ていねい, 太る, やせる, 背が高い…)
-43. Relations (彼, 彼女, 夫, 妻, 息子, 娘, 赤ちゃん, 知り合い…)
-44. Santé et hôpital (けが, なおる, 入院, 歯医者, 具合…)
-45. Corps et gestes (首, うで, 背中, かみ, 指, 笑う, 泣く…)
+Les kanji qui ne sont pas au programme N5 / N4 sont écrits en kana (かなしい, けいさつ…), comme à l'examen.
 
-**Bloc 10 — Bouger et changer**
-46. Verbes de mouvement N4 (通る, 進む, 引っ越す, 集まる, 登る…)
-47. Paires transitif / intransitif 1 (始める, 止める, 変わる / 変える…)
-48. Paires transitif / intransitif 2 (見つかる / 見つける, 決まる / 決める, 落ちる / 落とす…)
-49. Augmenter, diminuer, continuer (増える, 減る, 上がる, 下がる, 続く, 足りる, 残る…)
-50. Circulation (乗りかえる, おくれる, 間に合う, 信号, 交差点, 事故…)
+**Bloc 9 — Émotions et personnes** ✅
+41. Sentiments (うれしい, かなしい, さびしい, こわい, はずかしい, 心配する, 安心する, びっくりする…)
+42. Caractère et apparence (きびしい, まじめ, ていねい, ねっしん, しょうじき, らんぼう, ひどい, うつくしい…)
+43. Couples, enfants, entourage (かれ, かのじょ, おっと, つま, 主人, おくさん, むすこ, むすめ…)
+44. Santé et hôpital (けが, なおる, 入院する, たいいんする, 歯医者, ぐあい, 気分, ちゅうしゃ…)
+45. Corps et gestes (首, うで, せなか, ゆび, かた, のど, 力, 動く…)
 
-→ **Examen intermédiaire 3** (leçons 41–50)
+**Bloc 10 — Bouger et changer** ✅
+46. Se déplacer, aller chercher, accompagner (通る, 進む, 引っこす, 集まる, 集める, むかえる, 出発する, とうちゃくする…)
+47. Je fais / ça se fait (1) (始める, 止める, かわる, かえる, つづく, つづける, 上がる, 上げる…)
+48. Je fais / ça se fait (2) (見つかる, 見つける, きまる, きめる, おちる, おとす, こわれる, こわす…)
+49. Augmenter, diminuer, rester (ふえる, へる, 足りる, のこる, のこす, なくなる, なくす, 十分…)
+50. Train et circulation (乗りかえる, おくれる, 間に合う, しんごう, こうさてん, じこ, こむ, 空く…)
 
-**Bloc 11 — Travail et études**
-51. Le travail (社長, 会議, 出張, 残業, 給料, 受付…)
-52. Les études (入学, 卒業, 合格, 研究, 専門, 留学…)
-53. Communiquer (連絡, 説明, 相談, 返事, 伝える, 謝る, 断る, 頼む…)
-54. Projets et rendez-vous (予定, 計画, 準備, 用意, 約束, 都合…)
-55. Adverbes N4 (1) (必ず, ずっと, たまに, なかなか, 特に, 急に…)
+→ **Examen intermédiaire 3** (leçons 41–50) ✅
 
-**Bloc 12 — Vie pratique**
-56. Ménage et objets cassés (片付ける, ごみ, 捨てる, 汚れる, こわれる, 割れる, 直す…)
-57. Argent et magasins (値段, 払う, おつり, 品物, 売り場…)
-58. Cuisine et goûts (味, におい, 焼く, にる, わかす…)
-59. Services et démarches (郵便, 警察, 申し込む, 届ける, 受付…)
-60. Adverbes N4 (2) et connecteurs (しかし, それで, ところで, 例えば, ほとんど, はっきり…)
+**Bloc 11 — Travail et études** ✅
+51. Au bureau (社長, 部長, 社員, 会議, 会議室, しゅっちょう, ざんぎょう, きゅうりょう…)
+52. Les études (入学する, そつぎょうする, ごうかくする, 研究する, せんもん, りゅうがくする, 小学校, 中学校…)
+53. Communiquer (れんらくする, 説明する, そうだんする, へんじ, つたえる, あやまる, ことわる, たのむ…)
+54. Projets, rendez-vous, moments (よてい, 計画, じゅんび, 用意, やくそく, 都合, よやく, キャンセル…)
+55. Adverbes N4 (1) (かならず, ずっと, たまに, なかなか, 特に, 急に, きっと, ぜひ…)
 
-→ **Grand examen 3** (leçons 41–60)
+**Bloc 12 — Vie pratique** ✅
+56. Ranger, jeter, réparer (かたづける, ごみ, すてる, よごれる, きたない, なおす, ふく, しまう…)
+57. Argent et magasins (ねだん, はらう, おつり, 品物, 売り場, 〜代, 料金, レジ…)
+58. Cuisiner et goûter (味, におい, やく, ゆでる, いためる, にがい, すっぱい, ざいりょう…)
+59. Poste, mairie, police (ゆうびん, けいさつ, もうしこむ, とどける, とどく, 切手, はがき, ふうとう…)
+60. Connecteurs et adverbes N4 (2) (しかし, それで, ところで, たとえば, はっきり, それに, それなら, けれど…)
 
-**Bloc 13 — Sortir (2)**
-61. Loisirs et événements (趣味, 興味, 祭り, 花見, 見物, 試合…)
-62. Voyage et tourisme (空港, 観光, 予約, お土産…)
-63. Nature et météo (2) (台風, 地震, 火事, 星, 月, 晴れる, くもる…)
-64. Culture japonaise (神社, お寺, 着物, お正月…)
-65. Sport et compétition (勝つ, 負ける, 選手, 練習…)
+→ **Grand examen 3** (leçons 41–60) ✅
 
-**Bloc 14 — Le monde moderne**
-66. Technologie (パソコン, 機械, 使い方, 電池…)
-67. Médias et actualité (ニュース, 番組, 放送, 新聞社…)
-68. Société (社会, 経済, 政治, 国際…)
-69. Lieux et territoire (県, 市, 村, 郊外, 世界…)
-70. Mesures et quantités (〜倍, 以上, 以下, 合計…)
+**Bloc 13 — Sortir (2)** ✅
+61. Loisirs et événements (しゅみ, きょうみ, おまつり, 花見, 見物する, 試合, てんらんかい, つり…)
+62. Voyage et tourisme (くうこう, かんこう, 旅館, けしき, かたみち, おうふく, 〜行き, とまる…)
+63. Ciel, météo, catastrophes (台風, じしん, 火事, ほし, 月, 晴れる, くもる, 光る…)
+64. Culture japonaise (じんじゃ, おてら, 着物, お正月, ぶんか, むかし, おぼん, けっこんしき…)
+65. Sport et compétition (かつ, まける, せんしゅ, チーム, おうえんする, えらぶ, やきゅう, 水泳…)
 
-→ **Examen intermédiaire 4** (leçons 61–70)
+**Bloc 14 — Le monde moderne** ✅
+66. Appareils et technologie (パソコン, きかい, 電池, スイッチ, インターネット, がめん, エアコン, せんたくき…)
+67. Médias et actualité (ばんぐみ, ほうそうする, 新聞社, きじ, ざっし, アナウンサー, ラジオ, じけん…)
+68. Société, économie, sciences (社会, けいざい, せいじ, こくさい, ほうりつ, せんそう, へいわ, 人口…)
+69. Lieux et territoire (県, 市, 村, こうがい, 世界, いなか, 区, 近所…)
+70. Mesures et quantités (〜ばい, 以上, 以下, 合計, キロ, メートル, グラム, センチ…)
 
-**Bloc 15 — Politesse**
-71. Keigo : verbes de respect (いらっしゃる, めしあがる, おっしゃる, なさる, ご覧になる…)
-72. Keigo : verbes de modestie (まいる, 申す, いたす, いただく, 拝見する…)
-73. Formules polies N4 (お待たせしました, おかげさまで, かしこまりました…)
-74. Mots abstraits (1) (理由, 意見, 経験, 習慣, 規則…)
-75. Mots abstraits (2) (方法, 目的, 結果, 関係, 場合…)
+→ **Examen intermédiaire 4** (leçons 61–70) ✅
 
-**Bloc 16 — Consolider le N4**
-76. Verbes N4 divers (1)
-77. Verbes N4 divers (2)
-78. Adjectifs N4
-79. Paires piégeuses du N4
-80. Mots composés utiles (〜中, 〜始める, 〜終わる, 〜やすい…)
+**Bloc 15 — Politesse** ✅
+71. Keigo : verbes de respect (いらっしゃる, おっしゃる, めしあがる, なさる, ごらんになる, くださる, ごぞんじ, おたく…)
+72. Keigo : verbes de modestie (まいる, もうす, いたす, いただく, はいけんする, うかがう, おる, お目にかかる…)
+73. Formules polies N4 (おまたせしました, おかげさまで, かしこまりました, しょうちしました, もうしわけありません…)
+74. Raisons, avis, intentions (りゆう, 意見, けいけん, しゅうかん, きそく, げんいん, 考え, つもり…)
+75. Moyens, buts, résultats (ほうほう, もくてき, けっか, かんけい, 場合, 心, わけ, ため…)
 
-→ **Grand examen 4** (leçons 61–80)
+**Bloc 16 — Consolider le N4** ✅
+76. Verbes N4 (1) (思い出す, かんじる, しんじる, さがす, そだてる, うえる, かう, たずねる…)
+77. Verbes N4 (2) (てつだう, ほめる, しかる, さわぐ, やくに立つ, 気がつく, えんりょする, がまんする…)
+78. Adjectifs N4 (あさい, うすい, おかしい, かたい, こまかい, すごい, すばらしい, 正しい…)
+79. Paires piégeuses du N4 (おそわる, 代わる, すむ, くらす, わかれる, 学ぶ, 乗せる, 降ろす…)
+80. Suffixes et mots composés (〜中 ちゅう / じゅう, 〜始める, 〜終わる, 〜やすい, 〜にくい, 〜すぎる, 〜出す…)
+
+→ **Grand examen 4** (leçons 61–80) ✅
 
 ## N3
 

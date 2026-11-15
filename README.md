@@ -57,12 +57,15 @@ python3 -m http.server 8000
 
 ## Ajouter du contenu
 
-1. Créer `data/n5/blocXX.json` sur le modèle de `data/n5/bloc01.json`.
+1. Créer `data/n5/blocXX.json` (N5, blocs 1 à 8) ou `data/n4/blocXX.json` (N4, blocs 9 à 16) sur le modèle des blocs existants.
+   Les blocs sont écrits avec les scripts de `tools/contenu/` : on modifie le script puis on le relance
+   (`python3 tools/contenu/bloc16.py data/n4/bloc16.json`), plutôt que d'éditer le JSON à la main.
 2. L'ajouter à la fin de la liste `blocks` dans `data/manifest.json`.
 3. Vérifier : `node tools/verifier.mjs` (lance aussi `tools/verifier-appli.mjs`).
 4. Le bloc qui précède un examen (blocs 2, 4, 6…) reçoit aussi ses questions de réflexion dans `examTest`.
 
 Les identifiants (leçons, exercices) ne doivent jamais changer une fois publiés : la progression y est rattachée.
+N5 : leçons `v5-01`…`v5-40`, blocs `v5-b01`…`v5-b08`. N4 : leçons `v4-41`…`v4-80`, blocs `v4-b09`…`v4-b16`, questions d'examen `v4-x05`…`v4-x08`.
 
 ### Format d'une leçon
 
@@ -105,6 +108,6 @@ Les identifiants (leçons, exercices) ne doivent jamais changer une fois publié
 4. **Nuances** : décrire la situation dans la consigne plutôt que de laisser la traduction trancher.
 5. **Pas deux choix qui s'affichent pareil sans furigana** (écrire alors en kana).
 6. **Kanji N5/N4 seulement** (liste dans `tools/kanji.mjs`, quelques N3 tolérés) ; sinon le mot s'écrit en kana.
-7. **Grammaire de niveau N5** dans les phrases d'exemple et les exercices.
+7. **Grammaire du niveau de la leçon** dans les phrases d'exemple et les exercices (N5 pour les leçons 1–40, N4 pour les leçons 41–80).
 
 `tools/verifier-appli.mjs` contrôle en plus : lecture (`kana`) = furigana du mot, phrase d'exemple qui contient le mot, mot déjà enseigné dans une autre leçon, kanji hors liste.
